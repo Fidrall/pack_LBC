@@ -736,11 +736,6 @@ hash = "78cf82fda4c8a7ea9556cf4481b43f38762151bcac0a09fd412f82d5f0883cc7"
 metafile = true
 
 [[files]]
-file = "mods/no-apotheosis-names.pw.toml"
-hash = "924c7693280e7bbe0f1df06602c9a79f2074a2e59a244443e29075d14dcd22e9"
-metafile = true
-
-[[files]]
 file = "mods/noisium.pw.toml"
 hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
 metafile = true

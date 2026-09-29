@@ -115,7 +115,6 @@ mr | the-undergarden | jetable | dimension
 mr | the-bumblezone | jetable | dimension
 cf | 227639 | jetable | Twilight Forest (dimension)
 cf | 313970 | jetable | Apotheosis
-cf | 1241005 | qol | No Apotheosis Names
 
 ## --- Combat & nourriture ---
 mr | better-combat | jetable |
