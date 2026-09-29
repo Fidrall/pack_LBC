@@ -1,0 +1,13 @@
+name = "Create Waystones Recipes"
+filename = "create_waystones_recipes-3.0.1.b.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f5aaac9552f4a2b2a80caf17555396ca472a72c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8762242
+project-id = 1086710

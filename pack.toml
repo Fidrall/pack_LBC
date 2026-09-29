@@ -1,0 +1,13 @@
+name = "pack_LBC"
+author = "Fidrall"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "64be0e1616cde93988d64e32eaf5d36b05a9dfa5649d8c9e8bba557ffd4a16f0"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.252"

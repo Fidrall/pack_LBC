@@ -1,0 +1,13 @@
+name = "Simple Loot Viewer"
+filename = "simplelootviewer-neoforge-1.21.1-21.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/k127SwR6/versions/6nXd9z9o/simplelootviewer-neoforge-1.21.1-21.1.4.jar"
+hash-format = "sha512"
+hash = "61bfb6497fc10b1fb77f8c69431e1da2eac07d56269c96af0d50d674321a65bf5a0e2c195312837152859a76956757d9d1a1e6e400f748c4aec957c542381c19"
+
+[update]
+[update.modrinth]
+mod-id = "k127SwR6"
+version = "6nXd9z9o"

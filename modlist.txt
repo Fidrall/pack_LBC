@@ -1,0 +1,200 @@
+﻿# pack_LBC - liste source des mods
+# format : source | id | categorie | note
+#   source    : mr = Modrinth (slug), cf = CurseForge (addon id)
+#   categorie : conserver = on peut construire avec, doit suivre une migration de version
+#               jetable   = contenu (boss, mobs, dimensions) : pas de base construite avec ses blocs
+#               qol       = confort / multi, sans blocs importants
+#               perf      = performance
+#               client    = cote joueur uniquement
+# Les dependances (librairies) sont ajoutees automatiquement par packwiz.
+
+## --- Create & addons (conserver) ---
+mr | create | conserver |
+mr | create-aeronautics | conserver | vaisseaux
+mr | sable | conserver | moteur physique d'Aeronautics
+mr | create-propulsion-simulated | conserver | propulseurs
+mr | waystones-sable | conserver | waystones sur les vaisseaux
+mr | ssrd | client | voir les vaisseaux de plus loin
+mr | createaddition | conserver |
+mr | create-new-age | conserver | electricite + reacteur
+mr | create-deco | conserver |
+mr | create-connected | conserver |
+mr | copycats | conserver |
+mr | create-design-n-decor | conserver |
+mr | bellsandwhistles | conserver |
+mr | create-enchantment-industry | conserver |
+mr | create-garnished | conserver |
+mr | create-central-kitchen | conserver |
+mr | create-integrated-farming | conserver |
+mr | create-mechanical-botany | conserver |
+mr | escalated | conserver |
+mr | hypertube | conserver | encore en 0.x : tester chaque MAJ
+mr | create-aquatic-ambitions | conserver |
+mr | create-bitterballen | conserver |
+mr | create-mechanical-extruder | conserver |
+mr | create-pattern-schematics | conserver |
+mr | create-misc-and-things | conserver |
+mr | create-vibrant-vaults | conserver |
+mr | create-teleporters | conserver |
+mr | create-stuff-additions | conserver |
+mr | create-molten-vents | conserver |
+mr | create-prismatic-shine | conserver |
+mr | create-enchantable-machinery | conserver |
+mr | create-diesel-generators | conserver |
+mr | create-ore-excavation | conserver |
+mr | create-jetpack | conserver |
+mr | create_factory_logistics | conserver |
+mr | create-sophisticated-backpacks-compat | conserver |
+cf | 1086710 | conserver | Create Waystones Recipes
+
+## --- Generation du monde (conserver) ---
+mr | terralith | conserver |
+mr | tectonic | conserver |
+
+## --- Structures (conserver : blocs vanilla / loot) ---
+mr | lootr | conserver | loot par joueur
+mr | sparsestructures | conserver | regle la densite des structures
+mr | dungeons-and-taverns | conserver |
+mr | structory | conserver |
+mr | structory-towers | conserver |
+mr | tidal-towns | conserver |
+mr | sky-villages | conserver |
+mr | trek | conserver |
+mr | philips-ruins | conserver |
+mr | mo-structures | conserver |
+mr | incendium | conserver |
+mr | towns-and-towers | conserver |
+mr | when-dungeons-arise | conserver |
+mr | explorify | conserver |
+mr | yungs-better-desert-temples | conserver |
+mr | yungs-better-dungeons | conserver |
+mr | yungs-better-jungle-temples | conserver |
+mr | yungs-better-mineshafts | conserver |
+mr | yungs-better-nether-fortresses | conserver |
+mr | yungs-better-witch-huts | conserver |
+mr | yungs-bridges | conserver |
+mr | yungs-extras | conserver |
+mr | moogs-voyager-structures | conserver |
+mr | mns-moogs-nether-structures | conserver |
+mr | mes-moogs-end-structures | conserver |
+mr | repurposed-structures-forge | conserver |
+mr | formations | conserver |
+mr | formations-nether | conserver |
+mr | aures-farmers-structures | conserver |
+mr | lukis-grand-capitals | conserver |
+mr | adventure-dungeons | conserver |
+mr | hellish-trials | conserver |
+mr | villages-and-pillages | conserver |
+mr | it-takes-a-pillage-continuation | conserver |
+mr | better-archeology | conserver |
+mr | nullscape | conserver |
+mr | endrem | conserver |
+mr | ends-phantasm | conserver |
+cf | 632624 | conserver | Hopo Better Ruined Portals
+cf | 632622 | conserver | Hopo Better Underwater Ruins
+cf | 1197591 | conserver | Deeper Additional Structures
+cf | 1172677 | conserver | Cherry Hut
+cf | 523327 | jetable | Savage Ender Dragon
+
+## --- Boss, mobs, dimensions (jetable) ---
+cf | 551586 | jetable | L_Ender's Cataclysm
+mr | bosses-of-mass-destruction-forge | jetable |
+mr | mowzies-mobs | jetable |
+mr | aquamirae | jetable |
+mr | illager-invasion | jetable |
+mr | friends-and-foes-forge | jetable |
+mr | creeper-overhaul | jetable |
+mr | variants-and-ventures | jetable |
+mr | golem-overhaul | jetable |
+mr | ribbits | jetable |
+mr | artifacts | jetable |
+mr | deeperdarker | jetable | dimension
+mr | eternal-starlight | jetable | dimension, 0.x
+mr | aether | jetable | dimension
+mr | the-undergarden | jetable | dimension
+mr | the-bumblezone | jetable | dimension
+cf | 227639 | jetable | Twilight Forest (dimension)
+cf | 313970 | jetable | Apotheosis
+cf | 1241005 | qol | No Apotheosis Names
+
+## --- Combat & nourriture ---
+mr | better-combat | jetable |
+mr | combat-roll | jetable |
+mr | simply-swords | jetable |
+mr | farmers-delight | conserver | requis par Central Kitchen
+cf | 277616 | qol | Spice of Life: Carrot Edition
+mr | appleskin | qol |
+mr | food-effect-tooltips-forge | client |
+
+## --- Multi & qualite de vie ---
+mr | waystones | conserver |
+cf | 314906 | qol | FTB Chunks (claims + chunks forces)
+cf | 316582 | qol | Corpse
+mr | corpse-x-curios-api-compat | qol |
+mr | curios | qol |
+mr | elytra-slot | qol |
+mr | journeymap | qol |
+mr | journeymap-integration | client |
+cf | 422301 | conserver | Sophisticated Backpacks
+cf | 1238567 | conserver | Sophisticated Backpacks Create Integration
+mr | torchmaster | conserver |
+mr | comforts | qol |
+cf | 241160 | qol | NetherPortalFix
+cf | 368825 | qol | Inventory Essentials
+cf | 233071 | qol | Crafting Tweaks
+cf | 288885 | perf | FastWorkbench
+cf | 299540 | perf | FastFurnace
+mr | mouse-tweaks | client |
+mr | controlling | client |
+mr | chat-heads | client |
+mr | enchantment-descriptions | qol |
+mr | equipment-compare | client |
+mr | travelers-titles | client | nom du biome/structure a l'ecran
+
+## --- Decouverte des mods ---
+mr | jei | qol |
+mr | just-enough-resources-jer | client |
+mr | jade | qol |
+mr | jade-addons-forge | qol |
+mr | simple-loot-viewer | qol |
+mr | better-advancements | client |
+mr | advancement-plaques | client |
+mr | akashic-tome | qol |
+mr | natures-compass | qol |
+mr | explorers-compass | qol |
+
+## --- Performance (client + serveur) ---
+mr | modernfix | perf |
+mr | ferrite-core | perf |
+cf | 1091339 | perf | AllTheLeaks
+mr | neruina | perf |
+mr | lmd | perf | Let Me Despawn
+mr | lithium | perf |
+mr | noisium | perf |
+mr | clumps | perf |
+mr | packet-fixer | perf |
+cf | 470193 | perf | Connectivity
+mr | ai-improvements | perf |
+mr | alternate-current | perf |
+cf | 951499 | perf | Fast Async World Save
+mr | attributefix | perf |
+mr | chunky | perf | pre-generation
+mr | spark | perf | profiler
+mr | simple-backups | perf | sauvegardes
+
+## --- Client uniquement ---
+mr | sodium | client |
+mr | iris | client |
+mr | sodium-options-api | client |
+mr | reeses-sodium-options | client |
+mr | sodium-extras | client |
+mr | sodium-dynamic-lights | client |
+mr | sodiumleafculling | client |
+mr | immediatelyfast | client |
+mr | entityculling | client |
+mr | badoptimizations | client |
+mr | 3dskinlayers | client |
+mr | not-enough-animations | client |
+mr | subtle-effects | client |
+cf | 882495 | client | fix GPU memory leak
+mr | complementary-reimagined | client | shader (optionnel)
