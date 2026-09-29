@@ -1,4 +1,4 @@
-﻿# pack_LBC - liste source des mods
+# pack_LBC - liste source des mods
 # format : source | id | categorie | note
 #   source    : mr = Modrinth (slug), cf = CurseForge (addon id)
 #   categorie : conserver = on peut construire avec, doit suivre une migration de version

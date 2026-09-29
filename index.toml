@@ -487,7 +487,7 @@ metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
-hash = "361b9967ffe8cf06378423a64808e9fcea70bc23829c4276f01c51d17b550fa1"
+hash = "72471ae43e5e2d976d380ada3c2d7159e1004685c7200c80eaa8f0caac787cb2"
 metafile = true
 
 [[files]]
@@ -927,7 +927,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtle-effects.pw.toml"
-hash = "4cab366a7fa2affbe3afb25231cbd7980200372e7fb2e8030ce71e34fb20b832"
+hash = "934a295ab2d16e5bd86a61e14c2cd88f57fc107501ff0079beac341eda2d9e59"
 metafile = true
 
 [[files]]
@@ -1052,5 +1052,5 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "9dfefb32ca94eaad4ea3eab355894b81b9fc0667f48ff21ef2d3a2871e5fefba"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
 metafile = true
