@@ -17,6 +17,10 @@
 	chapter.2A786FFD5532B025.title: "&aTéléporteurs"
 	chapter.464FB437D5DF7824.title: "&eArtefacts"
 	chapter.4B6E4A0215F45FC0.title: "&3L'Autre Côté : &0Deeper and Darker"
+	chapter.4C2580819596F6D1.chapter_subtitle: [
+		"Construis, pilote et fais voler tes propres vaisseaux"
+	]
+	chapter.4C2580819596F6D1.title: "&b&lDirigeables et Aéronautique"
 	chapter.50471206A7BA908F.title: "&3Eternal Starlight"
 	chapter.53732D728CE0A308.title: "&aCreate"
 	chapter.576F6A1E4D30F4F2.title: "&l&aLa Route de l'End"
@@ -139,6 +143,11 @@
 	quest.0B0043E696D0EE22.quest_desc: [
 		"&aLa Table de Forgeron sert à insérer des gemmes dans tes outils&r, à condition qu'ils aient un &bemplacement&r libre." "" "Si un &bemplacement&r est libre, place l'outil et la gemme dans la &eTable de Forgeron&r." "" "Pour retirer une gemme, utilise un &9Sceau de Retrait&r." "" "Pour ajouter un emplacement, utilise un &9Sceau d'Emplacement&r."
 	]
+	quest.0B76EAE1EE32AED7.quest_desc: [
+		"Mélange 4 poudres de pierre de l'End, 2 pépites de zinc et de l'eau dans un &6bassin chauffé&r (Brûleur à Blaze) avec un &6Mélangeur Mécanique&r." "" "Tu obtiens du &dMélange de Lévitite&r liquide."
+	]
+	quest.0B76EAE1EE32AED7.quest_subtitle: "Un liquide pas comme les autres"
+	quest.0B76EAE1EE32AED7.title: "&dLe Mélange de Lévitite"
 	quest.0BD070E54EF86FDA.quest_desc: [
 		"Tu peux afficher un objet à l'extérieur d'un rangement pour mieux t'organiser. Par exemple, un coffre de nourriture peut afficher une carotte." "" "Va dans les réglages du rangement, puis dans les réglages d'affichage. Clique gauche sur un objet à l'intérieur pour l'afficher : il est entouré d'un carré. Clique droit sur le carré pour retirer l'affichage."
 	]
@@ -175,6 +184,11 @@
 	quest.0FF69526C1DC1593.quest_desc: [
 		"Peut être apprivoisé avec un &cplastron en Netherite&r enchanté. Une fois apprivoisé, il lâche de temps en temps des livres enchantés."
 	]
+	quest.1032B445E4DCA088.quest_desc: [
+		"Les &6Connecteurs d'Amarrage&r fonctionnent par paires : déploie-les l'un vers l'autre, et une fois alignés ils se verrouillent en une &bliaison rigide&r." "" "Une fois amarrés, &aobjets et liquides peuvent passer&r dans les deux sens : idéal pour ravitailler un vaisseau ou décharger une cargaison automatiquement." "" "Rétracte l'un des deux pour se désamarrer."
+	]
+	quest.1032B445E4DCA088.quest_subtitle: "Se connecter à une base ou à un autre vaisseau"
+	quest.1032B445E4DCA088.title: "&6L'Amarrage"
 	quest.1045FB828F50B457.quest_desc: [
 		"Que pourrais-tu faire avec ces outils ?"
 	]
@@ -214,6 +228,16 @@
 	]
 	quest.135A70D16AC6511D.quest_subtitle: "Regarde dans JEI comment l'obtenir"
 	quest.136F140D9A3ED036.quest_subtitle: "Augmente le recul de tes attaques"
+	quest.1376726CEAE353A2.quest_desc: [
+		"Il émet un signal de redstone selon l'&baltitude&r : plus tu montes, plus le signal est fort (réglable dans son interface)." "" "Relie-le à tes brûleurs pour créer un &apilote automatique d'altitude&r !"
+	]
+	quest.1376726CEAE353A2.quest_subtitle: "Savoir à quelle hauteur on vole"
+	quest.1376726CEAE353A2.title: "Le Capteur d'Altitude"
+	quest.13F0D2A3C376C29A.quest_desc: [
+		"L'&eHélice en Andésite&r et l'&eHélice en Bois&r sont des hélices prêtes à l'emploi." "" "Elles se montent directement sur un roulement d'hélice. On passe de l'une à l'autre dans la table de fabrication, c'est juste une question de style."
+	]
+	quest.13F0D2A3C376C29A.quest_subtitle: "Pas envie de construire la tienne ?"
+	quest.13F0D2A3C376C29A.title: "Des hélices toutes faites"
 	quest.14CB47511F2D0E01.quest_subtitle: "Pour boire plus vite"
 	quest.14E9C287665C6AD4.quest_subtitle: "En amélioration : &6+5 % de puissance des sorts de Sang"
 	quest.153FB224571B339A.quest_subtitle: "&6-15 % de temps d'incantation"
@@ -238,6 +262,11 @@
 	quest.17F840E5ABDF3FD4.quest_desc: [
 		"Le &6Chaudron d'Alchimiste&r sert à plein de tâches magiques :" "" "&nBrasser des potions :&r pour préparer toutes sortes de potions." "" "&nFabriquer des élixirs :&r des élixirs puissants avec des ingrédients spéciaux." "" "&nRecycler des parchemins :&r place des parchemins dedans pour les &brecycler en encre liquide&r de même rareté, avec 50 % de chance. Récupère l'encre avec une fiole vide." "" "&nAméliorer l'encre :&r pour augmenter la qualité de ton encre." "" "&nFabriquer des fioles de sang :&r pour différents usages." "" "&6À savoir :&r les Roues de Broyage de Create transforment aussi n'importe quel parchemin en encre commune (100 %), avec une petite chance d'encre peu commune." "" "&2Important :&r garde un feu de camp sous le chaudron pour qu'il reste chaud."
 	]
+	quest.1859F22FB327067C.quest_desc: [
+		"L'&6Assembleur Physique&r transforme un groupe de blocs en &econstruction simulée&r : un objet physique qui peut voler, flotter, tomber ou rouler." "" "&n&aComment faire :&r" "1) Colle les blocs de ta construction ensemble avec de la &eColle au Miel&r ou de la &eSuper Colle&r." "2) Pose l'Assembleur contre la construction." "3) Maintiens le clic droit et tire le levier : la construction s'assemble !" "" "Une fois assemblée, la construction n'a plus besoin de l'Assembleur, et &bn'importe quel Assembleur&r peut la désassembler." "" "Tu peux toujours interagir avec les blocs d'une construction assemblée : ouvrir les coffres, utiliser les machines, marcher dessus…"
+	]
+	quest.1859F22FB327067C.quest_subtitle: "Le point de départ de tout vaisseau"
+	quest.1859F22FB327067C.title: "&6L'Assembleur Physique"
 	quest.1883DF46FCE478C7.quest_desc: [
 		"Les &6&lCarters&r&r servent dans plein de recettes, et aussi pour la décoration." "" "Il en existe quatre principaux :" "" "&bCarter en Andésite&r : pour les mécanismes de base." "" "&bCarter en Laiton&r : indispensable pour les machines avancées." "" "&bCarter en Cuivre&r : pour tout ce qui touche aux liquides." "" "&bCarter de Train&r : pour les locomotives et le ferroviaire."
 	]
@@ -269,6 +298,16 @@
 		"L'&8Œil Noir&r se cache dans les &ecoffres de trésor enfoui&r et dans les &ecoffres au trésor des épaves&r." "" "Les épaves contiennent souvent une carte au trésor, et les dauphins peuvent aussi te guider vers un trésor."
 	]
 	quest.1B876E65905AE114.quest_subtitle: "Pirates, trésors et épaves"
+	quest.1BBA2E6C95E937B3.quest_desc: [
+		"Le &eBrûleur Solide&r (ou &eLiquide&r) produit de la chaleur avec du combustible." "" "Placé dessous, il fait tourner le &eMoteur Stirling&r, qui produit de la rotation. Sans chaleur, le moteur ralentit puis s'arrête." "" "Une autre façon d'alimenter tes vaisseaux en rotation."
+	]
+	quest.1BBA2E6C95E937B3.quest_subtitle: "Chaleur → rotation"
+	quest.1BBA2E6C95E937B3.title: "Brûleur et Moteur Stirling"
+	quest.1BF5491FFC8A97FF.quest_desc: [
+		"Le &6Roulement de Forage&r, équipé de &6Roues de Coupe&r et d'un rangement, devient une &6foreuse géante&r." "" "- Les roues de coupe cassent les blocs &btout autour d'elles&r, et s'attachent toutes seules sans colle." "- Il tourne à 1/4 de la vitesse reçue, et la vitesse de minage dépend de la rotation." "- Plus il casse de blocs à la fois, plus il ralentit : plusieurs roulements compensent." "- Les objets vont dans le rangement de la foreuse. Quand il est plein, elle s'arrête : vide-le directement depuis le roulement." "" "Monte-le sur un véhicule à roues et tu as un &etunnelier&r !"
+	]
+	quest.1BF5491FFC8A97FF.quest_subtitle: "Creuser des tunnels à la machine"
+	quest.1BF5491FFC8A97FF.title: "&6Le tunnelier"
 	quest.1C267CC53FD04C88.title: "&4Tenue de Cultiste"
 	quest.1C60254EAE960673.quest_desc: [
 		"&e&nFiole de foudre&r&r" "Utilise une fiole vide sur un creeper chargé. Pour charger un creeper, utilise le sort Éclair, un paratonnerre ou un trident."
@@ -281,10 +320,20 @@
 	quest.1C6E0659B6BB64D5.quest_desc: [
 		"Les &6schémas de motif&r servent à prolonger des constructions existantes, par exemple allonger un pont en répétant son schéma. Charge-les dans un Schématicanon pour lancer la construction !" "" "Ils peuvent aussi être placés sur des trains, des chariots de portique ou toute autre construction animée pour répéter le schéma à l'infini. Sur des déployeurs, ils répètent leur structure en continu."
 	]
+	quest.1CEEFAEED5539BA1.quest_desc: [
+		"Fais un clic droit sur une construction simulée avec le &eDiagramme&r pour voir toutes les forces qui s'exercent dessus : &6poids, portance, poussée&r…" "" "Ton vaisseau penche ou refuse de décoller ? Le diagramme te dira pourquoi."
+	]
+	quest.1CEEFAEED5539BA1.quest_subtitle: "Comprendre pourquoi ça ne vole pas"
+	quest.1CEEFAEED5539BA1.title: "Le Diagramme de Construction"
 	quest.1DDD74A012CDE699.quest_desc: [
 		"Le &6sac à dos en fer&r est l'amélioration du &esac à dos&r de base. Il a 54 emplacements et accepte 2 améliorations."
 	]
 	quest.1DDD74A012CDE699.quest_subtitle: "Un rangement plus grand toujours sur toi"
+	quest.1E4E4CCC6E1104DC.quest_desc: [
+		"Le &2Support de Roue&r permet à une construction simulée de &2rouler&r." "" "- Un signal de redstone par le dessus &cfreine&r la roue." "- Un signal par le côté la fait &bbraquer&r de ce côté." "" "Voitures, camions, chars… tout est possible !"
+	]
+	quest.1E4E4CCC6E1104DC.quest_subtitle: "Pas besoin de voler pour voyager"
+	quest.1E4E4CCC6E1104DC.title: "&2Les véhicules terrestres"
 	quest.1F6BC8C2A5B8F9B2.quest_desc: [
 		"&c❤&r&a Bienvenue sur le serveur pack_LBC !&r &c❤&r" "" "Ce pack tourne autour de &6Create&r et de ses machines, des &bdirigeables d'Aeronautics&r, de l'&eexploration&r, des &cboss&r et de la &dmagie&r." "" "&eL'objectif final, si tu l'acceptes : réunir les yeux spéciaux d'End Remastered, ouvrir le portail de l'End et vaincre l'Ender Dragon renforcé.&r Mais ce n'est pas une mince affaire !" "" "Ce livre de quêtes est là pour te guider dans chaque mod. Aucune progression n'est imposée : joue comme tu veux, en bâtisseur, ingénieur, explorateur, chasseur de boss ou magicien." "" "Les quêtes rapportent des &7caisses communes&r, des &9caisses rares&r et des &5caisses épiques&r. Les &6caisses légendaires&r, avec le meilleur butin, ne s'obtiennent qu'en accomplissant les grands objectifs finaux." "" "Tu peux ouvrir ce livre à tout moment avec l'icône en haut à gauche de ton inventaire." "" "&6&lBonne chance, et bonne aventure !&r&r"
 	]
@@ -310,6 +359,11 @@
 		"Pratique pour séparer des trains ou des wagons qui se cognent, ou simplement pour donner du style à ton train."
 	]
 	quest.2241F84F6AAD5933.quest_subtitle: "L'amulette de téléportation te donne de l'esquive après une téléportation, si ta puissance des sorts de l'Ender est assez élevée"
+	quest.226DE63B592A11D8.quest_desc: [
+		"Grâce à &eWaystones: Sable&r, tu peux poser une &ewaystone sur ton vaisseau&r !" "" "Elle apparaît dans un groupe à part dans le menu des waystones, et te permet de &bte téléporter directement sur ton vaisseau&r, où qu'il soit." "" "Pratique pour retrouver ton dirigeable garé loin de ta base."
+	]
+	quest.226DE63B592A11D8.quest_subtitle: "Retrouver son vaisseau n'importe où"
+	quest.226DE63B592A11D8.title: "Une waystone à bord"
 	quest.229C5328751C93F5.quest_desc: [
 		"Le &cGardien Ancien&r est un boss aquatique puissant qui vit dans les &eMonuments Océaniques&r." "" "Pour le vaincre, équipe-toi pour le combat sous l'eau et prévois de quoi contrer la fatigue de minage (du lait, par exemple)." "" "&l&a📝Astuce :&r&r &oLes dauphins peuvent te guider vers des trésors, et l'&eExplorer's Compass&r trouve les Monuments.&r"
 	]
@@ -326,6 +380,11 @@
 	quest.23A74B3AD73B9E08.quest_desc: [
 		"La &6Jauge d'Usine&r surveille la quantité d'objets dans les inventaires connectés. Elle peut les réapprovisionner automatiquement via le Réseau Logistique, ou piloter des Fabricateurs pour fabriquer automatiquement." "" "&aPour bien comprendre la Jauge d'Usine, regarde le Ponder en maintenant W.&r" "" "&nEn résumé :&r" "Fais un clic droit sur un Lien de Stock avant de poser la jauge, pour la connecter à un Réseau Logistique." "" "Pose la Jauge d'Usine sur un Emballeur à côté d'un inventaire." "" "Fais un clic droit sur la jauge avec l'objet à surveiller : elle affiche combien il y en a dans l'inventaire." "" "&aRéapprovisionnement automatique (sur un Emballeur) :&r" "Fais un clic droit sur la jauge pour ouvrir ses réglages." "" "Maintiens le clic droit sur la jauge pour régler une quantité cible à maintenir." "" "Si la quantité descend sous la cible, le Réseau Logistique envoie automatiquement de quoi compléter à l'adresse de l'inventaire." "" "&aRecettes automatiques et surveillance du réseau (hors Emballeur)&r" "Posée ailleurs que sur un Emballeur, la jauge surveille la quantité totale d'un objet dans tous les inventaires du réseau." "" "Fais un clic droit sur la jauge avec l'objet à surveiller." "" "Elle affiche le total disponible sur le réseau." "" "&aDans ce mode, la Jauge d'Usine peut :&r" "réapprovisionner en déclenchant la livraison des ingrédients nécessaires ;" "" "travailler avec des Fabricateurs pour organiser automatiquement les recettes."
 	]
+	quest.23DAFFEA162268FD.quest_desc: [
+		"La &eColle au Miel&r est une alternative pratique à la Super Colle, faite pour les constructions simulées." "" "Clique deux coins pour créer une zone collée, puis utilise &aCtrl + molette&r pour l'agrandir ou la réduire. Maintiens &aAlt&r pour placer un coin en l'air." "" "Contrairement à la Super Colle, elle &cne crée pas de liaisons indésirables&r sur les constructions complexes." "" "Elle se fabrique en remplissant une plaque de fer avec du miel, grâce à un Bec Verseur."
+	]
+	quest.23DAFFEA162268FD.quest_subtitle: "La colle idéale pour les vaisseaux"
+	quest.23DAFFEA162268FD.title: "La Colle au Miel"
 	quest.2401A3C6E360DD00.title: "Tu l'as perdu ?"
 	quest.2475C6740BBD5273.quest_desc: [
 		"Pour entrer dans la &bdimension Starlight&r, trouve des Ruines de Portail dans l'Overworld, gardées par le &cGardien du Seuil&r." "" "Fais un &dclic droit&r sur le &cGardien du Seuil&r pour le défier en duel." "" "Si tu gagnes, tu reçois un sac contenant l'&aOrbe de Prophétie&r. Utilise l'Orbe sur le portail pour l'activer, puis traverse-le pour commencer ton voyage."
@@ -376,6 +435,11 @@
 		"La &cLiche de la Nuit&r vit dans la &eTour de la Liche&r, dans les biomes froids de l'Overworld. Pour invoquer ce boss glacial, il faut d'abord récupérer des &aÉtoiles d'Âme&r, que les zombies et les squelettes lâchent parfois." "" "La &eTour de la Liche&r a plusieurs étages et une colonne de glace centrale. Vers le milieu de la structure se trouvent quatre autels en pierre sculptée." "" "Pour réveiller la &cLiche&r, place une &aÉtoile d'Âme&r sur chaque autel : le boss apparaît quand les quatre sont remplis." "" "Récupère au moins &acinq Étoiles d'Âme&r au cas où tu en perdrais une." "" "Astuce : un clic droit sur une &aÉtoile d'Âme&r la lance comme un œil de l'Ender, en direction de la &cTour de la Liche&r la plus proche."
 	]
 	quest.2965B8DD03DA1142.quest_subtitle: "&b☠ Niveau 4"
+	quest.29D6C7D5DEC00FB2.quest_desc: [
+		"Il envoie un rayon et émet un signal quand un bloc le coupe, d'autant plus fort que le bloc est proche." "" "Utile comme &ealtimètre&r ou &edétecteur d'obstacles&r pour l'atterrissage."
+	]
+	quest.29D6C7D5DEC00FB2.quest_subtitle: "Détecter les obstacles"
+	quest.29D6C7D5DEC00FB2.title: "Le Capteur Optique"
 	quest.2B603051BF399205.quest_desc: [
 		"Le &6Composteur Mécanique&r transforme les objets compostables, comme les fleurs, en compost." "" "Il s'alimente par le côté avec un engrenage, ou par en dessous." "" "Il a une sortie d'axe sur le dessus, pour des montages d'automatisation créatifs." "" "Le &acompost&r se récupère à la main avec un &dclic droit&r, ou automatiquement avec un entonnoir." "" "Pour le transformer en liquide, pose-le sur une Vidangeuse." "" "&oNote : &7mélanger du compost liquide et de la lave dans un bassin chauffé par un Brûleur à Blaze donne du compost en fusion.&r&r"
 	]
@@ -396,6 +460,11 @@
 		"Le &6Grappin-Fouet&r est un outil de déplacement polyvalent : il peut te sauver d'une chute mortelle et te permet de te balancer entre les arbres, les falaises et d'autres surfaces." "" "Il donne aussi une forte impulsion vers l'avant, pour se déplacer vite et avec plaisir." "" "Pour ne pas prendre de dégâts à l'atterrissage, porte des &aBottes en Slime&r. &eTu peux aussi l'enchanter avec Impact&r, qui transforme ton élan en dégâts sur les ennemis." "" "Le Grappin-Fouet a besoin de carburant pour fonctionner."
 	]
 	quest.2C9E13E2196DC6D7.quest_subtitle: "x2"
+	quest.2D10356191A61462.quest_desc: [
+		"Le &6Moteur Portable&r produit de la rotation en &cbrûlant du combustible&r : parfait pour faire tourner tes hélices en vol, sans roue à eau ni moulin." "" "- Il peut tourner dans les deux sens." "- On peut l'alimenter automatiquement en combustible." "- Avec un &eGâteau de Blaze&r, il passe en surchauffe pour plus de puissance." "" "Il se fabrique avec un &eAssemblage Moteur&r (assemblage séquencé), et se décline en plusieurs couleurs."
+	]
+	quest.2D10356191A61462.quest_subtitle: "De la rotation à bord"
+	quest.2D10356191A61462.title: "&6Le Moteur Portable"
 	quest.2D412FE8D78F46FE.quest_desc: [
 		"L'&6&lAxe&r&r est essentiel pour transmettre la rotation entre les machines. C'est aussi le seul support sur lequel on peut poser des tapis roulants."
 	]
@@ -414,6 +483,11 @@
 		"La &eBobine Tesla&r &crecharge les objets électriques (FE)&r posés en dessous." "" "Elle sert aussi à transformer des &blingots de Cuivre en Bronze&r en les chargeant." "" "Enfin, la &eBobine Tesla&r peut électrocuter les joueurs et les monstres proches. Cet effet s'active avec un signal de redstone."
 	]
 	quest.2E4DA361722CB9D0.title: "&e⚡ La Bobine Tesla"
+	quest.2E79374EBFA2EA4C.quest_desc: [
+		"Le &6Volant&r donne une rotation précise : maintiens le clic droit pour le saisir, puis bouge la souris pour tourner." "" "- Accroupi, il tourne par crans de 45°." "- Son panneau règle l'angle maximum." "- Un comparateur peut lire son angle, ou savoir si quelqu'un le tient." "" "&cAttention :&r les roulements reliés au volant doivent être réglés pour &cne pas se désassembler&r." "" "&7Des planches changent son apparence."
+	]
+	quest.2E79374EBFA2EA4C.quest_subtitle: "Prendre les commandes"
+	quest.2E79374EBFA2EA4C.title: "&6Le Volant"
 	quest.2ED49410115A9FDC.quest_subtitle: "Augmente la hauteur de saut et réduit un peu les dégâts de chute"
 	quest.2F1F1047E8A734EC.quest_desc: [
 		"&cSimply Swords&r ajoute tout un arsenal d'armes à découvrir." "Des dagues rapides aux épées à deux mains, chaque type a son style de combat et ses effets." "" "Il ajoute aussi de très rares &6armes légendaires&r aux pouvoirs puissants, qu'on ne trouve que sur certains boss." "" "Le mod propose un système de &3Pouvoirs Runiques&r : certaines armes trouvées peuvent avoir jusqu'à &6deux emplacements&r pour les améliorer avec des gemmes spéciales." "" "Il existe deux types d'emplacements : &bNetherfused&r et &3Runefused&r." "Pour insérer une gemme, clique gauche sur la gemme, puis clique gauche sur l'arme correspondante." "&c⚠ Attention : c'est définitif, les gemmes ne peuvent pas être retirées.&r" "" "Le chapitre Simply Swords t'explique le reste."
@@ -456,6 +530,11 @@
 		"Le &6Golem Starlight&r se trouve dans une forge souterraine appelée &bla Forge du Golem&r." "" "Pour la trouver, utilise un &eŒil Chercheur&r en tenant de la &eRedstone&r dans ta seconde main." "" "&n&lConseils de combat&r&r" "Quand le &6Golem Starlight&r absorbe l'énergie des blocs d'énergie autour de lui, &bdésactive-les avec un clic droit en tenant un Tube Gelé&r." "" "Cet &3objet est lâché par les monstres Freeze&r du donjon."
 	]
 	quest.325C7701BB3E3F73.title: "&6Golem Starlight"
+	quest.32D8CE4F01902940.quest_desc: [
+		"Placé sous un ballon, le &6Brûleur à Air Chaud&r le remplit progressivement d'air chaud quand il reçoit un &csignal de redstone&r." "" "- Son panneau règle le débit maximum." "- La &cforce du signal&r règle le débit : un signal plus faible = moins de portance." "- Plusieurs brûleurs peuvent remplir le même ballon." "- La portance est limitée par la &btaille du ballon&r." "" "&n&aMonter et descendre :&r plus tu montes, plus l'air est rare et plus la portance diminue. Le vaisseau se stabilise quand portance et poids s'équilibrent : en changeant la portance, tu changes d'altitude !" "" "&7Un objet infusé d'âme change la couleur de la flamme, juste pour le style."
+	]
+	quest.32D8CE4F01902940.quest_subtitle: "Ta première source de portance"
+	quest.32D8CE4F01902940.title: "&6Le Brûleur à Air Chaud"
 	quest.32E0EEC3834F9846.quest_desc: [
 		"La &6Paille&r s'obtient en coupant des plantes avec un &6couteau&r sur une planche à découper, ou en récoltant des plantes avec un &6couteau&r."
 	]
@@ -471,6 +550,11 @@
 		"La &6base d'amélioration&r est l'ingrédient principal de toutes les améliorations du mod."
 	]
 	quest.33628061006314AB.quest_subtitle: "Tirer le meilleur de ton sac"
+	quest.33B4B2123A4A929B.quest_desc: [
+		"Les &eVoiles Symétriques&r ne produisent pas de portance, seulement de la &btraînée&r." "" "Inclinées face au vent, elles freinent et font tourner le vaisseau : parfaites pour les &egouvernails&r et les &estabilisateurs&r." "" "Elles s'assemblent facilement en moulins, et se teignent de toutes les couleurs."
+	]
+	quest.33B4B2123A4A929B.quest_subtitle: "Gouvernails et stabilisateurs"
+	quest.33B4B2123A4A929B.title: "Les Voiles Symétriques"
 	quest.33E9A4967BA70F29.quest_desc: [
 		"Le &6portail personnalisé&r est une structure faite d'une base de portail et d'un cadre en Carter Quantique. Il peut envoyer créatures et joueurs vers un autre endroit, même dans une autre dimension." "" "Il fonctionne au &dTélé-jus&r." "" "Relie-le à des coordonnées avec un &cTP Link Avancé&r."
 	]
@@ -500,6 +584,11 @@
 	quest.3764CCC84F88A7B6.quest_desc: [
 		"La &l&6Super Colle&r&r sert à coller des blocs ensemble dans les constructions animées." "" "Chaque utilisation consomme de la durabilité, mais les collages sont permanents tant qu'on ne les retire pas. Elle peut être enchantée avec Solidité ou Raccommodage." "" "&aSur un châssis :&r" "Elle fonctionne comme une boule de slime." "" "Un clic droit sur un châssis linéaire ou radial avec la Super Colle recouvre la face de colle verte, pour y attacher des blocs." "" "Pour retirer la colle d'une face, fais un clic droit accroupi à main vide." "" "&aMode zone :&r" "Pour coller un groupe de blocs déjà posés." "Fais un clic droit sur un bloc dans un coin de la zone, puis déplace ton curseur vers le coin opposé : une boîte verte montre la zone collée." "" "Refais un clic droit pour valider, ou un clic droit accroupi pour annuler." "" "Tant que tu tiens la Super Colle en main principale, les zones collées sont visibles. Un clic gauche avec la colle décolle une zone."
 	]
+	quest.376EB57018B8FCC1.quest_desc: [
+		"Un roulement d'hélice qui &bgarde son hélice droite&r : parfait pour les &ehélicoptères&r, que les roulements normaux rendent instables." "" "Tourné vers le bas, il peut aussi &astabiliser une construction trop lourde en haut&r." "" "Un signal de redstone remet son inclinaison à zéro."
+	]
+	quest.376EB57018B8FCC1.quest_subtitle: "Pour les hélicoptères"
+	quest.376EB57018B8FCC1.title: "Le Roulement Gyroscopique"
 	quest.37D3986933A263DB.quest_subtitle: "Un coup fatal te téléporte ailleurs au lieu de te tuer"
 	quest.37D5E493E9DB64D4.quest_subtitle: "Recharge lentement ta faim quand tu marches sur l'herbe, et fait pousser les plantes quand tu manges sur l'herbe"
 	quest.383DED27F9FC984B.quest_subtitle: "&6+15 % de régénération de mana"
@@ -526,6 +615,16 @@
 	]
 	quest.3A227C6AE5CB2F32.quest_subtitle: "&l&eUn tapis roulant avec un nouveau look ? Sympa !&r&r"
 	quest.3A227C6AE5CB2F32.title: "Design n Decor"
+	quest.3B8F02F7FD6491B9.quest_desc: [
+		"Elle produit de la poussée quand elle tourne, et &bs'incline d'elle-même&r sur un axe pour essayer de pointer vers le haut." "" "Une clé inverse le sens de sa poussée."
+	]
+	quest.3B8F02F7FD6491B9.quest_subtitle: "Elle s'oriente toute seule"
+	quest.3B8F02F7FD6491B9.title: "L'Hélice Intelligente"
+	quest.3B977F507A6B2E2A.quest_desc: [
+		"Il émet un signal de redstone selon la &bvitesse&r du vaisseau. La vitesse du signal maximum se règle sur son panneau."
+	]
+	quest.3B977F507A6B2E2A.quest_subtitle: "Savoir à quelle vitesse on va"
+	quest.3B977F507A6B2E2A.title: "Le Capteur de Vitesse"
 	quest.3BA810FF52DA9982.quest_desc: [
 		"Le &l&6Brûleur à Blaze&r&r fournit la chaleur et la surchauffe pour les recettes de mélange dans les bassins, et il est indispensable pour fabriquer le laiton. Il sert aussi de source de chaleur pour les chaudières des Moteurs à Vapeur." "" "Un clic droit avec n'importe quel combustible de fourneau le met en mode chauffé pour un moment." "" "Un clic droit avec un Gâteau de Blaze le met en mode surchauffé pour un moment." "" "Avec la &l&bPaille&r&r, tu peux l'alimenter avec des liquides comme la lave."
 	]
@@ -543,6 +642,11 @@
 	quest.3D1AC201E82A3A87.quest_desc: [
 		"Pour survivre dehors, il va te falloir une &7armure en fer&r." "" "Il existe plein d'autres armures dans les différents mods du pack."
 	]
+	quest.3D5DE39F4ABB31DF.quest_desc: [
+		"Le &eMécanisme Gyroscopique&r s'obtient par &6assemblage séquencé&r à partir d'une plaque de fer (regarde la recette dans JEI)." "" "Il sert à fabriquer les hélices intelligentes et les roulements gyroscopiques, qui gardent ton vaisseau stable."
+	]
+	quest.3D5DE39F4ABB31DF.quest_subtitle: "Une pièce de précision"
+	quest.3D5DE39F4ABB31DF.title: "Le Mécanisme Gyroscopique"
 	quest.3D6259FBCAA99583.quest_desc: [
 		"Place &a12 yeux spéciaux différents&r dans les cadres du portail pour l'activer, puis saute dedans !" "" "Dans &el'End&r, tu vas affronter l'&5Ender Dragon&r." "" "En haut de chaque pilier d'obsidienne, un Cristal de l'End soigne le dragon. Détruis-les d'abord ! Ils explosent, alors garde tes distances."
 	]
@@ -570,6 +674,11 @@
 	quest.3FF93EB2C771B747.quest_desc: [
 		"La &l&6Clé&r&r est un outil polyvalent pour tourner, démonter et régler les &6&lobjets de Create&r&r." "" "Un clic droit sur un objet de Create avec la clé le fait tourner selon la face cliquée. Certains, comme les appareils de redstone ou les rails, sont démontés et reviennent dans ton inventaire." "" "Pour ceux qu'on utilise normalement avec un clic droit, accroupis-toi en utilisant la clé pour les démonter." "" "Certains objets de Create se règlent en utilisant la molette tout en les survolant avec la clé." "" "Pour certains, comme le châssis linéaire, maintenir Ctrl en utilisant la molette applique le réglage à toutes les pièces connectées." "" "&n&aLa clé a une fonction spéciale :&r&r" "En regardant certains blocs de Create, comme une boîte de vitesses, &dappuie sur U&r pour ouvrir un menu circulaire avec plusieurs options, dont l'orientation du bloc. Ça rend le placement bien plus facile."
 	]
+	quest.4024CBCB556F4E01.quest_desc: [
+		"&n&aDéfi :&r construis une petite montgolfière et fais-la décoller !" "" "&7Un exemple simple :&r" "1) Une plateforme de quelques blocs, avec un siège." "2) Au centre, un Brûleur à Air Chaud relié à un levier." "3) Au-dessus, un ballon d'enveloppes fermé de tous les côtés, avec une ouverture juste au-dessus du brûleur." "4) Colle tout avec la Colle au Miel, assemble avec l'Assembleur Physique, et active le brûleur." "" "Si ça ne monte pas : agrandis le ballon, ajoute un brûleur ou allège la plateforme." "" "Valide la quête quand tu as réussi à décoller."
+	]
+	quest.4024CBCB556F4E01.quest_subtitle: "Défi : décoller du sol"
+	quest.4024CBCB556F4E01.title: "&b&lTa première montgolfière"
 	quest.40270C32F09AD402.quest_desc: [
 		"&6&lBienvenue dans Create !" "" "Ce chapitre ne couvre pas tous les objets, mais il présente l'essentiel pour bien démarrer." "" "&l&nObtenir de l'aide&r&r" "" "-> &6Ponder :&r en cas de doute sur un bloc ou un objet, maintiens 'W' en le survolant pour ouvrir un wiki en 3D directement dans le jeu !" "" "-> &6Recettes :&r survole un objet dans un inventaire (ou dans une quête) et appuie sur 'R' pour voir comment le fabriquer, ou 'U' pour voir à quoi il sert." "" "&l&nNotions clés&r&r" "" "-> &6Unités de contrainte (SU) :&r les générateurs ne peuvent fournir qu'une certaine quantité d'énergie, ou « contrainte », à un réseau de machines avant d'être dépassés." "" "-> &6Vitesse de rotation (tr/min) :&r les choses tournent à une certaine vitesse. Plus une machine tourne vite, plus elle consomme de contrainte." "" "-> &6Constructions animées :&r ce sont des constructions qui bougent, en tournant avec des roulements, en ligne droite avec des pistons ou des portiques, ou sur des rails avec des wagonnets et des trains. Beaucoup de machines fonctionnent toutes seules quand elles sont sur une construction en mouvement." "" "Et quand tu maîtriseras tout ça, les &bdirigeables d'Aeronautics&r t'attendent !"
 	]
@@ -580,6 +689,11 @@
 		"&eApotheosis&r transforme l'équipement en butin façon RPG : raretés, affixes, gemmes et monstres élites." "" "Les objets trouvés peuvent avoir une &6rareté&r (Commun, Peu commun, Rare, Épique, Mythique) qui leur donne des &aaffixes&r (bonus de statistiques) et des &bemplacements de gemmes&r." "" "Tu peux améliorer ton équipement avec plusieurs tables : Récupération, Reforge, Taille de Gemmes et Augmentation." "" "Les &6Niveaux du Monde&r (touche &aCtrl + T&r) rendent le monde plus dangereux, mais le butin meilleur. Tu débloques les niveaux supérieurs en progressant. Mettez-vous d'accord en équipe avant de monter !" "" "Pour enchanter, tu as deux chemins : les bibliothèques d'Apotheosis, ou les machines de &aCreate: Enchantment Industry&r." "" "Les &cmonstres élites&r et les boss donnent les meilleures gemmes et les meilleurs matériaux." "" "&a&oAstuce :&r&r &eUne pioche Toucher de soie permet de récupérer les générateurs de monstres, pour faire des fermes.&r"
 	]
 	quest.4095FA4FB6615FCA.title: "&l&dApotheosis : le butin façon RPG&r&r"
+	quest.409C0F545AE62529.quest_desc: [
+		"Le &cPropulseur&r pousse ton vaisseau dans une direction, comme un moteur de fusée." "" "- Alimente-le en &6Térébenthine&r avec un tuyau." "- Donne-lui un &csignal de redstone&r : la force du signal règle la puissance." "" "Plus besoin d'hélices : les propulseurs permettent des vaisseaux &brapides&r et des &bavions&r. On peut même les assembler en propulseurs géants de 2×2×2 ou 3×3×3 !"
+	]
+	quest.409C0F545AE62529.quest_subtitle: "De la poussée brute"
+	quest.409C0F545AE62529.title: "&c&lLe Propulseur"
 	quest.409E9857A7494319.quest_subtitle: "Permet de marcher sur la neige poudreuse et rend la glace moins glissante"
 	quest.40EFE5B89FE6DBA1.quest_desc: [
 		"Les &l&6Tunnels en Andésite&r&r et les &l&6Tunnels en Laiton&r&r recouvrent les tapis roulants pour décorer, mais ils sont aussi utiles, les tunnels en laiton étant les plus avancés." "" "Le Tunnel en Andésite peut prélever des objets un par un dans les piles qui passent et les envoyer sur les côtés, pour un tri simple." "" "Le Tunnel en Laiton peut diviser, trier et fusionner les flux d'objets sur les tapis. Chacun de ses quatre côtés peut être une entrée ou une sortie, pour des circuits flexibles et complexes."
@@ -588,6 +702,11 @@
 		"La &6Table de Reforge Simple&r permet d'appliquer des affixes, de relancer les statistiques et d'améliorer la rareté d'un objet jusqu'à Rare." "" "Il faut pour ça des matériaux spéciaux :" "" "* &7Ferraille Mystérieuse&r (rareté Commune)" "" "* &aTissu Usé&r (rareté Peu commune)" "" "* &9Cristal Lumineux&r (rareté Rare)" "" "Par exemple, en reforgeant une épée en diamant, tu la transformes en arme améliorée et colorée, avec des affixes qui boostent ses statistiques et des emplacements de gemmes." "" "Ce système te permet de devenir de plus en plus fort, en transformant des outils ordinaires en équipement puissant adapté à ton style de jeu."
 	]
 	quest.419A16655447AA92.quest_subtitle: "Vision nocturne permanente"
+	quest.41A886E206236FDB.quest_desc: [
+		"Une source de redstone &bprécise et compacte&r : clique et fais glisser pour régler la force du signal." "" "Parfaite pour doser la puissance de tes brûleurs ou de tes propulseurs. Une clé inverse le signal."
+	]
+	quest.41A886E206236FDB.quest_subtitle: "Doser la puissance"
+	quest.41A886E206236FDB.title: "&6La Manette des Gaz"
 	quest.41C643E334BA412E.quest_desc: [
 		"L'&6Œil Ancien&r se trouve dans les &etemples du désert&r : fouille surtout la tombe et la cachette du pharaon." "" "Il peut aussi apparaître dans les coffres des &eruines du désert&r et des &edonjons&r."
 	]
@@ -596,11 +715,21 @@
 		"Les &l&6Voiles de Moulin&r&r produisent de la rotation quand elles sont fixées sur une structure tournante montée sur un Roulement de Moulin. Elles sont aussi efficaces que des blocs de laine. Il en faut au moins 8 pour que ça tourne." "" "Contrairement à la plupart des constructions, les voiles n'ont pas besoin de Super Colle ni de châssis pour fonctionner."
 	]
 	quest.422A888D3F7C4665.quest_subtitle: "En amélioration : &6+5 % de puissance des sorts de Feu"
+	quest.43A8ECAA22D87380.quest_desc: [
+		"Le &7Platine&r est le métal de base de &eCreate Propulsion&r." "" "Son minerai se trouve sous terre (aussi en version ardoise des abîmes). Comme les autres minerais, broie-le et lave-le avec Create pour en tirer plus de lingots." "" "Il sert à fabriquer le Carter en Platine, les réservoirs en platine (deux fois plus grands que ceux en cuivre) et les machines de propulsion."
+	]
+	quest.43A8ECAA22D87380.quest_subtitle: "Le métal de Propulsion"
+	quest.43A8ECAA22D87380.title: "&7Le Platine"
 	quest.43B06E3FFE5FE8EB.quest_subtitle: "Maîtrise le pouvoir des &dombres&r. Plus de &dpuissance des sorts de l'Ender&r ou d'&darmure&r."
 	quest.43B06E3FFE5FE8EB.title: "&d&lÉcole de l'Ender"
 	quest.440CB7D81AEBB293.quest_desc: [
 		"L'&6Emballeur&r crée des &aColis en Carton&r à partir des inventaires attachés, ou des objets insérés avec un entonnoir." "" "Posé à côté d'un inventaire, il prend les objets dedans pour faire des colis. Chaque &aColis en Carton&r contient jusqu'à 9 emplacements." "" "Alimenté par un signal de redstone, il essaie de remplir un colis au maximum." "" "Un panneau écrit posé sur l'&6Emballeur&r donne une adresse à tous les colis qu'il crée, pour les diriger au bon endroit." "" "Avec un &bLien de Stock&r attaché, l'&6Emballeur&r fait partie du Réseau Logistique." "" "Il peut alors recevoir des demandes d'objets et créer des colis avec une adresse précise et les quantités demandées."
 	]
+	quest.441F88F376742590.quest_desc: [
+		"La &ePlaque de Nom&r affiche le nom de ta construction simulée." "" "Pratique pour reconnaître les vaisseaux de chaque équipe !"
+	]
+	quest.441F88F376742590.quest_subtitle: "Tout vaisseau mérite un nom"
+	quest.441F88F376742590.title: "Baptiser son vaisseau"
 	quest.44937B2D2EB38094.quest_desc: [
 		"Après avoir vaincu le Warden, tu peux fabriquer le &aCasque du Warden&r en combinant un casque en Netherite avec des &2Éclats d'Écho Renforcés&r sur la table de forgeron." "" "Ce casque est indispensable pour explorer &8&lL'Autre Côté&r : il annule l'effet d'obscurité de cette dimension."
 	]
@@ -608,12 +737,27 @@
 	quest.44CFD2F48C7AA908.quest_desc: [
 		"L'engrais pour arbres fait pousser les pousses instantanément, peu importe la place autour."
 	]
+	quest.44F5B4AFC2F9B125.quest_desc: [
+		"Verse le mélange dans un moule, puis &capplique de la chaleur&r : il se cristallise en &dLévitite&r. Une fois lancée, la réaction s'étend à tout le liquide." "" "&cAttention :&r certains blocs utilisés comme moule sont détruits pendant la cristallisation, et la lévitite ne peut plus redevenir liquide." "" "&n&aCe qu'elle fait :&r" "- Assez de lévitite sur un vaisseau le &bmaintient en l'air&r." "- Mais elle &cne le fait pas monter&r : il faut d'autres forces (hélices, ballons, propulseurs)." "- À faible vitesse, elle &bfreine fortement&r les mouvements ; moins à grande vitesse." "" "Idéale pour des vaisseaux stables… ou des îles flottantes !"
+	]
+	quest.44F5B4AFC2F9B125.quest_subtitle: "Le cristal qui défie la gravité"
+	quest.44F5B4AFC2F9B125.title: "&d&lLa Lévitite"
+	quest.45A82A0D7A2A252B.quest_desc: [
+		"Tu maîtrises maintenant tout ce qu'il faut pour construire le vaisseau de tes rêves." "" "&n&aDernier défi :&r réunis de quoi construire un &bvaisseau amiral&r : lévitite pour flotter, propulseurs orientables pour manœuvrer, table de navigation pour le pilote automatique et connecteurs pour s'amarrer." "" "Ton vaisseau pourra devenir ta &6base volante&r : ferme, usine, entrepôt… tout peut voler !" "" "&6&lBravo, Maître des Airs !&r"
+	]
+	quest.45A82A0D7A2A252B.quest_subtitle: "L'objectif final du chapitre"
+	quest.45A82A0D7A2A252B.title: "&6&lMaître des Airs"
 	quest.45B67F9419927086.quest_desc: [
 		"S'utilise avec un Entonnoir pour insérer le combustible dans le Réacteur Nucléaire."
 	]
 	quest.462639C0EBA1209F.quest_desc: [
 		"Les &l&6Lunettes d'Ingénieur&r&r affichent des informations sur tes constructions, comme la contrainte et la vitesse de rotation." "" "Elles montrent aussi le remplissage et la capacité totale des réservoirs."
 	]
+	quest.472DB4B9A4EF5EBE.quest_desc: [
+		"Broie des &ebûches de sapin&r avec des Roues de Broyage : tu as 60 % de chance d'obtenir de la &eRésine de Pin&r." "" "Une ferme à sapins automatique avec une scie mécanique te fournira tout le carburant dont tu as besoin."
+	]
+	quest.472DB4B9A4EF5EBE.quest_subtitle: "Le début du carburant"
+	quest.472DB4B9A4EF5EBE.title: "La Résine de Pin"
 	quest.473610BEA4E1765D.quest_desc: [
 		"L'&cŒil du Nether&r se trouve dans les &ecoffres des forteresses du Nether&r : le donjon principal, la salle d'obsidienne et le sanctuaire." "" "Prévois une potion de résistance au feu : les blazes et les Wither squelettes ne vont pas te faciliter la tâche."
 	]
@@ -628,6 +772,11 @@
 	quest.488055D85AD88A2C.quest_desc: [
 		"&nÉtapes pour obtenir le bloc :&r" "" "Résine de mastic jaune" "→ Compactage → Pâte de mastic jaune" "→ Compactage → Bloc de résine de mastic jaune" "→ Mélange → Résine de mastic jaune liquéfiée" "" "Lave + Résine jaune liquéfiée" "→ Réaction dans le monde → &e&lZultanite jaune&r&r"
 	]
+	quest.48F827FD3545398E.quest_desc: [
+		"&bCreate Aeronautics&r te permet de construire de vrais &evaisseaux avec une physique réaliste&r : dirigeables, montgolfières, avions, hélicoptères, et même des véhicules à roues." "" "Tout ce que tu construis a un &6poids&r, un &6centre de gravité&r, de la &6portance&r et de la &6poussée&r. Un vaisseau mal équilibré penchera, tombera ou tournera sur lui-même : il faudra tester et ajuster !" "" "Ce chapitre te guide pas à pas : faire bouger ta première construction, gonfler ton premier ballon, te propulser, puis piloter, et enfin maîtriser la lévitite et les propulseurs." "" "&aAstuce :&r le &6Ponder&r (touche W en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !" "" "&7Les vaisseaux sont aussi le meilleur moyen de voyager loin sur ce serveur : les waystones et les téléporteurs coûtent cher sur les longues distances."
+	]
+	quest.48F827FD3545398E.quest_subtitle: "Le cœur du pack : les vaisseaux volants"
+	quest.48F827FD3545398E.title: "&b&lPrendre son envol"
 	quest.48FBEA846EE420D7.quest_desc: [
 		"L'&aandésite&r est l'un des matériaux les plus importants de Create." "" "On en trouve beaucoup en minant, et il existe plusieurs façons d'automatiser sa production." "" "&n&eFumage :&r&r avec un &6fumoir&r ou un &6Ventilateur&r derrière un feu, tu transformes du &bgravier&r en &aandésite&r." "" "&n&eCompactage :&r avec une &6Presse Mécanique&r et un bassin, compacte de la &clave&r, &c2 silex&r et un &cbloc de gravier&r en &aandésite&r." "" "Le &egravier s'obtient facilement en passant de la pierre à la Meule ou aux Roues de Broyage.&r" "" "Pour avoir beaucoup de &bpierre&r, automatise avec &clave&r + &beau&r." "" "Quand la &clave&r touche l'&beau&r, elle devient de la &epierre&r, que tu peux miner avec une &6Perceuse Mécanique&r." "" "L'&aExtrudeuse Mécanique&r rend tout ça beaucoup plus rapide."
 	]
@@ -664,6 +813,11 @@
 	quest.4C4D1E34867B4AB7.quest_desc: [
 		"Le &6&lVentilateur Caréné&r&r crée des courants d'air pour plein de choses : déplacer des créatures, faire monter des objets dans les goulottes, et laver, fondre, hanter ou fumer des objets en masse." "" "Selon le sens de rotation, il souffle ou il aspire." "" "Pour traiter des objets, place le bon bloc devant le ventilateur :" "" "Pour les fondre, une source de lave." "" "Pour les laver, une source d'eau." "" "Pour les hanter, un feu de camp des âmes." "" "Pour les fumer, un feu de camp normal." "" "Astuce : le ventilateur peut traiter les objets posés sur un dépôt ou un tapis au-dessus de lui."
 	]
+	quest.4CBCCBBE8A516F65.quest_desc: [
+		"Un propulseur qui peut aussi &bs'orienter&r (lacet et tangage) pour diriger sa poussée." "" "Chaque côté accepte un signal de redstone qui l'incline dans cette direction. La version &eà carburant liquide&r fonctionne à la térébenthine, la version normale à l'électricité (FE)."
+	]
+	quest.4CBCCBBE8A516F65.quest_subtitle: "Pousser et diriger à la fois"
+	quest.4CBCCBBE8A516F65.title: "Le Propulseur Orientable"
 	quest.4CC9D588886E2778.quest_desc: [
 		"Les &egolems de charbon éteints&r apparaissent près des minerais de charbon et ne s'en prennent pas aux monstres." "" "Un &cclic droit avec un briquet&r les transforme en &egolems de charbon allumés&r :" "ils deviennent hostiles envers les monstres, mais meurent après avoir attaqué."
 	]
@@ -769,6 +923,11 @@
 	]
 	quest.5590204A473913AC.quest_subtitle: "Fait fondre automatiquement les minerais que tu mines"
 	quest.56F1F049F20B29A7.title: "&aTenue d'Archi-évocateur"
+	quest.580A5EDF8F1FAF78.quest_desc: [
+		"La &eBouche de Vapeur&r remplit aussi les ballons, mais avec de la &bvapeur&r." "" "Comme un Moteur à Vapeur, elle a besoin de &cchaleur&r, d'&beau&r et d'une &6chaudière&r assez grande. Elle s'active avec la redstone, et plusieurs bouches peuvent partager un ballon." "" "Plus complexe, mais idéale pour les très gros dirigeables."
+	]
+	quest.580A5EDF8F1FAF78.quest_subtitle: "De la portance à la vapeur"
+	quest.580A5EDF8F1FAF78.title: "La Bouche de Vapeur"
 	quest.583EBA8354586BFD.quest_desc: [
 		"L'&cÉcho de Tyros, le Premier Porte-Flamme&r, se trouve dans la &eCitadelle&r du Nether." "" "Pour l'invoquer, il te faut un &6Invocateur d'Âmes Cendreux&r, à utiliser au centre de l'arène. Cherche comment l'obtenir dans JEI (touche R sur l'objet)." "" "Il déchaîne des attaques de feu dévastatrices : viens préparé." "" "&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver la Citadelle.&r"
 	]
@@ -782,6 +941,11 @@
 	]
 	quest.594A8459AD944A3B.quest_subtitle: "Ton premier livre de sorts"
 	quest.594EDA0BA8DFB743.quest_subtitle: "Le Prêtre l'échange contre un livre écrit trouvé dans le Fort des Évocateurs. Le livre doit d'abord être traduit par un marchand ambulant retenu prisonnier dans ce même fort."
+	quest.59816734AF9F1906.quest_desc: [
+		"La &dlévitite&r, le cristal qui fait flotter les vaisseaux, demande de la &epierre de l'End&r : c'est donc un objectif &cd'après l'Ender Dragon&r !" "" "Broie de la pierre de l'End avec des &6Roues de Broyage&r pour obtenir de la &dPoudre de Pierre de l'End&r." "" "Pense à en ramener beaucoup de ton voyage dans l'End."
+	]
+	quest.59816734AF9F1906.quest_subtitle: "Il va falloir aller dans l'End"
+	quest.59816734AF9F1906.title: "&dLa Poudre de Pierre de l'End"
 	quest.59EB1027C6C9B043.quest_desc: [
 		"Le &cWither&r est un boss destructeur à trois têtes. On l'invoque en plaçant &etrois crânes de Wither squelette&r sur une &ebase en sable des âmes en forme de T&r." "" "Pose trois blocs de sable des âmes à l'horizontale et un au centre en dessous pour former un T, puis place les crânes sur les trois blocs du haut." "" "&n⚠ Note :&r &oLa zone doit être dégagée : de l'herbe, de la neige ou de la glace qui touchent le sable des âmes peuvent empêcher le Wither d'apparaître.&r" "" "Le &cWither&r explose en apparaissant, vole et fait énormément de dégâts. Prépare un bon équipement, des potions et un terrain sûr : combattre sous terre est souvent plus facile." "" "&n&aComment obtenir des crânes de Wither squelette ?&r&r" "En tuant des &0Wither squelettes&r, qui apparaissent dans les &dForteresses du Nether&r. La chance est faible : une arme avec Butin aide beaucoup."
 	]
@@ -834,6 +998,11 @@
 		"&n&aTrottoirs roulants :&r&r" "Les marches de trottoir se posent comme un tapis roulant. Place deux axes à distance, fais un clic droit sur l'un avec les marches, puis sur l'autre pour créer le trottoir." "On peut ajouter des axes au trottoir, comme pour un tapis roulant." "" "&a&nEscalators :&r&r" "Ils se créent comme les trottoirs, avec une différence importante :" "" "les axes ne peuvent pas être en diagonale parfaite." "" "La distance horizontale entre les axes doit dépasser la distance verticale d'au moins trois blocs. Par exemple : 7 blocs à l'horizontale pour 4 à la verticale." "" "Contrairement aux trottoirs, on ne peut pas ajouter d'axes à un escalator après l'avoir posé." "" "&n&aPersonnalisation&r&r" "Trottoirs et escalators peuvent être teints de n'importe quelle couleur." "" "&n&aRampes :&r&r" "Ajoute des rampes avec un clic droit sur le trottoir ou l'escalator avec un tapis roulant." "" "Les rampes peuvent aussi être teintes." "" "Transforme les rampes en verre avec un clic droit avec un bloc de verre." "" "Pour prolonger un trottoir ou un escalator, prolonge d'abord la ligne d'axes, puis fais un clic droit sur la structure avec une marche, et un clic droit sur le nouvel axe."
 	]
 	quest.5E9E882D7F331693.title: "&3Create Escalated"
+	quest.5EA8827577211357.quest_desc: [
+		"Un clic droit sur un &eTreuil&r et un &eConnecteur de Corde&r avec un &eRaccord de Corde&r les relie par une corde." "" "Avec de la rotation, le treuil enroule ou déroule la corde : parfait pour hisser des charges ou remorquer un autre vaisseau." "" "Des cisailles coupent la corde, et une clé permet de glisser le long."
+	]
+	quest.5EA8827577211357.quest_subtitle: "Remorquer et hisser"
+	quest.5EA8827577211357.title: "Cordes et treuils"
 	quest.5EC30214D9EE2A0C.quest_subtitle: "Maîtrise le pouvoir de la &2nature&r. Plus de &2puissance des sorts de nature&r ou d'&2armure&r."
 	quest.5EC30214D9EE2A0C.title: "&2&lÉcole de la Nature"
 	quest.5EE5A4AA72E10A32.quest_subtitle: "La viande d'ours polaire crue est lâchée par les ours polaires tués avec une hachette Ravage."
@@ -852,15 +1021,30 @@
 		"&cScylla&r se trouve dans une &eAcropole&r, une immense structure au-dessus de l'océan." "" "Elle est bien gardée par des Clawdians. Une fois sur place, cherche une grosse ancre au sol et fais un clic droit dessus pour invoquer le boss." "" "L'&bŒil de la Tempête&r permet à la fois de localiser l'Acropole et de réinvoquer le boss." "" "&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver une Acropole.&r"
 	]
 	quest.5FDAADD20C6A6DC7.quest_subtitle: "&3☠ Niveau 6"
+	quest.5FE14C4503C34921.quest_desc: [
+		"Fais un clic droit sur un support de roue avec un pneu pour l'installer." "" "Il en existe plusieurs tailles : &epetit, normal, grand et monstrueux&r."
+	]
+	quest.5FE14C4503C34921.quest_subtitle: "Pour tous les terrains"
+	quest.5FE14C4503C34921.title: "Les pneus"
 	quest.603F0A37888A475D.quest_subtitle: "Quelques mods qui ajoutent des options esthétiques et des industries autour de la décoration."
 	quest.603F0A37888A475D.title: "&l&dMods esthétiques&r&r"
 	quest.607047A3D380D423.quest_subtitle: "Réduit ta taille de moitié"
 	quest.6073AB1A816E845F.quest_subtitle: "Maîtrise le pouvoir du &cfeu&r. Plus de &cpuissance des sorts de feu&r ou d'&carmure&r."
 	quest.6073AB1A816E845F.title: "&c&lÉcole du Feu"
+	quest.609773A4D02FCE65.quest_desc: [
+		"Mélange de la résine de pin avec de l'eau dans un bassin, avec un Mélangeur Mécanique : tu obtiens de la &6Térébenthine&r." "" "C'est le carburant des propulseurs. Accroupis-toi en survolant le seau pour voir sa poussée et sa consommation."
+	]
+	quest.609773A4D02FCE65.quest_subtitle: "Le carburant des propulseurs"
+	quest.609773A4D02FCE65.title: "&6La Térébenthine"
 	quest.60B9F9AD8F49371D.quest_subtitle: "Donne une résistance au feu temporaire au contact de la lave ou du feu"
 	quest.610E616AA011A7A9.quest_desc: [
 		"Un sac (bundle) permet de transporter plusieurs objets différents, jusqu'à une pile au total, dans un seul emplacement."
 	]
+	quest.61253545DDE41E88.quest_desc: [
+		"&n&aDéfi :&r ajoute des hélices à ta montgolfière pour en faire un vrai &bdirigeable&r !" "" "- Une ou deux hélices à l'arrière pour avancer." "- De quoi les faire tourner : une manivelle pour commencer, puis un moteur (voir plus bas)." "- Garde le &6centre de gravité&r au milieu, sinon le vaisseau penchera." "" "Pour tourner, fais varier la vitesse d'une hélice de gauche et d'une hélice de droite, ou utilise un gouvernail avec des Voiles Symétriques." "" "Valide quand ton dirigeable vole et avance. Bravo, pilote !"
+	]
+	quest.61253545DDE41E88.quest_subtitle: "Défi : voler et se diriger"
+	quest.61253545DDE41E88.title: "&b&lTon premier dirigeable"
 	quest.6144BAFB1269A066.quest_desc: [
 		"Comme l'ensemble en cuivre, il donne la respiration aquatique quand le réservoir dorsal contient de l'air comprimé." "" "&cExclusivité de la Netherite : immunité au feu et à la lave, et meilleure vision dans la lave avec le casque&r." "" "L'immunité au feu et à la lave ne fonctionne qu'avec l'ensemble complet (casque, réservoir, jambières et bottes) et un réservoir rempli d'air." "" "Contrairement aux bottes en cuivre, les bottes en Netherite permettent de remonter dans la lave en maintenant la touche de saut."
 	]
@@ -892,6 +1076,11 @@
 	]
 	quest.63BA37F707747719.quest_subtitle: "Avec des engrenages"
 	quest.63BA37F707747719.title: "&l&aAccélérer ou ralentir avec des engrenages&r&r"
+	quest.6407DB1B8FBDBE81.quest_desc: [
+		"Associe des fréquences de &eLiaison Redstone&r à ses touches : tu contrôles ton vaisseau au clavier, comme avec un tableau de bord." "" "Pendant que tu l'utilises, elle prend le contrôle de tes touches de déplacement."
+	]
+	quest.6407DB1B8FBDBE81.quest_subtitle: "Un cockpit dans un bloc"
+	quest.6407DB1B8FBDBE81.title: "La Machine à Écrire Liée"
 	quest.640C3588E6BA8DF2.quest_desc: [
 		"Le combat est modifié par &6Better Combat&r et &6Combat Roll&r." "" "&c-> Roulade&r" "Appuie sur &6\"R\"&r (touche par défaut) pour faire une roulade dans la direction où tu vas. Tu es &binvincible pendant la roulade&r : c'est essentiel pour esquiver les attaques des boss !" "" "La roulade a un temps de recharge de 6 secondes." "" "&c-> Better Combat&r" "Chaque arme a sa propre animation et son propre rythme. Les attaques qui s'enchaînent forment des combos, et maintenir le bouton d'attaque permet de frapper en continu."
 	]
@@ -970,6 +1159,11 @@
 		"Les &l&6Tapis Roulants&r&r transmettent la rotation et transportent les objets et les créatures." "" "Pour poser un tapis, il faut au moins deux axes. Fais un clic droit sur le premier axe, puis sur le second pour les relier. Un seul tapis est consommé, quelle que soit la longueur." "" "Les tapis peuvent relier plusieurs axes à l'horizontale, à la verticale ou en diagonale (à 45°), jusqu'à 20 blocs de long, sans obstacle sur le chemin." "" "On peut recouvrir n'importe quelle partie d'un tapis de carter en andésite ou en laiton, pour le style."
 	]
 	quest.6C90039BB1651603.quest_subtitle: "En amélioration : &6+5 % de puissance des sorts Sacrés"
+	quest.6CEACA7588116B57.quest_desc: [
+		"Les &eEnveloppes&r forment le ballon de ton dirigeable. Elles enferment un volume qui produit de la &bportance&r quand il est rempli d'air chaud." "" "&n&aRègles importantes :&r" "- L'air chaud remplit le ballon &bdu haut vers le bas&r." "- Il doit être &bétanche&r : pas de trou !" "- Les blocs à l'intérieur du ballon &créduisent le volume&r utile." "- Un axe peut traverser le ballon s'il est recouvert d'enveloppe (axe enveloppé)." "" "Fais un clic droit avec de la teinture pour les colorer."
+	]
+	quest.6CEACA7588116B57.quest_subtitle: "La toile de ton ballon"
+	quest.6CEACA7588116B57.title: "&eLes Enveloppes"
 	quest.6D382620BBC1E6C0.quest_desc: [
 		"Le pack inclut le shader &6Complementary Reimagined&r pour embellir le jeu." "" "Pour l'activer : &aOptions → Paramètres vidéo → Shader Packs&r." "" "&cLes shaders demandent une bonne carte graphique.&r Sur un PC modeste, laisse-les désactivés."
 	]
@@ -981,6 +1175,16 @@
 		"&aCreate Teleporters&r ajoute des machines de téléportation pour les objets et les créatures, dans le style de Create." "" "Il y a deux appareils principaux : les &6Téléporteurs d'Entités&r et les &6Téléporteurs d'Objets&r, qu'il faut relier entre eux pour qu'ils fonctionnent." "" "Les &aTéléporteurs&r fonctionnent au &dTélé-jus&r, un liquide spécial obtenu en &evidant des Fruits de Chorus&r (avec une Vidangeuse de Create). Automatise la culture du Chorus pour ne jamais tomber en panne de &dTélé-jus&r." "" "Le mod propose aussi un &6portail personnalisé&r pour voyager vers un point précis, même dans une autre dimension." "" "Enfin, la &6Télécommande de Dimension de Poche&r t'envoie dans une petite pièce personnelle, pratique pour tester des machines ou stocker des choses en sécurité."
 	]
 	quest.6D5015C82CCC85FE.title: "&aCreate Teleporters&r"
+	quest.6E284AC12A8D5945.quest_desc: [
+		"Une version bloc du Canon à Patates : il accepte les mêmes munitions et peut être rechargé automatiquement." "" "Fais-le tourner pour le charger, puis donne-lui un signal de redstone pour tirer. Un signal continu = tir automatique."
+	]
+	quest.6E284AC12A8D5945.quest_subtitle: "Pour défendre ton vaisseau"
+	quest.6E284AC12A8D5945.title: "Le Canon à Patates Monté"
+	quest.6E5E7A8C91623534.quest_desc: [
+		"Il fonctionne à l'&eélectricité (FE)&r au lieu du carburant. Alimente-le avec des câbles, un Alternateur de Crafts & Additions ou un Générateur à Corail." "" "Plus besoin de faire le plein, mais il faut une bonne source d'énergie à bord."
+	]
+	quest.6E5E7A8C91623534.quest_subtitle: "Sans carburant, à l'électricité"
+	quest.6E5E7A8C91623534.title: "Le Propulseur Ionique"
 	quest.6E691464A1D6FEEC.quest_desc: [
 		"L'&l&6Entonnoir en Andésite&r&r fait entrer et sortir les objets des inventaires." "" "Un clic droit avec une clé le fait passer du mode entrée au mode sortie. Un signal de redstone bloque le transfert dans les deux sens." "" "Il se pose sur un tapis roulant relié à un inventaire ou un bassin, à la verticale comme à l'horizontale. Sur un tapis, un clic droit sur l'entonnoir le fait avancer d'un bloc." "" "En mode sortie, il donne un objet à la fois. En mode entrée, il peut insérer une pile entière (64 objets) d'un coup." "" "L'&6&lEntonnoir en Laiton&r&r fonctionne pareil, avec en plus un filtre et un réglage de quantité. Tu peux choisir quels objets passent." "Avec son panneau de réglage, il peut transférer un nombre exact ou un maximum d'objets, en entrée comme en sortie." "" "&5&l&oAstuce :&r&r sur une construction animée, les Entonnoirs en Laiton peuvent vider l'inventaire de la construction ou ramasser les objets qu'ils touchent. Avec un filtre, seuls les objets choisis sont concernés.&r"
 	]
@@ -992,6 +1196,11 @@
 	quest.6FEBA486156AA0CA.quest_desc: [
 		"La &6&lManivelle&r&r produit un peu de rotation à la force de tes bras." "" "Maintiens le clic droit pour la tourner dans un sens, ou Maj + clic droit pour l'autre sens." "" "Elle tourne toujours à 32 tr/min."
 	]
+	quest.7028A4D91D14E5B0.quest_desc: [
+		"Donne-lui un &eobjet de navigation&r (regarde le Ponder pour la liste) : elle émet un signal de redstone &bdans la direction de la destination&r." "" "Le signal est plus faible quand tu ne regardes pas droit vers la cible." "" "C'est la base d'un &apilote automatique&r et d'un indicateur de cap."
+	]
+	quest.7028A4D91D14E5B0.quest_subtitle: "Le début du pilote automatique"
+	quest.7028A4D91D14E5B0.title: "La Table de Navigation"
 	quest.703CC46FAC00A5D9.title: "&6Collectionner tous les Artefacts"
 	quest.704435187B4BD245.quest_desc: [
 		"Les &ePierres Runiques&r sont des objets rares trouvés dans les structures magiques, en général vierges. Combine-en une avec 8 focus pour l'accorder à une école précise, et fabriquer de l'équipement à thème." "" "Tu peux obtenir une Rune Vierge en battant le &6Roi Mort&r, ou en effaçant une Rune Inscrite avec une Pierre de Purification."
@@ -1039,6 +1248,11 @@
 		"Avec une &bpioche en diamant&r, tu peux miner l'&dobsidienne&r, qui sert à construire un portail vers le &cNether&r." "" "Le cadre peut avoir plusieurs tailles, mais la forme classique est une « porte » creuse de 4×5, avec au moins 10 blocs d'obsidienne. Les coins ne sont pas obligatoires !"
 	]
 	quest.72A5DEFDD0F3470D.title: "&cDirection le Nether !&r"
+	quest.72BCCD2255CBE908.quest_desc: [
+		"Il &bincline sa sortie de rotation&r selon un signal de redstone analogique : plus le signal est fort d'un côté, plus il penche de ce côté." "" "La version avancée permet de régler l'angle maximum de chaque côté."
+	]
+	quest.72BCCD2255CBE908.quest_subtitle: "Incliner avec de la redstone"
+	quest.72BCCD2255CBE908.title: "L'Adaptateur d'Inclinaison"
 	quest.731C3214BB61FDAE.quest_desc: [
 		"Se trouve sous terre dans l'&aOverworld&r, dans les Cités Antiques."
 	]
@@ -1109,14 +1323,29 @@
 	quest.7946F9753F14977C.quest_desc: [
 		"Le &l&6Bras Mécanique&r&r prend ou dépose des objets dans les blocs situés à 5 blocs autour de lui." "" "Son ordre de travail dépend de son réglage et de l'ordre dans lequel tu as sélectionné les blocs cibles en le posant." "" "Pour voir les blocs sélectionnés d'un bras déjà posé, survole-le avec une clé." "" "Il peut transférer une pile entière à la fois." "" "Petit bonus : un jukebox avec un disque à côté le fait danser, et il peut même porter des Lunettes d'Ingénieur."
 	]
+	quest.79B27E5DC08D6FC5.quest_desc: [
+		"Comme les Lunettes d'Ingénieur, elles affichent des informations sur les blocs : contrainte, capacité, contenu…" "" "Elles montrent en plus la &bpoussée et le flux d'air des hélices&r et les données des ballons. Indispensable pour régler un vaisseau !"
+	]
+	quest.79B27E5DC08D6FC5.quest_subtitle: "Des infos en plus pour les pilotes"
+	quest.79B27E5DC08D6FC5.title: "Les Lunettes d'Aviateur"
 	quest.79B7F2CF9843FFCB.quest_desc: [
 		"L'&bŒil Exotique&r se &afabrique&r avec :" "&7- un œil de l'Ender ;" "&7- deux conduits (faits avec un cœur de la mer et des carapaces de nautile) ;" "&7- quatre coraux différents (feu, tube, corne, bulle) ;" "&7- deux poches d'encre luisante." "" "Regarde la recette exacte dans JEI (touche R)."
 	]
 	quest.79B7F2CF9843FFCB.quest_subtitle: "Les trésors de l'océan"
 	quest.7A516A80B0491E03.quest_subtitle: "x4"
+	quest.7AA0DA68DD83387E.quest_desc: [
+		"Les &eAiles&r forment des surfaces aérodynamiques : elles produisent de la &bportance quand l'air passe dessus&r, selon la vitesse et l'angle." "" "Les &eAiles Trempées&r sont une version renforcée, et les &eAiles Copycat&r prennent l'apparence de n'importe quel bloc." "" "Avec des propulseurs, tu peux construire un vrai &bavion&r !"
+	]
+	quest.7AA0DA68DD83387E.quest_subtitle: "Pour les avions"
+	quest.7AA0DA68DD83387E.title: "Les Ailes"
 	quest.7B2E2427787A55A7.quest_desc: [
 		"Avec l'&6amélioration Éternelle&r, ton sac ne peut plus être détruit !" "" "Ça le protège entre autres de :" "> &4la lave" "> &8le vide" "> &2les creepers" "> &bla disparition au sol" "> &6et plus encore !"
 	]
+	quest.7B935C61FA732F05.quest_desc: [
+		"Il émet un signal selon l'&binclinaison&r du vaisseau, vers le côté qui descend." "" "Relié à des hélices ou des brûleurs, il permet de faire un &astabilisateur automatique&r."
+	]
+	quest.7B935C61FA732F05.quest_subtitle: "Rester à l'horizontale"
+	quest.7B935C61FA732F05.title: "Le Capteur Gyroscopique"
 	quest.7BA36E3934CF3AF9.quest_desc: [
 		"L'&6Extrudeuse Mécanique&r génère des objets ou des blocs selon les blocs et les liquides qui l'entourent." "" "Elle est bien plus rapide et moins gourmande qu'un générateur de pierre classique." "" "La liste complète de ce qu'elle peut produire est dans JEI (touche U)."
 	]
@@ -1144,6 +1373,11 @@
 	quest.7E2CA676B730A7C4.quest_desc: [
 		"L'&6&lHuile d'arachide&r&r peut alimenter un Brûleur à Blaze pour le mettre en mode &l&bsurchauffé&r&r."
 	]
+	quest.7E59389B700FFD7F.quest_desc: [
+		"Le &6Roulement d'Hélice&r se fixe au bloc devant lui et transforme un ensemble de voiles en &bhélice qui pousse&r." "" "- Il faut au moins &e2 blocs de type voile&r pour faire une hélice valide." "- &bPlus il y a de voiles, plus l'hélice est efficace.&r" "- Inverser le sens de rotation (ou utiliser une clé) inverse la poussée." "- Une hélice qui avance vite pousse moins fort, car l'air bouge déjà." "- Comme les brûleurs, la poussée &cdiminue avec l'altitude&r." "" "Les Lunettes affichent la poussée et le flux d'air de chaque hélice."
+	]
+	quest.7E59389B700FFD7F.quest_subtitle: "Transformer la rotation en poussée"
+	quest.7E59389B700FFD7F.title: "&6Le Roulement d'Hélice"
 	quest.7E7B5A9C3AE9FBF8.quest_desc: [
 		"&aGolem Overhaul&r ajoute 9 nouveaux golems, chacun avec son propre fonctionnement !" "" "Certains sont pacifiques, comme le golem de paille qui protège tes cultures, d'autres sont assez forts pour affronter des monstres comme le Warden."
 	]
@@ -1195,6 +1429,7 @@
 		"L'&7Œil Mort-vivant&r se &afabrique&r avec une &eÂme de Mort-vivant&r, des os, de la chair putréfiée, une membrane de phantom et une larme de ghast." "" "L'Âme de Mort-vivant est lâchée par les &echevaux squelettes&r (1 chance sur 4). Ils apparaissent quand la foudre frappe pendant un orage : c'est un piège tendu par quatre cavaliers squelettes !"
 	]
 	quest.E1E0000000000C04.quest_subtitle: "Une âme en peine"
+	task.042595FDBE946369.title: "Mon dirigeable avance !"
 	task.0A88BBBA01BD37FD.title: "Clique pour valider"
 	task.0C99D5061E9A9F59.title: "Mods esthétiques"
 	task.184D02801FC28C38.title: "&6J'ai trop hâte de jouer !"
@@ -1203,6 +1438,7 @@
 	task.228DCE6FDAD7130A.title: "Clique pour valider"
 	task.2E11C158DD5E8E3E.title: "Clique pour valider"
 	task.3AD4F43742EABEE7.title: "Clique pour valider"
+	task.3D9F536C18CF7809.title: "Clique pour valider"
 	task.3F5AC72562569158.title: "Unités de contrainte"
 	task.509D5321A4F9841D.title: "&6Je suis prêt"
 	task.57548A938223AAF1.title: "&l&cClique pour valider"
@@ -1213,5 +1449,6 @@
 	task.62FE40FB89D4E82D.title: "Clique pour valider"
 	task.6FD0241035AC0F91.title: "Clique pour valider"
 	task.797924159D5342B4.title: "&l&cTu es sûr d'avoir tout lu ? Cette partie est vraiment importante."
+	task.7B694FDA219E75EB.title: "Mon ballon a décollé !"
 	task.E1E0000000000B02.title: "Clique pour valider"
 }

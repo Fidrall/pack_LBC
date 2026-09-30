@@ -33,9 +33,6 @@
 			tasks: [
 				{
 					entity: "minecraft:warden"
-					icon: {
-						id: "plushies:warden_plushie"
-					}
 					id: "37E411F497C9CD71"
 					type: "kill"
 					value: 1L

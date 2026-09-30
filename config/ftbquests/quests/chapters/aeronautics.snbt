@@ -1,0 +1,1294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aeronautics"
+	group: "1A00000000000002"
+	icon: {
+		id: "aeronautics:andesite_propeller"
+	}
+	id: "4C2580819596F6D1"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aeronautics:andesite_propeller"
+			}
+			id: "48F827FD3545398E"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "3D9F536C18CF7809"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["48F827FD3545398E"]
+			id: "1859F22FB327067C"
+			rewards: [
+				{
+					id: "000AA7B7488025A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "6DBA0FEB99537E39"
+					item: { count: 1, id: "simulated:physics_assembler" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2d
+		}
+		{
+			dependencies: ["1859F22FB327067C"]
+			id: "23DAFFEA162268FD"
+			rewards: [
+				{
+					id: "2D77683CA3C61E20"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "71AA7D2B9D81453D"
+					item: { count: 1, id: "simulated:honey_glue" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2d
+		}
+		{
+			dependencies: ["1859F22FB327067C"]
+			id: "79B27E5DC08D6FC5"
+			rewards: [
+				{
+					id: "5BB80CD8281C665D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "22AA0AD117E9FD26"
+					item: { count: 1, id: "aeronautics:aviators_goggles" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2d
+		}
+		{
+			dependencies: ["79B27E5DC08D6FC5"]
+			id: "1CEEFAEED5539BA1"
+			rewards: [
+				{
+					id: "14C17063A30A3D20"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "07A261EBBA45F8D5"
+					item: { count: 1, id: "simulated:contraption_diagram" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 2d
+		}
+		{
+			dependencies: ["23DAFFEA162268FD"]
+			id: "441F88F376742590"
+			rewards: [
+				{
+					id: "3558C0D29281F088"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1C6A4467AB03BA97"
+					item: { count: 1, id: "simulated:white_nameplate" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 2d
+		}
+		{
+			dependencies: ["1859F22FB327067C"]
+			id: "6CEACA7588116B57"
+			rewards: [
+				{
+					id: "7525AAB5CAA82A20"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1BE0AD4B496B8D86"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CEACA7588116B57"]
+			id: "32D8CE4F01902940"
+			rewards: [
+				{
+					id: "65F0868CAAB008A3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6C69DC6DD63ABD74"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32D8CE4F01902940"]
+			id: "4024CBCB556F4E01"
+			rewards: [
+				{
+					id: "5D43C2AF431C5665"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7B694FDA219E75EB"
+					type: "checkmark"
+				}
+			]
+			x: -3d
+			y: 5d
+		}
+		{
+			dependencies: ["32D8CE4F01902940"]
+			id: "580A5EDF8F1FAF78"
+			rewards: [
+				{
+					id: "1A590FDCC55EEAF6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "22852E66ED5860D0"
+					item: { count: 1, id: "aeronautics:steam_vent" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4024CBCB556F4E01"]
+			id: "1376726CEAE353A2"
+			rewards: [
+				{
+					id: "2EE0F34B106E723E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "144A94E90D799F9D"
+					item: { count: 1, id: "simulated:altitude_sensor" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5d
+		}
+		{
+			dependencies: ["1859F22FB327067C"]
+			id: "7E59389B700FFD7F"
+			rewards: [
+				{
+					id: "298ECC18AD428D37"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "066D2EE46B9FE633"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E59389B700FFD7F"]
+			id: "13F0D2A3C376C29A"
+			rewards: [
+				{
+					id: "57D5EE91ABB8319F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6273A181A25A9051"
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E59389B700FFD7F"]
+			id: "3D5DE39F4ABB31DF"
+			rewards: [
+				{
+					id: "7204887F3C5ABB33"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4B3141D854FB8B4E"
+					item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 5d
+		}
+		{
+			dependencies: ["3D5DE39F4ABB31DF"]
+			id: "3B8F02F7FD6491B9"
+			rewards: [
+				{
+					id: "5F80E66693224F1C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "230E1EA72FB26288"
+					item: { count: 1, id: "aeronautics:smart_propeller" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5d
+		}
+		{
+			dependencies: ["3D5DE39F4ABB31DF"]
+			id: "376EB57018B8FCC1"
+			rewards: [
+				{
+					id: "519564BBB839E10E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "72CE20BB7355A0A8"
+					item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5d
+		}
+		{
+			dependencies: ["4024CBCB556F4E01", "7E59389B700FFD7F"]
+			id: "61253545DDE41E88"
+			rewards: [
+				{
+					id: "2C79408FAE21A0A6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2d
+			tasks: [
+				{
+					id: "042595FDBE946369"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			id: "2D10356191A61462"
+			rewards: [
+				{
+					id: "4D0D8EF383B6E3EC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "77DB8E3FF9515F50"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 8d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			id: "2E79374EBFA2EA4C"
+			rewards: [
+				{
+					id: "41CB18CCAFBDF786"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "64DEC2A192AC23CD"
+					item: { count: 1, id: "simulated:steering_wheel" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			id: "41A886E206236FDB"
+			rewards: [
+				{
+					id: "31E432186EC6A22B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "224132B79E163DB9"
+					item: { count: 1, id: "simulated:throttle_lever" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 8d
+		}
+		{
+			dependencies: ["41A886E206236FDB"]
+			id: "6407DB1B8FBDBE81"
+			rewards: [
+				{
+					id: "566A0D171B08469E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5B3C1BCA8ADF179E"
+					item: { count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 8d
+		}
+		{
+			dependencies: ["2E79374EBFA2EA4C"]
+			id: "3B977F507A6B2E2A"
+			rewards: [
+				{
+					id: "6ACCFDFE48544CF3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "26B0C103B88B0F19"
+					item: { count: 1, id: "simulated:velocity_sensor" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["41A886E206236FDB"]
+			id: "7B935C61FA732F05"
+			rewards: [
+				{
+					id: "703CDFF83E6D07EB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3BE3AC4F0A485607"
+					item: { count: 1, id: "simulated:gimbal_sensor" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6407DB1B8FBDBE81"]
+			id: "7028A4D91D14E5B0"
+			rewards: [
+				{
+					id: "076555E60FCD2FF7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1CF80E0B7454B5B8"
+					item: { count: 1, id: "simulated:navigation_table" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7028A4D91D14E5B0"]
+			id: "29D6C7D5DEC00FB2"
+			rewards: [
+				{
+					id: "3D5571D2CE56E8DB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "572F70D81820DB6E"
+					item: { count: 1, id: "simulated:optical_sensor" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2D10356191A61462"]
+			id: "33B4B2123A4A929B"
+			rewards: [
+				{
+					id: "73EB2F464C10D1C7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "56A2A9BA5B5C2946"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7B935C61FA732F05"]
+			id: "1032B445E4DCA088"
+			rewards: [
+				{
+					id: "7A59212A0EFC77F2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "42D55FE226A18F46"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 11d
+		}
+		{
+			dependencies: ["1032B445E4DCA088"]
+			id: "5EA8827577211357"
+			rewards: [
+				{
+					id: "0B6B0208964DB796"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4BA64CF3EFA7B959"
+					item: { count: 1, id: "simulated:rope_winch" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2AB6F785FD461F6E"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 11d
+		}
+		{
+			dependencies: ["1032B445E4DCA088"]
+			id: "226DE63B592A11D8"
+			rewards: [
+				{
+					id: "45CA9EA2FA6F5C75"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1EC8977F549C57B7"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 11d
+		}
+		{
+			dependencies: ["33B4B2123A4A929B"]
+			id: "6E284AC12A8D5945"
+			optional: true
+			rewards: [
+				{
+					id: "4C936528667C3C20"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1573AD2408175FBB"
+					item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 11d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			id: "59816734AF9F1906"
+			rewards: [
+				{
+					id: "162F4C30E04FAEB7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "705955660A340FA2"
+					item: { count: 1, id: "aeronautics:end_stone_powder" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["59816734AF9F1906"]
+			id: "0B76EAE1EE32AED7"
+			rewards: [
+				{
+					id: "498F67A8262596AD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "795F11362F0B4046"
+					item: { count: 1, id: "aeronautics:levitite_blend_bucket" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0B76EAE1EE32AED7"]
+			id: "44F5B4AFC2F9B125"
+			rewards: [
+				{
+					id: "72C4A838B53817E4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "01756751E706914B"
+					item: { count: 1, id: "aeronautics:levitite" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			id: "43A8ECAA22D87380"
+			rewards: [
+				{
+					id: "35A41CF87DFF15D0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5E4236617C5DF841"
+					item: { count: 1, id: "createpropulsion:platinum_ingot" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 8d
+		}
+		{
+			dependencies: ["43A8ECAA22D87380"]
+			id: "472DB4B9A4EF5EBE"
+			rewards: [
+				{
+					id: "6469EC190C060299"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "512803111B1E6682"
+					item: { count: 1, id: "createpropulsion:pine_resin" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 8d
+		}
+		{
+			dependencies: ["472DB4B9A4EF5EBE"]
+			id: "609773A4D02FCE65"
+			rewards: [
+				{
+					id: "30AB63F524B9DB46"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "455D941412FBC3D8"
+					item: { count: 1, id: "createpropulsion:turpentine_bucket" }
+					type: "item"
+				}
+			]
+			x: 9d
+			y: 8d
+		}
+		{
+			dependencies: ["609773A4D02FCE65"]
+			id: "409C0F545AE62529"
+			rewards: [
+				{
+					id: "4632590D7CB9EE35"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "1A866961A20C7598"
+					item: { count: 1, id: "createpropulsion:thruster" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["409C0F545AE62529"]
+			id: "4CBCCBBE8A516F65"
+			rewards: [
+				{
+					id: "539B64331F7A0BC9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "06392FF160CECA8C"
+					item: { count: 1, id: "createpropulsion:vector_thruster" }
+					type: "item"
+				}
+			]
+			x: 9d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4CBCCBBE8A516F65"]
+			id: "6E5E7A8C91623534"
+			rewards: [
+				{
+					id: "2777079D1B679E74"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "42F339E155BB1520"
+					item: { count: 1, id: "createpropulsion:ion_thruster" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["43A8ECAA22D87380"]
+			id: "7AA0DA68DD83387E"
+			rewards: [
+				{
+					id: "723F4F2BD7E3D370"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "662F0CA8726EAD1E"
+					item: { count: 1, id: "createpropulsion:wing" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 9.5d
+		}
+		{
+			dependencies: ["43A8ECAA22D87380"]
+			id: "1BBA2E6C95E937B3"
+			rewards: [
+				{
+					id: "495912F187CC57A3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3F89ABDC18739CDF"
+					item: { count: 1, id: "createpropulsion:solid_burner" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "20C87B25AE6CAD0C"
+					item: { count: 1, id: "createpropulsion:stirling_engine" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["409C0F545AE62529"]
+			id: "72BCCD2255CBE908"
+			rewards: [
+				{
+					id: "089BE17DD1E2E999"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "586969E9C2D10628"
+					item: { count: 1, id: "createpropulsion:tilt_adapter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 11d
+		}
+		{
+			dependencies: ["1859F22FB327067C"]
+			id: "1E4E4CCC6E1104DC"
+			rewards: [
+				{
+					id: "2C05FECBFE344D73"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "20A3D47C911E0E3D"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 8d
+		}
+		{
+			dependencies: ["1E4E4CCC6E1104DC"]
+			id: "5FE14C4503C34921"
+			rewards: [
+				{
+					id: "35A504067F1C9AF6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1705D1CBE41D9BA4"
+					item: { count: 1, id: "offroad:tire" }
+					type: "item"
+				}
+			]
+			x: -6d
+			y: 8d
+		}
+		{
+			dependencies: ["5FE14C4503C34921"]
+			id: "1BF5491FFC8A97FF"
+			rewards: [
+				{
+					id: "3F0EEC8DC5BED9E8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3CDC15593047F383"
+					item: { count: 1, id: "offroad:borehead_bearing" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "09DEE58C4D4359C2"
+					item: { count: 1, id: "offroad:rockcutting_wheel" }
+					type: "item"
+				}
+			]
+			x: -6d
+			y: 9.5d
+		}
+		{
+			dependencies: ["44F5B4AFC2F9B125", "6E5E7A8C91623534", "7028A4D91D14E5B0", "1032B445E4DCA088"]
+			id: "45A82A0D7A2A252B"
+			rewards: [
+				{
+					id: "0E04C671300C31D8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "2CE80F08074273D3"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [
+				{
+					count: 32L
+					id: "01C5161EA50AB2FC"
+					item: { count: 1, id: "aeronautics:levitite" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "352A471C94CB6E92"
+					item: { count: 1, id: "createpropulsion:vector_thruster" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "37EA4A2B808253FC"
+					item: { count: 1, id: "simulated:navigation_table" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2C0C60653451BA03"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 12.5d
+		}
+	]
+}

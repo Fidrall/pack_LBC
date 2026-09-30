@@ -65,9 +65,6 @@
 			tasks: [
 				{
 					entity: "minecraft:elder_guardian"
-					icon: {
-						id: "plushies:elder_guardian_plushie"
-					}
 					id: "17EBB827621BD1F0"
 					type: "kill"
 					value: 1L

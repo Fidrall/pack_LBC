@@ -9,7 +9,7 @@
 	}
 	id: "699146B31CBD0538"
 	images: [ ]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -311,12 +311,6 @@
 			y: 1.5d
 		}
 		{
-			icon: {
-				components: {
-					"patchouli:book": "buildinggadgets2:buildinggadgets2book"
-				}
-				id: "patchouli:guide_book"
-			}
 			id: "5429DCF7C5A3EC97"
 			rewards: [
 				{
