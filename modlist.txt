@@ -200,3 +200,4 @@ mr | irons-lib | jetable | dependance Iron's Spells
 mr | ct-overhaul-village | jetable | villages plus grands/complets
 mr | guard-villagers | jetable | gardes de village
 mr | create-structures-arise | jetable | 28 structures Create
+mr | critters-and-companions | jetable | petites creatures dressables
