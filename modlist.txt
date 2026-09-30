@@ -192,3 +192,7 @@ mr | 3dskinlayers | client |
 mr | not-enough-animations | client |
 cf | 882495 | client | fix GPU memory leak
 mr | complementary-reimagined | client | shader (optionnel)
+cf | ftb-essentials | qol | /home /tpa /back /spawn
+mr | yungs-better-strongholds | jetable |
+mr | yungs-better-ocean-monuments | jetable |
+mr | lambdynamiclights | client | lumiere dynamique (remplace Sodium Dynamic Lights)
