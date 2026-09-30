@@ -196,3 +196,4 @@ cf | ftb-essentials | qol | /home /tpa /back /spawn
 mr | yungs-better-strongholds | jetable |
 mr | yungs-better-ocean-monuments | jetable |
 mr | lambdynamiclights | client | lumiere dynamique (remplace Sodium Dynamic Lights)
+mr | async-locator-refined | perf | locate/cartes/dauphins en asynchrone
