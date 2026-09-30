@@ -2,10 +2,10 @@
 	file.0000000000000001.title: "&6&lpack_LBC"
 	chapter_group.1A00000000000001.title: "&6Bienvenue"
 	chapter_group.1A00000000000002.title: "&aCreate"
-	chapter_group.1A00000000000003.title: "&cAventure & Boss"
-	chapter_group.1A00000000000004.title: "&dMagie & Combat"
+	chapter_group.1A00000000000003.title: "&cAventure et Boss"
+	chapter_group.1A00000000000004.title: "&dMagie et Combat"
 	chapter_group.1A00000000000005.title: "&3Dimensions"
-	chapter_group.1A00000000000006.title: "&eRangement & Divers"
+	chapter_group.1A00000000000006.title: "&eRangement et Divers"
 	reward_table.4363F0DDE61F37E2.title: "Caisse commune"
 	reward_table.5BF2DB02CBF4D490.title: "Caisse rare"
 	reward_table.396C1887C2F887B7.title: "Caisse épique"
@@ -1181,7 +1181,7 @@
 	quest.6E284AC12A8D5945.quest_subtitle: "Pour défendre ton vaisseau"
 	quest.6E284AC12A8D5945.title: "Le Canon à Patates Monté"
 	quest.6E5E7A8C91623534.quest_desc: [
-		"Il fonctionne à l'&eélectricité (FE)&r au lieu du carburant. Alimente-le avec des câbles, un Alternateur de Crafts & Additions ou un Générateur à Corail." "" "Plus besoin de faire le plein, mais il faut une bonne source d'énergie à bord."
+		"Il fonctionne à l'&eélectricité (FE)&r au lieu du carburant. Alimente-le avec des câbles, un Alternateur de Crafts and Additions ou un Générateur à Corail." "" "Plus besoin de faire le plein, mais il faut une bonne source d'énergie à bord."
 	]
 	quest.6E5E7A8C91623534.quest_subtitle: "Sans carburant, à l'électricité"
 	quest.6E5E7A8C91623534.title: "Le Propulseur Ionique"
