@@ -1,8 +1,60 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/apotheosis/apotheosis.cfg"
+hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
+
+[[files]]
+file = "config/bosses_of_mass_destruction.json5"
+hash = "0ec13d48df1b13a595202f54f01cd29b79c81060c0f9fae2c81fe187451c3879"
+
+[[files]]
+file = "config/cataclysm-common.toml"
+hash = "128c4c9bc8ee12f8ba949312360d6efc15d0648f798ec316afc0fb699a55d8c8"
+
+[[files]]
+file = "config/combat_roll/server.json5"
+hash = "23e352d3eccad9814e001d1bd4ef7dd506b52900c737b34051c8c0b3d8c6cf4e"
+
+[[files]]
+file = "config/create_connected-common.toml"
+hash = "7df3120878b5c8062afc6b7fb38000264d82cc28067850f077838d5f7af78e2f"
+
+[[files]]
+file = "config/dragonfight.json"
+hash = "279a7cb70efd37be4a31646ea3ce1420c2e4703b4e641effe648f637bb5aed5d"
+
+[[files]]
+file = "config/eternal_starlight.json"
+hash = "38127ddf4741f81fd65748f44d6e17521365cc16a50d198a059239ea5a00560e"
+
+[[files]]
+file = "config/mowziesmobs-common.toml"
+hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
+
+[[files]]
+file = "config/phantasm.json"
+hash = "0257c15307e9f0ddc8c72a2ed2d2078440d57052a8e8d854023974b5251145aa"
+
+[[files]]
+file = "config/solcarrot-server.toml"
+hash = "6183ed5338184f36dcd6a55374b37ae6d0545cc9b6b87e80a190491cb3ff52cd"
+
+[[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "dde086ee4f118ed900a10f00103f28100e56ff0df88c4d3cf3f71c18bbba1ad3"
+
+[[files]]
+file = "config/torchmaster.toml"
+hash = "10c56776eaa9f0a77294383297432d9d44876837312e084e5da9bcfbd8424dc7"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "d25ee7c5a19491d9faf6ab9bf48afa4d05ef15183ac77906fbbd40da4312a7fe"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
