@@ -184,11 +184,7 @@ mr | simple-backups | perf | sauvegardes
 ## --- Client uniquement ---
 mr | sodium | client |
 mr | iris | client |
-mr | sodium-options-api | client |
 mr | reeses-sodium-options | client |
-mr | sodium-extras | client |
-mr | sodium-dynamic-lights | client |
-mr | sodiumleafculling | client |
 mr | immediatelyfast | client |
 mr | entityculling | client |
 mr | badoptimizations | client |
