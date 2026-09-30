@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "87df484d66a723ad2f42e48cf854a98501213f51e3412321d25312f6e124977e"
+hash = "dde086ee4f118ed900a10f00103f28100e56ff0df88c4d3cf3f71c18bbba1ad3"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
