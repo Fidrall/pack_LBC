@@ -199,3 +199,5 @@ mr | lambdynamiclights | client | lumiere dynamique (remplace Sodium Dynamic Lig
 mr | async-locator-refined | perf | locate/cartes/dauphins en asynchrone
 mr | irons-spells-n-spellbooks | jetable | magie combat
 mr | irons-lib | jetable | dependance Iron's Spells
+mr | ct-overhaul-village | jetable | villages plus grands/complets
+mr | guard-villagers | jetable | gardes de village
