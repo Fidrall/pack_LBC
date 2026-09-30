@@ -1,0 +1,11 @@
+{
+  "id": "old_eye",
+  "rarity": "common",
+  "loot_to_inject_id": "endrem:minecraft/chests/desert_pyramid",
+  "loot_tables_id": [
+    "minecraft:chests/desert_pyramid",
+    "betterdeserttemples:chests/tomb_pharaoh",
+    "betterdeserttemples:chests/pharaoh_hidden",
+    "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure"
+  ]
+}

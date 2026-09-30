@@ -7,209 +7,7 @@
 		id: "endrem:cursed_eye"
 	}
 	id: "576F6A1E4D30F4F2"
-	images: [
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -9.0d
-			y: -8.0d
-		}
-		{
-			height: 6.0d
-			image: "minecraft:textures/entity/end_portal.png"
-			order: -1
-			rotation: 0.0d
-			width: 6.0d
-			x: -7.5d
-			y: -5.0d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: -8.0d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: -8.0d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -10.5d
-			y: -6.5d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -10.5d
-			y: -5.0d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -9.0d
-			y: -2.0d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: -2.0d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: -2.0d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: -3.5d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -10.5d
-			y: -3.5d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: -6.5d
-		}
-		{
-			height: 1.5d
-			image: "minecraft:block/end_portal_frame_top"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: -5.0d
-		}
-		{
-			height: 0.35d
-			image: "create:item/goggles"
-			rotation: 0.0d
-			width: 0.35d
-			x: -11.0d
-			y: -6.0d
-		}
-		{
-			height: 0.35d
-			image: "create:item/goggles"
-			rotation: 0.0d
-			width: 0.35d
-			x: -11.0d
-			y: -4.5d
-		}
-		{
-			height: 0.35d
-			image: "create:item/goggles"
-			rotation: 0.0d
-			width: 0.35d
-			x: -11.0d
-			y: -3.0d
-		}
-		{
-			height: 0.35d
-			image: "create:item/goggles"
-			rotation: 0.0d
-			width: 0.35d
-			x: -9.5d
-			y: -1.5d
-		}
-		{
-			height: 0.35d
-			image: "artifacts:item/obsidian_skull"
-			rotation: 0.0d
-			width: 0.35d
-			x: -6.5d
-			y: -1.5d
-		}
-		{
-			height: 0.35d
-			image: "artifacts:item/obsidian_skull"
-			rotation: 0.0d
-			width: 0.35d
-			x: -5.0d
-			y: -3.0d
-		}
-		{
-			height: 0.35d
-			image: "artifacts:item/obsidian_skull"
-			rotation: 0.0d
-			width: 0.35d
-			x: -5.0d
-			y: -4.5d
-		}
-		{
-			height: 0.35d
-			image: "artifacts:item/obsidian_skull"
-			rotation: 0.0d
-			width: 0.35d
-			x: -5.0d
-			y: -6.0d
-		}
-		{
-			height: 0.35d
-			image: "artifacts:item/obsidian_skull"
-			rotation: 0.0d
-			width: 0.35d
-			x: -6.5d
-			y: -7.5d
-		}
-		{
-			height: 0.35d
-			image: "artifacts:item/obsidian_skull"
-			rotation: 0.0d
-			width: 0.35d
-			x: -8.0d
-			y: -7.5d
-		}
-		{
-			height: 0.35d
-			image: "artifacts:item/obsidian_skull"
-			rotation: 0.0d
-			width: 0.35d
-			x: -9.5d
-			y: -7.5d
-		}
-		{
-			height: 0.35d
-			image: "create:item/goggles"
-			rotation: 0.0d
-			width: 0.35d
-			x: -8.0d
-			y: -1.5d
-		}
-	]
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -243,8 +41,10 @@
 					value: 1L
 				}
 			]
-			x: -9.0d
-			y: -10.5d
+			x: 7d
+			y: 4d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			id: "229C5328751C93F5"
@@ -273,8 +73,10 @@
 					value: 1L
 				}
 			]
-			x: -9.0d
-			y: -9.5d
+			x: 7d
+			y: 5.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -306,8 +108,10 @@
 					value: 1L
 				}
 			]
-			x: -9.0d
-			y: -11.5d
+			x: 7d
+			y: 2.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			id: "38C09CF7914BEE30"
@@ -318,13 +122,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "03BBDE7F498EA734"
@@ -335,8 +139,9 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -8.0d
+			x: -4.5d
+			y: 4.0d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			id: "047ACE4F6C1560F0"
@@ -347,13 +152,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "49FD7EBD2F252C09"
@@ -364,8 +169,9 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: -8.0d
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			icon: {
@@ -397,8 +203,10 @@
 					value: 1L
 				}
 			]
-			x: -7.5d
-			y: -10.5d
+			x: 8.5d
+			y: 2.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -430,8 +238,10 @@
 					value: 1L
 				}
 			]
-			x: -3.0d
-			y: -6.5d
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -463,8 +273,10 @@
 					value: 1L
 				}
 			]
-			x: -7.5d
-			y: -11.5d
+			x: 8.5d
+			y: 4d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -496,8 +308,10 @@
 					value: 1L
 				}
 			]
-			x: -3.0d
-			y: -5.0d
+			x: 13d
+			y: 2.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -529,8 +343,10 @@
 					value: 1L
 				}
 			]
-			x: -2.0d
-			y: -5.0d
+			x: 13d
+			y: 4d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -562,8 +378,10 @@
 					value: 1L
 				}
 			]
-			x: -2.0d
-			y: -6.5d
+			x: 11.5d
+			y: 4d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -595,8 +413,10 @@
 					value: 1L
 				}
 			]
-			x: -7.5d
-			y: -9.5d
+			x: 8.5d
+			y: 5.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -628,8 +448,10 @@
 					value: 1L
 				}
 			]
-			x: -3.0d
-			y: -3.5d
+			x: 14.5d
+			y: 2.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -661,8 +483,10 @@
 					value: 1L
 				}
 			]
-			x: -2.0d
-			y: -3.5d
+			x: 14.5d
+			y: 4d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -694,8 +518,10 @@
 					value: 1L
 				}
 			]
-			x: -6.0d
-			y: 0.5d
+			x: 16d
+			y: 4d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -727,8 +553,10 @@
 					value: 1L
 				}
 			]
-			x: -6.0d
-			y: -0.5d
+			x: 16d
+			y: 2.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			id: "498D22534A947B79"
@@ -739,13 +567,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "6030ACF39D2AE60F"
@@ -756,8 +584,9 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -6.5d
+			x: -3d
+			y: 4d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			id: "41C643E334BA412E"
@@ -768,13 +597,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "07551255E03F8720"
@@ -785,8 +614,9 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -2.0d
+			x: -3d
+			y: 2.5d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			id: "79B7F2CF9843FFCB"
@@ -797,13 +627,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3F8715E27985B8D4"
@@ -814,8 +644,9 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -3.5d
+			x: 1.5d
+			y: 4d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			id: "473610BEA4E1765D"
@@ -826,13 +657,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "4BC19283BBBB6725"
@@ -843,37 +674,9 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -6.5d
-		}
-		{
-			id: "4D54723C26FB8C44"
-			rewards: [
-				{
-					id: "1BC5065A879CFE84"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "epique"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "27973190F35E7A37"
-					item: {
-						count: 1
-						id: "endrem:cryptic_eye"
-					}
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: -2.0d
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			id: "5B2ECDE4D4FF3D8D"
@@ -885,13 +688,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "4B7EDC6777C37671"
@@ -902,38 +705,9 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -3.5d
-		}
-		{
-			id: "509760809535E55E"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "05D1836FCCB4FCF2"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "epique"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "2192A51B50E6D55A"
-					item: {
-						count: 1
-						id: "endrem:evil_eye"
-					}
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: -2.0d
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			id: "1B876E65905AE114"
@@ -945,13 +719,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "5F06D21207C52E7F"
@@ -962,8 +736,9 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -5.0d
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			id: "7DDA573B83BD4B2D"
@@ -975,13 +750,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "2C4615E77E17AB5C"
@@ -992,8 +767,9 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -5.0d
+			x: 4.5d
+			y: 4d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			icon: {
@@ -1025,8 +801,10 @@
 					value: 1L
 				}
 			]
-			x: -1.0d
-			y: -5.0d
+			x: 13d
+			y: 5.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -1058,8 +836,10 @@
 					type: "advancement"
 				}
 			]
-			x: -6.0d
-			y: -9.5d
+			x: 10d
+			y: 2.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -1091,8 +871,10 @@
 					value: 1L
 				}
 			]
-			x: -6.0d
-			y: -10.5d
+			x: 10d
+			y: 4d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			icon: {
@@ -1124,8 +906,10 @@
 					value: 1L
 				}
 			]
-			x: -6.0d
-			y: -11.5d
+			x: 10d
+			y: 5.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			id: "1A1A29A846DABADB"
@@ -1136,13 +920,13 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "epique"
+							"ftbquests:loot_crate": "rare"
 						}
 					}
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "1403EF56C46F4E81"
@@ -1153,8 +937,9 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -8.0d
+			x: 0d
+			y: 4d
+			dependencies: ["5B7298316481A1CF"]
 		}
 		{
 			icon: {
@@ -1191,8 +976,10 @@
 					value: 1L
 				}
 			]
-			x: -1.0d
-			y: -3.5d
+			x: 14.5d
+			y: 5.5d
+			dependencies: ["E1E0000000000B01"]
+			hide_dependency_lines: true
 		}
 		{
 			id: "5B7298316481A1CF"
@@ -1215,11 +1002,11 @@
 					type: "checkmark"
 				}
 			]
-			x: -10.5d
-			y: -8.0d
+			x: 0d
+			y: 0d
 		}
 		{
-			dependencies: ["047ACE4F6C1560F0", "79B7F2CF9843FFCB", "7DDA573B83BD4B2D", "41C643E334BA412E", "1A1A29A846DABADB", "498D22534A947B79", "473610BEA4E1765D", "4D54723C26FB8C44", "5B2ECDE4D4FF3D8D", "38C09CF7914BEE30", "509760809535E55E", "1B876E65905AE114"]
+			dependencies: ["1B876E65905AE114", "41C643E334BA412E", "047ACE4F6C1560F0", "E1E0000000000C01", "5B2ECDE4D4FF3D8D", "E1E0000000000C03", "473610BEA4E1765D", "38C09CF7914BEE30", "498D22534A947B79", "E1E0000000000C02", "1A1A29A846DABADB", "79B7F2CF9843FFCB", "E1E0000000000C04", "7DDA573B83BD4B2D"]
 			hide_dependency_lines: true
 			id: "3D6259FBCAA99583"
 			rewards: [
@@ -1227,6 +1014,17 @@
 					id: "620A0DB3D8E30D97"
 					type: "xp"
 					xp: 50
+				}
+				{
+					id: "060159CD11F2E356"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+					}
+					type: "item"
 				}
 			]
 			size: 3.0d
@@ -1237,8 +1035,9 @@
 					type: "dimension"
 				}
 			]
-			x: -7.5d
-			y: -4.9d
+			x: 0d
+			y: 6.5d
+			min_required_dependencies: 12
 		}
 		{
 			dependencies: ["3052F9967211F448"]
@@ -1272,8 +1071,8 @@
 					type: "advancement"
 				}
 			]
-			x: -8.5d
-			y: 4.5d
+			x: -2d
+			y: 10d
 		}
 		{
 			dependencies: ["3D6259FBCAA99583"]
@@ -1298,23 +1097,6 @@
 					type: "item"
 				}
 				{
-					advancement: "apotheosis:progression/pinnacle"
-					auto: "enabled"
-					criterion: ""
-					id: "64B2A3D6FD979CF8"
-					type: "advancement"
-				}
-				{
-					auto: "enabled"
-					command: "/apoth set_world_tier @s pinnacle"
-					icon: {
-						id: "deeperdarker:heart_of_the_deep"
-					}
-					id: "65BE13A64559DB0F"
-					silent: true
-					type: "command"
-				}
-				{
 					id: "5C4007C350790400"
 					item: {
 						count: 1
@@ -1336,8 +1118,8 @@
 					type: "advancement"
 				}
 			]
-			x: -7.5d
-			y: 6.0d
+			x: 0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3052F9967211F448"]
@@ -1382,8 +1164,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 8.25d
+			x: 0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["746F82D541EBA386"]
@@ -1411,8 +1193,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 9.5d
+			x: -0.75d
+			y: 12d
 		}
 		{
 			dependencies: ["746F82D541EBA386"]
@@ -1440,8 +1222,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 9.5d
+			x: 0.75d
+			y: 12d
 		}
 		{
 			dependencies: ["4DF64525E5F3E1FC"]
@@ -1452,8 +1234,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -5.0d
-			y: -9.5d
+			x: 10d
+			y: 7d
 		}
 		{
 			dependencies: ["3052F9967211F448"]
@@ -1479,8 +1261,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -6.0d
-			y: 8.25d
+			x: 3.5d
+			y: 10d
 		}
 		{
 			dependencies: ["3052F9967211F448"]
@@ -1528,8 +1310,8 @@
 									}
 								]
 							}
-							"minecraft:custom_name": "{\"extra\":[{\"color\":\"#FF6600\",\"italic\":false,\"text\":\"Awaken Hellrazor\"}],\"text\":\"\"}"
-							"minecraft:lore": ["{\"extra\":[{\"color\":\"#CCFF66\",\"italic\":false,\"text\":\"Completion isnt the end — its the peak.\"}],\"text\":\"\"}"]
+							"minecraft:custom_name": "{\"extra\":[{\"color\":\"#FF6600\",\"italic\":false,\"text\":\"Hellrazor Éveillée\"}],\"text\":\"\"}"
+							"minecraft:lore": ["{\"extra\":[{\"color\":\"#CCFF66\",\"italic\":false,\"text\":\"Finir n'est pas la fin : c'est le sommet.\"}],\"text\":\"\"}"]
 							"minecraft:unbreakable": { }
 						}
 						count: 1
@@ -1562,8 +1344,144 @@
 					value: 1L
 				}
 			]
-			x: -9.0d
-			y: 8.25d
+			x: 2d
+			y: 10d
+		}
+		{
+			id: "E1E0000000000C01"
+			tasks: [
+				{
+					id: "E1E0000000000D00"
+					item: {
+						count: 1
+						id: "endrem:cold_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			x: 0d
+			y: 2.5d
+			dependencies: ["5B7298316481A1CF"]
+			rewards: [
+				{
+					id: "0AF70A47B6DF7467"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+					}
+					type: "item"
+				}
+			]
+		}
+		{
+			id: "E1E0000000000C02"
+			tasks: [
+				{
+					id: "E1E0000000000D01"
+					item: {
+						count: 1
+						id: "endrem:guardian_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			x: -1.5d
+			y: 4d
+			dependencies: ["5B7298316481A1CF"]
+			rewards: [
+				{
+					id: "51C704150A226EE7"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+					}
+					type: "item"
+				}
+			]
+		}
+		{
+			id: "E1E0000000000C03"
+			tasks: [
+				{
+					id: "E1E0000000000D02"
+					item: {
+						count: 1
+						id: "endrem:rogue_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			x: 3d
+			y: 2.5d
+			dependencies: ["5B7298316481A1CF"]
+			rewards: [
+				{
+					id: "0FCAAF51A25080A9"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+					}
+					type: "item"
+				}
+			]
+		}
+		{
+			id: "E1E0000000000C04"
+			tasks: [
+				{
+					id: "E1E0000000000D03"
+					item: {
+						count: 1
+						id: "endrem:undead_eye"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			x: 3d
+			y: 4d
+			dependencies: ["5B7298316481A1CF"]
+			rewards: [
+				{
+					id: "7B00DCC64743861E"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+					}
+					type: "item"
+				}
+			]
+		}
+		{
+			id: "E1E0000000000B01"
+			tasks: [
+				{
+					id: "E1E0000000000B02"
+					type: "checkmark"
+				}
+			]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			shape: "gear"
+			size: 1.75d
+			x: 9d
+			y: 0d
 		}
 	]
 }

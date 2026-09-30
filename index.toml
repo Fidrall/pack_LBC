@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/EndRemastered-NeoForge/Eyes/corrupted_eye.json"
+hash = "5cdaf4938a4042021bed123702b08e211ac10ef4948b083871fbb4ec0f553960"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/nether_eye.json"
+hash = "38171a734ff2ed977a701318974a5b208e6224bd52e375bf256bb3d31a9143cb"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/old_eye.json"
+hash = "a0237efd1c68534c5f69a815c7c7fdd7f537fd6125b48c21ebbf07d491519e81"
+
+[[files]]
+file = "config/EndRemastered-NeoForge/Eyes/rogue_eye.json"
+hash = "b4a4921d1c61edf2a51fd3af2a9a2db501e4f597fc25501517899a1957de82f5"
+
+[[files]]
 file = "config/apotheosis/apotheosis.cfg"
 hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
@@ -34,7 +50,7 @@ hash = "06b649f3262c29fb92a96a73691578327931a42a95e5b93e12d284c9b3a6f077"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure_progression.snbt"
-hash = "47ff0d219c80ee388588ef82388f8f52eb6c5f6be7e41399e01772a526e8ee92"
+hash = "0f56d8e177d11ddefa0010a6ecaadf1ba9ee13d7c98d855cbdd1ae59205607ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
@@ -102,7 +118,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "ad7e1ec4dc915c3c842b84d2f21348ebc68e1610ff0cb9048ff949ef497a116d"
+hash = "e6b49a65be65e9c0a0b254f18388bb28201515fac27cd9f5acc6043f703fe014"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
