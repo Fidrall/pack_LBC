@@ -197,3 +197,5 @@ mr | yungs-better-strongholds | jetable |
 mr | yungs-better-ocean-monuments | jetable |
 mr | lambdynamiclights | client | lumiere dynamique (remplace Sodium Dynamic Lights)
 mr | async-locator-refined | perf | locate/cartes/dauphins en asynchrone
+mr | irons-spells-n-spellbooks | jetable | magie combat
+mr | irons-lib | jetable | dependance Iron's Spells
