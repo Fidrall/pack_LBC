@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/endrem.pw.toml"
-hash = "43e084efa5f7f4d41eb1c27c998029cf79d403549c8721e7621f650558f94c6e"
+hash = "c039bf70a773a70916fa1c41c022376d0476a60e05c4afa4fa41bb6554c4a9ca"
 metafile = true
 
 [[files]]
