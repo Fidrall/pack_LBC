@@ -1,0 +1,171 @@
+{
+	id: "396C1887C2F887B7"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: true
+		item_name: "Caisse épique"
+		string_id: "epique"
+	}
+	loot_size: 2
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "3E16438EEC1D1F89"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "0B216B8C728CA795"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 2
+			id: "310C7BEBAB827381"
+			item: {
+				count: 1
+				id: "minecraft:ancient_debris"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 1
+			id: "41FBBF23752F36BC"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 1
+			id: "270C7520EA52BFA4"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "705EE48C83BFFDAC"
+			item: {
+				count: 1
+				id: "minecraft:shulker_shell"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 1
+			id: "4483D6B57D9C0CBB"
+			item: {
+				count: 1
+				id: "minecraft:heart_of_the_sea"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 32
+			id: "23C2CCF15DFC145C"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "6AAEE5651787AB5E"
+			item: {
+				count: 1
+				id: "create:sturdy_sheet"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 6
+			id: "4CD67A4D9EE7FD02"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 1
+			id: "7D135FF258813E0B"
+			item: {
+				count: 1
+				id: "apotheosis:sigil_of_socketing"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 1
+			id: "00B97C2786CE4774"
+			item: {
+				count: 1
+				id: "apotheosis:sigil_of_withdrawal"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "4987A1D4DA97953C"
+			item: {
+				count: 1
+				id: "irons_spellbooks:rare_ink"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "577868A621BE1DBC"
+			item: {
+				count: 1
+				id: "irons_spellbooks:arcane_debris"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 1
+			id: "44CAF34A9D210469"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 1
+			id: "70D9645D0B83D77E"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "0F06031745292766"
+			item: {
+				count: 1
+				id: "waystones:warp_scroll"
+			}
+			weight: 4.0f
+		}
+	]
+}

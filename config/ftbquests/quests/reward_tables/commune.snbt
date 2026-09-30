@@ -1,0 +1,206 @@
+{
+	id: "4363F0DDE61F37E2"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Caisse commune"
+		string_id: "commune"
+	}
+	loot_size: 2
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "51CE2F81A9D957F4"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "2392098961AEA9C5"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 32
+			id: "6C79B11268544547"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "347181EB3582DC49"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "0F6F78E8BAF50BCB"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "20C6BA3C6F7BDA94"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "3A2BF06C6E24797D"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 12
+			id: "09E7CD38576BBE21"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 32
+			id: "36BFFAF136C00AF7"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 6
+			id: "6EE5F1A29909D839"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 16
+			id: "16ED3109926FDB6A"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "75FB5FD228D373B5"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "079986B080E85EF9"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "20F8FE8833D6E37F"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "0F93A16A3AB48E46"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			id: "6390FB3A6137CF9A"
+			item: {
+				count: 1
+				id: "farmersdelight:rice"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "713C9B008227B8AE"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			id: "0F37E99A7152361F"
+			item: {
+				count: 1
+				id: "waystones:warp_dust"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "17DFC39431097A53"
+			item: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 6
+			id: "0B40CCF0EC2397E9"
+			item: {
+				count: 1
+				id: "irons_spellbooks:arcane_essence"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "296316F73BE3FDE8"
+			item: {
+				count: 1
+				id: "irons_spellbooks:common_ink"
+			}
+			weight: 3.0f
+		}
+	]
+}

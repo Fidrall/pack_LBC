@@ -1,0 +1,126 @@
+{
+	id: "7D221ADF1898E942"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: true
+		item_name: "Caisse légendaire"
+		string_id: "legendaire"
+	}
+	loot_size: 3
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "1CBF62BBDAFDD728"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 3
+			id: "0237640033383154"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "20E9161BBB06769B"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 1
+			id: "228DCC7A062450D7"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 1
+			id: "6F22C14B201BA392"
+			item: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "2FDA940DC5273345"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 1
+			id: "71C63E2F81CE8696"
+			item: {
+				count: 1
+				id: "apotheosis:sigil_of_enhancement"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 1
+			id: "49C7194D305C225D"
+			item: {
+				count: 1
+				id: "apotheosis:sigil_of_supremacy"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "678C101076E53384"
+			item: {
+				count: 1
+				id: "irons_spellbooks:epic_ink"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 1
+			id: "4584EBE07168D57B"
+			item: {
+				count: 1
+				id: "irons_spellbooks:legendary_ink"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 1
+			id: "5A86893FE5215620"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:diamond_backpack"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 1
+			id: "1B2A0259025661D2"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:netherite_backpack"
+			}
+			weight: 1.0f
+		}
+	]
+}

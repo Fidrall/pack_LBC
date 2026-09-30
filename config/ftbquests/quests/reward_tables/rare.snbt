@@ -1,0 +1,206 @@
+{
+	id: "5BF2DB02CBF4D490"
+	loot_crate: {
+		color: 3381759
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Caisse rare"
+		string_id: "rare"
+	}
+	loot_size: 2
+	order_index: 1
+	rewards: [
+		{
+			count: 3
+			id: "59DC2282743B6868"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "4247F5425AC8C26B"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "20FF700E3C3FE334"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "61DBB83F2E778716"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "6B3B970F001574ED"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "7AAE35F3EDBB8D12"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 1
+			id: "306F62CB83C65419"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 1
+			id: "78EEA09982293A4A"
+			item: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "40DED61E31B26A8A"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 16
+			id: "0B83138D0AF04626"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "4DA50FBE14BC93A5"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "677D161274DB6BD0"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 1
+			id: "74EA330FE56EE17D"
+			item: {
+				count: 1
+				id: "create:blaze_burner"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 1
+			id: "04D74000B2C60E08"
+			item: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 3
+			id: "277A4BDC1A7B3503"
+			item: {
+				count: 1
+				id: "waystones:return_scroll"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 24
+			id: "4A3137B39C5816AF"
+			item: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 16
+			id: "18421920BC3741DF"
+			item: {
+				count: 1
+				id: "irons_spellbooks:arcane_essence"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "4492B93C7C93F220"
+			item: {
+				count: 1
+				id: "irons_spellbooks:uncommon_ink"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "6F0D6BF98F8EB6F8"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 1
+			id: "352FC4B4372EE1AC"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:iron_backpack"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 1
+			id: "4190E76FADEE4C70"
+			item: {
+				count: 1
+				id: "torchmaster:megatorch"
+			}
+			weight: 2.0f
+		}
+	]
+}

@@ -1,0 +1,231 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "teleporters"
+	group: "1A00000000000002"
+	icon: {
+		id: "createteleporters:custom_portal_on"
+	}
+	id: "2A786FFD5532B025"
+	images: [ ]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "24A3D36B0BF64712"
+			rewards: [
+				{
+					id: "4539C6F0E298CAEA"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "768466CF7F5D3F84"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D414F1EC6A0652F"
+					item: {
+						count: 1
+						id: "createteleporters:teleporter"
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "6B9E13665837ECA1"
+			rewards: [
+				{
+					id: "1C166E161B457008"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "029EF9789B082629"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C90D7966E2800DF"
+					item: {
+						count: 1
+						id: "createteleporters:item_tp"
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B9E13665837ECA1"]
+			id: "4FFB18F848C88CC5"
+			rewards: [
+				{
+					id: "0B3F8F60EE691416"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B5DEE870D7D85FC"
+					item: {
+						count: 1
+						id: "createteleporters:tp_link"
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "33E9A4967BA70F29"
+			rewards: [
+				{
+					id: "45FFAF3BDCEB1E2C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "44A746199747CE75"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "51F1634863031724"
+					item: {
+						count: 1
+						id: "createteleporters:custom_portal_base"
+					}
+					type: "item"
+				}
+				{
+					id: "6B59242FF2CFF08D"
+					item: {
+						count: 1
+						id: "createteleporters:quantum_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "5A4658F080DE34DE"
+					item: {
+						count: 1
+						id: "createteleporters:adv_tplink"
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "7FCABCC6BDF8A4EB"
+			rewards: [
+				{
+					id: "77B0D4A0D4983F9E"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B2152B4829B1D38"
+					item: {
+						count: 1
+						id: "createteleporters:pocket_dimension_remote"
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			id: "6D5015C82CCC85FE"
+			rewards: [
+				{
+					id: "5D62E4EFB79C0B39"
+					item: {
+						count: 1
+						id: "ftbquests:lootcrate"
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [
+				{
+					id: "2EEAE622B59A18E3"
+					item: {
+						count: 1
+						id: "createteleporters:quantum_fluid_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 1.5d
+		}
+	]
+}

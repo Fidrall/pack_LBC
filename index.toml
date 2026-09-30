@@ -29,6 +29,98 @@ file = "config/eternal_starlight.json"
 hash = "38127ddf4741f81fd65748f44d6e17521365cc16a50d198a059239ea5a00560e"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "06b649f3262c29fb92a96a73691578327931a42a95e5b93e12d284c9b3a6f077"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/adventure_progression.snbt"
+hash = "47ff0d219c80ee388588ef82388f8f52eb6c5f6be7e41399e01772a526e8ee92"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/artifacts.snbt"
+hash = "88b52e35db11d760ac04b40b5e06abaa5862bf54850642a78a9903343139ce0e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/basics.snbt"
+hash = "fa9e21a8fb000fa10571a0dfc33c9ee7fe5a4359d2bf3a9826dad3b4d97dbef9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_basic.snbt"
+hash = "bb846c6608f78ac8b851c3ea603eb0c1307894af3e4049c2e22dc314d86d3a1a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
+hash = "651ea34b6aadca4a04f553e1a0b4675adadf299ff185f89e677873e2b204b50e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/electricity.snbt"
+hash = "352ec02f5cfb1ad284151c2dda5de0b8f3775a66935703a4b3b6fe1d0c231d26"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/enchanting.snbt"
+hash = "6b28d88a07a124f0511e4164c320940c0bee894825e3e69692928a84073818cd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
+hash = "a328dfa318aaeeefd7238c4f8b94b31b7f66096eb2322628825b7c36b63a6b0e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/garnish.snbt"
+hash = "158bafade101bb44bb2eb55f6b58e2d15966849e92194ba6173ee04b0e6a49d0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
+hash = "89011c088f96dcd18445ac2553f9c1b1f4d348d534ed41de972858ccf5ff5408"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
+hash = "730b04121331705ea7bf278c41fd008eb463fea969b3696cbfa16ea3a4d5ca3b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/new_age.snbt"
+hash = "ae6bac70028f4c8df5f75d6a51d4fece60b1611a8ef9075fb4b0f2bef7579f4c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/simply_swords.snbt"
+hash = "711e37994b7c92889df34aa3fb1e76a6b8f47bedf1c9e823761ddc06efc362c9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
+hash = "b1182645921de1d3e36f4ec67fffb27b79a17b5315daa3457fdfbc75ff14bc4d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/teleporters.snbt"
+hash = "deab195089dcd4f09fd9883d990e6b9eed56673ed36dd26862a6c8b2634b75af"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/vents.snbt"
+hash = "913055adaa5da77c814b6851b904fe6b9dd1ddb68127fef7b3ac3c18b89a6ffc"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
+
+[[files]]
+file = "config/ftbquests/quests/lang/fr_fr.snbt"
+hash = "ad7e1ec4dc915c3c842b84d2f21348ebc68e1610ff0cb9048ff949ef497a116d"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/commune.snbt"
+hash = "1237ecf47ff3c7c38cc0d3fa4303d861d2dd9b925d40b141e777f974ef3cbc2f"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/epique.snbt"
+hash = "02f67441007ee8170304142d9c7d12cfdab2ec327a224da92d99445047177150"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
+hash = "d97e9c7ce80ad4a812a426a8bd08f1b0d6c15ebd140d2d4a1fbc4b0394006c7e"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/rare.snbt"
+hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
+
+[[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
 
@@ -133,7 +225,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -604,6 +696,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "19d86081a1c7654a91f437d85ea34af4e3f2b899c8e0e50d48a04ca97babf7b4"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "93330f6ec85532067df176c6baee0e0f6d685c78088b1a2217726f6421899148"
 metafile = true
 
 [[files]]
