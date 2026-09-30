@@ -1,0 +1,76 @@
+chapter.5A695917A1E23476.title: "&dGolem Overhaul"
+quest.28101F299D039864.quest_desc: [
+  "Apparaît naturellement dans les &achunks à slimes&r, en deux tailles différentes, chacune avec ses propres statistiques."
+]
+quest.28101F299D039864.title: "Golem de slime"
+quest.362C70E45443B57C.quest_desc: [
+  "Fais un &dclic droit&r pour monter sur le &egolem de Netherite&r. Utilise la touche de saut pour attaquer."
+  ""
+  "Fais un &dclic droit&r avec un lingot d'or pour lui ajouter une garniture en or : les piglins deviennent alors neutres envers lui."
+  ""
+  "Fais un &dclic droit&r avec un seau de lave pour débloquer sa capacité d'invocation : il appelle un groupe de golems de charbon pour combattre à ses côtés. La touche est \"R\" par défaut."
+  ""
+  "En contrepartie, le &egolem de Netherite&r devient vulnérable à l'eau."
+]
+quest.362C70E45443B57C.title: "Golem de Netherite"
+quest.372B31F3D301684A.quest_desc: [
+  "Les &egolems de paille&r peuvent être construits par le joueur ou trouvés dans les villages."
+  ""
+  "Ils sont pacifiques, mais empêchent que les cultures soient piétinées dans un rayon de 10×10."
+]
+quest.372B31F3D301684A.title: "Golem de paille"
+quest.3DEAE2A5E71AEF5A.quest_desc: [
+  "Les &egolems de terre cuite&r apparaissent dans les badlands, ou s'invoquent en plaçant une statue de golem de terre cuite près d'une source de chaleur."
+  ""
+  "Ils attaquent naturellement les monstres. Un clic droit avec un cactus ou un buisson mort améliore leurs attaques."
+  ""
+  "Un cactus fait passer leurs dégâts de 4 à 6, et un buisson mort leur donne une attaque à distance."
+]
+quest.3DEAE2A5E71AEF5A.title: "Golem de terre cuite"
+quest.4CC9D588886E2778.quest_desc: [
+  "Les &egolems de charbon éteints&r apparaissent près des minerais de charbon et ne s'en prennent pas aux monstres."
+  ""
+  "Un &cclic droit avec un briquet&r les transforme en &egolems de charbon allumés&r :"
+  "ils deviennent hostiles envers les monstres, mais meurent après avoir attaqué."
+]
+quest.4CC9D588886E2778.title: "Golem de charbon"
+quest.52C5644D8C7CB5CC.quest_desc: [
+  "Le &egolem d'algues&r est plus rapide dans l'eau."
+  ""
+  "À portée d'un conduit, il passe en mode chargé : +100 % de force, régénération progressive et +100 % de résistance, tant qu'il reste à portée."
+]
+quest.52C5644D8C7CB5CC.title: "Golem d'algues"
+quest.6A7C0604FA1E82BB.quest_desc: [
+  "Se trouve dans les villages. Quand il est attaqué, le &egolem tonneau&r ferme son couvercle et se cache comme un tonneau, ce qui réduit les dégâts reçus de 90 %."
+  ""
+  "Il fait pareil quand il dort la nuit."
+  ""
+  "On peut faire du troc avec le &egolem tonneau&r en lui jetant des émeraudes."
+]
+quest.6A7C0604FA1E82BB.title: "Golem tonneau"
+quest.6C1085B9052E3A52.quest_desc: [
+  "Se trouve dans les forêts de bouleaux. Le &egolem de miel&r tire des projectiles de miel sur les monstres, qui les ralentissent."
+  ""
+  "Il sert aussi de ruche : des abeilles vivent dedans, le défendent et le soignent."
+  ""
+  "Ces abeilles produisent du miel, qu'on peut récolter sur le golem sous forme de boules de miel."
+  "Les boules de miel se lancent et ont le même effet que les projectiles du golem."
+]
+quest.6C1085B9052E3A52.title: "Golem de miel"
+quest.70FA406AD3A8A7A9.quest_desc: [
+  "Les &egolems bougies&r apparaissent avec un clic droit sur un &cbloc de golem bougie&r."
+  ""
+  "Un clic droit leur dit de s'asseoir ou de se lever. Assis, ils reçoivent 90 % de dégâts en moins des projectiles."
+  ""
+  "On les allume avec un briquet. Allumés, ils tirent des boules de feu sur les monstres."
+  ""
+  "Trop utiliser cette attaque use leur vie jusqu'à ce que leur bougie s'éteigne,"
+  "et il faut alors les réparer."
+]
+quest.70FA406AD3A8A7A9.title: "Golem bougie"
+quest.7E7B5A9C3AE9FBF8.quest_desc: [
+  "&aGolem Overhaul&r ajoute 9 nouveaux golems, chacun avec son propre fonctionnement !"
+  ""
+  "Certains sont pacifiques, comme le golem de paille qui protège tes cultures, d'autres sont assez forts pour affronter des monstres comme le Warden."
+]
+quest.7E7B5A9C3AE9FBF8.title: "&aGolem Overhaul"

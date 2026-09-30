@@ -1,0 +1,636 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether_end"
+	group: "1A00000000000005"
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "7EFC62EFB68D7191"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "3B8DD40BD3EF0512"
+			rewards: [
+				{
+					id: "45357AB43B2E32DE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "1CC933990B822639"
+					type: "dimension"
+				}
+			]
+			x: -3d
+			y: 0d
+		}
+		{
+			dependencies: ["3B8DD40BD3EF0512"]
+			id: "3760586B81B88A89"
+			rewards: [
+				{
+					id: "0329F8236A1D1D80"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11DEDC91BB8CC04F"
+					structure: "betterfortresses:fortress"
+					type: "structure"
+				}
+			]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B8DD40BD3EF0512"]
+			id: "4A83D2EC59D885B8"
+			rewards: [
+				{
+					id: "669A5372979A918D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "incendium:misc/loot_piglin_village"
+					criterion: ""
+					id: "2AF0B011360E74FE"
+					type: "advancement"
+				}
+			]
+			x: -3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B8DD40BD3EF0512"]
+			id: "2CB3072DA5957E2B"
+			rewards: [
+				{
+					id: "2008A1FDE59E2F2B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "incendium:misc/ruined_lab"
+					criterion: ""
+					id: "243FBCCFC9AAE9F7"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3760586B81B88A89"]
+			id: "4D4EE7CADBAF19BB"
+			rewards: [
+				{
+					id: "0FD33FA6D05713D1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "incendium:withered_forest/kill_spirit"
+					criterion: ""
+					id: "1C28D28EF993A80B"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["4A83D2EC59D885B8"]
+			id: "41856CF652A43501"
+			rewards: [
+				{
+					id: "4910E057AEB44FF0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "incendium:quartz_flats/sanctum/vault_hunter"
+					criterion: ""
+					id: "6FE5EE115E885A4C"
+					type: "advancement"
+				}
+			]
+			x: -3d
+			y: 3d
+		}
+		{
+			dependencies: ["2CB3072DA5957E2B"]
+			id: "2CEBB3A0D85BFEB9"
+			rewards: [
+				{
+					id: "26DB09554322696B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "incendium:infernal_dunes/pipeline/kill_sentry"
+					criterion: ""
+					id: "1E3EDDBF77BC2267"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["4D4EE7CADBAF19BB"]
+			icon: {
+				id: "minecraft:blackstone"
+			}
+			id: "59E19F13A596AD38"
+			rewards: [
+				{
+					id: "2B1FCA66F094286E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "incendium:ash_barrens/conquer_castle"
+					criterion: ""
+					id: "1126B0D3ABF9ADCC"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CEBB3A0D85BFEB9", "41856CF652A43501"]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "7C837320AB9AD46F"
+			rewards: [
+				{
+					id: "494CC7F7BCEB1310"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "incendium:infernal_dunes/inferno/kill"
+					criterion: ""
+					id: "2DD02A2357037A09"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41856CF652A43501"]
+			id: "156EAD510B4FBCDF"
+			optional: true
+			rewards: [
+				{
+					id: "33D29722228C8C90"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4B5B9DA4CD31B126"
+					structure: "hellish_trials:nether_trial"
+					type: "structure"
+				}
+			]
+			x: -3d
+			y: 4.5d
+		}
+		{
+			dependencies: ["59E19F13A596AD38", "7C837320AB9AD46F"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "12A0A5DACE8A7479"
+			rewards: [
+				{
+					id: "086A0A3DEC836479"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0FE7C3E953F1EDA0"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2d
+			tasks: [
+				{
+					id: "449AD8FC65D63BE4"
+					type: "checkmark"
+				}
+			]
+			x: -3d
+			y: 6d
+		}
+		{
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "3C873E6BA9E110A9"
+			rewards: [
+				{
+					id: "5E1D1AB8814FA3C7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "762314E66DC8D321"
+					type: "dimension"
+				}
+			]
+			x: 3d
+			y: 0d
+		}
+		{
+			dependencies: ["3C873E6BA9E110A9"]
+			id: "32049634B2771331"
+			rewards: [
+				{
+					id: "2E26806544F8CFAE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "phantasm:find_dreaming_den"
+					criterion: ""
+					id: "561A8B36D7351EF5"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C873E6BA9E110A9"]
+			id: "76100542C15576F4"
+			rewards: [
+				{
+					id: "331DB9A54BDCF7E6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "phantasm:get_crystal"
+					criterion: ""
+					id: "0AE8895BCE3D82FE"
+					type: "advancement"
+				}
+			]
+			x: 3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C873E6BA9E110A9"]
+			id: "53660F533D9C497D"
+			rewards: [
+				{
+					id: "65A03DA171D170D9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "phantasm:find_acidburnt_abysses"
+					criterion: ""
+					id: "308CB1273F2A62FA"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32049634B2771331"]
+			id: "23A42BEFABC326B8"
+			rewards: [
+				{
+					id: "0D07EE5B4522B716"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "phantasm:find_underisland"
+					criterion: ""
+					id: "533BBFAB9E557438"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["76100542C15576F4"]
+			id: "78AFAA428C5BBF29"
+			rewards: [
+				{
+					id: "04153098715AD121"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "phantasm:get_crystal_tools"
+					criterion: ""
+					id: "7A85146AE314948E"
+					type: "advancement"
+				}
+			]
+			x: 3d
+			y: 3d
+		}
+		{
+			dependencies: ["53660F533D9C497D"]
+			id: "549A53036AB75BCE"
+			rewards: [
+				{
+					id: "30F276FB19E32C32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "phantasm:find_choral_riff"
+					criterion: ""
+					id: "48C4572FF11EA578"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["23A42BEFABC326B8", "78AFAA428C5BBF29", "549A53036AB75BCE"]
+			id: "699D3019400A5563"
+			rewards: [
+				{
+					id: "1B1C6DF107BCBF4C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A62687EE3D60896"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+			]
+			x: 3d
+			y: 4.5d
+		}
+		{
+			dependencies: ["699D3019400A5563"]
+			id: "58E1221EBD659CB5"
+			optional: true
+			rewards: [
+				{
+					id: "74DA99CC86428D25"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D13E0FC753B2B8B"
+					structure: "mes:mega_ship"
+					type: "structure"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["699D3019400A5563"]
+			id: "050A758FB6279593"
+			optional: true
+			rewards: [
+				{
+					id: "159AC05FE836A6B5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00B8FC2C22F2C677"
+					structure: "nova_structures:end_castle"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["699D3019400A5563"]
+			id: "5542E0D0F60B201D"
+			rewards: [
+				{
+					id: "369619B2F00DFFCD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "450537EC812D3D66"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2d
+			tasks: [
+				{
+					count: 1L
+					id: "6C2A7CBD3EFE6912"
+					item: { count: 1, id: "minecraft:dragon_head" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 6d
+		}
+	]
+}

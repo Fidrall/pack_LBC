@@ -1,0 +1,19 @@
+chapter.4B6E4A0215F45FC0.title: "&3The Otherside: &0Deeper and Darker"
+quest.0FF69526C1DC1593.quest_desc: [
+  "Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "
+]
+quest.192EE909C57F390A.quest_subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
+quest.2807106C369DF042.quest_subtitle: "Get your hands on a Sculk Transmitter."
+quest.3CBDB45D65737212.quest_subtitle: "Found by stepping on Infested Sculk"
+quest.44937B2D2EB38094.quest_desc: [
+  "After defeating the Warden, you can now craft the &aWarden Helmet&r by combining a Netherite Helmet with &2Reinforced Echo Shards&r in the Smithing Table."
+  ""
+  "This helmet is crucial for exploring &8&lThe Otherside&r, as it negates the effects of darkness in that dimension."
+]
+quest.704CCA2CEAB23B4D.quest_desc: [
+  "Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."
+]
+quest.731C3214BB61FDAE.quest_desc: [
+  "Found underground in the &aOverworld&r."
+]
+quest.731C3214BB61FDAE.quest_subtitle: "Kill the warden"

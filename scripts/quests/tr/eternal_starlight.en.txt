@@ -1,0 +1,44 @@
+chapter.50471206A7BA908F.title: "&3Eternal Starlight"
+quest.2475C6740BBD5273.quest_desc: [
+  "To enter the &bStarlight Dimension&r, find Portal Ruins in the Overworld, guarded by the &cGatekeeper&r. "
+  ""
+  "&dRight-click&r the &cGatekeeper&r to challenge them."
+  ""
+  "After winning the duel, you'll receive a bag containing the &aOrb of Prophecy.&r Use the Orb on the portal to activate it, then step through to begin your journey."
+  ""
+  "&d@eternal&r"
+]
+quest.325C7701BB3E3F73.quest_desc: [
+  "The &6Starlight Golem&r can be found in the underground forge known as &bThe Golem Forge.&r"
+  ""
+  "To locate it, use a&e Seeking Eye&r while holding &eRedstone&r in your off-hand."
+  ""
+  "&n&lFight Tips&r&r"
+  "When the &6Starlight Golem&r begins absorbing energy from nearby energy blocks, &byou must deactivate them by right-clicking with a Frozen Tube.&r"
+  ""
+  "This &3item is dropped by Freeze&r mobs found within the dungeon."
+]
+quest.325C7701BB3E3F73.title: "&6Starlight Golem"
+quest.7D080D777F9AADCA.quest_desc: [
+  "&6The Lunar Monstrosity&r can be found in the &bCursed Garden&r, which appears as a large maze."
+  ""
+  "To locate it, use a &eSeeking Eye&r while holding &eLunar Berries&r in your off-hand."
+  ""
+  "&l&nFight Tips&r&r"
+  "To defeat the &6Lunar Monstrosity&r, &cyou must set it on fire&r. "
+  ""
+  "You can use &cFlint and Steel or a Saltpeter Matchbox&r &4to ignite&r its vines and make it vulnerable."
+  ""
+  "&eThe Tangled Heart&r is a mini-boss that assists the &6Lunar Monstrosity&r. While not very strong, it can be annoying—its attacks inflict poison."
+]
+quest.7D080D777F9AADCA.title: "&6Lunar Monstrosity"
+quest.7DA8BD4034753FBD.quest_desc: [
+  "In order to locate the bosses in this dimension, you'll need a &6Seeking Eye&r. They work similarly to Ender Pearls."
+  ""
+  "&bTo find a specific structure, you must hold the corresponding item in your off-hand.&r"
+  ""
+  ""
+  "&3Starlight Golem&r – Requires: Redstone, Golem Steel, and Oxidized Golem Steel."
+  ""
+  "&3Lunar Monstrosity&r – Requires: Lunar Berries, Vines and Blue/Red Crystal Roots."
+]

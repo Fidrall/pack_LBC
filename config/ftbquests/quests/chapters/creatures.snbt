@@ -1,0 +1,714 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creatures"
+	group: "1A00000000000003"
+	icon: {
+		id: "mowziesmobs:wrought_helmet"
+	}
+	id: "5A13526D80BE2D3C"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "6AF530358EE9745A"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "06722F76DFA16584"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "352F74F0B8D742A9"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6B87B64D8F370153"
+					type: "checkmark"
+				}
+			]
+			x: -3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["352F74F0B8D742A9"]
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "5289FAFF5642AFFD"
+			rewards: [
+				{
+					id: "277CC917CEC14B38"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "2ECDB8514A3C8393"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["352F74F0B8D742A9"]
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "32874A063226CBCF"
+			rewards: [
+				{
+					id: "70DBA356A7652D72"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "0076C93B0E2BDA2A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3d
+			y: 3d
+		}
+		{
+			dependencies: ["352F74F0B8D742A9"]
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "3C7D9FC17EB00995"
+			rewards: [
+				{
+					id: "05674CCFF8A8CA00"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "31F9A6F31DF59148"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["5289FAFF5642AFFD"]
+			icon: {
+				id: "mowziesmobs:earthrend_gauntlet"
+			}
+			id: "1F46D0D373488587"
+			rewards: [
+				{
+					id: "2D20CAB5870950C0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "520D503F195E79D8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32874A063226CBCF"]
+			icon: {
+				id: "mowziesmobs:naga_fang"
+			}
+			id: "2BC88A1485E60C46"
+			rewards: [
+				{
+					id: "6C572137DF3521BD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "mowziesmobs:naga"
+					id: "62C522D8DD1579A7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C7D9FC17EB00995"]
+			id: "28E5210FA4512E41"
+			rewards: [
+				{
+					id: "4CF827ABBE7002C6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1383C830E719E19C"
+					item: { count: 1, id: "mowziesmobs:foliaath_seed" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			icon: {
+				id: "aquamirae:terrible_blade"
+			}
+			id: "6B935D543CA1FA96"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4FE26B9FC5FCA29A"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B935D543CA1FA96"]
+			id: "28E06AE60D76FF71"
+			rewards: [
+				{
+					id: "435CC4594C48BF8F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "04842310F3DA052B"
+					item: { count: 1, id: "aquamirae:frozen_key" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B935D543CA1FA96"]
+			id: "7D915CDB04620116"
+			rewards: [
+				{
+					id: "612E0807AEFA8F75"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "aquamirae:maze_mother"
+					id: "14EC90DFDCA04906"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0d
+			y: 4d
+		}
+		{
+			dependencies: ["7D915CDB04620116"]
+			icon: {
+				id: "aquamirae:terrible_blade"
+			}
+			id: "22DC9B40D891A64D"
+			rewards: [
+				{
+					id: "5B3FE87B19236C60"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "5AAE781E40B8E109"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["22DC9B40D891A64D"]
+			id: "75AE7C0749254F5D"
+			optional: true
+			rewards: [
+				{
+					id: "4856B828C6C03E4F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "07BA2C6E12135B70"
+					item: { count: 1, id: "aquamirae:abyssal_heaume" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			icon: {
+				id: "illagerinvasion:hallowed_gem"
+			}
+			id: "0030852E282BC66A"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7A914A2A159F03B5"
+					type: "checkmark"
+				}
+			]
+			x: 3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0030852E282BC66A"]
+			icon: {
+				id: "illagerinvasion:hallowed_gem"
+			}
+			id: "6F8B33C36B43999A"
+			rewards: [
+				{
+					id: "6F2996858B72F7E2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					entity: "illagerinvasion:invoker"
+					id: "520B8719A020341D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3d
+			y: 3d
+		}
+		{
+			dependencies: ["6F8B33C36B43999A"]
+			id: "0F4D2E3476133AE8"
+			rewards: [
+				{
+					id: "37767E86DF98053C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "16EABEFF9440DE87"
+					item: { count: 1, id: "illagerinvasion:imbuing_table" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["0030852E282BC66A"]
+			id: "1A67D80917EA15CF"
+			optional: true
+			rewards: [
+				{
+					id: "5616331D1465235C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6EADCE15F47002B9"
+					item: { count: 1, id: "illagerinvasion:horn_of_sight" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			icon: {
+				id: "friendsandfoes:copper_golem_head"
+			}
+			id: "064A83B56235884F"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6FA79A0E3B31D1CD"
+					type: "checkmark"
+				}
+			]
+			x: 6d
+			y: 0d
+		}
+		{
+			dependencies: ["064A83B56235884F"]
+			id: "60AF2FC964E72731"
+			rewards: [
+				{
+					id: "476210E772C99329"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "641E02CD66606C20"
+					item: { count: 1, id: "friendsandfoes:copper_golem_head" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0d
+		}
+		{
+			dependencies: ["064A83B56235884F"]
+			id: "0DE4AE6DCA1420BD"
+			rewards: [
+				{
+					id: "5C00B4444039551E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2252ED0025A1DCA5"
+					item: { count: 1, id: "friendsandfoes:crab_claw" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["064A83B56235884F"]
+			icon: {
+				id: "friendsandfoes:wildfire_crown"
+			}
+			id: "1370AA1D2E036600"
+			rewards: [
+				{
+					id: "430F3C8039B966B2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "friendsandfoes:wildfire"
+					id: "41520A71144EE82B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1370AA1D2E036600"]
+			id: "49E4AA14726CFAEB"
+			rewards: [
+				{
+					id: "08085A5A6A038FD8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1AB30131FCD4E469"
+					item: { count: 1, id: "friendsandfoes:totem_of_freezing" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "6C3BBFD3966A90C4"
+					item: { count: 1, id: "friendsandfoes:totem_of_illusion" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 3d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			icon: {
+				id: "crittersandcompanions:acorn"
+			}
+			id: "077E534959528ED7"
+			size: 1.5d
+			tasks: [
+				{
+					id: "145078315F0B473D"
+					type: "checkmark"
+				}
+			]
+			x: 3d
+			y: 5d
+		}
+		{
+			dependencies: ["077E534959528ED7"]
+			id: "4232D7614DB72EF4"
+			rewards: [
+				{
+					id: "7F402736AD27559D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7795D2ECAF457E47"
+					item: { count: 1, id: "crittersandcompanions:silk" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5d
+		}
+		{
+			dependencies: ["077E534959528ED7"]
+			id: "25291DAC5CB309E0"
+			rewards: [
+				{
+					id: "73811064932F77D0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4F5F4A182A572AEC"
+					item: { count: 1, id: "crittersandcompanions:pearl" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 6.5d
+		}
+		{
+			dependencies: ["077E534959528ED7"]
+			id: "7BDAB9CA395B8D7C"
+			optional: true
+			rewards: [
+				{
+					id: "338F3B239982974B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3747422B16F00947"
+					item: { count: 1, id: "crittersandcompanions:koi_fish_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["077E534959528ED7"]
+			id: "1E019C50FB661CCD"
+			optional: true
+			rewards: [
+				{
+					id: "7F30B181FA3FA698"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7493B003F45337CD"
+					item: { count: 1, id: "crittersandcompanions:dumbo_octopus_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.5d
+		}
+	]
+}

@@ -1,0 +1,145 @@
+chapter.1E120AECD53D1AEC.title: "&5&lApotheosis"
+chapter.1E120AECD53D1AEC.chapter_subtitle: [
+  "Butin RPG, gemmes et enchantement avancé"
+]
+quest.6D43AA38D6FF1796.title: "&5&lLe butin façon RPG"
+quest.6D43AA38D6FF1796.quest_subtitle: "Raretés, affixes et gemmes"
+quest.6D43AA38D6FF1796.quest_desc: [
+  "Avec &5Apotheosis&r, l'équipement que tu trouves peut avoir une &erareté&r : &7Commun&r, &aPeu commun&r, &9Rare&r, &5Épique&r ou &6Mythique&r."
+  ""
+  "Chaque rareté ajoute des &aaffixes&r (bonus de statistiques) et des &bemplacements de gemmes&r. Les objets Mythiques ont même une capacité unique."
+  ""
+  "Où trouver ce butin ? Dans les &ecoffres des structures&r, et surtout sur les &cmonstres élites&r et les &cboss d'Apotheosis&r, qui apparaissent de temps en temps dans le monde (ils brillent et sont annoncés)."
+]
+task.0D14509C8C557CFD.title: "Clique pour valider"
+quest.35D99C7DB0EC998D.title: "Les Niveaux du Monde"
+quest.35D99C7DB0EC998D.quest_subtitle: "Ctrl + T"
+quest.35D99C7DB0EC998D.quest_desc: [
+  "Apotheosis a des &6Niveaux du Monde&r : Havre, Frontière, Ascension, Sommet et Apogée. Ouvre le menu avec &aCtrl + T&r."
+  ""
+  "Tu débloques les niveaux supérieurs en progressant. Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin."
+  ""
+  "&cChaque joueur choisit son niveau.&r Mettez-vous d'accord en équipe avant de monter : un niveau trop haut peut vite devenir mortel !"
+]
+task.5DB129727B72195B.title: "Compris !"
+quest.696BB5F027653A7E.title: "La Table de Récupération"
+quest.696BB5F027653A7E.quest_subtitle: "Recycler l'équipement inutile"
+quest.696BB5F027653A7E.quest_desc: [
+  "Elle démonte les objets à affixes et les gemmes pour récupérer des &ematériaux de rareté&r (ferraille mystérieuse, tissu usé, éclats de cristal lumineux…) et de la &epoudre de gemme&r."
+  ""
+  "Ne jette plus jamais un objet à affixes : recycle-le !"
+]
+quest.291D5B25D5A51A9B.title: "&bTa première gemme"
+quest.291D5B25D5A51A9B.quest_subtitle: "Des bonus à insérer"
+quest.291D5B25D5A51A9B.quest_desc: [
+  "Les &bgemmes&r se trouvent sur les monstres et dans les coffres. Chaque type donne des bonus différents selon l'objet où on l'insère."
+  ""
+  "Insère-les sur la &eTable de Forgeron&r, dans un objet qui a un emplacement libre."
+]
+quest.7BE1DD6E3B1DBACC.title: "La Table de Taille de Gemmes"
+quest.7BE1DD6E3B1DBACC.quest_subtitle: "Améliorer ses gemmes"
+quest.7BE1DD6E3B1DBACC.quest_desc: [
+  "Combine deux gemmes identiques (et de la poudre de gemme) pour monter leur &erareté&r et leurs bonus."
+]
+quest.37E65C83FBB7A83D.title: "Les Sceaux"
+quest.37E65C83FBB7A83D.quest_subtitle: "Emplacements, retrait et plus"
+quest.37E65C83FBB7A83D.quest_desc: [
+  "Les &eSceaux&r servent à modifier l'équipement sur la table de forgeron :"
+  ""
+  "- &eSceau d'Emplacement&r : ajoute un emplacement de gemme ;"
+  "- &eSceau de Retrait&r : retire les gemmes sans les détruire ;"
+  "- &eSceau d'Amélioration&r, de &eSuprématie&r, de &eRenaissance&r… pour les objets les plus avancés."
+  ""
+  "Les sceaux rares se trouvent dans les &5caisses épiques et légendaires&r du livre de quêtes !"
+]
+quest.7369715F39A6B465.title: "La Table de Reforge"
+quest.7369715F39A6B465.quest_subtitle: "Monter la rareté"
+quest.7369715F39A6B465.quest_desc: [
+  "La &eTable de Reforge Simple&r relance les affixes et monte la rareté d'un objet jusqu'à &9Rare&r, avec des matériaux de rareté et de la poudre de gemme."
+  ""
+  "La &eTable de Reforge&r avancée va jusqu'à &5Épique&r et &6Mythique&r."
+]
+quest.1955BE13A53DC36D.title: "La Table de Reforge avancée"
+quest.1955BE13A53DC36D.quest_subtitle: "Vers le mythique"
+quest.1955BE13A53DC36D.quest_desc: [
+  "Transforme ton meilleur équipement en objet &6Mythique&r, avec une capacité unique !"
+]
+quest.1578DE3B3D679FBE.title: "La Table d'Augmentation"
+quest.1578DE3B3D679FBE.quest_subtitle: "Optimiser ses affixes"
+quest.1578DE3B3D679FBE.quest_desc: [
+  "Elle permet de &arelancer un affixe précis&r ou d'&amaximiser ses valeurs&r. Parfait pour peaufiner ton équipement final."
+]
+quest.06B66726F87DF00E.title: "&dL'enchantement d'Apotheosis"
+quest.06B66726F87DF00E.quest_subtitle: "Eterna, Quanta et Arcana"
+quest.06B66726F87DF00E.quest_desc: [
+  "La table d'enchantement fonctionne différemment : les &ebibliothèques&r autour d'elle donnent trois statistiques."
+  ""
+  "- &aEterna&r : le niveau maximum des enchantements ;"
+  "- &cQuanta&r : la part de hasard (plus de puissance, mais moins prévisible) ;"
+  "- &dArcana&r : la chance d'obtenir des enchantements rares et multiples."
+  ""
+  "Chaque type de bibliothèque change ces statistiques. Survole-les pour voir leurs bonus."
+  ""
+  "&7Tu peux aussi enchanter avec les machines de Create: Enchantment Industry : à toi de choisir !"
+]
+quest.04C1E2AB542EDD57.title: "La Bibliothèque Infernale"
+quest.04C1E2AB542EDD57.quest_subtitle: "Plus de puissance"
+quest.04C1E2AB542EDD57.quest_desc: [
+  "Faite avec des matériaux du Nether, elle augmente fortement l'&aEterna&r et la &cQuanta&r."
+]
+quest.197DBBD5A4F740E6.title: "La Bibliothèque Marine"
+quest.197DBBD5A4F740E6.quest_subtitle: "Plus de variété"
+quest.197DBBD5A4F740E6.quest_desc: [
+  "Faite avec des matériaux de l'océan, elle augmente l'&aEterna&r et l'&dArcana&r."
+]
+quest.0B1E1FCC73BFB370.title: "La Bibliothèque des Abysses"
+quest.0B1E1FCC73BFB370.quest_subtitle: "Les enchantements les plus hauts"
+quest.0B1E1FCC73BFB370.quest_desc: [
+  "Faite avec des matériaux des Abîmes (et plus tard du sculk), elle permet d'atteindre les niveaux d'enchantement les plus élevés."
+]
+quest.7CA151FCABD637F0.title: "La Bibliothèque de l'End"
+quest.7CA151FCABD637F0.quest_subtitle: "Le sommet"
+quest.7CA151FCABD637F0.quest_desc: [
+  "Les bibliothèques de l'End et leurs versions draconiques permettent d'atteindre le niveau d'enchantement maximum. Combine-les pour obtenir la table parfaite !"
+]
+quest.72996A02EBC963FD.title: "La Bibliothèque d'Enchantements"
+quest.72996A02EBC963FD.quest_subtitle: "Stocker tous tes livres"
+quest.72996A02EBC963FD.quest_desc: [
+  "Elle absorbe tes livres enchantés et les stocke sous forme de points. Tu peux ensuite en ressortir n'importe quel enchantement au niveau voulu, et les combiner sans coût."
+  ""
+  "La &eBibliothèque de l'Ender&r stocke des enchantements de plus haut niveau."
+]
+quest.5BB490A47B9EA399.title: "Les Tomes"
+quest.5BB490A47B9EA399.quest_subtitle: "Des livres spécialisés"
+quest.5BB490A47B9EA399.quest_desc: [
+  "Les &eTomes&r (d'arme, de casque, d'arc…) s'enchantent comme un objet de ce type, puis se transforment en livre enchanté. Pratique pour viser les enchantements d'un type d'objet précis."
+]
+quest.6CC3201150271644.title: "Le Souffle Infusé"
+quest.6CC3201150271644.quest_subtitle: "L'infusion d'objets"
+quest.6CC3201150271644.quest_desc: [
+  "Certaines recettes d'Apotheosis se font en &eenchantant un objet&r au lieu de le fabriquer : l'&einfusion&r. Le Souffle Infusé en est un exemple."
+  ""
+  "Regarde les recettes d'infusion dans JEI."
+]
+quest.1B17D371E6E7C13A.title: "&6Les générateurs de monstres"
+quest.1B17D371E6E7C13A.quest_subtitle: "Des fermes sur mesure"
+quest.1B17D371E6E7C13A.quest_desc: [
+  "Avec une pioche &eToucher de soie&r, tu peux &arécupérer les générateurs de monstres&r trouvés dans les donjons."
+  ""
+  "Ils peuvent ensuite être &eaméliorés&r : plus rapides, plus de monstres, fonctionnement sans joueur à proximité ou sans lumière… Regarde les objets d'amélioration (runes) dans JEI."
+  ""
+  "Parfait pour une ferme à XP ou à butin. &7Attention à ne pas surcharger le serveur avec trop de monstres !&r"
+]
+quest.4AA7E76FD9ACF93A.title: "Les runes de générateur"
+quest.4AA7E76FD9ACF93A.quest_subtitle: "Améliorer un générateur"
+quest.4AA7E76FD9ACF93A.quest_desc: [
+  "Les &erunes&r s'appliquent sur un générateur pour modifier son comportement. Chaque rune a son effet : délai, portée, nombre de monstres, silence…"
+]
+quest.6BE589E8C3FADF4C.title: "&6&lÉquipement légendaire"
+quest.6BE589E8C3FADF4C.quest_subtitle: "L'objectif final du chapitre"
+quest.6BE589E8C3FADF4C.quest_desc: [
+  "Obtiens (ou forge) une &6pièce d'équipement Mythique&r, avec ses gemmes et ses enchantements au maximum."
+  ""
+  "Valide la quête quand tu as ton équipement parfait. &6&lTu es une légende !&r"
+]
+task.67B32620AF72D501.title: "Mon équipement est mythique"

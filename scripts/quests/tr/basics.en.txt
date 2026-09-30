@@ -1,0 +1,566 @@
+chapter.09B56D111668F538.title: "&6&nGetting Started!"
+quest.0475AEB443175059.quest_desc: [
+  "&dArmor Statues&r unlocks the full potential of armor stands. "
+  ""
+  "Customize everything: unlock arms, rotate each body part, choose from built-in poses, and adjust various style settings. "
+  ""
+  "It also includes great tools for positioning the armor stand, even making the stand itself invisible to display items seamlessly."
+  ""
+  "To configure, &2shift right-click&r with an empty hand and explore a wide array of options."
+]
+quest.05B32DE12868C6DE.quest_desc: [
+  "With your &ewooden pickaxe&r in hand, breaking stone is no longer a problem."
+  ""
+  "Gather some &7cobblestone&r to craft a &afurnace&r—your first step toward smelting and cooking."
+  ""
+  "While you're at it, consider upgrading to a stone pickaxe so you can start mining better ores like &bIron&r!"
+]
+quest.05B32DE12868C6DE.title: "Stone and Flame"
+quest.05BAE9FB04861C47.quest_desc: [
+  "Your first step is to craft a &eSalvaging Table&r a workstation that lets you recycle tools containing affixes or gems to recover valuable materials."
+  ""
+  "&6Once you obtain your first gem&r, you can use the table to break it down into &bGem Dust&r, which is essential for crafting your next tables."
+  ""
+  "Not sure how to get gems? Check the &aEndventure quest chapter&r for guidance!"
+]
+quest.06267D7C266DE215.quest_desc: [
+  "You’ve made it — the moment every miner dreams of."
+  ""
+  "Dig deep and find your first &bDiamonds&r."
+  ""
+  "These rare gems are not just for bragging rights; they’re used in powerful tools and machines."
+]
+quest.06267D7C266DE215.title: "&bShiny and Rare"
+quest.0B0043E696D0EE22.quest_desc: [
+  "&aThe Smithing Table is used to insert gems into your tools&r but only if the tool has an open gem &bsocket&r. "
+  ""
+  "If a &bsocket &ris available, simply place the tool and the gem in the &eSmithing Table&r to apply it."
+  ""
+  "To remove a gem, use a &9Sigil of Withdrawal.&r"
+  ""
+  "To add a new socket, use a &9Sigil of Socketing.&r"
+]
+quest.0C4974DE21CEDF4B.quest_desc: [
+  "&6Archaeology&r allows players to uncover hidden items inside &eSuspicious Sand&r and &eSuspicious Gravel&r."
+  ""
+  "These special blocks can be found in structures like Warm Ocean Ruins, Desert Pyramids, and Desert Wells."
+  ""
+  "To retrieve items, craft a Brush and use it to gently clear the suspicious blocks."
+  ""
+  "You can also craft an &bArchaeology Table&r using 4 Wooden Planks, 1 Brush, and Artifact Shards. This table lets you analyze Unidentified Artifacts and transform them into one of four Identified Artifacts, each with its own unique power."
+  ""
+  "And yes — through archaeology, you can even discover rare and powerful &6Artifacts&r hidden beneath the sands of time."
+]
+quest.0C4974DE21CEDF4B.title: "&6Archaeology!&r"
+quest.1045FB828F50B457.quest_desc: [
+  "What could you do with this tools?"
+]
+quest.1045FB828F50B457.title: "Let's Get Cooking"
+quest.114173896E5DF62C.quest_desc: [
+  "A &eCompass&r can be bound to a &3Lodestones&r with &7[&rRight-Click&7]&r, causing the needle to point towards it when in the same dimension."
+]
+quest.114173896E5DF62C.quest_subtitle: "Find a Lodestone"
+quest.12029CC14E6FFE54.quest_desc: [
+  "&aThe Reforging Table&r works just like the Simple version however, this advanced table lets you go beyond &9Rare&r, upgrading all the way to &6Epic and Mythic tiers.&r"
+]
+quest.1278600075A14600.quest_desc: [
+  "A new village civilization has been discovered in &6the Swamps&r. We have named them &aRibbits&r as the habitants of this new village are Frogs. "
+  ""
+  "Further studies are needed to find their origin but some researchers believe a Witch might have dropped some Ooze by mistake in the waters, turning the frogs into &aRibbits&r. "
+  ""
+  "The &aRibbits&r have an enjoyment for music, they can be found playing various instruments by themselves or in groups, like a Frog band, makes me wonder if they are playing the Frog Choir? At least the moon is not falling in 3 days haha."
+  ""
+  "Researchers have found that if you play with &6Maracas,&r the &aRibbits&r will join you and play their instruments. "
+]
+quest.1278600075A14600.title: "&2Find a Ribbit village"
+quest.15B432E69AB118B5.quest_desc: [
+  "A &6spyglass&r can be equipped in your Curios slot. The default key to access it is &d\"Z\".&r"
+]
+quest.1B78054E61C50110.quest_desc: [
+  "Bee Nests house wild Bees! They can't be moved but produce &cHoneycomb&r, which can be used to craft a &eBeehive.&r"
+  ""
+  "To safely shear a full hive or nest, light a Campfire underneath. Otherwise, Bees will get angry."
+  ""
+  "Carpet can be placed over Campfires to prevent fire damage."
+]
+quest.1B78054E61C50110.title: "Find a Bee Nest"
+quest.1F6BC8C2A5B8F9B2.quest_desc: [
+  "&c❤&r&a Thank you for playing The Endventure&r &c❤&r, a cozy and creative journey built around exploration, light automation, and flexible progression."
+  ""
+  "&eIn this world, your ultimate goal if you choose to accept it is to open the End Portal.&r But don’t be fooled… this is no easy task!"
+  ""
+  "To activate it, you must collect &312 unique Ender Eyes&r, each crafted from 3 fragments tied to different challenges: combat, automation, and exploration."
+  ""
+  "You’ll also discover the &6Order of Engineers,&r an ancient society offering optional tasks across three tiers. These grant Seals you can trade in the Market for valuable items."
+  ""
+  "Play your way — as a builder, tinkerer, explorer, boss slayer, or magician. &dThere's no forced progression, and recipes remain mostly unchanged to preserve each mod's original vision. Some exclusive items are locked behind the Market to make it more rewarding."
+  "&r"
+  "Looking for a tougher, gated experience? Try our other pack: &cCreate Chronicles: Bosses and Beyond&r — with full progression locks and a greater challenge."
+  ""
+  "You can always open quest book by pressing &dF4&r"
+  ""
+  "&6&lGood luck, Engineer. Your Endventure begins now.&r&r"
+]
+quest.1F6BC8C2A5B8F9B2.quest_subtitle: "&bYour imagination is the only blueprint you need...."
+quest.1F6BC8C2A5B8F9B2.title: "&lWelcome to &eCreate Chronicles:&r &aThe Endventure&r&r"
+quest.1FBE9C78798263F3.quest_desc: [
+  "When crafted, a respawn anchor has no (zero) charge and can't yet be used until charged. Using a glowstone block (not glowstone dust) on it adds a charge. The anchor accepts up to 4 charges, and the charge level is indicated by a dial on the side of the block"
+  ""
+  "The first charge makes the respawn anchor glow with a light level of 3. Each glowstone after the first increases the light level by 4, up to a maximum of 15."
+  ""
+  ""
+  "{@pagebreak}"
+  "&6Setting respawn&r"
+  ""
+  "To set the player's spawn location to the respawn anchor they must use it, just like one does with a bed. The anchor must at least have one charge, and it must be in the Nether. A confirmation appears when the player's respawn location is set. Other players can also set their spawn point to the same respawn anchor. "
+  ""
+  "Each respawn uses up one charge, even if used by another player."
+  ""
+  "Using a charged anchor overrides any other spawn location the player might have had, as with a bed. The respawn anchor does not serve as a backup spawn point to a missing or obstructed bed."
+  ""
+  ""
+  "{@pagebreak}"
+  "&6Respawn upon player death&r"
+  ""
+  "Upon death, the player respawns next to the anchor, and it loses one charge."
+  ""
+  "If a player's respawn anchor is destroyed, if its charges have been exhausted, or if the area around it is made unsuitable for respawning, a message appears saying \"You have no home bed or charged Respawn Anchor, or it was obstructed\", and the player respawns at the world spawn point. Returning through an end portal is not counted as a respawn against the charges."
+  ""
+  ""
+  "{@pagebreak}"
+  "&6Exploding&r"
+  ""
+  "If the player attempts to set their spawn at a charged respawn anchor in the Overworld, the End, or custom dimensions in which they are disabled, the block explodes (and is destroyed) similar to when a bed is used in the Nether or the End. The explosion has a power of 5 and sets fire to surrounding blocks."
+  ""
+  ""
+  "{@pagebreak}"
+  "&6Redstone component&r"
+  ""
+  "When charged, a redstone comparator gives a signal depending on the number of charges: 3 for one charge, 7 for two charges, 11 for three charges, 15 for four charges. An empty anchor gives a signal of 0."
+  ""
+  "The respawn anchor can also be charged with a dispenser."
+  ""
+  "The respawn anchor cannot be pushed by a piston."
+  ""
+  ""
+  "{@pagebreak}"
+  "&6Mobs&r"
+  ""
+  "Hoglins run away from respawn anchors."
+  ""
+  "&6Note blocks&r"
+  ""
+  "Respawn anchors can be placed under note blocks to produce the \"bass drum\" sound."
+]
+quest.1FBE9C78798263F3.quest_subtitle: "Charge a Respawn Anchor to the maximum"
+quest.1FF26858DB8E88F8.quest_subtitle: "Obtain loot by breaking a vase."
+quest.23A4406529BEF918.quest_desc: [
+  "&eOrganic Compost&r can be placed in sunlight to decompose it into &3Rich Soil&r. "
+  ""
+  "Having water or decomposing agents like Mushrooms nearby can speed up the decomposition process."
+]
+quest.256C0855A1AD720B.quest_desc: [
+  "When placed, the &9Dread Lamp&r prevents all passive mobs from naturally spawning in a &d96 block radius&r."
+]
+quest.28B245505F91D21C.quest_desc: [
+  "I’m going to assume you’ve been out mining, right?"
+  ""
+  "With your &6furnace&r ready, it’s time to &6smelt your first Iron and Copper ingots.&r"
+  ""
+  "These basic metals are key to unlocking better tools and machines."
+  ""
+  "From here on out, things are only going to get more exciting."
+]
+quest.28B245505F91D21C.title: "The Age of Metal"
+quest.2BC8D0B1B84F96DB.quest_desc: [
+  "The &6Library of Alexandria&r is an upgraded Enchantment Library. "
+  ""
+  "It can store higher-level &aenchanted books&r and hold significantly more &benchantment points.&r"
+]
+quest.2E3B821A8A402B3E.quest_desc: [
+  "You can claim chunks to protect your base and prevent others from modifying your builds."
+  ""
+  "To get started, &aopen the world map&r by pressing the &6“M”&r key."
+  "On the right side, you'll see three icons — click the first one, labeled FTB Chunks Claiming."
+  ""
+  "{image:kubejs:textures/chunks.png width:100 height:83 align:center}"
+  ""
+  "Once activated, you'll see a grid over your world."
+  "You can claim chunks by simply left-clicking and dragging across the map."
+  ""
+  "To unclaim, just hold right-click and drag."
+  ""
+  "If you want to force-load your claimed chunks (so machines and farms keep running even when you're not nearby), hold &aLeft Shift&r while claiming."
+  ""
+  "Sometimes it might take a second to register changes, but don’t worry no chunks are lost during the process."
+]
+quest.2E3B821A8A402B3E.title: "&6Multiplayer:&r Chunk Claiming"
+quest.2F1F1047E8A734EC.quest_desc: [
+  "&cSimply Swords&r brings an entirely new arsenal of weapons to explore."
+  "From fast daggers to heavy greatswords, each type offers unique combat styles and effects."
+  ""
+  "It also introduces extremely rare &6Legendary weapons&r with powerful abilities — these can only be found as drops from specific bosses."
+  ""
+  "Even more, the mod features the unique &3Runic Powers&r system. Certain weapons can roll up to &6two sockets&r when looted, allowing you to enhance them with special gems."
+  ""
+  "There are two socket types: &bNetherfused&r and &3Runefused&r."
+  "To socket a weapon, left-click the gem, then left-click the matching weapon."
+  "&c⚠Note: Socketing is permanent — gems cannot be removed.&r"
+  ""
+  "It’s the best way to understand the mechanics, weapon types, and upgrade systems Simply Swords has to offer."
+]
+quest.3171F1AE14E3C1ED.quest_desc: [
+  "&6Stoves &rare a stylish and functional alternative to campfires. When combined with a &6Cooking Pot,&r they become an essential tool for preparing some of the most delicious meals in the game."
+  ""
+  "Remember: you can view what recipes use the Cooking Pot by selecting it and pressing &dU.&r"
+  ""
+  "&d@farmers&r"
+]
+quest.3171F1AE14E3C1ED.title: "&6Farmer's Delight"
+quest.32E0EEC3834F9846.quest_desc: [
+  "&6Straw&r is an item which is made by either cutting plants with a &6knife&r on a Cutting Board, or harvesting plants with a &6knife&r."
+]
+quest.3570097E250F33B0.quest_desc: [
+  "Craft an &6Unidentified Artifact&r from Shards. Now the identifying begins!"
+]
+quest.374A73FE0C12C105.quest_desc: [
+  "In order to make it, combine a &cEmpowered Remnant&r with a &6Netherite Ingot&r in a Smithing Table."
+  ""
+  "Click to identify which power you have rolled."
+]
+quest.3D1AC201E82A3A87.quest_desc: [
+  "If you are to make it out there, you need to protect yourself with a set of &7iron armor&r."
+  ""
+  "There are tons of different sets you can choose from across various mods."
+]
+quest.3D8B2D9B4488D1C4.quest_desc: [
+  "&cEmpowered Remnants&r are created by melting down unique weapons."
+  ""
+  "They are used in the creation of &9Runefused Gems&r, and &6Netherfused Gems&r."
+]
+quest.3D8B2D9B4488D1C4.quest_subtitle: "A Pain to Make..."
+quest.3D93780758BA7194.quest_desc: [
+  "Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."
+]
+quest.4095FA4FB6615FCA.quest_desc: [
+  "&eApotheosis has been extensively rebalanced to deliver a fairer and more polished gameplay experience. &r"
+  ""
+  "Gems and affixes now serve as small progression bonuses rather than overpowered stat boosts, making the system feel more controlled and rewarding."
+  ""
+  "&aApotheotic enchantments&r and their associated items &chave been disabled. &rInstead, enchantment progression is now handled through &aCreate: Enchantment Industry&r, which provides a more immersive and balanced path."
+  ""
+  "&6The World Tier system&r has also been reworked. &aPress Ctrl + T to open the tier menu&r — this is required to use the &6Reforging Table.&r "
+  ""
+  "By default, the world starts in the Haven tier and shifts to Pinnacle after defeating the Ender Dragon. &dJust skip the tutorial and ignore the rest; you won’t need to interact with that menu again.&r"
+  ""
+  "&bTo begin acquiring Apotheosis gems and materials, start battling Tier 2 bosses and beyond.&r The higher the tier, the greater the rewards. For a complete guide on boss progression, check out the “&aThe Endventure&r” quest chapter."
+  ""
+  "Finally, some enchantment books and items have been removed for balance purposes. But don't worry — &aspawner mechanics are fully functional,&r and you can still use them to build mob farms."
+  ""
+  ""
+  "&a&aTip:&r&r &e&oYou can pick up mob spawners with a pickaxe that has Silk Touch.&r&r"
+]
+quest.4095FA4FB6615FCA.title: "&l&dApotheosis Rework and Integration&r&r"
+quest.4198B060806140C0.quest_desc: [
+  "&6The Simple Reforging Table&r allows you to apply affixes, reroll stats, and upgrade item rarity up to Rare."
+  ""
+  "To use it, you’ll need special materials like:"
+  ""
+  "* &7Mysterious Scrap Metal&r (for Common rarity)"
+  ""
+  "* &aTimeworn Fabric&r (for Uncommon rarity)"
+  ""
+  "* &9Luminous Crystal&r (for Rare rarity)"
+  ""
+  "Let’s say you have a diamond sword? by reforging it, you transform it into a colored, enhanced weapon with affixes that boost its stats and unlock gem slots."
+  ""
+  "This system allows you to progressively grow stronger, turning ordinary tools into powerful gear tailored to your playstyle."
+]
+quest.44CFD2F48C7AA908.quest_desc: [
+  "Tree Fertilizer can grow Saplings instantly regardless of their spacing conditions. "
+]
+quest.478DE12D3EF8C22A.quest_desc: [
+  "When placed, the &6Mega Torch&r prevents all hostile mobs from naturally spawning in a &696 block radius&r."
+  ""
+  "Great for stopping hostile spawns in dark parts of your base!"
+  ""
+  "You can also see your light levels by &3pressing F7&r"
+]
+quest.478DE12D3EF8C22A.title: "Preventing Mob Spawns"
+quest.485444C876FDECFF.quest_desc: [
+  "The way you locate structures has also changed you'll now need to &6buy special maps from the Market.&r "
+  ""
+  "These maps work differently &ethey don’t guide you to the nearest location, but instead give you random coordinates&r for the structure you’re looking for."
+  ""
+  "Because of that, buying more than one map might point you to different spots. That randomness is part of the challenge!"
+]
+quest.485444C876FDECFF.title: "&aFinding Structures with Maps"
+quest.4E256AAA75ECF41E.quest_desc: [
+  "After defeating the &0Wither&r, use the &eNether Star&r to craft a &cBeacon&r and place it to claim your reward."
+]
+quest.4E2CDE150137F5E9.quest_desc: [
+  "To make it, combine a &bRunic Tablet&r with a &cEmpowered Remnant&r in a Smithing Table."
+  ""
+  "Click to identify which power you have rolled."
+]
+quest.51E19ACD3F0994BE.quest_desc: [
+  "&3Rich Farmland&r is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"
+]
+quest.5525E70F7FBDBD92.quest_desc: [
+  "&aYour feedback and assistance are invaluable to improving this modpack.&r"
+  ""
+  "For suggestions, bug reports, or if you're interested in contributing, please reach out to us on Discord. "
+  ""
+  "Your support helps us make this modpack better for everyone!"
+  ""
+  "https://discord.gg/pkEvhgByPw"
+]
+quest.5525E70F7FBDBD92.title: "&6Your feedback is important :)"
+quest.567ED608748850A8.quest_desc: [
+  "&aMagic Coins&r are an essential part of the pack. They can only be found in loot chests while exploring."
+  ""
+  "There are three types of coins:"
+  ""
+  "&7Silver Coin&r = 1"
+  ""
+  "&6Gold Coin&r = 50"
+  ""
+  "&bCrystal Coin&r = 2500"
+  ""
+  "If you have a coin in your inventory, you can right-click it to store it in your wallet. "
+  ""
+  "Once stored, you’ll see three new buttons in your inventory UI that let you extract coins back to your inventory."
+  ""
+  "&eCoins are used in the Market to buy exclusive items, so spend wisely—your supply is limited!&r"
+]
+quest.567ED608748850A8.quest_subtitle: "$$$$$$$$"
+quest.567ED608748850A8.title: "&6Mastering Currency"
+quest.5BAE6CD47D4ABF2D.quest_desc: [
+  "Transform your Minecraft world with elegant and stylish decor. From modern furniture to classic pieces, add a touch of sophistication to your builds"
+  ""
+  "Decorate with style and make your Minecraft creations truly stand out."
+]
+quest.5BAE6CD47D4ABF2D.quest_subtitle: "Create with style"
+quest.5BAE6CD47D4ABF2D.title: "Decoration and Building Options."
+quest.610E616AA011A7A9.quest_desc: [
+  "A bundle lets you carry different items together, up to one stack total, in a single inventory slot."
+]
+quest.6144BBDCA3192593.quest_desc: [
+  "&6Building Gadgets&r mod allows you to create some cool gadgets to help you build big bases, or for clearing out large areas using the &dDestruction Gadget.&r"
+  ""
+  ""
+  "&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
+  ""
+  "&d@building&r"
+]
+quest.6144BBDCA3192593.title: "&6Building Gadgets"
+quest.640C3588E6BA8DF2.quest_desc: [
+  "Combat mechanics were altered by the &6Better Combat&r and &6Dodge Roll&r mod."
+  ""
+  "&c-> Dodge Roll&r"
+  "Press &6\"R\"&r (default key) to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
+  ""
+  "The combat roll ability has 6 seconds cooldown by default."
+  ""
+  ""
+  "&c-> Better Combat&r"
+  "Each weapon has its own attack animation and timing. Consecutive attacks trigger combos, and holding the attack button allows continuous strikes."
+]
+quest.640C3588E6BA8DF2.title: "Combat Mechanics"
+quest.64B6D3C0ACA9473F.quest_desc: [
+  "&6The Gem Cutting Table&r lets you increase the rarity of your gems by combining two of the same type."
+  ""
+  "Check JEI for the available recipes and start upgrading your gems!"
+]
+quest.660C3D5CB407247F.quest_desc: [
+  "&l&cCheck Your Keybinds!&r&r"
+  "Sometimes a feature might not work because a key is unassigned or conflicting with another function. Make sure to review your keybinds and adjust them as needed."
+  ""
+  "These are the default keybinds you should have:"
+  ""
+  "&6\"B\"&r – Opens Backpack (Sophisticated Backpacks)"
+  ""
+  "&6\"V\"&r – Cast Spell (Irons and Spellbooks&r)"
+  ""
+  "&6\"Scroll Wheel\"&r – Open Spell Selection Menu (Irons and Spellbooks)"
+  ""
+  "&6\"F4\"&r – Opens Quest Book"
+  ""
+  "&6\"M\"&r – Opens Map (JourneyMap)"
+  ""
+  "&6\"Y\"&r – Waypoints Manager (JourneyMap)"
+  ""
+  "&6\"N\"&r – Quick Create New Waypoint (JourneyMap)"
+  ""
+  "&6\"+ / -\"&r – Zoom In/Out Minimap (JourneyMap)"
+  ""
+  "&6\"Scroll Wheel\"&r – Sort Inventory"
+  ""
+  "&6\"U\"&r – Wrench open wheel (Create)"
+  ""
+  "&6\"J\"&r – Corpse Death History (Corpse)"
+  ""
+  "&6\"Ctrl+T\"&r – Open world tier (Apotheosis)"
+  ""
+  "&6\"Shift+T\"&r – Link items on the chat (Apotheosis)"
+  ""
+  "&6\"Z\"&r – Uses Spyglass from inventory (Spyglass Improvements)"
+  ""
+  "&6\"F7\"&r – Light levels overlays"
+  ""
+  "&6\"F9\"&r – Chunks borders overlays"
+  ""
+  "If something doesn’t seem to work, always double-check if the key is properly assigned or if it's overlapping with another mod’s keybind!"
+]
+quest.660C3D5CB407247F.title: "&6Keybinds"
+quest.6613D41573B7F0B9.quest_desc: [
+  "&aIn this pack, food is fundamental not just for survival, but for permanent health progression.&r"
+  ""
+  "With &6The Spice of Life: Carrot Edition&r, the only way to increase your max health (aside from heart container) is by eating a wide variety of unique foods."
+  ""
+  "The &aFood Book&r keeps track of how many different foods you’ve consumed."
+  "Hit specific milestones and you’ll gain up to &l&c26 extra hearts&r."
+  ""
+  "As you may have noticed,&b Apotheosis&r does not provide bonus hearts through stats, effects, or gems."
+  ""
+  "So if you're looking to become tankier... it’s time to start cooking."
+]
+quest.6613D41573B7F0B9.quest_subtitle: "Welcome to a healthier and heartier adventure!"
+quest.6613D41573B7F0B9.title: " &l&cThe True Path to More Hearts"
+quest.67FA8896AD563A77.quest_desc: [
+  "&eWaystones&r can be found scattered throughout the world, but &cthey do not spawn in villages&r, as the mod doesn't currently support that feature. They offer a fast and convenient way to travel across vast distances."
+  ""
+  "Once you activate a &eWaystone&r, &bit becomes visible to all players by default.&r"
+  ""
+  "You can rename any &eWaystone&r by &ashift-right-clicking&r it with an empty hand."
+  ""
+  "Keep an eye out for &ewaystones&r early in your adventure—they greatly ease map exploration."
+  ""
+  "Additionally, there are other ways to create teleportation points throughout the world!"
+]
+quest.67FA8896AD563A77.title: "&eWaystones"
+quest.6C09C1569A947DA0.quest_desc: [
+  "&6The Augmenting Table&r allows you to&a reroll affixes&r on your items or &amaximize their stats&r."
+]
+quest.6D382620BBC1E6C0.quest_desc: [
+  "This pack includes &63 shader packs&r to enhance your gameplay visuals."
+  ""
+  "You can select your preferred shader by navigating to &aOptions → Video Settings → Shader Packs&r."
+  ""
+  "Try out the different options and choose the one that best fits your style and performance needs."
+]
+quest.6D382620BBC1E6C0.title: "&6Shaders"
+quest.6D7443087DE01DD9.quest_desc: [
+  "This mod adds the latest additions of the Vanilla Minecraft&6 such as the &9Happy Ghast&r and the &3Bundle.&r"
+]
+quest.6D7443087DE01DD9.title: "&6Vanilla Backport"
+quest.6E4DA395958EFE02.quest_desc: [
+  "&cThese enchantments have been removed for balancing reasons:&r"
+  ""
+  "* Boon of the Earth"
+  ""
+  "* Scavenger"
+  ""
+  "* Capturing"
+]
+quest.6E4DA395958EFE02.title: " Enchantment Removal"
+quest.72746FE37828D4F6.quest_desc: [
+  "Step into the future of enchantment storage with the &6Enchant Library&r — the ultimate solution for managing your &aEnchanted Books&r."
+  ""
+  "To deposit enchantments, simply shift-left click your &aBooks&r or place them into the &9Blue Input Slot&r. The system will absorb them into its mystical archive, converting each enchantment into stored &dEssence Points&r."
+  ""
+  "Enchantments are categorized by type and stored in scalable quantities:"
+  ""
+  "Level I = 1 Point"
+  ""
+  "Level II = 2 Points"
+  ""
+  "Level III = 4 Points"
+  ""
+  "Level IV = 8 Points"
+  "...and so on."
+  ""
+  "Each enchantment type can store up to &d32,768 Points&r. Retrieval is simple: click on the enchantment you wish to extract, and it will begin building in the &6Crafting Slot&r. Repeated clicks increase its level."
+  ""
+  "You can even combine multiple enchantments in the &6Orange Output&r just like you would on an Anvil — but without the cost."
+]
+quest.72A5DEFDD0F3470D.quest_desc: [
+  "With a &bDiamond tier pickaxe&r, you'll be able to mine &dObsidian&r. &dObsidian&r can be used to create a portal to the &cNether&r."
+  ""
+  "The portal frame can be many different sizes, but most go with the basic \"Door\" shape. This is a hollow 4x5 shape using a minimum of 10 Obsidian. You don't have to use Obsidian for the corners, just the portal frame itself!"
+]
+quest.72A5DEFDD0F3470D.title: "&cTo The Nether!&r"
+quest.77CB99E12D41EFF3.quest_desc: [
+  "&dAmethyst&r naturally generates in large geodes underground, surrounded by layers of Basalt and Calcite."
+  ""
+  "To collect &5Amethyst Shards&r, look for Budding Amethyst Blocks — but be careful, these blocks are immovable and can’t be mined or picked up."
+  ""
+  "Instead, keep an eye on the Amethyst Clusters that grow on them. These are the renewable source of shards and can be safely harvested once fully grown."
+]
+quest.77CB99E12D41EFF3.quest_subtitle: "Find a Geode"
+quest.77EEE919C23E18B1.quest_desc: [
+  "Hidden beneath the sands of Warm Ocean Ruins lies a mysterious egg—uncover it by carefully brushing away &aSuspicious Sand&r."
+  ""
+  "Once placed in the world, the egg will slowly hatch into a curious &dSnifflet&r. Normally, this process takes about 20 minutes, but placing it on Moss speeds things up—cutting the wait time in half."
+  ""
+  "In time, your Snifflet will grow into a full-grown &dSniffer&r, a gentle giant with a nose for ancient seeds like &2Torchflower&r and &2Pitcher Pods&r. Let them roam on diggable ground and they’ll do the rest."
+  ""
+  "Feeling like a breeder? Feed two adult Sniffers some Torchflowers to start a new generation."
+]
+quest.7C68CB331F9E5212.quest_desc: [
+  "&n&8Common&r&r"
+  "0-1 Affixes"
+  "0–1 Gem Slots"
+  ""
+  "&n&aUncommon&r&r"
+  "1 Affix"
+  "1 Gem Slot"
+  ""
+  "&n&9Rare&r&r"
+  "1 Basic Effect"
+  "1 Affix"
+  "2 Gem Slots"
+  ""
+  "&n&5Epic&r&r"
+  "1 Basic Effect"
+  "2 Affixes"
+  "2 Gem Slots"
+  ""
+  "&n&6Mythic&r&r"
+  "1 Basic Effect"
+  "2 Affixes"
+  "3 Gem Slots"
+  "1 Unique Ability"
+]
+quest.7C68CB331F9E5212.title: "&a&lItem Rarity Tiers and Properties&r&r"
+quest.7EF948B39FBEA377.quest_desc: [
+  "No matter your experience, every journey begins with a simple tool."
+  ""
+  "A &6wooden pickaxe&r may not be fancy, but it’s your gateway to stone, ores, and progression."
+  ""
+  "Use it wisely it won’t last forever, but it will get you to &7cobblestone&r and beyond."
+]
+quest.7EF948B39FBEA377.title: "Our First Pick"
+quest.7FA5CDC0F616D2C5.quest_desc: [
+  "Time to leave stone behind."
+  ""
+  "With an &6Iron Pickaxe&r, you can finally mine &bDiamonds.&r"
+]
+quest.7FA5CDC0F616D2C5.title: " A Sharp Upgrade"
+quest.7FF84508B3E0168F.quest_desc: [
+  "Did you know you can use the &cNether&r to travel between two points in the &aOverworld&r at a much shorter distance?"
+  ""
+  "Placing two portals with a distance of just 10 blocks between them in the &cNether&r gives you a distance of 80 blocks in the &aOverworld&r between portals."
+  ""
+  "This can be used to make trains travel vast distances in the &aOverworld&r by covering a short distance in the &cNether&r."
+]
+quest.7FF84508B3E0168F.title: "Subspace Bubble"
+task.184D02801FC28C38.title: "&6I'm so excited to play the pack"
+task.1D986DC9FFE37C6A.title: "Click to Acknowledge"
+task.3AD4F43742EABEE7.title: "Click to Acknowledge"
+task.413699776BB0AF8C.title: "ewww :("
+task.4901CB7BF209864A.title: "Click to Acknowledge"
+task.5A0FD6D40314D526.title: "Click to Acknowledge"
+task.62FE40FB89D4E82D.title: "Click to Acknowledge"
+task.65A099F8209103AE.title: "&aI will be the richest person"
+task.6FD0241035AC0F91.title: "Click to Acknowledge"

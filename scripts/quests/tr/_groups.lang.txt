@@ -1,0 +1,6 @@
+	chapter_group.1A00000000000001.title: "&6Bienvenue"
+	chapter_group.1A00000000000002.title: "&aCreate"
+	chapter_group.1A00000000000003.title: "&cAventure et Boss"
+	chapter_group.1A00000000000004.title: "&dMagie et Combat"
+	chapter_group.1A00000000000005.title: "&3Dimensions"
+	chapter_group.1A00000000000006.title: "&eRangement et Divers"

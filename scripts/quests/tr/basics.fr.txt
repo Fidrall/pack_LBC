@@ -1,0 +1,472 @@
+chapter.09B56D111668F538.title: "&6&nPremiers pas !"
+quest.05B32DE12868C6DE.quest_desc: [
+  "Avec ta &epioche en bois&r, la pierre n'est plus un problème."
+  ""
+  "Récupère de la &7pierre taillée&r pour fabriquer un &afourneau&r : ta première étape pour fondre et cuire."
+  ""
+  "Profites-en pour passer à la pioche en pierre et commencer à miner de meilleurs minerais, comme le &bfer&r !"
+]
+quest.05B32DE12868C6DE.title: "La pierre et la flamme"
+quest.05BAE9FB04861C47.quest_desc: [
+  "Première étape : fabriquer une &eTable de Récupération&r, qui permet de recycler les outils ayant des affixes ou des gemmes pour récupérer des matériaux précieux."
+  ""
+  "&6Dès que tu obtiens ta première gemme&r, cette table peut la réduire en &bPoudre de Gemme&r, indispensable pour fabriquer les tables suivantes."
+  ""
+  "Tu ne sais pas où trouver des gemmes ? Les boss, les monstres élites et les coffres des structures en donnent. Regarde le chapitre &aLa Route de l'End&r !"
+]
+quest.06267D7C266DE215.quest_desc: [
+  "Ça y est, le moment dont rêve tout mineur."
+  ""
+  "Creuse profond et trouve tes premiers &bdiamants&r."
+  ""
+  "Ils ne servent pas qu'à frimer : on en a besoin pour les outils et les machines les plus puissants."
+]
+quest.06267D7C266DE215.title: "&bBrillant et rare"
+quest.0B0043E696D0EE22.quest_desc: [
+  "&aLa Table de Forgeron sert à insérer des gemmes dans tes outils&r, à condition qu'ils aient un &bemplacement&r libre."
+  ""
+  "Si un &bemplacement&r est libre, place l'outil et la gemme dans la &eTable de Forgeron&r."
+  ""
+  "Pour retirer une gemme, utilise un &9Sceau de Retrait&r."
+  ""
+  "Pour ajouter un emplacement, utilise un &9Sceau d'Emplacement&r."
+]
+quest.0C4974DE21CEDF4B.quest_desc: [
+  "L'&6archéologie&r permet de découvrir des objets cachés dans le &esable suspect&r et le &egravier suspect&r."
+  ""
+  "Ces blocs spéciaux se trouvent dans des structures comme les ruines océaniques chaudes, les pyramides du désert et les puits du désert."
+  ""
+  "Pour récupérer les objets, fabrique un pinceau et utilise-le pour dégager doucement les blocs suspects."
+  ""
+  "Tu peux aussi fabriquer une &bTable d'Archéologie&r avec 4 planches, 1 pinceau et des éclats d'artefact. Elle permet d'analyser les Artefacts Non Identifiés et de les transformer en l'un des quatre Artefacts Identifiés, chacun avec son propre pouvoir."
+  ""
+  "Et oui : grâce à l'archéologie, tu peux même trouver de rares et puissants &6Artefacts&r cachés dans les sables du temps."
+]
+quest.0C4974DE21CEDF4B.title: "&6L'archéologie !&r"
+quest.1045FB828F50B457.quest_desc: [
+  "Que pourrais-tu faire avec ces outils ?"
+]
+quest.1045FB828F50B457.title: "À la cuisine !"
+quest.114173896E5DF62C.quest_desc: [
+  "Une &eboussole&r peut être liée à une &3magnétite&r avec un &7[&rclic droit&7]&r : l'aiguille pointera alors vers elle, tant que tu es dans la même dimension."
+]
+quest.114173896E5DF62C.quest_subtitle: "Trouve une magnétite"
+quest.12029CC14E6FFE54.quest_desc: [
+  "La &aTable de Reforge&r fonctionne comme la version simple, mais elle permet d'aller au-delà de &9Rare&r, jusqu'aux raretés &6Épique et Mythique&r."
+]
+quest.1278600075A14600.quest_desc: [
+  "Une nouvelle civilisation a été découverte dans &6les marais&r. On les appelle les &aRibbits&r : ce sont des grenouilles !"
+  ""
+  "Il faudra d'autres études pour connaître leur origine, mais certains chercheurs pensent qu'une sorcière a renversé une potion dans l'eau par erreur."
+  ""
+  "Les &aRibbits&r adorent la musique : on les voit jouer de divers instruments, seuls ou en groupe, comme un orchestre de grenouilles."
+  ""
+  "Les chercheurs ont découvert que si tu joues des &6maracas&r, les &aRibbits&r se joignent à toi avec leurs instruments."
+]
+quest.1278600075A14600.title: "&2Trouver un village de Ribbits"
+quest.1B78054E61C50110.quest_desc: [
+  "Les nids d'abeilles abritent des abeilles sauvages ! On ne peut pas les déplacer, mais ils produisent des &crayons de miel&r, qui servent à fabriquer une &eruche&r."
+  ""
+  "Pour récolter un nid plein sans danger, allume un feu de camp en dessous. Sinon, les abeilles se fâchent."
+  ""
+  "Un tapis posé sur le feu de camp évite de se brûler."
+]
+quest.1B78054E61C50110.title: "Trouver un nid d'abeilles"
+quest.1F6BC8C2A5B8F9B2.quest_desc: [
+  "&c❤&r&a Bienvenue sur le serveur pack_LBC !&r &c❤&r"
+  ""
+  "Ce pack tourne autour de &6Create&r et de ses machines, des &bdirigeables d'Aeronautics&r, de l'&eexploration&r, des &cboss&r et de la &dmagie&r."
+  ""
+  "&eL'objectif final, si tu l'acceptes : réunir les yeux spéciaux d'End Remastered, ouvrir le portail de l'End et vaincre l'Ender Dragon renforcé.&r Mais ce n'est pas une mince affaire !"
+  ""
+  "Ce livre de quêtes est là pour te guider dans chaque mod. Aucune progression n'est imposée : joue comme tu veux, en bâtisseur, ingénieur, explorateur, chasseur de boss ou magicien."
+  ""
+  "Les quêtes rapportent des &7caisses communes&r, des &9caisses rares&r et des &5caisses épiques&r. Les &6caisses légendaires&r, avec le meilleur butin, ne s'obtiennent qu'en accomplissant les grands objectifs finaux."
+  ""
+  "Tu peux ouvrir ce livre à tout moment avec l'icône en haut à gauche de ton inventaire."
+  ""
+  "&6&lBonne chance, et bonne aventure !&r&r"
+]
+quest.1F6BC8C2A5B8F9B2.quest_subtitle: "&bTon imagination est le seul plan dont tu as besoin…"
+quest.1F6BC8C2A5B8F9B2.title: "&lBienvenue sur &epack_LBC&r&r"
+quest.1FBE9C78798263F3.quest_desc: [
+  "Une ancre de réapparition fraîchement fabriquée n'a aucune charge et ne peut pas être utilisée tout de suite. Un bloc de pierre lumineuse (pas de la poudre) ajoute une charge. L'ancre accepte jusqu'à 4 charges, indiquées par un cadran sur le côté."
+  ""
+  "La première charge la fait briller avec un niveau de lumière de 3. Chaque charge suivante ajoute 4, jusqu'à 15."
+  ""
+  "{@pagebreak}"
+  "&6Définir son point de réapparition&r"
+  ""
+  "Pour réapparaître à l'ancre, utilise-la comme un lit. Elle doit avoir au moins une charge et être dans le Nether. Un message confirme que ton point de réapparition est défini. Plusieurs joueurs peuvent utiliser la même ancre."
+  ""
+  "Chaque réapparition consomme une charge, même si c'est un autre joueur qui réapparaît."
+  ""
+  "Utiliser une ancre chargée remplace ton ancien point de réapparition, comme un lit. Elle ne sert pas de secours si ton lit est détruit ou bloqué."
+  ""
+  "{@pagebreak}"
+  "&6Réapparaître après une mort&r"
+  ""
+  "Quand tu meurs, tu réapparais à côté de l'ancre, qui perd une charge."
+  ""
+  "Si l'ancre est détruite, vide ou entourée de blocs qui empêchent la réapparition, un message te le signale et tu réapparais au point d'apparition du monde. Revenir par le portail de l'End ne consomme pas de charge."
+  ""
+  "{@pagebreak}"
+  "&6Explosion&r"
+  ""
+  "Si tu essaies d'utiliser une ancre chargée dans l'Overworld, l'End ou une autre dimension où elle ne fonctionne pas, elle explose comme un lit dans le Nether. L'explosion a une puissance de 5 et met le feu autour."
+  ""
+  "{@pagebreak}"
+  "&6Redstone&r"
+  ""
+  "Un comparateur donne un signal selon le nombre de charges : 3 pour une, 7 pour deux, 11 pour trois, 15 pour quatre. Une ancre vide donne 0."
+  ""
+  "L'ancre peut aussi être chargée avec un distributeur, mais ne peut pas être poussée par un piston."
+  ""
+  "{@pagebreak}"
+  "&6Créatures&r"
+  ""
+  "Les hoglins fuient les ancres de réapparition."
+  ""
+  "&6Blocs musicaux&r"
+  ""
+  "Une ancre placée sous un bloc musical produit un son de grosse caisse."
+]
+quest.1FBE9C78798263F3.quest_subtitle: "Charge une ancre de réapparition au maximum"
+quest.1FF26858DB8E88F8.quest_subtitle: "Obtiens du butin en cassant un vase."
+quest.23A4406529BEF918.quest_desc: [
+  "Le &eCompost Organique&r posé au soleil se décompose en &3Terre Riche&r."
+  ""
+  "De l'eau ou des éléments décomposeurs comme des champignons à proximité accélèrent la décomposition."
+]
+quest.256C0855A1AD720B.quest_desc: [
+  "Une fois posée, la &9Lampe d'Effroi&r empêche l'apparition naturelle de toutes les créatures passives dans un &drayon de 96 blocs&r."
+]
+quest.28B245505F91D21C.quest_desc: [
+  "Je suppose que tu es allé miner, non ?"
+  ""
+  "Ton &6fourneau&r est prêt : il est temps de &6fondre tes premiers lingots de fer et de cuivre&r."
+  ""
+  "Ces métaux de base sont la clé des meilleurs outils et des machines."
+  ""
+  "À partir de maintenant, ça ne va faire que devenir plus passionnant."
+]
+quest.28B245505F91D21C.title: "L'âge des métaux"
+quest.2BC8D0B1B84F96DB.quest_desc: [
+  "La &6Bibliothèque d'Alexandrie&r est une version améliorée de la Bibliothèque d'Enchantements."
+  ""
+  "Elle stocke des &alivres enchantés&r de plus haut niveau et beaucoup plus de &bpoints d'enchantement&r."
+]
+quest.2E3B821A8A402B3E.quest_desc: [
+  "Tu peux revendiquer des chunks pour protéger ta base : les autres joueurs ne pourront pas modifier tes constructions."
+  ""
+  "Pour commencer, &aouvre la carte de FTB Chunks&r avec la touche &6M&r."
+  "À droite, tu vois trois icônes : clique sur la première, « Revendication des chunks »."
+  ""
+  "Une grille apparaît sur la carte."
+  "Revendique des chunks en cliquant gauche et en faisant glisser sur la carte."
+  ""
+  "Pour les libérer, clique droit en faisant glisser."
+  ""
+  "Pour &aforcer le chargement&r de tes chunks (pour que tes machines et fermes continuent de tourner quand tu n'es pas là), maintiens &aMaj gauche&r en revendiquant."
+  ""
+  "&cSur ce serveur, chaque équipe peut forcer le chargement de 5 chunks au maximum.&r Choisis-les bien : c'est là que doivent se trouver tes usines les plus importantes !"
+  ""
+  "Les changements peuvent prendre une seconde à s'afficher, pas d'inquiétude."
+]
+quest.2E3B821A8A402B3E.title: "&6Multijoueur :&r revendiquer des chunks"
+quest.2F1F1047E8A734EC.quest_desc: [
+  "&cSimply Swords&r ajoute tout un arsenal d'armes à découvrir."
+  "Des dagues rapides aux épées à deux mains, chaque type a son style de combat et ses effets."
+  ""
+  "Il ajoute aussi de très rares &6armes légendaires&r aux pouvoirs puissants, qu'on ne trouve que sur certains boss."
+  ""
+  "Le mod propose un système de &3Pouvoirs Runiques&r : certaines armes trouvées peuvent avoir jusqu'à &6deux emplacements&r pour les améliorer avec des gemmes spéciales."
+  ""
+  "Il existe deux types d'emplacements : &bNetherfused&r et &3Runefused&r."
+  "Pour insérer une gemme, clique gauche sur la gemme, puis clique gauche sur l'arme correspondante."
+  "&c⚠ Attention : c'est définitif, les gemmes ne peuvent pas être retirées.&r"
+  ""
+  "Le chapitre Simply Swords t'explique le reste."
+]
+quest.3171F1AE14E3C1ED.quest_desc: [
+  "Les &6Fourneaux de cuisine&r sont une alternative pratique et élégante aux feux de camp. Avec une &6Marmite&r dessus, ils deviennent indispensables pour préparer les meilleurs plats du jeu."
+  ""
+  "Rappel : pour voir toutes les recettes de la Marmite, survole-la et appuie sur &dU&r."
+  ""
+  "Et n'oublie pas : chaque nouvel aliment que tu goûtes te rapproche d'un cœur supplémentaire !"
+]
+quest.3171F1AE14E3C1ED.title: "&6Farmer's Delight"
+quest.32E0EEC3834F9846.quest_desc: [
+  "La &6Paille&r s'obtient en coupant des plantes avec un &6couteau&r sur une planche à découper, ou en récoltant des plantes avec un &6couteau&r."
+]
+quest.3570097E250F33B0.quest_desc: [
+  "Fabrique un &6Artefact Non Identifié&r avec des éclats. Maintenant, place à l'identification !"
+]
+quest.374A73FE0C12C105.quest_desc: [
+  "Pour le fabriquer, combine un &cVestige Renforcé&r avec un &6lingot de Netherite&r sur une table de forgeron."
+  ""
+  "Clique pour découvrir le pouvoir que tu as obtenu."
+]
+quest.3D1AC201E82A3A87.quest_desc: [
+  "Pour survivre dehors, il va te falloir une &7armure en fer&r."
+  ""
+  "Il existe plein d'autres armures dans les différents mods du pack."
+]
+quest.3D8B2D9B4488D1C4.quest_desc: [
+  "Les &cVestiges Renforcés&r s'obtiennent en faisant fondre des armes uniques."
+  ""
+  "Ils servent à fabriquer les &9Gemmes Runefused&r et les &6Gemmes Netherfused&r."
+]
+quest.3D8B2D9B4488D1C4.quest_subtitle: "Pénible à fabriquer…"
+quest.3D93780758BA7194.quest_desc: [
+  "Peut-être que tu peux &bles réassembler&r, ou en faire &o&6autre chose&r ?"
+]
+quest.4095FA4FB6615FCA.quest_desc: [
+  "&eApotheosis&r transforme l'équipement en butin façon RPG : raretés, affixes, gemmes et monstres élites."
+  ""
+  "Les objets trouvés peuvent avoir une &6rareté&r (Commun, Peu commun, Rare, Épique, Mythique) qui leur donne des &aaffixes&r (bonus de statistiques) et des &bemplacements de gemmes&r."
+  ""
+  "Tu peux améliorer ton équipement avec plusieurs tables : Récupération, Reforge, Taille de Gemmes et Augmentation."
+  ""
+  "Les &6Niveaux du Monde&r (touche &aCtrl + T&r) rendent le monde plus dangereux, mais le butin meilleur. Tu débloques les niveaux supérieurs en progressant. Mettez-vous d'accord en équipe avant de monter !"
+  ""
+  "Pour enchanter, tu as deux chemins : les bibliothèques d'Apotheosis, ou les machines de &aCreate: Enchantment Industry&r."
+  ""
+  "Les &cmonstres élites&r et les boss donnent les meilleures gemmes et les meilleurs matériaux."
+  ""
+  "&a&oAstuce :&r&r &eUne pioche Toucher de soie permet de récupérer les générateurs de monstres, pour faire des fermes.&r"
+]
+quest.4095FA4FB6615FCA.title: "&l&dApotheosis : le butin façon RPG&r&r"
+quest.4198B060806140C0.quest_desc: [
+  "La &6Table de Reforge Simple&r permet d'appliquer des affixes, de relancer les statistiques et d'améliorer la rareté d'un objet jusqu'à Rare."
+  ""
+  "Il faut pour ça des matériaux spéciaux :"
+  ""
+  "* &7Ferraille Mystérieuse&r (rareté Commune)"
+  ""
+  "* &aTissu Usé&r (rareté Peu commune)"
+  ""
+  "* &9Cristal Lumineux&r (rareté Rare)"
+  ""
+  "Par exemple, en reforgeant une épée en diamant, tu la transformes en arme améliorée et colorée, avec des affixes qui boostent ses statistiques et des emplacements de gemmes."
+  ""
+  "Ce système te permet de devenir de plus en plus fort, en transformant des outils ordinaires en équipement puissant adapté à ton style de jeu."
+]
+quest.44CFD2F48C7AA908.quest_desc: [
+  "L'engrais pour arbres fait pousser les pousses instantanément, peu importe la place autour."
+]
+quest.478DE12D3EF8C22A.quest_desc: [
+  "Une fois posée, la &6Méga Torche&r empêche l'apparition naturelle de tous les monstres hostiles dans un &6rayon de 96 blocs&r."
+  ""
+  "Parfait pour les coins sombres de ta base !"
+  ""
+  "Tu peux afficher les niveaux de lumière avec la touche &3F7&r."
+]
+quest.478DE12D3EF8C22A.title: "Empêcher les monstres d'apparaître"
+quest.4E256AAA75ECF41E.quest_desc: [
+  "Après avoir vaincu le &0Wither&r, utilise l'&eÉtoile du Nether&r pour fabriquer une &cbalise&r et pose-la pour réclamer ta récompense."
+]
+quest.4E2CDE150137F5E9.quest_desc: [
+  "Pour la fabriquer, combine une &bTablette Runique&r avec un &cVestige Renforcé&r sur une table de forgeron."
+  ""
+  "Clique pour découvrir le pouvoir que tu as obtenu."
+]
+quest.51E19ACD3F0994BE.quest_desc: [
+  "La &3Terre Riche Labourée&r ne peut pas être piétinée et, une fois hydratée, applique automatiquement de la poudre d'os sur ce qui y pousse : la croissance est presque deux fois plus rapide ! Ça marche aussi avec les pousses d'arbres."
+]
+quest.5BAE6CD47D4ABF2D.quest_desc: [
+  "Donne du style à tes constructions : Create Deco, Design n Decor, Copycats+, Luki's Grand Capitals et d'autres mods ajoutent plein de blocs décoratifs."
+  ""
+  "Décore avec goût et fais briller tes créations."
+]
+quest.5BAE6CD47D4ABF2D.quest_subtitle: "Construis avec style"
+quest.5BAE6CD47D4ABF2D.title: "Décoration et construction"
+quest.610E616AA011A7A9.quest_desc: [
+  "Un sac (bundle) permet de transporter plusieurs objets différents, jusqu'à une pile au total, dans un seul emplacement."
+]
+quest.640C3588E6BA8DF2.quest_desc: [
+  "Le combat est modifié par &6Better Combat&r et &6Combat Roll&r."
+  ""
+  "&c-> Roulade&r"
+  "Appuie sur &6\"R\"&r (touche par défaut) pour faire une roulade dans la direction où tu vas. Tu es &binvincible pendant la roulade&r : c'est essentiel pour esquiver les attaques des boss !"
+  ""
+  "La roulade a un temps de recharge de 6 secondes."
+  ""
+  "&c-> Better Combat&r"
+  "Chaque arme a sa propre animation et son propre rythme. Les attaques qui s'enchaînent forment des combos, et maintenir le bouton d'attaque permet de frapper en continu."
+]
+quest.640C3588E6BA8DF2.title: "Le combat"
+quest.64B6D3C0ACA9473F.quest_desc: [
+  "La &6Table de Taille de Gemmes&r augmente la rareté de tes gemmes en combinant deux gemmes du même type."
+  ""
+  "Regarde les recettes dans JEI et commence à améliorer tes gemmes !"
+]
+quest.660C3D5CB407247F.quest_desc: [
+  "&l&cVérifie tes touches !&r&r"
+  "Parfois, une fonction ne marche pas parce qu'une touche n'est pas assignée ou entre en conflit avec une autre. Vérifie et ajuste tes touches si besoin (Options → Commandes)."
+  ""
+  "Les touches principales par défaut :"
+  ""
+  "&6\"B\"&r – Ouvrir le sac à dos (Sophisticated Backpacks)"
+  ""
+  "&6\"V\"&r – Lancer un sort (Iron's Spells)"
+  ""
+  "&6Molette (clic)&r – Roue de sélection des sorts (Iron's Spells)"
+  ""
+  "&6\"R\"&r – Roulade (Combat Roll)"
+  ""
+  "&6\"M\"&r – Carte des chunks (FTB Chunks)"
+  ""
+  "&6\"J\"&r – Grande carte (JourneyMap)"
+  ""
+  "&6Points de passage&r (JourneyMap) : JourneyMap utilise aussi &6\"B\"&r par défaut, comme le sac à dos. Change l'une des deux touches !"
+  ""
+  "&6\"Ctrl+T\"&r – Niveaux du monde (Apotheosis)"
+  ""
+  "&6\"Maj+T\"&r – Afficher un objet dans le chat (Apotheosis)"
+  ""
+  "&6\"F7\"&r – Afficher les niveaux de lumière"
+  ""
+  "&6\"F9\"&r – Afficher les bordures de chunks"
+  ""
+  "Commandes utiles : &a/home&r, &a/sethome&r, &a/tpa&r, &a/back&r et &a/spawn&r (FTB Essentials)."
+  ""
+  "Si quelque chose ne marche pas, vérifie toujours que la touche est bien assignée et qu'elle n'est pas utilisée par un autre mod !"
+]
+quest.660C3D5CB407247F.title: "&6Les touches"
+quest.6613D41573B7F0B9.quest_desc: [
+  "&aDans ce pack, la nourriture ne sert pas qu'à survivre : c'est la seule façon d'augmenter ta vie maximum pour de bon.&r"
+  ""
+  "Avec &6The Spice of Life: Carrot Edition&r, tu gagnes des cœurs en mangeant des aliments &adifférents&r."
+  ""
+  "Le &aLivre de Cuisine&r garde la trace de tous les aliments différents que tu as mangés."
+  "Chaque palier atteint te donne &c+1 cœur&r, jusqu'à &l&c10 cœurs en plus&r :"
+  ""
+  "&75, 10, 20, 30, 45, 60, 80, 105, 135 et 170 aliments différents.&r"
+  ""
+  "Les premiers cœurs viennent vite, les derniers demandent de goûter à tout : Farmer's Delight, Create Garnished, la nourriture des dimensions…"
+  ""
+  "Alors si tu veux devenir plus résistant… à tes fourneaux !"
+]
+quest.6613D41573B7F0B9.quest_subtitle: "Pour une aventure plus saine et plus copieuse !"
+quest.6613D41573B7F0B9.title: "&l&cLe vrai chemin vers plus de cœurs"
+quest.67FA8896AD563A77.quest_desc: [
+  "Les &eWaystones&r sont des pierres de téléportation dispersées dans le monde, y compris dans certains villages."
+  ""
+  "&bPour pouvoir t'y téléporter, il faut d'abord les découvrir&r en les activant sur place."
+  ""
+  "Se téléporter coûte de l'&aexpérience&r, et plus la distance est grande, plus c'est cher. Pour les grands voyages, pense aux &bdirigeables&r !"
+  ""
+  "Tu peux renommer une &eWaystone&r avec un &aclic droit accroupi&r à main vide."
+  ""
+  "Repère les &ewaystones&r dès le début de ton aventure : elles facilitent beaucoup l'exploration."
+]
+quest.67FA8896AD563A77.title: "&eWaystones"
+quest.6C09C1569A947DA0.quest_desc: [
+  "La &6Table d'Augmentation&r permet de &arelancer les affixes&r de tes objets ou de &amaximiser leurs statistiques&r."
+]
+quest.6D382620BBC1E6C0.quest_desc: [
+  "Le pack inclut le shader &6Complementary Reimagined&r pour embellir le jeu."
+  ""
+  "Pour l'activer : &aOptions → Paramètres vidéo → Shader Packs&r."
+  ""
+  "&cLes shaders demandent une bonne carte graphique.&r Sur un PC modeste, laisse-les désactivés."
+]
+quest.6D382620BBC1E6C0.title: "&6Shaders"
+quest.72746FE37828D4F6.quest_desc: [
+  "Découvre l'avenir du rangement des enchantements avec la &6Bibliothèque d'Enchantements&r, la solution idéale pour gérer tes &alivres enchantés&r."
+  ""
+  "Pour déposer des enchantements, fais Maj + clic gauche sur tes &alivres&r ou place-les dans l'&9emplacement bleu&r. La bibliothèque les absorbe et convertit chaque enchantement en &dpoints d'essence&r."
+  ""
+  "Les enchantements sont rangés par type, en quantités qui doublent à chaque niveau :"
+  ""
+  "Niveau I = 1 point"
+  "Niveau II = 2 points"
+  "Niveau III = 4 points"
+  "Niveau IV = 8 points"
+  "…et ainsi de suite."
+  ""
+  "Chaque type d'enchantement peut stocker jusqu'à &d32 768 points&r. Pour en retirer un, clique dessus : il se construit dans l'&6emplacement de fabrication&r, et chaque clic augmente son niveau."
+  ""
+  "Tu peux même combiner plusieurs enchantements dans l'&6emplacement orange&r comme sur une enclume, mais sans coût."
+]
+quest.72A5DEFDD0F3470D.quest_desc: [
+  "Avec une &bpioche en diamant&r, tu peux miner l'&dobsidienne&r, qui sert à construire un portail vers le &cNether&r."
+  ""
+  "Le cadre peut avoir plusieurs tailles, mais la forme classique est une « porte » creuse de 4×5, avec au moins 10 blocs d'obsidienne. Les coins ne sont pas obligatoires !"
+]
+quest.72A5DEFDD0F3470D.title: "&cDirection le Nether !&r"
+quest.77CB99E12D41EFF3.quest_desc: [
+  "L'&dAméthyste&r se trouve dans de grandes géodes souterraines, entourées de couches de basalte et de calcite."
+  ""
+  "Pour récolter des &5éclats d'améthyste&r, cherche les blocs d'améthyste bourgeonnante. Attention : on ne peut ni les miner ni les déplacer."
+  ""
+  "Surveille plutôt les grappes d'améthyste qui poussent dessus : c'est la source renouvelable d'éclats, à récolter une fois qu'elles ont fini de pousser."
+]
+quest.77CB99E12D41EFF3.quest_subtitle: "Trouve une géode"
+quest.77EEE919C23E18B1.quest_desc: [
+  "Sous le sable des ruines océaniques chaudes se cache un œuf mystérieux : dégage le &asable suspect&r avec un pinceau pour le trouver."
+  ""
+  "Posé dans le monde, l'œuf éclot lentement en un petit &dRenifleur&r. Ça prend environ 20 minutes, mais le poser sur de la mousse divise ce temps par deux."
+  ""
+  "Avec le temps, ton petit deviendra un &dRenifleur&r adulte, un gentil géant qui déterre des graines anciennes comme la &2Torcheflore&r et les &2Cosses de Sarracénie&r. Laisse-le se promener sur de la terre et il fera le reste."
+  ""
+  "Envie d'un élevage ? Donne des Torcheflores à deux Renifleurs adultes pour faire naître une nouvelle génération."
+]
+quest.7C68CB331F9E5212.quest_desc: [
+  "&n&8Commun&r&r"
+  "0 à 1 affixe"
+  "0 à 1 emplacement de gemme"
+  ""
+  "&n&aPeu commun&r&r"
+  "1 affixe"
+  "1 emplacement de gemme"
+  ""
+  "&n&9Rare&r&r"
+  "1 effet de base"
+  "1 affixe"
+  "2 emplacements de gemme"
+  ""
+  "&n&5Épique&r&r"
+  "1 effet de base"
+  "2 affixes"
+  "2 emplacements de gemme"
+  ""
+  "&n&6Mythique&r&r"
+  "1 effet de base"
+  "2 affixes"
+  "3 emplacements de gemme"
+  "1 capacité unique"
+]
+quest.7C68CB331F9E5212.title: "&a&lRaretés des objets et leurs propriétés&r&r"
+quest.7EF948B39FBEA377.quest_desc: [
+  "Quelle que soit ton expérience, chaque aventure commence avec un outil tout simple."
+  ""
+  "Une &6pioche en bois&r n'a rien d'extraordinaire, mais c'est ta porte d'entrée vers la pierre, les minerais et la suite."
+  ""
+  "Utilise-la bien : elle ne durera pas éternellement, mais elle t'emmènera jusqu'à la &7pierre&r et bien au-delà."
+]
+quest.7EF948B39FBEA377.title: "Notre première pioche"
+quest.7FA5CDC0F616D2C5.quest_desc: [
+  "Il est temps de laisser la pierre derrière toi."
+  ""
+  "Avec une &6pioche en fer&r, tu peux enfin miner des &bdiamants&r."
+]
+quest.7FA5CDC0F616D2C5.title: "Une sérieuse amélioration"
+quest.7FF84508B3E0168F.quest_desc: [
+  "Savais-tu que le &cNether&r permet de voyager beaucoup plus vite entre deux points de l'&aOverworld&r ?"
+  ""
+  "Deux portails séparés de seulement 10 blocs dans le &cNether&r correspondent à 80 blocs dans l'&aOverworld&r."
+  ""
+  "C'est idéal pour faire parcourir de grandes distances à tes trains : quelques blocs de voie dans le &cNether&r valent des centaines de blocs dans l'&aOverworld&r."
+]
+quest.7FF84508B3E0168F.title: "Le raccourci du Nether"
+task.184D02801FC28C38.title: "&6J'ai trop hâte de jouer !"
+task.1D986DC9FFE37C6A.title: "Clique pour valider"
+task.3AD4F43742EABEE7.title: "Clique pour valider"
+task.413699776BB0AF8C.title: "Beurk :("
+task.4901CB7BF209864A.title: "Clique pour valider"
+task.5A0FD6D40314D526.title: "Clique pour valider"
+task.62FE40FB89D4E82D.title: "Clique pour valider"
+task.65A099F8209103AE.title: "&aJe serai le plus riche"
+task.6FD0241035AC0F91.title: "Clique pour valider"

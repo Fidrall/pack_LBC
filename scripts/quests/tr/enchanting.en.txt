@@ -1,0 +1,151 @@
+chapter.699146B31CBD0538.title: "&aEnchantment Industry&r"
+quest.02ABDDCDE6E1CCAE.quest_desc: [
+  "You might be wondering: what’s the limit for enchantment levels with &bSuper Enchanting&r?"
+  ""
+  "It’s simple the &dmaximum level is usually the vanilla level + 2&r, when using &bSuper Enchanting.&r"
+  ""
+  "&6&oFor example:&r&r Protection normally goes up to level &eIV in vanilla.&r &bWith Super Enchanting,&r you can reach &eProtection VI.&r"
+  ""
+  "You probably know that in vanilla, you can combine Sharpness IV + IV in an anvil to get Sharpness V right?"
+  ""
+  ""
+  "&a&nTo go beyond that:&r&r"
+  "&a1)&r Transfer the Sharpness V book into a &bSuper Enchantment Template.&r"
+  ""
+  "&a2)&r Then, use the &6Blaze Forger&r to combine two Sharpness V templates. This will create a Sharpness VI template."
+  ""
+  "Repeat the process to keep increasing the level until you reach the max allowed."
+  ""
+  ""
+  "&l&6Pro tip:&r&r &7You can copy enchantment books using the Printer, and convert templates back into books if needed.&r"
+]
+quest.02ABDDCDE6E1CCAE.title: "&l&cMax Enchantments!&r&r"
+quest.15DC45E7658A8628.quest_desc: [
+  "Allows you to store enchantments that can then be transferred into an item."
+  ""
+  "Only works with &bsuper enchantments&r that go beyond vanilla level 30+."
+  ""
+  "&cIt can only store one enchantment at a time.&r"
+]
+quest.16FE44DE7D93172C.quest_desc: [
+  "The &a&lExperience Lantern&r&r absorbs experience from nearby players as well as experience orbs and it glows accordingly to the amount of experience it has stored."
+  ""
+  "The &a&lExperience Lantern&r&r works &6&lon contraptions&r&r."
+]
+quest.24A56D98CF3ABB1B.quest_desc: [
+  "The &6&lBlaze Forger&r&r functions like an &8&lAnvil&r&r with little extras. Like the Blaze Enchanter, the Blaze Forger also required Liquid Experience to activate. "
+  ""
+  "Blaze Forger &ccan merge enchantments of the same item type&r just like an Anvil, but with no repair cost. It can also merge Enchanting Templates and can apply Enchanting Templates into items,"
+  ""
+  "&6The Blaze Forger can strip enchantments from equipment, books and Enchanting templates into an Empty Enchanting Template. &r"
+]
+quest.24F854A847AE7722.quest_desc: [
+  "Allows you to store enchantments to be later transferred into an item."
+  ""
+  "&cIt can only store one enchantment at a time.&r"
+]
+quest.30A49F7BE86E7B7D.quest_desc: [
+  "The &6Blaze Forger&r works like an anvil but with the extra of being able to extract an enchantment into a Template."
+  ""
+  ""
+  "To &aapply an enchantment&r from a book or template to an item, place the item first, then the enchanted book or template."
+  ""
+  ""
+  "To &bextract an enchantment&r item or book into a template, place the item/book first, then the &eEmpty Enchanting Template&r."
+]
+quest.30A49F7BE86E7B7D.title: "&dPlacement Order Affects Results"
+quest.4DA92919147B3E18.quest_desc: [
+  "The &a&lBlaze Enchanter&r&r functions like an Enchanting Table. To activate you need to pump liquid experience into the Blaze Enchanter."
+  ""
+  "Before enchanting you must set the Level of the enchanting in the Panel present in the Blaze Enchanter. &b(Vanilla level cap is 30)&r. This Panel also works as a filter slot where you can place an item, which activates &6&lTemplate Enchanting Mode&r&r"
+  ""
+  "&6&lTemplate Enchanting Mode&r&r allows the Blaze Enchanter to enchant an &a&lEnchanting Template&r&r that only produces enchantments supported by the item you placed in the filter slot."
+  "For example placing a Diamond Chest Armor in the Filter slot will only generate Diamond Chest Armor enchantments to be transfered into an empty Enchanting Template."
+  ""
+  "&lDifferent item types&r such as Gold Chest Armor or materials will produce different enchantments or better enchantments and higher enchanting level is not always recommended. Some enchantments will not appear in higher levels."
+  ""
+  "&o&l&cHIGHLY RECOMMEND&r checking the Ponder (Pressing W) for a better understanding.&r&r"
+]
+quest.4DFE436CD88DAF36.quest_desc: [
+  "The &l&6Printer&r&r allows you to use two types of liquids. "
+  ""
+  "&l&9Ink&r&r for copying Books and changing Package patterns"
+  ""
+  "&a&lExperience&r&r&6 &nto duplicate Enchanting Books. &r&r"
+  ""
+  "To do either of those things, be a change pattern, copying or duplicating you must place the corresponding item in the Filter Slot."
+  ""
+  "It can also name items, copy train schedules, clipboards, change packages addresses and more. Use Jei to look up printing recipes. "
+]
+quest.5429DCF7C5A3EC97.quest_desc: [
+  "The &aCreate: Enchantment Industry&r is a core part of your progression, as Apotheosis enchantment shelves are disabled."
+  ""
+  "The intended path is to use Enchantment Industry."
+  ""
+  "It introduces a powerful and fully automated way to handle &ddisenchanting&r, &astore experience&r, and even go &cbeyond vanilla limits&r — allowing enchantments to reach levels as high as &e60&r!"
+  ""
+  "Forget the grindy vanilla setup. With this mod, you'll use mechanical power to enchant, extract, combine, and recycle gear all while integrating seamlessly with your factory."
+  ""
+  "&d@create_en &r"
+]
+quest.5429DCF7C5A3EC97.title: "&aCreate: Enchantment Industry&r "
+quest.5534C553D15CD96B.quest_desc: [
+  "The &6Item Drain&r has the ability to extract liquid from a container and temporarily store it until it is piped out into another container."
+]
+quest.5E0CC434DF548813.quest_desc: [
+  "To craf the &l&bBlock of Super Experience&r&r, you first have to craft the &l&aBlock of Experience&r&r, then you place it on the overworld, place a &l&6Lightning Rod&r&r on top of the &l&aBlock of Experience&r&r and wait for a &l&eLightning Strike&r&r. "
+  ""
+  "When the &e&lLightning Strikes&r&r the&l &aBlock of Experience&r&r it will change into &b&lBlock of Super Experience&r&r."
+]
+quest.62C8A74B9C0AC8A4.quest_desc: [
+  "&l&o&cHIGHLY RECOMMEND&r checking the Ponder (Pressing W) of &6&lBlaze Enchanter&r&r and &6&lBlaze Forger&r&r for a better understanding.&r&r"
+  ""
+  "&6The Blaze Enchanter &r can be fed the &bCake o’ Enchanting&r, changing it into &bSuper Enchanting Mode.&r"
+  ""
+  "In &bSuper Enchanting Mode&r allows you to increase the &dlevel cap to 60.&r  Additionally it can now produce Treasured Enchantments."
+  ""
+  "In this mode it also exclusively only allows &3Super Enchanting Templates.&r"
+  ""
+  "While in this mode, make sure to place a block ontop of the Blaze Enchanter and place a Lightning Rod on a block beside it. Super Enchanting Mode attracts Lightning Strikes."
+  ""
+  "&l&5..................................................................&r&r"
+  ""
+  "&6The Blaze Forger&r can be fed the &bCake o’ Enchanting&r, changing it into &bSuper Enchanting Mode.&r"
+  ""
+  "In &bSuper Enchanting Mode&r allows to surpass the Vanilla enchantment level cap while merging enchantments. Conflicting enchantments can also be merged together."
+  ""
+  "In this mode it also exclusively only allows &3Super Enchanting Templates.&r"
+  ""
+  "While in this mode, make sure to place a block on top of the Blaze Forger and place a Lightning Rod on a block beside it. Super Enchanting Mode attracts Lightning Strikes."
+]
+quest.66E127ED18F447AD.quest_desc: [
+  "&6&lRight-click&r&r with the &a&lMechanical Grindstone&r&r on an &l&bItem Drain&r&r and then place another Mechanical Grindstone on-top to be able to use it."
+  ""
+  "With the &l&aMechanical Grindstone&r&r you can extract experience from enchanted items but it also functions as SandPaper. "
+  ""
+  "The &l&aMechanical Grindstone&r&r can also be interacted manually to place items."
+  ""
+  "&o&l&cCheck the Ponder&r (Pressing W) for a better understanding.&r&r"
+]
+quest.6B2BB3A3AAC179FE.quest_desc: [
+  "Imagine you have a piece of armor with an enchantment you really like and want to transfer it to another item. This can be done using the &6Blaze Forge.&r"
+  ""
+  "Simply place your enchanted item and an &aEnchanting Template&r into the &6Blaze Forge&r. It will remove one random enchantment from the item and transfer it to the template."
+  ""
+  "Each template can only store one enchantment at a time, so you'll need to repeat the process until you extract the enchantment you want."
+  ""
+  "Depending on your enchantment level, you may need to use&b Super Enchanting&r to reapply it."
+]
+quest.6B2BB3A3AAC179FE.title: "&l&6Disenchanting Your Equipment"
+quest.732543EAB9ADB411.quest_desc: [
+  "The &l&aExperience Hatch&r&r allows you to deposit or extract experience from a Fluid Tank or Basin. "
+  "&dRight-Click&r deposits the experience and &dShift + Right-Click&r extracts the experience."
+  ""
+  "It has a Scroll Panel which allows you to set the amount of experience that is deposited or extracted  when interacting."
+  ""
+  "It also features a &aFilter Slot&r, used to handle experience fluids from other mods. Simply place the bucket in the filter to make the hatch recognize and interact with that fluid like standard experience."
+]
+task.0A88BBBA01BD37FD.title: "Click to Acknowledge"
+task.2E11C158DD5E8E3E.title: "Click to Acknowledge"
+task.5AEF67BE7BA61DB9.title: "Click to Acknowledge"
+task.5C3C1B05DB934DC4.title: "Click to Acknowledge"

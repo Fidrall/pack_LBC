@@ -1,0 +1,133 @@
+chapter.7EFC62EFB68D7191.title: "&4&lLe Nether et l'End"
+chapter.7EFC62EFB68D7191.chapter_subtitle: [
+  "Deux dimensions transformées"
+]
+quest.3B8DD40BD3EF0512.title: "&4&lUn Nether transformé"
+quest.3B8DD40BD3EF0512.quest_subtitle: "Incendium et bien d'autres"
+quest.3B8DD40BD3EF0512.quest_desc: [
+  "Le Nether de ce pack est bien plus dangereux et riche qu'en vanilla :"
+  ""
+  "- &6Incendium&r ajoute de nouveaux biomes (déserts de cendres, dunes infernales, forêts flétries…), des structures et des boss ;"
+  "- &eYUNG's&r améliore les forteresses, &eFormations Nether&r et les structures de &eMoog&r ajoutent des ruines partout ;"
+  "- &6Hellish Trials&r propose des épreuves de combat."
+  ""
+  "Prévois de la &cRésistance au feu&r et une armure en or pour les piglins."
+]
+quest.3760586B81B88A89.title: "Une forteresse du Nether"
+quest.3760586B81B88A89.quest_subtitle: "YUNG's Better Nether Fortresses"
+quest.3760586B81B88A89.quest_desc: [
+  "Les &eforteresses&r sont immenses et labyrinthiques. Leurs coffres peuvent contenir l'&cŒil du Nether&r."
+  ""
+  "On y trouve aussi les Wither squelettes, dont les crânes servent à invoquer le Wither."
+]
+quest.4A83D2EC59D885B8.title: "Le village des piglins"
+quest.4A83D2EC59D885B8.quest_subtitle: "Incendium"
+quest.4A83D2EC59D885B8.quest_desc: [
+  "Les piglins ont construit leurs propres &evillages&r dans le Nether. Pille leur trésor… si tu l'oses."
+]
+quest.2CB3072DA5957E2B.title: "Le laboratoire en ruine"
+quest.2CB3072DA5957E2B.quest_subtitle: "Des expériences qui ont mal tourné"
+quest.2CB3072DA5957E2B.quest_desc: [
+  "Un ancien &elaboratoire&r abandonné dans le Nether. Qui sait ce qu'on y étudiait ?"
+]
+quest.4D4EE7CADBAF19BB.title: "L'esprit de la forêt flétrie"
+quest.4D4EE7CADBAF19BB.quest_subtitle: "Incendium"
+quest.4D4EE7CADBAF19BB.quest_desc: [
+  "Dans la &eforêt flétrie&r rôde un esprit redoutable. Vaincs-le !"
+]
+quest.41856CF652A43501.title: "Le coffre du sanctuaire"
+quest.41856CF652A43501.quest_subtitle: "Les plaines de quartz"
+quest.41856CF652A43501.quest_desc: [
+  "Dans les &eplaines de quartz&r se cache un &esanctuaire&r et sa chambre forte. Trouve comment l'ouvrir !"
+]
+quest.2CEBB3A0D85BFEB9.title: "Le pipeline des dunes"
+quest.2CEBB3A0D85BFEB9.quest_subtitle: "Et sa sentinelle"
+quest.2CEBB3A0D85BFEB9.quest_desc: [
+  "Dans les &edunes infernales&r, un grand &epipeline&r est gardé par une &esentinelle&r. Détruis-la !"
+]
+quest.59E19F13A596AD38.title: "&c&lLe Château Interdit"
+quest.59E19F13A596AD38.quest_subtitle: "Les déserts de cendres"
+quest.59E19F13A596AD38.quest_desc: [
+  "Au cœur des &edéserts de cendres&r se dresse le &cChâteau Interdit&r, la plus grande forteresse du Nether d'Incendium."
+  ""
+  "Conquiers-le et affronte ce qui s'y cache !"
+]
+quest.7C837320AB9AD46F.title: "&6&lL'Inferno"
+quest.7C837320AB9AD46F.quest_subtitle: "Le boss des dunes infernales"
+quest.7C837320AB9AD46F.quest_desc: [
+  "L'&6Inferno&r est le grand boss d'Incendium. Il s'invoque dans les &edunes infernales&r (le livre des succès d'Incendium donne des indices)."
+  ""
+  "Prépare-toi : c'est l'un des combats les plus durs du Nether."
+]
+quest.156EAD510B4FBCDF.title: "Une épreuve infernale"
+quest.156EAD510B4FBCDF.quest_subtitle: "Hellish Trials"
+quest.156EAD510B4FBCDF.quest_desc: [
+  "&6Hellish Trials&r ajoute des &eépreuves&r dans le Nether : des vagues d'ennemis à vaincre pour gagner des récompenses."
+]
+quest.12A0A5DACE8A7479.title: "&4&lMaître du Nether"
+quest.12A0A5DACE8A7479.quest_subtitle: "Le Nether n'a plus de secret"
+quest.12A0A5DACE8A7479.quest_desc: [
+  "Château Interdit et Inferno vaincus : tu es le maître du Nether !"
+]
+task.449AD8FC65D63BE4.title: "Le Nether est à moi"
+quest.3C873E6BA9E110A9.title: "&d&lUn End transformé"
+quest.3C873E6BA9E110A9.quest_subtitle: "Nullscape et End's Phantasm"
+quest.3C873E6BA9E110A9.quest_desc: [
+  "Après le dragon, l'End s'ouvre… et il est bien différent de l'End vanilla :"
+  ""
+  "- &dNullscape&r sculpte les îles extérieures : falaises, arches, gouffres et &efailles&r spectaculaires ;"
+  "- &dEnd's Phantasm&r ajoute de nouveaux biomes, créatures, minerais et outils ;"
+  "- les structures de &eMoog&r, de Dungeons and Taverns et de Structory peuplent les îles."
+  ""
+  "N'oublie pas : c'est aussi là que se trouve la &epierre de l'End&r nécessaire à la &dlévitite&r des dirigeables !"
+]
+quest.32049634B2771331.title: "Le Repaire des Rêves"
+quest.32049634B2771331.quest_subtitle: "End's Phantasm"
+quest.32049634B2771331.quest_desc: [
+  "Le &dRepaire des Rêves&r est un biome onirique de l'End, avec ses arbres de &epream&r et ses baies."
+]
+quest.76100542C15576F4.title: "Les cristaux de l'End"
+quest.76100542C15576F4.quest_subtitle: "Des outils cristallins"
+quest.76100542C15576F4.quest_desc: [
+  "Mine des &dÉclats de Cristal&r dans l'End. Ils servent à fabriquer les &eoutils cristallins&r, dont l'efficacité &aaugmente avec ton expérience&r."
+]
+quest.53660F533D9C497D.title: "Les Abysses Acides"
+quest.53660F533D9C497D.quest_subtitle: "Attention où tu marches"
+quest.53660F533D9C497D.quest_desc: [
+  "Les &aAbysses Acides&r sont un biome dangereux de l'End. Garde tes distances avec l'acide !"
+]
+quest.23A42BEFABC326B8.title: "L'Île du Dessous"
+quest.23A42BEFABC326B8.quest_subtitle: "Sous le Repaire des Rêves"
+quest.23A42BEFABC326B8.quest_desc: [
+  "Sous le Repaire des Rêves se cache une &eîle souterraine&r. Aventure-toi dessous !"
+]
+quest.78AFAA428C5BBF29.title: "La panoplie cristalline"
+quest.78AFAA428C5BBF29.quest_subtitle: "Tous les outils de cristal"
+quest.78AFAA428C5BBF29.quest_desc: [
+  "Fabrique &etous les outils cristallins&r : épée, pioche, hache, pelle et houe."
+]
+quest.549A53036AB75BCE.title: "La Faille Chorale"
+quest.549A53036AB75BCE.quest_subtitle: "Tout au fond"
+quest.549A53036AB75BCE.quest_desc: [
+  "Descends la &eFaille Chorale&r, un gouffre de l'End. Ses flèches chorales charment les ennemis (à l'arc) ou créent une onde répulsive (à l'arbalète)."
+]
+quest.699D3019400A5563.title: "Une Cité de l'End"
+quest.699D3019400A5563.quest_subtitle: "Et ses élytres"
+quest.699D3019400A5563.quest_desc: [
+  "Les &eCités de l'End&r cachent des shulkers, du butin et parfois un &enavire&r avec des &eélytres&r."
+]
+quest.58E1221EBD659CB5.title: "Un méga-vaisseau"
+quest.58E1221EBD659CB5.quest_subtitle: "Les structures de Moog"
+quest.58E1221EBD659CB5.quest_desc: [
+  "Un gigantesque &evaisseau&r échoué dans l'End. Explore-le de fond en comble !"
+]
+quest.050A758FB6279593.title: "Le château de l'End"
+quest.050A758FB6279593.quest_subtitle: "Dungeons and Taverns"
+quest.050A758FB6279593.quest_desc: [
+  "Un &echâteau&r perdu au milieu des îles de l'End, avec son phare."
+]
+quest.5542E0D0F60B201D.title: "&d&lMaître de l'End"
+quest.5542E0D0F60B201D.quest_subtitle: "Un trophée pour ton salon"
+quest.5542E0D0F60B201D.quest_desc: [
+  "Récupère une &etête de dragon&r, à la proue des navires de l'End, pour prouver que l'End n'a plus de secret pour toi !"
+]

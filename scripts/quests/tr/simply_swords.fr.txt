@@ -1,0 +1,21 @@
+chapter.784A6CC38A657526.title: "&eSimply Swords"
+quest.07CCF0EE3BC96DB1.quest_desc: [
+  "Commence par fabriquer un &6Vestige Scellé&r."
+  ""
+  "Entre dans &el'End&r avec une &5Tablette Runique&r dans ta seconde main et le &6Vestige Scellé&r dans ton inventaire. Après un court moment, il se transforme en &cVestige Altéré&r."
+  ""
+  "Le &cVestige Altéré&r évolue en l'un de plusieurs objets possibles tant qu'il est dans ton inventaire. Recommence jusqu'à obtenir la &bRelique Déclinante&r."
+  ""
+  "Avec la &bRelique Déclinante&r, suis l'un des chemins ci-dessous selon l'&aArme Magique&r que tu veux :"
+]
+quest.07CCF0EE3BC96DB1.quest_subtitle: "&3Percer les secrets des Armes Magiques"
+quest.51E18D8B67394EC2.quest_desc: [
+  "Tiens la relique en main et marche sur un &6Capteur de Sculk&r."
+]
+quest.5F9DC6A4D253217D.quest_desc: [
+  "Garde la relique dans ton inventaire et subis l'effet &6Obscurité&r. Attends un peu que la transformation se fasse."
+]
+quest.624E99A4E08167EA.quest_desc: [
+  "Tiens la relique en main et fais-toi toucher par le &6cri sonique du Warden&r."
+]
+quest.6C71E2ABAA99C005.title: "&6Collectionner toutes les épées de Simply Swords"

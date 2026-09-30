@@ -1,0 +1,98 @@
+quest.1B876E65905AE114.quest_subtitle: "Pirates, trésors et épaves"
+quest.1B876E65905AE114.quest_desc: [
+  "L'&8Œil Noir&r se cache dans les &ecoffres de trésor enfoui&r et dans les &ecoffres au trésor des épaves&r."
+  ""
+  "Les épaves contiennent souvent une carte au trésor, et les dauphins peuvent aussi te guider vers un trésor."
+]
+quest.41C643E334BA412E.quest_subtitle: "Sous les sables du désert"
+quest.41C643E334BA412E.quest_desc: [
+  "L'&6Œil Ancien&r se trouve dans les &etemples du désert&r : fouille surtout la tombe et la cachette du pharaon."
+  ""
+  "Il peut aussi apparaître dans les coffres des &eruines du désert&r et des &edonjons&r."
+]
+quest.047ACE4F6C1560F0.quest_subtitle: "Au fond des mines"
+quest.047ACE4F6C1560F0.quest_desc: [
+  "L'&7Œil Perdu&r se trouve dans les &ecoffres des puits de mine abandonnés&r (les wagonnets à coffre) et dans ceux des &edonjons&r."
+]
+quest.E1E0000000000C01.quest_subtitle: "Là où il fait froid"
+quest.E1E0000000000C01.quest_desc: [
+  "L'&bŒil Froid&r se trouve dans le &ecoffre des igloos&r, dans les biomes enneigés."
+  ""
+  "Pense à regarder sous le tapis : certains igloos cachent un sous-sol avec un coffre !"
+]
+quest.5B2ECDE4D4FF3D8D.quest_subtitle: "Chez les pillards"
+quest.5B2ECDE4D4FF3D8D.quest_desc: [
+  "L'&5Œil Corrompu&r se trouve dans les &ecoffres des avant-postes de pillards&r, y compris les variantes ajoutées par les mods du pack."
+  ""
+  "Attention, les avant-postes sont bien gardés !"
+]
+quest.E1E0000000000C03.quest_subtitle: "Au cœur de la jungle"
+quest.E1E0000000000C03.quest_desc: [
+  "L'&2Œil Voyou&r se trouve dans les &ecoffres au trésor des temples de la jungle&r, et dans le temple principal des ruines de jungle."
+  ""
+  "Méfie-toi des pièges !"
+]
+quest.473610BEA4E1765D.quest_subtitle: "Dans les forteresses du Nether"
+quest.473610BEA4E1765D.quest_desc: [
+  "L'&cŒil du Nether&r se trouve dans les &ecoffres des forteresses du Nether&r : le donjon principal, la salle d'obsidienne et le sanctuaire."
+  ""
+  "Prévois une potion de résistance au feu : les blazes et les Wither squelettes ne vont pas te faciliter la tâche."
+]
+quest.38C09CF7914BEE30.quest_subtitle: "Le trésor des piglins"
+quest.38C09CF7914BEE30.quest_desc: [
+  "L'&4Œil Maudit&r se trouve dans le &ecoffre au trésor des bastions&r, dans le Nether."
+  ""
+  "C'est la salle la mieux gardée du bastion : les piglins brutes ne plaisantent pas. Porte au moins une pièce d'armure en or pour ne pas énerver les autres piglins."
+]
+quest.498D22534A947B79.quest_subtitle: "Le pouvoir des évocateurs"
+quest.498D22534A947B79.quest_desc: [
+  "L'&dŒil Magique&r est lâché par les &eévocateurs&r (pendant les raids ou dans les manoirs), et se trouve aussi dans les coffres des &emanoirs&r."
+]
+quest.E1E0000000000C02.quest_subtitle: "Le gardien des profondeurs"
+quest.E1E0000000000C02.quest_desc: [
+  "L'&3Œil du Gardien&r est lâché par le &eGardien Ancien&r, le boss des monuments océaniques."
+  ""
+  "Prévois de quoi respirer sous l'eau et du lait contre la fatigue de minage."
+]
+quest.1A1A29A846DABADB.quest_subtitle: "Arraché au Wither"
+quest.1A1A29A846DABADB.quest_desc: [
+  "L'&0Œil du Wither&r est lâché par le &eWither&r."
+  ""
+  "Invoque-le avec trois crânes de Wither squelette sur une base de sable des âmes en T, de préférence sous terre, et viens bien équipé."
+]
+quest.79B7F2CF9843FFCB.quest_subtitle: "Les trésors de l'océan"
+quest.79B7F2CF9843FFCB.quest_desc: [
+  "L'&bŒil Exotique&r se &afabrique&r avec :"
+  "&7- un œil de l'Ender ;"
+  "&7- deux conduits (faits avec un cœur de la mer et des carapaces de nautile) ;"
+  "&7- quatre coraux différents (feu, tube, corne, bulle) ;"
+  "&7- deux poches d'encre luisante."
+  ""
+  "Regarde la recette exacte dans JEI (touche R)."
+]
+quest.E1E0000000000C04.quest_subtitle: "Une âme en peine"
+quest.E1E0000000000C04.quest_desc: [
+  "L'&7Œil Mort-vivant&r se &afabrique&r avec une &eÂme de Mort-vivant&r, des os, de la chair putréfiée, une membrane de phantom et une larme de ghast."
+  ""
+  "L'Âme de Mort-vivant est lâchée par les &echevaux squelettes&r (1 chance sur 4). Ils apparaissent quand la foudre frappe pendant un orage : c'est un piège tendu par quatre cavaliers squelettes !"
+]
+quest.7DDA573B83BD4B2D.quest_subtitle: "Le regard de la sorcière"
+quest.7DDA573B83BD4B2D.quest_desc: [
+  "L'&5Œil de Sorcière&r se &afabrique&r avec un œil de l'Ender et une &ePupille de Sorcière&r."
+  ""
+  "Les &esorcières&r lâchent une Pupille une fois sur dix. On les trouve dans les marais, autour des cabanes de sorcière."
+]
+quest.E1E0000000000B01.title: "&c&lL'Échelle des Boss"
+quest.E1E0000000000B01.quest_subtitle: "Pour ceux qui cherchent le défi"
+quest.E1E0000000000B01.quest_desc: [
+  "Voici tous les grands boss du monde, classés par &cniveau de difficulté&r, du niveau 1 au niveau 7."
+  ""
+  "Ils ne sont &apas obligatoires&r pour aller dans l'End : c'est un défi à part, pour les chasseurs de boss !"
+  ""
+  "Plus le niveau est élevé, meilleure est la récompense : &9caisses rares&r pour les premiers, &5épiques&r pour les plus durs, et &6légendaires&r pour Ignis et Maledictus."
+  ""
+  "Sur ce serveur, les boss sont &crenforcés&r (+25 % de vie, +15 % de dégâts) : venez à plusieurs !"
+  ""
+  "Lis la description de chaque boss pour savoir où le trouver et comment l'invoquer."
+]
+task.E1E0000000000B02.title: "Clique pour valider"

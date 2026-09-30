@@ -1,0 +1,21 @@
+chapter.784A6CC38A657526.title: "&eSimply Swords"
+quest.07CCF0EE3BC96DB1.quest_desc: [
+  "Begin by crafting a &6Contained Remnant.&r"
+  ""
+  "Step into &ethe End&r with a &5Runic Tablet&r in your offhand and the &6Contained Remnant&r in your inventory. After a short time, it will transform into a &cTampered Remnant.&r"
+  ""
+  "&cThe Tampered Remnant&r will evolve into one of several possible items while in your inventory. Repeat this process until it turns into the &bDecaying Relic.&r"
+  ""
+  "With the &bDecaying Relic,&r follow one of the paths below depending on the &aMagi-Weapon&r you want:"
+]
+quest.07CCF0EE3BC96DB1.quest_subtitle: "&3Unlock the Secrets of the Magi-Weapons"
+quest.51E18D8B67394EC2.quest_desc: [
+  "Hold the relic in your hand and step on a &6Sculk Sensor.&r"
+]
+quest.5F9DC6A4D253217D.quest_desc: [
+  "Keep the relic in your inventory and get inflicted with &6Darkness.&r Wait briefly for the transformation."
+]
+quest.624E99A4E08167EA.quest_desc: [
+  "Hold the relic in your hand and get hit by the &6Warden's Sonic Boom.&r"
+]
+quest.6C71E2ABAA99C005.title: "&6Collect All the Simply Swords"

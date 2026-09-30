@@ -1,0 +1,413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cooking"
+	group: "1A00000000000001"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "1B36D78198D6D21C"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "346E62E8442A15C1"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "0124D844524BF102"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["346E62E8442A15C1"]
+			id: "66311A502CC99A40"
+			rewards: [
+				{
+					id: "10A3A970B1946330"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "33D8776541BC54B2"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66311A502CC99A40"]
+			id: "7D01CDC7E5CEAA4F"
+			rewards: [
+				{
+					id: "45D59A66BB82EFEB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5322D8A081A50FEC"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["346E62E8442A15C1"]
+			id: "41A7917AD48BC129"
+			rewards: [
+				{
+					id: "5D68522BFBD35A41"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "79592BDCFAFD7530"
+					item: { count: 1, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "698C921EE4B33157"
+					item: { count: 1, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "71E1053D3D307BB9"
+					item: { count: 1, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "137188522FC4F0FF"
+					item: { count: 1, id: "farmersdelight:rice" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41A7917AD48BC129"]
+			id: "4796A7277932F2C4"
+			rewards: [
+				{
+					id: "32609148F9A34429"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "37FB391ACE1C03C8"
+					item: { count: 1, id: "farmersdelight:rich_soil" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66311A502CC99A40", "41A7917AD48BC129"]
+			id: "5E71C98874220025"
+			rewards: [
+				{
+					id: "1B92574D0C09DEBF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6E410BDC9F33C070"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 3d
+		}
+		{
+			dependencies: ["5E71C98874220025"]
+			id: "2C5F1B348AD531AB"
+			rewards: [
+				{
+					id: "13DF4808696A5010"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "606CAC664CF71D2D"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E71C98874220025"]
+			id: "1C7A2B8C112629AB"
+			rewards: [
+				{
+					id: "31595B1507CB9AC6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "61ABBA2DC1D55684"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C5F1B348AD531AB"]
+			id: "71FA7C33865A2435"
+			rewards: [
+				{
+					id: "41ED170FAAA4996C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "359D570F0E3B0894"
+					item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 6d
+		}
+		{
+			dependencies: ["2C5F1B348AD531AB"]
+			id: "51E604A03CF06C47"
+			rewards: [
+				{
+					id: "24A79B16A9F52456"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3526D319B48A1BBC"
+					item: { count: 1, id: "create_bic_bit:mechanical_fryer" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 6d
+		}
+		{
+			dependencies: ["2C5F1B348AD531AB"]
+			id: "124E77237E4676B6"
+			rewards: [
+				{
+					id: "72E861A05583F851"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "01D0EB020982C2C0"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6d
+		}
+		{
+			dependencies: ["124E77237E4676B6"]
+			id: "7800DAE767EFE046"
+			optional: true
+			rewards: [
+				{
+					id: "4A478DEE7948C8DD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "30E524C1948301B1"
+					item: { count: 1, id: "garnished:crushed_salt" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 6d
+		}
+		{
+			dependencies: ["71FA7C33865A2435", "51E604A03CF06C47", "124E77237E4676B6"]
+			icon: {
+				id: "solcarrot:food_book"
+			}
+			id: "2E8298E39F19B38F"
+			rewards: [
+				{
+					id: "0BB7AB7E6C8E4E02"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2d
+			tasks: [
+				{
+					id: "081BD60DF609D838"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2E8298E39F19B38F"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "080ED1235E012CF5"
+			rewards: [
+				{
+					id: "7F28B9E557FCA7B1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "14FE63C29D4970A2"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "1621B878ADF3BB24"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 9d
+		}
+	]
+}

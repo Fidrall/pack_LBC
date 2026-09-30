@@ -1,0 +1,84 @@
+chapter.5F7AAB8DEFA61465.title: "&aNew Age"
+quest.09A89AA4D2362D88.quest_desc: [
+  "Fonctionne comme un &6Brûleur à Blaze&r, mais utilise de la &c&lChaleur&r&r au lieu de &2combustible&r."
+]
+quest.25F7E0AB3232BFED.quest_desc: [
+  "Sert à alimenter le &bRéacteur Nucléaire&r."
+]
+quest.28EB76DB4F35988F.quest_desc: [
+  "Permet de pousser la &l&cChaleur&r&r."
+  ""
+  "&e&lAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
+]
+quest.31A3E5D800B2ECDB.quest_desc: [
+  "Transforme la &c&lChaleur&r&r en &drotation&r."
+  ""
+  "&l&eAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
+]
+quest.3980DD49B40511C6.quest_desc: [
+  "En &emode Tirer&r, le &6&lconnecteur&r&r récupère l'&bélectricité&r d'un bloc qui en produit ou en stocke (par exemple des &dBalais de Carbone&r). Il l'envoie ensuite par un câble vers un autre connecteur, qui peut alimenter une machine."
+  ""
+  "Pour changer de mode, fais un clic droit sur le connecteur avec une clé. Le dessous du connecteur change d'aspect selon le mode."
+  ""
+  "Le &emode Tirer&r sert à la compatibilité avec les autres mods : il ne peut pas tirer l'électricité stockée dans un Énergiseur ou un Moteur."
+]
+quest.3CA26C2970F112AB.quest_desc: [
+  "Apparaît quand un réacteur fond ou quand on casse une Barre Nucléaire."
+  ""
+  "&6Attention :&r ce bloc est très radioactif. Il finit par faire fondre le sol jusqu'à la bedrock, en répandant des radiations sur son passage."
+]
+quest.45B67F9419927086.quest_desc: [
+  "S'utilise avec un Entonnoir pour insérer le combustible dans le Réacteur Nucléaire."
+]
+quest.5474CED4870FED3A.quest_desc: [
+  "Récupère l'&bélectricité&r produite par les &dBobines&r et les &dAimants&r, pour l'envoyer par des &6Connecteurs&r et des &6Câbles&r vers des moteurs ou d'autres machines."
+]
+quest.5A1A5AA7A9A61510.quest_desc: [
+  "Place des &daimants&r autour de la &6&lBobine Génératrice&r&r et fais-la tourner : elle produit de l'électricité."
+  ""
+  "Récupère cette &bélectricité&r avec des Balais de Carbone, puis extrais-la avec un Connecteur Électrique en mode Tirer."
+  ""
+  "Le rendement de la bobine dépend du niveau de l'aimant : plus il est élevé, meilleur est le rendement."
+  ""
+  "On peut empiler les Bobines Génératrices, mais cela augmente la contrainte."
+]
+quest.62FF89F212A845E9.quest_desc: [
+  "Permet de transférer la &c&lChaleur&r&r."
+  ""
+  "&e&lAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
+]
+quest.6AD020DBDE0A43F2.quest_desc: [
+  "La puissance du &6&lSoleil&r&r ! C'est du moins ce que disait une certaine &2Pieuvre&r."
+  ""
+  "Les &l&bRéacteurs Nucléaires&r&r produisent des quantités énormes de chaleur !"
+  ""
+  "&l&dConstruire le cœur du réacteur :&r&r"
+  "Pose des &6Carters de Réacteur&r, puis place les &3Barres de Réacteur&r dessus. Au besoin, tourne-les à l'horizontale avec une &6clé&r."
+  ""
+  "&l&dInstaller l'arrivée de combustible :&r&r"
+  "Place un &6Récepteur de Combustible&r à un bout de la &3rangée de barres&r, puis ajoute un &6Entonnoir&r pour y mettre le &bCombustible Nucléaire&r."
+  ""
+  "&l&dRécupérer la chaleur :&r&r"
+  "À l'autre bout, place une &6Ventilation de Réacteur&r pour extraire la &cchaleur&r des &3barres&r. Ajoute ensuite des &6Tuyaux Chauffants&r et des &6Chauffages&r pour l'amener là où tu en as besoin."
+  ""
+  "&l&dSécurité : enferme-le complètement !&r&r"
+  "Pour finir, entoure entièrement le &bréacteur&r de &6Carter de Réacteur&r et/ou de &6Verre de Réacteur&r."
+  ""
+  "&l&aConsignes de sécurité&r&r"
+  ""
+  "&eRadiations :&r un réacteur actif émet des radiations dangereuses. Protège-toi avec une armure en cuir, et/ou en enfermant complètement le réacteur."
+  ""
+  "&eSurchauffe :&r si le réacteur surchauffe, il fond et les barres deviennent du Corium. Le Corium est très radioactif et fait fondre le sol jusqu'à la bedrock en répandant des radiations."
+  ""
+  "&cNe casse pas les barres&r : détruire des Barres de Réacteur peut les faire exploser et les transformer en Corium."
+]
+quest.6AD020DBDE0A43F2.title: "Réacteur Nucléaire"
+quest.71C1DFB2CA66E736.quest_desc: [
+  "Sert à assembler un &bRéacteur Nucléaire&r."
+  ""
+  "&6Attention :&r casser ce bloc pendant que le réacteur tourne le fait exploser et le transforme en &9Corium&r."
+]
+quest.7EBB3ED5C7D86405.quest_desc: [
+  "Extrait la chaleur produite par les barres du cœur du &bRéacteur Nucléaire&r."
+]
+task.228DCE6FDAD7130A.title: "Clique pour valider"

@@ -1,0 +1,66 @@
+chapter.178BB414E2F55B72.title: "&aÉlectricité"
+quest.091D25B58FD2D1A3.quest_desc: [
+  "Il existe trois types de connecteurs :"
+  ""
+  "* Petit Connecteur"
+  "* Petit Connecteur lumineux"
+  "* Grand Connecteur"
+  ""
+  "La différence entre les &epetits et les grands connecteurs&r, c'est la quantité d'énergie qu'ils peuvent faire entrer ou sortir, et le nombre de câbles qu'ils acceptent en même temps."
+  ""
+  "&dUtilise une clé pour faire passer chaque connecteur entre les modes Pousser, Tirer et Aucun.&r"
+]
+quest.091D25B58FD2D1A3.title: "&e🔌 Les connecteurs"
+quest.2192D2F22A2C17FD.quest_desc: [
+  "Une &eBobine Vide&r peut être transformée en quatre types de câbles avec le matériau correspondant :"
+  ""
+  "* Bobine de Cuivre"
+  "* Bobine d'Or"
+  "* Bobine d'Électrum"
+  "* Bobine de Cuivre avec guirlande lumineuse"
+  ""
+  "La différence principale &eentre le Cuivre et l'Or ou l'Électrum&r, c'est le type de connecteur accepté et la quantité d'énergie transportée :"
+  ""
+  "* Les &6câbles en Cuivre&r se branchent sur les &aPetits Connecteurs&r"
+  "* Les &6câbles en Or et en Électrum&r se branchent sur les &aGrands Connecteurs&r"
+  ""
+  "Quand une bobine est vide, elle redevient une Bobine Vide, prête à être rechargée."
+]
+quest.2192D2F22A2C17FD.title: "&e🧵 Bobines et câbles"
+quest.2E4DA361722CB9D0.quest_desc: [
+  "La &eBobine Tesla&r &crecharge les objets électriques (FE)&r posés en dessous."
+  ""
+  "Elle sert aussi à transformer des &blingots de Cuivre en Bronze&r en les chargeant."
+  ""
+  "Enfin, la &eBobine Tesla&r peut électrocuter les joueurs et les monstres proches. Cet effet s'active avec un signal de redstone."
+]
+quest.2E4DA361722CB9D0.title: "&e⚡ La Bobine Tesla"
+quest.30B4AA1B5916FC72.quest_desc: [
+  "L'&eAccumulateur&r sert à stocker l'énergie électrique."
+  ""
+  "Une fois l'énergie produite par un &6Alternateur&r, tu peux la stocker dans un &eAccumulateur&r en plaçant au moins un &bConnecteur d'entrée&r dessus."
+  ""
+  "Tu peux aussi ajouter un second &bConnecteur&r pour la sortie d'énergie. Chaque &eAccumulateur&r contient 2 MFE."
+  ""
+  "Comme les coffres-forts et les réservoirs, les Accumulateurs peuvent être assemblés en blocs de 2×2 ou 3×3, et empilés jusqu'à 5 blocs de haut."
+  ""
+  "La plus grande structure possible fait 3×5×3 : 45 Accumulateurs pour un total de 90 MFE."
+  ""
+  "Assembler les &eAccumulateurs&r réduit le nombre de &bConnecteurs&r nécessaires et fait gagner de la place."
+]
+quest.30B4AA1B5916FC72.title: "&e⚡ Stocker l'énergie : l'Accumulateur"
+quest.4B44C2F3B7D3404B.quest_desc: [
+  "L'&eAlternateur&r transforme la rotation (au moins 32 tr/min) en énergie électrique."
+  ""
+  "Plus la rotation est rapide, plus il produit d'énergie."
+]
+quest.4B44C2F3B7D3404B.title: "&e⚡ Produire de l'énergie"
+quest.513AB7EE426B5AD1.quest_desc: [
+  "Le &n&eLaminoir&r&r utilise la rotation pour transformer les métaux en &eTiges&r et en &eFils&r."
+  ""
+  "Pour l'alimenter à la main, jette des &3lingots&r ou des &3plaques&r sur le dessus du &aLaminoir&r."
+  ""
+  "Fais un &dclic droit&r sur le Laminoir pour récupérer ce qu'il a produit."
+  ""
+  "Tout ça peut s'automatiser avec des Entonnoirs ou des Goulottes."
+]

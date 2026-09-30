@@ -1,0 +1,431 @@
+chapter.4C2580819596F6D1.title: "&b&lDirigeables et Aéronautique"
+chapter.4C2580819596F6D1.chapter_subtitle: [
+  "Construis, pilote et fais voler tes propres vaisseaux"
+]
+quest.48F827FD3545398E.title: "&b&lPrendre son envol"
+quest.48F827FD3545398E.quest_subtitle: "Le cœur du pack : les vaisseaux volants"
+quest.48F827FD3545398E.quest_desc: [
+  "&bCreate Aeronautics&r te permet de construire de vrais &evaisseaux avec une physique réaliste&r : dirigeables, montgolfières, avions, hélicoptères, et même des véhicules à roues."
+  ""
+  "Tout ce que tu construis a un &6poids&r, un &6centre de gravité&r, de la &6portance&r et de la &6poussée&r. Un vaisseau mal équilibré penchera, tombera ou tournera sur lui-même : il faudra tester et ajuster !"
+  ""
+  "Ce chapitre te guide pas à pas : faire bouger ta première construction, gonfler ton premier ballon, te propulser, puis piloter, et enfin maîtriser la lévitite et les propulseurs."
+  ""
+  "&aAstuce :&r le &6Ponder&r (touche W en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !"
+  ""
+  "&7Les vaisseaux sont aussi le meilleur moyen de voyager loin sur ce serveur : les waystones et les téléporteurs coûtent cher sur les longues distances."
+]
+task.3D9F536C18CF7809.title: "Clique pour valider"
+quest.1859F22FB327067C.title: "&6L'Assembleur Physique"
+quest.1859F22FB327067C.quest_subtitle: "Le point de départ de tout vaisseau"
+quest.1859F22FB327067C.quest_desc: [
+  "L'&6Assembleur Physique&r transforme un groupe de blocs en &econstruction simulée&r : un objet physique qui peut voler, flotter, tomber ou rouler."
+  ""
+  "&n&aComment faire :&r"
+  "1) Colle les blocs de ta construction ensemble avec de la &eColle au Miel&r ou de la &eSuper Colle&r."
+  "2) Pose l'Assembleur contre la construction."
+  "3) Maintiens le clic droit et tire le levier : la construction s'assemble !"
+  ""
+  "Une fois assemblée, la construction n'a plus besoin de l'Assembleur, et &bn'importe quel Assembleur&r peut la désassembler."
+  ""
+  "Tu peux toujours interagir avec les blocs d'une construction assemblée : ouvrir les coffres, utiliser les machines, marcher dessus…"
+]
+quest.23DAFFEA162268FD.title: "La Colle au Miel"
+quest.23DAFFEA162268FD.quest_subtitle: "La colle idéale pour les vaisseaux"
+quest.23DAFFEA162268FD.quest_desc: [
+  "La &eColle au Miel&r est une alternative pratique à la Super Colle, faite pour les constructions simulées."
+  ""
+  "Clique deux coins pour créer une zone collée, puis utilise &aCtrl + molette&r pour l'agrandir ou la réduire. Maintiens &aAlt&r pour placer un coin en l'air."
+  ""
+  "Contrairement à la Super Colle, elle &cne crée pas de liaisons indésirables&r sur les constructions complexes."
+  ""
+  "Elle se fabrique en remplissant une plaque de fer avec du miel, grâce à un Bec Verseur."
+]
+quest.79B27E5DC08D6FC5.title: "Les Lunettes d'Aviateur"
+quest.79B27E5DC08D6FC5.quest_subtitle: "Des infos en plus pour les pilotes"
+quest.79B27E5DC08D6FC5.quest_desc: [
+  "Comme les Lunettes d'Ingénieur, elles affichent des informations sur les blocs : contrainte, capacité, contenu…"
+  ""
+  "Elles montrent en plus la &bpoussée et le flux d'air des hélices&r et les données des ballons. Indispensable pour régler un vaisseau !"
+]
+quest.1CEEFAEED5539BA1.title: "Le Diagramme de Construction"
+quest.1CEEFAEED5539BA1.quest_subtitle: "Comprendre pourquoi ça ne vole pas"
+quest.1CEEFAEED5539BA1.quest_desc: [
+  "Fais un clic droit sur une construction simulée avec le &eDiagramme&r pour voir toutes les forces qui s'exercent dessus : &6poids, portance, poussée&r…"
+  ""
+  "Ton vaisseau penche ou refuse de décoller ? Le diagramme te dira pourquoi."
+]
+quest.441F88F376742590.title: "Baptiser son vaisseau"
+quest.441F88F376742590.quest_subtitle: "Tout vaisseau mérite un nom"
+quest.441F88F376742590.quest_desc: [
+  "La &ePlaque de Nom&r affiche le nom de ta construction simulée."
+  ""
+  "Pratique pour reconnaître les vaisseaux de chaque équipe !"
+]
+quest.6CEACA7588116B57.title: "&eLes Enveloppes"
+quest.6CEACA7588116B57.quest_subtitle: "La toile de ton ballon"
+quest.6CEACA7588116B57.quest_desc: [
+  "Les &eEnveloppes&r forment le ballon de ton dirigeable. Elles enferment un volume qui produit de la &bportance&r quand il est rempli d'air chaud."
+  ""
+  "&n&aRègles importantes :&r"
+  "- L'air chaud remplit le ballon &bdu haut vers le bas&r."
+  "- Il doit être &bétanche&r : pas de trou !"
+  "- Les blocs à l'intérieur du ballon &créduisent le volume&r utile."
+  "- Un axe peut traverser le ballon s'il est recouvert d'enveloppe (axe enveloppé)."
+  ""
+  "Fais un clic droit avec de la teinture pour les colorer."
+]
+quest.32D8CE4F01902940.title: "&6Le Brûleur à Air Chaud"
+quest.32D8CE4F01902940.quest_subtitle: "Ta première source de portance"
+quest.32D8CE4F01902940.quest_desc: [
+  "Placé sous un ballon, le &6Brûleur à Air Chaud&r le remplit progressivement d'air chaud quand il reçoit un &csignal de redstone&r."
+  ""
+  "- Son panneau règle le débit maximum."
+  "- La &cforce du signal&r règle le débit : un signal plus faible = moins de portance."
+  "- Plusieurs brûleurs peuvent remplir le même ballon."
+  "- La portance est limitée par la &btaille du ballon&r."
+  ""
+  "&n&aMonter et descendre :&r plus tu montes, plus l'air est rare et plus la portance diminue. Le vaisseau se stabilise quand portance et poids s'équilibrent : en changeant la portance, tu changes d'altitude !"
+  ""
+  "&7Un objet infusé d'âme change la couleur de la flamme, juste pour le style."
+]
+quest.4024CBCB556F4E01.title: "&b&lTa première montgolfière"
+quest.4024CBCB556F4E01.quest_subtitle: "Défi : décoller du sol"
+quest.4024CBCB556F4E01.quest_desc: [
+  "&n&aDéfi :&r construis une petite montgolfière et fais-la décoller !"
+  ""
+  "&7Un exemple simple :&r"
+  "1) Une plateforme de quelques blocs, avec un siège."
+  "2) Au centre, un Brûleur à Air Chaud relié à un levier."
+  "3) Au-dessus, un ballon d'enveloppes fermé de tous les côtés, avec une ouverture juste au-dessus du brûleur."
+  "4) Colle tout avec la Colle au Miel, assemble avec l'Assembleur Physique, et active le brûleur."
+  ""
+  "Si ça ne monte pas : agrandis le ballon, ajoute un brûleur ou allège la plateforme."
+  ""
+  "Valide la quête quand tu as réussi à décoller."
+]
+task.7B694FDA219E75EB.title: "Mon ballon a décollé !"
+quest.580A5EDF8F1FAF78.title: "La Bouche de Vapeur"
+quest.580A5EDF8F1FAF78.quest_subtitle: "De la portance à la vapeur"
+quest.580A5EDF8F1FAF78.quest_desc: [
+  "La &eBouche de Vapeur&r remplit aussi les ballons, mais avec de la &bvapeur&r."
+  ""
+  "Comme un Moteur à Vapeur, elle a besoin de &cchaleur&r, d'&beau&r et d'une &6chaudière&r assez grande. Elle s'active avec la redstone, et plusieurs bouches peuvent partager un ballon."
+  ""
+  "Plus complexe, mais idéale pour les très gros dirigeables."
+]
+quest.1376726CEAE353A2.title: "Le Capteur d'Altitude"
+quest.1376726CEAE353A2.quest_subtitle: "Savoir à quelle hauteur on vole"
+quest.1376726CEAE353A2.quest_desc: [
+  "Il émet un signal de redstone selon l'&baltitude&r : plus tu montes, plus le signal est fort (réglable dans son interface)."
+  ""
+  "Relie-le à tes brûleurs pour créer un &apilote automatique d'altitude&r !"
+]
+quest.7E59389B700FFD7F.title: "&6Le Roulement d'Hélice"
+quest.7E59389B700FFD7F.quest_subtitle: "Transformer la rotation en poussée"
+quest.7E59389B700FFD7F.quest_desc: [
+  "Le &6Roulement d'Hélice&r se fixe au bloc devant lui et transforme un ensemble de voiles en &bhélice qui pousse&r."
+  ""
+  "- Il faut au moins &e2 blocs de type voile&r pour faire une hélice valide."
+  "- &bPlus il y a de voiles, plus l'hélice est efficace.&r"
+  "- Inverser le sens de rotation (ou utiliser une clé) inverse la poussée."
+  "- Une hélice qui avance vite pousse moins fort, car l'air bouge déjà."
+  "- Comme les brûleurs, la poussée &cdiminue avec l'altitude&r."
+  ""
+  "Les Lunettes affichent la poussée et le flux d'air de chaque hélice."
+]
+quest.13F0D2A3C376C29A.title: "Des hélices toutes faites"
+quest.13F0D2A3C376C29A.quest_subtitle: "Pas envie de construire la tienne ?"
+quest.13F0D2A3C376C29A.quest_desc: [
+  "L'&eHélice en Andésite&r et l'&eHélice en Bois&r sont des hélices prêtes à l'emploi."
+  ""
+  "Elles se montent directement sur un roulement d'hélice. On passe de l'une à l'autre dans la table de fabrication, c'est juste une question de style."
+]
+quest.3D5DE39F4ABB31DF.title: "Le Mécanisme Gyroscopique"
+quest.3D5DE39F4ABB31DF.quest_subtitle: "Une pièce de précision"
+quest.3D5DE39F4ABB31DF.quest_desc: [
+  "Le &eMécanisme Gyroscopique&r s'obtient par &6assemblage séquencé&r à partir d'une plaque de fer (regarde la recette dans JEI)."
+  ""
+  "Il sert à fabriquer les hélices intelligentes et les roulements gyroscopiques, qui gardent ton vaisseau stable."
+]
+quest.3B8F02F7FD6491B9.title: "L'Hélice Intelligente"
+quest.3B8F02F7FD6491B9.quest_subtitle: "Elle s'oriente toute seule"
+quest.3B8F02F7FD6491B9.quest_desc: [
+  "Elle produit de la poussée quand elle tourne, et &bs'incline d'elle-même&r sur un axe pour essayer de pointer vers le haut."
+  ""
+  "Une clé inverse le sens de sa poussée."
+]
+quest.376EB57018B8FCC1.title: "Le Roulement Gyroscopique"
+quest.376EB57018B8FCC1.quest_subtitle: "Pour les hélicoptères"
+quest.376EB57018B8FCC1.quest_desc: [
+  "Un roulement d'hélice qui &bgarde son hélice droite&r : parfait pour les &ehélicoptères&r, que les roulements normaux rendent instables."
+  ""
+  "Tourné vers le bas, il peut aussi &astabiliser une construction trop lourde en haut&r."
+  ""
+  "Un signal de redstone remet son inclinaison à zéro."
+]
+quest.61253545DDE41E88.title: "&b&lTon premier dirigeable"
+quest.61253545DDE41E88.quest_subtitle: "Défi : voler et se diriger"
+quest.61253545DDE41E88.quest_desc: [
+  "&n&aDéfi :&r ajoute des hélices à ta montgolfière pour en faire un vrai &bdirigeable&r !"
+  ""
+  "- Une ou deux hélices à l'arrière pour avancer."
+  "- De quoi les faire tourner : une manivelle pour commencer, puis un moteur (voir plus bas)."
+  "- Garde le &6centre de gravité&r au milieu, sinon le vaisseau penchera."
+  ""
+  "Pour tourner, fais varier la vitesse d'une hélice de gauche et d'une hélice de droite, ou utilise un gouvernail avec des Voiles Symétriques."
+  ""
+  "Valide quand ton dirigeable vole et avance. Bravo, pilote !"
+]
+task.042595FDBE946369.title: "Mon dirigeable avance !"
+quest.2D10356191A61462.title: "&6Le Moteur Portable"
+quest.2D10356191A61462.quest_subtitle: "De la rotation à bord"
+quest.2D10356191A61462.quest_desc: [
+  "Le &6Moteur Portable&r produit de la rotation en &cbrûlant du combustible&r : parfait pour faire tourner tes hélices en vol, sans roue à eau ni moulin."
+  ""
+  "- Il peut tourner dans les deux sens."
+  "- On peut l'alimenter automatiquement en combustible."
+  "- Avec un &eGâteau de Blaze&r, il passe en surchauffe pour plus de puissance."
+  ""
+  "Il se fabrique avec un &eAssemblage Moteur&r (assemblage séquencé), et se décline en plusieurs couleurs."
+]
+quest.2E79374EBFA2EA4C.title: "&6Le Volant"
+quest.2E79374EBFA2EA4C.quest_subtitle: "Prendre les commandes"
+quest.2E79374EBFA2EA4C.quest_desc: [
+  "Le &6Volant&r donne une rotation précise : maintiens le clic droit pour le saisir, puis bouge la souris pour tourner."
+  ""
+  "- Accroupi, il tourne par crans de 45°."
+  "- Son panneau règle l'angle maximum."
+  "- Un comparateur peut lire son angle, ou savoir si quelqu'un le tient."
+  ""
+  "&cAttention :&r les roulements reliés au volant doivent être réglés pour &cne pas se désassembler&r."
+  ""
+  "&7Des planches changent son apparence."
+]
+quest.41A886E206236FDB.title: "&6La Manette des Gaz"
+quest.41A886E206236FDB.quest_subtitle: "Doser la puissance"
+quest.41A886E206236FDB.quest_desc: [
+  "Une source de redstone &bprécise et compacte&r : clique et fais glisser pour régler la force du signal."
+  ""
+  "Parfaite pour doser la puissance de tes brûleurs ou de tes propulseurs. Une clé inverse le signal."
+]
+quest.6407DB1B8FBDBE81.title: "La Machine à Écrire Liée"
+quest.6407DB1B8FBDBE81.quest_subtitle: "Un cockpit dans un bloc"
+quest.6407DB1B8FBDBE81.quest_desc: [
+  "Associe des fréquences de &eLiaison Redstone&r à ses touches : tu contrôles ton vaisseau au clavier, comme avec un tableau de bord."
+  ""
+  "Pendant que tu l'utilises, elle prend le contrôle de tes touches de déplacement."
+]
+quest.3B977F507A6B2E2A.title: "Le Capteur de Vitesse"
+quest.3B977F507A6B2E2A.quest_subtitle: "Savoir à quelle vitesse on va"
+quest.3B977F507A6B2E2A.quest_desc: [
+  "Il émet un signal de redstone selon la &bvitesse&r du vaisseau. La vitesse du signal maximum se règle sur son panneau."
+]
+quest.7B935C61FA732F05.title: "Le Capteur Gyroscopique"
+quest.7B935C61FA732F05.quest_subtitle: "Rester à l'horizontale"
+quest.7B935C61FA732F05.quest_desc: [
+  "Il émet un signal selon l'&binclinaison&r du vaisseau, vers le côté qui descend."
+  ""
+  "Relié à des hélices ou des brûleurs, il permet de faire un &astabilisateur automatique&r."
+]
+quest.7028A4D91D14E5B0.title: "La Table de Navigation"
+quest.7028A4D91D14E5B0.quest_subtitle: "Le début du pilote automatique"
+quest.7028A4D91D14E5B0.quest_desc: [
+  "Donne-lui un &eobjet de navigation&r (regarde le Ponder pour la liste) : elle émet un signal de redstone &bdans la direction de la destination&r."
+  ""
+  "Le signal est plus faible quand tu ne regardes pas droit vers la cible."
+  ""
+  "C'est la base d'un &apilote automatique&r et d'un indicateur de cap."
+]
+quest.29D6C7D5DEC00FB2.title: "Le Capteur Optique"
+quest.29D6C7D5DEC00FB2.quest_subtitle: "Détecter les obstacles"
+quest.29D6C7D5DEC00FB2.quest_desc: [
+  "Il envoie un rayon et émet un signal quand un bloc le coupe, d'autant plus fort que le bloc est proche."
+  ""
+  "Utile comme &ealtimètre&r ou &edétecteur d'obstacles&r pour l'atterrissage."
+]
+quest.33B4B2123A4A929B.title: "Les Voiles Symétriques"
+quest.33B4B2123A4A929B.quest_subtitle: "Gouvernails et stabilisateurs"
+quest.33B4B2123A4A929B.quest_desc: [
+  "Les &eVoiles Symétriques&r ne produisent pas de portance, seulement de la &btraînée&r."
+  ""
+  "Inclinées face au vent, elles freinent et font tourner le vaisseau : parfaites pour les &egouvernails&r et les &estabilisateurs&r."
+  ""
+  "Elles s'assemblent facilement en moulins, et se teignent de toutes les couleurs."
+]
+quest.1032B445E4DCA088.title: "&6L'Amarrage"
+quest.1032B445E4DCA088.quest_subtitle: "Se connecter à une base ou à un autre vaisseau"
+quest.1032B445E4DCA088.quest_desc: [
+  "Les &6Connecteurs d'Amarrage&r fonctionnent par paires : déploie-les l'un vers l'autre, et une fois alignés ils se verrouillent en une &bliaison rigide&r."
+  ""
+  "Une fois amarrés, &aobjets et liquides peuvent passer&r dans les deux sens : idéal pour ravitailler un vaisseau ou décharger une cargaison automatiquement."
+  ""
+  "Rétracte l'un des deux pour se désamarrer."
+]
+quest.5EA8827577211357.title: "Cordes et treuils"
+quest.5EA8827577211357.quest_subtitle: "Remorquer et hisser"
+quest.5EA8827577211357.quest_desc: [
+  "Un clic droit sur un &eTreuil&r et un &eConnecteur de Corde&r avec un &eRaccord de Corde&r les relie par une corde."
+  ""
+  "Avec de la rotation, le treuil enroule ou déroule la corde : parfait pour hisser des charges ou remorquer un autre vaisseau."
+  ""
+  "Des cisailles coupent la corde, et une clé permet de glisser le long."
+]
+quest.226DE63B592A11D8.title: "Une waystone à bord"
+quest.226DE63B592A11D8.quest_subtitle: "Retrouver son vaisseau n'importe où"
+quest.226DE63B592A11D8.quest_desc: [
+  "Grâce à &eWaystones: Sable&r, tu peux poser une &ewaystone sur ton vaisseau&r !"
+  ""
+  "Elle apparaît dans un groupe à part dans le menu des waystones, et te permet de &bte téléporter directement sur ton vaisseau&r, où qu'il soit."
+  ""
+  "Pratique pour retrouver ton dirigeable garé loin de ta base."
+]
+quest.6E284AC12A8D5945.title: "Le Canon à Patates Monté"
+quest.6E284AC12A8D5945.quest_subtitle: "Pour défendre ton vaisseau"
+quest.6E284AC12A8D5945.quest_desc: [
+  "Une version bloc du Canon à Patates : il accepte les mêmes munitions et peut être rechargé automatiquement."
+  ""
+  "Fais-le tourner pour le charger, puis donne-lui un signal de redstone pour tirer. Un signal continu = tir automatique."
+]
+quest.59816734AF9F1906.title: "&dLa Poudre de Pierre de l'End"
+quest.59816734AF9F1906.quest_subtitle: "Il va falloir aller dans l'End"
+quest.59816734AF9F1906.quest_desc: [
+  "La &dlévitite&r, le cristal qui fait flotter les vaisseaux, demande de la &epierre de l'End&r : c'est donc un objectif &cd'après l'Ender Dragon&r !"
+  ""
+  "Broie de la pierre de l'End avec des &6Roues de Broyage&r pour obtenir de la &dPoudre de Pierre de l'End&r."
+  ""
+  "Pense à en ramener beaucoup de ton voyage dans l'End."
+]
+quest.0B76EAE1EE32AED7.title: "&dLe Mélange de Lévitite"
+quest.0B76EAE1EE32AED7.quest_subtitle: "Un liquide pas comme les autres"
+quest.0B76EAE1EE32AED7.quest_desc: [
+  "Mélange 4 poudres de pierre de l'End, 2 pépites de zinc et de l'eau dans un &6bassin chauffé&r (Brûleur à Blaze) avec un &6Mélangeur Mécanique&r."
+  ""
+  "Tu obtiens du &dMélange de Lévitite&r liquide."
+]
+quest.44F5B4AFC2F9B125.title: "&d&lLa Lévitite"
+quest.44F5B4AFC2F9B125.quest_subtitle: "Le cristal qui défie la gravité"
+quest.44F5B4AFC2F9B125.quest_desc: [
+  "Verse le mélange dans un moule, puis &capplique de la chaleur&r : il se cristallise en &dLévitite&r. Une fois lancée, la réaction s'étend à tout le liquide."
+  ""
+  "&cAttention :&r certains blocs utilisés comme moule sont détruits pendant la cristallisation, et la lévitite ne peut plus redevenir liquide."
+  ""
+  "&n&aCe qu'elle fait :&r"
+  "- Assez de lévitite sur un vaisseau le &bmaintient en l'air&r."
+  "- Mais elle &cne le fait pas monter&r : il faut d'autres forces (hélices, ballons, propulseurs)."
+  "- À faible vitesse, elle &bfreine fortement&r les mouvements ; moins à grande vitesse."
+  ""
+  "Idéale pour des vaisseaux stables… ou des îles flottantes !"
+]
+quest.43A8ECAA22D87380.title: "&7Le Platine"
+quest.43A8ECAA22D87380.quest_subtitle: "Le métal de Propulsion"
+quest.43A8ECAA22D87380.quest_desc: [
+  "Le &7Platine&r est le métal de base de &eCreate Propulsion&r."
+  ""
+  "Son minerai se trouve sous terre (aussi en version ardoise des abîmes). Comme les autres minerais, broie-le et lave-le avec Create pour en tirer plus de lingots."
+  ""
+  "Il sert à fabriquer le Carter en Platine, les réservoirs en platine (deux fois plus grands que ceux en cuivre) et les machines de propulsion."
+]
+quest.472DB4B9A4EF5EBE.title: "La Résine de Pin"
+quest.472DB4B9A4EF5EBE.quest_subtitle: "Le début du carburant"
+quest.472DB4B9A4EF5EBE.quest_desc: [
+  "Broie des &ebûches de sapin&r avec des Roues de Broyage : tu as 60 % de chance d'obtenir de la &eRésine de Pin&r."
+  ""
+  "Une ferme à sapins automatique avec une scie mécanique te fournira tout le carburant dont tu as besoin."
+]
+quest.609773A4D02FCE65.title: "&6La Térébenthine"
+quest.609773A4D02FCE65.quest_subtitle: "Le carburant des propulseurs"
+quest.609773A4D02FCE65.quest_desc: [
+  "Mélange de la résine de pin avec de l'eau dans un bassin, avec un Mélangeur Mécanique : tu obtiens de la &6Térébenthine&r."
+  ""
+  "C'est le carburant des propulseurs. Accroupis-toi en survolant le seau pour voir sa poussée et sa consommation."
+]
+quest.409C0F545AE62529.title: "&c&lLe Propulseur"
+quest.409C0F545AE62529.quest_subtitle: "De la poussée brute"
+quest.409C0F545AE62529.quest_desc: [
+  "Le &cPropulseur&r pousse ton vaisseau dans une direction, comme un moteur de fusée."
+  ""
+  "- Alimente-le en &6Térébenthine&r avec un tuyau."
+  "- Donne-lui un &csignal de redstone&r : la force du signal règle la puissance."
+  ""
+  "Plus besoin d'hélices : les propulseurs permettent des vaisseaux &brapides&r et des &bavions&r. On peut même les assembler en propulseurs géants de 2×2×2 ou 3×3×3 !"
+]
+quest.4CBCCBBE8A516F65.title: "Le Propulseur Orientable"
+quest.4CBCCBBE8A516F65.quest_subtitle: "Pousser et diriger à la fois"
+quest.4CBCCBBE8A516F65.quest_desc: [
+  "Un propulseur qui peut aussi &bs'orienter&r (lacet et tangage) pour diriger sa poussée."
+  ""
+  "Chaque côté accepte un signal de redstone qui l'incline dans cette direction. La version &eà carburant liquide&r fonctionne à la térébenthine, la version normale à l'électricité (FE)."
+]
+quest.6E5E7A8C91623534.title: "Le Propulseur Ionique"
+quest.6E5E7A8C91623534.quest_subtitle: "Sans carburant, à l'électricité"
+quest.6E5E7A8C91623534.quest_desc: [
+  "Il fonctionne à l'&eélectricité (FE)&r au lieu du carburant. Alimente-le avec des câbles, un Alternateur de Crafts and Additions ou un Générateur à Corail."
+  ""
+  "Plus besoin de faire le plein, mais il faut une bonne source d'énergie à bord."
+]
+quest.7AA0DA68DD83387E.title: "Les Ailes"
+quest.7AA0DA68DD83387E.quest_subtitle: "Pour les avions"
+quest.7AA0DA68DD83387E.quest_desc: [
+  "Les &eAiles&r forment des surfaces aérodynamiques : elles produisent de la &bportance quand l'air passe dessus&r, selon la vitesse et l'angle."
+  ""
+  "Les &eAiles Trempées&r sont une version renforcée, et les &eAiles Copycat&r prennent l'apparence de n'importe quel bloc."
+  ""
+  "Avec des propulseurs, tu peux construire un vrai &bavion&r !"
+]
+quest.1BBA2E6C95E937B3.title: "Brûleur et Moteur Stirling"
+quest.1BBA2E6C95E937B3.quest_subtitle: "Chaleur → rotation"
+quest.1BBA2E6C95E937B3.quest_desc: [
+  "Le &eBrûleur Solide&r (ou &eLiquide&r) produit de la chaleur avec du combustible."
+  ""
+  "Placé dessous, il fait tourner le &eMoteur Stirling&r, qui produit de la rotation. Sans chaleur, le moteur ralentit puis s'arrête."
+  ""
+  "Une autre façon d'alimenter tes vaisseaux en rotation."
+]
+quest.72BCCD2255CBE908.title: "L'Adaptateur d'Inclinaison"
+quest.72BCCD2255CBE908.quest_subtitle: "Incliner avec de la redstone"
+quest.72BCCD2255CBE908.quest_desc: [
+  "Il &bincline sa sortie de rotation&r selon un signal de redstone analogique : plus le signal est fort d'un côté, plus il penche de ce côté."
+  ""
+  "La version avancée permet de régler l'angle maximum de chaque côté."
+]
+quest.1E4E4CCC6E1104DC.title: "&2Les véhicules terrestres"
+quest.1E4E4CCC6E1104DC.quest_subtitle: "Pas besoin de voler pour voyager"
+quest.1E4E4CCC6E1104DC.quest_desc: [
+  "Le &2Support de Roue&r permet à une construction simulée de &2rouler&r."
+  ""
+  "- Un signal de redstone par le dessus &cfreine&r la roue."
+  "- Un signal par le côté la fait &bbraquer&r de ce côté."
+  ""
+  "Voitures, camions, chars… tout est possible !"
+]
+quest.5FE14C4503C34921.title: "Les pneus"
+quest.5FE14C4503C34921.quest_subtitle: "Pour tous les terrains"
+quest.5FE14C4503C34921.quest_desc: [
+  "Fais un clic droit sur un support de roue avec un pneu pour l'installer."
+  ""
+  "Il en existe plusieurs tailles : &epetit, normal, grand et monstrueux&r."
+]
+quest.1BF5491FFC8A97FF.title: "&6Le tunnelier"
+quest.1BF5491FFC8A97FF.quest_subtitle: "Creuser des tunnels à la machine"
+quest.1BF5491FFC8A97FF.quest_desc: [
+  "Le &6Roulement de Forage&r, équipé de &6Roues de Coupe&r et d'un rangement, devient une &6foreuse géante&r."
+  ""
+  "- Les roues de coupe cassent les blocs &btout autour d'elles&r, et s'attachent toutes seules sans colle."
+  "- Il tourne à 1/4 de la vitesse reçue, et la vitesse de minage dépend de la rotation."
+  "- Plus il casse de blocs à la fois, plus il ralentit : plusieurs roulements compensent."
+  "- Les objets vont dans le rangement de la foreuse. Quand il est plein, elle s'arrête : vide-le directement depuis le roulement."
+  ""
+  "Monte-le sur un véhicule à roues et tu as un &etunnelier&r !"
+]
+quest.45A82A0D7A2A252B.title: "&6&lMaître des Airs"
+quest.45A82A0D7A2A252B.quest_subtitle: "L'objectif final du chapitre"
+quest.45A82A0D7A2A252B.quest_desc: [
+  "Tu maîtrises maintenant tout ce qu'il faut pour construire le vaisseau de tes rêves."
+  ""
+  "&n&aDernier défi :&r réunis de quoi construire un &bvaisseau amiral&r : lévitite pour flotter, propulseurs orientables pour manœuvrer, table de navigation pour le pilote automatique et connecteurs pour s'amarrer."
+  ""
+  "Ton vaisseau pourra devenir ta &6base volante&r : ferme, usine, entrepôt… tout peut voler !"
+  ""
+  "&6&lBravo, Maître des Airs !&r"
+]

@@ -1,0 +1,134 @@
+chapter.793BF4A1BA3A1FC7.title: "&e&lL'Aether"
+chapter.793BF4A1BA3A1FC7.chapter_subtitle: [
+  "Le paradis des îles flottantes"
+]
+quest.4014B03F06188F15.title: "&e&lDirection le ciel"
+quest.4014B03F06188F15.quest_subtitle: "Un portail de pierre lumineuse"
+quest.4014B03F06188F15.quest_desc: [
+  "L'&eAether&r est une dimension d'&bîles flottantes&r au-dessus des nuages, avec ses propres ressources, créatures et donjons."
+  ""
+  "&n&aConstruire le portail :&r comme un portail du Nether (cadre de 4×5), mais en &eblocs de pierre lumineuse&r. Verse ensuite un &bseau d'eau&r à l'intérieur pour l'activer."
+  ""
+  "&cAttention au vide :&r tomber des îles te ramène dans l'Overworld… en tombant de très haut ! Garde un moyen de te rattraper (seau d'eau, cape de Valkyrie, parachute)."
+]
+quest.4AB73A2B94869F22.title: "Le bois de Ciel-Racine"
+quest.4AB73A2B94869F22.quest_subtitle: "Tout recommencer là-haut"
+quest.4AB73A2B94869F22.quest_desc: [
+  "Le &eCiel-Racine&r est le bois de l'Aether."
+  ""
+  "Ses outils sont faibles, mais ils ont un bonus : l'&epioche&r double les minerais, la &ehache&r double le bois, l'&eépée&r double le butin des créatures."
+]
+quest.5D60A906B489F563.title: "La Pierre Sainte"
+quest.5D60A906B489F563.quest_subtitle: "La pierre de l'Aether"
+quest.5D60A906B489F563.quest_desc: [
+  "La &ePierre Sainte&r est la pierre de l'Aether. Ses outils font parfois tomber des éclats d'&eAmbrosium&r."
+]
+quest.073DFF74F947F72B.title: "L'Ambrosium"
+quest.073DFF74F947F72B.quest_subtitle: "Le charbon du ciel"
+quest.073DFF74F947F72B.quest_desc: [
+  "L'&eAmbrosium&r sert de combustible, de torche, et peut &aenchanter l'herbe de l'Aether&r pour faire pousser plus vite."
+  ""
+  "C'est aussi le carburant de l'&eAutel&r."
+]
+quest.5C6987E41A5D7B87.title: "L'Autel"
+quest.5C6987E41A5D7B87.quest_subtitle: "Enchanter à la mode de l'Aether"
+quest.5C6987E41A5D7B87.quest_desc: [
+  "L'&eAutel&r « enchante » certains objets de l'Aether (comme la gravitite) et &arépare les outils&r, avec de l'Ambrosium comme carburant."
+  ""
+  "Le &eCongélateur&r, lui, gèle l'eau, la glace et la lave avec de la Pierre de Glace."
+]
+quest.4A729C045D8DCDAA.title: "La Zanite"
+quest.4A729C045D8DCDAA.quest_subtitle: "La gemme bleue"
+quest.4A729C045D8DCDAA.quest_desc: [
+  "La &eZanite&r se mine avec une pioche en Pierre Sainte."
+  ""
+  "Ses outils et son épée ont une particularité : &bplus ils sont usés, plus ils sont efficaces&r !"
+]
+quest.7131CFD09C6B9B90.title: "&dLa Gravitite"
+quest.7131CFD09C6B9B90.quest_subtitle: "Le minerai qui défie la gravité"
+quest.7131CFD09C6B9B90.quest_desc: [
+  "La &dGravitite&r se mine avec une pioche en zanite. Elle ne se fond pas : elle s'&eenchante sur l'Autel&r."
+  ""
+  "Ses outils peuvent &bprojeter les blocs dans le ciel&r (clic droit), son épée envoie les ennemis en l'air, et l'armure complète permet de faire de grands bonds."
+  ""
+  "&7La hache en gravitite est la seule à pouvoir couper les Chênes Dorés."
+]
+quest.388E9A50F6028454.title: "&bÉlever un Moa"
+quest.388E9A50F6028454.quest_subtitle: "Ta monture de l'Aether"
+quest.388E9A50F6028454.quest_desc: [
+  "Les &bMoas&r sont de grands oiseaux. Ils pondent parfois des &eŒufs de Moa&r."
+  ""
+  "Place un œuf dans un &eIncubateur&r (alimenté en torches d'Ambrosium) : un bébé Moa éclot. Nourris-le avec des &eBaies Blanches&r pour qu'il grandisse, puis selle-le."
+  ""
+  "Les Moas peuvent &bsauter en l'air plusieurs fois&r et planer : les meilleures montures pour explorer les îles ! Le &eBâton de la Nature&r leur dit de s'asseoir."
+  ""
+  "Il existe plusieurs couleurs de Moas, dont le rare &0Moa Noir&r."
+]
+quest.1C042745514AC596.title: "Le Moa Noir"
+quest.1C042745514AC596.quest_subtitle: "Le plus rare de tous"
+quest.1C042745514AC596.quest_desc: [
+  "Le &0Moa Noir&r est le plus puissant des Moas : il peut sauter plus de fois que les autres."
+  ""
+  "Son œuf ne s'obtient qu'en récompense d'un donjon. Bonne chance !"
+]
+quest.473C8AE01730974E.title: "Quand les cochons volent"
+quest.473C8AE01730974E.quest_subtitle: "Monter un Phyg"
+quest.473C8AE01730974E.quest_desc: [
+  "Les &eCochons Ailés&r (Phygs) et les &eVaches Volantes&r de l'Aether peuvent être sellés et montés."
+  ""
+  "Oui, les cochons volent enfin !"
+]
+quest.6EF972352D9E0B1F.title: "Éclat de Vie"
+quest.6EF972352D9E0B1F.quest_subtitle: "Un cœur de plus, pour toujours"
+quest.6EF972352D9E0B1F.quest_desc: [
+  "Un &cÉclat de Vie&r donne &cun cœur supplémentaire permanent&r quand on l'utilise."
+  ""
+  "On en trouve dans les coffres des donjons. Avec Spice of Life, c'est l'autre moyen d'augmenter sa vie !"
+]
+quest.421CA9E57B939047.title: "&6Le Donjon de Bronze"
+quest.421CA9E57B939047.quest_subtitle: "Boss : le Glisseur"
+quest.421CA9E57B939047.quest_desc: [
+  "Le &6Donjon de Bronze&r est caché &esous terre&r, fait de grandes salles de pierre gravée. Méfie-toi des &eSentinelles&r, qui explosent comme des creepers."
+  ""
+  "Son boss, le &6Glisseur&r, est un gros cube de pierre qui fonce sur toi. On ne peut le blesser qu'avec une &epioche&r : plus elle est bonne, plus tu fais de dégâts."
+  ""
+  "&7Attention aux Mimiques : certains coffres sont des monstres !"
+]
+quest.7D08DA1B1071D0C6.title: "&f&lLe Donjon d'Argent"
+quest.7D08DA1B1071D0C6.quest_subtitle: "Boss : la Reine Valkyrie"
+quest.7D08DA1B1071D0C6.quest_desc: [
+  "Le &fDonjon d'Argent&r est un temple grec construit &esur de grands nuages&r : facile à repérer."
+  ""
+  "Des &eValkyries&r y patrouillent. Pour affronter la &fReine Valkyrie&r, tu dois d'abord en battre assez pour réunir &e10 Médailles de Victoire&r."
+  ""
+  "Elle fonce en frappant avec son épée et lance des éclairs. Ses récompenses : l'&earmure de Valkyrie&r, la Lance de Valkyrie (10 blocs de portée !) et la cape de Valkyrie (chute lente)."
+]
+quest.2870830227C66454.title: "&6&lLe Donjon d'Or"
+quest.2870830227C66454.quest_subtitle: "Boss final : l'Esprit du Soleil"
+quest.2870830227C66454.quest_desc: [
+  "Le &6Donjon d'Or&r est enfoui sous une grande île couverte de &eChênes Dorés&r."
+  ""
+  "L'&6Esprit du Soleil&r ne peut pas être attaqué tout de suite : &eparle-lui plusieurs fois&r (clic droit) pour lancer le combat."
+  ""
+  "Il fait pleuvoir le feu. Pour le blesser, &brenvoie ses boules de glace&r sur lui. Une bonne protection contre le feu est indispensable."
+  ""
+  "Il donne l'&6armure de Phénix&r (qui devient armure d'Obsidienne dans l'eau)."
+  ""
+  "&6&lTu as conquis l'Aether !&r"
+]
+quest.4C17739FEDCE9F44.title: "Les accessoires"
+quest.4C17739FEDCE9F44.quest_subtitle: "Gants, anneaux, capes…"
+quest.4C17739FEDCE9F44.quest_desc: [
+  "L'Aether a ses propres emplacements d'&eaccessoires&r : gants, anneaux, pendentifs et capes."
+  ""
+  "Parmi les meilleurs : la &ePierre de Régénération&r (soigne en continu), les &eBottes de Sentinelle&r (plus de dégâts de chute), la &eCape d'Invisibilité&r et le &eBouclier de Répulsion&r (renvoie les projectiles)."
+  ""
+  "On les trouve surtout dans les coffres des donjons."
+]
+quest.66099384BDDAD77A.title: "Les armes légendaires"
+quest.66099384BDDAD77A.quest_subtitle: "Des trésors de donjon"
+quest.66099384BDDAD77A.quest_desc: [
+  "Les donjons cachent des armes uniques : le &eMarteau de Kingbdogz&r (tire des projectiles), l'&eÉpée Vampire&r (vol de vie), l'&eÉpée de Foudre&r, l'&eArc Phénix&r (flèches enflammées), l'&eÉpée Sacrée&r…"
+  ""
+  "Chaque joueur voudra sa préférée !"
+]

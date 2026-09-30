@@ -1,0 +1,721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "1A00000000000001"
+	icon: {
+		id: "explorerscompass:explorerscompass"
+	}
+	id: "3A0D968D2B12B019"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "65E6B8689DFD83B1"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "202EB298365C4009"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["65E6B8689DFD83B1"]
+			id: "1DCBB6615422DBBB"
+			rewards: [
+				{
+					id: "2B8E5E8E229063DD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5F012FC15A348A29"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DCBB6615422DBBB"]
+			id: "23BCCDEE0FB841DD"
+			rewards: [
+				{
+					id: "4C8D6F5F5B4FC442"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0AFDBD0F9EF48F90"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65E6B8689DFD83B1"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "4BD538342D7EAFE9"
+			rewards: [
+				{
+					id: "418D3E9855ECACF2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4D81C19520048110"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BD538342D7EAFE9"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "3CECB75C777B8B2E"
+			rewards: [
+				{
+					id: "2D3C23397F0CB04D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5E861DCE112CED1E"
+					type: "checkmark"
+				}
+			]
+			x: 3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65E6B8689DFD83B1"]
+			id: "50CAC11C32FA70C6"
+			rewards: [
+				{
+					id: "5328F840C75272C6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "010F6B18C8727241"
+					item: { count: 1, id: "waystones:warp_dust" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DCBB6615422DBBB"]
+			id: "5074B699E6B3FF0F"
+			rewards: [
+				{
+					id: "7F980CACB96EFB32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4C5DE5571370868C"
+					item: { count: 1, id: "comforts:sleeping_bag_white" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["50CAC11C32FA70C6"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "1457CC01C1D455DD"
+			rewards: [
+				{
+					id: "58804CBE43D6DFA0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29E9412E46C50D93"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 3d
+		}
+		{
+			dependencies: ["4BD538342D7EAFE9"]
+			id: "13384C6B8C1B2D60"
+			rewards: [
+				{
+					id: "6D2A858FE6FD4D2A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "432E5438213DEFF5"
+					item: { count: 1, id: "akashictome:tome" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["3CECB75C777B8B2E"]
+			id: "7E452D2A2E57464F"
+			rewards: [
+				{
+					id: "4A38ED8988EA503D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "52ECD019514FB92C"
+					item: { count: 1, id: "betterarcheology:iron_brush" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 3d
+		}
+		{
+			dependencies: ["7E452D2A2E57464F"]
+			id: "1B17EB1871D471D6"
+			optional: true
+			rewards: [
+				{
+					id: "4956EC47ED033195"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterarcheology:fossil_found"
+					criterion: ""
+					id: "643645AD0FC4A158"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["1DCBB6615422DBBB", "50CAC11C32FA70C6"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "5D17E5356CD5A42E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0B018E176C2EDD75"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D17E5356CD5A42E"]
+			id: "47174032FD094F4F"
+			rewards: [
+				{
+					id: "3A3A351B0A0C1CD7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "75923A5AEE3B6973"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+			]
+			x: -4.5d
+			y: 6d
+		}
+		{
+			dependencies: ["5D17E5356CD5A42E"]
+			id: "31BEBCEB741A29B6"
+			rewards: [
+				{
+					id: "58CFE6F8836F5BD4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "47967B319F89237F"
+					structure: "ribbits:ribbit_village"
+					type: "structure"
+				}
+			]
+			x: -3d
+			y: 6d
+		}
+		{
+			dependencies: ["5D17E5356CD5A42E"]
+			id: "65B7A1DAF383878B"
+			rewards: [
+				{
+					id: "2DCC803E4D63DA9F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "117FC33B25245305"
+					structure: "skyvillages:skyvillage"
+					type: "structure"
+				}
+			]
+			x: -1.5d
+			y: 6d
+		}
+		{
+			dependencies: ["5D17E5356CD5A42E"]
+			id: "36669258C037D428"
+			rewards: [
+				{
+					id: "1B3C06BD784EC2D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "485A4AB7EF1C8663"
+					structure: "mostructures:the_castle_in_the_sky"
+					type: "structure"
+				}
+			]
+			x: 0d
+			y: 6d
+		}
+		{
+			dependencies: ["5D17E5356CD5A42E"]
+			id: "3CDB2020C5E859C1"
+			rewards: [
+				{
+					id: "639CA38CF02FCB75"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7857A3105D1C27C2"
+					structure: "create_structures_arise:pillagersteampunkairship"
+					type: "structure"
+				}
+			]
+			x: 1.5d
+			y: 6d
+		}
+		{
+			dependencies: ["5D17E5356CD5A42E"]
+			id: "3CEEF3CAD99C151A"
+			rewards: [
+				{
+					id: "5F2F9BE417B463B3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "624559DBAB35E319"
+					structure: "dungeons_arise:illager_fort"
+					type: "structure"
+				}
+			]
+			x: 3d
+			y: 6d
+		}
+		{
+			dependencies: ["5D17E5356CD5A42E"]
+			id: "0FD5BF987876069F"
+			rewards: [
+				{
+					id: "345D63D7F48EE7C7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0688ACC193E65E44"
+					structure: "terralith:mage_tower"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 6d
+		}
+		{
+			dependencies: ["47174032FD094F4F"]
+			id: "73F02D17C34B1787"
+			rewards: [
+				{
+					id: "0BD93B04DD7CA269"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28FC30B9508BBE53"
+					structure: "betterarcheology:catacombs"
+					type: "structure"
+				}
+			]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31BEBCEB741A29B6"]
+			id: "5D925522882186A8"
+			rewards: [
+				{
+					id: "767BA48748EEDC68"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "45DCCC1B53E3EA0A"
+					structure: "philipsruins:lost_soul_city"
+					type: "structure"
+				}
+			]
+			x: -3d
+			y: 7.5d
+		}
+		{
+			dependencies: ["65B7A1DAF383878B"]
+			id: "66439896B6A4F367"
+			rewards: [
+				{
+					id: "32D9B930F6F5FEE9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "53928D61D71A213A"
+					structure: "mostructures:sphinx"
+					type: "structure"
+				}
+			]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36669258C037D428"]
+			id: "20C77374BFA20079"
+			rewards: [
+				{
+					id: "284A3B4589EFF2D1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "073D556E35AB7250"
+					structure: "betterstrongholds:stronghold"
+					type: "structure"
+				}
+			]
+			x: 0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3CDB2020C5E859C1"]
+			id: "5EE2C7C1568832CC"
+			rewards: [
+				{
+					id: "225E76EF307EA88F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "593F88ABB9B86064"
+					structure: "nova_structures:illager_manor"
+					type: "structure"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3CEEF3CAD99C151A"]
+			id: "20BBDA9AC4B20474"
+			rewards: [
+				{
+					id: "542396DCDB3E231F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "186F232A7803A108"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			x: 3d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0FD5BF987876069F"]
+			id: "14C694F523C79625"
+			rewards: [
+				{
+					id: "0263219AAE97076F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "59029A0DE8CBB49A"
+					structure: "explorify:tavern"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["73F02D17C34B1787", "5D925522882186A8", "66439896B6A4F367", "20C77374BFA20079", "5EE2C7C1568832CC", "20BBDA9AC4B20474", "14C694F523C79625"]
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "1C68934A9535EB9C"
+			rewards: [
+				{
+					id: "1AD105FE1D0F508D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0C715A771D897180"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [
+				{
+					id: "67B3D076689320C9"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 9d
+		}
+	]
+}

@@ -1,0 +1,68 @@
+chapter.178BB414E2F55B72.title: "&aElectricity"
+quest.091D25B58FD2D1A3.quest_desc: [
+  "There are three types of connectors:"
+  ""
+  "* Small Connector"
+  "* Small Connector with Light"
+  "* Large Connector"
+  ""
+  "The difference between &esmall and large connectors&r is the amount of energy they can input/output, and the number of connections they can handle simultaneously."
+  ""
+  ""
+  "&dUse a wrench to cycle each connector between Push, Pull, and None modes.&r"
+]
+quest.091D25B58FD2D1A3.title: "&e🔌 Connectors Overview"
+quest.2192D2F22A2C17FD.quest_desc: [
+  "An &eEmpty Spool&r can be crafted into four different wire types using their respective materials:"
+  ""
+  "* Copper Spool"
+  "* Gold Spool"
+  "* Electrum Spool"
+  "* Copper Spool with Festive Lights"
+  ""
+  "The main difference &ebetween Copper and Gold/Electrum&r spools is the type of connectors they can attach to and the amount of energy they transfer:"
+  ""
+  "* &6Copper Wires&r connect to &aSmall Connectors&r"
+  "* &6Gold and Electrum&r Wires connect to &aLarge Connectors&r"
+  ""
+  "When a Spool is fully used, it will return to an Empty Spool, ready to be refilled or reused."
+]
+quest.2192D2F22A2C17FD.title: "&e🧵 Spools and Wire Types"
+quest.2E4DA361722CB9D0.quest_desc: [
+  "&eThe Tesla Coil&r allows you to &ccharge FE-powered items&r placed beneath it, such as &bBuilding Gadgets&r."
+  ""
+  "It can also be used to convert &bCopper Ingots into Bronze&r by charging them."
+  ""
+  "Additionally, the &eTesla Coil&r can damage nearby players and mobs with electricity. This effect can be activated using a redstone signal."
+  ""
+]
+quest.2E4DA361722CB9D0.title: "&e⚡ Tesla Coil"
+quest.30B4AA1B5916FC72.quest_desc: [
+  "&eThe Accumulator&r is a block used for storing electrical energy."
+  ""
+  "After generating energy with an &6Alternator&r, it can be stored in an &eAccumulator&r by placing at least one &binput Connector&r on top of it. "
+  ""
+  "You can also place a second &bConnector&r as an energy output. Each &eAccumulator&r holds 2 MFE of energy."
+  ""
+  "Like Item Vaults and Fluid Tanks, Accumulators can be merged into 2×2 or 3×3 multiblocks, and extended vertically up to 5 blocks tall. "
+  ""
+  "The largest possible structure is 3×5×3, made of 45 Accumulators, storing a total of 90 MFE."
+  ""
+  "Merging &eAccumulators&r reduces the number of required &bConnectors&r and saves space."
+]
+quest.30B4AA1B5916FC72.title: "&e⚡ Electrical Energy Storage – Accumulator"
+quest.4B44C2F3B7D3404B.quest_desc: [
+  "&eThe alternator&r turn rotational power (needs at least 32rpm) into energy power. "
+  ""
+  "The higher the RPM, the more energy it generates, so faster setups will produce more power."
+]
+quest.4B44C2F3B7D3404B.title: "&e⚡ How to Generate Energy"
+quest.513AB7EE426B5AD1.quest_desc: [
+  "The &n&eRolling Mill&r&r uses rotational force to roll metals into &eRods&r and &eWires.&r"
+  ""
+  "To manually input items, drop &3Ingots&r or &3Plates&r on the top of the &aMill.&r"
+  ""
+  "&dRight-click&r the Mill to manually retrieve the output items."
+  ""
+  "This process can be automated with Funnels or Chutes."
+]

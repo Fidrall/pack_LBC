@@ -1,0 +1,471 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "1A00000000000005"
+	icon: {
+		id: "aether:golden_parachute"
+	}
+	id: "793BF4A1BA3A1FC7"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:glowstone"
+			}
+			id: "4014B03F06188F15"
+			rewards: [
+				{
+					id: "0056D920F01EDD94"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					advancement: "aether:enter_aether"
+					criterion: ""
+					id: "77B38595D2DD8593"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["4014B03F06188F15"]
+			id: "4AB73A2B94869F22"
+			rewards: [
+				{
+					id: "1B243E07118FAC48"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "155DE43E9B1E285B"
+					item: { count: 1, id: "aether:skyroot_log" }
+					type: "item"
+				}
+			]
+			x: -2d
+			y: 0d
+		}
+		{
+			dependencies: ["4AB73A2B94869F22"]
+			id: "5D60A906B489F563"
+			rewards: [
+				{
+					id: "0E1CF54FDD64807A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "36B704CBE0D68267"
+					item: { count: 1, id: "aether:holystone" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0d
+		}
+		{
+			dependencies: ["5D60A906B489F563"]
+			id: "073DFF74F947F72B"
+			rewards: [
+				{
+					id: "0EDFCD34DC986D92"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2FDB78F49A5D6A31"
+					item: { count: 1, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+			]
+			x: -2d
+			y: 1.5d
+		}
+		{
+			dependencies: ["073DFF74F947F72B"]
+			id: "5C6987E41A5D7B87"
+			rewards: [
+				{
+					id: "5E41FE778A806A47"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "25C9C0FE964C9D1E"
+					item: { count: 1, id: "aether:altar" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["073DFF74F947F72B"]
+			id: "4A729C045D8DCDAA"
+			rewards: [
+				{
+					id: "53CD988FC0131131"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "6446559B99F507AE"
+					item: { count: 1, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+			]
+			x: -2d
+			y: 3d
+		}
+		{
+			dependencies: ["4A729C045D8DCDAA", "5C6987E41A5D7B87"]
+			id: "7131CFD09C6B9B90"
+			rewards: [
+				{
+					id: "4C6999A7C0762951"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7354A3BCE8DA8711"
+					item: { count: 1, id: "aether:enchanted_gravitite" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3d
+		}
+		{
+			dependencies: ["4014B03F06188F15"]
+			id: "388E9A50F6028454"
+			rewards: [
+				{
+					id: "6AEE932CBDFD0D67"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "aether:incubate_moa"
+					criterion: ""
+					id: "3207C357796970EE"
+					type: "advancement"
+				}
+			]
+			x: 2d
+			y: 0d
+		}
+		{
+			dependencies: ["388E9A50F6028454"]
+			id: "1C042745514AC596"
+			optional: true
+			rewards: [
+				{
+					id: "2ABD180DD14A99C9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "aether:black_moa"
+					criterion: ""
+					id: "64443CD2E2FD9376"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 0d
+		}
+		{
+			dependencies: ["388E9A50F6028454"]
+			id: "473C8AE01730974E"
+			rewards: [
+				{
+					id: "1EAC33F1DA3F0220"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "aether:mount_phyg"
+					criterion: ""
+					id: "29FD82FFE5FF96E7"
+					type: "advancement"
+				}
+			]
+			x: 2d
+			y: 1.5d
+		}
+		{
+			dependencies: ["473C8AE01730974E"]
+			id: "6EF972352D9E0B1F"
+			rewards: [
+				{
+					id: "71B1FE15C0E47F79"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "25C9EF2416A7EFA5"
+					item: { count: 1, id: "aether:life_shard" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4014B03F06188F15"]
+			icon: {
+				id: "aether:bronze_dungeon_key"
+			}
+			id: "421CA9E57B939047"
+			rewards: [
+				{
+					id: "25A2721DBD62217F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "aether:bronze_dungeon"
+					criterion: ""
+					id: "2014802941ED6044"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 2d
+		}
+		{
+			dependencies: ["421CA9E57B939047"]
+			icon: {
+				id: "aether:silver_dungeon_key"
+			}
+			id: "7D08DA1B1071D0C6"
+			rewards: [
+				{
+					id: "0ACCF310F526A4DD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "aether:silver_dungeon"
+					criterion: ""
+					id: "20B66F1D7161BBC2"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D08DA1B1071D0C6"]
+			icon: {
+				id: "aether:gold_dungeon_key"
+			}
+			id: "2870830227C66454"
+			rewards: [
+				{
+					id: "3C646772B9743734"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "51AC13F16F10897A"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 2d
+			tasks: [
+				{
+					advancement: "aether:gold_dungeon"
+					criterion: ""
+					id: "6FA2088A7D42D21C"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 5d
+		}
+		{
+			dependencies: ["421CA9E57B939047"]
+			id: "4C17739FEDCE9F44"
+			rewards: [
+				{
+					id: "689E5490BF3124AC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7F3B4CC54ECA5398"
+					item: { count: 1, id: "aether:regeneration_stone" }
+					type: "item"
+				}
+			]
+			x: 2d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D08DA1B1071D0C6"]
+			id: "66099384BDDAD77A"
+			optional: true
+			rewards: [
+				{
+					id: "114A26A201974603"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0DCE88D1BCF8BA3E"
+					item: { count: 1, id: "aether:hammer_of_kingbdogz" }
+					type: "item"
+				}
+			]
+			x: -2d
+			y: 5d
+		}
+	]
+}

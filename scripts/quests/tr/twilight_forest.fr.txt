@@ -1,0 +1,198 @@
+chapter.76A66079B7CC937B.title: "&2&lLa Forêt du Crépuscule"
+chapter.76A66079B7CC937B.chapter_subtitle: [
+  "Twilight Forest : une dimension de contes et de boss"
+]
+quest.0D63CF8BA1F3A152.title: "&2&lEntrer dans la Forêt du Crépuscule"
+quest.0D63CF8BA1F3A152.quest_subtitle: "Un diamant, de l'eau et des fleurs"
+quest.0D63CF8BA1F3A152.quest_desc: [
+  "La &2Forêt du Crépuscule&r est une dimension pleine de biomes, de créatures et d'une longue série de &cboss&r à vaincre dans l'ordre."
+  ""
+  "&n&aConstruire le portail :&r"
+  "1) Creuse un bassin de &b2×2&r (ou plus grand) et remplis-le d'eau."
+  "2) Entoure-le de &efleurs ou de plantes&r (herbe haute, fleurs…) sur tous les côtés."
+  "3) Jette un &bdiamant&r dans l'eau : la foudre frappe et le portail s'ouvre !"
+  ""
+  "&cLa dimension est verrouillée par étapes :&r certains biomes sont protégés tant que tu n'as pas vaincu le boss précédent (brouillard, malédictions, froid…). Suis la progression de ce chapitre."
+  ""
+  "&7Les boss sont renforcés sur ce serveur : venez à plusieurs !"
+]
+quest.0BECBC39B0AB9A3A.title: "La Carte Magique"
+quest.0BECBC39B0AB9A3A.quest_subtitle: "Ne pas se perdre"
+quest.0BECBC39B0AB9A3A.quest_desc: [
+  "Autour des &epiliers d'obsidienne&r vivent des &ecorbeaux&r : leurs plumes servent à fabriquer un &eFocus de Carte Magique&r, avec des baies-torches et de la pierre lumineuse."
+  ""
+  "Le focus permet de fabriquer une &eCarte Magique&r, qui montre les biomes et les structures importantes autour de toi. Indispensable pour trouver les boss !"
+]
+quest.1297AC30B2800152.title: "Le silence de la forêt"
+quest.1297AC30B2800152.quest_subtitle: "Ces cigales sont insupportables"
+quest.1297AC30B2800152.quest_desc: [
+  "Les &ecigales&r de la Forêt du Crépuscule font un bruit épouvantable."
+  ""
+  "Rends service à tout le monde : tues-en une."
+]
+quest.0E3D366B37BED52B.title: "&2Le Naga"
+quest.0E3D366B37BED52B.quest_subtitle: "Boss 1 : la Cour du Naga"
+quest.0E3D366B37BED52B.quest_desc: [
+  "Le &2Naga&r est un grand serpent vert qui vit dans une &ecour entourée de haies&r, près du centre de la forêt."
+  ""
+  "&n&aConseils :&r il charge en ligne droite et se protège en s'enroulant. Esquive ses charges (la roulade aide beaucoup !) et frappe-le quand il ralentit. Il perd des segments en prenant des dégâts."
+  ""
+  "Ses &eÉcailles de Naga&r servent à fabriquer une armure."
+]
+quest.6DF6C9135F736F41.title: "L'armure de Naga"
+quest.6DF6C9135F736F41.quest_subtitle: "Faite d'écailles"
+quest.6DF6C9135F736F41.quest_desc: [
+  "Avec les écailles du Naga, fabrique un plastron et des jambières. Pas la meilleure armure, mais elle a du style et arrive déjà enchantée."
+]
+quest.17C0FD40F5C1CB67.title: "&5La Liche"
+quest.17C0FD40F5C1CB67.quest_subtitle: "Boss 2 : la Tour de la Liche"
+quest.17C0FD40F5C1CB67.quest_desc: [
+  "La &5Liche&r t'attend au sommet de sa &etour&r."
+  ""
+  "&n&aTrois phases :&r"
+  "1) Protégée par des boucliers, elle lance des boules d'énergie : &brenvoie-les avec ton arme&r pour briser ses boucliers."
+  "2) Elle invoque des morts-vivants."
+  "3) Elle finit au corps à corps, en envoyant des sorts."
+  ""
+  "Elle donne des &esceptres&r magiques très utiles."
+]
+quest.67237310A2D6E738.title: "Les sceptres de la Liche"
+quest.67237310A2D6E738.quest_subtitle: "De la magie à portée de main"
+quest.67237310A2D6E738.quest_desc: [
+  "&eSceptre du Crépuscule&r (boules d'énergie, se recharge avec des perles de l'Ender), &eSceptre de Vol de Vie&r (yeux d'araignée fermentés), &eSceptre Zombie&r (chair putréfiée), &eSceptre de Fortification&r (pommes dorées)."
+  ""
+  "Pour les recharger, combine-les avec leur ingrédient dans la table de fabrication."
+]
+quest.689B086F3F8A6221.title: "&6Le Minoshroom"
+quest.689B086F3F8A6221.quest_subtitle: "Boss 3 : le Labyrinthe du Marais"
+quest.689B086F3F8A6221.quest_desc: [
+  "Dans les &emarais&r, cherche une colline avec une entrée au sommet : c'est le &eLabyrinthe&r."
+  ""
+  "Au fond t'attend le &6Minoshroom&r, qui charge et frappe fort. Il lâche du &eMeef Stroganoff&r : &amange-le&r pour débloquer la suite !"
+  ""
+  "&7Le marais empoisonne tant que tu n'as pas vaincu la Liche : prévois du lait ou une potion."
+]
+quest.53297F76E059AC9B.title: "La Pioche Brise-Labyrinthe"
+quest.53297F76E059AC9B.quest_subtitle: "Une trouvaille rare"
+quest.53297F76E059AC9B.quest_desc: [
+  "Cette pioche, trouvée rarement dans les labyrinthes, casse les murs du labyrinthe sans s'abîmer (les autres pioches perdent 16 points de durabilité par bloc)."
+]
+quest.2DD3DB23B3ED5709.title: "&c&lL'Hydre"
+quest.2DD3DB23B3ED5709.quest_subtitle: "Boss 4 : le Marais de Feu"
+quest.2DD3DB23B3ED5709.quest_desc: [
+  "L'&cHydre&r à plusieurs têtes vit dans le &eMarais de Feu&r, entre lave et feu."
+  ""
+  "&n&aConseils :&r ses têtes crachent du feu et mordent. Frappe les têtes quand elles s'approchent : les attaques à distance sont peu efficaces. Une &eprotection contre le feu&r est indispensable."
+  ""
+  "Elle lâche du &eSang Ardent&r pour fabriquer des outils et une armure ardents."
+]
+quest.1CFAFD79611B348D.title: "L'équipement ardent"
+quest.1CFAFD79611B348D.quest_subtitle: "Forgé dans le sang de l'Hydre"
+quest.1CFAFD79611B348D.quest_desc: [
+  "Avec le Sang Ardent et du fer, fabrique des &eLingots Ardents&r."
+  ""
+  "- L'&eÉpée Ardente&r a Aura de feu II."
+  "- La &ePioche Ardente&r fait fondre les minerais."
+  "- L'&earmure ardente&r complète met le feu à ceux qui t'attaquent."
+]
+quest.7BCA16C23973BAEF.title: "&8Les Chevaliers Fantômes"
+quest.7BCA16C23973BAEF.quest_subtitle: "Boss 5 : la Forêt Obscure"
+quest.7BCA16C23973BAEF.quest_desc: [
+  "Dans la &8Forêt Obscure&r, une structure mène sous terre : le &eTombeau des Chevaliers&r."
+  ""
+  "Pour y entrer, pose l'un des &etrophées de boss&r déjà obtenus sur le piédestal à proximité."
+  ""
+  "À l'intérieur, affronte une &8troupe de Chevaliers Fantômes&r qui attaquent ensemble. Leurs coffres contiennent du &eMétal de Chevalier&r."
+]
+quest.5734D775B5792B39.title: "Le Métal de Chevalier"
+quest.5734D775B5792B39.quest_subtitle: "Un équipement solide"
+quest.5734D775B5792B39.quest_desc: [
+  "Le &eMétal de Chevalier&r permet de fabriquer une armure et des outils solides, ainsi que le redoutable &eBloc et Chaîne&r (un fléau)."
+  ""
+  "Les coffres des chevaliers contiennent parfois une &earmure fantôme&r."
+]
+quest.75245BCD1BB86548.title: "&4L'Ur-Ghast"
+quest.75245BCD1BB86548.quest_subtitle: "Boss 6 : la Tour Obscure"
+quest.75245BCD1BB86548.quest_desc: [
+  "Dans la Forêt Obscure se dresse la &4Tour Obscure&r. Entre par les &eblocs réapparaissants&r à sa base, et monte jusqu'au dernier étage."
+  ""
+  "L'&4Ur-Ghast&r, un ghast géant, t'y attend. Il pleure des &cLarmes de Feu&r."
+  ""
+  "&n&aConseil :&r utilise les &epièges à ghast&r de la salle pour le ramener au sol et le rendre vulnérable."
+]
+quest.39EC6249048B5DA9.title: "&f&lLe Yéti Alpha"
+quest.39EC6249048B5DA9.quest_subtitle: "Boss 7 : les Forêts Enneigées"
+quest.39EC6249048B5DA9.quest_desc: [
+  "Après l'Ur-Ghast, les &fForêts Enneigées&r s'ouvrent. Le froid y est mortel tant que le boss n'est pas vaincu !"
+  ""
+  "Le &fYéti Alpha&r vit dans une grotte de glace. Il lance des blocs de glace et attrape les joueurs : &ereste mobile&r et esquive."
+  ""
+  "Sa fourrure permet de fabriquer une &earmure de yéti&r, et les petits yétis et loups d'hiver donnent la &efourrure arctique&r."
+]
+quest.1FCAFFB6DB6BCF64.title: "&b&lLa Reine des Neiges"
+quest.1FCAFFB6DB6BCF64.quest_subtitle: "Boss 8 : le Palais de l'Aurore"
+quest.1FCAFFB6DB6BCF64.quest_desc: [
+  "Après le Yéti, le &bGlacier&r s'ouvre (avec ses manchots !). Au sommet du &ePalais de l'Aurore&r t'attend la &bReine des Neiges&r."
+  ""
+  "Elle s'entoure de &ecristaux de glace&r qui la protègent : détruis-les, puis frappe-la quand elle descend."
+  ""
+  "Elle lâche l'&eArc Triple&r ou l'&eArc Chercheur&r, et les coffres du palais cachent l'&eÉpée de Verre&r et l'&eArc de l'Ender&r."
+]
+quest.2EA36C2C0E10266A.title: "&6Les Hautes Terres et la Lampe de Cendres"
+quest.2EA36C2C0E10266A.quest_subtitle: "Étape 9 : les grottes des trolls"
+quest.2EA36C2C0E10266A.quest_desc: [
+  "Dans les &6Hautes Terres&r, les &etrolls&r des grottes lâchent des &eHaricots Magiques&r, et leurs coffres donnent de la &eTerre Fertile&r."
+  ""
+  "Plante les haricots dans la terre fertile sous un grand nuage : un &eharicot géant&r pousse jusqu'au royaume des &eGéants&r, qui gardent la &ePioche de Géant&r."
+  ""
+  "Avec elle, casse l'&eObsidienne Géante&r dans les grottes des trolls pour trouver la &6Lampe de Cendres&r."
+]
+quest.6FF9F64496CBECF6.title: "Le royaume des Géants"
+quest.6FF9F64496CBECF6.quest_subtitle: "Au sommet du haricot"
+quest.6FF9F64496CBECF6.quest_desc: [
+  "Les Géants ressemblent à des joueurs… en beaucoup, beaucoup plus grands."
+  ""
+  "Leurs outils géants cassent et construisent des blocs en 3×3×3 !"
+]
+quest.73D71CAB5DD700BE.title: "&6&lLe Château Final"
+quest.73D71CAB5DD700BE.quest_subtitle: "Au bout du voyage"
+quest.73D71CAB5DD700BE.quest_desc: [
+  "Avec la &6Lampe de Cendres&r, brûle les &eronces&r des &eTerres Épineuses&r pour ouvrir le chemin."
+  ""
+  "Au-delà se trouve le &6Plateau Final&r et son immense &echâteau&r, le terme de ton voyage dans la Forêt du Crépuscule."
+  ""
+  "&6&lTu as conquis la Forêt du Crépuscule !&r"
+]
+quest.7CC5D0BEAE4099AB.title: "Les breloques"
+quest.7CC5D0BEAE4099AB.quest_subtitle: "Pour ne pas tout perdre"
+quest.7CC5D0BEAE4099AB.quest_desc: [
+  "Les &eBreloques de Vie&r empêchent une mort (elles sont consommées à la place), et les &eBreloques de Protection&r gardent une partie de ton inventaire à la mort."
+  ""
+  "On les trouve dans les coffres de la forêt, et elles s'améliorent en en combinant plusieurs."
+]
+quest.77686848F05F5118.title: "Feuille-d'Acier et Bois-de-Fer"
+quest.77686848F05F5118.quest_subtitle: "Les matériaux de la forêt"
+quest.77686848F05F5118.quest_desc: [
+  "La &eFeuille-d'Acier&r se trouve dans les collines creuses et les coffres ; le &eBois-de-Fer&r se fabrique avec des racines de liane, du fer et de l'or."
+  ""
+  "Leurs armures et outils arrivent &adéjà enchantés&r : parfaits en début de progression."
+]
+quest.32F2C746D851BA54.title: "Le Bélier des Quêtes"
+quest.32F2C746D851BA54.quest_subtitle: "Un arc-en-ciel de laine"
+quest.32F2C746D851BA54.quest_desc: [
+  "Trouve le &eBélier des Quêtes&r dans ses ruines, et apporte-lui de la laine des &e16 couleurs&r."
+  ""
+  "Il récompense généreusement ceux qui l'aident. Indice : regarde au-dessus de ta tête dans les ruines."
+]
+quest.18654DB09285C738.title: "Les arbres magiques"
+quest.18654DB09285C738.quest_subtitle: "Quatre pousses rarissimes"
+quest.18654DB09285C738.quest_desc: [
+  "Les coffres de la forêt cachent parfois des &epousses magiques&r :"
+  ""
+  "- l'&eArbre du Temps&r accélère ce qui pousse autour de lui ;"
+  "- l'&eArbre de Transformation&r change les biomes en biomes de la forêt ;"
+  "- l'&eArbre Mineur&r ramène des minerais ;"
+  "- l'&eArbre de Tri&r range les objets dans les coffres proches."
+  ""
+  "Réunis les quatre !"
+]

@@ -1,0 +1,325 @@
+quest.462639C0EBA1209F.quest_desc: [
+  "Les &l&6Lunettes d'Ingénieur&r&r affichent des informations sur tes constructions, comme la contrainte et la vitesse de rotation."
+  ""
+  "Elles montrent aussi le remplissage et la capacité totale des réservoirs."
+]
+quest.478E5BBB9F9592E1.quest_desc: [
+  "Le &6Perchoir à Poule&r automatise la production d'œufs en y logeant une poule."
+  ""
+  "Pour commencer, &efais un clic droit sur une poule avec un Perchoir vide pour la capturer&r, ou amène-la dedans avec une laisse (les poussins ne marchent pas)."
+  ""
+  "Une fois la poule installée, nourris-la avec des graines via un tapis roulant ou un Bras Mécanique."
+  ""
+  "Pour récupérer les œufs, place un entonnoir à côté du perchoir."
+]
+quest.48FBEA846EE420D7.quest_desc: [
+  "L'&aandésite&r est l'un des matériaux les plus importants de Create."
+  ""
+  "On en trouve beaucoup en minant, et il existe plusieurs façons d'automatiser sa production."
+  ""
+  "&n&eFumage :&r&r avec un &6fumoir&r ou un &6Ventilateur&r derrière un feu, tu transformes du &bgravier&r en &aandésite&r."
+  ""
+  "&n&eCompactage :&r avec une &6Presse Mécanique&r et un bassin, compacte de la &clave&r, &c2 silex&r et un &cbloc de gravier&r en &aandésite&r."
+  ""
+  "Le &egravier s'obtient facilement en passant de la pierre à la Meule ou aux Roues de Broyage.&r"
+  ""
+  "Pour avoir beaucoup de &bpierre&r, automatise avec &clave&r + &beau&r."
+  ""
+  "Quand la &clave&r touche l'&beau&r, elle devient de la &epierre&r, que tu peux miner avec une &6Perceuse Mécanique&r."
+  ""
+  "L'&aExtrudeuse Mécanique&r rend tout ça beaucoup plus rapide."
+]
+quest.48FBEA846EE420D7.title: "&l&aL'andésite"
+quest.4AF21A7894A9F73A.quest_desc: [
+  "&7Clic droit :&r"
+  "Ouvre l'&6interface&r. &7Clic accroupi&r pour le poser sur une surface."
+  ""
+  "&7Sur un bloc :&r"
+  "Certains &6réglages&r de blocs, comme les filtres, peuvent être &bcopiés (clic droit)&r et &6appliqués (clic gauche)&r ailleurs."
+]
+quest.4AF21A7894A9F73A.quest_subtitle: "Garde une trace de ce que tu veux faire"
+quest.4B59C0C20AC60DF6.quest_desc: [
+  "Le &6haut-parleur&r émet un &bson&r et envoie un message personnalisé dans le chat."
+  ""
+  "Le bloc parfait pour une &bgare&r !"
+]
+quest.4B59C0C20AC60DF6.quest_subtitle: "EN VOITURE !"
+quest.4BB82F98EE45B740.quest_desc: [
+  "L'&6observateur ferroviaire&r surveille une portion de voie et détecte quand un train passe dessus. Il envoie alors un signal de redstone."
+  ""
+  "Il peut aussi ne détecter que les trains qui transportent un chargement précis."
+]
+quest.4C185EEB22774B36.quest_desc: [
+  "Le &6&lDépôt&r&r sert à poser des objets de façon fixe. On y met des objets avec un clic droit ou en les insérant. Une Presse Mécanique agit sur les objets d'un dépôt comme sur un tapis roulant, et on peut aussi y traiter des objets en masse avec un ventilateur."
+  ""
+  "Les objets posés sur un dépôt ne disparaissent pas : ils restent jusqu'à ce qu'un joueur, un Bras Mécanique, une goulotte, un entonnoir ou une trémie les récupère."
+]
+quest.4C4D1E34867B4AB7.quest_desc: [
+  "Le &6&lVentilateur Caréné&r&r crée des courants d'air pour plein de choses : déplacer des créatures, faire monter des objets dans les goulottes, et laver, fondre, hanter ou fumer des objets en masse."
+  ""
+  "Selon le sens de rotation, il souffle ou il aspire."
+  ""
+  "Pour traiter des objets, place le bon bloc devant le ventilateur :"
+  ""
+  "Pour les fondre, une source de lave."
+  ""
+  "Pour les laver, une source d'eau."
+  ""
+  "Pour les hanter, un feu de camp des âmes."
+  ""
+  "Pour les fumer, un feu de camp normal."
+  ""
+  "Astuce : le ventilateur peut traiter les objets posés sur un dépôt ou un tapis au-dessus de lui."
+]
+quest.4DC12AC740C52694.quest_desc: [
+  "Envie d'alimenter tes brûleurs à blaze avec des liquides par des tuyaux ?"
+  ""
+  "Donne-leur simplement une paille, et ils aspirent directement dans le tuyau."
+  ""
+  "Appuie sur &a'U'&r sur la paille pour voir quels liquides elle accepte et combien de temps ils brûlent."
+]
+quest.4E86A025FBE306CE.quest_desc: [
+  "Le &6Demandeur Redstone&r sert à demander des &bColis en Carton aux Emballeurs connectés&r."
+  ""
+  "&aPour le connecter au Réseau Logistique :&r"
+  ""
+  "1) Fais un &dclic droit&r sur un &eLien de Stock ou un Gestionnaire de Stock&r avec le &6Demandeur Redstone&r."
+  ""
+  "2) Pose le &6Demandeur&r une fois lié."
+  ""
+  "3) Dans son interface, configure la demande : jusqu'à 9 types d'objets, 256 unités maximum chacun, et une adresse de livraison."
+  ""
+  "4) Quand il reçoit un signal de redstone, il envoie la demande. Si les objets ne sont pas disponibles sur le réseau, rien n'est demandé."
+]
+quest.51780FDDA226D4B7.quest_desc: [
+  "Le &6Gestionnaire de Stock&r se connecte à un Réseau Logistique pour y demander des objets."
+  ""
+  "Pour le connecter, fais un &dclic droit&r avec le &6Gestionnaire de Stock&r sur un &aLien de Stock&r."
+  ""
+  "Place une créature sur un siège, ou un Brûleur à Blaze, derrière le &6Gestionnaire de Stock&r pour en faire un &cMagasinier&r."
+  ""
+  "Le &cMagasinier&r voit tout l'inventaire du réseau. Son interface montre combien de &aLiens de Stock&r sont connectés. S'il est déverrouillé, les joueurs peuvent :"
+  "* parcourir les objets du réseau ;"
+  "* demander des objets précis ;"
+  "* choisir une adresse de livraison."
+  ""
+  "Si le &cMagasinier&r est verrouillé, les autres joueurs n'ont pas accès à son interface, mais il accepte toujours les &bListes de Courses&r."
+  ""
+  "Tu peux organiser les objets dans l'interface avec des filtres de liste ou d'attributs, pour créer des catégories."
+]
+quest.523A0A0240B9DE66.quest_desc: [
+  "Beaucoup de blocs ont des emplacements de filtre. Utilise les filtres pour trier plusieurs objets."
+  ""
+  "Le &n&6Filtre de Liste&r&r trie les objets précis que tu mets dedans, tandis que le &6&nFiltre d'Attributs&r&r trie par étiquettes ou par attributs."
+  ""
+  "&4Astuce :&r cherche l'objet voulu dans JEI et fais-le glisser dans l'emplacement de filtre : tu peux régler un filtre sans avoir l'objet sur toi."
+]
+quest.52CD60BB56B17A39.quest_desc: [
+  "Envie d'un réseau de transport comme dans Satisfactory ? &6Create: Hypertubes&r s'inspire de ses hypertubes pour construire des réseaux de tubes rapides pour les joueurs."
+  ""
+  "Son système de construction permet de faire des courbes douces et de longues lignes droites, pour un réseau de transport efficace et spectaculaire."
+  ""
+  "Tu peux changer le mode de l'&eEntrée d'Hypertube&r avec une &bclé&r."
+  "En mode verrouillage automatique, accroupis-toi pour ne pas être aspiré dans le tube."
+  ""
+  "L'&eEntrée d'Hypertube&r &aa besoin de rotation pour fonctionner.&r"
+  ""
+  "&o&7Le savais-tu ? On peut pêcher avec les hypertubes : place simplement une entrée dans l'océan.&r&r"
+]
+quest.52CD60BB56B17A39.title: "&6Bienvenue dans Create: Hypertubes !"
+quest.5495DCB070D4777A.quest_desc: [
+  "&6Create: Connected&r ajoute des blocs pratiques comme les &eboîtes de vitesses à embrayage&r, les &aréservoirs et coffres-forts orientables&r et les &bcatalyseurs de ventilateur&r qui simplifient le lavage, le fumage et la fonte, pour aller encore plus loin dans l'automatisation."
+]
+quest.5495DCB070D4777A.title: "&6Create: Connected&r"
+quest.550AE537ED3CD72E.quest_desc: [
+  "Envie d'un badge d'accès personnel pour sécuriser un endroit ? C'est possible."
+  ""
+  "&6Cartes Uniques :&r à créer avec un Graveur de Cartes. Impossible à falsifier, car le nom du joueur y est enregistré."
+  ""
+  "&6Lecteur de Cartes :&r lit les Cartes Uniques et envoie un signal de redstone, idéal pour sécuriser des accès."
+  ""
+  "&6Loupe :&r pour voir la clé d'une Carte Unique."
+]
+quest.58D9CE68661256C8.quest_desc: [
+  "La &l&6Transmission à Chaîne&r&r transfère la rotation comme un tapis roulant, mais avec plus de liberté de placement."
+  ""
+  "Plusieurs transmissions alignées à l'horizontale ou à la verticale forment une chaîne continue qui transmet la rotation. On peut tourner chaque bloc avec une clé pour passer de l'horizontale à la verticale sans couper la transmission."
+  ""
+  "Elles peuvent aussi être reliées à des Changements de Vitesse à Chaîne Réglables, pour contrôler la vitesse avec de la redstone."
+]
+quest.5BB1EAC4730AD978.quest_desc: [
+  "Le &n&6Schématicanon&r&r construit les structures à partir de schémas, en prenant les matériaux dans les coffres voisins et en utilisant de la poudre à canon comme carburant."
+]
+quest.5D2B02B408E67C99.quest_desc: [
+  "La &6&lPompe Mécanique&r&r fait circuler les liquides dans les tuyaux, dans un seul sens à la fois."
+  ""
+  "Chaque pompe pousse les liquides jusqu'à 16 blocs (réglable) dans chaque direction. Cette limite concerne la portée de la pompe, pas les tuyaux : on peut mettre jusqu'à 30 tuyaux entre deux pompes."
+  ""
+  "Les flèches marron sur la pompe montrent le sens du flux. Utilise une clé pour l'inverser."
+]
+quest.5E9E882D7F331693.quest_desc: [
+  "&n&aTrottoirs roulants :&r&r"
+  "Les marches de trottoir se posent comme un tapis roulant. Place deux axes à distance, fais un clic droit sur l'un avec les marches, puis sur l'autre pour créer le trottoir."
+  "On peut ajouter des axes au trottoir, comme pour un tapis roulant."
+  ""
+  "&a&nEscalators :&r&r"
+  "Ils se créent comme les trottoirs, avec une différence importante :"
+  ""
+  "les axes ne peuvent pas être en diagonale parfaite."
+  ""
+  "La distance horizontale entre les axes doit dépasser la distance verticale d'au moins trois blocs. Par exemple : 7 blocs à l'horizontale pour 4 à la verticale."
+  ""
+  "Contrairement aux trottoirs, on ne peut pas ajouter d'axes à un escalator après l'avoir posé."
+  ""
+  "&n&aPersonnalisation&r&r"
+  "Trottoirs et escalators peuvent être teints de n'importe quelle couleur."
+  ""
+  "&n&aRampes :&r&r"
+  "Ajoute des rampes avec un clic droit sur le trottoir ou l'escalator avec un tapis roulant."
+  ""
+  "Les rampes peuvent aussi être teintes."
+  ""
+  "Transforme les rampes en verre avec un clic droit avec un bloc de verre."
+  ""
+  "Pour prolonger un trottoir ou un escalator, prolonge d'abord la ligne d'axes, puis fais un clic droit sur la structure avec une marche, et un clic droit sur le nouvel axe."
+]
+quest.5E9E882D7F331693.title: "&3Create Escalated"
+quest.5F9BEF8918186325.quest_desc: [
+  "Le &l&6Bec Verseur&r&r remplit les contenants (fioles, seaux…) ou applique des liquides pour certaines recettes."
+  ""
+  "Il contient jusqu'à un seau d'un seul liquide, qu'on peut lui amener par des tuyaux."
+  ""
+  "Quand des objets passent dessous sur un tapis roulant, ou sont posés sur un dépôt, il verse la bonne quantité de liquide sur les objets compatibles."
+]
+quest.603F0A37888A475D.quest_subtitle: "Quelques mods qui ajoutent des options esthétiques et des industries autour de la décoration."
+quest.603F0A37888A475D.title: "&l&dMods esthétiques&r&r"
+quest.6144BAFB1269A066.quest_desc: [
+  "Comme l'ensemble en cuivre, il donne la respiration aquatique quand le réservoir dorsal contient de l'air comprimé."
+  ""
+  "&cExclusivité de la Netherite : immunité au feu et à la lave, et meilleure vision dans la lave avec le casque&r."
+  ""
+  "L'immunité au feu et à la lave ne fonctionne qu'avec l'ensemble complet (casque, réservoir, jambières et bottes) et un réservoir rempli d'air."
+  ""
+  "Contrairement aux bottes en cuivre, les bottes en Netherite permettent de remonter dans la lave en maintenant la touche de saut."
+]
+quest.6144BAFB1269A066.title: "Équipement de plongée en Netherite"
+quest.61666195C2F437BA.quest_desc: [
+  "Le &6Jetpack&r est un excellent moyen de voler dès le début du jeu."
+  ""
+  "Il en existe plusieurs sortes : en &dcuivre, en andésite, en laiton et en Netherite&r."
+  ""
+  "Chaque jetpack fonctionne avec du carburant : de l'eau, de la lave, ou les deux."
+  ""
+  "Pour remplir un jetpack, mets-le dans ta seconde main (icône bouclier), sélectionne un seau d'eau ou de lave et appuie sur Q pour le lâcher : le jetpack se remplit. &aLe plus pratique reste le Réservoir de Carburant et le Réservoir de Remplissage.&r"
+]
+quest.61666195C2F437BA.title: "&6Jetpacks"
+quest.618CDE98123F2697.quest_desc: [
+  "Les &6Grenouilles-Postières&r envoient et reçoivent les Colis en Carton sur les &eConvoyeurs à Chaîne&r."
+  ""
+  "Pour en poser une, fais un &dclic droit&r sur un &eConvoyeur à Chaîne&r puis place la &6Grenouille-Postière&r à 4 blocs maximum, et au moins 1 bloc plus bas."
+  ""
+  "Donne-lui ensuite une adresse avec un clic droit, dans son interface."
+  ""
+  "Une &6Grenouille-Postière&r n'accepte que les colis qui correspondent à son adresse."
+  ""
+  "Si aucune grenouille ne correspond à l'adresse d'un colis, il tourne en boucle sur le convoyeur jusqu'à ce qu'une grenouille correspondante soit ajoutée quelque part sur le réseau. Il est alors automatiquement dirigé vers elle."
+  ""
+  "Les &6Grenouilles-Postières&r peuvent aussi interagir directement avec un rangement placé en dessous, pour emballer et expédier directement."
+  ""
+  "Pour gérer les adresses plus facilement, fais un &dclic droit&r sur une grenouille avec un &aPresse-papiers&r pour copier son adresse."
+  ""
+  "Ces adresses servent ensuite à compléter automatiquement les champs d'adresse des autres interfaces."
+]
+quest.632E2AD859CE0BDE.quest_desc: [
+  "Le &6&lRoulement de Moulin&r&r sert à produire de l'énergie passivement."
+  ""
+  "Il faut y fixer au moins huit blocs de type voile : voiles, cadres de voile, blocs de laine, ou panneaux Copycat en laine. On peut ajouter d'autres blocs avec la Super Colle, mais ils ne produisent rien. Une fois assemblé, le tout forme un moulin."
+  ""
+  "Le moulin tourne dans le sens des aiguilles d'une montre, mais on peut inverser le sens avec une clé."
+  ""
+  "Il produit selon le nombre de voiles, jusqu'à 128 voiles au maximum."
+]
+quest.63BA37F707747719.quest_desc: [
+  "Place un grand engrenage, puis un petit engrenage en diagonale, de façon à ce que leurs dents s'emboîtent (pas sur l'axe)."
+  ""
+  "Le petit engrenage tourne deux fois plus vite que le grand. Fixe un grand engrenage sur l'axe du petit : ce nouveau grand engrenage tourne à la même vitesse que le petit (déjà doublée)."
+  ""
+  "Avant d'ajouter un nouveau petit engrenage en diagonale sur le nouveau grand, mets un Carter en Andésite sur l'axe du premier grand engrenage."
+  ""
+  "Ça évite que le petit engrenage suivant casse à cause d'une rotation contraire (ce qui arrive si l'axe est à nu et tourne dans l'autre sens)."
+  ""
+  "Connecte ensuite un petit engrenage en diagonale sur le nouveau grand pour doubler encore la vitesse."
+  ""
+  "&aNote :&r &eTu peux répéter ce montage (grand → petit → grand → petit) pour doubler la vitesse jusqu'à 256 tr/min. Mais attention : chaque étape augmente la contrainte sur le réseau.&r"
+  ""
+  "&6À l'inverse, relier un petit engrenage à un grand (en diagonale) fait tourner le grand deux fois moins vite : c'est comme ça qu'on ralentit.&r"
+]
+quest.63BA37F707747719.quest_subtitle: "Avec des engrenages"
+quest.63BA37F707747719.title: "&l&aAccélérer ou ralentir avec des engrenages&r&r"
+quest.66CF9B7A1C500A4E.quest_desc: [
+  "La &6&lBoîte de Vitesses&r&r transmet la rotation dans quatre directions."
+  "La version normale transmet à l'horizontale, la Boîte de Vitesses Verticale fait pareil à la verticale."
+  ""
+  "Quand elle reçoit la rotation par un côté (en forme d'axe), elle la transmet aux trois autres côtés en sens inverse."
+  ""
+  "Par exemple, si l'entrée tourne dans le sens des aiguilles d'une montre, les sorties tournent dans l'autre sens, et inversement."
+]
+quest.6A93F7AD37EEAAC5.quest_desc: [
+  "Le &l&6Mélangeur Mécanique&r&r sert aux recettes de mélange et aux recettes de fabrication sans forme, dans un bassin. Il lui faut au moins 30 tr/min, et plus il tourne vite, plus il travaille vite."
+  ""
+  "Il doit être placé juste au-dessus d'un bassin, avec exactement un bloc d'espace entre les deux. Jette les ingrédients dans le bassin ou utilise un entonnoir fixé au bassin : le mélangeur les combine automatiquement."
+]
+quest.6C7DDDC1123E208A.quest_desc: [
+  "Les &l&6Tapis Roulants&r&r transmettent la rotation et transportent les objets et les créatures."
+  ""
+  "Pour poser un tapis, il faut au moins deux axes. Fais un clic droit sur le premier axe, puis sur le second pour les relier. Un seul tapis est consommé, quelle que soit la longueur."
+  ""
+  "Les tapis peuvent relier plusieurs axes à l'horizontale, à la verticale ou en diagonale (à 45°), jusqu'à 20 blocs de long, sans obstacle sur le chemin."
+  ""
+  "On peut recouvrir n'importe quelle partie d'un tapis de carter en andésite ou en laiton, pour le style."
+]
+quest.6D46BA0F714FB56B.quest_desc: [
+  "L'&6&lEngrenage&r&r transmet la rotation. Le &l&6Grand Engrenage&r&r permet des montages plus avancés, comme renvoyer la rotation dans un coin ou alimenter un Régulateur de Vitesse."
+  ""
+  "Les engrenages transmettent la rotation de trois façons principales :"
+  ""
+  "Deux engrenages côte à côte (pas en diagonale), orientés pareil, tournent en sens opposés à la même vitesse."
+  ""
+  "Deux grands engrenages perpendiculaires s'emboîtent pour changer la direction et l'axe de rotation, sans changer la vitesse."
+  ""
+  "Un engrenage et un grand engrenage en diagonale, orientés pareil, s'emboîtent : le grand tourne deux fois moins vite que le petit."
+  ""
+  "Autres fonctions"
+  ""
+  "Les engrenages transmettent aussi la rotation par les bouts de leur axe, comme un axe. On peut désactiver ça avec un carter (et le réactiver avec une clé). Les machines se branchent aux deux bouts, et une série d'engrenages fonctionne comme plusieurs axes connectés."
+  ""
+  "&l&aGrâce à la différence de taille entre engrenages et grands engrenages, on peut doubler ou diviser par deux la vitesse de rotation.&r&r On peut répéter ça en enchaînant plusieurs paires, jusqu'à 256 tr/min. Pour un réglage précis, relie un grand engrenage à un Régulateur de Vitesse de Rotation."
+]
+quest.6E691464A1D6FEEC.quest_desc: [
+  "L'&l&6Entonnoir en Andésite&r&r fait entrer et sortir les objets des inventaires."
+  ""
+  "Un clic droit avec une clé le fait passer du mode entrée au mode sortie. Un signal de redstone bloque le transfert dans les deux sens."
+  ""
+  "Il se pose sur un tapis roulant relié à un inventaire ou un bassin, à la verticale comme à l'horizontale. Sur un tapis, un clic droit sur l'entonnoir le fait avancer d'un bloc."
+  ""
+  "En mode sortie, il donne un objet à la fois. En mode entrée, il peut insérer une pile entière (64 objets) d'un coup."
+  ""
+  "L'&6&lEntonnoir en Laiton&r&r fonctionne pareil, avec en plus un filtre et un réglage de quantité. Tu peux choisir quels objets passent."
+  "Avec son panneau de réglage, il peut transférer un nombre exact ou un maximum d'objets, en entrée comme en sortie."
+  ""
+  "&5&l&oAstuce :&r&r sur une construction animée, les Entonnoirs en Laiton peuvent vider l'inventaire de la construction ou ramasser les objets qu'ils touchent. Avec un filtre, seuls les objets choisis sont concernés.&r"
+]
+quest.6FEBA486156AA0CA.quest_desc: [
+  "La &6&lManivelle&r&r produit un peu de rotation à la force de tes bras."
+  ""
+  "Maintiens le clic droit pour la tourner dans un sens, ou Maj + clic droit pour l'autre sens."
+  ""
+  "Elle tourne toujours à 32 tr/min."
+]
+quest.70723616C803AE96.quest_desc: [
+  "&bCreate: Aquatic Ambitions&r ajoute des machines, des chaînes de production et des mécaniques inspirées de l'océan."
+  ""
+  "L'un des blocs clés est la &3Cage de Conduit&r, pour la &9canalisation par ventilateur&r : une alternative compacte à l'anneau de prismarine. Pour l'activer, il faut pomper de l'eau sous la cage."
+  ""
+  "Le corail mort peut aussi être ranimé par canalisation, puis récolté automatiquement avec des moissonneuses."
+]

@@ -1,0 +1,107 @@
+chapter.1B36D78198D6D21C.title: "&6&lCuisine et agriculture"
+chapter.1B36D78198D6D21C.chapter_subtitle: [
+  "Farmer's Delight, Create et de bons petits plats"
+]
+quest.346E62E8442A15C1.title: "&6&lÀ table !"
+quest.346E62E8442A15C1.quest_subtitle: "Manger varié pour vivre plus longtemps"
+quest.346E62E8442A15C1.quest_desc: [
+  "Dans ce pack, la cuisine est bien plus qu'un détail : avec &eSpice of Life&r, chaque &anouvel aliment&r goûté te rapproche d'un &ccœur supplémentaire&r (jusqu'à 10 cœurs en plus)."
+  ""
+  "&eFarmer's Delight&r ajoute des cultures, des outils de cuisine et des dizaines de recettes. Les addons de Create (Garnished, Bitterballen, Central Kitchen…) permettent d'en &6automatiser&r une grande partie."
+]
+task.0124D844524BF102.title: "J'ai faim !"
+quest.66311A502CC99A40.title: "Le couteau"
+quest.66311A502CC99A40.quest_subtitle: "L'outil du cuisinier"
+quest.66311A502CC99A40.quest_desc: [
+  "Le &ecouteau&r coupe les aliments sur la planche à découper, récolte la paille dans les hautes herbes, et fait une arme correcte."
+  ""
+  "Il existe en silex, fer, or, diamant et Netherite."
+]
+quest.7D01CDC7E5CEAA4F.title: "La planche à découper"
+quest.7D01CDC7E5CEAA4F.quest_subtitle: "Couper, trancher, émincer"
+quest.7D01CDC7E5CEAA4F.quest_desc: [
+  "Pose un aliment sur la &eplanche à découper&r et frappe-le avec le bon outil : couteau pour la viande et les légumes, hache pour le bois, pioche pour certains blocs…"
+  ""
+  "Regarde toutes ses recettes dans JEI (touche U sur la planche)."
+]
+quest.41A7917AD48BC129.title: "Les nouvelles cultures"
+quest.41A7917AD48BC129.quest_subtitle: "Chou, tomate, oignon et riz"
+quest.41A7917AD48BC129.quest_desc: [
+  "On trouve les &eplantes sauvages&r de Farmer's Delight dans la nature : récolte-les pour obtenir des graines."
+  ""
+  "- le &eriz&r se cultive &bdans l'eau&r ;"
+  "- les &etomates&r poussent sur un tuteur (corde) ;"
+  "- le &echou&r et l'&eoignon&r comme des cultures classiques."
+]
+quest.4796A7277932F2C4.title: "La Terre Riche"
+quest.4796A7277932F2C4.quest_subtitle: "Des cultures qui poussent toutes seules"
+quest.4796A7277932F2C4.quest_desc: [
+  "Le &eCompost Organique&r posé au soleil devient de la &eTerre Riche&r. Labourée et hydratée, elle fait pousser les cultures deux fois plus vite et ne se piétine pas."
+]
+quest.5E71C98874220025.title: "Le fourneau de cuisine"
+quest.5E71C98874220025.quest_subtitle: "La base de la cuisine"
+quest.5E71C98874220025.quest_desc: [
+  "Le &efourneau&r chauffe ce qui est posé dessus. On peut aussi y griller directement des aliments."
+]
+quest.2C5F1B348AD531AB.title: "&6La Marmite"
+quest.2C5F1B348AD531AB.quest_subtitle: "Soupes, ragoûts et plats"
+quest.2C5F1B348AD531AB.quest_desc: [
+  "Pose la &6Marmite&r sur une source de chaleur (fourneau, feu de camp, Brûleur à Blaze…) et mets-y les ingrédients : elle prépare soupes, ragoûts, pâtes, risottos…"
+  ""
+  "Il faut un &ebol&r (ou un autre contenant) pour récupérer le plat. Les plats cuisinés rassasient beaucoup et donnent souvent des &abonus&r (Réconfort, Nourrissant…)."
+]
+quest.1C7A2B8C112629AB.title: "La Poêle"
+quest.1C7A2B8C112629AB.quest_subtitle: "Cuire… et assommer"
+quest.1C7A2B8C112629AB.quest_desc: [
+  "La &ePoêle&r posée sur une source de chaleur cuit les aliments un par un. Tenue en main, elle cuit ce que tu as dans l'autre main… et fait une arme redoutable !"
+]
+quest.71FA7C33865A2435.title: "Un festin !"
+quest.71FA7C33865A2435.quest_subtitle: "Pour toute l'équipe"
+quest.71FA7C33865A2435.quest_desc: [
+  "Les &efestins&r (poulet rôti, jambon glacé, pâté du berger…) se posent sur une table et se partagent en plusieurs portions avec un bol."
+  ""
+  "Parfait pour nourrir toute l'équipe après une expédition !"
+]
+quest.51E604A03CF06C47.title: "La Friteuse Mécanique"
+quest.51E604A03CF06C47.quest_subtitle: "Create: Bitterballen"
+quest.51E604A03CF06C47.quest_desc: [
+  "&eCreate: Bitterballen&r ajoute une &eFriteuse Mécanique&r et de la cuisine néerlandaise : frites, bitterballen, stroopwafels, fromages affinés…"
+  ""
+  "Encore des aliments différents à goûter pour Spice of Life !"
+]
+quest.124E77237E4676B6.title: "Cuisiner avec Create"
+quest.124E77237E4676B6.quest_subtitle: "Automatiser la cuisine"
+quest.124E77237E4676B6.quest_desc: [
+  "Grâce à &eCreate: Central Kitchen&r, les machines de Create savent utiliser les recettes de Farmer's Delight :"
+  ""
+  "- le &eDéployeur&r avec un couteau remplace la planche à découper ;"
+  "- les recettes de marmite se font dans un &ebassin&r chauffé avec un Mélangeur ;"
+  "- un &eBrûleur à Blaze&r peut chauffer la marmite."
+  ""
+  "Une vraie cuisine industrielle pour nourrir tout le serveur !"
+]
+quest.7800DAE767EFE046.title: "Create Garnished"
+quest.7800DAE767EFE046.quest_subtitle: "Des noix et encore des noix"
+quest.7800DAE767EFE046.quest_desc: [
+  "&eGarnished&r ajoute plein de noix, de sauces et de plats à fabriquer avec Create. Il a son propre chapitre dans le groupe Create !"
+]
+quest.2E8298E39F19B38F.title: "&c&lGastronome"
+quest.2E8298E39F19B38F.quest_subtitle: "Spice of Life : 60 aliments"
+quest.2E8298E39F19B38F.quest_desc: [
+  "Ouvre ton &eLivre de Cuisine&r (Spice of Life) pour voir combien d'aliments différents tu as mangés."
+  ""
+  "Rappel des paliers : &75, 10, 20, 30, 45, 60, 80, 105, 135 et 170 aliments&r, chacun donne +1 cœur."
+  ""
+  "Valide cette quête quand tu as atteint &a60 aliments différents&r (+6 cœurs) !"
+]
+task.081BD60DF609D838.title: "J'ai goûté à tout !"
+quest.080ED1235E012CF5.title: "&6&lGrand Chef"
+quest.080ED1235E012CF5.quest_subtitle: "Spice of Life : 170 aliments"
+quest.080ED1235E012CF5.quest_desc: [
+  "Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life."
+  ""
+  "Il faudra goûter aux plats de Farmer's Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest, Eternal Starlight…)."
+  ""
+  "&6&lChapeau, Grand Chef !&r"
+]
+task.1621B878ADF3BB24.title: "170 aliments !"

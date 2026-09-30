@@ -1,0 +1,19 @@
+chapter.4B6E4A0215F45FC0.title: "&3L'Autre Côté : &0Deeper and Darker"
+quest.0FF69526C1DC1593.quest_desc: [
+  "Peut être apprivoisé avec un &cplastron en Netherite&r enchanté. Une fois apprivoisé, il lâche de temps en temps des livres enchantés."
+]
+quest.192EE909C57F390A.quest_subtitle: "Petite chance d'apparaître en cassant un &8Vase Ancien&r."
+quest.2807106C369DF042.quest_subtitle: "Obtiens un Transmetteur de Sculk."
+quest.3CBDB45D65737212.quest_subtitle: "Apparaît quand on marche sur du Sculk Infesté."
+quest.44937B2D2EB38094.quest_desc: [
+  "Après avoir vaincu le Warden, tu peux fabriquer le &aCasque du Warden&r en combinant un casque en Netherite avec des &2Éclats d'Écho Renforcés&r sur la table de forgeron."
+  ""
+  "Ce casque est indispensable pour explorer &8&lL'Autre Côté&r : il annule l'effet d'obscurité de cette dimension."
+]
+quest.704CCA2CEAB23B4D.quest_desc: [
+  "Avant d'allumer le portail, retire toutes les &3Veines de Sculk&r de l'intérieur du cadre. Une fois le cadre dégagé, fais un clic droit dessus avec le &bCœur des Profondeurs&r obtenu en tuant le Warden."
+]
+quest.731C3214BB61FDAE.quest_desc: [
+  "Se trouve sous terre dans l'&aOverworld&r, dans les Cités Antiques."
+]
+quest.731C3214BB61FDAE.quest_subtitle: "Tue le Warden"

@@ -1,0 +1,33 @@
+chapter.2A786FFD5532B025.title: "&aTéléporteurs"
+quest.24A3D36B0BF64712.quest_desc: [
+  "Le &6téléporteur d'entités&r peut envoyer n'importe quelle créature ou joueur vers un autre téléporteur. Il fonctionne au &dTélé-jus&r."
+  ""
+  "Pour relier deux téléporteurs, utilise un &aTP Link&r. Sa portée est limitée : pour les longs voyages, il faudra passer par les airs !"
+]
+quest.33E9A4967BA70F29.quest_desc: [
+  "Le &6portail personnalisé&r est une structure faite d'une base de portail et d'un cadre en Carter Quantique. Il peut envoyer créatures et joueurs vers un autre endroit, même dans une autre dimension."
+  ""
+  "Il fonctionne au &dTélé-jus&r."
+  ""
+  "Relie-le à des coordonnées avec un &cTP Link Avancé&r."
+]
+quest.6B9E13665837ECA1.quest_desc: [
+  "Le &6téléporteur d'objets&r envoie une pile d'objets vers un autre téléporteur d'objets. Il fonctionne au &dTélé-jus&r."
+  ""
+  "Pour les relier, utilise un &aTP Link&r. Parfait pour faire circuler des ressources entre deux parties de ta base."
+]
+quest.6D5015C82CCC85FE.quest_desc: [
+  "&aCreate Teleporters&r ajoute des machines de téléportation pour les objets et les créatures, dans le style de Create."
+  ""
+  "Il y a deux appareils principaux : les &6Téléporteurs d'Entités&r et les &6Téléporteurs d'Objets&r, qu'il faut relier entre eux pour qu'ils fonctionnent."
+  ""
+  "Les &aTéléporteurs&r fonctionnent au &dTélé-jus&r, un liquide spécial obtenu en &evidant des Fruits de Chorus&r (avec une Vidangeuse de Create). Automatise la culture du Chorus pour ne jamais tomber en panne de &dTélé-jus&r."
+  ""
+  "Le mod propose aussi un &6portail personnalisé&r pour voyager vers un point précis, même dans une autre dimension."
+  ""
+  "Enfin, la &6Télécommande de Dimension de Poche&r t'envoie dans une petite pièce personnelle, pratique pour tester des machines ou stocker des choses en sécurité."
+]
+quest.6D5015C82CCC85FE.title: "&aCreate Teleporters&r"
+quest.7FCABCC6BDF8A4EB.quest_desc: [
+  "La &6Télécommande de Dimension de Poche&r t'envoie dans une petite pièce dans une dimension à part, pour tester ou stocker des machines et des blocs."
+]

@@ -1,0 +1,84 @@
+chapter.734C4C2CDBC52F6C.title: "&bSophisticated Storage"
+quest.0BD070E54EF86FDA.quest_desc: [
+  "You can display items outside of chests to better organize your storage. For example, a food chest can display a carrot to indicate its contents."
+  ""
+  "To do this, go to the settings of the chest and navigate to the Item Display Settings. Left-click on an item inside the chest to display it. The selected item will be marked with a border square. To remove the display, right-click on the square."
+]
+quest.0BD070E54EF86FDA.title: "Display labels"
+quest.0C28D365031DFBB9.quest_desc: [
+  "The &6diamond backpack&r is the upgrade of the &egold backpack&r. It has 108 storage slots and can hold 5 upgrades"
+]
+quest.0C28D365031DFBB9.quest_subtitle: "Massive storage on the go"
+quest.0E10A137480D309E.quest_desc: [
+  "The &6netherite backpack&r is the upgrade of the &ediamond backpack&r. It has 120 storage slots and can hold 7 upgrades"
+]
+quest.0E10A137480D309E.quest_subtitle: "Insane storage on the go"
+quest.1DDD74A012CDE699.quest_desc: [
+  "The &6iron backpack&r is the upgrade of the basic &ebackpack&r. It has 54 slots and can hold 2 upgrades"
+]
+quest.1DDD74A012CDE699.quest_subtitle: "Bigger storage on the go"
+quest.2C9E13E2196DC6D7.quest_subtitle: "x2"
+quest.33628061006314AB.quest_desc: [
+  "The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"
+]
+quest.33628061006314AB.quest_subtitle: "Getting the most out of your backpack"
+quest.3CE1281049B4B14B.quest_subtitle: "x16"
+quest.4CED308848726E28.quest_desc: [
+  "Using EITHER the &6Magnet Upgrade&r or the &6Pickup Upgrade&r, you can make it so any item you pick up goes straight into your backpack!"
+  ""
+  "Great for pairing with &6Stack Upgrades&r, &6Void Upgrades&r, and going strip mining!"
+]
+quest.4CED308848726E28.quest_subtitle: "Make the Backpack do the work"
+quest.5261190FDCE5314D.quest_subtitle: "x++"
+quest.5A52E77204B42646.quest_desc: [
+  "The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"
+]
+quest.5A52E77204B42646.quest_subtitle: "Even bigger storage on the go"
+quest.5BC526ACC0046B20.quest_desc: [
+  "With the &6Inception Upgrade&r, you can put backpacks in your backpacks!"
+]
+quest.5BC526ACC0046B20.quest_subtitle: "Backs on Backs on Backs"
+quest.6659EBA759E55BD5.quest_desc: [
+  "When the &6Eating Upgrade&r is in your backpack, it will automatically feed you when you start to get hungry!"
+  ""
+  "If you make the &badvanced&r version of the upgrade, you can set it to feed you where you won't waste ANY food!"
+]
+quest.6659EBA759E55BD5.quest_subtitle: "A Waiter on demand!"
+quest.6659EBA759E55BD5.title: "Auto Feeder"
+quest.723F98AC017A4F8C.quest_desc: [
+  "With the &6deposit upgrade&r, you can shift-right-click on any storage, and it will instantly deposit the backpack contents!"
+  ""
+  "If you use the &badvanced&r upgrade, you can filter to match contents of the storage!"
+]
+quest.723F98AC017A4F8C.quest_subtitle: "Drop 'n Go!"
+quest.7261FED43BDDEFA8.quest_desc: [
+  "&6Sophisticated Backpacks&r add some of the most useful Backpacks to Minecraft!"
+  ""
+  "To equip a &9backpack&r, click the Equip icon in the &9backpack&r menu."
+  ""
+  "Once a &9backpack&r is equipped, you can open it by pressing &bB&r"
+  ""
+  "&9Backpacks&r can be upgraded through several tiers."
+  ""
+  "To see all &9backpack&r variants, search &d@sophisticated&r in the &eJEI&r search bar."
+  ""
+  "You can find this search bar at the bottom right. "
+  ""
+  "Clicking on items in the item list to the right of your inventory will show their recipes and uses."
+  ""
+  "You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
+]
+quest.7261FED43BDDEFA8.title: "Portable Inventory"
+quest.746AE4CA7CE83847.quest_subtitle: "x8"
+quest.7A516A80B0491E03.quest_subtitle: "x4"
+quest.7B2E2427787A55A7.quest_desc: [
+  "With the &6Everlasting Upgrade&r, your backpack won't get destroyed by anything!"
+  ""
+  "This includes, but is not limited to:"
+  "> &4Lava"
+  "> &8Void"
+  "> &2Creepers"
+  "> &bDespawning"
+  "> &6And more!"
+]
+quest.7DE83E440B507868.quest_subtitle: "x1.5"

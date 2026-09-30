@@ -1,0 +1,98 @@
+chapter.5F26A3E223519394.title: "&e&lCreate : les addons"
+chapter.5F26A3E223519394.chapter_subtitle: [
+  "Pétrole, forage, logistique et décoration"
+]
+quest.0A157E8B791D9822.title: "&e&lAller plus loin avec Create"
+quest.0A157E8B791D9822.quest_subtitle: "Les addons du pack"
+quest.0A157E8B791D9822.quest_desc: [
+  "Ce chapitre présente les &eaddons de Create&r qui n'ont pas leur propre chapitre : moteurs diesel, forage de gisements, logistique des liquides, décoration, jetpack…"
+  ""
+  "Toutes les quêtes sont libres : pioche ce qui t'intéresse !"
+]
+task.262BA060571DE2D8.title: "Clique pour valider"
+quest.642F9788E428E6BE.title: "&8Trouver du pétrole"
+quest.642F9788E428E6BE.quest_subtitle: "Create: Diesel Generators"
+quest.642F9788E428E6BE.quest_desc: [
+  "Le &8pétrole brut&r se cache sous certains chunks. Utilise le &eScanner de Pétrole&r pour trouver les chunks qui en contiennent."
+  ""
+  "Une fois trouvé, construis une &epompe à balancier&r (roulement, manivelle et tête de pompe) au-dessus pour l'extraire."
+]
+quest.6B23DC6991A22AC1.title: "Du pétrole brut"
+quest.6B23DC6991A22AC1.quest_subtitle: "La pompe à balancier"
+quest.6B23DC6991A22AC1.quest_desc: [
+  "La &epompe à balancier&r extrait le pétrole brut en continu. Regarde le Ponder pour la construire."
+]
+quest.20C30956DD1B873E.title: "La tour de distillation"
+quest.20C30956DD1B873E.quest_subtitle: "Raffiner le pétrole"
+quest.20C30956DD1B873E.quest_desc: [
+  "Une &etour de distillation&r (réservoirs + contrôleur, chauffée) sépare le pétrole brut en &ediesel&r, &eessence&r et autres produits."
+]
+quest.51DE989136E38F20.title: "Le biodiesel"
+quest.51DE989136E38F20.quest_subtitle: "Un carburant renouvelable"
+quest.51DE989136E38F20.quest_desc: [
+  "Pas de pétrole près de chez toi ? Fabrique du &abiodiesel&r à partir d'huile végétale (graines pressées) et d'éthanol (fermenté dans la Cuve de Fermentation)."
+]
+quest.13F5B79840CC2A09.title: "&6Le Moteur Diesel"
+quest.13F5B79840CC2A09.quest_subtitle: "Beaucoup de puissance, peu de place"
+quest.13F5B79840CC2A09.quest_desc: [
+  "Le &6Moteur Diesel&r brûle du carburant liquide pour produire beaucoup de rotation."
+  ""
+  "Il existe en version &egrande&r et &eénorme&r pour les usines les plus gourmandes. Un &eturbo&r augmente sa puissance, un &esilencieux&r le rend plus discret."
+  ""
+  "&7Parfait aussi à bord d'un grand dirigeable !"
+]
+quest.7DE30100EBF85C62.title: "&6Les gisements de minerai"
+quest.7DE30100EBF85C62.quest_subtitle: "Create Ore Excavation"
+quest.7DE30100EBF85C62.quest_desc: [
+  "Sous le monde se cachent des &egisements&r de minerai infinis. Le &eDétecteur de Gisement&r indique s'il y en a un dans le chunk où tu te trouves."
+  ""
+  "L'&eAtlas des Gisements&r garde la trace de ceux que tu as trouvés."
+]
+quest.36452BF340BDFE34.title: "La Foreuse"
+quest.36452BF340BDFE34.quest_subtitle: "Des minerais à l'infini"
+quest.36452BF340BDFE34.quest_desc: [
+  "Place une &eForeuse&r équipée d'une &etête de forage&r au-dessus d'un gisement et fais-la tourner : elle extrait des minerais &ben continu, sans jamais épuiser le gisement&r."
+  ""
+  "Les têtes en &ediamant&r et en &eNetherite&r sont plus rapides et durent plus longtemps. L'&eExtracteur&r fait de même pour les gisements de liquides."
+  ""
+  "&7Pense à la placer dans un de tes 5 chunks forcés pour qu'elle tourne en ton absence."
+]
+quest.3FB24AA6CC69210B.title: "Les liquides en colis"
+quest.3FB24AA6CC69210B.quest_subtitle: "Create: Factory Logistics"
+quest.3FB24AA6CC69210B.quest_desc: [
+  "&eFactory Logistics&r étend le réseau de colis de Create aux &bliquides&r : l'&eEmballeur à Bocaux&r met les liquides en bocaux, que le réseau transporte comme des colis."
+  ""
+  "La &eJauge de Liquide&r fonctionne comme la Jauge d'Usine, mais pour les liquides."
+]
+quest.0C23D8D72D09040F.title: "Conteneurs et coffres-forts colorés"
+quest.0C23D8D72D09040F.quest_subtitle: "Create: Vibrant Vaults"
+quest.0C23D8D72D09040F.quest_desc: [
+  "&eVibrant Vaults&r ajoute des &econteneurs d'expédition&r, des coffres-forts verticaux et des versions colorées des blocs de logistique : pratique pour organiser un grand entrepôt… ou la soute d'un dirigeable !"
+]
+quest.6DF054A98B7C673A.title: "&7Create Deco"
+quest.6DF054A98B7C673A.quest_subtitle: "Passerelles, lampes et portes"
+quest.6DF054A98B7C673A.quest_desc: [
+  "&eCreate Deco&r ajoute des passerelles, grilles, lampes, portes et coques métalliques dans le style de Create. Parfait pour habiller tes usines et tes vaisseaux."
+]
+quest.2B81AA864E2C56BF.title: "Carters en verre"
+quest.2B81AA864E2C56BF.quest_subtitle: "Create: Prismatic Shine"
+quest.2B81AA864E2C56BF.quest_desc: [
+  "Des &ecarters en verre&r et des &ecarters lumineux&r pour voir tes mécanismes tourner… ou éclairer ton usine."
+]
+quest.4BD9677BF8D5318A.title: "Le Jetpack à air comprimé"
+quest.4BD9677BF8D5318A.quest_subtitle: "Create Jetpack"
+quest.4BD9677BF8D5318A.quest_desc: [
+  "Ce &ejetpack&r fonctionne avec l'&bair comprimé&r d'un réservoir dorsal de Create : le même que pour la plongée !"
+  ""
+  "La version en &eNetherite&r résiste au feu et va plus loin."
+]
+quest.1A3ABA82A43A4A78.title: "Fermes intégrées"
+quest.1A3ABA82A43A4A78.quest_subtitle: "Create: Integrated Farming"
+quest.1A3ABA82A43A4A78.quest_desc: [
+  "Perchoirs à poules (et autres volailles), filets de pêche (même dans la lave !) et &eAspirateur à Récoltes&r : de quoi automatiser les fermes avec Create."
+]
+quest.789180040016D6AA.title: "Teintures liquides"
+quest.789180040016D6AA.quest_subtitle: "Create: Dragons Plus"
+quest.789180040016D6AA.quest_desc: [
+  "&eDragons Plus&r ajoute des &eteintures liquides&r pour teindre en masse avec un ventilateur, des réservoirs fragiles, et d'autres petits outils pratiques."
+]

@@ -57,6 +57,14 @@ file = "config/ftbquests/quests/chapters/aeronautics.snbt"
 hash = "2d56d7e835b8004ac6f23a620d1e38d25a04bbbda5d939e7ad9a0253f0f00e01"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/aether.snbt"
+hash = "a29905ece1ce5a368f53173beda598ba2d70fd9847fa09c5416282c5a543efe3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/apotheosis.snbt"
+hash = "f8bd77c127e0bc2f4f496a62ce9b09b1bc9a3e09adfa5e54d57ef14d1c4eb5e2"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
 hash = "88b52e35db11d760ac04b40b5e06abaa5862bf54850642a78a9903343139ce0e"
 
@@ -65,12 +73,24 @@ file = "config/ftbquests/quests/chapters/basics.snbt"
 hash = "fa9e21a8fb000fa10571a0dfc33c9ee7fe5a4359d2bf3a9826dad3b4d97dbef9"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/cooking.snbt"
+hash = "bc8d56bbffc39b672dbe03438965c00dde2059d2925889417ef1591fe21439ec"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_addons.snbt"
+hash = "02627ce1af4d01b6f05d694ff4e1b6ee12232e1ef684af2c961c13fcd0bc7894"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/create_basic.snbt"
 hash = "bb846c6608f78ac8b851c3ea603eb0c1307894af3e4049c2e22dc314d86d3a1a"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/creatures.snbt"
+hash = "492a630c28586f6e54dadea186ebf3f372f6c19cd331044cd41ab7fb0daa6abd"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
-hash = "45919d66a728adbf9af8e4bb2dbe94ea939bb7773561ed5bf4cbe17262bcc660"
+hash = "5dd6d5bc2cdcfef7b96f699448d7f0f4f829ad8cecae92b793f48e17a4ff1981"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity.snbt"
@@ -82,7 +102,11 @@ hash = "01081e0897b35be176b71d4576d95725185674e6b64622b22d2db7485acdb355"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "a328dfa318aaeeefd7238c4f8b94b31b7f66096eb2322628825b7c36b63a6b0e"
+hash = "e9b76b6c2b24f9055b7a300d68444cb980cb9f3f3ac0aa7bca86cf69c80ad321"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/exploration.snbt"
+hash = "87c14d53bb23df64e153037c5f2459ffda57d830c2c9dbc47f557cf9c50b38bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garnish.snbt"
@@ -95,6 +119,10 @@ hash = "89011c088f96dcd18445ac2553f9c1b1f4d348d534ed41de972858ccf5ff5408"
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
 hash = "730b04121331705ea7bf278c41fd008eb463fea969b3696cbfa16ea3a4d5ca3b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/nether_end.snbt"
+hash = "3b441b24494ccb73c5f75428626bcdb591b220e2e824ecd2efaf91760d7ea949"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/new_age.snbt"
@@ -113,6 +141,10 @@ file = "config/ftbquests/quests/chapters/teleporters.snbt"
 hash = "445d5a7861b78881530bfe68fc83282188e9cbc738b3e3ad17f9c7a6e745ad6c"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
+hash = "4978378df1a550b1019c186f118403c8e0b70d249d3a6de1ca2fc9ddb75a6b71"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/vents.snbt"
 hash = "1a36762955b58932cf04820081c54740b5f1511bcf8679bc697ed7087778c2be"
 
@@ -122,7 +154,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "3a67daa46ce3fbc84fdf57f9860397916e557fe491da0bb1fa3ca3c79e1d0ae6"
+hash = "296e4e8f7e5b19417dcc3ac84674f5f4011d327db668dd8d8e364c91a830e331"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"

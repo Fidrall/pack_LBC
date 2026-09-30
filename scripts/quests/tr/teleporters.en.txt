@@ -1,0 +1,40 @@
+chapter.2A786FFD5532B025.title: "&aTeleporters"
+quest.24A3D36B0BF64712.quest_desc: [
+  "The &6entity teleporter&r can teleport any entity to a &eentity teleporter receiver&r.  It uses &dtelejuice&r as fuel."
+  ""
+  "To link it to a &eentity teleporter receiver&r, use a &aTP link.&r"
+]
+quest.33E9A4967BA70F29.quest_desc: [
+  "&6The custom portal &rcan teleport mobs and players across dimensions or to any block."
+  ""
+  "The custom portal uses&d Telejuice&r as fuel."
+  ""
+  "Link to coordinates using an &cAdvanced TP-Link. &r"
+  ""
+  "{image:kubejs:textures/teleport/01.png width:120 height:114 align:center}"
+  "{image:kubejs:textures/teleport/02.png width:120 height:100 align:center}"
+]
+quest.6B9E13665837ECA1.quest_desc: [
+  "&6The item teleporter&r can teleport a stack of items to an&e item teleporter receiver&r. It uses &dtelejuice&r as fuel. "
+  ""
+  "To link it to an &eitem teleporter receiver&r, use a &aTP link.&r"
+]
+quest.6D5015C82CCC85FE.quest_desc: [
+  "&aCreate Teleporters&r is a Minecraft mod that adds advanced teleportation mechanics for both entities and items. "
+  ""
+  "It introduces two main devices: &6Entity Teleporters&r and &6Item Teleporters&r, both of which must be linked to their respective receivers to function."
+  ""
+  "&aTeleporters&r are powered by&d Telejuice&r, a special liquid obtained by &edraining Chorus Fruit&r. You can buy&e Chorus Fruit from the market&r and automate its production using a &eMechanical Insulator&r. Maintaining a steady supply of &dTelejuice&r is essential to keep your teleporters operational."
+  ""
+  "A standout feature of the mod is a &6custom portal&r that lets players teleport to any location in any dimension, greatly enhancing exploration and fast travel."
+  ""
+  "The mod also includes a &6Pocket Dimension Remote&r, which transports players to a small, personal room in a custom dimension—ideal for experimentation, building, or secure storage."
+  ""
+  ""
+  ""
+  "&d@teleport&r"
+]
+quest.6D5015C82CCC85FE.title: "&aCreate Teleporters&r"
+quest.7FCABCC6BDF8A4EB.quest_desc: [
+  "&6The pocket dimension remote&r sends players to a small room in a custom dimension made for testing or storing machines or blocks."
+]

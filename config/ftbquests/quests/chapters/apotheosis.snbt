@@ -1,0 +1,542 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "1A00000000000004"
+	icon: {
+		id: "apotheosis:gem"
+	}
+	id: "1E120AECD53D1AEC"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "apotheosis:gem"
+			}
+			id: "6D43AA38D6FF1796"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "0D14509C8C557CFD"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["6D43AA38D6FF1796"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "35D99C7DB0EC998D"
+			tasks: [
+				{
+					id: "5DB129727B72195B"
+					type: "checkmark"
+				}
+			]
+			x: -2d
+			y: 0d
+		}
+		{
+			dependencies: ["6D43AA38D6FF1796"]
+			id: "696BB5F027653A7E"
+			rewards: [
+				{
+					id: "5D2C142DEEADB648"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "150D36FCA09C3B80"
+					item: { count: 1, id: "apotheosis:salvaging_table" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["696BB5F027653A7E"]
+			id: "291D5B25D5A51A9B"
+			rewards: [
+				{
+					id: "7AF53320A08CD550"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1F1DA083D86C9F2F"
+					item: { count: 1, id: "apotheosis:gem" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["291D5B25D5A51A9B"]
+			id: "7BE1DD6E3B1DBACC"
+			rewards: [
+				{
+					id: "2F35460A0A15A937"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "127832F87A95A808"
+					item: { count: 1, id: "apotheosis:gem_cutting_table" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 3d
+		}
+		{
+			dependencies: ["291D5B25D5A51A9B"]
+			id: "37E65C83FBB7A83D"
+			rewards: [
+				{
+					id: "7D2B29F4C7AC5FDD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3A66F06A45CA458A"
+					item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["696BB5F027653A7E"]
+			id: "7369715F39A6B465"
+			rewards: [
+				{
+					id: "38D43655C036D078"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0C098DDEEBB47066"
+					item: { count: 1, id: "apotheosis:simple_reforging_table" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["7369715F39A6B465"]
+			id: "1955BE13A53DC36D"
+			rewards: [
+				{
+					id: "20D20F92454903D6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "76C4BCF3750A1C04"
+					item: { count: 1, id: "apotheosis:reforging_table" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 3d
+		}
+		{
+			dependencies: ["7369715F39A6B465"]
+			id: "1578DE3B3D679FBE"
+			rewards: [
+				{
+					id: "780B46E4E8A0C0FA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "11C9B5EE263E3243"
+					item: { count: 1, id: "apotheosis:augmenting_table" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["696BB5F027653A7E"]
+			id: "06B66726F87DF00E"
+			rewards: [
+				{
+					id: "38BA7E2D5F872F38"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "32519A3A031FEDD6"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 6d
+		}
+		{
+			dependencies: ["06B66726F87DF00E"]
+			id: "04C1E2AB542EDD57"
+			rewards: [
+				{
+					id: "459A35860078C57B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1A37AB2E22939B89"
+					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["06B66726F87DF00E"]
+			id: "197DBBD5A4F740E6"
+			rewards: [
+				{
+					id: "489122379B44BA0A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5C26E7C451A938BA"
+					item: { count: 1, id: "apothic_enchanting:seashelf" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["06B66726F87DF00E"]
+			id: "0B1E1FCC73BFB370"
+			rewards: [
+				{
+					id: "255811D77207B34D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5A4FBD6E568DE0D5"
+					item: { count: 1, id: "apothic_enchanting:deepshelf" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["04C1E2AB542EDD57", "197DBBD5A4F740E6", "0B1E1FCC73BFB370"]
+			id: "7CA151FCABD637F0"
+			rewards: [
+				{
+					id: "44014985D7737309"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5EB1124232E297D4"
+					item: { count: 1, id: "apothic_enchanting:endshelf" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 9d
+		}
+		{
+			dependencies: ["04C1E2AB542EDD57"]
+			id: "72996A02EBC963FD"
+			rewards: [
+				{
+					id: "3E494FD16DB6C44F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "21219270BD2E75E6"
+					item: { count: 1, id: "apothic_enchanting:library" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B1E1FCC73BFB370"]
+			id: "5BB490A47B9EA399"
+			rewards: [
+				{
+					id: "097D89126C34057B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1D4C478E24A19C27"
+					item: { count: 1, id: "apothic_enchanting:weapon_tome" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72996A02EBC963FD"]
+			id: "6CC3201150271644"
+			optional: true
+			rewards: [
+				{
+					id: "2383273638BF819F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "26B5C8EF2DB2E2EC"
+					item: { count: 1, id: "apothic_enchanting:infused_breath" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 9d
+		}
+		{
+			dependencies: ["6D43AA38D6FF1796"]
+			id: "1B17D371E6E7C13A"
+			rewards: [
+				{
+					id: "1869B7B87D9149E2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6644EFE80DCE42DE"
+					item: { count: 1, id: "minecraft:spawner" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B17D371E6E7C13A"]
+			id: "4AA7E76FD9ACF93A"
+			rewards: [
+				{
+					id: "6034F63853A55D3B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "41EC1ECF08C92215"
+					item: { count: 1, id: "apotheosis:spawner_rune" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["1955BE13A53DC36D", "1578DE3B3D679FBE", "7CA151FCABD637F0", "37E65C83FBB7A83D"]
+			icon: {
+				id: "apotheosis:sigil_of_supremacy"
+			}
+			id: "6BE589E8C3FADF4C"
+			rewards: [
+				{
+					id: "55F5A63F0052606B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "6F7CD8499B108EC1"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [
+				{
+					id: "67B32620AF72D501"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 10.5d
+		}
+	]
+}

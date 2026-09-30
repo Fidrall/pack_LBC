@@ -1,0 +1,211 @@
+chapter.5A13526D80BE2D3C.title: "&c&lBoss et créatures"
+chapter.5A13526D80BE2D3C.chapter_subtitle: [
+  "Mowzie's, Aquamirae, Illager Invasion, Friends and Foes, Critters"
+]
+quest.6AF530358EE9745A.title: "&c&lUn monde plus vivant… et plus dangereux"
+quest.6AF530358EE9745A.quest_subtitle: "Les créatures du pack"
+quest.6AF530358EE9745A.quest_desc: [
+  "Le pack ajoute des dizaines de nouvelles créatures : certaines amicales, d'autres terrifiantes."
+  ""
+  "Ce chapitre présente les &cboss&r qui ne sont pas dans l'Échelle des Boss (Mowzie's Mobs, Aquamirae, Illager Invasion…), et les &acréatures à découvrir et à apprivoiser&r."
+  ""
+  "Toutes ces quêtes sont libres : fais-les dans l'ordre que tu veux !"
+]
+task.06722F76DFA16584.title: "Clique pour valider"
+quest.352F74F0B8D742A9.title: "&6Mowzie's Mobs"
+quest.352F74F0B8D742A9.quest_subtitle: "Des boss aux combats uniques"
+quest.352F74F0B8D742A9.quest_desc: [
+  "&6Mowzie's Mobs&r ajoute des boss avec des animations et des combats très travaillés, chacun dans son propre repaire."
+  ""
+  "Ils ne réapparaissent pas une fois vaincus : &asoyez tous là pour le combat !&r"
+  ""
+  "Sur ce serveur, ils sont renforcés (+25 % de vie, +15 % de dégâts)."
+]
+task.6B87B64D8F370153.title: "Clique pour valider"
+quest.5289FAFF5642AFFD.title: "&7Le Ferrous Wroughtnaut"
+quest.5289FAFF5642AFFD.quest_subtitle: "Le chevalier de fer des cavernes"
+quest.5289FAFF5642AFFD.quest_desc: [
+  "Ce géant en armure garde une &esalle souterraine&r entourée de colonnes, dans les grottes."
+  ""
+  "&n&aConseil :&r son armure est très résistante de face. &bEsquive ses coups de hache&r : quand il frappe dans le vide, il reste coincé un instant et expose son dos. C'est le moment de frapper !"
+  ""
+  "Il lâche sa &eHache Forgée&r et son &eCasque Forgé&r."
+]
+quest.32874A063226CBCF.title: "&b&lLe Frostmaw"
+quest.32874A063226CBCF.quest_subtitle: "La bête des neiges"
+quest.32874A063226CBCF.quest_desc: [
+  "Un énorme singe des glaces qui &edort dans les biomes enneigés&r. Ne le réveille que si tu es prêt !"
+  ""
+  "Il souffle de la glace, bondit et fait trembler le sol. Garde tes distances pendant son souffle."
+  ""
+  "Il lâche un &eCristal de Glace&r, qui permet de lancer toi-même un souffle glacé."
+]
+quest.3C7D9FC17EB00995.title: "&e&lUmvuthi"
+quest.3C7D9FC17EB00995.quest_subtitle: "Le seigneur du soleil"
+quest.3C7D9FC17EB00995.quest_desc: [
+  "Dans la &esavane&r, les &eUmvuthana&r masqués vivent dans des villages fortifiés. Leur chef, &eUmvuthi&r, t'attend sur son trône."
+  ""
+  "Il invoque ses guerriers et déchaîne la puissance du soleil. Élimine ses serviteurs avant de te concentrer sur lui."
+  ""
+  "Il lâche le &eSol Visage&r, un masque légendaire qui permet d'invoquer la puissance du soleil. Les masques des Umvuthana peuvent aussi être portés."
+]
+quest.1F46D0D373488587.title: "&6Le Sculpteur"
+quest.1F46D0D373488587.quest_subtitle: "L'épreuve de la montagne"
+quest.1F46D0D373488587.quest_desc: [
+  "Le &6Sculpteur&r se trouve au sommet des &emontagnes&r. Pour l'atteindre, il faut relever son épreuve : grimper une colonne de pierre pendant qu'il la sculpte."
+  ""
+  "Il donne le &eGantelet Fend-Terre&r et le &eBâton du Sculpteur&r, et permet d'obtenir l'armure de &eGéomancien&r."
+]
+quest.2BC88A1485E60C46.title: "La Naga des falaises"
+quest.2BC88A1485E60C46.quest_subtitle: "Un serpent volant"
+quest.2BC88A1485E60C46.quest_desc: [
+  "Cette &eNaga&r (différente de celle de Twilight Forest) niche dans les &efalaises au bord de la mer&r et attaque en crachant du poison."
+  ""
+  "Ses crocs servent à fabriquer une dague empoisonnée."
+]
+quest.28E5210FA4512E41.title: "Les créatures de Mowzie's"
+quest.28E5210FA4512E41.quest_subtitle: "Foliaath, Grottol, Lanternes…"
+quest.28E5210FA4512E41.quest_desc: [
+  "Mowzie's ajoute aussi des créatures plus petites :"
+  ""
+  "- les &2Foliaaths&r, des plantes carnivores cachées dans les jungles ;"
+  "- le &bGrottol&r, une créature de cristal des grottes qui lâche des diamants (il faut une pioche pour le blesser) ;"
+  "- les &eLanternes&r des forêts sombres, qui lâchent de la gelée lumineuse."
+  ""
+  "Rapporte une graine de Foliaath : on peut la planter !"
+]
+quest.6B935D543CA1FA96.title: "&3Aquamirae"
+quest.6B935D543CA1FA96.quest_subtitle: "L'horreur des océans gelés"
+quest.6B935D543CA1FA96.quest_desc: [
+  "&3Aquamirae&r rend les &eocéans gelés&r terrifiants : un &eLabyrinthe de Glace&r s'y cache, rempli de pillards maudits et de créatures des profondeurs."
+  ""
+  "Avec les océans profonds de notre monde, il faudra plonger loin… Prévois de quoi respirer sous l'eau (équipement de plongée de Create, potion ou armure)."
+]
+task.4FE26B9FC5FCA29A.title: "Clique pour valider"
+quest.28E06AE60D76FF71.title: "Les coffres gelés"
+quest.28E06AE60D76FF71.quest_subtitle: "Les trésors du labyrinthe"
+quest.28E06AE60D76FF71.quest_desc: [
+  "Le Labyrinthe de Glace contient des &ecoffres gelés&r qui s'ouvrent avec des &eClés Gelées&r."
+  ""
+  "On y trouve des armes, des matériaux et les pièces de l'équipement d'Aquamirae."
+]
+quest.7D915CDB04620116.title: "La Mère du Labyrinthe"
+quest.7D915CDB04620116.quest_subtitle: "Un mini-boss des profondeurs"
+quest.7D915CDB04620116.quest_desc: [
+  "La &eMère du Labyrinthe&r est une créature marine géante qui rôde dans le Labyrinthe de Glace."
+  ""
+  "Elle frappe fort et est difficile à atteindre sous l'eau : bats-toi depuis la glace si possible."
+]
+quest.22DC9B40D891A64D.title: "&3&lLa Capitaine Cornelia"
+quest.22DC9B40D891A64D.quest_subtitle: "La terreur des mers gelées"
+quest.22DC9B40D891A64D.quest_desc: [
+  "La &3Capitaine Cornelia&r commande les pillards maudits du Labyrinthe de Glace."
+  ""
+  "Elle combat avec ses lames et invoque son équipage. Prépare-toi à un combat long et difficile."
+  ""
+  "Elle donne accès à l'équipement le plus puissant d'Aquamirae, comme les armes et l'armure « Terribles »."
+]
+quest.75AE7C0749254F5D.title: "L'armure abyssale"
+quest.75AE7C0749254F5D.quest_subtitle: "Pour les plongeurs"
+quest.75AE7C0749254F5D.quest_desc: [
+  "L'&earmure abyssale&r d'Aquamirae est faite pour le combat sous l'eau. Cherche ses pièces dans les coffres et sur les créatures des profondeurs."
+]
+quest.0030852E282BC66A.title: "&4Illager Invasion"
+quest.0030852E282BC66A.quest_subtitle: "Les illagers sont plus nombreux"
+quest.0030852E282BC66A.quest_desc: [
+  "&4Illager Invasion&r ajoute de nouveaux illagers : &eBasher&r (bouclier), &eProvoker&r, &eSorcier&r, &eNécromancien&r, &eInquisiteur&r, &eMarauder&r, &eAlchimiste&r, &eArchiviste&r… Ils participent aux raids et vivent dans de nouvelles structures."
+  ""
+  "Combine-les avec les raids d'It Takes a Pillage, et les villages ont intérêt à être bien gardés !"
+]
+task.7A914A2A159F03B5.title: "Clique pour valider"
+quest.6F8B33C36B43999A.title: "&5&lL'Invocateur"
+quest.6F8B33C36B43999A.quest_subtitle: "Le boss des illagers"
+quest.6F8B33C36B43999A.quest_desc: [
+  "L'&5Invocateur&r est le chef des illagers. Il se trouve dans le &efort des illagers&r."
+  ""
+  "Il se téléporte, invoque des crocs et des alliés, et se protège d'un bouclier. Frappe-le quand son bouclier tombe."
+  ""
+  "Il lâche des objets rares, dont la &eGemme Sacrée&r."
+]
+quest.0F4D2E3476133AE8.title: "La Table d'Imprégnation"
+quest.0F4D2E3476133AE8.quest_subtitle: "Dépasser les limites des enchantements"
+quest.0F4D2E3476133AE8.quest_desc: [
+  "La &eTable d'Imprégnation&r permet d'&aaméliorer un livre enchanté au-delà de son niveau maximum&r, avec des matériaux rares des illagers."
+  ""
+  "Regarde ses recettes dans JEI."
+]
+quest.1A67D80917EA15CF.title: "Le Cor de Vision"
+quest.1A67D80917EA15CF.quest_subtitle: "Voir à travers les murs"
+quest.1A67D80917EA15CF.quest_desc: [
+  "Souffler dans le &eCor de Vision&r fait briller les créatures autour de toi : parfait pour repérer les illagers cachés."
+]
+quest.064A83B56235884F.title: "&aFriends and Foes"
+quest.064A83B56235884F.quest_subtitle: "Les créatures oubliées des votes"
+quest.064A83B56235884F.quest_desc: [
+  "&aFriends and Foes&r ajoute les créatures des votes de Mojang qui n'ont jamais été ajoutées au jeu : golem de cuivre, Glare, Moobloom, Mauler, Iceologer, Wildfire, Rascal, Crabe, Tuff Golem…"
+]
+task.6FA79A0E3B31D1CD.title: "Clique pour valider"
+quest.60AF2FC964E72731.title: "Le Golem de Cuivre"
+quest.60AF2FC964E72731.quest_subtitle: "Un petit assistant"
+quest.60AF2FC964E72731.quest_desc: [
+  "Construis un &eGolem de Cuivre&r (regarde la recette de sa tête dans JEI). Il appuie sur les boutons en cuivre au hasard."
+  ""
+  "Comme le cuivre, il s'oxyde avec le temps… et finit par se figer !"
+]
+quest.0DE4AE6DCA1420BD.title: "La pince de crabe"
+quest.0DE4AE6DCA1420BD.quest_subtitle: "Une portée plus longue"
+quest.0DE4AE6DCA1420BD.quest_desc: [
+  "Les &eCrabes&r vivent sur les plages. Leur &epince&r augmente ta portée pour poser et casser des blocs : très pratique pour construire !"
+]
+quest.1370AA1D2E036600.title: "Le Wildfire"
+quest.1370AA1D2E036600.quest_subtitle: "Le gardien des bastions"
+quest.1370AA1D2E036600.quest_desc: [
+  "Le &cWildfire&r est un puissant blaze protégé par des boucliers, qui vit dans les &ebastions&r du Nether."
+  ""
+  "Il lâche des fragments de sa &eCouronne de Wildfire&r, un casque qui protège du feu."
+]
+quest.49E4AA14726CFAEB.title: "Les totems"
+quest.49E4AA14726CFAEB.quest_subtitle: "Iceologer et Illusionniste"
+quest.49E4AA14726CFAEB.quest_desc: [
+  "L'&bIceologer&r, un illager des glaces, lâche le &eTotem de Gel&r. L'&dIllusionniste&r lâche le &eTotem d'Illusion&r."
+  ""
+  "Ces totems s'activent quand tu es blessé : le premier gèle les attaquants, le second te rend invisible et crée des leurres."
+]
+quest.077E534959528ED7.title: "&a&lCompagnons à apprivoiser"
+quest.077E534959528ED7.quest_subtitle: "Critters and Companions"
+quest.077E534959528ED7.quest_desc: [
+  "&aCritters and Companions&r ajoute de petits animaux, dont beaucoup peuvent être &aapprivoisés&r :"
+  ""
+  "- &eFuret&r (lapin cru) : chasse les poulets et les lapins, et creuse pour trouver du butin."
+  "- &ePanda roux&r (baies sucrées) : fait fuir les monstres neutres agressifs."
+  "- &eAraignée sauteuse&r (ailes de libellule) : te protège."
+  "- &eLibellule&r (yeux d'araignée) : peut porter une armure."
+  "- &eLucane&r (baies), &eCharançon&r (glands), &eCloporte&r (champignons, peut porter un coffre), &eEscargot&r (feuilles), &eCoccinelle&r (soigne tes autres compagnons), &eShima enaga&r (graines)."
+  ""
+  "Valide cette quête quand tu as apprivoisé ton premier compagnon !"
+]
+task.145078315F0B473D.title: "Clique pour valider"
+quest.4232D7614DB72EF4.title: "La soie d'araignée sauteuse"
+quest.4232D7614DB72EF4.quest_subtitle: "Une laisse et un grappin"
+quest.4232D7614DB72EF4.quest_desc: [
+  "L'&earaignée sauteuse&r lâche de la &esoie&r, qui permet de fabriquer une &elaisse en soie&r et un &egrappin&r."
+]
+quest.25291DAC5CB309E0.title: "Les perles des loutres"
+quest.25291DAC5CB309E0.quest_subtitle: "Un collier précieux"
+quest.25291DAC5CB309E0.quest_desc: [
+  "Les &eloutres&r des rivières ouvrent les palourdes (qu'on pêche en rivière) pour y trouver des &eperles&r."
+  ""
+  "Les perles servent à fabriquer un &ecollier de perles&r."
+]
+quest.7BDAB9CA395B8D7C.title: "Un bassin de koïs"
+quest.7BDAB9CA395B8D7C.quest_subtitle: "Ça porte bonheur"
+quest.7BDAB9CA395B8D7C.quest_desc: [
+  "Les &ecarpes koï&r vivent dans les rivières et se récupèrent dans un seau. Un groupe de koïs donne de la &achance&r aux joueurs proches."
+  ""
+  "Parfait pour décorer un jardin japonais !"
+]
+quest.1E019C50FB661CCD.title: "La pieuvre Dumbo"
+quest.1E019C50FB661CCD.quest_subtitle: "Une amie des profondeurs"
+quest.1E019C50FB661CCD.quest_desc: [
+  "La &epieuvre Dumbo&r vit dans les océans profonds. Quand tu te noies près d'elle, elle t'offre une &bbulle d'air&r !"
+]

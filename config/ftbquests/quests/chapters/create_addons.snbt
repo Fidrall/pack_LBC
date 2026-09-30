@@ -1,0 +1,417 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_addons"
+	group: "1A00000000000002"
+	icon: {
+		id: "createdieselgenerators:diesel_engine"
+	}
+	id: "5F26A3E223519394"
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:wrench"
+			}
+			id: "0A157E8B791D9822"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "262BA060571DE2D8"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["0A157E8B791D9822"]
+			id: "642F9788E428E6BE"
+			rewards: [
+				{
+					id: "1C76A34D10BC8ADC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "570140C651A5E609"
+					item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["642F9788E428E6BE"]
+			id: "6B23DC6991A22AC1"
+			rewards: [
+				{
+					id: "43CBFDF3B90BAF61"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2EBF6F037A4A11E9"
+					item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 3d
+		}
+		{
+			dependencies: ["6B23DC6991A22AC1"]
+			id: "20C30956DD1B873E"
+			rewards: [
+				{
+					id: "488E1CC04B7C2C7A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4BE10A45BF96234B"
+					item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 4.5d
+		}
+		{
+			dependencies: ["642F9788E428E6BE"]
+			id: "51DE989136E38F20"
+			rewards: [
+				{
+					id: "12F3C8CE99D4E427"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "44BEAA2AEFEF15B2"
+					item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["20C30956DD1B873E", "51DE989136E38F20"]
+			id: "13F5B79840CC2A09"
+			rewards: [
+				{
+					id: "20BD05FE83F50865"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "7FFBAE58B35EE077"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 6d
+		}
+		{
+			dependencies: ["0A157E8B791D9822"]
+			id: "7DE30100EBF85C62"
+			rewards: [
+				{
+					id: "48E5FE412BF6E045"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "48BE2EDBCEE5A34F"
+					item: { count: 1, id: "createoreexcavation:vein_finder" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DE30100EBF85C62"]
+			id: "36452BF340BDFE34"
+			rewards: [
+				{
+					id: "143F9B5DCA291EA7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "61A2359EF6C63908"
+					item: { count: 1, id: "createoreexcavation:drilling_machine" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1B688FF43005A817"
+					item: { count: 1, id: "createoreexcavation:drill" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 3d
+		}
+		{
+			dependencies: ["0A157E8B791D9822"]
+			id: "3FB24AA6CC69210B"
+			rewards: [
+				{
+					id: "67C92DEC5B837B9E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2086792CB00558EF"
+					item: { count: 1, id: "create_factory_logistics:jar_packager" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FB24AA6CC69210B"]
+			id: "0C23D8D72D09040F"
+			rewards: [
+				{
+					id: "17831D18DF78DBF8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0129B62C994DAC97"
+					item: { count: 1, id: "create_vibrant_vaults:basic_shipping_container" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 3d
+		}
+		{
+			dependencies: ["0A157E8B791D9822"]
+			id: "6DF054A98B7C673A"
+			rewards: [
+				{
+					id: "595A99A8914ADEDD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "441E54D76562BF28"
+					item: { count: 1, id: "createdeco:andesite_catwalk" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DF054A98B7C673A"]
+			id: "2B81AA864E2C56BF"
+			rewards: [
+				{
+					id: "7640EA3CB55B831A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1CE3BE84DE326736"
+					item: { count: 1, id: "createprism:andesite_glass_casing" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["36452BF340BDFE34"]
+			id: "4BD9677BF8D5318A"
+			rewards: [
+				{
+					id: "312BFE09D1E0EB2D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "04D9325060A12769"
+					item: { count: 1, id: "create_jetpack:jetpack" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36452BF340BDFE34"]
+			id: "1A3ABA82A43A4A78"
+			rewards: [
+				{
+					id: "1A743A75C4DAC7A1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0E5F0B8A5C79483B"
+					item: { count: 1, id: "create_integrated_farming:fishing_net" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A3ABA82A43A4A78", "4BD9677BF8D5318A"]
+			id: "789180040016D6AA"
+			optional: true
+			rewards: [
+				{
+					id: "31FEE0BD1AAFE6F6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6185EF5DA6766829"
+					item: { count: 1, id: "create_dragons_plus:dye_bucket" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 6d
+		}
+	]
+}

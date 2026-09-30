@@ -1,0 +1,145 @@
+chapter.699146B31CBD0538.title: "&aEnchantment Industry&r"
+quest.02ABDDCDE6E1CCAE.quest_desc: [
+  "Tu te demandes peut-être jusqu'où peuvent monter les enchantements avec le &bSuper Enchantement&r ?"
+  ""
+  "C'est simple : le &dniveau maximum est en général le niveau vanilla + 2&r avec le &bSuper Enchantement&r."
+  ""
+  "&6&oPar exemple :&r&r Protection monte normalement jusqu'à &eIV en vanilla&r. &bAvec le Super Enchantement&r, tu peux atteindre &eProtection VI&r."
+  ""
+  "Tu sais sûrement qu'en vanilla, on peut combiner Tranchant IV + IV dans une enclume pour obtenir Tranchant V ?"
+  ""
+  "&a&nPour aller plus loin :&r&r"
+  "&a1)&r Transfère le livre Tranchant V dans un &bModèle de Super Enchantement&r."
+  ""
+  "&a2)&r Utilise ensuite la &6Forge à Blaze&r pour combiner deux modèles Tranchant V : tu obtiens un modèle Tranchant VI."
+  ""
+  "Recommence pour continuer à monter jusqu'au maximum autorisé."
+  ""
+  "&l&6Astuce :&r&r &7L'Imprimante peut copier des livres enchantés, et les modèles peuvent être reconvertis en livres si besoin.&r"
+]
+quest.02ABDDCDE6E1CCAE.title: "&l&cEnchantements au maximum !&r&r"
+quest.15DC45E7658A8628.quest_desc: [
+  "Permet de stocker un enchantement pour le transférer plus tard sur un objet."
+  ""
+  "Ne fonctionne qu'avec les &bsuper enchantements&r, qui dépassent le niveau vanilla (30+)."
+  ""
+  "&cIl ne peut contenir qu'un seul enchantement à la fois.&r"
+]
+quest.16FE44DE7D93172C.quest_desc: [
+  "La &a&lLanterne d'Expérience&r&r absorbe l'expérience des joueurs proches et les orbes d'expérience. Elle brille plus ou moins selon la quantité stockée."
+  ""
+  "La &a&lLanterne d'Expérience&r&r fonctionne aussi &6&lsur les constructions animées&r&r."
+]
+quest.24A56D98CF3ABB1B.quest_desc: [
+  "La &6&lForge à Blaze&r&r fonctionne comme une &8&lenclume&r&r, avec quelques bonus. Comme l'Enchanteur à Blaze, elle a besoin d'expérience liquide pour fonctionner."
+  ""
+  "Elle &cpeut fusionner les enchantements d'objets du même type&r comme une enclume, mais sans coût de réparation. Elle peut aussi fusionner des Modèles d'Enchantement et les appliquer sur des objets."
+  ""
+  "&6La Forge à Blaze peut aussi retirer les enchantements d'un équipement, d'un livre ou d'un modèle, pour les mettre dans un Modèle d'Enchantement vide.&r"
+]
+quest.24F854A847AE7722.quest_desc: [
+  "Permet de stocker un enchantement pour le transférer plus tard sur un objet."
+  ""
+  "&cIl ne peut contenir qu'un seul enchantement à la fois.&r"
+]
+quest.30A49F7BE86E7B7D.quest_desc: [
+  "La &6Forge à Blaze&r fonctionne comme une enclume, mais elle peut en plus extraire un enchantement dans un Modèle."
+  ""
+  "Pour &aappliquer un enchantement&r d'un livre ou d'un modèle sur un objet, place d'abord l'objet, puis le livre ou le modèle."
+  ""
+  "Pour &bextraire un enchantement&r d'un objet ou d'un livre vers un modèle, place d'abord l'objet ou le livre, puis le &eModèle d'Enchantement vide&r."
+]
+quest.30A49F7BE86E7B7D.title: "&dL'ordre de placement compte"
+quest.4DA92919147B3E18.quest_desc: [
+  "L'&a&lEnchanteur à Blaze&r&r fonctionne comme une table d'enchantement. Pour l'activer, il faut lui pomper de l'expérience liquide."
+  ""
+  "Avant d'enchanter, règle le niveau d'enchantement sur son panneau &b(30 maximum en vanilla)&r. Ce panneau sert aussi d'emplacement de filtre : y placer un objet active le &6&lmode Modèle&r&r."
+  ""
+  "En &6&lmode Modèle&r&r, l'Enchanteur à Blaze enchante un &a&lModèle d'Enchantement&r&r, uniquement avec des enchantements compatibles avec l'objet du filtre."
+  "Par exemple, un plastron en diamant dans le filtre ne donnera que des enchantements de plastron en diamant, à transférer ensuite dans un modèle vide."
+  ""
+  "Des &ltypes d'objets différents&r (plastron en or, matériaux…) donnent des enchantements différents ou meilleurs. Un niveau plus élevé n'est pas toujours conseillé : certains enchantements n'apparaissent pas à haut niveau."
+  ""
+  "&o&l&cJe te conseille FORTEMENT&r de regarder le Ponder (touche W) pour bien comprendre.&r&r"
+]
+quest.4DFE436CD88DAF36.quest_desc: [
+  "L'&l&6Imprimante&r&r utilise deux types de liquides :"
+  ""
+  "&l&9l'encre&r&r pour copier des livres et changer les motifs de colis ;"
+  ""
+  "&a&ll'expérience&r&r &6&npour dupliquer des livres enchantés&r&r."
+  ""
+  "Pour copier, dupliquer ou changer un motif, place l'objet correspondant dans l'emplacement de filtre."
+  ""
+  "Elle peut aussi nommer des objets, copier des horaires de train ou des presse-papiers, changer l'adresse des colis, et plus encore. Regarde les recettes d'impression dans JEI."
+]
+quest.5429DCF7C5A3EC97.quest_desc: [
+  "&aCreate: Enchantment Industry&r permet d'enchanter à l'échelle industrielle."
+  ""
+  "Dans ce pack, tu as deux chemins pour enchanter : les bibliothèques d'&6Apotheosis&r, ou les machines d'Enchantment Industry. Le second s'intègre directement à ton usine."
+  ""
+  "Il propose une façon puissante et entièrement automatisée de &ddésenchanter&r, de &astocker l'expérience&r et même de &cdépasser les limites vanilla&r, avec des enchantements jusqu'au niveau &e60&r !"
+  ""
+  "Oublie les fermes à XP fastidieuses : ici, tu enchantes, extrais, combines et recycles ton équipement avec la force mécanique."
+]
+quest.5429DCF7C5A3EC97.title: "&aCreate: Enchantment Industry&r"
+quest.5534C553D15CD96B.quest_desc: [
+  "La &6Vidangeuse&r extrait le liquide d'un contenant et le garde en attendant qu'il soit pompé vers un autre contenant."
+]
+quest.5E0CC434DF548813.quest_desc: [
+  "Pour obtenir un &l&bBloc de Super Expérience&r&r, fabrique d'abord un &l&aBloc d'Expérience&r&r, pose-le dans l'Overworld, place un &l&6paratonnerre&r&r dessus et attends un &l&eéclair&r&r."
+  ""
+  "Quand l'&e&léclair&r&r frappe le &l&aBloc d'Expérience&r&r, il se transforme en &b&lBloc de Super Expérience&r&r."
+]
+quest.62C8A74B9C0AC8A4.quest_desc: [
+  "&l&o&cJe te conseille FORTEMENT&r de regarder le Ponder (touche W) de l'&6&lEnchanteur à Blaze&r&r et de la &6&lForge à Blaze&r&r pour bien comprendre.&r&r"
+  ""
+  "L'&6Enchanteur à Blaze&r peut manger un &bGâteau d'Enchantement&r pour passer en &bmode Super Enchantement&r."
+  ""
+  "Dans ce mode, la &dlimite de niveau monte à 60&r, et il peut produire des enchantements trésors."
+  ""
+  "Dans ce mode, il n'accepte que les &3Modèles de Super Enchantement&r."
+  ""
+  "Pense à poser un bloc au-dessus de l'Enchanteur à Blaze et un paratonnerre sur un bloc à côté : le mode Super Enchantement attire la foudre."
+  ""
+  "&l&5..................................................................&r&r"
+  ""
+  "La &6Forge à Blaze&r peut aussi manger un &bGâteau d'Enchantement&r pour passer en &bmode Super Enchantement&r."
+  ""
+  "Dans ce mode, elle dépasse la limite vanilla quand elle fusionne des enchantements, et peut même fusionner des enchantements incompatibles."
+  ""
+  "Elle n'accepte alors que les &3Modèles de Super Enchantement&r."
+  ""
+  "Là aussi, pose un bloc au-dessus de la Forge à Blaze et un paratonnerre à côté : le mode Super Enchantement attire la foudre."
+]
+quest.66E127ED18F447AD.quest_desc: [
+  "Fais un &6&lclic droit&r&r avec la &a&lMeule Mécanique&r&r sur une &l&bVidangeuse&r&r, puis pose une autre Meule Mécanique dessus pour l'utiliser."
+  ""
+  "La &l&aMeule Mécanique&r&r extrait l'expérience des objets enchantés, et sert aussi de papier de verre."
+  ""
+  "On peut aussi y placer des objets à la main."
+  ""
+  "&o&l&cRegarde le Ponder&r (touche W) pour bien comprendre.&r&r"
+]
+quest.6B2BB3A3AAC179FE.quest_desc: [
+  "Imagine que tu as une pièce d'armure avec un enchantement que tu adores, et que tu veux le transférer sur un autre objet. La &6Forge à Blaze&r le permet."
+  ""
+  "Place l'objet enchanté et un &aModèle d'Enchantement&r dans la &6Forge à Blaze&r. Elle retire un enchantement au hasard de l'objet et le transfère sur le modèle."
+  ""
+  "Chaque modèle ne contient qu'un enchantement à la fois : recommence jusqu'à extraire celui que tu veux."
+  ""
+  "Selon le niveau de l'enchantement, il faudra peut-être le &bSuper Enchantement&r pour le réappliquer."
+]
+quest.6B2BB3A3AAC179FE.title: "&l&6Désenchanter son équipement"
+quest.732543EAB9ADB411.quest_desc: [
+  "La &l&aTrappe d'Expérience&r&r permet de déposer ou de retirer de l'expérience d'un réservoir ou d'un bassin."
+  "Un &dclic droit&r dépose l'expérience, et &dMaj + clic droit&r la retire."
+  ""
+  "Son panneau à molette règle la quantité d'expérience déposée ou retirée à chaque fois."
+  ""
+  "Elle a aussi un &aemplacement de filtre&r pour les liquides d'expérience des autres mods : place le seau dedans pour que la trappe le traite comme de l'expérience normale."
+]
+task.0A88BBBA01BD37FD.title: "Clique pour valider"
+task.2E11C158DD5E8E3E.title: "Clique pour valider"
+task.5AEF67BE7BA61DB9.title: "Clique pour valider"
+task.5C3C1B05DB934DC4.title: "Clique pour valider"

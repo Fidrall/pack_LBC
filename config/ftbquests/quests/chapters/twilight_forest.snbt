@@ -1,0 +1,720 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "1A00000000000005"
+	icon: {
+		id: "twilightforest:naga_trophy"
+	}
+	id: "76A66079B7CC937B"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "0D63CF8BA1F3A152"
+			rewards: [
+				{
+					id: "39A962316C4213C8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					advancement: "twilightforest:root"
+					criterion: ""
+					id: "4C8619137A3A9710"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["0D63CF8BA1F3A152"]
+			id: "0BECBC39B0AB9A3A"
+			rewards: [
+				{
+					id: "31CEFEC2FB5C77DC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5D0E03D83B6011B3"
+					item: { count: 1, id: "twilightforest:magic_map_focus" }
+					type: "item"
+				}
+			]
+			x: -2d
+			y: 0d
+		}
+		{
+			dependencies: ["0BECBC39B0AB9A3A"]
+			id: "1297AC30B2800152"
+			optional: true
+			rewards: [
+				{
+					id: "4BBF00B43767A10D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:kill_cicada"
+					criterion: ""
+					id: "0F27009E4451CD6F"
+					type: "advancement"
+				}
+			]
+			x: -3.5d
+			y: 0d
+		}
+		{
+			dependencies: ["0D63CF8BA1F3A152"]
+			icon: {
+				id: "twilightforest:naga_trophy"
+			}
+			id: "0E3D366B37BED52B"
+			rewards: [
+				{
+					id: "5A08A719FE6988B1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+					id: "4CABF73B5CC2A575"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 2d
+		}
+		{
+			dependencies: ["0E3D366B37BED52B"]
+			id: "6DF6C9135F736F41"
+			rewards: [
+				{
+					id: "4A3C227549961B0C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6AD4D92EC0870EA5"
+					item: { count: 1, id: "twilightforest:naga_chestplate" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1F4FD1985A91134B"
+					item: { count: 1, id: "twilightforest:naga_leggings" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2d
+		}
+		{
+			dependencies: ["0E3D366B37BED52B"]
+			icon: {
+				id: "twilightforest:lich_trophy"
+			}
+			id: "17C0FD40F5C1CB67"
+			rewards: [
+				{
+					id: "19654EC247126736"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+					id: "10EA5188E976B4E5"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17C0FD40F5C1CB67"]
+			id: "67237310A2D6E738"
+			rewards: [
+				{
+					id: "29D6DD8999DA1728"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:lich_scepters"
+					criterion: ""
+					id: "0872955A384C5E8C"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17C0FD40F5C1CB67"]
+			icon: {
+				id: "twilightforest:minoshroom_trophy"
+			}
+			id: "689B086F3F8A6221"
+			rewards: [
+				{
+					id: "0C1759D14DBBC4C2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+					id: "7E15987035DE9CB5"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 5d
+		}
+		{
+			dependencies: ["689B086F3F8A6221"]
+			id: "53297F76E059AC9B"
+			optional: true
+			rewards: [
+				{
+					id: "45E62806CD77F99E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "73BC7C818145DA4D"
+					item: { count: 1, id: "twilightforest:mazebreaker_pickaxe" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 5d
+		}
+		{
+			dependencies: ["689B086F3F8A6221"]
+			icon: {
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "2DD3DB23B3ED5709"
+			rewards: [
+				{
+					id: "7E539B160BEB40B2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_hydra"
+					criterion: ""
+					id: "6ABE0C6793BEF407"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2DD3DB23B3ED5709"]
+			id: "1CFAFD79611B348D"
+			rewards: [
+				{
+					id: "4E31C90D7D89E7D7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0F1E087ADBE29288"
+					item: { count: 1, id: "twilightforest:fiery_ingot" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 6.5d
+		}
+		{
+			dependencies: ["17C0FD40F5C1CB67"]
+			icon: {
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "7BCA16C23973BAEF"
+			rewards: [
+				{
+					id: "5ED406B9F0DEA8E3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+					id: "1E0EC7DA223234E0"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 5d
+		}
+		{
+			dependencies: ["7BCA16C23973BAEF"]
+			id: "5734D775B5792B39"
+			rewards: [
+				{
+					id: "6774FD97047154DB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "77D92EA9832DE7B0"
+					item: { count: 1, id: "twilightforest:knightmetal_ingot" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 5d
+		}
+		{
+			dependencies: ["7BCA16C23973BAEF"]
+			icon: {
+				id: "twilightforest:ur_ghast_trophy"
+			}
+			id: "75245BCD1BB86548"
+			rewards: [
+				{
+					id: "1535EB059B453964"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_ur_ghast"
+					criterion: ""
+					id: "29CC527BE110DEAC"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["75245BCD1BB86548", "2DD3DB23B3ED5709"]
+			icon: {
+				id: "twilightforest:alpha_yeti_trophy"
+			}
+			id: "39EC6249048B5DA9"
+			rewards: [
+				{
+					id: "4C27FF901E5E1EAE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+					id: "0FB402CE864E3F32"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 8d
+		}
+		{
+			dependencies: ["39EC6249048B5DA9"]
+			icon: {
+				id: "twilightforest:snow_queen_trophy"
+			}
+			id: "1FCAFFB6DB6BCF64"
+			rewards: [
+				{
+					id: "45AE132E551C4409"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_glacier"
+					criterion: ""
+					id: "5841B87445A8464B"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1FCAFFB6DB6BCF64"]
+			icon: {
+				id: "twilightforest:lamp_of_cinders"
+			}
+			id: "2EA36C2C0E10266A"
+			rewards: [
+				{
+					id: "2C30A9398CA7CDE0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progress_troll"
+					criterion: ""
+					id: "579A4B6F4AEF58F3"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 11d
+		}
+		{
+			dependencies: ["2EA36C2C0E10266A"]
+			id: "6FF9F64496CBECF6"
+			rewards: [
+				{
+					id: "03B40837FFA25635"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "08A88225720A7D31"
+					item: { count: 1, id: "twilightforest:giant_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 11d
+		}
+		{
+			dependencies: ["2EA36C2C0E10266A"]
+			icon: {
+				id: "twilightforest:violet_castle_door"
+			}
+			id: "73D71CAB5DD700BE"
+			rewards: [
+				{
+					id: "4B78BD151AE1D4E1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "43B2B6D79E96E0B4"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [
+				{
+					advancement: "twilightforest:progression_end"
+					criterion: ""
+					id: "4315E6A16D328064"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0D63CF8BA1F3A152"]
+			id: "7CC5D0BEAE4099AB"
+			rewards: [
+				{
+					id: "3349EC87E5411BA6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "54A1E1C054A592DD"
+					item: { count: 1, id: "twilightforest:charm_of_life_1" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2d
+		}
+		{
+			dependencies: ["7CC5D0BEAE4099AB"]
+			id: "77686848F05F5118"
+			rewards: [
+				{
+					id: "7858985511163203"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "190B2355A959CF02"
+					item: { count: 1, id: "twilightforest:steeleaf_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7A40CDCC51C010D6"
+					item: { count: 1, id: "twilightforest:ironwood_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D63CF8BA1F3A152"]
+			id: "32F2C746D851BA54"
+			optional: true
+			rewards: [
+				{
+					id: "77D48E8CA8C695BE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "twilightforest:quest_ram"
+					criterion: ""
+					id: "6EDEA749823C339D"
+					type: "advancement"
+				}
+			]
+			x: -3.5d
+			y: 2d
+		}
+		{
+			dependencies: ["7BCA16C23973BAEF"]
+			id: "18654DB09285C738"
+			optional: true
+			rewards: [
+				{
+					id: "48C2221E4FEC2AC8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "50CE5DD5CA435934"
+					item: { count: 1, id: "twilightforest:time_sapling" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2B0F5D7219C754F6"
+					item: { count: 1, id: "twilightforest:transformation_sapling" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3E29AD72030AC272"
+					item: { count: 1, id: "twilightforest:mining_sapling" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0D5643E6A3766E81"
+					item: { count: 1, id: "twilightforest:sorting_sapling" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.5d
+		}
+	]
+}

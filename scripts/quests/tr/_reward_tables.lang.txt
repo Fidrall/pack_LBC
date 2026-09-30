@@ -1,0 +1,4 @@
+	reward_table.4363F0DDE61F37E2.title: "Caisse commune"
+	reward_table.5BF2DB02CBF4D490.title: "Caisse rare"
+	reward_table.396C1887C2F887B7.title: "Caisse épique"
+	reward_table.7D221ADF1898E942.title: "Caisse légendaire"

@@ -1,0 +1,128 @@
+quest.7124A562FDF1A9A5.quest_desc: [
+  "Les &l&6Fabricateurs Mécaniques&r&r automatisent la fabrication d'objets. Certaines recettes, comme celle des Roues de Broyage, doivent obligatoirement être faites avec eux."
+  ""
+  "Un clic droit avec une clé sur l'avant d'un Fabricateur change la direction de sa flèche, qui indique où il passe les objets pendant la fabrication. Toutes les flèches doivent finir par converger vers le même Fabricateur pour terminer la recette. Les Fabricateurs ne sont reliés que par ce chemin."
+  ""
+  "On peut les alimenter automatiquement avec des entonnoirs ou des trémies, ou mettre et retirer les objets à la main."
+  ""
+  "Chaque Fabricateur peut être alimenté par un Fabricateur voisin ou par un engrenage : un seul Fabricateur du montage a besoin d'être relié directement à un engrenage."
+  ""
+  "Une clé utilisée sur l'arrière ou les côtés de deux Fabricateurs voisins relie ou sépare leurs inventaires. Des Fabricateurs connectés partagent leur inventaire, même s'ils ne font pas partie de la même recette."
+  ""
+  "Le &6&lCache de Fabricateur&r&r compte comme une case vide dans la recette, et peut relier les inventaires de Fabricateurs qui ne le sont pas. Contrairement aux ingrédients, il ne bouge pas pendant la fabrication."
+  ""
+  "&oAstuce : si le Fabricateur final pointe vers un coffre voisin, le résultat est rangé automatiquement dedans.&r"
+]
+quest.71A3D03B6C04E703.quest_desc: [
+  "L'&6Insolateur Mécanique&r multiplie automatiquement certaines plantes."
+  ""
+  "&bIl a besoin d'un liquide amené par en dessous.&r Le liquide dépend de la plante : de l'eau pour la plupart, de la lave pour les plantes du Nether, et des liquides spéciaux pour certaines plantes."
+  ""
+  "Par exemple :"
+  "les plantes du Renifleur demandent du compost liquide ;"
+  "les roses de Wither demandent du compost en fusion ;"
+  "les fruits de chorus demandent du compost du néant."
+  ""
+  "&aRécupère les plantes à la main avec un clic droit, ou automatiquement avec un entonnoir.&r"
+]
+quest.73866AF524F9F82F.quest_desc: [
+  "Les &6Gares&r servent à créer, démonter et guider les trains."
+  ""
+  "Fais un &dclic droit&r sur une &avoie ferrée&r, puis pose la &6gare&r à moins de 15 blocs de la voie."
+  ""
+  "Une &6gare&r ne peut être posée que sur une &avoie&r qui n'est pas déjà utilisée par un signal ou un observateur ferroviaire."
+  ""
+  "Pour créer un train, il faut une ligne droite d'au moins 3 blocs de voie pour pouvoir poser un bogie."
+]
+quest.73E2BBF18A97E57F.quest_desc: [
+  "Le &6&lTachymètre&r&r mesure la vitesse de rotation des machines connectées ou du réseau."
+  ""
+  "Il affiche la vitesse avec une aiguille : plus elle monte, plus ça tourne vite."
+  ""
+  "Avec les Lunettes d'Ingénieur, tu vois la valeur exacte en tr/min."
+  ""
+  "Un Lien d'Affichage peut afficher la vitesse sur un panneau pour la suivre plus facilement."
+  ""
+  "Un comparateur peut lire le Tachymètre et donne un signal selon la vitesse absolue : les vitesses positives et négatives donnent le même signal."
+]
+quest.747A045278FCCEE3.quest_desc: [
+  "La &6Perceuse Portable&r est un outil puissant qui casse presque tous les blocs à grande vitesse."
+  ""
+  "&l&eOn peut l'enchanter avec Excavation, pour miner en 3×3, ou avec Mange-Chunk, pour miner des filons entiers.&r&r"
+  ""
+  "Elle a besoin de carburant et d'eau pour fonctionner."
+  ""
+  "Tu peux aussi la recharger en tenant du charbon et de l'eau dans ta seconde main pendant que tu l'utilises."
+]
+quest.7495FD1A88E6A10B.quest_desc: [
+  "Le &n&6Déployeur&r&r est essentiel pour l'automatisation, dans les fabrications en plusieurs étapes et les constructions animées."
+  ""
+  "Il automate plein de tâches : fabriquer des carters, polir, cirer, et les assemblages séquencés."
+  ""
+  "Il peut faire un clic droit ou gauche sur des blocs ou des créatures : tondre les moutons, traire les vaches, poser des blocs, et bien plus."
+]
+quest.74C84002EB8E230E.quest_desc: [
+  "Fixe un &abloc d'Hypertube&r à l'&eentrée&r, puis fais un &eclic droit&r avec un autre &abloc d'Hypertube&r pour tracer le chemin du tube, comme pour poser une voie ferrée."
+  ""
+  "S'il y a des obstacles, le tube ne peut pas être posé et le tracé s'affiche en rouge."
+]
+quest.74C84002EB8E230E.title: "Poser des tubes"
+quest.77A0F8AC2BF086C5.quest_desc: [
+  "La &6&lPoulie à Tuyau&r&r fait descendre un tuyau pour vider ou remplir de grandes étendues de liquide."
+  ""
+  "Quand elle tourne, le tuyau descend. En inversant la rotation, il remonte. Le tuyau doit descendre d'au moins un bloc pour fonctionner. Il faut une Pompe Mécanique pour faire circuler le liquide, que ce soit pour vider ou remplir."
+  ""
+  "Si l'étendue de liquide contient au moins 10 000 sources (réglable), la poulie la considère comme infinie : on peut pomper sans la vider."
+  ""
+  "&l&5&oAstuce :&r&r pour une source de lave infinie, creuse un trou de 20×20×25, remplis la couche du haut de lave, laisse-la couler jusqu'en bas, et descends le tuyau jusqu'au fond. La poulie détectera un volume infini.&r"
+]
+quest.785CEB5E417A45EF.quest_desc: [
+  "Le &6Sifflet à Vapeur&r est un bloc musical activé par un signal de redstone, ou quand il est fixé sur un train."
+  ""
+  "Il se pose sur un réservoir qui a une source de chaleur en dessous. On l'active ensuite avec de la redstone."
+  ""
+  "On peut l'allonger jusqu'à 12 fois, et il joue jusqu'à 13 notes par octave. Utilise une clé pour passer d'une des 3 octaves à l'autre. Les Lunettes d'Ingénieur affichent la note en cours."
+  ""
+  "Il fonctionne aussi sur les trains."
+  ""
+  "En conduisant, appuie sur la touche de sprint pour siffler."
+  ""
+  "Les conducteurs non-joueurs sifflent automatiquement en arrivant en gare."
+  ""
+  "S'il y a plusieurs sifflets sur un train, tu ne peux utiliser que celui qui est le plus à l'avant."
+  ""
+  "Les conducteurs non-joueurs, eux, peuvent faire jouer tous les sifflets."
+]
+quest.7936CCA5490F1C60.quest_desc: [
+  "Les &6voies ferrées&r sont des rails spécialement conçus pour les trains."
+  ""
+  "Elles permettent de poser des gares, des bogies pour construire les trains, et ainsi de suite."
+  ""
+  "Elles fonctionnent avec les portails du Nether : un train peut aller dans le Nether et transporter objets et lave entre le Nether et l'Overworld."
+  ""
+  "Le Nether est la seule dimension où les trains peuvent aller."
+]
+quest.7946F9753F14977C.quest_desc: [
+  "Le &l&6Bras Mécanique&r&r prend ou dépose des objets dans les blocs situés à 5 blocs autour de lui."
+  ""
+  "Son ordre de travail dépend de son réglage et de l'ordre dans lequel tu as sélectionné les blocs cibles en le posant."
+  ""
+  "Pour voir les blocs sélectionnés d'un bras déjà posé, survole-le avec une clé."
+  ""
+  "Il peut transférer une pile entière à la fois."
+  ""
+  "Petit bonus : un jukebox avec un disque à côté le fait danser, et il peut même porter des Lunettes d'Ingénieur."
+]
+quest.7EDA18B8420473E8.quest_desc: [
+  "Le &6&lRéservoir&r&r stocke des liquides, jusqu'à 8 seaux (8 000 mB) par bloc."
+  ""
+  "On remplit ou vide un réservoir avec des tuyaux, branchés sur n'importe quelle face : dessus, dessous ou côtés."
+  ""
+  "Les réservoirs voisins fusionnent automatiquement en grandes structures, jusqu'à 3×32×3, pour une capacité maximale de 2 304 seaux."
+  ""
+  "La vitre du réservoir s'affiche ou se masque avec une clé."
+  ""
+  "L'endroit où les tuyaux sont branchés ne change rien : on peut par exemple vider par le haut même si le réservoir n'est pas plein."
+]
+task.0C99D5061E9A9F59.title: "Mods esthétiques"
+task.3F5AC72562569158.title: "Unités de contrainte"

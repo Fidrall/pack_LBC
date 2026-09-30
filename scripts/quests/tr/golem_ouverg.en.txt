@@ -1,0 +1,85 @@
+chapter.5A695917A1E23476.title: "&dGolem Overhaul"
+quest.28101F299D039864.quest_desc: [
+  "Can be found naturally in &aslime chunks,&r and will spawn as one of two size variants, each with their own stats."
+]
+quest.28101F299D039864.title: "Slime golem"
+quest.362C70E45443B57C.quest_desc: [
+  "{image:kubejs:item/golem3 width:150 height:60 align:center}"
+  "&dRight click&r to ride the &enetherite golem.&r Use your jump key to attack."
+  ""
+  "&dRight click&r with a gold ingot to apply a gold trim to turn all piglins neutral towards the golem."
+  ""
+  "&dRight click&r with a lava bucket to unlock the &enetherite golems&r summon ability - This ability will summon a group of coal golems to fight for the netherite golem. The keybind for this is set to \"R\" by default."
+  ""
+  "This will, however, make the &enetherite golem&r vulnerable to water damage."
+]
+quest.362C70E45443B57C.title: "Netherite golem"
+quest.372B31F3D301684A.quest_desc: [
+  "{image:kubejs:item/golem1 width:150 height:60 align:center}"
+  ""
+  "&eHay golems&r can either be built by the player, or found naturally in villages. "
+  ""
+  "They are passive, but will protect crops from being trampled within a 10x10 radius."
+]
+quest.372B31F3D301684A.title: "Hay golem"
+quest.3DEAE2A5E71AEF5A.quest_desc: [
+  "{image:kubejs:item/golem5 width:150 height:60 align:center}"
+  "&eThe terracotta golems&r can be found naturally in badlands biomes, or summoned by placing terracotta golem statues near heat sources."
+  ""
+  "&eTerracotta golems&r are naturally hostile to mobs, and can be right clicked with cacti or dead bushes to improve their attacks. "
+  ""
+  "A cactus will increase the golems attack from 4 to 6, while a dead bush will give it a ranged attack."
+]
+quest.3DEAE2A5E71AEF5A.title: "Terracotta golem"
+quest.4CC9D588886E2778.quest_desc: [
+  "&eUnlit coal golems&r will spawn naturally around coal ore, and are passive towards mobs. "
+  ""
+  "&eCoal golems&r can be turned into&e lit coal golems&r by &cright clicking them with flint and steel&r,"
+  "and will become hostile towards mobs, but will die after attacking."
+]
+quest.4CC9D588886E2778.title: "Coal golem"
+quest.52C5644D8C7CB5CC.quest_desc: [
+  "{image:kubejs:item/golem2 width:150 height:60 align:center}"
+  ""
+  "&eThe kelp golem&r moves fastest in water."
+  ""
+  "When within range of a conduit, the&e kelp golem&r will switch to its charged state and receive +100% strength, gradual regeneration, and +100% resistance until out of range of the conduit."
+]
+quest.52C5644D8C7CB5CC.title: "Kelp golem"
+quest.6A7C0604FA1E82BB.quest_desc: [
+  "Can be found naturally in villages. When attacked, the &ebarrel golem&r will close its lid and hide as a barrel, reducing damage taken by 90%. "
+  ""
+  "It will also enter this state while sleeping through the night."
+  ""
+  "The &ebarrel golem&r can be bartered with by dropping emeralds."
+]
+quest.6A7C0604FA1E82BB.title: "Barrel golem"
+quest.6C1085B9052E3A52.quest_desc: [
+  "Can be found naturally in birch forests. The&e honey golem&r will shoot mobs with a honey projectile, which applies slowness."
+  ""
+  "&eThe honey golem&r can function as a bee hive, and will contain bees which both defend, and heal the honey golem."
+  ""
+  "These bees will also produce honey, which can be harvested from the golem for honey blobs."
+  "Honey blobs are throwable items that function the same as the honey golems projectile."
+]
+quest.6C1085B9052E3A52.title: "Honey golem"
+quest.70FA406AD3A8A7A9.quest_desc: [
+  "{image:kubejs:item/golem4 width:150 height:60 align:center}"
+  ""
+  "&eCandle golems&r can be spawned by right clicking a &ccandle golem block.&r"
+  ""
+  "They can be told to sit or stand by right clicking. While sitting, they take 90% reduced damage from projectiles."
+  ""
+  "&eCandle golems&r can be lit with flint and steel. When lit, they will shoot mobs with flame projectiles. "
+  ""
+  "Using this attack too much will deplete the golems health until their candle goes out, "
+  "and they'll need to be repaired."
+]
+quest.70FA406AD3A8A7A9.title: "Candle golem"
+quest.7E7B5A9C3AE9FBF8.quest_desc: [
+  "&aGolem Overhaul &radds 9 new golem types, all with their own unique mechanics!"
+  ""
+  "Some are passive, like the hay golem, who can protect your crops from being trampled, while others are strong enough to take on mobs like the warden itself."
+  "&a"
+]
+quest.7E7B5A9C3AE9FBF8.title: "&aGolem Overhaul"

@@ -1,0 +1,192 @@
+chapter.3A0D968D2B12B019.title: "&a&lExploration"
+chapter.3A0D968D2B12B019.chapter_subtitle: [
+  "Un monde immense à découvrir"
+]
+quest.65E6B8689DFD83B1.title: "&a&lPartir à l'aventure"
+quest.65E6B8689DFD83B1.quest_subtitle: "Un monde plus grand, plus haut, plus profond"
+quest.65E6B8689DFD83B1.quest_desc: [
+  "Le monde de ce serveur est généré par &eTerralith&r et &eTectonic&r : des continents immenses, des océans profonds et des montagnes très hautes."
+  ""
+  "Des &edizaines de mods de structures&r y ont caché des villages, donjons, ruines, tours, forteresses, navires… Chaque expédition peut rapporter un trésor."
+  ""
+  "Ce chapitre te donne les outils pour explorer, puis te lance quelques défis de découverte."
+]
+task.202EB298365C4009.title: "Clique pour valider"
+quest.1DCBB6615422DBBB.title: "&6La Boussole de l'Explorateur"
+quest.1DCBB6615422DBBB.quest_subtitle: "Trouver n'importe quelle structure"
+quest.1DCBB6615422DBBB.quest_desc: [
+  "La &6Boussole de l'Explorateur&r peut localiser &bn'importe quelle structure&r du pack."
+  ""
+  "Fais un clic droit pour ouvrir la liste, choisis une structure, et la boussole pointe vers la plus proche."
+  ""
+  "&7La recherche peut prendre quelques secondes pour les structures rares : patience !"
+]
+quest.23BCCDEE0FB841DD.title: "La Boussole de la Nature"
+quest.23BCCDEE0FB841DD.quest_subtitle: "Trouver n'importe quel biome"
+quest.23BCCDEE0FB841DD.quest_desc: [
+  "La &eBoussole de la Nature&r fait la même chose pour les &abiomes&r. Pratique pour trouver un biome précis de Terralith, une jungle, un désert…"
+]
+quest.4BD538342D7EAFE9.title: "La carte JourneyMap"
+quest.4BD538342D7EAFE9.quest_subtitle: "Ne jamais se perdre"
+quest.4BD538342D7EAFE9.quest_desc: [
+  "&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. Ouvre la grande carte avec &6J&r."
+  ""
+  "- Crée des &epoints de passage&r pour retenir tes découvertes."
+  "- Un point est créé automatiquement à &cchaque mort&r."
+  ""
+  "&cAttention :&r par défaut, la touche de création de point de passage est &6B&r, comme celle du sac à dos. Change l'une des deux dans les options !"
+]
+task.4D81C19520048110.title: "Clique pour valider"
+quest.3CECB75C777B8B2E.title: "Lootr : un butin pour chacun"
+quest.3CECB75C777B8B2E.quest_subtitle: "Pas de jaloux en multijoueur"
+quest.3CECB75C777B8B2E.quest_desc: [
+  "Grâce à &eLootr&r, les coffres des structures ont un &abutin différent pour chaque joueur&r."
+  ""
+  "Si un ami a déjà pillé un donjon, &ale coffre est toujours plein pour toi&r ! Un coffre déjà ouvert par toi est marqué différemment."
+  ""
+  "&7Impossible de casser ces coffres pour les récupérer : le butin reste pour tout le monde."
+]
+task.5E861DCE112CED1E.title: "Compris !"
+quest.50CAC11C32FA70C6.title: "&eLes Waystones"
+quest.50CAC11C32FA70C6.quest_subtitle: "Des points de téléportation"
+quest.50CAC11C32FA70C6.quest_desc: [
+  "Les &eWaystones&r se trouvent dans le monde (y compris dans certains villages). &bActive-les en passant&r pour pouvoir t'y téléporter plus tard."
+  ""
+  "Sur ce serveur, elles sont assez espacées et &ela téléportation coûte de l'XP&r selon la distance. Pour les longs voyages, préfère les dirigeables !"
+  ""
+  "La &ePoudre de Warp&r sert à fabriquer des parchemins de retour et des pierres de téléportation."
+]
+quest.5074B699E6B3FF0F.title: "Dormir en expédition"
+quest.5074B699E6B3FF0F.quest_subtitle: "Sac de couchage et hamac"
+quest.5074B699E6B3FF0F.quest_desc: [
+  "Le &eSac de Couchage&r permet de dormir la nuit &asans changer ton point de réapparition&r : parfait en expédition."
+  ""
+  "Le &eHamac&r (accroché entre deux blocs avec des cordes et clous) permet de faire une sieste la journée."
+]
+quest.1457CC01C1D455DD.title: "Mourir sans tout perdre"
+quest.1457CC01C1D455DD.quest_subtitle: "Ton corps t'attend"
+quest.1457CC01C1D455DD.quest_desc: [
+  "Quand tu meurs, ton inventaire reste dans ton &ecorps&r, à l'endroit de ta mort. Retourne le chercher pour tout récupérer !"
+  ""
+  "La touche &6J&r de Corpse (à vérifier dans les commandes si elle est en conflit avec JourneyMap) affiche l'historique de tes morts et leurs coordonnées."
+  ""
+  "&7Le point de passage de mort de JourneyMap aide aussi à retrouver ton corps."
+]
+task.29E9412E46C50D93.title: "Compris !"
+quest.13384C6B8C1B2D60.title: "Le Tome Akashique"
+quest.13384C6B8C1B2D60.quest_subtitle: "Tous les livres en un"
+quest.13384C6B8C1B2D60.quest_desc: [
+  "Combine tous les &elivres de guide&r des mods (Patchouli, etc.) dans le &eTome Akashique&r : un seul livre au lieu de dix dans ton inventaire."
+  ""
+  "Accroupi + clic droit pour choisir le livre à ouvrir."
+]
+quest.7E452D2A2E57464F.title: "&6L'archéologie avancée"
+quest.7E452D2A2E57464F.quest_subtitle: "Better Archeology"
+quest.7E452D2A2E57464F.quest_desc: [
+  "&eBetter Archeology&r ajoute des pinceaux améliorés (fer, diamant, Netherite), des fossiles à reconstituer, des vases à butin et des artefacts aux pouvoirs spéciaux."
+  ""
+  "Cherche les &ecamps d'archéologues&r, les &ecatacombes&r et les ruines ensevelies."
+]
+quest.1B17EB1871D471D6.title: "Paléontologue"
+quest.1B17EB1871D471D6.quest_subtitle: "Trouver un fossile"
+quest.1B17EB1871D471D6.quest_desc: [
+  "Des fossiles d'animaux sont enfouis dans le monde. Reconstitue-les pour décorer ton musée !"
+]
+quest.5D17E5356CD5A42E.title: "&a&lLe carnet de l'explorateur"
+quest.5D17E5356CD5A42E.quest_subtitle: "Des défis de découverte"
+quest.5D17E5356CD5A42E.quest_desc: [
+  "Voici une sélection de &estructures remarquables&r à trouver. Chaque quête se valide automatiquement quand tu entres dans la structure."
+  ""
+  "Utilise la Boussole de l'Explorateur si tu es bloqué… ou explore au hasard, c'est plus amusant !"
+]
+task.0B018E176C2EDD75.title: "C'est parti !"
+quest.47174032FD094F4F.title: "Un village"
+quest.47174032FD094F4F.quest_subtitle: "Villages améliorés et gardes"
+quest.47174032FD094F4F.quest_desc: [
+  "Les villages de ce pack sont plus grands et plus vivants : &eCTOV&r en crée de nouveaux par biome, &eTowns and Towers&r en ajoute d'autres, et des &egardes&r les défendent."
+  ""
+  "Tu peux équiper les gardes : donne-leur une armure et une arme (clic droit accroupi)."
+]
+quest.31BEBCEB741A29B6.title: "Un village de Ribbits"
+quest.31BEBCEB741A29B6.quest_subtitle: "Les grenouilles musiciennes"
+quest.31BEBCEB741A29B6.quest_desc: [
+  "Dans les &emarais&r vivent les &aRibbits&r, des grenouilles commerçantes et musiciennes. Joue des maracas avec elles !"
+]
+quest.65B7A1DAF383878B.title: "Un village dans le ciel"
+quest.65B7A1DAF383878B.quest_subtitle: "Au-dessus des nuages"
+quest.65B7A1DAF383878B.quest_desc: [
+  "Certains villages flottent dans le ciel ! Il faudra un dirigeable, un jetpack… ou beaucoup d'échelles pour les atteindre."
+]
+quest.36669258C037D428.title: "Le château dans le ciel"
+quest.36669258C037D428.quest_subtitle: "Une légende des nuages"
+quest.36669258C037D428.quest_desc: [
+  "On raconte qu'un &echâteau flotte dans le ciel&r. Parfait pour une expédition en dirigeable !"
+]
+quest.3CDB2020C5E859C1.title: "Le dirigeable des pillards"
+quest.3CDB2020C5E859C1.quest_subtitle: "Des pillards qui volent ?"
+quest.3CDB2020C5E859C1.quest_desc: [
+  "Les pillards ont construit un &edirigeable steampunk&r avec la technologie de Create. Aborde-le et pille-le !"
+  ""
+  "&7Create: Structures Arise ajoute 28 structures sur le thème de Create, avec du butin Create."
+]
+quest.3CEEF3CAD99C151A.title: "Un fort des illagers"
+quest.3CEEF3CAD99C151A.quest_subtitle: "When Dungeons Arise"
+quest.3CEEF3CAD99C151A.quest_desc: [
+  "&eWhen Dungeons Arise&r ajoute d'immenses structures pleines d'ennemis et de trésors. Le &efort des illagers&r en est un bon exemple."
+  ""
+  "Viens à plusieurs et bien équipé !"
+]
+quest.0FD5BF987876069F.title: "Une tour de mage"
+quest.0FD5BF987876069F.quest_subtitle: "Terralith"
+quest.0FD5BF987876069F.quest_desc: [
+  "&eTerralith&r cache aussi ses propres structures, comme ces &etours de mage&r perdues dans la nature."
+]
+quest.73F02D17C34B1787.title: "Des catacombes"
+quest.73F02D17C34B1787.quest_subtitle: "Sous terre, les morts dorment"
+quest.73F02D17C34B1787.quest_desc: [
+  "Ces &ecatacombes&r sont pleines de vases à butin et de secrets archéologiques."
+]
+quest.5D925522882186A8.title: "La cité des âmes perdues"
+quest.5D925522882186A8.quest_subtitle: "Philips' Ruins"
+quest.5D925522882186A8.quest_desc: [
+  "Une cité en ruine, hantée par les âmes perdues. Qui sait ce qu'il reste dans ses coffres ?"
+]
+quest.66439896B6A4F367.title: "Le Sphinx"
+quest.66439896B6A4F367.quest_subtitle: "Dans le désert"
+quest.66439896B6A4F367.quest_desc: [
+  "Un &esphinx&r géant garde un secret dans le désert."
+]
+quest.20C77374BFA20079.title: "Un fort"
+quest.20C77374BFA20079.quest_subtitle: "Là où se cache le portail de l'End"
+quest.20C77374BFA20079.quest_desc: [
+  "Les &eforts&r (améliorés par YUNG's Better Strongholds) cachent le &eportail de l'End&r. Tu devras en trouver un pour y placer tes yeux de l'End !"
+  ""
+  "Voir le chapitre &aLa Route de l'End&r."
+]
+quest.5EE2C7C1568832CC.title: "Le manoir des illagers"
+quest.5EE2C7C1568832CC.quest_subtitle: "Dungeons and Taverns"
+quest.5EE2C7C1568832CC.quest_desc: [
+  "Un immense &emanoir&r occupé par les illagers, avec ses évocateurs… qui lâchent parfois l'Œil Magique !"
+]
+quest.20BBDA9AC4B20474.title: "Une Cité Antique"
+quest.20BBDA9AC4B20474.quest_subtitle: "Silence…"
+quest.20BBDA9AC4B20474.quest_desc: [
+  "Au fond des &eAbîmes&r se cachent les &eCités Antiques&r. Avance accroupi : le &cWarden&r n'est jamais loin."
+  ""
+  "C'est aussi là que se trouve le portail vers &0Deeper and Darker&r, et les fragments de savoir Eldritch d'Iron's Spells."
+]
+quest.14C694F523C79625.title: "Une taverne"
+quest.14C694F523C79625.quest_subtitle: "Une pause bien méritée"
+quest.14C694F523C79625.quest_desc: [
+  "Les &etavernes&r sont des haltes accueillantes pour les voyageurs. Il y en a de plusieurs mods différents !"
+]
+quest.1C68934A9535EB9C.title: "&6&lGrand Explorateur"
+quest.1C68934A9535EB9C.quest_subtitle: "Le carnet est complet"
+quest.1C68934A9535EB9C.quest_desc: [
+  "Tu as découvert toutes les merveilles de ce carnet. Le monde n'a presque plus de secrets pour toi…"
+  ""
+  "… presque. Il reste des centaines de structures à découvrir, et des dimensions entières à explorer !"
+  ""
+  "&6&lBravo, Grand Explorateur !&r"
+]
+task.67B3D076689320C9.title: "Je suis un grand explorateur"

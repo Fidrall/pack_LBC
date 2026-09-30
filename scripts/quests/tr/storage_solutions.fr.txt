@@ -1,0 +1,84 @@
+chapter.734C4C2CDBC52F6C.title: "&bSacs à dos"
+quest.0BD070E54EF86FDA.quest_desc: [
+  "Tu peux afficher un objet à l'extérieur d'un rangement pour mieux t'organiser. Par exemple, un coffre de nourriture peut afficher une carotte."
+  ""
+  "Va dans les réglages du rangement, puis dans les réglages d'affichage. Clique gauche sur un objet à l'intérieur pour l'afficher : il est entouré d'un carré. Clique droit sur le carré pour retirer l'affichage."
+]
+quest.0BD070E54EF86FDA.title: "Étiquettes"
+quest.0C28D365031DFBB9.quest_desc: [
+  "Le &6sac à dos en diamant&r est l'amélioration du &esac à dos en or&r. Il a 108 emplacements et accepte 5 améliorations."
+]
+quest.0C28D365031DFBB9.quest_subtitle: "Un énorme rangement toujours sur toi"
+quest.0E10A137480D309E.quest_desc: [
+  "Le &6sac à dos en Netherite&r est l'amélioration du &esac à dos en diamant&r. Il a 120 emplacements et accepte 7 améliorations."
+]
+quest.0E10A137480D309E.quest_subtitle: "Un rangement démesuré toujours sur toi"
+quest.1DDD74A012CDE699.quest_desc: [
+  "Le &6sac à dos en fer&r est l'amélioration du &esac à dos&r de base. Il a 54 emplacements et accepte 2 améliorations."
+]
+quest.1DDD74A012CDE699.quest_subtitle: "Un rangement plus grand toujours sur toi"
+quest.2C9E13E2196DC6D7.quest_subtitle: "x2"
+quest.33628061006314AB.quest_desc: [
+  "La &6base d'amélioration&r est l'ingrédient principal de toutes les améliorations du mod."
+]
+quest.33628061006314AB.quest_subtitle: "Tirer le meilleur de ton sac"
+quest.3CE1281049B4B14B.quest_subtitle: "x16"
+quest.4CED308848726E28.quest_desc: [
+  "Avec l'&6amélioration Aimant&r ou l'&6amélioration Ramassage&r, tout ce que tu ramasses va directement dans ton sac !"
+  ""
+  "Idéal avec les &6améliorations de Pile&r et d'&6Annihilation&r pour miner en tunnel !"
+]
+quest.4CED308848726E28.quest_subtitle: "Laisse ton sac faire le travail"
+quest.5261190FDCE5314D.quest_subtitle: "x++"
+quest.5A52E77204B42646.quest_desc: [
+  "Le &6sac à dos en or&r est l'amélioration du &esac à dos en fer&r. Il a 81 emplacements et accepte 3 améliorations."
+]
+quest.5A52E77204B42646.quest_subtitle: "Un rangement encore plus grand toujours sur toi"
+quest.5BC526ACC0046B20.quest_desc: [
+  "Avec l'&6amélioration Inception&r, tu peux mettre des sacs dans ton sac !"
+]
+quest.5BC526ACC0046B20.quest_subtitle: "Des sacs dans des sacs dans des sacs"
+quest.6659EBA759E55BD5.quest_desc: [
+  "Avec l'&6amélioration Repas&r dans ton sac, il te nourrit automatiquement quand tu commences à avoir faim !"
+  ""
+  "La version &bavancée&r peut être réglée pour ne gaspiller AUCUNE nourriture."
+]
+quest.6659EBA759E55BD5.quest_subtitle: "Un serveur à ton service !"
+quest.6659EBA759E55BD5.title: "Repas automatique"
+quest.723F98AC017A4F8C.quest_desc: [
+  "Avec l'&6amélioration Dépôt&r, un clic droit accroupi sur n'importe quel rangement y vide instantanément ton sac !"
+  ""
+  "La version &bavancée&r permet de ne déposer que ce qui correspond déjà au contenu du rangement."
+]
+quest.723F98AC017A4F8C.quest_subtitle: "Je dépose et je repars !"
+quest.7261FED43BDDEFA8.quest_desc: [
+  "&6Sophisticated Backpacks&r ajoute des sacs à dos parmi les plus pratiques de Minecraft !"
+  ""
+  "Pour porter un &9sac&r, clique sur l'icône Équiper dans son menu."
+  ""
+  "Une fois le &9sac&r équipé, ouvre-le avec la touche &bB&r."
+  ""
+  "Les &9sacs&r s'améliorent en plusieurs niveaux."
+  ""
+  "Pour voir toutes les variantes, tape &d@sophisticated&r dans la barre de recherche de &eJEI&r, en bas à droite de l'écran."
+  ""
+  "Clique sur un objet de la liste à droite de ton inventaire pour voir ses recettes et ses utilisations."
+  ""
+  "Tu peux aussi appuyer sur &bR&r ou &bU&r en survolant n'importe quel objet pour voir sa recette ou ses utilisations."
+  ""
+  "&cSur ce serveur, personne ne peut ouvrir le sac d'un autre joueur.&r"
+]
+quest.7261FED43BDDEFA8.title: "Un inventaire portable"
+quest.746AE4CA7CE83847.quest_subtitle: "x8"
+quest.7A516A80B0491E03.quest_subtitle: "x4"
+quest.7B2E2427787A55A7.quest_desc: [
+  "Avec l'&6amélioration Éternelle&r, ton sac ne peut plus être détruit !"
+  ""
+  "Ça le protège entre autres de :"
+  "> &4la lave"
+  "> &8le vide"
+  "> &2les creepers"
+  "> &bla disparition au sol"
+  "> &6et plus encore !"
+]
+quest.7DE83E440B507868.quest_subtitle: "x1.5"
