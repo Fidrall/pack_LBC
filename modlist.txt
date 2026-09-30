@@ -190,6 +190,5 @@ mr | entityculling | client |
 mr | badoptimizations | client |
 mr | 3dskinlayers | client |
 mr | not-enough-animations | client |
-mr | subtle-effects | client |
 cf | 882495 | client | fix GPU memory leak
 mr | complementary-reimagined | client | shader (optionnel)

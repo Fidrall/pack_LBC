@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/endrem.pw.toml"
-hash = "c039bf70a773a70916fa1c41c022376d0476a60e05c4afa4fa41bb6554c4a9ca"
+hash = "6dd4279732a12967444e2e45842cdd99f4964cd1c43a7d24311862540c9c6476"
 metafile = true
 
 [[files]]
@@ -903,11 +903,6 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "7e3d09e6555e9240c7b02e0d9ae1e024d92b03948611aa67c2f146a8dfcf4152"
-metafile = true
-
-[[files]]
-file = "mods/subtle-effects.pw.toml"
-hash = "934a295ab2d16e5bd86a61e14c2cd88f57fc107501ff0079beac341eda2d9e59"
 metafile = true
 
 [[files]]
