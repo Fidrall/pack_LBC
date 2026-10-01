@@ -68,7 +68,15 @@ Copy-Item (Join-Path $srv "user_jvm_args.txt") $out -Force
 
 $zip = Join-Path $root "build\pack_LBC-server.zip"
 if (Test-Path $zip) { Remove-Item $zip }
-Compress-Archive -Path (Join-Path $out "*") -DestinationPath $zip
+# Zip avec des chemins en "/" (Compress-Archive de PS 5.1 met des "\" que Linux ne comprend pas)
+Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+$za = [IO.Compression.ZipFile]::Open($zip, 'Create')
+$outFull = (Resolve-Path $out).Path.TrimEnd('\')
+foreach ($file in Get-ChildItem $out -Recurse -File) {
+    $entry = $file.FullName.Substring($outFull.Length + 1).Replace('\', '/')
+    [void][IO.Compression.ZipFileExtensions]::CreateEntryFromFile($za, $file.FullName, $entry, 'Optimal')
+}
+$za.Dispose()
 
 $neo = [regex]::Match((Get-Content (Join-Path $root "pack.toml") -Raw), 'neoforge = "([^"]+)"').Groups[1].Value
 Write-Host ""
