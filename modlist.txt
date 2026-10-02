@@ -206,3 +206,5 @@ cf | 1244863 | jetable | Iron's Apothic (Apotheosis x Iron's Spells)
 cf | ftb-xmod-compat | qol | FTB Quests x JEI
 mr | paxi | qol | charge les packs de ressources/donnees du pack (images quetes, recettes)
 mr | aeronautics-hot-air-fix | qol | client : retire l'effet d'air chaud Aeronautics (ballons blancs avec shaders) - Iris Fix exclu de l'API CF
+mr | sophisticated-storage | conserver | coffres/tonneaux ameliorables (Core mis a jour 1.5.5, requis >=1.5.4)
+mr | sophisticated-storage-create-integration | conserver | coffres Sophisticated sur les contraptions Create
