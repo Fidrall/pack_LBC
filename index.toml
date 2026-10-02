@@ -21,6 +21,10 @@ file = "config/apotheosis/apotheosis.cfg"
 hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
 [[files]]
+file = "config/betterstrongholds-neoforge-1_21.toml"
+hash = "8cc48d638b8402ec17684d034eadd991cbf5d5b31d14ba651b9692bc44f6534b"
+
+[[files]]
 file = "config/bosses_of_mass_destruction.json5"
 hash = "0ec13d48df1b13a595202f54f01cd29b79c81060c0f9fae2c81fe187451c3879"
 
@@ -183,10 +187,6 @@ hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/betterstrongholds/structure/portal_rooms/portal_room.nbt"
-hash = "4c74c6354fb437a4f5479ffcd7bbd7c36889d633f8e1dceb218eebe5162d1aa2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"

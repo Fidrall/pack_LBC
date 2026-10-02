@@ -1,4 +1,4 @@
-﻿# Genere le datapack serveur "pack_lbc" (recettes croisees entre mods, sans KubeJS)
+# Genere le datapack serveur "pack_lbc" (recettes croisees entre mods, sans KubeJS)
 #   config/paxi/datapacks/pack_lbc -> charge automatiquement par Paxi (serveur et solo)
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
@@ -12,10 +12,6 @@ function W($rel, $obj) {
 }
 W 'pack.mcmeta' @{ pack = @{ pack_format = 48; description = 'pack_LBC : recettes croisees (recyclage Create, magie, butin)' } }
 
-# ---------- 0. Fichiers fixes (scripts/datapack-static) ----------
-# portal_room.nbt de YUNG's Better Strongholds : cadres vanilla -> endrem:ancient_portal_frame
-# (sinon les yeux d'End Remastered ne se posent pas). A regenerer si YUNG's Better Strongholds change ce fichier.
-Copy-Item (Join-Path $PSScriptRoot 'datapack-static\*') $dp -Recurse -Force
 
 # ---------- 1. Recyclage d'equipement aux Roues de Broyage ----------
 function Crush($name, $item, $results) {
