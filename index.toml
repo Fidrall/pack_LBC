@@ -154,7 +154,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "296e4e8f7e5b19417dcc3ac84674f5f4011d327db668dd8d8e364c91a830e331"
+hash = "059171af0dd3f936ce7778db6e50797f23db31d30093007473b667eebc237f5e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -179,6 +179,106 @@ hash = "9db94f62e96f2a6f9d3c60ffa28f6811931a697b32c6e7eee3a09996895e0cd9"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chunks.png"
+hash = "22a695fb7989aaced5ccf83c1688bfb2e6cae7c2689e27bfdaf8fd73b015add0"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_coghweel_speed.png"
+hash = "ddc4d8a57161dd43a83e622f9ede81f823c7602f8138e8387f90a1e6658daffc"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_golem1.png"
+hash = "671ed66fd8fd39d001cd120745881e3915978272fd7ed9858cf6b4e088647f0a"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_golem2.png"
+hash = "4ccfa50ef8384d9f7eb81e14a389477d917942678ddf75ac0b45ae452265de64"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_golem3.png"
+hash = "a6d9a272ad8631675115114ce0cd95cabaaf9d675fcc069b60afebb4d38a9a11"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_golem4.png"
+hash = "3fa6440314fb3225fbf34bff3b2d675e296644724c8f7a9fc0728069baf48a35"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_golem5.png"
+hash = "ec5ef337fd5f6ef30e5fd775d91089d100bc9af93490c26860a394fd7f62d42b"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_lava.png"
+hash = "a8847beda2a4114a1a681961d5d1eb76e8e73485b4164cdbb2c49de0cfcec2bf"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_001.png"
+hash = "973cdead6b436dddd7296187b66ceac4162536c16f5cb81e7e2899e21c2b455f"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_002.png"
+hash = "8daf733435e50d7bf97d50e40d6eac6fe6a95b396ef44842ca6ce6f0975804b4"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_003.png"
+hash = "2947feea2b03301bdb9938e3856868d321e18f97a648c502a4c6c7e6224afa81"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_004.png"
+hash = "79aed0e8a38ed97db2b95f9d4c0c35a231206ff2913d35ad9bc16c634ac0b943"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_005.png"
+hash = "0237a1b87b5a06039977f44624d32ce7f2f4b74f8bedc160de9d1b4c51101709"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_006.png"
+hash = "339188109e68a48f765b4508ece248f10a34eb85460f87ff04dda204b9c47b32"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_007.png"
+hash = "6ee630bf2264efbf0f40b125584c38021fa8cc8e92f20e746229b6ec002d75f0"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_008.png"
+hash = "2ae7e60c7ea2552bf66f28dc588ac9d3b779eac41fb6fe2d780fb3ebe3bbabb7"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/new_age_01.png"
+hash = "d7a16378ae675339651d081bd0909b9399502a0278ca0381d6fdaf7736344d07"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/new_age_02.png"
+hash = "afbfc4789e52a06dba0ba38c26f422f3a3970649c3647206ead02b90a9f56164"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/new_age_03.png"
+hash = "6682ff5607c86c6c5138e1a48f33141c71ac4e2e00aae13f2995e1b0a9de5f1e"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/new_age_04.png"
+hash = "62fd84a176719da7460380bd37551945aceceea58bc035e25997893a1ed83ef2"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/new_age_05.png"
+hash = "224f8d6eb6d6260fb66c07d5a312f9b39b0c1cb7b4b15f7e1a8eaaee272332af"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/teleport_01.png"
+hash = "f5d614261b2b6b78cc6d55bed368a1247d00f5687bbff6c84533cbe1bd0f4783"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/teleport_02.png"
+hash = "a0cf6df0773adc7a609f0f62c7f03fe8dc6e4e64dba6f32f72858396c74b8e3e"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/vents.png"
+hash = "8d6edbced68423d032a6880a5e2f11ba62f4894e0f9b681cbe0f51125395d547"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/pack.mcmeta"
+hash = "04b4c8c899bb07579f46dbe862815f694a23f9f6a9bc58263a02c818442ad37b"
 
 [[files]]
 file = "config/phantasm.json"
@@ -1027,6 +1127,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]

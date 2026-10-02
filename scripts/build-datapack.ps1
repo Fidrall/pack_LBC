@@ -1,8 +1,8 @@
-# Genere le datapack serveur "pack_lbc" (recettes croisees entre mods, sans KubeJS)
-#   datapacks/pack_lbc  -> copie par build-server.ps1 dans world/datapacks/
+﻿# Genere le datapack serveur "pack_lbc" (recettes croisees entre mods, sans KubeJS)
+#   config/paxi/datapacks/pack_lbc -> charge automatiquement par Paxi (serveur et solo)
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
-$dp = Join-Path $root 'datapacks\pack_lbc'
+$dp = Join-Path $root 'config\paxi\datapacks\pack_lbc'
 if (Test-Path $dp) { Remove-Item $dp -Recurse -Force }
 $enc = New-Object Text.UTF8Encoding($false)
 function W($rel, $obj) {

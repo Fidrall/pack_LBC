@@ -4,6 +4,8 @@ quest.28101F299D039864.quest_desc: [
 ]
 quest.28101F299D039864.title: "Golem de slime"
 quest.362C70E45443B57C.quest_desc: [
+  "{image:pack_lbc:textures/quests/item_golem3.png width:150 height:60 align:center}"
+  ""
   "Fais un &dclic droit&r pour monter sur le &egolem de Netherite&r. Utilise la touche de saut pour attaquer."
   ""
   "Fais un &dclic droit&r avec un lingot d'or pour lui ajouter une garniture en or : les piglins deviennent alors neutres envers lui."
@@ -14,12 +16,16 @@ quest.362C70E45443B57C.quest_desc: [
 ]
 quest.362C70E45443B57C.title: "Golem de Netherite"
 quest.372B31F3D301684A.quest_desc: [
+  "{image:pack_lbc:textures/quests/item_golem1.png width:150 height:60 align:center}"
+  ""
   "Les &egolems de paille&r peuvent être construits par le joueur ou trouvés dans les villages."
   ""
   "Ils sont pacifiques, mais empêchent que les cultures soient piétinées dans un rayon de 10×10."
 ]
 quest.372B31F3D301684A.title: "Golem de paille"
 quest.3DEAE2A5E71AEF5A.quest_desc: [
+  "{image:pack_lbc:textures/quests/item_golem5.png width:150 height:60 align:center}"
+  ""
   "Les &egolems de terre cuite&r apparaissent dans les badlands, ou s'invoquent en plaçant une statue de golem de terre cuite près d'une source de chaleur."
   ""
   "Ils attaquent naturellement les monstres. Un clic droit avec un cactus ou un buisson mort améliore leurs attaques."
@@ -35,6 +41,8 @@ quest.4CC9D588886E2778.quest_desc: [
 ]
 quest.4CC9D588886E2778.title: "Golem de charbon"
 quest.52C5644D8C7CB5CC.quest_desc: [
+  "{image:pack_lbc:textures/quests/item_golem2.png width:150 height:60 align:center}"
+  ""
   "Le &egolem d'algues&r est plus rapide dans l'eau."
   ""
   "À portée d'un conduit, il passe en mode chargé : +100 % de force, régénération progressive et +100 % de résistance, tant qu'il reste à portée."
@@ -58,6 +66,8 @@ quest.6C1085B9052E3A52.quest_desc: [
 ]
 quest.6C1085B9052E3A52.title: "Golem de miel"
 quest.70FA406AD3A8A7A9.quest_desc: [
+  "{image:pack_lbc:textures/quests/item_golem4.png width:150 height:60 align:center}"
+  ""
   "Les &egolems bougies&r apparaissent avec un clic droit sur un &cbloc de golem bougie&r."
   ""
   "Un clic droit leur dit de s'asseoir ou de se lever. Assis, ils reçoivent 90 % de dégâts en moins des projectiles."

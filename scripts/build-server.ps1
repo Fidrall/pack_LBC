@@ -57,6 +57,10 @@ Get-ChildItem $mods -Filter *.jar | Where-Object { $wanted -notcontains $_.Name 
     Write-Host "  - $($_.Name)"; Remove-Item -LiteralPath $_.FullName
 }
 
+# Datapack de recettes croisees (config/paxi/datapacks, charge par Paxi) : regenere avant la copie de config
+& (Join-Path $PSScriptRoot "build-datapack.ps1") | Out-Null
+$oldDp = Join-Path $out "world"
+if (Test-Path $oldDp) { Remove-Item -LiteralPath $oldDp -Recurse -Force }
 # Configs du pack (si presentes) + reglages serveur
 foreach ($d in "config", "defaultconfigs") {
     $src = Join-Path $root $d
@@ -65,12 +69,6 @@ foreach ($d in "config", "defaultconfigs") {
 $srv = Join-Path $PSScriptRoot "server"
 Copy-Item (Join-Path $srv "server.properties") $out -Force
 Copy-Item (Join-Path $srv "user_jvm_args.txt") $out -Force
-# Datapack de recettes croisees -> world/datapacks (charge automatiquement par le serveur)
-& (Join-Path $PSScriptRoot "build-datapack.ps1") | Out-Null
-$dpOut = Join-Path $out "world\datapacks"
-if (Test-Path $dpOut) { Remove-Item $dpOut -Recurse -Force }
-New-Item -ItemType Directory -Force $dpOut | Out-Null
-Copy-Item (Join-Path $root "datapacks\pack_lbc") $dpOut -Recurse -Force
 
 $zip = Join-Path $root "build\pack_LBC-server.zip"
 if (Test-Path $zip) { Remove-Item $zip }

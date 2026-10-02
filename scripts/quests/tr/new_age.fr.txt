@@ -71,6 +71,16 @@ quest.6AD020DBDE0A43F2.quest_desc: [
   "&eSurchauffe :&r si le réacteur surchauffe, il fond et les barres deviennent du Corium. Le Corium est très radioactif et fait fondre le sol jusqu'à la bedrock en répandant des radiations."
   ""
   "&cNe casse pas les barres&r : détruire des Barres de Réacteur peut les faire exploser et les transformer en Corium."
+  ""
+  "{image:pack_lbc:textures/quests/new_age_01.png width:100 height:74 align:center}"
+  ""
+  "{image:pack_lbc:textures/quests/new_age_02.png width:100 height:82 align:center}"
+  ""
+  "{image:pack_lbc:textures/quests/new_age_03.png width:100 height:78 align:center}"
+  ""
+  "{image:pack_lbc:textures/quests/new_age_04.png width:100 height:81 align:center}"
+  ""
+  "{image:pack_lbc:textures/quests/new_age_05.png width:100 height:86 align:center}"
 ]
 quest.6AD020DBDE0A43F2.title: "Réacteur Nucléaire"
 quest.71C1DFB2CA66E736.quest_desc: [

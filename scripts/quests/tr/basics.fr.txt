@@ -172,6 +172,8 @@ quest.2E3B821A8A402B3E.quest_desc: [
   "&cSur ce serveur, chaque équipe peut forcer le chargement de 5 chunks au maximum.&r Choisis-les bien : c'est là que doivent se trouver tes usines les plus importantes !"
   ""
   "Les changements peuvent prendre une seconde à s'afficher, pas d'inquiétude."
+  ""
+  "{image:pack_lbc:textures/quests/chunks.png width:100 height:83 align:center}"
 ]
 quest.2E3B821A8A402B3E.title: "&6Multijoueur :&r revendiquer des chunks"
 quest.2F1F1047E8A734EC.quest_desc: [

@@ -80,6 +80,8 @@ quest.736512E2075451A1.quest_desc: [
   ""
   "&n&lRécolter les ressources infinies :&r&r"
   "Casse les blocs ainsi créés, puis broie-les pour obtenir en continu les ressources de ta Source Volcanique."
+  ""
+  "{image:pack_lbc:textures/quests/vents.png width:200 height:105 align:center fit:true}"
 ]
 quest.736512E2075451A1.quest_subtitle: "&4!!! À lire attentivement !!!"
 quest.736512E2075451A1.title: "&a&lSources Volcaniques et ressources infinies&r&r"

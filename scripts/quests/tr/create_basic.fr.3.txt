@@ -253,6 +253,8 @@ quest.63BA37F707747719.quest_desc: [
   "&aNote :&r &eTu peux répéter ce montage (grand → petit → grand → petit) pour doubler la vitesse jusqu'à 256 tr/min. Mais attention : chaque étape augmente la contrainte sur le réseau.&r"
   ""
   "&6À l'inverse, relier un petit engrenage à un grand (en diagonale) fait tourner le grand deux fois moins vite : c'est comme ça qu'on ralentit.&r"
+  ""
+  "{image:pack_lbc:textures/quests/item_coghweel_speed.png width:250 height:90 align:center}"
 ]
 quest.63BA37F707747719.quest_subtitle: "Avec des engrenages"
 quest.63BA37F707747719.title: "&l&aAccélérer ou ralentir avec des engrenages&r&r"

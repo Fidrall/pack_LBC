@@ -10,6 +10,10 @@ quest.33E9A4967BA70F29.quest_desc: [
   "Il fonctionne au &dTélé-jus&r."
   ""
   "Relie-le à des coordonnées avec un &cTP Link Avancé&r."
+  ""
+  "{image:pack_lbc:textures/quests/teleport_01.png width:120 height:114 align:center}"
+  ""
+  "{image:pack_lbc:textures/quests/teleport_02.png width:120 height:100 align:center}"
 ]
 quest.6B9E13665837ECA1.quest_desc: [
   "Le &6téléporteur d'objets&r envoie une pile d'objets vers un autre téléporteur d'objets. Il fonctionne au &dTélé-jus&r."
