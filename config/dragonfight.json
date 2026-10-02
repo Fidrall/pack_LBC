@@ -5,7 +5,7 @@
     // Note that the difficulty already scales on the playercount involved in the fight,
     // this is a static bonus ontop.
     // Default:2, vanilla:0
-    "dragonDifficulty": 3
+    "dragonDifficulty": 2
   },
 
   "crystalRespawnTimeModifier": {
@@ -60,7 +60,7 @@
   "dragonHealthModifier": {
     // Sets the dragon health modifier: 
     // Default:1.0
-    "dragonHealthModifier": 1.25
+    "dragonHealthModifier": 0.2
   },
 
   "dragonDamageModifier": {
