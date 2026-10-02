@@ -185,6 +185,10 @@ file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/betterstrongholds/structure/portal_rooms/portal_room.nbt"
+hash = "4c74c6354fb437a4f5479ffcd7bbd7c36889d633f8e1dceb218eebe5162d1aa2"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 
