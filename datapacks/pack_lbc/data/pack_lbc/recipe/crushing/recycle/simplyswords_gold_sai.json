@@ -1,0 +1,19 @@
+{
+    "type":  "create:crushing",
+    "ingredients":  [
+                        {
+                            "item":  "simplyswords:gold_sai"
+                        }
+                    ],
+    "processing_time":  200,
+    "results":  [
+                    {
+                        "id":  "minecraft:gold_nugget",
+                        "count":  10
+                    },
+                    {
+                        "id":  "create:experience_nugget",
+                        "chance":  0.5
+                    }
+                ]
+}

@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "neoforge:loot_table_id",
+                           "loot_table_id":  "ctov:chests/village/village_smith"
+                       }
+                   ],
+    "table":  "pack_lbc:chests/create_village_bonus"
+}

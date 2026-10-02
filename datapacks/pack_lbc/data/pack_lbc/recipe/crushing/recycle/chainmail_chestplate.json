@@ -1,0 +1,19 @@
+{
+    "type":  "create:crushing",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:chainmail_chestplate"
+                        }
+                    ],
+    "processing_time":  200,
+    "results":  [
+                    {
+                        "id":  "minecraft:iron_nugget",
+                        "count":  9
+                    },
+                    {
+                        "id":  "create:experience_nugget",
+                        "chance":  0.5
+                    }
+                ]
+}

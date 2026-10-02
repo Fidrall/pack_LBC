@@ -1,0 +1,19 @@
+{
+    "type":  "create:crushing",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:golden_chestplate"
+                        }
+                    ],
+    "processing_time":  200,
+    "results":  [
+                    {
+                        "id":  "minecraft:gold_nugget",
+                        "count":  43
+                    },
+                    {
+                        "id":  "create:experience_nugget",
+                        "chance":  0.5
+                    }
+                ]
+}

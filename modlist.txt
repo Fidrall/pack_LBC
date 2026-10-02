@@ -202,3 +202,5 @@ mr | guard-villagers | jetable | gardes de village
 mr | create-structures-arise | jetable | 28 structures Create
 mr | critters-and-companions | jetable | petites creatures dressables
 cf | ftb-quests-forge | qol | livre de quetes
+cf | 1244863 | jetable | Iron's Apothic (Apotheosis x Iron's Spells)
+cf | ftb-xmod-compat | qol | FTB Quests x JEI
