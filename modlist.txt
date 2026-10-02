@@ -205,3 +205,4 @@ cf | ftb-quests-forge | qol | livre de quetes
 cf | 1244863 | jetable | Iron's Apothic (Apotheosis x Iron's Spells)
 cf | ftb-xmod-compat | qol | FTB Quests x JEI
 mr | paxi | qol | charge les packs de ressources/donnees du pack (images quetes, recettes)
+cf | aeronautics-iris-fix | qol | client : corrige ballons blancs/fantomes Aeronautics avec shaders Iris

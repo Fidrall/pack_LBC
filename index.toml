@@ -776,6 +776,11 @@ hash = "379b556ce9f6aa52c37e23cfe9577dc315c218d96768c2efcb9c95d3fce94c7d"
 metafile = true
 
 [[files]]
+file = "mods/aeronautics-iris-fix.pw.toml"
+hash = "de4c3b7f4b07956213513de4b7723191bac8b397a9bb8e8a93dee39ce7ce0f28"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
