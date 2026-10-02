@@ -181,6 +181,462 @@ file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
+hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_armorer.json"
+hash = "db103a5563d670988367925c76626c405c2a285ed74a30239ca271a0f5cc5ba1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_desert_house.json"
+hash = "e723d3ea703df943fccfc08251cbe1eb8dce1657ef8cce1a709a0fdc15f0d4b5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_mason.json"
+hash = "a0277cde2a343620ad788fb53d22161ee41051e8183b4a6123b1863ce05724d4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_plains_house.json"
+hash = "6f7d5b4083a98669d8cdf2b5c0947161bca633500c5e114d45dfa2ea452f28ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_savanna_house.json"
+hash = "d1d7b172a262b4bda44f02ae735b3c802ca5b036aedd9560e519d40fd07c88cc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_smith.json"
+hash = "8244d0b2bd58680cc09eefc8eae755edc5b4e416be8ccd6d5a834c1e03635baa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_snowy_house.json"
+hash = "0d9af98d2b86458e5df2a43dc845ffce2e982f42d1c95f10a5dd8e37de9a85d8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_taiga_house.json"
+hash = "ab9cce781c0785a4a4ae56bd456e5cd3cedea7a4e590fe309e50a33458ccb34f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_toolsmith.json"
+hash = "026dd8ce41137d2f576d740720b297f37394532edfe10256ae3df5c56671328b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_weaponsmith.json"
+hash = "e4aca7981f5774751833f4da34316dd2d03bb7c17c270a38fa0aab8747c01b74"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
+hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_boots.json"
+hash = "23d6041e59d7e3a563c98696b56b6a88ee43d100b9b0d17e7355c6d171bd4822"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_chestplate.json"
+hash = "273c81b40ef750b162b40e5c91d59bbabedcfeaa9e76554094ebf1718cb5c2f4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_helmet.json"
+hash = "8e1a3db4ee4c57bbd2e4021e3aee489f0d711f1f9ca17a5789756dea27c5e115"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_leggings.json"
+hash = "f384e30ba06f1b64bf35df41410354881444cb3bf9c82962a66c678216d2a88d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_axe.json"
+hash = "5fea0135e08dd0da9715a3e2f19064e0cbb30b9c067e7f5abfa9ed985cea96a8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_boots.json"
+hash = "99b7d4483cc7dcf3186eb2733ce484d37b4af7c33239f3bde558ed19be1a7c00"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_chestplate.json"
+hash = "4bb98405e9b4187edd5bd5216c2b55ce99f05fcac5abb91318808117980db550"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_helmet.json"
+hash = "dbb88fbdb1478efaa886a0b29a75bf83d20477fe08df1c345a78ab50cb9feda6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_hoe.json"
+hash = "8caf76328b69f90e10152434063f41bd7021fdfce85d565bcdb2da86ae5f0207"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_leggings.json"
+hash = "756955d7b76a1a3061abead3b9c1b4490d5668cee543ddb7f74915123b5f1778"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_pickaxe.json"
+hash = "8ee32c022e7fafdfa8b74dabf2111a030c2720e6caab30ade12fc82c0adaf6a6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_shovel.json"
+hash = "5e3558fdce98425ffc0645a25e46ca88debd6b0e02ace0332a6dfe57f36e807e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_diamond_sword.json"
+hash = "dd7ae686bbcf03cc9bca12c321c6140318309dbcc12b4dbdd19c4858aece337d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_axe.json"
+hash = "c99c1293d9455fa8d0545a6bf25abd6daa3749c3185df9ccb4a31144d3ec028a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_boots.json"
+hash = "3b6be5af3a9310e1011858d375da105125bf9d42f1666607e2034445c8588c8d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_chestplate.json"
+hash = "918493b45648b9865ff4d5f5b69ac60cf47aa5c67d1b70299e0863e4074af8e9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_helmet.json"
+hash = "cc37458be2922d1ac7a7aa4853de003c72226af82be27a354ff7a0fc38b20eb9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_hoe.json"
+hash = "4635de12a08276108849c900e7e0f3c404e6f835833fd3e1ac78c5d63c4fedf5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_leggings.json"
+hash = "b38b68a1289405d44fd5f4830ddbca05414601534dd91e8fd22bd88209bb4726"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_pickaxe.json"
+hash = "adab9391d07725a28abc1493075dbd695f1908b565ef31fe195fae680ce6146b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_shovel.json"
+hash = "60d3275e04063107f3e50c83b73f0e94d692b113585fbc3c8b20160122480d2e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_golden_sword.json"
+hash = "6b12d03ea7c92052fbaa9716d0aed138502116c62ac4822c4cdf21c168a586b8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_axe.json"
+hash = "9e48c6eeb1f242771aa1a4c3e23ac2fcf772e9aca9f4067e1743240beed862bc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_boots.json"
+hash = "9617250f5e899061461d69c48cf4072a9fb3d1487d14df27eaf6833a5393d816"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_chestplate.json"
+hash = "0e0043139b14db92ff0d57ae234b143f990e7b174b0bb6b0f16c4c53936f424b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_helmet.json"
+hash = "3e7bf012c0edee1f275c55b3441bba168861020745ad2d306b9da3bd2fbaa968"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_hoe.json"
+hash = "e8ea9b9847a550eb80c9461a2a74e864ea07c59515d8a3efd55a977e978ce909"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_leggings.json"
+hash = "5e2fab6e50db5e0c896b4277d860571db21f9f110094132c283d6bb0a293a1c1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_pickaxe.json"
+hash = "1cc144f931ff213aeb1827cfe81c37dd85f982639deb4f7bb89e5777392f5272"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_shovel.json"
+hash = "12549e44fddfa8395b0f8b84a2955c84966b2af10fcfc30b1f905562db6a75b8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_iron_sword.json"
+hash = "9248dcd680b67f07cc4509d15099852f1041704f6cfe2d78a08952df41725056"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_axe.json"
+hash = "5101bc2e67c5279f2f9bff3a2cacf53e4c5c83f56b3998223ddad6e9f71b5f33"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_boots.json"
+hash = "24b6d68b4cc51ee162c7973eecd8ba815853fa25fb139ff2ecc19ebdb9cc228b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_chestplate.json"
+hash = "771a26067647117b3461e6c068c2ea190bb510d834dcb6fc3d55faa3fd15fb37"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_helmet.json"
+hash = "02b8ba9da32c6392d5454f431ad8b24f9684a1f38380a24c45a96f4e1e0261aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_hoe.json"
+hash = "85fcd423b8cf30f23e6180f81c240b25e157c7ed3c643edfb03370545dad9f7d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_leggings.json"
+hash = "cc8e5b00d5df3182d8ad73c482918b3b4a7b0eda05adffb60b0365481542d2cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_pickaxe.json"
+hash = "d388d2269a760210bd30786235d4ec02585db7b5d8138b2d80716c158bfc23fb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_shovel.json"
+hash = "d266b366cb15ea458a9a8378b3f3e6b020683e84945dcb8c4d8e3832140af9bb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/minecraft_netherite_sword.json"
+hash = "f2a703ae26bd4055c7b6c3181f4207585e853cdbb3280ea31c81213daafdbd73"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_chakram.json"
+hash = "a3b8d6cfcafccf56e51a3f635d4fbc2a8b9d807c83c9ecf2e86338768f5cfa0b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_claymore.json"
+hash = "79e3f97435a784d6ee08a55fbf54a007920d0d97f1746be2bce475a41bf206df"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_cutlass.json"
+hash = "4c05bf047f48dff9bb8654c970ecd0bcd71059837fae71da8b552921a8a96b11"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_glaive.json"
+hash = "2b20252048ea6be9642d1edb7e4ad7727b3093e5f0237d4e5bf33ad47469176c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_greataxe.json"
+hash = "8afed07e7634c8920fe9586f1493c03fe9b58a3e41ba4efe197d1ede6134a0df"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_greathammer.json"
+hash = "112db9b579382aec361cda94d6ba4bd4795567ed339dab7d3d5aa0d4ef98549f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_halberd.json"
+hash = "05a749dc962fa385c51fb3661e5e5410e52c3f267c4cae111754dcf62efd2a5a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_katana.json"
+hash = "26391bc4f9c0ef8cefdd4b32f3ae133768a2cb39bff43a0569d1ba2c14acef4b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_longsword.json"
+hash = "48a52e924873c289c07d2cc934ccf275e5df8041536481be1a293ef1f577ec21"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_rapier.json"
+hash = "e1991b48955db97b2f529c7e551f91831fada47124f345fbf30195fee3eabee0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_sai.json"
+hash = "cd2dd4f9c52a3c8e65570826397c93abc4bdc6ba43b33f93fda213706e439c6e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_scythe.json"
+hash = "e42513c42aa2933fc60526d4bb77e6119e4647df7564254a71a47cd03c3a90f3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_spear.json"
+hash = "11aa416bab26f8768e2f18bc4e6cdf49e50d588e213de35994507e1df91e8a90"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_twinblade.json"
+hash = "2635fc7e9b53dbcb6aa944d46562c1444db9fe9637662e5055d96d97bbec503b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_diamond_warglaive.json"
+hash = "d473515c6c0b6e813a33fa500a982ec71da931ac73d971639faf582536b01e0b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_chakram.json"
+hash = "c700066e2c0b0ff89992c157377c581704367b939f31e03d3f8adfc6216874f7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_claymore.json"
+hash = "a1a780d8c434d384eb6b39d8514b6e390e2c0ac65909af595394a9bb2d74677f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_cutlass.json"
+hash = "db15bc57c8a80e58b7d1547dbec91cb0d7bf6780922c60baf42cc9c65c4d5c56"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_glaive.json"
+hash = "cb4bbd6a20c6b4dc918111736668fec3846db22dc9e5f97bc15076aacfa8688a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_greataxe.json"
+hash = "6f25e3bcad5fa4ea0389c78dfb20ee5d220401f9b4ac94dbfd6481af05aca254"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_greathammer.json"
+hash = "a985f28773902f3ce0ed11f083fbf1ec117d2e2118b3cd3877daa92e84d94c43"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_halberd.json"
+hash = "24b40d531c64631d30ae82d61a314001fdefe68b15107cbac3a446e3e7edc6e1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_katana.json"
+hash = "8c5e5687ef2dfe9697308f379ac360d918d2d4f5407635be068c4337515e77b2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_longsword.json"
+hash = "f838ca3863e96673b466c7492e7852b2690ebf6586c807168eb50e3882598567"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_rapier.json"
+hash = "886cd9a532f36bce0df3d0ac2ec7203b83e5acc8eb0a530c53c051ee0f1def45"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_sai.json"
+hash = "fa60ffe78cca54ad3352719f0219010e982258eed98bdf38b615d09ee7eb900a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_scythe.json"
+hash = "4c783875a120547380e9eeef6338aedc26bef981cd215251ff7cdcc8c9e573dc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_spear.json"
+hash = "89a81a6a964871ba3e4e008589af743fe7af642ecf5913621fcae1d4e2238898"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_twinblade.json"
+hash = "a464b50a74c897b716078636fae6e609c49944d2088597490e16c48dd11a2350"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_gold_warglaive.json"
+hash = "a7925321b7129dba3af2bbd41ff7f86db88cfe4184cb65e06def3a9a68c84682"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_chakram.json"
+hash = "f445838561f6ec49fdbb8fb3fec41f88cf7437ae7cfcc635854db2ef87664680"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_claymore.json"
+hash = "83c6e87a3bf880c508dd40277e2c41c2740a45023e940f129525e146f4cd1507"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_cutlass.json"
+hash = "029308869ebd28cfed43e4f037df2b87ff482027b05694d025ce18c7fdb37013"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_glaive.json"
+hash = "c1f81f792ce1055b3a702f3055cab04a345d2168fb19dae54aa42f8b1b347d3c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_greataxe.json"
+hash = "e8f999d9ec219b500d7ccd3f1630a28f5bc1364ea908208ef41c3a254c7f4d3c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_greathammer.json"
+hash = "489d67a004ef074716e5fc04ddceac3036bda74ae3ed9da7db325e9d3204fec7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_halberd.json"
+hash = "e4c11cc4652446622975516d3ed4e166b4bd9d93686006c6db56884ed68afea6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_katana.json"
+hash = "fcc04da5336d5bdf585342c3e77de1d9cbd3910eba00caa8f24cc0d95ef90f5f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_longsword.json"
+hash = "0e85ef299b7398a1941d7663d390af456183465489a81f497ddf1bab82bd2a08"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_rapier.json"
+hash = "a07c63b1d43379c7999cf750b0aca918a15120c24d8d877dbd155c62e6ac0c09"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_sai.json"
+hash = "39c839abad326995f02ed5d23b31a5cd0d27f169902871a1b51e54494934c34f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_scythe.json"
+hash = "cb16bf281910101809206e6ce8cb36fae20bc0661e1df8b8f15a1b62a6dac7b5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_spear.json"
+hash = "e10b70bf8338e47c6a4f2144a45cabea0d91ff9ae6e021b422bd042788f20f9e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_twinblade.json"
+hash = "2586ae73c79dc7f31d04ea93ba385918b41907eb9e797294ae3e16996b75219b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_iron_warglaive.json"
+hash = "4a85cdc264adb70eecf7ecffe575e54e78f1ef81255f6b4ebbe52b6058aafc12"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_chakram.json"
+hash = "7adbf30d271c6feb58ff2073263d12e78d51ec1a323309ffe52b84dc19e6a51d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_claymore.json"
+hash = "8979fa1e0c06a3ee10a37f5ab66ffb66d7e8eaf5b2627e160de0a497d3927d52"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_cutlass.json"
+hash = "ea8eac1bb19a9220b9797fc141f621c32c5c8345e62d19658ee54c98e81481cf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_glaive.json"
+hash = "5e0ad9ecc969d9f99d55585845705774a5192e135b4d13bc5030450d5a9b8944"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_greataxe.json"
+hash = "dedd9da4ceb4d0deb54f9e582a1da69909f35595ac77fc452278d018f234c4bc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_greathammer.json"
+hash = "3153c2ad16e9e6c8e8403dd6550bbcd4f7062690746b125981fbbbd63c59f476"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_halberd.json"
+hash = "f9ad93ce4f8c48a7e5d9d65052d968d3776dd0bc9783dd09b5e7bbb615568c5f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_katana.json"
+hash = "64dbd7bf2804cc7bd14e32642b90dae4801702716e60e1ba2c3084a8090cf48a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_longsword.json"
+hash = "e1e132751a9a904940765f8089982872febd38defe64ca42077ddb46c7f7e131"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_rapier.json"
+hash = "f4e208123ea3d162818eff4c827166d0cbdfc6f263f38aa4a0944fcb0c25026b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_sai.json"
+hash = "e7784e95a86630f58b047ecd4702617b6eae24e158ad30785117a2ea82cfa757"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_scythe.json"
+hash = "d0e0b2f1a40dbf570cf1a159356712bdee62d8e300de18d6f7bb1baee6a3dd7d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_spear.json"
+hash = "3173ede71a131431d936304e2b762f2b7082840e6fee640c274f538c72b31683"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_twinblade.json"
+hash = "e3d40e7789e90943acc530797000bd8c046acff89ed98d35d6ccd413fb078b5f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/simplyswords_netherite_warglaive.json"
+hash = "d59035a221895662a121894368ce9ce12f2283016f212ce84a9dca96cf3f0dfe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/mixing/arcane_essence.json"
+hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
+hash = "0e6e5acfc8880fb48770420ce00eec8aa05d2f30e9147585db1df5863e04acda"
+
+[[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chunks.png"
 hash = "22a695fb7989aaced5ccf83c1688bfb2e6cae7c2689e27bfdaf8fd73b015add0"
 
