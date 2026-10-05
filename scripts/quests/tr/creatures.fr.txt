@@ -1,13 +1,13 @@
 chapter.5A13526D80BE2D3C.title: "&c&lBoss et créatures"
 chapter.5A13526D80BE2D3C.chapter_subtitle: [
-  "Mowzie's, Aquamirae, Illager Invasion, Friends and Foes, Critters"
+  "Mowzie's, Illager Invasion, Friends and Foes, Critters"
 ]
 quest.6AF530358EE9745A.title: "&c&lUn monde plus vivant… et plus dangereux"
 quest.6AF530358EE9745A.quest_subtitle: "Les créatures du pack"
 quest.6AF530358EE9745A.quest_desc: [
   "Le pack ajoute des dizaines de nouvelles créatures : certaines amicales, d'autres terrifiantes."
   ""
-  "Ce chapitre présente les &cboss&r qui ne sont pas dans l'Échelle des Boss (Mowzie's Mobs, Aquamirae, Illager Invasion…), et les &acréatures à découvrir et à apprivoiser&r."
+  "Ce chapitre présente les &cboss&r qui ne sont pas dans l'Échelle des Boss (Mowzie's Mobs, Illager Invasion…), et les &acréatures à découvrir et à apprivoiser&r."
   ""
   "Toutes ces quêtes sont libres : fais-les dans l'ordre que tu veux !"
 ]
@@ -73,42 +73,6 @@ quest.28E5210FA4512E41.quest_desc: [
   "- les &eLanternes&r des forêts sombres, qui lâchent de la gelée lumineuse."
   ""
   "Rapporte une graine de Foliaath : on peut la planter !"
-]
-quest.6B935D543CA1FA96.title: "&3Aquamirae"
-quest.6B935D543CA1FA96.quest_subtitle: "L'horreur des océans gelés"
-quest.6B935D543CA1FA96.quest_desc: [
-  "&3Aquamirae&r rend les &eocéans gelés&r terrifiants : un &eLabyrinthe de Glace&r s'y cache, rempli de pillards maudits et de créatures des profondeurs."
-  ""
-  "Avec les océans profonds de notre monde, il faudra plonger loin… Prévois de quoi respirer sous l'eau (équipement de plongée de Create, potion ou armure)."
-]
-task.4FE26B9FC5FCA29A.title: "Clique pour valider"
-quest.28E06AE60D76FF71.title: "Les coffres gelés"
-quest.28E06AE60D76FF71.quest_subtitle: "Les trésors du labyrinthe"
-quest.28E06AE60D76FF71.quest_desc: [
-  "Le Labyrinthe de Glace contient des &ecoffres gelés&r qui s'ouvrent avec des &eClés Gelées&r."
-  ""
-  "On y trouve des armes, des matériaux et les pièces de l'équipement d'Aquamirae."
-]
-quest.7D915CDB04620116.title: "La Mère du Labyrinthe"
-quest.7D915CDB04620116.quest_subtitle: "Un mini-boss des profondeurs"
-quest.7D915CDB04620116.quest_desc: [
-  "La &eMère du Labyrinthe&r est une créature marine géante qui rôde dans le Labyrinthe de Glace."
-  ""
-  "Elle frappe fort et est difficile à atteindre sous l'eau : bats-toi depuis la glace si possible."
-]
-quest.22DC9B40D891A64D.title: "&3&lLa Capitaine Cornelia"
-quest.22DC9B40D891A64D.quest_subtitle: "La terreur des mers gelées"
-quest.22DC9B40D891A64D.quest_desc: [
-  "La &3Capitaine Cornelia&r commande les pillards maudits du Labyrinthe de Glace."
-  ""
-  "Elle combat avec ses lames et invoque son équipage. Prépare-toi à un combat long et difficile."
-  ""
-  "Elle donne accès à l'équipement le plus puissant d'Aquamirae, comme les armes et l'armure « Terribles »."
-]
-quest.75AE7C0749254F5D.title: "L'armure abyssale"
-quest.75AE7C0749254F5D.quest_subtitle: "Pour les plongeurs"
-quest.75AE7C0749254F5D.quest_desc: [
-  "L'&earmure abyssale&r d'Aquamirae est faite pour le combat sous l'eau. Cherche ses pièces dans les coffres et sur les créatures des profondeurs."
 ]
 quest.0030852E282BC66A.title: "&4Illager Invasion"
 quest.0030852E282BC66A.quest_subtitle: "Les illagers sont plus nombreux"

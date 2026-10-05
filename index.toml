@@ -138,7 +138,7 @@ hash = "bb846c6608f78ac8b851c3ea603eb0c1307894af3e4049c2e22dc314d86d3a1a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creatures.snbt"
-hash = "492a630c28586f6e54dadea186ebf3f372f6c19cd331044cd41ab7fb0daa6abd"
+hash = "37583b8692693073f2ec615b8efccb6f4c6005105a303a69019a713fcb06e8f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
@@ -206,7 +206,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "059171af0dd3f936ce7778db6e50797f23db31d30093007473b667eebc237f5e"
+hash = "16e9b466469c7ffaaca6b961d7b6a6988e9d748c8a3c943715a08aef3192ae39"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -894,11 +894,6 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
-metafile = true
-
-[[files]]
-file = "mods/aquamirae.pw.toml"
-hash = "e6a467189e205ef2a715773dbafd48a6dadf67fa93d1493c32b694e44108d0a6"
 metafile = true
 
 [[files]]

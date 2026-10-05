@@ -1,10 +1,10 @@
-﻿$Chapter = @{ file = 'creatures'; title = '&c&lBoss et créatures'; subtitle = 'Mowzie''s, Aquamirae, Illager Invasion, Friends and Foes, Critters'; group = '1A00000000000003'; order = 2; icon = 'mowziesmobs:wrought_helmet' }
+﻿$Chapter = @{ file = 'creatures'; title = '&c&lBoss et créatures'; subtitle = 'Mowzie''s, Illager Invasion, Friends and Foes, Critters'; group = '1A00000000000003'; order = 2; icon = 'mowziesmobs:wrought_helmet' }
 $Quests = @(
   @{ k='intro'; x=0; y=0; size=2; shape='gear'; tasks=@('@check'); checkTitle='Clique pour valider'; icon='minecraft:zombie_head'
      t='&c&lUn monde plus vivant… et plus dangereux'; st='Les créatures du pack'
      d=@('Le pack ajoute des dizaines de nouvelles créatures : certaines amicales, d''autres terrifiantes.',
          '',
-         'Ce chapitre présente les &cboss&r qui ne sont pas dans l''Échelle des Boss (Mowzie''s Mobs, Aquamirae, Illager Invasion…), et les &acréatures à découvrir et à apprivoiser&r.',
+         'Ce chapitre présente les &cboss&r qui ne sont pas dans l''Échelle des Boss (Mowzie''s Mobs, Illager Invasion…), et les &acréatures à découvrir et à apprivoiser&r.',
          '',
          'Toutes ces quêtes sont libres : fais-les dans l''ordre que tu veux !') }
 
@@ -56,33 +56,6 @@ $Quests = @(
          '- les &eLanternes&r des forêts sombres, qui lâchent de la gelée lumineuse.',
          '',
          'Rapporte une graine de Foliaath : on peut la planter !') }
-
-  # --- Aquamirae (centre gauche)
-  @{ k='aquamirae'; x=0; y=2.5; size=1.5; deps=@('intro'); tasks=@('@check'); checkTitle='Clique pour valider'; icon='aquamirae:terrible_blade'
-     t='&3Aquamirae'; st='L''horreur des océans gelés'
-     d=@('&3Aquamirae&r rend les &eocéans gelés&r terrifiants : un &eLabyrinthe de Glace&r s''y cache, rempli de pillards maudits et de créatures des profondeurs.',
-         '',
-         'Avec les océans profonds de notre monde, il faudra plonger loin… Prévois de quoi respirer sous l''eau (équipement de plongée de Create, potion ou armure).') }
-  @{ k='frozenchest'; x=1.5; y=2.5; deps=@('aquamirae'); tasks=@('aquamirae:frozen_key'); crate='rare'
-     t='Les coffres gelés'; st='Les trésors du labyrinthe'
-     d=@('Le Labyrinthe de Glace contient des &ecoffres gelés&r qui s''ouvrent avec des &eClés Gelées&r.',
-         '',
-         'On y trouve des armes, des matériaux et les pièces de l''équipement d''Aquamirae.') }
-  @{ k='mazemother'; x=0; y=4; deps=@('aquamirae'); tasks=@('kill:aquamirae:maze_mother'); crate='rare'
-     t='La Mère du Labyrinthe'; st='Un mini-boss des profondeurs'
-     d=@('La &eMère du Labyrinthe&r est une créature marine géante qui rôde dans le Labyrinthe de Glace.',
-         '',
-         'Elle frappe fort et est difficile à atteindre sous l''eau : bats-toi depuis la glace si possible.') }
-  @{ k='cornelia'; x=0; y=5.5; size=1.5; deps=@('mazemother'); tasks=@('kill:aquamirae:captain_cornelia'); icon='aquamirae:terrible_blade'; crate='epique'
-     t='&3&lLa Capitaine Cornelia'; st='La terreur des mers gelées'
-     d=@('La &3Capitaine Cornelia&r commande les pillards maudits du Labyrinthe de Glace.',
-         '',
-         'Elle combat avec ses lames et invoque son équipage. Prépare-toi à un combat long et difficile.',
-         '',
-         'Elle donne accès à l''équipement le plus puissant d''Aquamirae, comme les armes et l''armure « Terribles ».') }
-  @{ k='abyssal'; x=1.5; y=5.5; deps=@('cornelia'); tasks=@('aquamirae:abyssal_heaume'); crate='rare'; optional=$true
-     t='L''armure abyssale'; st='Pour les plongeurs'
-     d=@('L''&earmure abyssale&r d''Aquamirae est faite pour le combat sous l''eau. Cherche ses pièces dans les coffres et sur les créatures des profondeurs.') }
 
   # --- Illager Invasion (centre droite)
   @{ k='illagers'; x=3; y=1.5; size=1.5; deps=@('intro'); tasks=@('@check'); checkTitle='Clique pour valider'; icon='illagerinvasion:hallowed_gem'

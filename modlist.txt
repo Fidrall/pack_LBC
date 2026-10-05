@@ -100,7 +100,6 @@ cf | 523327 | jetable | Savage Ender Dragon
 cf | 551586 | jetable | L_Ender's Cataclysm
 mr | bosses-of-mass-destruction-forge | jetable |
 mr | mowzies-mobs | jetable |
-mr | aquamirae | jetable |
 mr | illager-invasion | jetable |
 mr | friends-and-foes-forge | jetable |
 mr | creeper-overhaul | jetable |

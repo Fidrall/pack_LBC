@@ -38,7 +38,7 @@
 	chapter.576F6A1E4D30F4F2.title: "&l&aLa Route de l'End"
 	chapter.58D00C1309225860.title: "&aGarnished"
 	chapter.5A13526D80BE2D3C.chapter_subtitle: [
-		"Mowzie's, Aquamirae, Illager Invasion, Friends and Foes, Critters"
+		"Mowzie's, Illager Invasion, Friends and Foes, Critters"
 	]
 	chapter.5A13526D80BE2D3C.title: "&c&lBoss et créatures"
 	chapter.5A695917A1E23476.title: "&dGolem Overhaul"
@@ -630,11 +630,6 @@
 		"Le &cGardien Ancien&r est un boss aquatique puissant qui vit dans les &eMonuments Océaniques&r." "" "Pour le vaincre, équipe-toi pour le combat sous l'eau et prévois de quoi contrer la fatigue de minage (du lait, par exemple)." "" "&l&a📝Astuce :&r&r &oLes dauphins peuvent te guider vers des trésors, et l'&eExplorer's Compass&r trouve les Monuments.&r"
 	]
 	quest.229C5328751C93F5.quest_subtitle: "☠ Niveau 1"
-	quest.22DC9B40D891A64D.quest_desc: [
-		"La &3Capitaine Cornelia&r commande les pillards maudits du Labyrinthe de Glace." "" "Elle combat avec ses lames et invoque son équipage. Prépare-toi à un combat long et difficile." "" "Elle donne accès à l'équipement le plus puissant d'Aquamirae, comme les armes et l'armure « Terribles »."
-	]
-	quest.22DC9B40D891A64D.quest_subtitle: "La terreur des mers gelées"
-	quest.22DC9B40D891A64D.title: "&3&lLa Capitaine Cornelia"
 	quest.231D1BD8D2A930CF.quest_desc: [
 		"Dans Create, la &6&lforce de rotation&r&r est l'énergie produite par les pièces qui tournent." "" "Elle fait fonctionner toutes les machines et les constructions animées." "" "Tu peux la produire avec des roues à eau, des moulins, etc." "" "Une fois produite, elle se transmet par des axes, des engrenages et d'autres pièces mécaniques pour faire tourner tes créations."
 	]
@@ -714,11 +709,6 @@
 		"Je suppose que tu es allé miner, non ?" "" "Ton &6fourneau&r est prêt : il est temps de &6fondre tes premiers lingots de fer et de cuivre&r." "" "Ces métaux de base sont la clé des meilleurs outils et des machines." "" "À partir de maintenant, ça ne va faire que devenir plus passionnant."
 	]
 	quest.28B245505F91D21C.title: "L'âge des métaux"
-	quest.28E06AE60D76FF71.quest_desc: [
-		"Le Labyrinthe de Glace contient des &ecoffres gelés&r qui s'ouvrent avec des &eClés Gelées&r." "" "On y trouve des armes, des matériaux et les pièces de l'équipement d'Aquamirae."
-	]
-	quest.28E06AE60D76FF71.quest_subtitle: "Les trésors du labyrinthe"
-	quest.28E06AE60D76FF71.title: "Les coffres gelés"
 	quest.28E5210FA4512E41.quest_desc: [
 		"Mowzie's ajoute aussi des créatures plus petites :" "" "- les &2Foliaaths&r, des plantes carnivores cachées dans les jungles ;" "- le &bGrottol&r, une créature de cristal des grottes qui lâche des diamants (il faut une pioche pour le blesser) ;" "- les &eLanternes&r des forêts sombres, qui lâchent de la gelée lumineuse." "" "Rapporte une graine de Foliaath : on peut la planter !"
 	]
@@ -1809,7 +1799,7 @@
 	]
 	quest.6AD020DBDE0A43F2.title: "Réacteur Nucléaire"
 	quest.6AF530358EE9745A.quest_desc: [
-		"Le pack ajoute des dizaines de nouvelles créatures : certaines amicales, d'autres terrifiantes." "" "Ce chapitre présente les &cboss&r qui ne sont pas dans l'Échelle des Boss (Mowzie's Mobs, Aquamirae, Illager Invasion…), et les &acréatures à découvrir et à apprivoiser&r." "" "Toutes ces quêtes sont libres : fais-les dans l'ordre que tu veux !"
+		"Le pack ajoute des dizaines de nouvelles créatures : certaines amicales, d'autres terrifiantes." "" "Ce chapitre présente les &cboss&r qui ne sont pas dans l'Échelle des Boss (Mowzie's Mobs, Illager Invasion…), et les &acréatures à découvrir et à apprivoiser&r." "" "Toutes ces quêtes sont libres : fais-les dans l'ordre que tu veux !"
 	]
 	quest.6AF530358EE9745A.quest_subtitle: "Les créatures du pack"
 	quest.6AF530358EE9745A.title: "&c&lUn monde plus vivant… et plus dangereux"
@@ -1826,11 +1816,6 @@
 		"Imagine que tu as une pièce d'armure avec un enchantement que tu adores, et que tu veux le transférer sur un autre objet. La &6Forge à Blaze&r le permet." "" "Place l'objet enchanté et un &aModèle d'Enchantement&r dans la &6Forge à Blaze&r. Elle retire un enchantement au hasard de l'objet et le transfère sur le modèle." "" "Chaque modèle ne contient qu'un enchantement à la fois : recommence jusqu'à extraire celui que tu veux." "" "Selon le niveau de l'enchantement, il faudra peut-être le &bSuper Enchantement&r pour le réappliquer."
 	]
 	quest.6B2BB3A3AAC179FE.title: "&l&6Désenchanter son équipement"
-	quest.6B935D543CA1FA96.quest_desc: [
-		"&3Aquamirae&r rend les &eocéans gelés&r terrifiants : un &eLabyrinthe de Glace&r s'y cache, rempli de pillards maudits et de créatures des profondeurs." "" "Avec les océans profonds de notre monde, il faudra plonger loin… Prévois de quoi respirer sous l'eau (équipement de plongée de Create, potion ou armure)."
-	]
-	quest.6B935D543CA1FA96.quest_subtitle: "L'horreur des océans gelés"
-	quest.6B935D543CA1FA96.title: "&3Aquamirae"
 	quest.6B9E13665837ECA1.quest_desc: [
 		"Le &6téléporteur d'objets&r envoie une pile d'objets vers un autre téléporteur d'objets. Il fonctionne au &dTélé-jus&r." "" "Pour les relier, utilise un &aTP Link&r. Parfait pour faire circuler des ressources entre deux parties de ta base."
 	]
@@ -2066,11 +2051,6 @@
 		"L'&cencre&r se trouve dans les structures magiques, comme les tours de mage. C'est l'ingrédient clé pour fabriquer des parchemins." "" "Il en existe 5 sortes, une par rareté de parchemin." "" "Dans la &6Forge à Parchemins&r, l'&6encre&r permet de fabriquer un sort de la rareté correspondante, au plus bas niveau disponible. Si la rareté minimum d'un sort est plus élevée que celle de l'encre, tu ne pourras pas le fabriquer : il faudra une encre de meilleure qualité."
 	]
 	quest.75813E7A5E88D3B8.quest_subtitle: "En amélioration : &6+5 % de résistance aux sorts"
-	quest.75AE7C0749254F5D.quest_desc: [
-		"L'&earmure abyssale&r d'Aquamirae est faite pour le combat sous l'eau. Cherche ses pièces dans les coffres et sur les créatures des profondeurs."
-	]
-	quest.75AE7C0749254F5D.quest_subtitle: "Pour les plongeurs"
-	quest.75AE7C0749254F5D.title: "L'armure abyssale"
 	quest.76100542C15576F4.quest_desc: [
 		"Mine des &dÉclats de Cristal&r dans l'End. Ils servent à fabriquer les &eoutils cristallins&r, dont l'efficacité &aaugmente avec ton expérience&r."
 	]
@@ -2199,11 +2179,6 @@
 	]
 	quest.7D08DA1B1071D0C6.quest_subtitle: "Boss : la Reine Valkyrie"
 	quest.7D08DA1B1071D0C6.title: "&f&lLe Donjon d'Argent"
-	quest.7D915CDB04620116.quest_desc: [
-		"La &eMère du Labyrinthe&r est une créature marine géante qui rôde dans le Labyrinthe de Glace." "" "Elle frappe fort et est difficile à atteindre sous l'eau : bats-toi depuis la glace si possible."
-	]
-	quest.7D915CDB04620116.quest_subtitle: "Un mini-boss des profondeurs"
-	quest.7D915CDB04620116.title: "La Mère du Labyrinthe"
 	quest.7DA8BD4034753FBD.quest_desc: [
 		"Pour trouver les boss de cette dimension, il te faut un &6Œil Chercheur&r. Il fonctionne comme un œil de l'Ender." "" "&bPour trouver une structure précise, tiens l'objet correspondant dans ta seconde main.&r" "" "&3Golem Starlight&r : Redstone, Acier de Golem et Acier de Golem Oxydé." "" "&3Monstruosité Lunaire&r : Baies Lunaires, Lianes et Racines de Cristal bleues ou rouges."
 	]
@@ -2304,7 +2279,6 @@
 	task.3F5AC72562569158.title: "Unités de contrainte"
 	task.449AD8FC65D63BE4.title: "Le Nether est à moi"
 	task.4D81C19520048110.title: "Clique pour valider"
-	task.4FE26B9FC5FCA29A.title: "Clique pour valider"
 	task.509D5321A4F9841D.title: "&6Je suis prêt"
 	task.57548A938223AAF1.title: "&l&cClique pour valider"
 	task.59B37915ED9CA935.title: "&3Ça a l'air intéressant…"
