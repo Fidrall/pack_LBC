@@ -421,6 +421,30 @@ file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modi
 hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/magnet.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/magnet/force_3.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/magnet.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/magnet/force_3.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/nuclear/energy_28800.json"
+hash = "8fab0a3b1b7591e5ff7fdcd1da6444d67f61d8d0dae076135d5bbfec8ac3936f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/nuclear/fuel.json"
+hash = "8fab0a3b1b7591e5ff7fdcd1da6444d67f61d8d0dae076135d5bbfec8ac3936f"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 
@@ -467,6 +491,14 @@ hash = "e4aca7981f5774751833f4da34316dd2d03bb7c17c270a38fa0aab8747c01b74"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
 hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/compat/redstone_magnet_neodymium.json"
+hash = "f4578c3cefd90ed02b474080bebca41f6dd10d70a90e17a3d0310be7bbac77ed"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/compat/uranium_rod_assembly.json"
+hash = "7ac2ad504911ee0e73d8c4b829e95e42002afaaa054b32319f9a100f3ca9c0b0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_boots.json"
@@ -1036,6 +1068,11 @@ hash = "18a5b572a9afdb84b24f5c58c4a53022158f8db746dde95531b780d4713f3fc8"
 metafile = true
 
 [[files]]
+file = "mods/alexs-caves.pw.toml"
+hash = "e3ea6c1ae49cfdb68008b673687d013a8b75d53fc2cc66ba2d1677dc51b929b0"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "c71a37f05849d41b3b2a883c55afc4d32de7e05beff02b6f94a833be0c59635c"
 metafile = true
@@ -1178,6 +1215,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
+file = "mods/citadel.pw.toml"
+hash = "80d7af83c244304212b8d95ab2e3525b3eeae02f31e41474c2cdec2f4d370723"
 metafile = true
 
 [[files]]
