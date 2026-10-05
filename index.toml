@@ -65,6 +65,10 @@ file = "config/EndRemastered-NeoForge/Eyes/wither_eye.json"
 hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
 
 [[files]]
+file = "config/alexscaves-general.toml"
+hash = "30bdfbc95bd16a1809fde3cce4e76fdc02320ddbba84486e73017c0fcf8effcb"
+
+[[files]]
 file = "config/apotheosis/apotheosis.cfg"
 hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
