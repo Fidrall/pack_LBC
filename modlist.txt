@@ -220,3 +220,5 @@ mr | waystones-teleport-pets | qol | compagnons suivent par Waystone
 mr | create-bionics | conserver | robots-animaux Create (licence : ne pas publier le pack sur CurseForge)
 cf | archaion | jetable | Donjon ancien + boss mecanique (+ AAA Particles)
 cf | ancient-remnants | jetable | monolithes par biome, coeurs d'Elderheart (Fragmentum >= 5.2)
+mr | skills | qol | arbres de competences (config/puffish_skills, a personnaliser)
+mr | attributes | qol | attributs pour les recompenses des competences
