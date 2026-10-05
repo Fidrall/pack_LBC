@@ -1081,6 +1081,10 @@ file = "config/sophisticatedbackpacks-server.toml"
 hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
+file = "config/structurify.json"
+hash = "3171cb79e704191c815bf9e96330a3235bbd538bfd745e5ffc77eea0a58e632c"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "dde086ee4f118ed900a10f00103f28100e56ff0df88c4d3cf3f71c18bbba1ad3"
 
