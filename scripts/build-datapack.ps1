@@ -74,5 +74,15 @@ foreach ($t in $tables) {
 }
 W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $entries })
 
+# ---------- 4. Born in Chaos : apparitions reduites (~60 %), memes biomes/dimensions ----------
+# Copie des biome_modifier d'origine dans scripts/data/borninchaos-spawns.json (a regenerer si le mod change).
+# Plafond total et distance au spawn : config/incontrol/spawn.json (In Control!).
+$bic = Get-Content (Join-Path $PSScriptRoot 'data\borninchaos-spawns.json') -Raw | ConvertFrom-Json
+foreach ($p in $bic.PSObject.Properties) {
+    $m = $p.Value
+    $m.spawners.weight = [int][math]::Max(1, [math]::Round($m.spawners.weight * 0.6))
+    W "data/born_in_chaos_v1/neoforge/biome_modifier/$($p.Name).json" $m
+}
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

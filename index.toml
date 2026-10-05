@@ -225,6 +225,10 @@ file = "config/ftbquests/quests/reward_tables/rare.snbt"
 hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
 
 [[files]]
+file = "config/incontrol/spawn.json"
+hash = "ade18d5fa7f569ff3e9e5bb5097cbc354272d19ac812b91466a0720e6c33b464"
+
+[[files]]
 file = "config/irons_spellbooks-server.toml"
 hash = "9db94f62e96f2a6f9d3c60ffa28f6811931a697b32c6e7eee3a09996895e0cd9"
 
@@ -235,6 +239,186 @@ hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/baby_skeleton_biome_modifier.json"
+hash = "8eec4dcab685fb09548d7b6eaac17e11c31efc3925bd6e06f9002a8ff3fc5107"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/baby_spider_biome_modifier.json"
+hash = "f648e16b550b70f2c28dfa7de6ebfe7cb20548674d73741ec6c4747c9902fd90"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/barrel_zombie_biome_modifier.json"
+hash = "c9d8a4ddd171f16773130fab8463640ed128a69febdb3f7669eccfc01c08a782"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/bloody_gadfly_biome_modifier.json"
+hash = "7295e7f779c6d81dafba316922e02e920dff3123f4fdfdbd8ac2e5786554c032"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/bone_imp_biome_modifier.json"
+hash = "2fc3f9195c4dc7970f527dede78ed78824453da30cad56585bbef1f51b09ce83"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/bonescaller_biome_modifier.json"
+hash = "d3d2c21e44c0a2f0e2e5dc33b50c91cf75690997757b08525d2080dc61aaadcc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/corpse_fish_biome_modifier.json"
+hash = "d4400891c17f0ff3cefe834f9f89a55af87b2d07445dca9af397caba31f1624b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/corpse_fly_biome_modifier.json"
+hash = "7180693e32a8d3353f9bdcc7b4471b008da63cf7374d2b64d4d85245e57769b3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/dark_vortex_biome_modifier.json"
+hash = "d027ac0f152b73c32527bbb295e559de9c4ac0ab4400869e37d6a70f80b58f97"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/decaying_zombie_biome_modifier.json"
+hash = "fb04a9e8ec2b3f91f61e9af2d9cc721cc940225501fc4561aa9b6dfbdbcd5429"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/decrepit_skeleton_biome_modifier.json"
+hash = "7ec19de453094c2a41ab4d882eac32d30ca596c668c828ddf42195128cb84d71"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/dire_hound_leader_biome_modifier.json"
+hash = "9a597477a7f8a67c5438de063bf52f41c42c5e8b7a3399e67b2c56af45e5fe69"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/door_knight_biome_modifier.json"
+hash = "2d1099606598d79c1b35a3901fdb12774a56ce557fa13b2f1baa8ba0030a26d8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/dread_hound_biome_modifier.json"
+hash = "f3cb7ba69daf3144ad03687c0775387637dad23089754a48695a53387bd207b4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/fallen_chaos_knight_biome_modifier.json"
+hash = "67298ecef99a8ac74cf0bf3e7c86cba574c6034218e2263b6de32e28638febf6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/firelight_biome_modifier.json"
+hash = "5671a0fe8974e523cf630c39cfac2e3871dbb4ed98a0b89589be6b65c5195e46"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/glutton_fish_biome_modifier.json"
+hash = "3e36f99f833f9b1f87e06f0a7fc016aa7148b333fa752bd1f005965b559b4584"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/krampus_biome_modifier.json"
+hash = "f4052e30fcf7ea32345cb097c393a9fa3305405cfbbfed0b448e45e8a6a119bc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/krampus_henchman_biome_modifier.json"
+hash = "29b8db153341b8d63292fd06012022fa81d95af764fb3010c69bcf40bde9253d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/lifestealer_biome_modifier.json"
+hash = "55cfcd90309a1ff0d63680fdef8b340f490d6bc53c8450fe63655e29b40e319a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/missioner_biome_modifier.json"
+hash = "7b2714968bc8ecfea7c783347b117075d89f9a7afa53e3c40eb4141d472b7709"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/mother_spider_biome_modifier.json"
+hash = "a4f0b0aef0c97990076b743205c371c6cbab11578ca381e1849f0754adf3d114"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/mr_pumpkin_biome_modifier.json"
+hash = "a13681ab4034ea65f2eb3882626612dad1f3a2a4039cc5797581da8d7e5d18cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/mrs_pumpkin_biome_modifier.json"
+hash = "fec633cd11fa7d287c861692a660d6e7abc966c77bd5c3f323fa880407ce27f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/nightmare_stalker_biome_modifier.json"
+hash = "f0bb97d4db3122138e727ad240a1b5fbfd4eb88fe4690aefca8b0ceb573a7a87"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/phantom_creeper_biome_modifier.json"
+hash = "b014ed9395e042d39525a83a4de0374f85d3d95623d3fcedbff78accca076020"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/pumpkin_bruiser_biome_modifier.json"
+hash = "7b5108f8b698ac524ba22c2dec6e551fa5eb6b962a703b0dc1a1854759006d60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/pumpkin_dunce_biome_modifier.json"
+hash = "997e0a09261268641bbce48e53121c16512abdfe8fabaca23041e131be511fc3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/restless_spirit_biome_modifier.json"
+hash = "e32c760b9843b8f93648b55cc84d8cb41c714a1b5831445ef6aba294933cf869"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/seared_spirit_biome_modifier.json"
+hash = "aa82634e04ccd0979c9971275f064ca695694b662af5e27914ab7eabcb53c531"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/senor_pumpkin_biome_modifier.json"
+hash = "b8fb1c6347b49b6f53ad193b1c5a44ad0910191d484a7ee766fa148b929401bf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/siamese_skeletons_biome_modifier.json"
+hash = "e827a9c8a66235b024372c0e7e9cbd96a936125655682bea04481c88962a596a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/sir_pumpkinhead_biome_modifier.json"
+hash = "b064e56b65ebe259c8636d3547157895b862fadba5357773289c0a72ef23b0a3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/skeleton_demoman_biome_modifier.json"
+hash = "4d3de0c8df37b303800216a10bf80567a680549f7c73fab2a537d7301687e061"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/skeleton_thrasher_biome_modifier.json"
+hash = "fced1cec74b2b4baee416b3b1df5837e451e7708b900311b674ff4056c140dc4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/spirit_guide_assistant_biome_modifier.json"
+hash = "2b4e162ac2af77ccc38b9b3dcbd3fd8c7d3443b1176ae4df44904987f0c1a0af"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/spirit_guide_biome_modifier.json"
+hash = "e6b21bf821d1f83f41678111c3fcc666a2f60262bbc445df674e2736cd1b7db3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/spiritof_chaos_biome_modifier.json"
+hash = "27847d0e8495c641157c041aeeb8e8efbf6cbb6ff2c0a792b5a4f0722b372ed9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/supreme_bonescaller_biome_modifier.json"
+hash = "e19283454a78c9d9ec32748038855bbd475c9cbaf95cc2f48fb92e45fc924268"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/swarmer_biome_modifier.json"
+hash = "7d07fe842190b3e4df68d93bdf92fd4ec45bc8149d3632fc1d490a420ded6cfd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/thornshell_crab_biome_modifier.json"
+hash = "5928d4910e65ce621964b128994575d3ae8c4fcd41773bb5ea042d8c1fbaff9e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_bruiser_biome_modifier.json"
+hash = "0e8e110fd7506b64035da943289818929330abb0e838dcb4b2473619f0cf3d73"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_clown_biome_modifier.json"
+hash = "161b1f4c153ae107a627efaf6be0b43def0ee49dc3f9aef9f4514780c3de1d5e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_fisherman_biome_modifier.json"
+hash = "0ef3757b2084541cb6f547641a449499978d9318ff98d5a6454cc98f06a72c09"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_lumberjack_biome_modifier.json"
+hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
@@ -962,6 +1146,11 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/borninchaos.pw.toml"
+hash = "a2c8cf1a4fc5faed55ca1f8d04f7abaa1c8282b9bcd70e1b3e607181923f48d9"
+metafile = true
+
+[[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "74143850a12b0f9daf3ef2c503e61141319f3715a48a2fde53bc31b3c9719788"
 metafile = true
@@ -1439,6 +1628,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "2863a3b187723e1f69ed2ad2b2c3d834e8442468a1347c80df5b310e243c8753"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "8311cf201aa8d3c5d0c0291194f3c76d825591122b7ccf4f2fea08f6b39af526"
 metafile = true
 
 [[files]]

@@ -207,3 +207,5 @@ mr | paxi | qol | charge les packs de ressources/donnees du pack (images quetes,
 mr | aeronautics-hot-air-fix | qol | client : retire l'effet d'air chaud Aeronautics (ballons blancs avec shaders) - Iris Fix exclu de l'API CF
 mr | sophisticated-storage | conserver | coffres/tonneaux ameliorables (Core mis a jour 1.5.5, requis >=1.5.4)
 mr | sophisticated-storage-create-integration | conserver | coffres Sophisticated sur les contraptions Create
+mr | borninchaos | jetable | monstres d'horreur + boss (apparitions -40 %, plafond 40, pas a moins de 750 blocs du spawn)
+mr | in-control | qol | regles d'apparition (config/incontrol/spawn.json)
