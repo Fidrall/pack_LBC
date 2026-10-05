@@ -114,8 +114,5 @@ W 'data/pack_lbc/recipe/compat/uranium_rod_assembly.json' ([ordered]@{
     transitional_item = @{ id = $inc }
 })
 
-# ---------- 6. Apotheosis : pas de tours (comme l'ancien pack) ----------
-W 'data/apotheosis/worldgen/structure_set/towers.json' @{ 'neoforge:conditions' = @(@{ type = 'neoforge:false' }) }
-
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
