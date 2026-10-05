@@ -2059,6 +2059,11 @@ hash = "20140ed1edd0a9208a9c6cc4d88b49a92f5800f9ff159c3efcabe2552985ea71"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "5d2ebe2ac7d9436d1c5df0fbb2a1b975196d41a3090065b3c569aaac4fc11430"
+metafile = true
+
+[[files]]
 file = "mods/repurposed-structures-forge.pw.toml"
 hash = "f1aab783c14673d62e516fe43887088d1647b125c92c9b9caabd3574169c8d2c"
 metafile = true
@@ -2086,6 +2091,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
