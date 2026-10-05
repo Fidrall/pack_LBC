@@ -77,9 +77,6 @@ $Quests = @(
      d=@('Les villages de ce pack sont plus grands et plus vivants : &eCTOV&r en crée de nouveaux par biome, &eTowns and Towers&r en ajoute d''autres, et des &egardes&r les défendent.',
          '',
          'Tu peux équiper les gardes : donne-leur une armure et une arme (clic droit accroupi).') }
-  @{ k='ribbit'; x=-3; y=6; deps=@('discover'); tasks=@('struct:ribbits:ribbit_village'); crate='commune'
-     t='Un village de Ribbits'; st='Les grenouilles musiciennes'
-     d=@('Dans les &emarais&r vivent les &aRibbits&r, des grenouilles commerçantes et musiciennes. Joue des maracas avec elles !') }
   @{ k='skyvillage'; x=-1.5; y=6; deps=@('discover'); tasks=@('struct:skyvillages:skyvillage'); crate='rare'
      t='Un village dans le ciel'; st='Au-dessus des nuages'
      d=@('Certains villages flottent dans le ciel ! Il faudra un dirigeable, un jetpack… ou beaucoup d''échelles pour les atteindre.') }
@@ -102,7 +99,7 @@ $Quests = @(
   @{ k='catacombs'; x=-4.5; y=7.5; deps=@('village'); tasks=@('struct:betterarcheology:catacombs'); crate='rare'
      t='Des catacombes'; st='Sous terre, les morts dorment'
      d=@('Ces &ecatacombes&r sont pleines de vases à butin et de secrets archéologiques.') }
-  @{ k='lostsoul'; x=-3; y=7.5; deps=@('ribbit'); tasks=@('struct:philipsruins:lost_soul_city'); crate='rare'
+  @{ k='lostsoul'; x=-3; y=6; deps=@('discover'); tasks=@('struct:philipsruins:lost_soul_city'); crate='rare'
      t='La cité des âmes perdues'; st='Philips'' Ruins'
      d=@('Une cité en ruine, hantée par les âmes perdues. Qui sait ce qu''il reste dans ses coffres ?') }
   @{ k='sphinx'; x=-1.5; y=7.5; deps=@('skyvillage'); tasks=@('struct:mostructures:sphinx'); crate='commune'

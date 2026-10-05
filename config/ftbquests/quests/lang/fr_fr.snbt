@@ -33,7 +33,6 @@
 		"Construis, pilote et fais voler tes propres vaisseaux"
 	]
 	chapter.4C2580819596F6D1.title: "&b&lDirigeables et Aéronautique"
-	chapter.50471206A7BA908F.title: "&3Eternal Starlight"
 	chapter.53732D728CE0A308.title: "&aCreate"
 	chapter.576F6A1E4D30F4F2.title: "&l&aLa Route de l'End"
 	chapter.58D00C1309225860.title: "&aGarnished"
@@ -177,7 +176,7 @@
 	quest.07CCF0EE3BC96DB1.quest_subtitle: "&3Percer les secrets des Armes Magiques"
 	quest.07E12DA2B3EC76D1.title: "&cTenue de Pyromancien"
 	quest.080ED1235E012CF5.quest_desc: [
-		"Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life." "" "Il faudra goûter aux plats de Farmer's Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest, Eternal Starlight…)." "" "&6&lChapeau, Grand Chef !&r"
+		"Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life." "" "Il faudra goûter aux plats de Farmer's Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest…)." "" "&6&lChapeau, Grand Chef !&r"
 	]
 	quest.080ED1235E012CF5.quest_subtitle: "Spice of Life : 170 aliments"
 	quest.080ED1235E012CF5.title: "&6&lGrand Chef"
@@ -340,10 +339,6 @@
 	]
 	quest.12506A200E56E7E9.quest_subtitle: "Maîtrise le pouvoir du &4sang&r. Plus de &4puissance des sorts de sang&r ou d'&4armure&r."
 	quest.12506A200E56E7E9.title: "&4&lÉcole du Sang"
-	quest.1278600075A14600.quest_desc: [
-		"Une nouvelle civilisation a été découverte dans &6les marais&r. On les appelle les &aRibbits&r : ce sont des grenouilles !" "" "Il faudra d'autres études pour connaître leur origine, mais certains chercheurs pensent qu'une sorcière a renversé une potion dans l'eau par erreur." "" "Les &aRibbits&r adorent la musique : on les voit jouer de divers instruments, seuls ou en groupe, comme un orchestre de grenouilles." "" "Les chercheurs ont découvert que si tu joues des &6maracas&r, les &aRibbits&r se joignent à toi avec leurs instruments."
-	]
-	quest.1278600075A14600.title: "&2Trouver un village de Ribbits"
 	quest.1297AC30B2800152.quest_desc: [
 		"Les &ecigales&r de la Forêt du Crépuscule font un bruit épouvantable." "" "Rends service à tout le monde : tues-en une."
 	]
@@ -658,9 +653,6 @@
 	quest.23DAFFEA162268FD.quest_subtitle: "La colle idéale pour les vaisseaux"
 	quest.23DAFFEA162268FD.title: "La Colle au Miel"
 	quest.2401A3C6E360DD00.title: "Tu l'as perdu ?"
-	quest.2475C6740BBD5273.quest_desc: [
-		"Pour entrer dans la &bdimension Starlight&r, trouve des Ruines de Portail dans l'Overworld, gardées par le &cGardien du Seuil&r." "" "Fais un &dclic droit&r sur le &cGardien du Seuil&r pour le défier en duel." "" "Si tu gagnes, tu reçois un sac contenant l'&aOrbe de Prophétie&r. Utilise l'Orbe sur le portail pour l'activer, puis traverse-le pour commencer ton voyage."
-	]
 	quest.24A3D36B0BF64712.quest_desc: [
 		"Le &6téléporteur d'entités&r peut envoyer n'importe quelle créature ou joueur vers un autre téléporteur. Il fonctionne au &dTélé-jus&r." "" "Pour relier deux téléporteurs, utilise un &aTP Link&r. Sa portée est limitée : pour les longs voyages, il faudra passer par les airs !"
 	]
@@ -855,11 +847,6 @@
 	quest.31A3E5D800B2ECDB.quest_desc: [
 		"Transforme la &c&lChaleur&r&r en &drotation&r." "" "&l&eAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
-	quest.31BEBCEB741A29B6.quest_desc: [
-		"Dans les &emarais&r vivent les &aRibbits&r, des grenouilles commerçantes et musiciennes. Joue des maracas avec elles !"
-	]
-	quest.31BEBCEB741A29B6.quest_subtitle: "Les grenouilles musiciennes"
-	quest.31BEBCEB741A29B6.title: "Un village de Ribbits"
 	quest.32049634B2771331.quest_desc: [
 		"Le &dRepaire des Rêves&r est un biome onirique de l'End, avec ses arbres de &epream&r et ses baies."
 	]
@@ -868,10 +855,6 @@
 	quest.322078F5AA954906.quest_desc: [
 		"Utilise un &6Schéma et une Plume&r pour enregistrer une construction dans un fichier schéma." "" "Ces fichiers fonctionnent d'un monde à l'autre : tu peux construire en créatif et reconstruire en survie ou sur le serveur." "" "Les schémas enregistrés (dans le dossier 'schematics') peuvent être copiés sur des &eSchémas Vierges&r, pour être construits par un &3Schématicanon&r." "" "&6C'est aussi la meilleure façon de sauvegarder tes constructions en vue d'un futur changement de version du serveur !&r"
 	]
-	quest.325C7701BB3E3F73.quest_desc: [
-		"Le &6Golem Starlight&r se trouve dans une forge souterraine appelée &bla Forge du Golem&r." "" "Pour la trouver, utilise un &eŒil Chercheur&r en tenant de la &eRedstone&r dans ta seconde main." "" "&n&lConseils de combat&r&r" "Quand le &6Golem Starlight&r absorbe l'énergie des blocs d'énergie autour de lui, &bdésactive-les avec un clic droit en tenant un Tube Gelé&r." "" "Cet &3objet est lâché par les monstres Freeze&r du donjon."
-	]
-	quest.325C7701BB3E3F73.title: "&6Golem Starlight"
 	quest.32874A063226CBCF.quest_desc: [
 		"Un énorme singe des glaces qui &edort dans les biomes enneigés&r. Ne le réveille que si tu es prêt !" "" "Il souffle de la glace, bondit et fait trembler le sol. Garde tes distances pendant son souffle." "" "Il lâche un &eCristal de Glace&r, qui permet de lancer toi-même un souffle glacé."
 	]
@@ -979,10 +962,6 @@
 	quest.37E65C83FBB7A83D.quest_subtitle: "Emplacements, retrait et plus"
 	quest.37E65C83FBB7A83D.title: "Les Sceaux"
 	quest.383DED27F9FC984B.quest_subtitle: "&6+15 % de régénération de mana"
-	quest.383E2DEB48E19246.quest_desc: [
-		"Le &cGolem Starlight&r se trouve dans une forge souterraine appelée &ela Forge du Golem&r, dans la dimension Eternal Starlight." "" "Pour la trouver, utilise un &eŒil Chercheur&r en tenant de la &eRedstone&r dans ta seconde main." "" "&n&lConseils de combat&r&r" "Quand le &cGolem Starlight&r absorbe l'énergie des blocs autour de lui, &bdésactive-les avec un clic droit en tenant un Tube Gelé&r." "" "Cet &3objet est lâché par les monstres Freeze&r du donjon."
-	]
-	quest.383E2DEB48E19246.quest_subtitle: "&4☠ Niveau 3"
 	quest.388E9A50F6028454.quest_desc: [
 		"Les &bMoas&r sont de grands oiseaux. Ils pondent parfois des &eŒufs de Moa&r." "" "Place un œuf dans un &eIncubateur&r (alimenté en torches d'Ambrosium) : un bébé Moa éclot. Nourris-le avec des &eBaies Blanches&r pour qu'il grandisse, puis selle-le." "" "Les Moas peuvent &bsauter en l'air plusieurs fois&r et planer : les meilleures montures pour explorer les îles ! Le &eBâton de la Nature&r leur dit de s'asseoir." "" "Il existe plusieurs couleurs de Moas, dont le rare &0Moa Noir&r."
 	]
@@ -1352,11 +1331,6 @@
 	quest.4DC12AC740C52694.quest_desc: [
 		"Envie d'alimenter tes brûleurs à blaze avec des liquides par des tuyaux ?" "" "Donne-leur simplement une paille, et ils aspirent directement dans le tuyau." "" "Appuie sur &a'U'&r sur la paille pour voir quels liquides elle accepte et combien de temps ils brûlent."
 	]
-	quest.4DF64525E5F3E1FC.quest_desc: [
-		"Le &cGardien du Seuil&r se trouve dans les &7Ruines de Portail&r dispersées dans l'Overworld." "" "Pour accéder à la &bdimension Starlight&r, trouve l'une de ces ruines et fais un &dclic droit&r sur le &cGardien&r pour le défier." "" "Si tu gagnes le duel, tu reçois un sac contenant l'&aOrbe de Prophétie&r." "" "Utilise l'Orbe sur le portail pour l'activer, puis traverse-le pour entrer dans la &ddimension Eternal Starlight&r."
-	]
-	quest.4DF64525E5F3E1FC.quest_subtitle: "&4☠ Niveau 3"
-	quest.4DF64525E5F3E1FC.title: "L'épreuve du Gardien du Seuil"
 	quest.4DFE436CD88DAF36.quest_desc: [
 		"L'&l&6Imprimante&r&r utilise deux types de liquides :" "" "&l&9l'encre&r&r pour copier des livres et changer les motifs de colis ;" "" "&a&ll'expérience&r&r &6&npour dupliquer des livres enchantés&r&r." "" "Pour copier, dupliquer ou changer un motif, place l'objet correspondant dans l'emplacement de filtre." "" "Elle peut aussi nommer des objets, copier des horaires de train ou des presse-papiers, changer l'adresse des colis, et plus encore. Regarde les recettes d'impression dans JEI."
 	]
@@ -1935,10 +1909,6 @@
 	quest.7124A562FDF1A9A5.quest_desc: [
 		"Les &l&6Fabricateurs Mécaniques&r&r automatisent la fabrication d'objets. Certaines recettes, comme celle des Roues de Broyage, doivent obligatoirement être faites avec eux." "" "Un clic droit avec une clé sur l'avant d'un Fabricateur change la direction de sa flèche, qui indique où il passe les objets pendant la fabrication. Toutes les flèches doivent finir par converger vers le même Fabricateur pour terminer la recette. Les Fabricateurs ne sont reliés que par ce chemin." "" "On peut les alimenter automatiquement avec des entonnoirs ou des trémies, ou mettre et retirer les objets à la main." "" "Chaque Fabricateur peut être alimenté par un Fabricateur voisin ou par un engrenage : un seul Fabricateur du montage a besoin d'être relié directement à un engrenage." "" "Une clé utilisée sur l'arrière ou les côtés de deux Fabricateurs voisins relie ou sépare leurs inventaires. Des Fabricateurs connectés partagent leur inventaire, même s'ils ne font pas partie de la même recette." "" "Le &6&lCache de Fabricateur&r&r compte comme une case vide dans la recette, et peut relier les inventaires de Fabricateurs qui ne le sont pas. Contrairement aux ingrédients, il ne bouge pas pendant la fabrication." "" "&oAstuce : si le Fabricateur final pointe vers un coffre voisin, le résultat est rangé automatiquement dedans.&r"
 	]
-	quest.712E35EA760A9452.quest_desc: [
-		"La &cMonstruosité Lunaire&r se trouve dans le &eJardin Maudit&r, un grand labyrinthe de la dimension Eternal Starlight." "" "Pour le trouver, utilise un &eŒil Chercheur&r en tenant des &eBaies Lunaires&r dans ta seconde main." "" "&l&nConseils de combat&r&r" "Pour vaincre la &cMonstruosité Lunaire&r, &bil faut l'enflammer&r." "" "Utilise un &bbriquet ou une boîte d'allumettes au salpêtre&r pour mettre le feu à ses lianes et la rendre vulnérable." "" "Le &eCœur Emmêlé&r est un mini-boss qui l'aide. Pas très fort, mais pénible : ses attaques empoisonnent."
-	]
-	quest.712E35EA760A9452.quest_subtitle: "&4☠ Niveau 3"
 	quest.7131CFD09C6B9B90.quest_desc: [
 		"La &dGravitite&r se mine avec une pioche en zanite. Elle ne se fond pas : elle s'&eenchante sur l'Autel&r." "" "Ses outils peuvent &bprojeter les blocs dans le ciel&r (clic droit), son épée envoie les ennemis en l'air, et l'armure complète permet de faire de grands bonds." "" "&7La hache en gravitite est la seule à pouvoir couper les Chênes Dorés."
 	]
@@ -2170,18 +2140,11 @@
 	]
 	quest.7D01CDC7E5CEAA4F.quest_subtitle: "Couper, trancher, émincer"
 	quest.7D01CDC7E5CEAA4F.title: "La planche à découper"
-	quest.7D080D777F9AADCA.quest_desc: [
-		"La &6Monstruosité Lunaire&r se trouve dans le &bJardin Maudit&r, qui ressemble à un grand labyrinthe." "" "Pour le trouver, utilise un &eŒil Chercheur&r en tenant des &eBaies Lunaires&r dans ta seconde main." "" "&l&nConseils de combat&r&r" "Pour vaincre la &6Monstruosité Lunaire&r, &cil faut l'enflammer&r." "" "Utilise un &cbriquet ou une boîte d'allumettes au salpêtre&r pour &4mettre le feu&r à ses lianes et la rendre vulnérable." "" "Le &eCœur Emmêlé&r est un mini-boss qui aide la &6Monstruosité Lunaire&r. Il n'est pas très fort mais il est pénible : ses attaques empoisonnent."
-	]
-	quest.7D080D777F9AADCA.title: "&6Monstruosité Lunaire"
 	quest.7D08DA1B1071D0C6.quest_desc: [
 		"Le &fDonjon d'Argent&r est un temple grec construit &esur de grands nuages&r : facile à repérer." "" "Des &eValkyries&r y patrouillent. Pour affronter la &fReine Valkyrie&r, tu dois d'abord en battre assez pour réunir &e10 Médailles de Victoire&r." "" "Elle fonce en frappant avec son épée et lance des éclairs. Ses récompenses : l'&earmure de Valkyrie&r, la Lance de Valkyrie (10 blocs de portée !) et la cape de Valkyrie (chute lente)."
 	]
 	quest.7D08DA1B1071D0C6.quest_subtitle: "Boss : la Reine Valkyrie"
 	quest.7D08DA1B1071D0C6.title: "&f&lLe Donjon d'Argent"
-	quest.7DA8BD4034753FBD.quest_desc: [
-		"Pour trouver les boss de cette dimension, il te faut un &6Œil Chercheur&r. Il fonctionne comme un œil de l'Ender." "" "&bPour trouver une structure précise, tiens l'objet correspondant dans ta seconde main.&r" "" "&3Golem Starlight&r : Redstone, Acier de Golem et Acier de Golem Oxydé." "" "&3Monstruosité Lunaire&r : Baies Lunaires, Lianes et Racines de Cristal bleues ou rouges."
-	]
 	quest.7DDA573B83BD4B2D.quest_desc: [
 		"L'&5Œil de Sorcière&r se &afabrique&r avec un œil de l'Ender et une &ePupille de Sorcière&r." "" "Les &esorcières&r lâchent une Pupille une fois sur dix. On les trouve dans les marais, autour des cabanes de sorcière."
 	]

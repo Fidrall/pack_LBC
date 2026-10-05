@@ -804,111 +804,6 @@
 			hide_dependency_lines: true
 		}
 		{
-			icon: {
-				id: "eternal_starlight:orb_of_prophecy"
-			}
-			id: "4DF64525E5F3E1FC"
-			rewards: [
-				{
-					id: "6A58BCCD64FA90E6"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "rare"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					advancement: "eternal_starlight:challenge_gatekeeper"
-					criterion: ""
-					icon: {
-						id: "eternal_starlight:orb_of_prophecy"
-					}
-					id: "7E437A5CBB7386D2"
-					type: "advancement"
-				}
-			]
-			x: 10d
-			y: 2.5d
-			dependencies: ["E1E0000000000B01"]
-			hide_dependency_lines: true
-		}
-		{
-			icon: {
-				id: "eternal_starlight:nightfan"
-			}
-			id: "712E35EA760A9452"
-			rewards: [
-				{
-					id: "4813A298863EB951"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "rare"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					entity: "eternal_starlight:lunar_monstrosity"
-					icon: {
-						id: "eternal_starlight:nightfan"
-					}
-					id: "2BA7C3C4071A5212"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: 10d
-			y: 4d
-			dependencies: ["E1E0000000000B01"]
-			hide_dependency_lines: true
-		}
-		{
-			icon: {
-				id: "eternal_starlight:oxidized_chiseled_golem_steel_block"
-			}
-			id: "383E2DEB48E19246"
-			rewards: [
-				{
-					id: "007E92C3196A4B28"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "rare"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					entity: "eternal_starlight:starlight_golem"
-					icon: {
-						id: "eternal_starlight:oxidized_chiseled_golem_steel_block"
-					}
-					id: "0C6853CF6407B349"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: 10d
-			y: 5.5d
-			dependencies: ["E1E0000000000B01"]
-			hide_dependency_lines: true
-		}
-		{
 			id: "1A1A29A846DABADB"
 			rewards: [
 				{
@@ -1223,7 +1118,7 @@
 			y: 12d
 		}
 		{
-			dependencies: ["4DF64525E5F3E1FC"]
+			dependencies: ["E1E0000000000B01"]
 			id: "2401A3C6E360DD00"
 			tasks: [
 				{

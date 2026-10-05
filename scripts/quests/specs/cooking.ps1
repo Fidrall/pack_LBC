@@ -69,7 +69,7 @@ $Quests = @(
      t='&6&lGrand Chef'; st='Spice of Life : 170 aliments'
      d=@('Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life.',
          '',
-         'Il faudra goûter aux plats de Farmer''s Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest, Eternal Starlight…).',
+         'Il faudra goûter aux plats de Farmer''s Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest…).',
          '',
          '&6&lChapeau, Grand Chef !&r') }
 )

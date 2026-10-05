@@ -1078,29 +1078,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["06267D7C266DE215"]
-			id: "1278600075A14600"
-			rewards: [
-				{
-					id: "0BEA77453673DD16"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						id: "ribbits:swamp_daisy"
-					}
-					id: "3F7B2CF420C184B0"
-					structure: "ribbits:ribbit_village"
-					type: "structure"
-				}
-			]
-			x: -4.0d
-			y: 16.0d
-		}
-		{
 			dependencies: ["478DE12D3EF8C22A"]
 			id: "256C0855A1AD720B"
 			rewards: [

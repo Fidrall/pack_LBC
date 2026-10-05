@@ -105,10 +105,8 @@ mr | friends-and-foes-forge | jetable |
 mr | creeper-overhaul | jetable |
 mr | variants-and-ventures | jetable |
 mr | golem-overhaul | jetable |
-mr | ribbits | jetable |
 mr | artifacts | jetable |
 mr | deeperdarker | jetable | dimension
-mr | eternal-starlight | jetable | dimension, 0.x
 mr | aether | jetable | dimension
 cf | 227639 | jetable | Twilight Forest (dimension)
 cf | 313970 | jetable | Apotheosis

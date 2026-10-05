@@ -107,11 +107,6 @@ quest.47174032FD094F4F.quest_desc: [
   ""
   "Tu peux équiper les gardes : donne-leur une armure et une arme (clic droit accroupi)."
 ]
-quest.31BEBCEB741A29B6.title: "Un village de Ribbits"
-quest.31BEBCEB741A29B6.quest_subtitle: "Les grenouilles musiciennes"
-quest.31BEBCEB741A29B6.quest_desc: [
-  "Dans les &emarais&r vivent les &aRibbits&r, des grenouilles commerçantes et musiciennes. Joue des maracas avec elles !"
-]
 quest.65B7A1DAF383878B.title: "Un village dans le ciel"
 quest.65B7A1DAF383878B.quest_subtitle: "Au-dessus des nuages"
 quest.65B7A1DAF383878B.quest_desc: [

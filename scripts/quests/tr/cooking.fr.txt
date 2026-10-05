@@ -100,7 +100,7 @@ quest.080ED1235E012CF5.quest_subtitle: "Spice of Life : 170 aliments"
 quest.080ED1235E012CF5.quest_desc: [
   "Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life."
   ""
-  "Il faudra goûter aux plats de Farmer's Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest, Eternal Starlight…)."
+  "Il faudra goûter aux plats de Farmer's Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest…)."
   ""
   "&6&lChapeau, Grand Chef !&r"
 ]

@@ -93,16 +93,12 @@ file = "config/dragonfight.json"
 hash = "0d91e421370e448fdd8be8a96e49f0915fccfb0fd37bd0bb0775e4ea3c487277"
 
 [[files]]
-file = "config/eternal_starlight.json"
-hash = "38127ddf4741f81fd65748f44d6e17521365cc16a50d198a059239ea5a00560e"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "06b649f3262c29fb92a96a73691578327931a42a95e5b93e12d284c9b3a6f077"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure_progression.snbt"
-hash = "2d8ee3ee99d2368017853c7caa650c7d3d53a8560e2b53b21259210b442397f7"
+hash = "cb3b0a258ad6e8d8c3e1bea19824a69878ccc563a5686571be000f2f31761a77"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
@@ -118,11 +114,11 @@ hash = "f8bd77c127e0bc2f4f496a62ce9b09b1bc9a3e09adfa5e54d57ef14d1c4eb5e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "88b52e35db11d760ac04b40b5e06abaa5862bf54850642a78a9903343139ce0e"
+hash = "f83991455994071bf5a3f10f776cb68443584ff476fbe6cd69b74b910ac1447b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
-hash = "fa9e21a8fb000fa10571a0dfc33c9ee7fe5a4359d2bf3a9826dad3b4d97dbef9"
+hash = "08229d734a9221e069991db0ffe4fef1f4fb930048a3ab800597d6b851681cfa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cooking.snbt"
@@ -153,12 +149,8 @@ file = "config/ftbquests/quests/chapters/enchanting.snbt"
 hash = "01081e0897b35be176b71d4576d95725185674e6b64622b22d2db7485acdb355"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "e9b76b6c2b24f9055b7a300d68444cb980cb9f3f3ac0aa7bca86cf69c80ad321"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "87c14d53bb23df64e153037c5f2459ffda57d830c2c9dbc47f557cf9c50b38bf"
+hash = "bd34e1691357aa5ea1d9e24a417bd7252cae64d0ef0af31018e70d1b4870b16e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garnish.snbt"
@@ -182,7 +174,7 @@ hash = "8c5c8c1c0ab61445422a8c4d1a453f2c0ab0dbac7111fc03665a20a8371e35bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simply_swords.snbt"
-hash = "711e37994b7c92889df34aa3fb1e76a6b8f47bedf1c9e823761ddc06efc362c9"
+hash = "d35ead63bd75e286723580df1fb512d2afc3de0a7ef2561e545a14e0004c27c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
@@ -206,7 +198,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "16e9b466469c7ffaaca6b961d7b6a6988e9d748c8a3c943715a08aef3192ae39"
+hash = "90a391defd6fbf91c4a9c5e71f4be1dcf701187160e37a91bf2ab615d1994514"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -1518,11 +1510,6 @@ hash = "528ae7ee97068e0250282f449ee8224ff6f3dfd3b66c50d7651590b43080c7a8"
 metafile = true
 
 [[files]]
-file = "mods/eternal-starlight.pw.toml"
-hash = "6e1beac08fed14accc3edb3b5cd75220c3476d2ff27ce3b415c035623da41cda"
-metafile = true
-
-[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
@@ -1925,11 +1912,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
-metafile = true
-
-[[files]]
-file = "mods/ribbits.pw.toml"
-hash = "6a598c073aabc968d8ee736141d238c517e13662f3de0feb81796cb9c0d6f4f0"
 metafile = true
 
 [[files]]

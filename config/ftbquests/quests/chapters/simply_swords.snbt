@@ -42,7 +42,7 @@
 			dependency_requirement: "all_started"
 			hide_dependency_lines: true
 			icon: {
-				id: "eternal_starlight:loot_bag"
+				id: "minecraft:bundle"
 			}
 			id: "6C71E2ABAA99C005"
 			rewards: [

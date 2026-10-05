@@ -346,32 +346,6 @@
 		}
 		{
 			dependencies: ["5D17E5356CD5A42E"]
-			id: "31BEBCEB741A29B6"
-			rewards: [
-				{
-					id: "58CFE6F8836F5BD4"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "47967B319F89237F"
-					structure: "ribbits:ribbit_village"
-					type: "structure"
-				}
-			]
-			x: -3d
-			y: 6d
-		}
-		{
-			dependencies: ["5D17E5356CD5A42E"]
 			id: "65B7A1DAF383878B"
 			rewards: [
 				{
@@ -527,7 +501,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["31BEBCEB741A29B6"]
+			dependencies: ["5D17E5356CD5A42E"]
 			id: "5D925522882186A8"
 			rewards: [
 				{
@@ -550,7 +524,7 @@
 				}
 			]
 			x: -3d
-			y: 7.5d
+			y: 6d
 		}
 		{
 			dependencies: ["65B7A1DAF383878B"]
