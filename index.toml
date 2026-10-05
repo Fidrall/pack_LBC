@@ -2148,11 +2148,6 @@ hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
-file = "mods/sparsestructures.pw.toml"
-hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
-metafile = true
-
-[[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
 metafile = true
@@ -2170,6 +2165,11 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "7e3d09e6555e9240c7b02e0d9ae1e024d92b03948611aa67c2f146a8dfcf4152"
+metafile = true
+
+[[files]]
+file = "mods/structurify.pw.toml"
+hash = "a9d40525bf0794c2c49585fd502e86cbeb60c202c174f5987ed0802b012dc0cd"
 metafile = true
 
 [[files]]
