@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "gateways"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "group":  "pack_lbc_gateways",
+    "pattern":  [
+                    "ESE",
+                    "CPC",
+                    "ESE"
+                ],
+    "key":  {
+                "E":  {
+                          "item":  "minecraft:echo_shard"
+                      },
+                "S":  {
+                          "item":  "deeperdarker:soul_crystal"
+                      },
+                "C":  {
+                          "item":  "minecraft:sculk_catalyst"
+                      },
+                "P":  {
+                          "item":  "minecraft:ender_eye"
+                      }
+            },
+    "result":  {
+                   "id":  "gateways:gate_pearl",
+                   "count":  1,
+                   "components":  {
+                                      "gateways:gateway":  "pack_lbc:echo_profondeurs"
+                                  }
+               }
+}

@@ -1,0 +1,40 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "gateways"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "group":  "pack_lbc_gateways",
+    "pattern":  [
+                    "RGR",
+                    "SES",
+                    "RBR"
+                ],
+    "key":  {
+                "R":  {
+                          "item":  "minecraft:rotten_flesh"
+                      },
+                "G":  {
+                          "item":  "minecraft:gunpowder"
+                      },
+                "S":  {
+                          "item":  "minecraft:string"
+                      },
+                "B":  {
+                          "tag":  "c:bones"
+                      },
+                "E":  {
+                          "tag":  "c:ender_pearls"
+                      }
+            },
+    "result":  {
+                   "id":  "gateways:gate_pearl",
+                   "count":  1,
+                   "components":  {
+                                      "gateways:gateway":  "pack_lbc:nuit_sans_fin"
+                                  }
+               }
+}

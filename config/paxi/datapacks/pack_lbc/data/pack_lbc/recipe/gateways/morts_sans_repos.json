@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "gateways"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "group":  "pack_lbc_gateways",
+    "pattern":  [
+                    "BSB",
+                    "SES",
+                    "BSB"
+                ],
+    "key":  {
+                "B":  {
+                          "item":  "minecraft:bone_block"
+                      },
+                "S":  {
+                          "item":  "minecraft:soul_sand"
+                      },
+                "E":  {
+                          "item":  "minecraft:ender_eye"
+                      }
+            },
+    "result":  {
+                   "id":  "gateways:gate_pearl",
+                   "count":  1,
+                   "components":  {
+                                      "gateways:gateway":  "pack_lbc:morts_sans_repos"
+                                  }
+               }
+}

@@ -1,0 +1,204 @@
+{
+    "type":  "gateways:normal",
+    "size":  "medium",
+    "color":  "#9B4DDB",
+    "waves":  [
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:cultist",
+                                           "count":  3
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:magehunter_vindicator",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:cultist",
+                                          "rolls":  9
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:magehunter_vindicator",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  1600,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:pyromancer",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:cryomancer",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:cultist",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.1
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:pyromancer",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:cryomancer",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:cultist",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  1800,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:necromancer",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:apothecarist",
+                                           "count":  1
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:magehunter_vindicator",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.2
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:necromancer",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:apothecarist",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:magehunter_vindicator",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  2000,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:archevoker",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:pyromancer",
+                                           "count":  1
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:cryomancer",
+                                           "count":  1
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.25
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:archevoker",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:pyromancer",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:cryomancer",
+                                          "rolls":  3
+                                      }
+                                  ],
+                      "max_wave_time":  2600,
+                      "setup_time":  160
+                  }
+              ],
+    "rewards":  [
+                    {
+                        "type":  "gateways:loot_table",
+                        "loot_table":  "irons_spellbooks:chests/additional_good_loot",
+                        "rolls":  4
+                    },
+                    {
+                        "type":  "gateways:loot_table",
+                        "loot_table":  "irons_spellbooks:chests/citadel/citadel_tomes",
+                        "rolls":  1
+                    },
+                    {
+                        "type":  "gateways:experience",
+                        "experience":  800,
+                        "orb_size":  10
+                    }
+                ],
+    "failures":  [
+                     {
+                         "type":  "gateways:explosion",
+                         "strength":  3,
+                         "fire":  false,
+                         "block_damage":  false
+                     }
+                 ],
+    "rules":  {
+                  "lives":  3,
+                  "requires_nearby_player":  true,
+                  "leash_range":  32,
+                  "remove_mobs_on_failure":  true
+              }
+}

@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "gateways"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "group":  "pack_lbc_gateways",
+    "pattern":  [
+                    "JGJ",
+                    "GEG",
+                    "JGJ"
+                ],
+    "key":  {
+                "J":  {
+                          "item":  "minecraft:jack_o_lantern"
+                      },
+                "G":  {
+                          "tag":  "c:ingots/gold"
+                      },
+                "E":  {
+                          "item":  "minecraft:ender_eye"
+                      }
+            },
+    "result":  {
+                   "id":  "gateways:gate_pearl",
+                   "count":  1,
+                   "components":  {
+                                      "gateways:gateway":  "pack_lbc:sabbat_citrouilles"
+                                  }
+               }
+}

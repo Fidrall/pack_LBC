@@ -1,4 +1,4 @@
-# Genere le datapack serveur "pack_lbc" (recettes croisees entre mods, sans KubeJS)
+﻿# Genere le datapack serveur "pack_lbc" (recettes croisees entre mods, sans KubeJS)
 #   config/paxi/datapacks/pack_lbc -> charge automatiquement par Paxi (serveur et solo)
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
@@ -113,6 +113,88 @@ W 'data/pack_lbc/recipe/compat/uranium_rod_assembly.json' ([ordered]@{
     )
     transitional_item = @{ id = $inc }
 })
+
+# ---------- 6. Portails Gateways to Eternity (fin de jeu combat) ----------
+# Recompenses : butin des monstres a chaque vague + coffre de structure / Apotheosis a la fin (pas d'oeufs, pas de livres garantis).
+# Noms : resource pack config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/*.json (cle pack_lbc.<id>)
+function Mob($id, $n) { [ordered]@{ type = 'gateways:standard'; entity = $id; count = $n } }
+function Loot($id, $r) { [ordered]@{ type = 'gateways:entity_loot'; entity = $id; rolls = $r } }
+function Chest($t, $r) { [ordered]@{ type = 'gateways:loot_table'; loot_table = $t; rolls = $r } }
+function Xp($n) { [ordered]@{ type = 'gateways:experience'; experience = $n; orb_size = 10 } }
+function Affix($n, $rar) { [ordered]@{ type = 'gateways:counted'; count = $n; reward = [ordered]@{ type = 'apotheosis:affix_item'; rarities = @($rar) } } }
+function Gem($n, $pur) { [ordered]@{ type = 'gateways:counted'; count = $n; reward = [ordered]@{ type = 'apotheosis:gem'; purities = @($pur) } } }
+function Hp($v) { [ordered]@{ attribute = 'generic.max_health'; operation = 'add_multiplied_total'; value = $v } }
+function Wave($mobs, $hp, $time) {
+    $rw = @(); foreach ($m in $mobs) { $rw += Loot $m.entity ([int]($m.count * 3)) }
+    $mods = @(); if ($hp -gt 0) { $mods += Hp $hp }
+    [ordered]@{ entities = @($mobs); modifiers = $mods; rewards = $rw; max_wave_time = $time; setup_time = 160 }
+}
+function Gate($id, $size, $color, $waves, $rewards, $lives, $pattern, $key) {
+    W "data/pack_lbc/gateways/$id.json" ([ordered]@{
+        type = 'gateways:normal'; size = $size; color = $color; waves = @($waves); rewards = @($rewards)
+        failures = @([ordered]@{ type = 'gateways:explosion'; strength = 3; fire = $false; block_damage = $false })
+        rules = [ordered]@{ lives = $lives; requires_nearby_player = $true; leash_range = 32.0; remove_mobs_on_failure = $true }
+    })
+    W "data/pack_lbc/recipe/gateways/$id.json" ([ordered]@{
+        'neoforge:conditions' = @(@{ type = 'neoforge:mod_loaded'; modid = 'gateways' })
+        type = 'minecraft:crafting_shaped'; category = 'misc'; group = 'pack_lbc_gateways'; pattern = $pattern; key = $key
+        result = [ordered]@{ id = 'gateways:gate_pearl'; count = 1; components = @{ 'gateways:gateway' = "pack_lbc:$id" } }
+    })
+}
+$bic = 'born_in_chaos_v1'
+# Nuit sans fin (debut)
+Gate 'nuit_sans_fin' 'small' '#4A5D8F' @(
+    (Wave @((Mob 'minecraft:zombie' 5), (Mob 'minecraft:skeleton' 3)) 0 1200),
+    (Wave @((Mob 'minecraft:zombie' 5), (Mob 'minecraft:spider' 4), (Mob 'minecraft:creeper' 2)) 0.1 1400),
+    (Wave @((Mob 'minecraft:skeleton' 5), (Mob 'minecraft:witch' 2), (Mob 'minecraft:creeper' 3)) 0.2 1600),
+    (Wave @((Mob 'minecraft:zombie' 6), (Mob 'minecraft:skeleton' 5), (Mob 'minecraft:witch' 2), (Mob 'minecraft:spider' 4)) 0.3 2000)
+) @((Chest 'minecraft:chests/simple_dungeon' 6), (Xp 300)) 3 @('RGR', 'SES', 'RBR') ([ordered]@{ R = @{ item = 'minecraft:rotten_flesh' }; G = @{ item = 'minecraft:gunpowder' }; S = @{ item = 'minecraft:string' }; B = @{ tag = 'c:bones' }; E = @{ tag = 'c:ender_pearls' } })
+# Le Sabbat des citrouilles (Born in Chaos)
+Gate 'sabbat_citrouilles' 'medium' '#E07B1A' @(
+    (Wave @((Mob "$($bic):pumpkin_dunce" 3), (Mob "$($bic):mr_pumpkin" 3)) 0 1400),
+    (Wave @((Mob "$($bic):mrs_pumpkin" 2), (Mob "$($bic):senor_pumpkin" 3), (Mob "$($bic):pumpkin_dunce" 3)) 0.1 1600),
+    (Wave @((Mob "$($bic):pumpkin_bruiser" 2), (Mob "$($bic):mr_pumpkin" 4), (Mob "$($bic):senor_pumpkin" 2)) 0.2 1800),
+    (Wave @((Mob "$($bic):sir_pumpkinhead_without_horse" 1), (Mob "$($bic):pumpkin_bruiser" 2), (Mob "$($bic):pumpkin_dunce" 3)) 0.25 2400)
+) @((Affix 2 'apotheosis:rare'), (Gem 3 'flawed'), (Xp 600)) 3 @('JGJ', 'GEG', 'JGJ') ([ordered]@{ J = @{ item = 'minecraft:jack_o_lantern' }; G = @{ tag = 'c:ingots/gold' }; E = @{ item = 'minecraft:ender_eye' } })
+# Les Morts sans repos (Born in Chaos)
+Gate 'morts_sans_repos' 'medium' '#7FA88C' @(
+    (Wave @((Mob "$($bic):decaying_zombie" 4), (Mob "$($bic):decrepit_skeleton" 3)) 0 1400),
+    (Wave @((Mob "$($bic):restless_spirit" 3), (Mob "$($bic):zombie_bruiser" 2), (Mob "$($bic):decrepit_skeleton" 3)) 0.1 1600),
+    (Wave @((Mob "$($bic):bonescaller" 2), (Mob "$($bic):skeleton_thrasher" 2), (Mob "$($bic):restless_spirit" 3)) 0.2 1800),
+    (Wave @((Mob "$($bic):supreme_bonescaller" 1), (Mob "$($bic):bonescaller" 2), (Mob "$($bic):decaying_zombie" 4)) 0.25 2400)
+) @((Gem 4 'normal'), (Affix 1 'apotheosis:rare'), (Xp 600)) 3 @('BSB', 'SES', 'BSB') ([ordered]@{ B = @{ item = 'minecraft:bone_block' }; S = @{ item = 'minecraft:soul_sand' }; E = @{ item = 'minecraft:ender_eye' } })
+# L'Echo des profondeurs (Deep Dark / Deeper and Darker)
+Gate 'echo_profondeurs' 'large' '#0F5E63' @(
+    (Wave @((Mob 'deeperdarker:sculk_snapper' 4), (Mob 'deeperdarker:sculk_leech' 4)) 0.1 1600),
+    (Wave @((Mob 'deeperdarker:shattered' 3), (Mob 'deeperdarker:sculk_centipede' 2)) 0.15 1800),
+    (Wave @((Mob 'deeperdarker:stalker' 2), (Mob 'deeperdarker:shattered' 3), (Mob 'deeperdarker:sculk_snapper' 3)) 0.2 2000),
+    (Wave @((Mob 'minecraft:warden' 1), (Mob 'deeperdarker:shattered' 2)) 0 3000)
+) @((Chest 'minecraft:chests/ancient_city' 4), (Chest 'deeperdarker:chests/ancient_temple_apex' 1), (Xp 1000)) 2 @('ESE', 'CPC', 'ESE') ([ordered]@{ E = @{ item = 'minecraft:echo_shard' }; S = @{ item = 'deeperdarker:soul_crystal' }; C = @{ item = 'minecraft:sculk_catalyst' }; P = @{ item = 'minecraft:ender_eye' } })
+# Les Gardiens de la sorcellerie (Iron's Spells)
+Gate 'gardiens_sorcellerie' 'medium' '#9B4DDB' @(
+    (Wave @((Mob 'irons_spellbooks:cultist' 3), (Mob 'irons_spellbooks:magehunter_vindicator' 2)) 0 1600),
+    (Wave @((Mob 'irons_spellbooks:pyromancer' 2), (Mob 'irons_spellbooks:cryomancer' 2), (Mob 'irons_spellbooks:cultist' 2)) 0.1 1800),
+    (Wave @((Mob 'irons_spellbooks:necromancer' 2), (Mob 'irons_spellbooks:apothecarist' 1), (Mob 'irons_spellbooks:magehunter_vindicator' 2)) 0.2 2000),
+    (Wave @((Mob 'irons_spellbooks:archevoker' 2), (Mob 'irons_spellbooks:pyromancer' 1), (Mob 'irons_spellbooks:cryomancer' 1)) 0.25 2600)
+) @((Chest 'irons_spellbooks:chests/additional_good_loot' 4), (Chest 'irons_spellbooks:chests/citadel/citadel_tomes' 1), (Xp 800)) 3 @('ALA', 'IEI', 'ALA') ([ordered]@{ A = @{ item = 'irons_spellbooks:arcane_essence' }; L = @{ tag = 'c:gems/lapis' }; I = @{ item = 'irons_spellbooks:common_ink' }; E = @{ item = 'minecraft:ender_eye' } })
+# La Citadelle de l'Ender (End / Cataclysm)
+Gate 'citadelle_ender' 'large' '#C25BE6' @(
+    (Wave @((Mob 'minecraft:enderman' 4), (Mob 'cataclysm:endermaptera' 3)) 0.1 1600),
+    (Wave @((Mob 'minecraft:shulker' 3), (Mob 'minecraft:enderman' 3), (Mob 'cataclysm:endermaptera' 3)) 0.15 1800),
+    (Wave @((Mob 'cataclysm:ender_golem' 1), (Mob 'minecraft:enderman' 4)) 0.1 2400),
+    (Wave @((Mob 'cataclysm:ender_golem' 2), (Mob 'minecraft:shulker' 3), (Mob 'cataclysm:endermaptera' 4)) 0.2 3000)
+) @((Chest 'minecraft:chests/end_city_treasure' 4), (Gem 3 'flawless'), (Affix 1 'apotheosis:epic'), (Xp 1200)) 2 @('SCS', 'CEC', 'SCS') ([ordered]@{ S = @{ item = 'minecraft:shulker_shell' }; C = @{ item = 'minecraft:popped_chorus_fruit' }; E = @{ item = 'minecraft:ender_eye' } })
+# Le Defi des Seigneurs (fin de jeu) : trophee unique
+$trophy = [ordered]@{ type = 'gateways:stack'; stack = [ordered]@{ id = 'minecraft:nether_star'; count = 1; components = [ordered]@{
+    'minecraft:custom_name' = [ordered]@{ text = 'Trophée du Défi des Seigneurs'; color = 'gold'; italic = $false }
+    'minecraft:lore' = @([ordered]@{ text = 'Remis aux vainqueurs du Défi des Seigneurs.'; color = 'gray'; italic = $false })
+    'minecraft:enchantment_glint_override' = $true; 'minecraft:rarity' = 'epic' } } }
+Gate 'defi_seigneurs' 'large' '#D4AF37' @(
+    (Wave @((Mob 'cataclysm:ignited_revenant' 2), (Mob "$($bic):fallen_chaos_knight" 2)) 0.2 2400),
+    (Wave @((Mob 'cataclysm:kobolediator' 1), (Mob 'cataclysm:wadjet' 1), (Mob "$($bic):lifestealer" 1)) 0.25 2800),
+    (Wave @((Mob 'irons_spellbooks:archevoker' 2), (Mob "$($bic):supreme_bonescaller" 1), (Mob 'cataclysm:ignited_berserker' 2)) 0.3 3000),
+    (Wave @((Mob 'cataclysm:the_prowler' 1), (Mob 'cataclysm:ignited_revenant' 2), (Mob "$($bic):fallen_chaos_knight" 2)) 0.35 3600)
+) @((Affix 2 'apotheosis:mythic'), (Gem 3 'perfect'), $trophy, (Xp 3000)) 2 @('IWI', 'DND', 'IWI') ([ordered]@{ I = @{ item = 'cataclysm:ignitium_ingot' }; W = @{ item = 'cataclysm:witherite_ingot' }; D = @{ item = 'minecraft:diamond_block' }; N = @{ item = 'minecraft:nether_star' } })
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

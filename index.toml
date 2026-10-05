@@ -457,6 +457,34 @@ file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_
 hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
+hash = "e9f190469d4c3c2da5f5aff6318e7a358cdd1bf9da99b63f2e127574ae0a2b25"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/defi_seigneurs.json"
+hash = "cc57c64a15a54060e1c0005ae2acfa112bb5ed8359b3a0528109c2e64dc1c38e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/echo_profondeurs.json"
+hash = "8bee53e727ffdcf401d4a6cf0c8e27c015af888edcd0799597509c7dbb2c60ef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/gardiens_sorcellerie.json"
+hash = "c4d52c8a49b6fe5227b70babc1d6bb936384cbb43deb93f7e4f0130fa8a5909a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/morts_sans_repos.json"
+hash = "06b0e5666637bd6355e6bd0413a5774b18a9b2f2e0df4a9b88d097ef778a10e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/nuit_sans_fin.json"
+hash = "2f87b7f72924cb0ae0497b526cdbc7a6a6dced3f219cc0c0d16de2bbb3636c4a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/sabbat_citrouilles.json"
+hash = "f3e7d4cf74285d74cf061ff2f56bf749da1828172fa73f36fed5d9ee0da4106f"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_armorer.json"
 hash = "db103a5563d670988367925c76626c405c2a285ed74a30239ca271a0f5cc5ba1"
 
@@ -909,12 +937,48 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/sim
 hash = "d59035a221895662a121894368ce9ce12f2283016f212ce84a9dca96cf3f0dfe"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/citadelle_ender.json"
+hash = "2fba010b41bf38ee868a91c3b87ee52b8b2514f927a5b79267bbbec1d17ede7c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/defi_seigneurs.json"
+hash = "2b55bee1a89e95a6aff80ff4b53342440809e14b60fd57f4ea795401896df600"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/echo_profondeurs.json"
+hash = "955ccdb41c26fdb7c13e17f1af929199b224b5bc1bc3f9e46135d939819b9854"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/gardiens_sorcellerie.json"
+hash = "a57ebb693b912af4071ca8077be0bada85a7e11299da4055299df6db126c14ae"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/morts_sans_repos.json"
+hash = "5952d2f7967b75ed9cd7dc37e5757e7793254941eeb51528e8c2077a813ea495"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/nuit_sans_fin.json"
+hash = "399bb4b668389279e74ab24ed1f11fa788de6bf825b63b2c826f661e4735ab5e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/sabbat_citrouilles.json"
+hash = "f2775ddd7758cb36cf94043c29b694e1e368001cac4244aa3ff309071c05641f"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/mixing/arcane_essence.json"
 hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
 hash = "0e6e5acfc8880fb48770420ce00eec8aa05d2f30e9147585db1df5863e04acda"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/en_us.json"
+hash = "84536e539858e43467aa6eba8eb68f10f2345800ea798f6ef5b330d3a053941c"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/fr_fr.json"
+hash = "3e9ce7efa18e97fd2b8311e14e1e706012cd0740432b5a89ac19377a81aa2f6d"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chunks.png"

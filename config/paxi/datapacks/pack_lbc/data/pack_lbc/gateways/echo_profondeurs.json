@@ -1,0 +1,184 @@
+{
+    "type":  "gateways:normal",
+    "size":  "large",
+    "color":  "#0F5E63",
+    "waves":  [
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:sculk_snapper",
+                                           "count":  4
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:sculk_leech",
+                                           "count":  4
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.1
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:sculk_snapper",
+                                          "rolls":  12
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:sculk_leech",
+                                          "rolls":  12
+                                      }
+                                  ],
+                      "max_wave_time":  1600,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:shattered",
+                                           "count":  3
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:sculk_centipede",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.15
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:shattered",
+                                          "rolls":  9
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:sculk_centipede",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  1800,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:stalker",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:shattered",
+                                           "count":  3
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:sculk_snapper",
+                                           "count":  3
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.2
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:stalker",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:shattered",
+                                          "rolls":  9
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:sculk_snapper",
+                                          "rolls":  9
+                                      }
+                                  ],
+                      "max_wave_time":  2000,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "minecraft:warden",
+                                           "count":  1
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "deeperdarker:shattered",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "minecraft:warden",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "deeperdarker:shattered",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  3000,
+                      "setup_time":  160
+                  }
+              ],
+    "rewards":  [
+                    {
+                        "type":  "gateways:loot_table",
+                        "loot_table":  "minecraft:chests/ancient_city",
+                        "rolls":  4
+                    },
+                    {
+                        "type":  "gateways:loot_table",
+                        "loot_table":  "deeperdarker:chests/ancient_temple_apex",
+                        "rolls":  1
+                    },
+                    {
+                        "type":  "gateways:experience",
+                        "experience":  1000,
+                        "orb_size":  10
+                    }
+                ],
+    "failures":  [
+                     {
+                         "type":  "gateways:explosion",
+                         "strength":  3,
+                         "fire":  false,
+                         "block_damage":  false
+                     }
+                 ],
+    "rules":  {
+                  "lives":  2,
+                  "requires_nearby_player":  true,
+                  "leash_range":  32,
+                  "remove_mobs_on_failure":  true
+              }
+}

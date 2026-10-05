@@ -1,0 +1,241 @@
+{
+    "type":  "gateways:normal",
+    "size":  "large",
+    "color":  "#D4AF37",
+    "waves":  [
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "cataclysm:ignited_revenant",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "born_in_chaos_v1:fallen_chaos_knight",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.2
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ignited_revenant",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:fallen_chaos_knight",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  2400,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "cataclysm:kobolediator",
+                                           "count":  1
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "cataclysm:wadjet",
+                                           "count":  1
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "born_in_chaos_v1:lifestealer",
+                                           "count":  1
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.25
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:kobolediator",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:wadjet",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:lifestealer",
+                                          "rolls":  3
+                                      }
+                                  ],
+                      "max_wave_time":  2800,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "irons_spellbooks:archevoker",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "born_in_chaos_v1:supreme_bonescaller",
+                                           "count":  1
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "cataclysm:ignited_berserker",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.3
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:archevoker",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:supreme_bonescaller",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ignited_berserker",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  3000,
+                      "setup_time":  160
+                  },
+                  {
+                      "entities":  [
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "cataclysm:the_prowler",
+                                           "count":  1
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "cataclysm:ignited_revenant",
+                                           "count":  2
+                                       },
+                                       {
+                                           "type":  "gateways:standard",
+                                           "entity":  "born_in_chaos_v1:fallen_chaos_knight",
+                                           "count":  2
+                                       }
+                                   ],
+                      "modifiers":  [
+                                        {
+                                            "attribute":  "generic.max_health",
+                                            "operation":  "add_multiplied_total",
+                                            "value":  0.35
+                                        }
+                                    ],
+                      "rewards":  [
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:the_prowler",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ignited_revenant",
+                                          "rolls":  6
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:fallen_chaos_knight",
+                                          "rolls":  6
+                                      }
+                                  ],
+                      "max_wave_time":  3600,
+                      "setup_time":  160
+                  }
+              ],
+    "rewards":  [
+                    {
+                        "type":  "gateways:counted",
+                        "count":  2,
+                        "reward":  {
+                                       "type":  "apotheosis:affix_item",
+                                       "rarities":  [
+                                                        "apotheosis:mythic"
+                                                    ]
+                                   }
+                    },
+                    {
+                        "type":  "gateways:counted",
+                        "count":  3,
+                        "reward":  {
+                                       "type":  "apotheosis:gem",
+                                       "purities":  [
+                                                        "perfect"
+                                                    ]
+                                   }
+                    },
+                    {
+                        "type":  "gateways:stack",
+                        "stack":  {
+                                      "id":  "minecraft:nether_star",
+                                      "count":  1,
+                                      "components":  {
+                                                         "minecraft:custom_name":  {
+                                                                                       "text":  "Trophée du Défi des Seigneurs",
+                                                                                       "color":  "gold",
+                                                                                       "italic":  false
+                                                                                   },
+                                                         "minecraft:lore":  [
+                                                                                {
+                                                                                    "text":  "Remis aux vainqueurs du Défi des Seigneurs.",
+                                                                                    "color":  "gray",
+                                                                                    "italic":  false
+                                                                                }
+                                                                            ],
+                                                         "minecraft:enchantment_glint_override":  true,
+                                                         "minecraft:rarity":  "epic"
+                                                     }
+                                  }
+                    },
+                    {
+                        "type":  "gateways:experience",
+                        "experience":  3000,
+                        "orb_size":  10
+                    }
+                ],
+    "failures":  [
+                     {
+                         "type":  "gateways:explosion",
+                         "strength":  3,
+                         "fire":  false,
+                         "block_damage":  false
+                     }
+                 ],
+    "rules":  {
+                  "lives":  2,
+                  "requires_nearby_player":  true,
+                  "leash_range":  32,
+                  "remove_mobs_on_failure":  true
+              }
+}
