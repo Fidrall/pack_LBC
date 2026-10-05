@@ -1114,6 +1114,11 @@ hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
 
 [[files]]
+file = "mods/aaa-particles.pw.toml"
+hash = "68ffacdc44875989d8aba81e8663ce48bafb1a87b764d64ebac763bffd506002"
+metafile = true
+
+[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
@@ -1169,6 +1174,11 @@ hash = "82a03261a6006cda13232610752623abf41552203e26309f4e899de8ad87ace4"
 metafile = true
 
 [[files]]
+file = "mods/ancient-remnants.pw.toml"
+hash = "c8f2f0d17554c0c5cb857452e35e18020935d583079a0ebcccc2d8af6de08cec"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis-x-irons-spellbooks-compat.pw.toml"
 hash = "ca1984d2c3388cadb5273148883343d40cfa33500cea4a6262162dd25c9285e0"
 metafile = true
@@ -1196,6 +1206,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
+metafile = true
+
+[[files]]
+file = "mods/archaion.pw.toml"
+hash = "1a9f2c8d93b08d17cdb143665fef4107a03410ff21394458c448eec796487511"
 metafile = true
 
 [[files]]
@@ -1371,6 +1386,11 @@ metafile = true
 [[files]]
 file = "mods/create-aquatic-ambitions.pw.toml"
 hash = "ad732ada7e42c44f0d5eaf45f5edfb7e90bc615ba6e50a3bb974250dfb36e83f"
+metafile = true
+
+[[files]]
+file = "mods/create-bionics.pw.toml"
+hash = "124abaf71e87fc686427821889dcc65ba6b709003c426fbc069aeec5747c5a7a"
 metafile = true
 
 [[files]]
@@ -1675,7 +1695,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "d70ea8c5aef98383e68a8cc6bb9b0441b1e51f0eef17d418c6f431c596d60f99"
+hash = "a36ff0728cf99bb5adfe114d32fce1a42483291aee9312aabb5cf5642b97264e"
 metafile = true
 
 [[files]]
