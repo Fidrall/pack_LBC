@@ -5,5 +5,11 @@
     "pack_lbc.echo_profondeurs":  "Portail de l\u0027Écho des profondeurs",
     "pack_lbc.gardiens_sorcellerie":  "Portail des Gardiens de la sorcellerie",
     "pack_lbc.citadelle_ender":  "Portail de la Citadelle de l\u0027Ender",
-    "pack_lbc.defi_seigneurs":  "Portail du Défi des Seigneurs"
+    "pack_lbc.defi_seigneurs":  "Portail du Défi des Seigneurs",
+    "reward.pack_lbc.deeperdarker.chests.ancient_temple_apex":  "Trésor du temple de l\u0027Otherside",
+    "reward.pack_lbc.irons_spellbooks.chests.additional_good_loot":  "Butin magique",
+    "reward.pack_lbc.irons_spellbooks.chests.citadel.citadel_tomes":  "Tomes de la citadelle",
+    "reward.pack_lbc.minecraft.chests.ancient_city":  "Butin de cité antique",
+    "reward.pack_lbc.minecraft.chests.end_city_treasure":  "Trésor de cité de l\u0027End",
+    "reward.pack_lbc.minecraft.chests.simple_dungeon":  "Butin de donjon"
 }

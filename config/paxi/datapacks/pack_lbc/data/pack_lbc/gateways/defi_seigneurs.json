@@ -201,17 +201,9 @@
                                       "id":  "minecraft:nether_star",
                                       "count":  1,
                                       "components":  {
-                                                         "minecraft:custom_name":  {
-                                                                                       "text":  "Trophée du Défi des Seigneurs",
-                                                                                       "color":  "gold",
-                                                                                       "italic":  false
-                                                                                   },
+                                                         "minecraft:custom_name":  "{\"text\":\"Trophée du Défi des Seigneurs\",\"color\":\"gold\",\"italic\":false}",
                                                          "minecraft:lore":  [
-                                                                                {
-                                                                                    "text":  "Remis aux vainqueurs du Défi des Seigneurs.",
-                                                                                    "color":  "gray",
-                                                                                    "italic":  false
-                                                                                }
+                                                                                "{\"text\":\"Remis aux vainqueurs du Défi des Seigneurs.\",\"color\":\"gray\",\"italic\":false}"
                                                                             ],
                                                          "minecraft:enchantment_glint_override":  true,
                                                          "minecraft:rarity":  "epic"

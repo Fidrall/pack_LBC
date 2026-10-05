@@ -168,7 +168,8 @@
                     {
                         "type":  "gateways:loot_table",
                         "loot_table":  "minecraft:chests/end_city_treasure",
-                        "rolls":  4
+                        "rolls":  4,
+                        "desc":  "reward.pack_lbc.minecraft.chests.end_city_treasure"
                     },
                     {
                         "type":  "gateways:counted",

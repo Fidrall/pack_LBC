@@ -142,7 +142,7 @@ hash = "bc8d56bbffc39b672dbe03438965c00dde2059d2925889417ef1591fe21439ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_addons.snbt"
-hash = "02627ce1af4d01b6f05d694ff4e1b6ee12232e1ef684af2c961c13fcd0bc7894"
+hash = "ba3f066d920fc3aa2cfd4d205abf542ce5ed4f38b07f9e74ed40fbb504d4bced"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_basic.snbt"
@@ -150,7 +150,7 @@ hash = "bb846c6608f78ac8b851c3ea603eb0c1307894af3e4049c2e22dc314d86d3a1a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creatures.snbt"
-hash = "37583b8692693073f2ec615b8efccb6f4c6005105a303a69019a713fcb06e8f3"
+hash = "ac53fe350aa56475c8398df6589d305e16865abc1e3f45b549f8d1b516cc8185"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
@@ -214,7 +214,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "90a391defd6fbf91c4a9c5e71f4be1dcf701187160e37a91bf2ab615d1994514"
+hash = "8c5bdb131a02033291dcb5e3388a0729ec86d6996dbc93944008c27f0d890acd"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -222,7 +222,7 @@ hash = "1237ecf47ff3c7c38cc0d3fa4303d861d2dd9b925d40b141e777f974ef3cbc2f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/epique.snbt"
-hash = "02f67441007ee8170304142d9c7d12cfdab2ec327a224da92d99445047177150"
+hash = "9da98d23107d5bbb754ecd973c00308eb3fe18296a0e4990b541f0eb45a3e89e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
@@ -247,6 +247,18 @@ hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/archaion/worldgen/structure/ancient_keep.json"
+hash = "d957217f6808d94badf23b0bb6d45725aacbda39e59ad8ea086c5304bf5837f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/archaion/worldgen/template_pool/ancient_keep/rooms.json"
+hash = "e0edb123d98354d5b6fbc00c9c32b387681558f6ce1c7371af3c8b70dfe00475"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/archaion/worldgen/template_pool/ancient_keep/rooms_x.json"
+hash = "2730c22ab2eb913e7256008858f3920e2690b757be0bf26030b7ae6ec641c815"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/baby_skeleton_biome_modifier.json"
@@ -458,19 +470,19 @@ hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
-hash = "5de2a44b52b62f2ea93a27a64757ef5833a105e75db7f654d58dccf454fa8f5f"
+hash = "db8ec27f6d4bcf75516fd2793c9f6449210b324d1b006a27b41133e47d38954b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/defi_seigneurs.json"
-hash = "8eae9262e139126064928d5c21e4de312ce94579e7b3347ad6a118c7b785e139"
+hash = "a36c579de0a304fe4d65f9d61886fdc76cbdb873bb8fc3e018179f2fa916391b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/echo_profondeurs.json"
-hash = "71b0691ffdc8afbc7f5533eb3d3bf02bd6a01bd243f5efb3ab0f8f90ccc1dac2"
+hash = "f561a3a8590e09a761b55825d5749fb9bf0d8e21ab5807d6c8c3a10160c4e4d9"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/gardiens_sorcellerie.json"
-hash = "fe27dd79a7e22224f98ad45578e2bf3aeb820daec63b7bcc5dbd5ea5f652106f"
+hash = "76d41fa68859a870031539dd34ae28c07925f8d8c90c93db7d1102796170bd1b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/morts_sans_repos.json"
@@ -478,7 +490,7 @@ hash = "c3360d563b2d8a55805fb10a3e3320fd275f40792f1c4d32329a9720f80a1355"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/nuit_sans_fin.json"
-hash = "a6a99f2f65fb7cd7a4240d16e53d82e7f2a9c8e3c55cea28a4b155d5c91e9317"
+hash = "c8b498d5f24b36871a7557c37214fc261b6a9ebd696a9cd3b4c47522eb6fdcdc"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/sabbat_citrouilles.json"
@@ -969,16 +981,20 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/mixing/arcane_essenc
 hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/archaion/start.json"
+hash = "d06c17d862488f8dfcecf8a6f43d9bb42868a0fc14b370b9992786698734c10e"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
 hash = "0e6e5acfc8880fb48770420ce00eec8aa05d2f30e9147585db1df5863e04acda"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/en_us.json"
-hash = "84536e539858e43467aa6eba8eb68f10f2345800ea798f6ef5b330d3a053941c"
+hash = "0879e51cd367fe8b4d7f93af15edf8a620fff0e8dd0c340574426ef76dc91acd"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/fr_fr.json"
-hash = "3e9ce7efa18e97fd2b8311e14e1e706012cd0740432b5a89ac19377a81aa2f6d"
+hash = "294f5afe41734b4d1522d84635d1222fe8664d785187d2dd0ecdac0b21c8df2a"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chunks.png"

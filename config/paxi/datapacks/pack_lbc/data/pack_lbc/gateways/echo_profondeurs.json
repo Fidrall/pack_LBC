@@ -154,12 +154,14 @@
                     {
                         "type":  "gateways:loot_table",
                         "loot_table":  "minecraft:chests/ancient_city",
-                        "rolls":  4
+                        "rolls":  4,
+                        "desc":  "reward.pack_lbc.minecraft.chests.ancient_city"
                     },
                     {
                         "type":  "gateways:loot_table",
                         "loot_table":  "deeperdarker:chests/ancient_temple_apex",
-                        "rolls":  1
+                        "rolls":  1,
+                        "desc":  "reward.pack_lbc.deeperdarker.chests.ancient_temple_apex"
                     },
                     {
                         "type":  "gateways:experience",

@@ -184,7 +184,8 @@
                     {
                         "type":  "gateways:loot_table",
                         "loot_table":  "minecraft:chests/simple_dungeon",
-                        "rolls":  6
+                        "rolls":  6,
+                        "desc":  "reward.pack_lbc.minecraft.chests.simple_dungeon"
                     },
                     {
                         "type":  "gateways:experience",

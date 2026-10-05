@@ -80,10 +80,10 @@ $Quests = @(
      d=@('Souffler dans le &eCor de Vision&r fait briller les créatures autour de toi : parfait pour repérer les illagers cachés.') }
 
   # --- Friends and Foes (droite)
-  @{ k='fnf'; x=6; y=0; size=1.5; deps=@('intro'); tasks=@('@check'); checkTitle='Clique pour valider'; icon='friendsandfoes:copper_golem_head'
+  @{ k='fnf'; x=6; y=0; size=1.5; deps=@('intro'); tasks=@('@check'); checkTitle='Clique pour valider'; icon='minecraft:copper_block'
      t='&aFriends and Foes'; st='Les créatures oubliées des votes'
      d=@('&aFriends and Foes&r ajoute les créatures des votes de Mojang qui n''ont jamais été ajoutées au jeu : golem de cuivre, Glare, Moobloom, Mauler, Iceologer, Wildfire, Rascal, Crabe, Tuff Golem…') }
-  @{ k='coppergolem'; x=7.5; y=0; deps=@('fnf'); tasks=@('friendsandfoes:copper_golem_head'); crate='commune'
+  @{ k='coppergolem'; x=7.5; y=0; deps=@('fnf'); tasks=@('@check'); checkTitle='Golem de cuivre construit !'; crate='commune'
      t='Le Golem de Cuivre'; st='Un petit assistant'
      d=@('Construis un &eGolem de Cuivre&r (regarde la recette de sa tête dans JEI). Il appuie sur les boutons en cuivre au hasard.',
          '',

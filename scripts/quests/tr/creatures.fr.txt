@@ -116,6 +116,7 @@ quest.60AF2FC964E72731.quest_desc: [
   ""
   "Comme le cuivre, il s'oxyde avec le temps… et finit par se figer !"
 ]
+task.641E02CD66606C20.title: "Golem de cuivre construit !"
 quest.0DE4AE6DCA1420BD.title: "La pince de crabe"
 quest.0DE4AE6DCA1420BD.quest_subtitle: "Une portée plus longue"
 quest.0DE4AE6DCA1420BD.quest_desc: [

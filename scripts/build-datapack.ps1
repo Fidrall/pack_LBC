@@ -119,7 +119,7 @@ W 'data/pack_lbc/recipe/compat/uranium_rod_assembly.json' ([ordered]@{
 # Noms : resource pack config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/*.json (cle pack_lbc.<id>)
 function Mob($id, $n) { [ordered]@{ type = 'gateways:standard'; entity = $id; count = $n } }
 function Loot($id, $r) { [ordered]@{ type = 'gateways:entity_loot'; entity = $id; rolls = $r } }
-function Chest($t, $r) { [ordered]@{ type = 'gateways:loot_table'; loot_table = $t; rolls = $r } }
+function Chest($t, $r) { [ordered]@{ type = 'gateways:loot_table'; loot_table = $t; rolls = $r; desc = 'reward.pack_lbc.' + ($t -replace '[:/]', '.') } }
 function Xp($n) { [ordered]@{ type = 'gateways:experience'; experience = $n; orb_size = 10 } }
 function Affix($n, $rar) { [ordered]@{ type = 'gateways:counted'; count = $n; reward = [ordered]@{ type = 'apotheosis:affix_item'; rarities = @($rar) } } }
 function Gem($n, $pur) { [ordered]@{ type = 'gateways:counted'; count = $n; reward = [ordered]@{ type = 'apotheosis:gem'; purities = @($pur) } } }
@@ -186,8 +186,8 @@ Gate 'citadelle_ender' 'large' '#C25BE6' @(
 ) @((Chest 'minecraft:chests/end_city_treasure' 4), (Gem 3 'flawless'), (Affix 1 'apotheosis:epic'), (Xp 1200)) 2 @('SCS', 'CEC', 'SCS') ([ordered]@{ S = @{ item = 'minecraft:shulker_shell' }; C = @{ item = 'minecraft:popped_chorus_fruit' }; E = @{ item = 'minecraft:ender_eye' } })
 # Le Defi des Seigneurs (fin de jeu) : trophee unique
 $trophy = [ordered]@{ type = 'gateways:stack'; stack = [ordered]@{ id = 'minecraft:nether_star'; count = 1; components = [ordered]@{
-    'minecraft:custom_name' = [ordered]@{ text = 'Trophée du Défi des Seigneurs'; color = 'gold'; italic = $false }
-    'minecraft:lore' = @([ordered]@{ text = 'Remis aux vainqueurs du Défi des Seigneurs.'; color = 'gray'; italic = $false })
+    'minecraft:custom_name' = '{"text":"Trophée du Défi des Seigneurs","color":"gold","italic":false}'
+    'minecraft:lore' = @('{"text":"Remis aux vainqueurs du Défi des Seigneurs.","color":"gray","italic":false}')
     'minecraft:enchantment_glint_override' = $true; 'minecraft:rarity' = 'epic' } } }
 Gate 'defi_seigneurs' 'large' '#D4AF37' @(
     (Wave @((Mob 'cataclysm:ignited_revenant' 2), (Mob "$($bic):fallen_chaos_knight" 2)) 0.2 2400),
@@ -195,6 +195,23 @@ Gate 'defi_seigneurs' 'large' '#D4AF37' @(
     (Wave @((Mob 'irons_spellbooks:archevoker' 2), (Mob "$($bic):supreme_bonescaller" 1), (Mob 'cataclysm:ignited_berserker' 2)) 0.3 3000),
     (Wave @((Mob 'cataclysm:the_prowler' 1), (Mob 'cataclysm:ignited_revenant' 2), (Mob "$($bic):fallen_chaos_knight" 2)) 0.35 3600)
 ) @((Affix 2 'apotheosis:mythic'), (Gem 3 'perfect'), $trophy, (Xp 3000)) 2 @('IWI', 'DND', 'IWI') ([ordered]@{ I = @{ item = 'cataclysm:ignitium_ingot' }; W = @{ item = 'cataclysm:witherite_ingot' }; D = @{ item = 'minecraft:diamond_block' }; N = @{ item = 'minecraft:nether_star' } })
+
+# ---------- 7. Correctifs Archaion (bug du mod, toutes versions 1.4.x) ----------
+# misc_room.nbt et misc_room_x.nbt sont vides dans le jar -> retires des pools.
+# start_jigsaw "arena_mainhall" n'existe que dans arena_hall -> pool de depart reduit a arena_hall.
+# Copies d'origine : scripts/data/archaion/*-orig.json (a reverifier si Archaion est mis a jour).
+$ad = Join-Path $PSScriptRoot 'data\archaion'
+foreach ($pool in 'rooms', 'rooms_x') {
+    $j = Get-Content (Join-Path $ad "$pool-template_pool-orig.json") -Raw | ConvertFrom-Json
+    $j.elements = @($j.elements | Where-Object { $_.element.location -notmatch 'misc_room' })
+    W "data/archaion/worldgen/template_pool/ancient_keep/$pool.json" $j
+}
+$j = Get-Content (Join-Path $ad 'main_path-template_pool-orig.json') -Raw | ConvertFrom-Json
+$j.elements = @($j.elements | Where-Object { $_.element.location -eq 'archaion:ancient_keep/arena_hall' })
+W 'data/pack_lbc/worldgen/template_pool/archaion/start.json' $j
+$j = Get-Content (Join-Path $ad 'ancient_keep-structure-orig.json') -Raw | ConvertFrom-Json
+$j.start_pool = 'pack_lbc:archaion/start'
+W 'data/archaion/worldgen/structure/ancient_keep.json' $j
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

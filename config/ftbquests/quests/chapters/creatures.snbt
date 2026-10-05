@@ -325,7 +325,7 @@
 		{
 			dependencies: ["6AF530358EE9745A"]
 			icon: {
-				id: "friendsandfoes:copper_golem_head"
+				id: "minecraft:copper_block"
 			}
 			id: "064A83B56235884F"
 			size: 1.5d
@@ -356,10 +356,8 @@
 			]
 			tasks: [
 				{
-					count: 1L
 					id: "641E02CD66606C20"
-					item: { count: 1, id: "friendsandfoes:copper_golem_head" }
-					type: "item"
+					type: "checkmark"
 				}
 			]
 			x: 7.5d

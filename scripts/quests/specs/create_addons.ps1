@@ -65,7 +65,7 @@ $Quests = @(
   @{ k='roost'; x=-1.5; y=4.5; deps=@('drilling'); tasks=@('create_integrated_farming:fishing_net'); crate='commune'
      t='Fermes intégrées'; st='Create: Integrated Farming'
      d=@('Perchoirs à poules (et autres volailles), filets de pêche (même dans la lave !) et &eAspirateur à Récoltes&r : de quoi automatiser les fermes avec Create.') }
-  @{ k='dyes'; x=0; y=6; deps=@('roost','jetpack'); tasks=@('create_dragons_plus:dye_bucket'); crate='commune'; optional=$true
+  @{ k='dyes'; x=0; y=6; deps=@('roost','jetpack'); tasks=@('create_dragons_plus:red_dye_bucket'); crate='commune'; optional=$true
      t='Teintures liquides'; st='Create: Dragons Plus'
      d=@('&eDragons Plus&r ajoute des &eteintures liquides&r pour teindre en masse avec un ventilateur, des réservoirs fragiles, et d''autres petits outils pratiques.') }
 )

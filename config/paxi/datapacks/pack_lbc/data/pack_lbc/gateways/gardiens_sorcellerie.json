@@ -174,12 +174,14 @@
                     {
                         "type":  "gateways:loot_table",
                         "loot_table":  "irons_spellbooks:chests/additional_good_loot",
-                        "rolls":  4
+                        "rolls":  4,
+                        "desc":  "reward.pack_lbc.irons_spellbooks.chests.additional_good_loot"
                     },
                     {
                         "type":  "gateways:loot_table",
                         "loot_table":  "irons_spellbooks:chests/citadel/citadel_tomes",
-                        "rolls":  1
+                        "rolls":  1,
+                        "desc":  "reward.pack_lbc.irons_spellbooks.chests.citadel.citadel_tomes"
                     },
                     {
                         "type":  "gateways:experience",
