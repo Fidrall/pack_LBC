@@ -66,7 +66,11 @@ hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
-hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
+hash = "106776fd58266c7c4ae17d82b2cec7bfece3b635c669cecf3e8d9d3a36e6830f"
+
+[[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "99a579cfbb550550b514ecf82f6d8a40253ed4c6869323def2c2926f91bc4842"
 
 [[files]]
 file = "config/betterstrongholds-neoforge-1_21.toml"
@@ -87,6 +91,10 @@ hash = "23e352d3eccad9814e001d1bd4ef7dd506b52900c737b34051c8c0b3d8c6cf4e"
 [[files]]
 file = "config/create_connected-common.toml"
 hash = "7df3120878b5c8062afc6b7fb38000264d82cc28067850f077838d5f7af78e2f"
+
+[[files]]
+file = "config/create_enchantment_industry-server.toml"
+hash = "e4d5a42e7f12e8fe39d1be57f807e7eb647e0b43af6c8fdbfe1ace8587ce8652"
 
 [[files]]
 file = "config/dragonfight.json"
@@ -231,6 +239,10 @@ hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 [[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/worldgen/structure_set/towers.json"
+hash = "635f556942f820001f8210bf53889822f9119c5f8ca185a92e1ab3e346872c00"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/baby_skeleton_biome_modifier.json"
