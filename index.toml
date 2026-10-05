@@ -218,7 +218,7 @@ hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "ade18d5fa7f569ff3e9e5bb5097cbc354272d19ac812b91466a0720e6c33b464"
+hash = "74cbff2c0c92195c0242968388461bce957f5fea8896d7bcd1843c4c757ec119"
 
 [[files]]
 file = "config/irons_spellbooks-server.toml"

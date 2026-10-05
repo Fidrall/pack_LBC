@@ -1,7 +1,7 @@
 [
   {
     "mod": "born_in_chaos_v1",
-    "maxspawndist": 750,
+    "maxspawndist": 2000,
     "result": "deny"
   },
   {
