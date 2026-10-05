@@ -208,3 +208,4 @@ mr | sophisticated-storage-create-integration | conserver | coffres Sophisticate
 mr | borninchaos | jetable | monstres d'horreur + boss (apparitions -40 %, plafond 40, pas a moins de 2000 blocs du spawn)
 mr | in-control | qol | regles d'apparition (config/incontrol/spawn.json)
 mr | kSsLSjEt | jetable | Alex's Caves (portage non officiel 1.21.1, + Citadel port) ; compat New Age refaite dans le datapack
+mr | default-options | client | options/touches par defaut (config/defaultoptions, repris de l'ancien pack)
