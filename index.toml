@@ -458,31 +458,31 @@ hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
-hash = "e9f190469d4c3c2da5f5aff6318e7a358cdd1bf9da99b63f2e127574ae0a2b25"
+hash = "5de2a44b52b62f2ea93a27a64757ef5833a105e75db7f654d58dccf454fa8f5f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/defi_seigneurs.json"
-hash = "cc57c64a15a54060e1c0005ae2acfa112bb5ed8359b3a0528109c2e64dc1c38e"
+hash = "8eae9262e139126064928d5c21e4de312ce94579e7b3347ad6a118c7b785e139"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/echo_profondeurs.json"
-hash = "8bee53e727ffdcf401d4a6cf0c8e27c015af888edcd0799597509c7dbb2c60ef"
+hash = "71b0691ffdc8afbc7f5533eb3d3bf02bd6a01bd243f5efb3ab0f8f90ccc1dac2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/gardiens_sorcellerie.json"
-hash = "c4d52c8a49b6fe5227b70babc1d6bb936384cbb43deb93f7e4f0130fa8a5909a"
+hash = "fe27dd79a7e22224f98ad45578e2bf3aeb820daec63b7bcc5dbd5ea5f652106f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/morts_sans_repos.json"
-hash = "06b0e5666637bd6355e6bd0413a5774b18a9b2f2e0df4a9b88d097ef778a10e3"
+hash = "c3360d563b2d8a55805fb10a3e3320fd275f40792f1c4d32329a9720f80a1355"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/nuit_sans_fin.json"
-hash = "2f87b7f72924cb0ae0497b526cdbc7a6a6dced3f219cc0c0d16de2bbb3636c4a"
+hash = "a6a99f2f65fb7cd7a4240d16e53d82e7f2a9c8e3c55cea28a4b155d5c91e9317"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/sabbat_citrouilles.json"
-hash = "f3e7d4cf74285d74cf061ff2f56bf749da1828172fa73f36fed5d9ee0da4106f"
+hash = "bef8aacd08c6ef40592fef3418f56541d869a7fbf20aa24ead7ceb61f098bd8c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_armorer.json"

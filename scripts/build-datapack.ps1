@@ -133,7 +133,7 @@ function Gate($id, $size, $color, $waves, $rewards, $lives, $pattern, $key) {
     W "data/pack_lbc/gateways/$id.json" ([ordered]@{
         type = 'gateways:normal'; size = $size; color = $color; waves = @($waves); rewards = @($rewards)
         failures = @([ordered]@{ type = 'gateways:explosion'; strength = 3; fire = $false; block_damage = $false })
-        rules = [ordered]@{ lives = $lives; requires_nearby_player = $true; leash_range = 32.0; remove_mobs_on_failure = $true }
+        rules = [ordered]@{ lives = $lives; requires_nearby_player = $true; leash_range = 100.0; remove_mobs_on_failure = $true }
     })
     W "data/pack_lbc/recipe/gateways/$id.json" ([ordered]@{
         'neoforge:conditions' = @(@{ type = 'neoforge:mod_loaded'; modid = 'gateways' })
