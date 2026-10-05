@@ -1155,6 +1155,11 @@ hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
 metafile = true
 
 [[files]]
+file = "mods/alshanexs-familiars.pw.toml"
+hash = "58028dd92ca88c55cc748d8e313eb3354caad602f9cf138a13b46902e5c4fab7"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "82a03261a6006cda13232610752623abf41552203e26309f4e899de8ad87ace4"
 metafile = true
@@ -1312,6 +1317,11 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
+metafile = true
+
+[[files]]
+file = "mods/companion.pw.toml"
+hash = "a9fd327bb8855bdf68fbe88e17936ba866ea608bf2def5154fc52e0c1fe9514b"
 metafile = true
 
 [[files]]
@@ -1555,6 +1565,11 @@ hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
+file = "mods/doggy-talents-next.pw.toml"
+hash = "4dc4b35767b1869c41addaa0cd8f26d8ec55d01e75efd3a2a01dd43420cc7f45"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
 metafile = true
@@ -1602,6 +1617,11 @@ metafile = true
 [[files]]
 file = "mods/explorify.pw.toml"
 hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
+metafile = true
+
+[[files]]
+file = "mods/familiarslib.pw.toml"
+hash = "60307914360d9611389c6b3ab0221508e32d3697b6edf25258072d9fab5a4438"
 metafile = true
 
 [[files]]
@@ -1815,6 +1835,11 @@ hash = "7905c08f37d8ebde50a5330a7dd10029de6259b0cb8adbde1170d93ea20218a7"
 metafile = true
 
 [[files]]
+file = "mods/kiwi.pw.toml"
+hash = "84f4b09b7ef3ef75478cfa6d126951958444d612375c99b1c4e7e6bdbef28c1c"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
@@ -1960,6 +1985,16 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
+file = "mods/petprotect.pw.toml"
+hash = "09a0d9dbcec314df123a10cd560d70126365c0f15c9316376035f7f773aa7703"
+metafile = true
+
+[[files]]
+file = "mods/petting.pw.toml"
+hash = "be208614f5b8f9a4ed474c6c01f31c36899fd0d0f0cb08e81aa403d54251e698"
+metafile = true
+
+[[files]]
 file = "mods/philips-ruins.pw.toml"
 hash = "2488bf19149e671ab9fc63823029b19ebae6c4eeabb7ff748c0be341758a246b"
 metafile = true
@@ -1982,6 +2017,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6b1ee632cee2d75301016eaac99a3446ad605f11fbfda631effac0eb7da59f6c"
+metafile = true
+
+[[files]]
+file = "mods/redomesticate.pw.toml"
+hash = "22d57fd6dda25bc073bd259942b628195236cc8926639b9168355ddd92f0eb3c"
 metafile = true
 
 [[files]]
@@ -2157,6 +2197,11 @@ metafile = true
 [[files]]
 file = "mods/waystones-sable.pw.toml"
 hash = "c452c85bb210ec721793610924e61bd11d7c67b46815ac49106fd851dc1e877c"
+metafile = true
+
+[[files]]
+file = "mods/waystones-teleport-pets.pw.toml"
+hash = "2966bd8471246286be3d42515c7e89ca07ba7afd606f00ef6ffdc9a6ce150a1c"
 metafile = true
 
 [[files]]

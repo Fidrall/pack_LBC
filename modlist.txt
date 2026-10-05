@@ -210,3 +210,10 @@ mr | in-control | qol | regles d'apparition (config/incontrol/spawn.json)
 mr | kSsLSjEt | jetable | Alex's Caves (portage non officiel 1.21.1, + Citadel port) ; compat New Age refaite dans le datapack
 mr | default-options | client | options/touches par defaut (config/defaultoptions, repris de l'ancien pack)
 mr | gateways-to-eternity | jetable | portails a vagues (fin de jeu combat ; portails Apotheosis + portails pack_lbc)
+mr | petting | jetable | dompter tout mob (liste blanche a configurer : config/petting-common.toml)
+mr | redomesticate | jetable | enchantements de compagnons
+mr | doggy-talents-next | jetable | loups a talents
+mr | alshanexs-familiars | jetable | familiers Iron's Spells (+ familiarslib)
+mr | petprotect | qol | compagnons proteges en PvP
+mr | companion | qol | ne pas perdre ses compagnons (+ Kiwi)
+mr | waystones-teleport-pets | qol | compagnons suivent par Waystone
