@@ -209,3 +209,4 @@ mr | borninchaos | jetable | monstres d'horreur + boss (apparitions -40 %, plafo
 mr | in-control | qol | regles d'apparition (config/incontrol/spawn.json)
 mr | kSsLSjEt | jetable | Alex's Caves (portage non officiel 1.21.1, + Citadel port) ; compat New Age refaite dans le datapack
 mr | default-options | client | options/touches par defaut (config/defaultoptions, repris de l'ancien pack)
+mr | gateways-to-eternity | jetable | portails a vagues (fin de jeu combat ; portails Apotheosis + portails pack_lbc)
