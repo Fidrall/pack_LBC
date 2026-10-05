@@ -1,0 +1,31 @@
+# pack_LBC : dressage facon ARK (voir modlist.txt)
+# Liste blanche uniquement, objet de dressage par creature, creature affaiblie (50 %) et deja tuee une fois.
+# Pas de boss, pas de titans, rien d'Alex's Caves ni de Cataclysm, rien qui s'apprivoise deja par son propre mod.
+# Les cles absentes de ce fichier sont completees par NeoForge avec leurs valeurs par defaut.
+
+["General Settings"]
+	disableRespawnOnTame = true
+	requireKillToTame = true
+	tameHealthThreshold = 0.5
+	tameChance = 0.33
+	healthScalesTamingChance = false
+	maxPetsPerPlayer = 10
+	allowGoldenWheat = false
+	hideTamedBossBars = true
+
+["Behavior & AI Settings"]
+	preventPetToOwnerDamage = true
+
+["Pet Riding Settings"]
+	allowPetRiding = true
+	mountRequireSaddle = true
+	ridingWhitelistOnly = true
+	ridingWhitelist = ["minecraft:spider", "minecraft:polar_bear", "minecraft:hoglin", "twilightforest:boar", "minecraft:ravager", "minecraft:zoglin", "twilightforest:minotaur", "twilightforest:troll", "twilightforest:yeti", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:felsteed", "friendsandfoes:mauler", "deeperdarker:sculk_snapper"]
+
+["Whitelist Settings"]
+	whitelistOnly = true
+	tamingWhitelist = ["minecraft:spider", "minecraft:polar_bear", "minecraft:hoglin", "minecraft:iron_golem", "mowziesmobs:grottol", "mowziesmobs:lantern", "twilightforest:boar", "twilightforest:kobold", "twilightforest:mist_wolf", "born_in_chaos_v1:thornshell_crab", "minecraft:ravager", "minecraft:zoglin", "minecraft:piglin_brute", "twilightforest:minotaur", "twilightforest:troll", "twilightforest:yeti", "twilightforest:winter_wolf", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:felsteed", "born_in_chaos_v1:pumpkin_bruiser", "illagerinvasion:basher", "illagerinvasion:marauder", "friendsandfoes:mauler", "deeperdarker:sculk_snapper"]
+
+["Custom Taming Settings"]
+	customTamingItems = ["minecraft:spider|minecraft:spider_eye", "minecraft:polar_bear|minecraft:salmon", "minecraft:hoglin|minecraft:crimson_fungus", "minecraft:iron_golem|minecraft:iron_block", "mowziesmobs:grottol|minecraft:diamond", "mowziesmobs:lantern|minecraft:glow_berries", "twilightforest:boar|twilightforest:raw_meef", "twilightforest:kobold|minecraft:gold_ingot", "twilightforest:mist_wolf|minecraft:bone", "born_in_chaos_v1:thornshell_crab|born_in_chaos_v1:smoked_fish", "minecraft:ravager|minecraft:emerald_block", "minecraft:zoglin|minecraft:warped_fungus", "minecraft:piglin_brute|minecraft:gold_block", "twilightforest:minotaur|twilightforest:knightmetal_ingot", "twilightforest:troll|twilightforest:trollsteinn", "twilightforest:yeti|twilightforest:arctic_fur", "twilightforest:winter_wolf|twilightforest:ice_bomb", "born_in_chaos_v1:dread_hound|born_in_chaos_v1:gnawed_bones", "born_in_chaos_v1:dire_hound_leader|born_in_chaos_v1:fangofthe_hound_leader", "born_in_chaos_v1:felsteed|born_in_chaos_v1:dark_metal_ingot", "born_in_chaos_v1:pumpkin_bruiser|minecraft:pumpkin_pie", "illagerinvasion:basher|illagerinvasion:hallowed_gem", "illagerinvasion:marauder|illagerinvasion:hallowed_gem", "friendsandfoes:mauler|minecraft:salmon", "deeperdarker:sculk_snapper|minecraft:echo_shard"]
+	petCategories = ["1|Compagnons|minecraft:spider,minecraft:polar_bear,minecraft:hoglin,minecraft:iron_golem,mowziesmobs:grottol,mowziesmobs:lantern,twilightforest:boar,twilightforest:kobold,twilightforest:mist_wolf,born_in_chaos_v1:thornshell_crab|6", "2|Betes de guerre|minecraft:ravager,minecraft:zoglin,minecraft:piglin_brute,twilightforest:minotaur,twilightforest:troll,twilightforest:yeti,twilightforest:winter_wolf,born_in_chaos_v1:dread_hound,born_in_chaos_v1:dire_hound_leader,born_in_chaos_v1:felsteed,born_in_chaos_v1:pumpkin_bruiser,illagerinvasion:basher,illagerinvasion:marauder,friendsandfoes:mauler,deeperdarker:sculk_snapper|4"]

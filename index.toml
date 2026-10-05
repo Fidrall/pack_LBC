@@ -1081,6 +1081,10 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/pack.mcmeta"
 hash = "04b4c8c899bb07579f46dbe862815f694a23f9f6a9bc58263a02c818442ad37b"
 
 [[files]]
+file = "config/petting-common.toml"
+hash = "8a66e38937c7f23aaa4cfc3f64859f68b80cebd5288782c70a165dfb843b4a9d"
+
+[[files]]
 file = "config/phantasm.json"
 hash = "0257c15307e9f0ddc8c72a2ed2d2078440d57052a8e8d854023974b5251145aa"
 
