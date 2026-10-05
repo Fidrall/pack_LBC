@@ -61,9 +61,11 @@ Get-ChildItem $mods -Filter *.jar | Where-Object { $wanted -notcontains $_.Name 
 & (Join-Path $PSScriptRoot "build-datapack.ps1") | Out-Null
 $oldDp = Join-Path $out "world"
 if (Test-Path $oldDp) { Remove-Item -LiteralPath $oldDp -Recurse -Force }
-# Configs du pack (si presentes) + reglages serveur
+# Configs du pack (si presentes) + reglages serveur ; dossier vide avant copie pour ne pas garder les configs de mods retires
 foreach ($d in "config", "defaultconfigs") {
     $src = Join-Path $root $d
+    $dst = Join-Path $out $d
+    if (Test-Path $dst) { Remove-Item -LiteralPath $dst -Recurse -Force }
     if (Test-Path $src) { Copy-Item $src $out -Recurse -Force }
 }
 $srv = Join-Path $PSScriptRoot "server"
