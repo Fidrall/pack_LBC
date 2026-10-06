@@ -53,7 +53,7 @@ mr | tectonic | conserver |
 
 ## --- Structures (conserver : blocs vanilla / loot) ---
 mr | lootr | conserver | loot par joueur
-mr | structurify | conserver | controle des structures : espacement, anti-chevauchement, terrain plat (remplace Sparse Structures ; config a faire apres 1er lancement)
+mr | structurify | conserver | structures : espacement x1.25 + anti-chevauchement (config/structurify.json, remplace Sparse Structures)
 mr | dungeons-and-taverns | conserver |
 mr | structory | conserver |
 mr | structory-towers | conserver |
