@@ -2498,7 +2498,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "9f4c337ec1ed5a00cbc1a75caf8b6e3ab661b3f61092d733f3a2a3dd28547190"
+hash = "21c1138256aa101ea13c81a3a86b7ae8e87a74d02d477f8ba81eb6e8d1ac677f"
 
 [[files]]
 file = "config/tectonic.json"
