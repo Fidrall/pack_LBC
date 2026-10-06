@@ -1,0 +1,32 @@
+{
+    "type":  "minecraft:generic",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:furled_map",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "cataclysm:ruined_citadel",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Citadelle en ruine"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:the_end"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Citadelle en ruine\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Cataclysm - End]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

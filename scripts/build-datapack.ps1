@@ -225,5 +225,64 @@ foreach ($g in ($fam | Group-Object source_set)) {
     $i++
 }
 
+# ---------- 10. Ensembles hors familles resserres (objectif : >= 15 exemplaires attendus dans un rayon de 60 000 blocs) ----------
+# Copies figees des fichiers des mods avec spacing/separation reduits : scripts/data/structure_set_overrides/
+# (a regenerer si ces mods sont mis a jour : scratchpad make_overrides.ps1).
+$ov = Join-Path $PSScriptRoot 'data\structure_set_overrides'
+foreach ($f in Get-ChildItem $ov -Recurse -File) {
+    $rel = $f.FullName.Substring($ov.Length + 1)
+    $to = Join-Path $dp $rel
+    New-Item -ItemType Directory -Force (Split-Path $to) | Out-Null
+    Copy-Item $f.FullName $to -Force
+}
+
+# ---------- 11. Cartes de structures (cartes roulees d'Iron's Spells, comme le marche de l'ancien pack) ----------
+# Une table de butin par carte : data/pack_lbc/loot_table/cartes/carte_<mod>_<structure>.json (test : /loot give @s loot pack_lbc:cartes/...).
+# Clic droit -> carte au tresor vers la structure la plus proche (seulement dans la bonne dimension).
+# Mode d'obtention (quetes, marchand, portails...) a decider plus tard ; la 4e colonne est un objet evocateur pour une future recette.
+$ow = 'minecraft:overworld'; $nt = 'minecraft:the_nether'; $en = 'minecraft:the_end'
+$cartes = @(
+    @('minecraft:ancient_city', $ow, 'Cite antique', 'minecraft:sculk', 'Minecraft'),
+    @('minecraft:mansion', $ow, 'Manoir des bois', 'minecraft:dark_oak_log', 'Minecraft'),
+    @('minecraft:monument', $ow, 'Monument oceanique', 'minecraft:prismarine_shard', 'Minecraft'),
+    @('cataclysm:acropolis', $ow, 'Acropole', 'minecraft:nautilus_shell', 'Cataclysm'),
+    @('cataclysm:ancient_factory', $ow, 'Usine antique', 'minecraft:redstone_block', 'Cataclysm'),
+    @('cataclysm:cursed_pyramid', $ow, 'Pyramide maudite', 'minecraft:chiseled_sandstone', 'Cataclysm'),
+    @('cataclysm:frosted_prison', $ow, 'Prison gelee', 'minecraft:blue_ice', 'Cataclysm'),
+    @('cataclysm:sunken_city', $ow, 'Cite engloutie', 'minecraft:prismarine_crystals', 'Cataclysm'),
+    @('cataclysm:burning_arena', $nt, 'Arene ardente', 'minecraft:magma_block', 'Cataclysm'),
+    @('cataclysm:soul_black_smith', $nt, 'Forge des ames', 'minecraft:soul_sand', 'Cataclysm'),
+    @('cataclysm:ruined_citadel', $en, 'Citadelle en ruine', 'minecraft:end_stone_bricks', 'Cataclysm'),
+    @('irons_spellbooks:evoker_fort', $ow, 'Fort des evocateurs', 'minecraft:emerald', 'Iron''s Spells'),
+    @('irons_spellbooks:ice_spider_den', $ow, 'Antre des araignees de glace', 'minecraft:cobweb', 'Iron''s Spells'),
+    @('irons_spellbooks:mangrove_hut', $ow, 'Hutte des mangroves', 'minecraft:mangrove_log', 'Iron''s Spells'),
+    @('irons_spellbooks:catacombs', $ow, 'Catacombes', 'minecraft:bone_block', 'Iron''s Spells'),
+    @('irons_spellbooks:citadel', $nt, 'Citadelle du Nether', 'minecraft:gilded_blackstone', 'Iron''s Spells'),
+    @('bosses_of_mass_destruction:void_blossom', $ow, 'Fleur du vide', 'minecraft:spore_blossom', 'Bosses of Mass Destruction'),
+    @('bosses_of_mass_destruction:lich_tower', $ow, 'Tour de la liche', 'minecraft:snow_block', 'Bosses of Mass Destruction'),
+    @('bosses_of_mass_destruction:gauntlet_arena', $nt, 'Arene du gantelet', 'minecraft:blackstone', 'Bosses of Mass Destruction'),
+    @('bosses_of_mass_destruction:obsidilith_arena', $en, 'Arene de l''obsidilithe', 'minecraft:obsidian', 'Bosses of Mass Destruction'),
+    @('archaion:ancient_keep', $ow, 'Donjon antique', 'minecraft:deepslate_bricks', 'Archaion'),
+    @('iceandfire:fire_dragon_roost', $ow, 'Nid de dragon de feu', 'minecraft:fire_charge', 'Ice and Fire'),
+    @('iceandfire:ice_dragon_roost', $ow, 'Nid de dragon de glace', 'minecraft:packed_ice', 'Ice and Fire'),
+    @('iceandfire:lightning_dragon_roost', $ow, 'Nid de dragon de foudre', 'minecraft:lightning_rod', 'Ice and Fire'),
+    @('iceandfire:gorgon_temple', $ow, 'Temple de la gorgone', 'minecraft:quartz_pillar', 'Ice and Fire'),
+    @('iceandfire:hydra_cave', $ow, 'Grotte de l''hydre', 'minecraft:lily_pad', 'Ice and Fire'),
+    @('iceandfire:cyclops_cave', $ow, 'Grotte du cyclope', 'minecraft:white_wool', 'Ice and Fire'),
+    @('mowziesmobs:wrought_chamber', $ow, 'Chambre du Forge-Fer', 'minecraft:iron_block', 'Mowzie''s Mobs'),
+    @('mowziesmobs:monastery', $ow, 'Monastere', 'minecraft:chiseled_stone_bricks', 'Mowzie''s Mobs'),
+    @('mowziesmobs:umvuthana_grove', $ow, 'Bosquet Umvuthana', 'minecraft:acacia_log', 'Mowzie''s Mobs')
+)
+foreach ($k in $cartes) {
+    $name = 'carte_' + ($k[0] -replace '[:/]', '_')
+    $dim = switch ($k[1]) { $ow { 'Overworld' } $nt { 'Nether' } default { 'End' } }
+    $res = [ordered]@{ id = 'irons_spellbooks:furled_map'; count = 1; components = [ordered]@{
+            'irons_spellbooks:furled_map_data' = [ordered]@{ destination = $k[0]; descriptionOverride = @{ text = $k[2] }; dimension = $k[1] }
+            'minecraft:custom_name' = '{"text":"Carte : ' + $k[2] + '","italic":false}'
+            'minecraft:lore' = @('{"text":"[' + $k[4] + ' - ' + $dim + ']","italic":false,"color":"gray"}')
+        } }
+    W "data/pack_lbc/loot_table/cartes/$name.json" ([ordered]@{ type = 'minecraft:generic'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = $res.id; functions = @([ordered]@{ function = 'minecraft:set_components'; components = $res.components }) }) }) })
+}
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

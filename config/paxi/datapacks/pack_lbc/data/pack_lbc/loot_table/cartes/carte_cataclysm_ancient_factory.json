@@ -1,0 +1,32 @@
+{
+    "type":  "minecraft:generic",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:furled_map",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "cataclysm:ancient_factory",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Usine antique"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:overworld"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Usine antique\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Cataclysm - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

@@ -445,6 +445,26 @@ file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modi
 hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/cursed_pyramid.json"
+hash = "e411d1813167c058e5cb970c923ad12be9b4298552de6b10ac34322bea068b1f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/frosted_prison.json"
+hash = "be0347cdda9059360cf153821fe7d1fbd95c29ec5ab7deccab8af32fa53083d1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_set/major_structures.json"
+hash = "bfe6e7d1a570a158d062dae9dc0c979599e9588938a035eb6606f0afec5ebb73"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/portal_dripstone.json"
+hash = "cc98a4b94c1d91149f7da23a28eda2741634258059f6db8218fc7383eaddead8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/portal_lush.json"
+hash = "b36a7db85ab921bb548118197b66eeae243715385236dcbd12d3d4933d45a103"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/pillager_outpost.json"
 hash = "8893f595292a3c5499a6e07f609e75ff938011806f5cf43e3d036179383dc2cd"
 
@@ -457,12 +477,24 @@ file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/end
 hash = "7054dcef0971ee58b15e9e150f255eab7fa51b972a97c52346718dc135a82308"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/pillager_outposts.json"
+hash = "6d7cda497d273a8e48b444ee6d4a5f36a4c7a78057e2fcb37d29169b369f0025"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/villages.json"
 hash = "d1770662acb080dc1bc50169e5c7fce92d2c3067830adb20bd222728d194ffec"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woodland_mansions.json"
+hash = "f0d6e83769aefc74344659a047cd9dedd47d2d9300f70b6a633af8587d125b9a"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/remnants.json"
+hash = "0f3dadbd296c2e90b733d7180fadf0b58ff814602f4ecfc0c7e0195cac3d2339"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -1669,6 +1701,126 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_villa
 hash = "e4aca7981f5774751833f4da34316dd2d03bb7c17c270a38fa0aab8747c01b74"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"
+hash = "6252b767c7202aef52eff59cd949ad0312cd4205ad7919ff923616f23e0ddc07"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_gauntlet_arena.json"
+hash = "8ddb0d4b974e941b917278e5d030d9a7b2c83d9cd8619434c5fcdaadef980508"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_lich_tower.json"
+hash = "6c6c338a031cc060e4c90ffb506fa6186cc5aa073db0e0390045c0bf414262e4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_obsidilith_arena.json"
+hash = "2bee99d929b92e05c6bf7966364957e3508678083019e9d7690eb6dfd47580fc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_void_blossom.json"
+hash = "5227c8d87f9ea3532049b4d25d58adc3dc98a9fd7021a78f4919da2ed3c236f3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_acropolis.json"
+hash = "46edf64c01242ea2f638b4ba4be0b4bdc0bfb8364f9c6d252cd96962334de7a5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_ancient_factory.json"
+hash = "92cd6fdc6a5830ee91e011de4498c20342c2a50848dc4257661d28c29b45c845"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_burning_arena.json"
+hash = "83ba881f030456fe847a10620e6b399abe357512a901a313fc195aafefd74bc5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_cursed_pyramid.json"
+hash = "c642da38e780f7d41cad44ef5b953460ad4e9a7e1110aab594870564dac1e377"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_frosted_prison.json"
+hash = "6caa3df329327c78165ec4c99f67625851260277d74c445bf6cb924853ee096a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_ruined_citadel.json"
+hash = "14e89ffef84c92cfb5e332ebfbb0a4e5b05870a1c31c915ccfa414b0cdf673b5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_soul_black_smith.json"
+hash = "56c8033c1e75de7192b53f77d696734687c490e8289317a04171c15803eeac35"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_sunken_city.json"
+hash = "31ed7400eec124bcf9faa6016ae18568b40fa1f102e0a1904843f22d0e7d0674"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_cyclops_cave.json"
+hash = "4ca002525fbf014a272a84849409732d20bded7c37503314306cebffe6edbdcc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_fire_dragon_roost.json"
+hash = "911532d970e0f1cf83e7e59441f366d09689c795409f6e25c7d5bff5ede76dc6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_gorgon_temple.json"
+hash = "93ed34da1ed16301498b151bc49ccb13f7e2486bd70ecea07cb926c0105ee0c0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_hydra_cave.json"
+hash = "2c93fb703dd12a0c04b76a8f28732867c6839fa05147fad54e00975d324fe7b5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_ice_dragon_roost.json"
+hash = "6b3afab92b934d06612ce2675952d6b65f7f596026a07e28dd44047fcd429799"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_lightning_dragon_roost.json"
+hash = "791e86913d150263134c0e94af675850b5e539763224423ca7a2fa6969cceb0f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_catacombs.json"
+hash = "a5b14ebabaf930a29ea1ca56fb4b95eced20e3b841d1877c22f3b094333da05c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_citadel.json"
+hash = "730824252f99dead327fe205cf5595bbd12dcb40e0447955ab28d776829d25a4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_evoker_fort.json"
+hash = "42ab423aeaea75a3abd549ce19f9c3c887121a6435c3ed068801d6c9a0d86f1a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_ice_spider_den.json"
+hash = "b6db7b6442065f09cc330cc0c84e484201a744e6f941cd785f9b3468fde6ae61"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_mangrove_hut.json"
+hash = "fd9efbd040826fee1fb3cea189d2059c29f02f70e6f9c732fe557801a3e0620c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_minecraft_ancient_city.json"
+hash = "8dadc31fe1783ff6678903a1d3281f4f04493be8ed29de8406a8c0093f793bc9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_minecraft_mansion.json"
+hash = "5620cf5734f6bbeaa32ed084f537b5630c10484908d017d4d3638c8f10e6e533"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_minecraft_monument.json"
+hash = "0ef67937d32c6a10eab4c811a68c82351489a697fa2f50cccd651d9822f72c01"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_mowziesmobs_monastery.json"
+hash = "c814c8adf0b4533177b8c0b1646d5f8f4734e3c59230d8c260d1066048d26253"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_mowziesmobs_umvuthana_grove.json"
+hash = "897e8b6fee10f4292a59c9c6368329250a33dabe062ea3dec6a0b9c9efda479e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_mowziesmobs_wrought_chamber.json"
+hash = "16b4b26e54679162b9da5951f2435ebfe4a34fc257c3bfabffa03889ccf4d264"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
 hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
 
@@ -2138,15 +2290,15 @@ hash = "d6407fb5bcb2cf5cddb89f545364d13c6713725ee62429a2386676ea1c721540"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_grand.json"
-hash = "add07719e9bcfbba3202f99afbd74cfb55cb80dab909c20bca7b12b4975b8259"
+hash = "fc07506157cce09ebd59d59af890089f5603982b44deff8671ee078a0704e00f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "b6012faaf90d34441886310e179c85d2be4a324355057bcdb81453ee02d5ff10"
+hash = "0312b52dd9447289a8176f99b322b13b4b29bcc76406341727f986aaf70dbca8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"
-hash = "272347844961f1d97cda1ab20000c6d62699a3c792ed605a1450e09385f85d5a"
+hash = "f0b42952531626016c36cf8e1dd49e8dd629fcc97647f452aebbe5794d6e1ef2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_grand.json"
@@ -2154,7 +2306,7 @@ hash = "c3fbe2b378afcc9a284774a4beab229b2043c1696bda36ed5a15cd4bacfef0eb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_moyen.json"
-hash = "78c275ea5f8fe0a4f83902cad1f6e49adbf4dacae4a08d0c71c68a3635dca18a"
+hash = "04fde3c9832f0e5b1079ab522f33e564f19859bb84002ead6f2d4bb8f39f55fd"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_petit.json"
@@ -2163,6 +2315,26 @@ hash = "abfee26ed4fc20a76e924d26beac21da9427eaa6fb333af137eef1ed3a1fc646"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/archaion/start.json"
 hash = "64a24b1d94bb003247604c0c440bad838a0cd687dfcc0b115cabda4effe08e5d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/mansions_overworld.json"
+hash = "ebf41d26d9c25defa4aa3a24142748bcaf28c96023c25209449ce31a15346e4d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/outposts_nether.json"
+hash = "7f983045f6439f17686062b8c3c13d6c69b1e415a270889cef29e4e1d0fbcea5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_set/rare_towers.json"
+hash = "37abc71020af94ae3cb720a9b4b02fe65fbd50e6d2f6ba831ca1524156b2d683"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_set/towers.json"
+hash = "5ce9bd873bad85c3ac2b2f15cd34c3e3cd921e0e9d445d92415c2026a7e2cfe5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towers.json"
+hash = "c2a6ef2aef59b434e3cf54a4c3b89ba085cbb1bc7bae30d9ed452056c10466c4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"

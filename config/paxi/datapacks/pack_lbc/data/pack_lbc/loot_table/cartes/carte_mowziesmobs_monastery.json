@@ -1,0 +1,32 @@
+{
+    "type":  "minecraft:generic",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:furled_map",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "mowziesmobs:monastery",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Monastere"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:overworld"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Monastere\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Mowzie\u0027s Mobs - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

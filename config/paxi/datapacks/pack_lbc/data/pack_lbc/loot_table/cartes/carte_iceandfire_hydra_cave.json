@@ -1,0 +1,32 @@
+{
+    "type":  "minecraft:generic",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:furled_map",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "iceandfire:hydra_cave",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Grotte de l\u0027hydre"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:overworld"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Grotte de l\u0027hydre\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Ice and Fire - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

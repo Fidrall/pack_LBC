@@ -1,0 +1,32 @@
+{
+    "type":  "minecraft:generic",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:furled_map",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "bosses_of_mass_destruction:lich_tower",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Tour de la liche"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:overworld"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Tour de la liche\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Bosses of Mass Destruction - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

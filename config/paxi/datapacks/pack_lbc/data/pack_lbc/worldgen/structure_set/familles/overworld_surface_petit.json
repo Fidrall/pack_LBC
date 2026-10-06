@@ -2,7 +2,7 @@
     "structures":  [
                        {
                            "structure":  "explorify:badlands_pyramid",
-                           "weight":  7
+                           "weight":  25
                        },
                        {
                            "structure":  "explorify:campsite",
@@ -10,7 +10,7 @@
                        },
                        {
                            "structure":  "explorify:dark_forest_settlement",
-                           "weight":  7
+                           "weight":  25
                        },
                        {
                            "structure":  "explorify:desert_shrine",
@@ -18,43 +18,43 @@
                        },
                        {
                            "structure":  "explorify:guide_post_cold",
-                           "weight":  4
+                           "weight":  5
                        },
                        {
                            "structure":  "explorify:guide_post_warm",
-                           "weight":  4
+                           "weight":  25
                        },
                        {
                            "structure":  "explorify:mangrove_hut",
-                           "weight":  12
+                           "weight":  25
                        },
                        {
                            "structure":  "explorify:supply_cache/birch",
-                           "weight":  1
+                           "weight":  13
                        },
                        {
                            "structure":  "explorify:supply_cache/dark",
-                           "weight":  1
+                           "weight":  25
                        },
                        {
                            "structure":  "explorify:supply_cache/desert",
-                           "weight":  1
+                           "weight":  3
                        },
                        {
                            "structure":  "explorify:supply_cache/forest",
-                           "weight":  1
+                           "weight":  13
                        },
                        {
                            "structure":  "explorify:supply_cache/jungle",
-                           "weight":  1
+                           "weight":  25
                        },
                        {
                            "structure":  "explorify:supply_cache/mangrove",
-                           "weight":  1
+                           "weight":  25
                        },
                        {
                            "structure":  "explorify:supply_cache/taiga",
-                           "weight":  1
+                           "weight":  7
                        },
                        {
                            "structure":  "farmers_structures:cooks_moss",
@@ -70,7 +70,7 @@
                        },
                        {
                            "structure":  "mvs:acacia_well",
-                           "weight":  1
+                           "weight":  4
                        },
                        {
                            "structure":  "mvs:barn",
@@ -90,7 +90,7 @@
                        },
                        {
                            "structure":  "mvs:birch_well",
-                           "weight":  1
+                           "weight":  9
                        },
                        {
                            "structure":  "mvs:blue_stall",
@@ -102,7 +102,7 @@
                        },
                        {
                            "structure":  "mvs:dark_oak_log_pile",
-                           "weight":  14
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:dark_oak_tree",
@@ -110,7 +110,7 @@
                        },
                        {
                            "structure":  "mvs:dark_oak_well",
-                           "weight":  1
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:dead_tree_acacia",
@@ -122,11 +122,11 @@
                        },
                        {
                            "structure":  "mvs:dead_tree_cherry",
-                           "weight":  12
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:dead_tree_dark_oak",
-                           "weight":  12
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:dead_tree_jungle",
@@ -134,7 +134,7 @@
                        },
                        {
                            "structure":  "mvs:dead_tree_mangrove",
-                           "weight":  12
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:dead_tree_oak",
@@ -150,7 +150,7 @@
                        },
                        {
                            "structure":  "mvs:desert_well",
-                           "weight":  1
+                           "weight":  4
                        },
                        {
                            "structure":  "mvs:fire_camp",
@@ -178,7 +178,7 @@
                        },
                        {
                            "structure":  "mvs:jungle_well",
-                           "weight":  1
+                           "weight":  4
                        },
                        {
                            "structure":  "mvs:medium_bamboo_cart",
@@ -206,7 +206,7 @@
                        },
                        {
                            "structure":  "mvs:oak_well",
-                           "weight":  1
+                           "weight":  2
                        },
                        {
                            "structure":  "mvs:orange_stall",
@@ -230,7 +230,7 @@
                        },
                        {
                            "structure":  "mvs:rocky_well",
-                           "weight":  1
+                           "weight":  2
                        },
                        {
                            "structure":  "mvs:small_acacia_lantern",
@@ -250,7 +250,7 @@
                        },
                        {
                            "structure":  "mvs:small_cherry_lantern",
-                           "weight":  17
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:small_copper_well",
@@ -258,7 +258,7 @@
                        },
                        {
                            "structure":  "mvs:small_dark_oak_lantern",
-                           "weight":  17
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:small_igloo",
@@ -270,7 +270,7 @@
                        },
                        {
                            "structure":  "mvs:small_mangrove_lantern",
-                           "weight":  17
+                           "weight":  25
                        },
                        {
                            "structure":  "mvs:small_oak_lantern",
@@ -286,7 +286,7 @@
                        },
                        {
                            "structure":  "mvs:small_tower_well",
-                           "weight":  18
+                           "weight":  1
                        },
                        {
                            "structure":  "mvs:small_well",
@@ -314,7 +314,7 @@
                        },
                        {
                            "structure":  "mvs:spruce_well",
-                           "weight":  1
+                           "weight":  2
                        },
                        {
                            "structure":  "mvs:stone_rock",
