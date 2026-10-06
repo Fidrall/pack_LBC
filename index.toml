@@ -970,7 +970,7 @@ hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/archaion/start.json"
-hash = "d06c17d862488f8dfcecf8a6f43d9bb42868a0fc14b370b9992786698734c10e"
+hash = "64a24b1d94bb003247604c0c440bad838a0cd687dfcc0b115cabda4effe08e5d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"

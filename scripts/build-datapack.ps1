@@ -168,7 +168,7 @@ Gate 'defi_seigneurs' 'large' '#D4AF37' @(
 
 # ---------- 7. Correctifs Archaion (bug du mod, toutes versions 1.4.x) ----------
 # misc_room.nbt et misc_room_x.nbt sont vides dans le jar -> retires des pools.
-# start_jigsaw "arena_mainhall" n'existe que dans arena_hall -> pool de depart reduit a arena_hall.
+# start_jigsaw "arena_mainhall" n'existe que dans arena.nbt (arena_hall n'a que la cible) -> pool de depart reduit a arena.
 # Copies d'origine : scripts/data/archaion/*-orig.json (a reverifier si Archaion est mis a jour).
 $ad = Join-Path $PSScriptRoot 'data\archaion'
 foreach ($pool in 'rooms', 'rooms_x') {
@@ -177,7 +177,7 @@ foreach ($pool in 'rooms', 'rooms_x') {
     W "data/archaion/worldgen/template_pool/ancient_keep/$pool.json" $j
 }
 $j = Get-Content (Join-Path $ad 'main_path-template_pool-orig.json') -Raw | ConvertFrom-Json
-$j.elements = @($j.elements | Where-Object { $_.element.location -eq 'archaion:ancient_keep/arena_hall' })
+$j.elements = @($j.elements | Where-Object { $_.element.location -eq 'archaion:ancient_keep/arena' })
 W 'data/pack_lbc/worldgen/template_pool/archaion/start.json' $j
 $j = Get-Content (Join-Path $ad 'ancient_keep-structure-orig.json') -Raw | ConvertFrom-Json
 $j.start_pool = 'pack_lbc:archaion/start'
