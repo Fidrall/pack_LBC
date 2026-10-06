@@ -7,7 +7,227 @@
 		id: "endrem:cursed_eye"
 	}
 	id: "576F6A1E4D30F4F2"
-	images: [ ]
+	images: [
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			height: 0.35d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 0.35d
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			height: 0.35d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 0.35d
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			height: 0.35d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 0.35d
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			height: 0.35d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 0.35d
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			height: 0.35d
+			image: "artifacts:item/obsidian_skull"
+			rotation: 0.0d
+			width: 0.35d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 0.35d
+			image: "artifacts:item/obsidian_skull"
+			rotation: 0.0d
+			width: 0.35d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			height: 0.35d
+			image: "artifacts:item/obsidian_skull"
+			rotation: 0.0d
+			width: 0.35d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 0.35d
+			image: "artifacts:item/obsidian_skull"
+			rotation: 0.0d
+			width: 0.35d
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			height: 0.35d
+			image: "artifacts:item/obsidian_skull"
+			rotation: 0.0d
+			width: 0.35d
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			height: 0.35d
+			image: "artifacts:item/obsidian_skull"
+			rotation: 0.0d
+			width: 0.35d
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			height: 0.35d
+			image: "artifacts:item/obsidian_skull"
+			rotation: 0.0d
+			width: 0.35d
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			color: 12948991
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			height: 0.35d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 0.35d
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			color: 12948991
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -10.5d
+			y: -9.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

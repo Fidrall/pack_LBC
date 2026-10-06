@@ -7,7 +7,26 @@
 		id: "sophisticatedbackpacks:diamond_backpack"
 	}
 	id: "734C4C2CDBC52F6C"
-	images: [ ]
+	images: [
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.2999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.0d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]

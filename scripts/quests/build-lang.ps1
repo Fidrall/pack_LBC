@@ -1,4 +1,4 @@
-﻿$s = Split-Path -Parent $MyInvocation.MyCommand.Path
+$s = Split-Path -Parent $MyInvocation.MyCommand.Path
 Add-Type -Path "$s\Snbt.cs"
 $enc = New-Object Text.UTF8Encoding($false)
 $base = "C:\Users\Antho\curseforge\minecraft\pack_LBC\config\ftbquests\quests"
@@ -27,7 +27,7 @@ $orphans = 0
 foreach ($k in ($fr.Keys | Sort-Object)) {
   $id = $k.Split('.')[1]; if (-not $ids.Contains($id)) { $orphans++; continue }
   $v = $fr[$k]
-  if ($v -is [array]) { [void]$sb.Append("`t$($k): [`n"); foreach ($x in $v) { [void]$sb.Append("`t`t$x`n") }; [void]$sb.Append("`t]`n") }
+  if ($v -is [array]) { [void]$sb.Append("`t$($k): [`n"); foreach ($x in $v) { foreach ($y in @($x)) { [void]$sb.Append("`t`t$y`n") } }; [void]$sb.Append("`t]`n") }
   else { [void]$sb.Append("`t$($k): $v`n") }
 }
 [void]$sb.Append("}`n")

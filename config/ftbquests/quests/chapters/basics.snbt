@@ -7,7 +7,62 @@
 		id: "minecraft:writable_book"
 	}
 	id: "09B56D111668F538"
-	images: [ ]
+	images: [
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -27.0d
+			y: 17.5d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -33.5d
+			y: 17.5d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -14.0d
+			y: 17.5d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.0d
+			y: 17.5d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			color: 16771855
+			height: 0.5d
+			image: "pack_lbc:textures/quests/fancymenu_warning_framed_24x24.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.5d
+			y: 17.0d
+		}
+	]
 	order_index: 0
 	quest_links: [
 		{

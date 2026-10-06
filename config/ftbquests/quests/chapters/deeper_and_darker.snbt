@@ -7,7 +7,27 @@
 		id: "deeperdarker:heart_of_the_deep"
 	}
 	id: "4B6E4A0215F45FC0"
-	images: [ ]
+	images: [
+		{
+			alpha: 200
+			color: 16672790
+			height: 1.2d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 0.0d
+			width: 0.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.5d
+		}
+	]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]

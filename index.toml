@@ -118,7 +118,7 @@ hash = "06b649f3262c29fb92a96a73691578327931a42a95e5b93e12d284c9b3a6f077"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure_progression.snbt"
-hash = "cb3b0a258ad6e8d8c3e1bea19824a69878ccc563a5686571be000f2f31761a77"
+hash = "fa6c8bf1d5ec4b391270f9781b0dc3b4ec97a7a307950e9151eee428aef3fa03"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
@@ -134,11 +134,11 @@ hash = "f8bd77c127e0bc2f4f496a62ce9b09b1bc9a3e09adfa5e54d57ef14d1c4eb5e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "f83991455994071bf5a3f10f776cb68443584ff476fbe6cd69b74b910ac1447b"
+hash = "7770ee3ac2a7b90a075ed3148ccf0eda3086964559975bdc922a7efd03b55166"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
-hash = "08229d734a9221e069991db0ffe4fef1f4fb930048a3ab800597d6b851681cfa"
+hash = "40f90f7014ca66e6d138d8c033ebd21f4e773d5272ba995bebcd4d1e8ba9cb47"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cooking.snbt"
@@ -150,7 +150,7 @@ hash = "ba3f066d920fc3aa2cfd4d205abf542ce5ed4f38b07f9e74ed40fbb504d4bced"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_basic.snbt"
-hash = "bb846c6608f78ac8b851c3ea603eb0c1307894af3e4049c2e22dc314d86d3a1a"
+hash = "328e1d76fae5e60318a2973e86252001418220a25a74dd03ead6cd3d6740c317"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creatures.snbt"
@@ -158,15 +158,15 @@ hash = "ac53fe350aa56475c8398df6589d305e16865abc1e3f45b549f8d1b516cc8185"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
-hash = "5dd6d5bc2cdcfef7b96f699448d7f0f4f829ad8cecae92b793f48e17a4ff1981"
+hash = "9af22ac421a90695b5f67ae8fa41691b114abe65d1347ceca5b9600f0aaa3b72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity.snbt"
-hash = "ec54ea1e920aa81b3b6c37ee384af19501da5864f7a49c55b2b9f1787cb29943"
+hash = "4609378eb23fc1715968cfa1e7dd0a96d032cff5b71fa49b8f956d3244aa2241"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "01081e0897b35be176b71d4576d95725185674e6b64622b22d2db7485acdb355"
+hash = "90bcf4f12d74df95a581b0a6d16d0f26c548821c824b6ad573f01b6b75785eae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
@@ -174,7 +174,7 @@ hash = "bd34e1691357aa5ea1d9e24a417bd7252cae64d0ef0af31018e70d1b4870b16e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garnish.snbt"
-hash = "b4854bb82d75404d183ae916be9f72d7d43ed798ec9bfc08ca20282068f975e5"
+hash = "d1ef4629f38c1d6b66451cf7cdbac06087bc6319c69568c957859cd6eed0d5d8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
@@ -186,7 +186,7 @@ hash = "238b2af8857d23e41c6dac077bd0259a3a711f0fb6d693906ff37e147870302a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
-hash = "730b04121331705ea7bf278c41fd008eb463fea969b3696cbfa16ea3a4d5ca3b"
+hash = "0a2a7e1199c30250377201e69eab5c2017f37989812d67525769e07407cff98b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
@@ -194,7 +194,7 @@ hash = "2882423e911eefb7edc111cc201371c6a9c24808d919f5cbc532681898526647"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/new_age.snbt"
-hash = "8c5c8c1c0ab61445422a8c4d1a453f2c0ab0dbac7111fc03665a20a8371e35bc"
+hash = "05b8b849a1e0cb385ad99b9fad38bab10267f5a74388ef72ca8f09757988c345"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simply_swords.snbt"
@@ -202,11 +202,11 @@ hash = "d35ead63bd75e286723580df1fb512d2afc3de0a7ef2561e545a14e0004c27c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
-hash = "b1182645921de1d3e36f4ec67fffb27b79a17b5315daa3457fdfbc75ff14bc4d"
+hash = "cbad9bb9ea568b999b182fadd851e6ea67d97ebf600de3cabeff937ea7ee7725"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/teleporters.snbt"
-hash = "445d5a7861b78881530bfe68fc83282188e9cbc738b3e3ad17f9c7a6e745ad6c"
+hash = "641727921896f34a6e0cbc98868ed12ef1f3090a094037e6501f381cedded0e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
@@ -214,7 +214,7 @@ hash = "4978378df1a550b1019c186f118403c8e0b70d249d3a6de1ca2fc9ddb75a6b71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vents.snbt"
-hash = "1a36762955b58932cf04820081c54740b5f1511bcf8679bc697ed7087778c2be"
+hash = "33bcb1de3b0d5815e2501018da2e09cf3654c008aab83203fe2063dc3881989f"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -222,7 +222,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "1e208f65002df5aeab55c105606ab2e386d4fa637700236ffe57a5f9d4c91b3e"
+hash = "a9c1f629019318c26571cc07c183824783272ea1bebcf91a03102fe1d876c641"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -2397,8 +2397,16 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/fr_fr.jso
 hash = "294f5afe41734b4d1522d84635d1222fe8664d785187d2dd0ecdac0b21c8df2a"
 
 [[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chalk_block_mark_arrow.png"
+hash = "ed49878967a5a56967333a9b86d5a4deaefb11629c764b255d6818b8fdde8f39"
+
+[[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chunks.png"
 hash = "22a695fb7989aaced5ccf83c1688bfb2e6cae7c2689e27bfdaf8fd73b015add0"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/fancymenu_warning_framed_24x24.png"
+hash = "422973eda1b18155bdc56494010653ec038de1e05d3093f7ebc562814ca869b2"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/item_coghweel_speed.png"
@@ -2459,6 +2467,22 @@ hash = "6ee630bf2264efbf0f40b125584c38021fa8cc8e92f20e746229b6ec002d75f0"
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kelp_farm_008.png"
 hash = "2ae7e60c7ea2552bf66f28dc588ac9d3b779eac41fb6fe2d780fb3ebe3bbabb7"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kubejs_new_age_electricity.png"
+hash = "59483a3f9622fa610a9144dbd75d60362469d3fce19db432ee4437d1db206cd9"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kubejs_new_age_heat.png"
+hash = "e81a7395929642d3db98f8ac020f303cfbd7d3099c1f823c2298cd798e40d270"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/kubejs_new_age_nuclear.png"
+hash = "8abee7e0b2b9dabea03cd08ea68537df7b4b21bd7621c0e31ce86b5d9786ac76"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/multibeds_block_art_midnight_train.png"
+hash = "ab2a35d8ac7d4d1b7d8a71270e0075befeeb190396c89840532d8831e7ca2be8"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/new_age_01.png"

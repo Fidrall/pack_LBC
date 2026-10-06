@@ -7,7 +7,59 @@
 		id: "create_new_age:generator_coil"
 	}
 	id: "5F7AAB8DEFA61465"
-	images: [ ]
+	images: [
+		{
+			height: 0.7d
+			image: "pack_lbc:textures/quests/kubejs_new_age_electricity.png"
+			rotation: 0.0d
+			width: 4.44d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			height: 0.7d
+			image: "pack_lbc:textures/quests/kubejs_new_age_heat.png"
+			rotation: 0.0d
+			width: 5.84d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			height: 0.7d
+			image: "pack_lbc:textures/quests/kubejs_new_age_nuclear.png"
+			rotation: 0.0d
+			width: 3.15d
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "pack_lbc:textures/quests/chalk_block_mark_arrow.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 7.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

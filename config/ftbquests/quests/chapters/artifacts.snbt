@@ -12,12 +12,66 @@
 			alpha: 160
 			color: 2559560
 			height: 1.0d
+			hover: ["Head"]
+			image: "curios:slot/empty_head_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Necklace"]
+			image: "curios:slot/empty_necklace_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Belt"]
+			image: "curios:slot/empty_belt_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Hands"]
+			image: "curios:slot/empty_hands_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
 			hover: ["Feet"]
 			image: "minecraft:item/empty_armor_slot_boots"
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.0d
 			y: 2.0d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			image: "curios:slot/empty_curio_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 3.5d
 		}
 	]
 	order_index: 1
@@ -1420,6 +1474,679 @@
 			]
 			x: 7.5d
 			y: 2.0d
+		}
+		{
+			icon: {
+				id: "relics:ring_of_the_seven_deadly_sins"
+			}
+			id: "64F015F16C1C5F55"
+			rewards: [
+				{
+					id: "5B06092754ADEF20"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "4D88086DF1F0E641"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "522B6C7ECBA00B55"
+			optional: true
+			rewards: [
+				{
+					id: "5B049D2773765F5B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3CA1435FBFC23A10"
+					item: { count: 1, id: "relics:reflective_necklace" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 7d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "65C5828BD1FF3F38"
+			optional: true
+			rewards: [
+				{
+					id: "22477A9273832A04"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "70B6A3F451CC7380"
+					item: { count: 1, id: "relics:jellyfish_necklace" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 7d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "01500464C6F76F10"
+			optional: true
+			rewards: [
+				{
+					id: "705C99061E7F83DC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4565842BFBCDE8B8"
+					item: { count: 1, id: "relics:kinetic_belt" }
+					type: "item"
+				}
+			]
+			x: -1d
+			y: 7d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "773E6F091F46BF19"
+			optional: true
+			rewards: [
+				{
+					id: "51010A81FADB71AB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "586AA117EA24E670"
+					item: { count: 1, id: "relics:hunting_belt" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 7d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "32C62FEB484884B4"
+			optional: true
+			rewards: [
+				{
+					id: "684CEC888765F0AA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1C80B41C7502E1E9"
+					item: { count: 1, id: "relics:springy_boot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 7d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "73D952912BD0CD52"
+			optional: true
+			rewards: [
+				{
+					id: "58FED65917D3D009"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7D5519AEEEE92372"
+					item: { count: 1, id: "relics:roller_skate" }
+					type: "item"
+				}
+			]
+			x: 4d
+			y: 7d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "7AF67A6A6FC9FB30"
+			optional: true
+			rewards: [
+				{
+					id: "6545F76EF5F28897"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7E9A30888F9793C8"
+					item: { count: 1, id: "relics:cut_glass_boot" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "2FAB9F20E833FA09"
+			optional: true
+			rewards: [
+				{
+					id: "36DF17355662E38E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "03A573D1DB62148A"
+					item: { count: 1, id: "relics:leafy_mantle" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "4C822F54B99AE3E3"
+			optional: true
+			rewards: [
+				{
+					id: "63B1BBC429DB48B2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4BEEB815DB53411C"
+					item: { count: 1, id: "relics:midnight_mantle" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "37A185E923C1EC4C"
+			optional: true
+			rewards: [
+				{
+					id: "1714536603A64F1B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7C34D1A4A61E6528"
+					item: { count: 1, id: "relics:glitchy_mantle" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "5DC186EDAAFEAF79"
+			optional: true
+			rewards: [
+				{
+					id: "41139D1815FABFA1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "446F2D1588E1AFA5"
+					item: { count: 1, id: "relics:ghostly_mantle" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "1E9C19A7819C7598"
+			optional: true
+			rewards: [
+				{
+					id: "3C5C8B623BFFA298"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "65D925EF08370601"
+					item: { count: 1, id: "relics:chorus_staff" }
+					type: "item"
+				}
+			]
+			x: 2d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "742FDF37F14FA07B"
+			optional: true
+			rewards: [
+				{
+					id: "12E04F0DE507F7A4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1E05DCB86E5D66C5"
+					item: { count: 1, id: "relics:piglin_mask" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "4C95AFAEBCBF9C66"
+			optional: true
+			rewards: [
+				{
+					id: "15173352BC3DA6EC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3C10505AAF95B25D"
+					item: { count: 1, id: "relics:rider_flute" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "618051035B4E9316"
+			optional: true
+			rewards: [
+				{
+					id: "49196B5CA0F2BE52"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "44E877CED4A5E760"
+					item: { count: 1, id: "relics:pet_bone" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "5FF0FC5E0D0B1537"
+			optional: true
+			rewards: [
+				{
+					id: "6252CC3C6D990B47"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "031C88A2D2494CCA"
+					item: { count: 1, id: "relics:ring_of_the_seven_deadly_sins" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 10d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "51FD16C71DE4883C"
+			optional: true
+			rewards: [
+				{
+					id: "18F1A46A523509BE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "04337A4D2582E5AB"
+					item: { count: 1, id: "relics:sphere_of_self_sacrifice" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 10d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "5C304AB81C448E15"
+			optional: true
+			rewards: [
+				{
+					id: "24310D0FF44E19FE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4990A37CF4A1F54E"
+					item: { count: 1, id: "relics:clot_of_time" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 10d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "12CA9E9ECFFEA4CE"
+			optional: true
+			rewards: [
+				{
+					id: "176BEAED99D01F53"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "628EC62028F9C9B5"
+					item: { count: 1, id: "relics:golden_tooth" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 10d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "1A7B8495DE69B63B"
+			optional: true
+			rewards: [
+				{
+					id: "3AFCA652A6EF46A5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0D3EF889632C64F9"
+					item: { count: 1, id: "relics:chef_hat" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "70501966DAD52618"
+			optional: true
+			rewards: [
+				{
+					id: "00E984537A0FEFAE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "34AFB29D29CCAD72"
+					item: { count: 1, id: "relics:experience_disperser" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 10d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "482093E9013F52ED"
+			optional: true
+			rewards: [
+				{
+					id: "168A248E4F506165"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "558D51BD6BF22B7D"
+					item: { count: 1, id: "relics:shield_of_retaliation" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 10d
+		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			id: "305ADD164F83D2D1"
+			optional: true
+			rewards: [
+				{
+					id: "79F950B3C3CD3C49"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1CFFA65CF9D7284A"
+					item: { count: 1, id: "relics:relic_experience_bottle" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 10d
 		}
 	]
 }
