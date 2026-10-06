@@ -4,7 +4,7 @@
                     "prevent_structure_overlap":  true,
                     "overlap_padding":  8,
                     "enable_global_spacing_and_separation_modifier":  true,
-                    "global_spacing_and_separation_modifier":  1.05
+                    "global_spacing_and_separation_modifier":  1.1
                 },
     "structure_namespaces":  [
                                  {
