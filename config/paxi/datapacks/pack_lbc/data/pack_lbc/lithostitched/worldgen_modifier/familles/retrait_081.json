@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:small_ship",
+    "structures":  [
+                       "mvs:small_ship"
+                   ]
+}

@@ -1,0 +1,8 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "explorify:guide_posts",
+    "structures":  [
+                       "explorify:guide_post_cold",
+                       "explorify:guide_post_warm"
+                   ]
+}

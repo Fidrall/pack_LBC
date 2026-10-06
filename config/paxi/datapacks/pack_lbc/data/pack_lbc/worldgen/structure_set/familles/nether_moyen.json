@@ -1,0 +1,78 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "create_structures_arise:deadlordshouse",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "create_structures_arise:obsidiantemple",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "explorify:black_spiral",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "farmers_structures:cooks_nether_2",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "mns:giant_skull",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:grave_yard",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "mns:large_house_1",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:lava_pool",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:medium_house",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:medium_house_2",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:sandy_skull",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "mns:sword",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:warped_dome",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:warped_house",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:warped_pool",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mvs:nether_devil",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:nether_well",
+                           "weight":  2
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  35313988,
+                      "spacing":  12,
+                      "separation":  6
+                  }
+}

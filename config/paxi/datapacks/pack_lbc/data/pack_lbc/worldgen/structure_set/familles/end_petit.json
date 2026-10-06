@@ -1,0 +1,38 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "explorify:end_shipwreck",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:astral_meteorite",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mes:enderpin_spikes",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:phantom_citadel",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:placid_prairie",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:ruined_pillar",
+                           "weight":  8
+                       },
+                       {
+                           "structure":  "mes:starlight_voyager",
+                           "weight":  1
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  958404473,
+                      "spacing":  10,
+                      "separation":  5
+                  }
+}

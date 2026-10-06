@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:mushroom_pond",
+    "structures":  [
+                       "mvs:mushroom_pond"
+                   ]
+}

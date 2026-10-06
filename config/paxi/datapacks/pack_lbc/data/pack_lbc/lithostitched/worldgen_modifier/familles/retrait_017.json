@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mes:mystical_archway",
+    "structures":  [
+                       "mes:mystical_archway"
+                   ]
+}

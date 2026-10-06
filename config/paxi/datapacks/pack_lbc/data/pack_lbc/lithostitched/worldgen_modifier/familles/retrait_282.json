@@ -1,0 +1,8 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "philipsruins:underground_structures",
+    "structures":  [
+                       "philipsruins:lost_soul_dungeon",
+                       "philipsruins:underground_structures"
+                   ]
+}

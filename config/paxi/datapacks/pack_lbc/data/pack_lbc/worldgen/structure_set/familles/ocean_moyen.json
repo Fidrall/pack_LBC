@@ -1,0 +1,22 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "mvs:ocean_tower",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mvs:small_ship",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "philipsruins:ocean_ruins",
+                           "weight":  1
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  960593811,
+                      "spacing":  22,
+                      "separation":  11
+                  }
+}

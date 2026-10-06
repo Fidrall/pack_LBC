@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mns:medium_house_2",
+    "structures":  [
+                       "mns:medium_house_2"
+                   ]
+}

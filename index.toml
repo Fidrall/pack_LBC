@@ -493,6 +493,1142 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/sabbat_citrouilles
 hash = "bef8aacd08c6ef40592fef3418f56541d869a7fbf20aa24ead7ceb61f098bd8c"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_000.json"
+hash = "d15759104f5a4e35513fa8328313cae616fbbbf21c76ca1a59b25ac881904ae5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_001.json"
+hash = "67c66d53f8b22198e5279e5beab2e1fb16092d6135427c8df095a53cd929d968"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_002.json"
+hash = "6d26e14b3e63f2fc33133d44fbbb1a72cf97bac3c6bb3a70159d5665524dd6da"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_003.json"
+hash = "331791a83175988a9f66ecf0c84b991a2da9a4de2ccb6cfa5129dbaf60f265e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_004.json"
+hash = "e73eed9254d97743991495b5e9859e114d901e59ea4fe679965e859eba68202e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_005.json"
+hash = "4376afa093e1b0701e95c0b863b074de82e70ad6b8a367ab5faf23a9369ee167"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_006.json"
+hash = "8074920901a3420b9aa380dc7596fd895ffb5df5933d413dc7376801ca95a10f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_007.json"
+hash = "dfbd85ec5459be4ea7ad133b2742c3671aebe4869cfabeb229d5cb630f17e72c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_008.json"
+hash = "f81cde03a25dab0838a17fe9f353b13936b0184c585f047205a231c173a41f4f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_009.json"
+hash = "6c5b76e38559251f3bac95920c6d872d499b11a843be5daa21b98affb8f88c0b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_010.json"
+hash = "fe79d6414a530c9c824b1fe40b5262a89c8437c00af0f088aa481187ed7075d4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_011.json"
+hash = "5f65800952229e34a3b4e95877fcec9694965660c3a14386fabf3e0b1d018c95"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_012.json"
+hash = "a854cac76330c1305a4cac2024ccd5bfbf5e8b3bedb90a7d86cd2fd339f87d28"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_013.json"
+hash = "63cf5b76e724ec9c353b39445572bf5b12b236d39473109cf69e94e588de943a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_014.json"
+hash = "640518fda9605adf8b39e02ecceb90e5e9f67be29600ce1877f3e15c81c0e2b5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_015.json"
+hash = "d5ed2512fa2c432070036cb07440d9c321b4bea8e3e1448a78f52e53c3bca00d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_016.json"
+hash = "34a02b928c8a4f6034b74a5e11c071af9dd6e006805367cd142f1a0bb7f0f2ef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_017.json"
+hash = "0e37018cecf0c81510a512aff689eab12d5339a93a06b705da3def2afe3cc690"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_018.json"
+hash = "e1675a757c42c65f92d5a4e85c3e419cb5de713e97cb1bcc65e4f31e506da381"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_019.json"
+hash = "d523dc50d69a63f5e10768f416ce2e33822a4a59e1391caf1216917b5a83f0b4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_020.json"
+hash = "f5fe2652ed7539095581ec4a17789982823442cb3c00ef663b07053a1c43723c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_021.json"
+hash = "d6734a8e7fb03f1b3164a171cbd35167514cf2eeb90fde9895fe2896496543a3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_022.json"
+hash = "efdeacfe8162603c4b18800d04be96f9190ba6ef7965242bb67d31210cd69081"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_023.json"
+hash = "100f7832803af78a652ab7d797b496bea2536f7085be850fd1274660ae2f29d3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_024.json"
+hash = "6e5f1b1c36b773078e33c450a3be4cd5cca4273bef786d7de03a229b3cf309d3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_025.json"
+hash = "78db3b38cbe5efbc267bf2deddba99334546657b62e7596e33bf41d9739c8af8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_026.json"
+hash = "6b621b5c169a0e99d69cbe2f15582a191fcf0e0fbfb0649aa064da9fb0798f25"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_027.json"
+hash = "11b73fd26402f5881522c5bc311b4bdf76f958eb9da08e5ee77a584fda347f6c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_028.json"
+hash = "4c67aea4a70b3975f0310b5ae1b90340cba15dc19b7e14bdd59569255cbd6db1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_029.json"
+hash = "9dd488ce7859cb6e2c83761f1a3c16bd84c53f59cbd47e26183db9542d77ec1a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_030.json"
+hash = "5890f2ffb23ac051a00f0e9caf035ab477fc8cde50818e7ec52d29b4fa1f1fbe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_031.json"
+hash = "51faeb509a097ea6be6570f24e5b81afa32daf8cbdd030aef195b98688b8c74a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_032.json"
+hash = "b32ef268fc362344754cfed308dbc4ccdd5ce97ac22bff24ddc0801c6ea8da92"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_033.json"
+hash = "5cb8a7e37c5c3b0f7a04e2c9afd4c78197b58411b8634b7713f7897a5520488d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_034.json"
+hash = "a1126d19b565998db68a67d43162023183e5915fe23e1524867815087f0e6597"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_035.json"
+hash = "f6051dd6fec6702fe5207cb574af11052b1011fa09abca5a1171d5ebf70728bf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_036.json"
+hash = "837e289bac42dc51465d812a7834b90c4bf39695e393328bbe639fe4908ed1ae"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_037.json"
+hash = "54a85752bfbaceb266b3a1871571ed7303169383d895ba35505ce6f5475db499"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_038.json"
+hash = "c9daf4bac57dba4ca22a4d4e3f846c2a3996df1d3d2c5189868acc1f98a72b7a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_039.json"
+hash = "e55679ec830b563176aff2359ccac52e90de57f84934474aba4aecdaa3354952"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_040.json"
+hash = "37d8504ef4df69a530bd5f2521739e9326b5ca3adb2771473cba80b6e6a900df"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_041.json"
+hash = "c4b935e9a66bea014f4c870bd1d3d883e9aad2774ca58de17fa23c5816a1bc9a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_042.json"
+hash = "517ca942467b9808f37291153dabf91b89c02367fa2bef9c8b10cd0654d08d27"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_043.json"
+hash = "ddc61458f3b82abecb883762e6bac53cde3af7304624f927da52d3c7bd075616"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_044.json"
+hash = "3ffce958d3313099567007e91ac87c57d9fd1694c3fe7b58e82f72101cd35fcb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_045.json"
+hash = "a3a6a3862ba2ea25fdc30e5dc21ad3ad1ac3748731931b72046fdf747785e4cf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_046.json"
+hash = "380bd179a6aee3a376c958c64bb87e30820c928db0587c4a718621c1f47b42f3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_047.json"
+hash = "66f413f0a97db379344b70c746b20344ac0b3fd4dc544ce97c76e1d906b824cb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_048.json"
+hash = "63a3dff6fb6a61a4d1524d921f192542eee013238ee77b710b336e8fc1c92967"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_049.json"
+hash = "82706bf877b86398bcc6d3331a98a0282afdad140bbb2d4033ad32cfb7021481"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_050.json"
+hash = "ff21009665a61a5d681746bcea3cf37cefe62f82d6158e6fe689fe8c068bad13"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_051.json"
+hash = "47819516e182b447db28740614f08f14fd8fb7419586d26c41c2f97c7763622b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_052.json"
+hash = "ab230e69e65f009b12e0f019c9f7f3278467ad273e8f33fce90d5b8852ec90c9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_053.json"
+hash = "620d589119db2cab202411b862ce5ac054f92cd58b5def8d79012b9fc46d2d9d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_054.json"
+hash = "ee8726ee0584e3c848516d66221590f0cc3a11f17360ca31a71700d0518b5618"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_055.json"
+hash = "1dcd600a35a9d9b91290c62c117b39213731467c5f759dbedca7918b3834bb05"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_056.json"
+hash = "8ac4989d10946071834dfbaf07c93ef7301839593f572b9c236bb5d4be4ba8bc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_057.json"
+hash = "b838b9bbfc4eee3889bcba402a64517457615d9f225db2bde18e747d6d147b80"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_058.json"
+hash = "30691ec9cabda6cb1bef028353e58dc7a949c96b7366588255f41ab1cd7c56fe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_059.json"
+hash = "4012826cd40338b4bd60cb9254de14f5a1922023ae4a076a5a2cf5587fb38d12"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_060.json"
+hash = "83305a6f96475e0b477db6f7d7aadcf21ee9b16ef46c74acbe96f1f8bd6bda36"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_061.json"
+hash = "0ab25020b6dcbbcb5440b87c156fe82bcb3011d3780f6956f4d2e9e58e7ac8b1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_062.json"
+hash = "eb2fc6cd309abd568e942abddb562dfcf216c0df82c6b9d70831afc1b4bd3fd3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_063.json"
+hash = "fc7ca4c7ab82e50bf0ff431250ec469cbbfd86c276cbfb2456867366dde97563"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_064.json"
+hash = "2e04e70d1f9edcb6713d379a4997707548d59da7c2d08ab2bc64f288b8cf4a8b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_065.json"
+hash = "c8684d5676afc37314df96320ea3b4bae2c1f1a33fe85709a34232c3e92f582b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_066.json"
+hash = "2bce0d6239a6593fdc31d152294867df3d908d70a3c0f14b68e8e780260c680e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_067.json"
+hash = "2d8d42ada06695c480e864c3e5f3f1c7aad8fd29b8bea28b263a9cf00d2fb64e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_068.json"
+hash = "8e284e3195713dff9a581da3169098cd770042c75399fd8f6c3a8b4041473b72"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_069.json"
+hash = "a0466ea426c706c948a5a4424c45ffed305f5bef3b496193cae77a195ba9d9c3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_070.json"
+hash = "fdc6aff8400ce873d9705eb103e91880ce08c1cb9aa5673613ac255a1329e956"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_071.json"
+hash = "d65cd8262807e5c49c719adca79c4fc36e8d7c41641d65a5c2acf0cb5229cc14"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_072.json"
+hash = "158b3293d5b8ee29d5b4c91daecd9e6b104342c3d64a8df8c24f9f95964bfc51"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_073.json"
+hash = "324f988692dfc32c3e1253e449f4427fd8a6a045171acbb2b1a78eed21cb3faa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_074.json"
+hash = "ce25b69cc3c97ecab077cbf332be2d09ed1e10f16824eeb2fcb0d10bf34f0724"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_075.json"
+hash = "de31826c1dfb6a0ec082591e282c83809ac7832efa4f68576591b95bc9b7da1b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_076.json"
+hash = "ae6d0325cdd972c3d4ed06082cbd59897f924a3e82c24479490a3d9fa079d74d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_077.json"
+hash = "fd5eaf1186144a9d8dbe94b70634a4b1e26289f0fedc9957c4253a8d4e435975"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_078.json"
+hash = "3138ddaa9c8b263de4641e05be3aa20d4cb6ea733f4bafae41d0f20523b3cfbb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_079.json"
+hash = "d337d239a7d40f725600f635ae5865b4d38f0e3f203a87a9008d9532e3000d11"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_080.json"
+hash = "fd868b92af96fc84f41e8b8f63277eb9c4fd82e7b694e0bdf5c61ef38bfa030a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_081.json"
+hash = "6d134d679e4ab61879d09cec1e58e88e0d36c6554665a416e95857b87abc638d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_082.json"
+hash = "a263e37a59a2e5cbb8890a5a29fa5e3b3cd00ee110ca44f2594917bb5d705286"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_083.json"
+hash = "79cf8f82a8b9f5848529b24361a8c558d035128bdb06da570d687ccc01638b26"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_084.json"
+hash = "88258dd8d5c4b22a089541141ec20ac91f4f5680fc5a603b487bc550da77aaf9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_085.json"
+hash = "b5df74a2d8a395fe6758b4545c739dd1625e8c3aaa09b3e74e00c23f8e303b41"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_086.json"
+hash = "d4e05b3982c1de749fcff90857c1ecb04d47d678de8346896ada046e60e03108"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_087.json"
+hash = "a5af3a4c4e19044a5471408e2bd5b6a08962a8de747a05b4b9c31c44e3ab2f49"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_088.json"
+hash = "eb1b35f81880924c41d092525086e340a9d2f95a0029c1d4dfb1f41cb77072bc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_089.json"
+hash = "38ed522167d00c57eb789db4bf0594702baea9effe2ba1ec003ab82808025c48"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_090.json"
+hash = "2a401091b8956a36deb03795e71531d280607ff4bcd8ff5defc64a89b3aa3d94"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_091.json"
+hash = "fdfbed5b456c5b7b50ef89904fd845c79d5cc1cc49bf0645b97843e70a2a848a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_092.json"
+hash = "4140f190c0c51569caa92ec2819feb444f56e1b4484a91fc3080233f29ffab63"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_093.json"
+hash = "a34267f2d63351a748c2b1f455cbca1dd51da29e65ab11effd659981a54797a9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_094.json"
+hash = "81b15db6f1808b224f76bdcae22ee5463c8c627b9e4aeb7473044ea4b3e84e34"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_095.json"
+hash = "e9db06843a21ba05bac8c81d24309e8a632e06768f4469141cabfe95f8c222c9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_096.json"
+hash = "1b59a69afd999f2ee6dd8f22d1b03a29d30aa7f7a5f01011f06f338f81121fd2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_097.json"
+hash = "a3358fad02ef779b6e478d4aa9a5c83affaeb9e27318e32a41684e038235fec4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_098.json"
+hash = "5b455884df0909a7cd14747aa03c85d699079c7b31786017799720441372b56c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_099.json"
+hash = "2c32585411e3dcb7d8fb8e4e4020956db823cd466c6e0ed0625f38ffc79c2867"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_100.json"
+hash = "1828a64cf8a6571389c890a939c98698944adab00f9c626bb9ea93ac8e1eda50"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_101.json"
+hash = "f0cf422d4c6a894f293c35255f5fcbb0af59eaf2c4921d433f835a8a25ca2eaa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_102.json"
+hash = "b0be55b0b54792eead65f8d54f9509149b15baedd3345c3fef7c9906015b9b33"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_103.json"
+hash = "400c77e68d350545fbce53c4efc5a0645ce90a5b862eb8010309e87f135ec2b9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_104.json"
+hash = "30470928d8886ea877e276a25dce2524b67ffc4d096ea8cc7d33675b2724db59"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_105.json"
+hash = "affd3f65ed9544013fb0699de90faf3a4dda8cc4eed6a8ccb836ede95a0bf961"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_106.json"
+hash = "e6dcc76664c7c3cabf22ccd42747b6c01af51264da8a3833cf1da61a581fda53"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_107.json"
+hash = "d0cc084de5c1946ce74f56d181cde90319fa81127a289873e77cea14f29d9954"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_108.json"
+hash = "d35f75d61c3bc3b0269eaccbe78e4cd0cad5585daf06dce0ff7f82be9e6c1fa5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_109.json"
+hash = "927ba10cb8842f75862f7177d8751275d5937f5a9152577fa346530f043130cc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_110.json"
+hash = "961508ad09607a30be3c073b8cba78b4269f085d1867ff681ad4761c8ed124ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_111.json"
+hash = "e6c1b59c8097bf18b2bfc2116cc0ed7cc377ac3d087162b319669799c7c61313"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_112.json"
+hash = "6c1c2aa7ad7a189e29898c466dd5334ae30537060af474f874f87d47a6b75031"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_113.json"
+hash = "0bf4045c5efa785e101314c0256d81897be59eb6a5d9a62ac197d887bb4503f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_114.json"
+hash = "98c0a4d1b9aed7aed86a4bf1ca427f23edb5258ff7d7baa5c82c07774e37d99e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_115.json"
+hash = "7e6917b83fe5b962bee72e9c23f4a49587b050de28ef50573690993de8c7b478"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_116.json"
+hash = "707b45daba881127432df8acea05696a3485b5a6fb8fc474f53a91fcb06b140c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_117.json"
+hash = "81954e737614f39441874d35a298f25dcbac65453aa982320a1b755cf89462f8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_118.json"
+hash = "d4a74cf16d3a41e63452489b8de4244ca0142fbb07e883783182d7172e264512"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_119.json"
+hash = "1a652babc36f529c9fd7ea76dbcba3360ad4c94aaa4ad05f1dd6f66912bc45e1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_120.json"
+hash = "7dab529201c40cc5d3e2dfe6750e5e7fb69611a37250c80c32b4a1a52e476426"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_121.json"
+hash = "4a4a30606337134662d28911f334906cb6aa539d0e78c2a6b447f4a58bd5b34c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_122.json"
+hash = "8f25b1b86e442014044524fd396013ac503450f250ff5d2a6c27817415fdb26a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_123.json"
+hash = "530677eda2613f2abeca54ec7b90e04d43dfc58ae5e6fa4239828de12aeb87f4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_124.json"
+hash = "6548f560c1b242b259023917b301b9933a1683a2904997c73f8621ddffa1c775"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_125.json"
+hash = "b271f02375834a8f5fa076456636e22b465c546342b07867975d3318e8635105"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_126.json"
+hash = "a2cdfd95dcb1ceb9f8b0a13e7e6829da57618c15654303f7b3b6c56d897e53b2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_127.json"
+hash = "3ada92ea0fdd32b2cae007a33d567e8d1c51f73a08cd0be3ab7b5ae73a65977b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_128.json"
+hash = "564ab53ec1ae275c024f778cfc25c6cb095e49e410b6e0cf44f31c8b1b0d4a6f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_129.json"
+hash = "76dff1e0f91cba0d78bae967d81fa3bcf6bf2acfe98ec6669f92c459c3f39dbc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_130.json"
+hash = "0f6961cfa5b40ec562a2dae07fca0f86fc4f5e607f33691b6056fccaf34bc746"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_131.json"
+hash = "d118c94838b4f21d096abe6269069985ada5b394cc120af1ec0d16a08cfec5ab"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_132.json"
+hash = "56e01830764475ce92ceff514560e48a249dda10da2e94cdd92c92bf3507b884"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_133.json"
+hash = "2b4ba4d71510579e8ce637c99f3c4abe1735792600033ec4e68391031d3dd4ef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_134.json"
+hash = "29d16957a2c23673648779a57c889853327932e52053a4c66ebee4aa880a96ef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_135.json"
+hash = "8b5650f4beed39727d98507f14a879e3b10e5d967e74dc5e8d59328f63cc0bc4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_136.json"
+hash = "4dd77c20c2a2fb769afcbdcaf9b72b475ee648311e4ce83e33c0572153a225d2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_137.json"
+hash = "4f17373b9cc8f2402ebda86e43d732ec367ac7f8c9e548ffa09cb0ff384b705f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_138.json"
+hash = "a3d823a6c1c1cb39eec38f0e77bb0fa125f5dc86ac39d3556254f6beb1241c5d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_139.json"
+hash = "e704060dd114e5b2ce1265c137a2b00ecb105a2a1e7eecbf7c3b79493ce9ad5d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_140.json"
+hash = "d129435761909894bd7bccbc7a78ea26f73eafc02d224637bc7678f9447977df"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_141.json"
+hash = "5449fe39cb614bc3e023ee0367a2436a4afcf0831adf88c456f24a7ad42580e5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_142.json"
+hash = "7eefdd71f39b4251e796ece2593c237f9ede541aa3de7efda62300519cc4f092"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_143.json"
+hash = "0d895272c77b606cf1497941f91b4ad5a30fd02c5bbb1ddc5f339eb2b9003f6b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_144.json"
+hash = "55387aeb4f19c0afeaf4025b83ccdaa068d6d99c6d13d4af641852aa869636d1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_145.json"
+hash = "9019493aff6e4e3a896d513538a21c923ed67a875c8e2e1356899cef77e145ee"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_146.json"
+hash = "677855fb320e39fe025b50cb5d0403d364611ef7af9384abd9eecdaa25e90c7f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_147.json"
+hash = "6099b17c86c13134816566bc5ace71f0bb5d1127d3bf652b6da52b6534ee24b9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_148.json"
+hash = "a13694a9bf4911e349a43477f0a5f63042faa26993bab5b4bfed09d6e0d37459"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_149.json"
+hash = "1cdfdbbf358064a4b8782fa3c669da50c52512e18f5505a5e65f8c94ad36b107"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_150.json"
+hash = "c1c2ebf8b5a0df24b821ffff99b450a31b1d22884e2ac7621816fc320129aaf3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_151.json"
+hash = "5c0df7401a02b2d01fb06e4acd9c65c637c69c91a43a7437eb9b6caccb2fb01e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_152.json"
+hash = "f5de5db09c7f3b0db3a3e0d2427f442a05be22757291fa765a80136099b70632"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_153.json"
+hash = "c739f05933676ca83ca03a1d157d4569c72b7d12496ba52427cf446114edf9aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_154.json"
+hash = "3f36a3f0e1f98f41d71078c1edc930847c2be21fe9d62f6bb68329cccdab31b7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_155.json"
+hash = "ec41da0d173bfa7eb870f535d7281e3e0e8da21936779410723357c0f40e6602"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_156.json"
+hash = "5eed5b5a96fa59b39dec927d181f9ddd3867bf145e5584700911049b8425059b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_157.json"
+hash = "488da27c5356902f18dc63a289d6c4b61291fb5dd1474ef456f8b3ca5f77a652"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_158.json"
+hash = "fd80690630e204cc3057ef6ce77cffe29bfd0688718936d156b173b42b6d4ae3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_159.json"
+hash = "44f64683ab4d29c169e825a2e7af932eee593d6980a17c1c7c7960073339c2f7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_160.json"
+hash = "19affe6d32fbd89b072e7bbe22f725a9d152f9f9f207873d8ec7358683c7dd45"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_161.json"
+hash = "ece7e057da1d7eb869b81e2ad6d4c91dad3dfc136a45b9b44ec140935dad7781"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_162.json"
+hash = "dd51218cc45bd4dc6c7d568f18fc69df918053c03527608a7dd8277c6b94106c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_163.json"
+hash = "8336d30f1c8717e9e3b571454ef4caba9ca934fafaba55c16969e751c1b2a56b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_164.json"
+hash = "119574b6f99cd9966f262ee19f2b444201190c6d6a416e9b83c09e9844e5eaa0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_165.json"
+hash = "50f4cc718e4c781a032aa09455b5e87b6101eadc45c8df3d8907fc0ba0786cbe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_166.json"
+hash = "561232779116818c12a03c983948f8c511f6d522f5a03c56baf135558c3cf7a3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_167.json"
+hash = "e6ed25cbb71cf8cdd8c938f377e833740aa4b23459e40a5621bdeadf2d42670d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_168.json"
+hash = "3644218661a08983227ff68c707b6861691b1ab2593d18da8c5004757d01f7e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_169.json"
+hash = "64b939ab79fa272e971f1648e24e68d2e35ec429c6bab0c5244f8a99fd098b13"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_170.json"
+hash = "6b4d250ec2376787bfc806a93559f34b8c03c05c966760a92ae87689f28365a6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_171.json"
+hash = "a850ad1427b304f232b9572d2fafdc06619368ba49e8a3585f97c5f4250012b3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_172.json"
+hash = "4241ffdb8bbb87bbf1d051e36511b0acd388c4334e1b9b746b4b0937859033f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_173.json"
+hash = "49134a39bf9b27dcb33b7add0dd644bab9a80ddd1d90c05ba05977742b995463"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_174.json"
+hash = "4696f09d2d356c1a1564832064cea6f8ee3a29e0b6868523723c0474b3a49900"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_175.json"
+hash = "2d7c603f67a4da19b232ff97eb2bdd088e715fc5717fa2d168c9bc9624ce2e1f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_176.json"
+hash = "7ee66ed3c63d98be0b5a483d3f4aedb2d5447c693cbce7f5c3d3231b2688989f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_177.json"
+hash = "17ec35195423301afbbfa554dfd0ae5339b3588e970e14d5dd8d3ef9ea46f786"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_178.json"
+hash = "c50955137328948ba9ca256989ddd9d17df9098465d3913fdd59a14d27174aa2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_179.json"
+hash = "de2b293ae3e099d85d7b8663162048e93fa17fd345bfaff97ebcd04a1656c12f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_180.json"
+hash = "06b1ae9ec876f2d23e6ef8366c3fcf899c3e89c36e5089aeda6a40707e3b85eb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_181.json"
+hash = "f9bfe04e0a9758f6e1e5b9c98c2ad93cb45c9945741765676b76965274dd4d5e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_182.json"
+hash = "1f335e392354cacbd6691f4439f1590468529c159e16344aabfb5347e9ec9943"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_183.json"
+hash = "60bcfec0402a53bf30e019949b30cf4972ad841b76f78159fd96bddb537c0740"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_184.json"
+hash = "6e1838ee3be9c5b6cfb0ba334e8fef0d83d85f7cedbb19084a242e26501c2ca0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_185.json"
+hash = "e38b55e440ca31eb316f2707268595d97871f37686ab248326b2a6534ff3b685"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_186.json"
+hash = "1d8032d27a7efb2720c895a24909815cd096985dab63fef8b5875dbe2e8e6dee"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_187.json"
+hash = "b3fcb0b699238f44f6f2fd99578e695ed4d496160e3f191fd3daea5e664ed764"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_188.json"
+hash = "ba816db7d90c1be82a8c3353b0f7e302fe0afcd21cca111b99a2c889d5bb19d7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_189.json"
+hash = "23b1d972daf12544c7c8b0aeb4f4a2d9bd3574a0f589e08a7379f78fa7a71c96"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_190.json"
+hash = "190dfa96a89ddba7844914ae988ee5e79c62f5a6f65404682316bcddaf965945"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_191.json"
+hash = "a4bd83ac872803a4ea51074f40c9f266f170854b0dbf7bddd689c0b72c6ef8af"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_192.json"
+hash = "c9c85feeb5fba3fb0e122ddb3d38573c009985be08b43c90f15879976d694cf2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_193.json"
+hash = "12dca4f5970fac90fbff84366e9b1be3b23424bc38d831cd20264435cea96a57"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_194.json"
+hash = "3b48cc9386f0c5b9cd75bacf7ebed8606c8bc08b06c7b3d1e79ab30bbd299c6e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_195.json"
+hash = "eba6800c7493d19a95af53f37f3733e7a4fc0ea326252f65977d51210ec32cfc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_196.json"
+hash = "7739dfcbd37b2ca5f9e966e328e43312069fd29c5852831b02cf9555e4a279d0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_197.json"
+hash = "b7fa82656e7eab5206cf9077d215275c029442b830f56a3bad4717f21deab3aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_198.json"
+hash = "14876cc268b950668eca33927db3737705c5d4d391208ee733f34c2bc7457fc8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_199.json"
+hash = "b43f997ddd6557230fcc65b3237bbfe2a4e6c6aa1374575cc126f78ec2f9f652"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_200.json"
+hash = "ec54afec3dbe23a9c5a0914941161df03772df305dfae580060bf070d0b51979"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_201.json"
+hash = "93ddc7216af2bf22b68eca4247b9eac50704eee74f171b8153e9bfb3557b81f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_202.json"
+hash = "7b591e08063c1e0d4c71f5a265495f6afeb21a052133b66886aabb4065ed6ba2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_203.json"
+hash = "ad12c71e0b32d04b5b4356a6bd9d9032361096a68970ab37759c3d43235602a8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_204.json"
+hash = "8e82f940d50acb596a575b286cd8b6dea17d4214faaf50a790cab1841c34b541"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_205.json"
+hash = "ea241ba8a9fe2e1aa51599e93e1f0f22304aac903fd1f7b52c6be6b9406e5f3a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_206.json"
+hash = "baa70fdcd13ebb883909d1b25cde2c94daadca9f4b028b61c92f12ce33a429ef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_207.json"
+hash = "bca4059e7a94784e2defbec14b40274fcce129eed4b9b38ba8b3ae408193aa08"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_208.json"
+hash = "9ac8ac8f732f78f64bae0bb7ce0aebfcfea52716104a61ebb2b7653c76ef5049"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_209.json"
+hash = "43903b5ffe2e06755a7b746a27202ec9e1676a19b009378d61b29052209daea9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_210.json"
+hash = "2791d813ef6156aca047d5fc3c348ac427135ffe86be7eabb770026d19c6fe94"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_211.json"
+hash = "791cd1682f082cc68dbab0f365098e75fc9f371c060f6351f2271029127d7653"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_212.json"
+hash = "7425eb158c53398bc81309c77d555fc372cf27f6b2973f70c3f4743ade864163"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_213.json"
+hash = "7df64318e606d7b63ec826606390e0ac8fc4f0cee6048bcbf2559970e0bb7998"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_214.json"
+hash = "afef4d90facaeb9ac20aca6e9e9b0558152e754a578d97a145e81c1097736473"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_215.json"
+hash = "eb13dc3270286c3973885e7f60004480fc20dd29a61175a36b089e8fd29c2290"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_216.json"
+hash = "4857469832eef9d249b6b943479cdc5fc8bb4974706fd249a6c62a02530e512e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_217.json"
+hash = "78ab586b42fa834c25735961a646a3b40af63fab475969364e3f728b6476e521"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_218.json"
+hash = "085f60b80373ce4c2b0f426bb9fb55e9e3fa7b0aed90ab8b6c541800e5168421"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_219.json"
+hash = "3293a8c64d54b16c39b9203349409a756b05bf2ea11818a537da6673015fc6b6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_220.json"
+hash = "5050542e26b13b7818ba7c8c05652ee7650f7e430168c8d9b9f9e7b5b70b1103"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_221.json"
+hash = "2b0b98010b065c1b9568ea4ae77b8cca1bc82141e3b9a378bd63edea810a223b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_222.json"
+hash = "7a0ac0ae4ccfa98475179b8e9db9a013de636e063ddefccff083d03a9bd0db61"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_223.json"
+hash = "ed8242665eaf9e7262f044ff7a7bbbd39b0b7c6d33dd2aef07c1a8e407b0e7d4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_224.json"
+hash = "d1f29ec08b01d6d0e66eb41a88df9dda088e2c651a4b18944bf4fad6210f39f7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_225.json"
+hash = "c77819c5f353db199d80f4c951d410d9037b68e9d0d79873101045e00342b42c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_226.json"
+hash = "2156f0eb3721009bd8636a0c0faa50e896756e03c890c12ebace7f4878e69f96"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_227.json"
+hash = "58bc2b374fa6e50e50e94e5d2b6b1ee6e7af154425e6482baaa8c1dfdac0dc5a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_228.json"
+hash = "9ffc70e65b4ca0b4d349cf42271ac17c3877d7e1c54990f131e936e48c0f14af"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_229.json"
+hash = "74573f8444590091358ee11e0d81edd96f95d54bf885054517a6f59dc3285a72"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_230.json"
+hash = "eb9e81105c8cfde68d8f66020390747e992d118472cccefd7cf43ac76bcdadff"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_231.json"
+hash = "874f5aa3d2386ac9a642c5f8a5b4c459d9450485771b0b09ed27f6c8bbde37b7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_232.json"
+hash = "93dc399d908fb90f507a589fbb22ced53fd30093f0b4b519883649c91f23e2fd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_233.json"
+hash = "2f210a7a102334226d1494981886ab91a2a54c12701d6bc6169770ba178479d0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_234.json"
+hash = "784de76901159b276cc2e2ab734b04a5382ae7fcbcec6d338260a61d2441e20d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_235.json"
+hash = "76e44e7d876cb9ccc33622923c6804e30b4b164805cd637ada664c861139ccc5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_236.json"
+hash = "31f4e5bc815f601af4ef6196ef10364e90475a3c031eda5a9f3573d2a089a253"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_237.json"
+hash = "75b0e8ed2235712d29742f986db5f4a6832b7b6f4d67f052898ece8303129e47"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_238.json"
+hash = "64900ad342f185d2133884ed522ba390d69e478e946b43f5dbb5fa7950b15ffc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_239.json"
+hash = "d7d0579012d4a2ee2694975fc4e041cda3e2267f2b6e27f4d45309f60c1bb553"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_240.json"
+hash = "26afd7b934e3c0d4b123067a87e8f3707db3a41a8a09cde618b6b28e9ecaceb2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_241.json"
+hash = "ef838e39f461660d777fb587a4a0b63358e19ead7bf092287a4053883c1c1a45"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_242.json"
+hash = "0f2b2bb4d53e609c31dd2dc9bd5370c1c13f6296fe2d5e0706e7195240989088"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_243.json"
+hash = "84f07bcdf3c3d8e779d2d06664a3c2b43697073d553297d9423551961b1cec22"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_244.json"
+hash = "566c5252ea5fabdcff9e972e7d2d5f2844a44e8387785df56d00f8754430ca2d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_245.json"
+hash = "65661e6d35ea0c2c7417f7c08ddd5e98b96b1422dbeea6d6a326ac36c6c8a23a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_246.json"
+hash = "4a25b8f4c34a0065c178aa2708019bc83200fdb961b1468a47a52e5abefe6847"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_247.json"
+hash = "20468b8fc64aa9fdd433d52e7d2476948da3d58ebf8c66c02ad603d3f657fffe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_248.json"
+hash = "086f9a45ffdf4b46e9b122a02b7526c3e2e6bfb6836c1c9038f51dcf8d5d419a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_249.json"
+hash = "e9a728ad52462a4e1de23b137ee64520202c2ac856ee74b5cf241720b0636fa9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_250.json"
+hash = "7482019d022cbaf222584acff70038c5fa28ced7a45401851389f8d8b3e56552"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_251.json"
+hash = "433f78c678b3a2b873cd15ac97a4f4b9223169f6dd3296f8c4fc78a5719345c2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_252.json"
+hash = "7ba598454366f6b0680331266f4b9d00d0c72e2c9713a872d2c7dbefeb42ab3d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_253.json"
+hash = "6196d294da882bad9723df24b0c9c03b09eda849411f2af604ee272e2ec7fb45"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_254.json"
+hash = "d17280327c5f9657f2c0aba4f53925592cf6408dce782583075e5b8498aad41c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_255.json"
+hash = "998bc8cc5e218ce289d0acdb7735faad4956aeed7dfeb319a20ebcd70756d3c0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_256.json"
+hash = "53ee96da478c138871d8465e96db71aa037956a6ab8dec20b77909ed29df2f2c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_257.json"
+hash = "efd52d39422ebc3df9f5c3cc0f34ab1c0abdceaf01ffce45dbe54a8938cf0c90"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_258.json"
+hash = "d160643156bc909c87e437c768ed9b535407a34381b1db601bf4527127d67e6e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_259.json"
+hash = "d2435d83b5970da47fb1f5d90c094849f072a6cafb2d03dd734ccf6e268b8dfa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_260.json"
+hash = "457053efde9eaaa6eb3f3e5e372939653caa55aaceaeb0f5980dc70512be82cc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_261.json"
+hash = "d0d23f601c2ac803e2743ae27c7983140904b00b48921bba5ed2b0b3038ccd60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_262.json"
+hash = "67a6aeca3657e3b49102244b404afd1711f58ca17f34307b9b10605f4d221573"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_263.json"
+hash = "cdcca7640114c628b73b83dd05770172e84cbf27c8bfc76e7662e1ffe29fe659"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_264.json"
+hash = "952eb20d20d0f547f09a6bea7610e5151e4003b8e0aacc372aa5e4751be2af1b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_265.json"
+hash = "206ddcabc96824326e8fd9a86540e70711c0108b454f9734c5af4022ba5b8c5a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_266.json"
+hash = "7a7135f771a666b9548bde7dde06c85ec6a9e3470d943e0d8c196e56a5ed43db"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_267.json"
+hash = "2dd182fff9a94d45c607bfda7aa957c5b84de107a1e190cafeb0f85cc6bfa7c5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_268.json"
+hash = "0db638066d63c866ee1ffc012fefaa0112cdf7624d0e5c4d4611c381c57e58e0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_269.json"
+hash = "82c49297e82b344ffa514e74cd4d2bdd94de4b8b1f93a4cc68e4ea8fcf1a8638"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_270.json"
+hash = "b1206cb36878e52c0f6437deef4f68fe3f96f4d9ad4d37a603aef6debe3c4df7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_271.json"
+hash = "cdad205b799b5760d9376615dc8d3b749b76de422ee5680a7a94c53fc8daceb1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_272.json"
+hash = "37826258b95c0eec088a3337d4108291e626d6a1153d46f9fd2ec16a1321fc03"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_273.json"
+hash = "9fbf0d723879226500bed6c814015437fa26ee6a064e720bd42fa99559583c3b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_274.json"
+hash = "05691e7c0760ec0d42394cda4546e152d69eea58267ae2c171f411d53d5e3b1b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_275.json"
+hash = "039802cfe5d7b8ea860b29759640e2fa61e8aa11b87fb08a58c1bd9e9d5d371c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_276.json"
+hash = "067182404bd807262bde222fde1b9cde07c7a38b9b6beec2c12ea12641348b90"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_277.json"
+hash = "e4a7a47f4935a86f50ef1b97676801cb2f60caba414337de26976f20f21e531a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_278.json"
+hash = "db6d5cd1acfc7c33b89d7f122f6065f0c8e9a8e67284afc6ce48dd37e1c48389"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_279.json"
+hash = "ac5a9a70481cefdd5ead5819f13e977934ca07c871d6eb4ca74fe32c5e6bf92f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_280.json"
+hash = "e29fc68a7ee0a8332448e263acb1d6da56b4c8c2e916af72e457dcd6aa472cc9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_281.json"
+hash = "d3be75c1c36a41e8edf78afea366c600e8da2c36445edd8dce4ee07f33834010"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_282.json"
+hash = "926380122564101864df68365e6fe121deae11fe8f9d8f8267b265a488ebf62b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_283.json"
+hash = "078c9f9985681b7dcd157dfa494b1241838bc870354467296ce5a77e97d4cb33"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_armorer.json"
 hash = "db103a5563d670988367925c76626c405c2a285ed74a30239ca271a0f5cc5ba1"
 
@@ -967,6 +2103,62 @@ hash = "f2775ddd7758cb36cf94043c29b694e1e368001cac4244aa3ff309071c05641f"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/mixing/arcane_essence.json"
 hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_grand.json"
+hash = "e5b7da8aeacd550426f5528e145de3b3c9af976d0a4e28d705ee8ef8b48a9f63"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_moyen.json"
+hash = "8ab7866511086bd084b95c6c7774849735c982e52966b9e89c2b450927ba29bb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_petit.json"
+hash = "b21dfce66922e2bb2e2eea7f36e1b4165e1f0244aca1fa09e9253765a519bd32"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_grand.json"
+hash = "b6bee9a40a6b091bc604349a3f35809198ace41b9fc7e75b64161e6222988616"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_moyen.json"
+hash = "d6e61fc812062ef459d1356e406720c395d3323cdd932d50a2a9a20c97f7f370"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_petit.json"
+hash = "659961db5d8421a767f357e86c5ce10e977fe74444362b46cb9bd81c5c929d0b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/ocean_grand.json"
+hash = "677ab14868d5e00448a64586da9db363ad36425cfc950becfbd07b4f37934b04"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/ocean_moyen.json"
+hash = "d6407fb5bcb2cf5cddb89f545364d13c6713725ee62429a2386676ea1c721540"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_grand.json"
+hash = "add07719e9bcfbba3202f99afbd74cfb55cb80dab909c20bca7b12b4975b8259"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
+hash = "b6012faaf90d34441886310e179c85d2be4a324355057bcdb81453ee02d5ff10"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"
+hash = "272347844961f1d97cda1ab20000c6d62699a3c792ed605a1450e09385f85d5a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_grand.json"
+hash = "c3fbe2b378afcc9a284774a4beab229b2043c1696bda36ed5a15cd4bacfef0eb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_moyen.json"
+hash = "78c275ea5f8fe0a4f83902cad1f6e49adbf4dacae4a08d0c71c68a3635dca18a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_petit.json"
+hash = "abfee26ed4fc20a76e924d26beac21da9427eaa6fb333af137eef1ed3a1fc646"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/archaion/start.json"

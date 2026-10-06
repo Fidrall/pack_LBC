@@ -1,0 +1,8 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mns:medium_warped_fungus",
+    "structures":  [
+                       "mns:medium_warped_fungus",
+                       "mns:medium_warped_fungus_2"
+                   ]
+}

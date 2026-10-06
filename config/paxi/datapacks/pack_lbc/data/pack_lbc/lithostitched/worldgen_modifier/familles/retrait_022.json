@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mes:phantom_citadel",
+    "structures":  [
+                       "mes:phantom_citadel"
+                   ]
+}

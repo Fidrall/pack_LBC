@@ -1,0 +1,122 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "farmers_structures:cooks_nether_1",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:circle_blackstone",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:circle_nether_brick",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:crimson_forge",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:crimson_lava_well",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:large_blackstone_pillars",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "mns:large_blackstone_walls",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "mns:large_nether_brick",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:leafy_rubble",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:medium_blackstone",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:medium_crimson_fungus",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:medium_crimson_fungus_2",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:medium_crimson_well",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:medium_warped_fungus",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:medium_warped_fungus_2",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:medium_warped_well",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:ruined_portal",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:shrine",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:small_nether_brick",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:smoking_shrine",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mns:soul_fire",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "mns:very_small_blackstone",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:very_small_blackstone_2",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:very_small_blackstone_3",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:very_small_blackstone_4",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:very_small_nether_brick",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:very_small_nether_brick_2",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:very_small_nether_brick_3",
+                           "weight":  1
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  37781966,
+                      "spacing":  8,
+                      "separation":  4
+                  }
+}

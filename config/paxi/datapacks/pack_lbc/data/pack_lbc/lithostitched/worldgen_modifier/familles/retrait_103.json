@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "born_in_chaos_v1:grave_plug",
+    "structures":  [
+                       "born_in_chaos_v1:grave_plug"
+                   ]
+}

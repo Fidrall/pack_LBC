@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:crimson_enchanting_table",
+    "structures":  [
+                       "mvs:crimson_enchanting_table"
+                   ]
+}

@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:small_spruce_lantern",
+    "structures":  [
+                       "mvs:small_spruce_lantern"
+                   ]
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "explorify:watchtowers",
+    "structures":  [
+                       "explorify:watchtower/plains",
+                       "explorify:watchtower/savanna",
+                       "explorify:watchtower/taiga"
+                   ]
+}

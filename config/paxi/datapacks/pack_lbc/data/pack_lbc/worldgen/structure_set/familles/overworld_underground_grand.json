@@ -1,0 +1,18 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "create_structures_arise:create_dungeon_base",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "philipsruins:lost_soul_city",
+                           "weight":  6
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  152908296,
+                      "spacing":  74,
+                      "separation":  37
+                  }
+}

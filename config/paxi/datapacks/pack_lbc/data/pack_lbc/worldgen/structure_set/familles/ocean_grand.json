@@ -1,0 +1,18 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "create_structures_arise:pillager_boat",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "philipsruins:ocean_fortress",
+                           "weight":  5
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  955119263,
+                      "spacing":  63,
+                      "separation":  31
+                  }
+}

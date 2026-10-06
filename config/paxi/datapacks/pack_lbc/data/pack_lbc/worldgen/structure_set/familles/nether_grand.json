@@ -1,0 +1,78 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "create_structures_arise:create_bastion",
+                           "weight":  7
+                       },
+                       {
+                           "structure":  "create_structures_arise:darkcastle",
+                           "weight":  7
+                       },
+                       {
+                           "structure":  "mns:bridge_1",
+                           "weight":  8
+                       },
+                       {
+                           "structure":  "mns:bridge_2",
+                           "weight":  8
+                       },
+                       {
+                           "structure":  "mns:bridge_3",
+                           "weight":  8
+                       },
+                       {
+                           "structure":  "mns:bridge_4",
+                           "weight":  8
+                       },
+                       {
+                           "structure":  "mns:bridge_5",
+                           "weight":  8
+                       },
+                       {
+                           "structure":  "mns:bridge_6",
+                           "weight":  8
+                       },
+                       {
+                           "structure":  "mns:copper_tower",
+                           "weight":  13
+                       },
+                       {
+                           "structure":  "mns:dragon_arena",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mns:large_arena",
+                           "weight":  3
+                       },
+                       {
+                           "structure":  "mns:mega_fortress",
+                           "weight":  5
+                       },
+                       {
+                           "structure":  "mns:nether_tower",
+                           "weight":  5
+                       },
+                       {
+                           "structure":  "mns:nether_wart_farm",
+                           "weight":  9
+                       },
+                       {
+                           "structure":  "mns:small_arena",
+                           "weight":  5
+                       },
+                       {
+                           "structure":  "mns:train",
+                           "weight":  16
+                       },
+                       {
+                           "structure":  "mvs:crimson_enchanting_table",
+                           "weight":  11
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  29839440,
+                      "spacing":  24,
+                      "separation":  12
+                  }
+}

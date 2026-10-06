@@ -1,0 +1,350 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "explorify:badlands_pyramid",
+                           "weight":  7
+                       },
+                       {
+                           "structure":  "explorify:campsite",
+                           "weight":  7
+                       },
+                       {
+                           "structure":  "explorify:dark_forest_settlement",
+                           "weight":  7
+                       },
+                       {
+                           "structure":  "explorify:desert_shrine",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "explorify:guide_post_cold",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "explorify:guide_post_warm",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "explorify:mangrove_hut",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "explorify:supply_cache/birch",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "explorify:supply_cache/dark",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "explorify:supply_cache/desert",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "explorify:supply_cache/forest",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "explorify:supply_cache/jungle",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "explorify:supply_cache/mangrove",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "explorify:supply_cache/taiga",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "farmers_structures:cooks_moss",
+                           "weight":  37
+                       },
+                       {
+                           "structure":  "mvs:acacia_log_pile",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:acacia_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:acacia_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:barn",
+                           "weight":  10
+                       },
+                       {
+                           "structure":  "mvs:bench",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:birch_log_pile",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:birch_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:birch_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:blue_stall",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mvs:cherry_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:dark_oak_log_pile",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:dark_oak_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:dark_oak_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_acacia",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_birch",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_cherry",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_dark_oak",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_jungle",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_mangrove",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_oak",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:dead_tree_spruce",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:desert_pump",
+                           "weight":  9
+                       },
+                       {
+                           "structure":  "mvs:desert_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:fire_camp",
+                           "weight":  9
+                       },
+                       {
+                           "structure":  "mvs:haystack",
+                           "weight":  37
+                       },
+                       {
+                           "structure":  "mvs:horse_campsite",
+                           "weight":  26
+                       },
+                       {
+                           "structure":  "mvs:jungle_log_pile",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:jungle_palm_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:jungle_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:jungle_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:medium_bamboo_cart",
+                           "weight":  66
+                       },
+                       {
+                           "structure":  "mvs:medium_igloo_1",
+                           "weight":  13
+                       },
+                       {
+                           "structure":  "mvs:medium_igloo_2",
+                           "weight":  10
+                       },
+                       {
+                           "structure":  "mvs:medium_oak_lantern",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:oak_log_pile",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:oak_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:oak_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:orange_stall",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mvs:pile",
+                           "weight":  57
+                       },
+                       {
+                           "structure":  "mvs:pink_stall",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mvs:rare_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:red_stall",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mvs:rocky_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:small_acacia_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_bamboo_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_birch_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_campfire_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_cherry_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_copper_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:small_dark_oak_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_igloo",
+                           "weight":  10
+                       },
+                       {
+                           "structure":  "mvs:small_jungle_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_mangrove_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_oak_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_spruce_lantern",
+                           "weight":  17
+                       },
+                       {
+                           "structure":  "mvs:small_tower_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:small_tower_well",
+                           "weight":  18
+                       },
+                       {
+                           "structure":  "mvs:small_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:snowy_dog_hut",
+                           "weight":  12
+                       },
+                       {
+                           "structure":  "mvs:snowy_fossil",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:snowy_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:spruce_log_pile",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:spruce_tree",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:spruce_well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:stone_rock",
+                           "weight":  29
+                       },
+                       {
+                           "structure":  "mvs:well",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mvs:wheat_grain_bin",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:windmill",
+                           "weight":  14
+                       },
+                       {
+                           "structure":  "mvs:wooden_wheat_farm",
+                           "weight":  14
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  904073294,
+                      "spacing":  8,
+                      "separation":  4,
+                      "exclusion_zone":  {
+                                             "other_set":  "minecraft:villages",
+                                             "chunk_count":  4
+                                         }
+                  }
+}

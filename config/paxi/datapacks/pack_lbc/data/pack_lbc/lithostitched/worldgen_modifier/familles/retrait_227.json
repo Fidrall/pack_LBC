@@ -1,0 +1,20 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:other_wells",
+    "structures":  [
+                       "mvs:acacia_well",
+                       "mvs:birch_well",
+                       "mvs:dark_oak_well",
+                       "mvs:desert_well",
+                       "mvs:jungle_well",
+                       "mvs:oak_well",
+                       "mvs:rare_well",
+                       "mvs:rocky_well",
+                       "mvs:small_copper_well",
+                       "mvs:small_tower_well",
+                       "mvs:small_well",
+                       "mvs:snowy_well",
+                       "mvs:spruce_well",
+                       "mvs:well"
+                   ]
+}

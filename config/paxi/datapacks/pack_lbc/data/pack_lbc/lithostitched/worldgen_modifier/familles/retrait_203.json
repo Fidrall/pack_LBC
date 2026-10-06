@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:small_oak_pond",
+    "structures":  [
+                       "mvs:small_oak_pond"
+                   ]
+}

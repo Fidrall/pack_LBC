@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "explorify:dark_forest_settlements",
+    "structures":  [
+                       "explorify:dark_forest_settlement"
+                   ]
+}

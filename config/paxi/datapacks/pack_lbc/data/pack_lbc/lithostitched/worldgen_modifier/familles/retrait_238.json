@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:dead_tree_cherry",
+    "structures":  [
+                       "mvs:dead_tree_cherry"
+                   ]
+}

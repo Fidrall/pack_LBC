@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:wheat_grain_bin",
+    "structures":  [
+                       "mvs:wheat_grain_bin"
+                   ]
+}

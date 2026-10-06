@@ -1,0 +1,8 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "philipsruins:level_two_ruins",
+    "structures":  [
+                       "philipsruins:level_two_ruins",
+                       "philipsruins:level_two_ruins_pool"
+                   ]
+}

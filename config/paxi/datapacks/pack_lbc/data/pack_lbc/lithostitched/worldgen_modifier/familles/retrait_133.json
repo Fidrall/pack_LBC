@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "farmers_structures:aquacultures_beach_with_all",
+    "structures":  [
+                       "farmers_structures:aquacultures_beach"
+                   ]
+}

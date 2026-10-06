@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mes:astral_hideaway",
+    "structures":  [
+                       "mes:astral_hideaway"
+                   ]
+}

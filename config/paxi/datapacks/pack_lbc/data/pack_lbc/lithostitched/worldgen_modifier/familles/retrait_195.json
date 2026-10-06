@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:mud_brick_house_1",
+    "structures":  [
+                       "mvs:mud_brick_house_1"
+                   ]
+}

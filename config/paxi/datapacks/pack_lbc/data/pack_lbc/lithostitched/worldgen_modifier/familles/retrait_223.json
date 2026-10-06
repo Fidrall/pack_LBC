@@ -1,0 +1,13 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "explorify:supply_caches",
+    "structures":  [
+                       "explorify:supply_cache/birch",
+                       "explorify:supply_cache/dark",
+                       "explorify:supply_cache/desert",
+                       "explorify:supply_cache/forest",
+                       "explorify:supply_cache/jungle",
+                       "explorify:supply_cache/mangrove",
+                       "explorify:supply_cache/taiga"
+                   ]
+}

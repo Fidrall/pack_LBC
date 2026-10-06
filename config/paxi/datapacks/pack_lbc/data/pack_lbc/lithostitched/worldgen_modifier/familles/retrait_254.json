@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:medium_oak_lantern",
+    "structures":  [
+                       "mvs:medium_oak_lantern"
+                   ]
+}

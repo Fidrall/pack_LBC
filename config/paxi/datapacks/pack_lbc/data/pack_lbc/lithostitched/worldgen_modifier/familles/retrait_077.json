@@ -1,0 +1,9 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mns:very_small_nether_brick",
+    "structures":  [
+                       "mns:very_small_nether_brick",
+                       "mns:very_small_nether_brick_2",
+                       "mns:very_small_nether_brick_3"
+                   ]
+}

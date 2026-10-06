@@ -1,0 +1,54 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "mes:astral_hideaway",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mes:ender_spire",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:enderbloom_grove",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mes:enderkeep_courtyard",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:enderskog",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:enderwatch_tower",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mes:endscraps",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mes:manuscript_shrine",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mes:monolith",
+                           "weight":  2
+                       },
+                       {
+                           "structure":  "mes:mystical_archway",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mythic_garden",
+                           "weight":  2
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  955936495,
+                      "spacing":  16,
+                      "separation":  8
+                  }
+}

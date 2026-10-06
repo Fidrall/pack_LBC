@@ -1,0 +1,42 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "mes:mega_ship",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mega_ship_basic",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mega_ship_crashed",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mega_ship_crashed_2",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mega_ship_crashed_deepslate",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mega_ship_deepslate",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mega_ship_deepslate_2",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "mes:mega_ship_deepslate_3",
+                           "weight":  1
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  950461947,
+                      "spacing":  28,
+                      "separation":  14
+                  }
+}

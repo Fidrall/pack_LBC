@@ -198,5 +198,32 @@ W 'data/minecraft/worldgen/structure/pillager_outpost.json' ([ordered]@{ type = 
 # minecraft:end_cities : Nullscape (26/18, adapte a son terrain) et Trek (20/11). On garde Nullscape.
 W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structures = @([ordered]@{ structure = 'minecraft:end_city'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387313; spacing = 26; separation = 18; spread_type = 'triangular' } })
 
+# ---------- 9. Familles de structures (repartition homogene) ----------
+# 321 petites structures (Moog's, Born in Chaos, Create Structures Arise, Farmer's, Philips, Explorify) avaient chacune
+# leur propre grille -> entassements. Plan fige : scripts/data/structure_families.csv (poids = rarete relative d'origine).
+# Chaque famille = un seul ensemble : une structure par case ; si le biome ne convient pas, le jeu en essaie une autre.
+# Les structures sont retirees de leur ensemble d'origine par Lithostitched (remove_structure_set_entries).
+$famSpacing = @{
+    overworld_surface_petit = 8; overworld_surface_moyen = 8; overworld_surface_grand = 14
+    overworld_underground_petit = 10; overworld_underground_moyen = 26; overworld_underground_grand = 74
+    ocean_moyen = 22; ocean_grand = 63
+    nether_petit = 8; nether_moyen = 12; nether_grand = 24
+    end_petit = 10; end_moyen = 16; end_grand = 28
+}
+$fam = Import-Csv (Join-Path $PSScriptRoot 'data\structure_families.csv')
+foreach ($g in ($fam | Group-Object family)) {
+    $sp = $famSpacing[$g.Name]; if (-not $sp) { throw "Famille sans espacement : $($g.Name)" }
+    $salt = 0; foreach ($ch in $g.Name.ToCharArray()) { $salt = ($salt * 31 + [int]$ch) % 1000000007 }
+    $pl = [ordered]@{ type = 'minecraft:random_spread'; salt = $salt; spacing = $sp; separation = [Math]::Floor($sp / 2) }
+    if ($g.Name -like 'overworld_surface_*') { $pl.exclusion_zone = [ordered]@{ other_set = 'minecraft:villages'; chunk_count = 4 } }
+    $entries = @($g.Group | ForEach-Object { [ordered]@{ structure = $_.structure; weight = [int]$_.weight } })
+    W "data/pack_lbc/worldgen/structure_set/familles/$($g.Name).json" ([ordered]@{ structures = $entries; placement = $pl })
+}
+$i = 0
+foreach ($g in ($fam | Group-Object source_set)) {
+    W ("data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_{0:D3}.json" -f $i) ([ordered]@{ type = 'lithostitched:remove_structure_set_entries'; structure_sets = $g.Name; structures = @($g.Group.structure) })
+    $i++
+}
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

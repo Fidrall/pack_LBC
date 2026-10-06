@@ -1,0 +1,26 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "farmers_structures:ratatouilles",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "farmers_structures:squids",
+                           "weight":  5
+                       },
+                       {
+                           "structure":  "philipsruins:lost_soul_dungeon",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "philipsruins:underground_structures",
+                           "weight":  1
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  158382844,
+                      "spacing":  26,
+                      "separation":  13
+                  }
+}

@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:diorite_and_deepslate_house",
+    "structures":  [
+                       "mvs:diorite_and_deepslate_house"
+                   ]
+}

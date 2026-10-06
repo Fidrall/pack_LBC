@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mvs:mine_with_campsite",
+    "structures":  [
+                       "mvs:mine_with_campsite"
+                   ]
+}

@@ -1,0 +1,8 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "mns:shrine",
+    "structures":  [
+                       "mns:shrine",
+                       "mns:smoking_shrine"
+                   ]
+}

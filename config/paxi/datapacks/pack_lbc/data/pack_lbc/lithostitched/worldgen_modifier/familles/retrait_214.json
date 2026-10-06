@@ -1,0 +1,7 @@
+{
+    "type":  "lithostitched:remove_structure_set_entries",
+    "structure_sets":  "philipsruins:ancient_towers",
+    "structures":  [
+                       "philipsruins:ancient_towers"
+                   ]
+}
