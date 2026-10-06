@@ -395,5 +395,15 @@ foreach ($f in $familles.Keys) {
 }
 W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $glm })
 
+# ---------- 15. Coffres Dungeons Arise reequilibres (tables figees dans scripts/data/loot_overrides) ----------
+# 109 tables : diamants/emeraudes/or /5, netherite /3, equipement enchante 1 tirage au lieu de 2-3.
+# (regenerer avec scratchpad da_rebalance.ps1 si Dungeons Arise est mis a jour)
+$lo = Join-Path $PSScriptRoot 'data\loot_overrides'
+foreach ($f in Get-ChildItem $lo -Recurse -File) {
+    $to = Join-Path $dp $f.FullName.Substring($lo.Length + 1)
+    New-Item -ItemType Directory -Force (Split-Path $to) | Out-Null
+    Copy-Item $f.FullName $to -Force
+}
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

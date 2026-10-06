@@ -477,6 +477,442 @@ file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/fro
 hash = "be0347cdda9059360cf153821fe7d1fbd95c29ec5ab7deccab8af32fa53083d1"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/abandoned_temple/abandoned_temple_entrance.json"
+hash = "4aa001cc128173430640a4a31570c9a3f03acce364b6e5977fddc60eaf3932f8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/abandoned_temple/abandoned_temple_map.json"
+hash = "911717ceabd812d61e59eea81b59edd90a0ff1bbff26efd00d44f79e772011e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/abandoned_temple/abandoned_temple_top.json"
+hash = "486d046c10421117f3708d92fd5272d1a4ce13b6741b9ad42b925a3dad43a1e5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/aviary/aviary_barrels.json"
+hash = "ecaf705aa46142789905de18b11986418126ede35660812f393ed78bb39141c9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/aviary/aviary_normal.json"
+hash = "83683bda2ecf9c6fb76a2422f71546ba387e3316f97feb16b66228bbce3800b1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/aviary/aviary_treasure.json"
+hash = "46da3d41ae1a9e90d7b9b23414aa8180ef241a8d1edc679508514dc32f72a965"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_barrels.json"
+hash = "36cd8b2b7896e749669dad3f32ab7b19735b89ec256afd1ffd8fe7425110c177"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_gardens.json"
+hash = "8a8ce2d566d6a909aadadce0425d237a97a7684816fc98f3db8948cfb4194478"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_normal.json"
+hash = "f7ec12b68dfffdec5a738be9d800fb1bcc873eab7043dca80e4b2b852072c390"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_rooms.json"
+hash = "93b6f1495b1f97fbc30a1aadd7daa30f317d663628d64d02131155ee2548c62d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_supply.json"
+hash = "33afbb0370613155388ee4aad7250a3d8563685fff0db36e1678179b2c4d2de1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_towers/bandit_towers_treasure.json"
+hash = "0f484d988357ef42d7f370b2824cc31776e836cf79d8c662f0282f7e3ee96564"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_village/bandit_village_barrels.json"
+hash = "cea3fbc1acc4ec6899a010e374a3c200c6e07dbc7b5e64959997850e43bad9d4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_village/bandit_village_normal.json"
+hash = "cea3fbc1acc4ec6899a010e374a3c200c6e07dbc7b5e64959997850e43bad9d4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_village/bandit_village_supply.json"
+hash = "33afbb0370613155388ee4aad7250a3d8563685fff0db36e1678179b2c4d2de1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bandit_village/bandit_village_tents.json"
+hash = "cea3fbc1acc4ec6899a010e374a3c200c6e07dbc7b5e64959997850e43bad9d4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/bathhouse/bathhouse_normal.json"
+hash = "0963ac3a62b5da952c6a020e12b65f09cea82335377795d1dcef7401b9671a5c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/ceryneian_hind/ceryneian_hind_treasure.json"
+hash = "52dffff5a84a1215e1cc0df7a157d56396f5041448678eaa9a240deac8a091cc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/foundry/foundry_chains.json"
+hash = "6b70d5b38e1543a9fd92e7208803367416cdd914914ef9e156531be9fb98a97a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/foundry/foundry_normal.json"
+hash = "892e918847e1e86beb2027851525771c606e46bb66155e8bf9cef8d396f499c4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/foundry/foundry_passage_exterior.json"
+hash = "0a62b6abb258b585a55e9268956d39e6a196a214507f509f04560ea06ed1b164"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/foundry/foundry_passage_normal.json"
+hash = "d679f14672582753e3f44f02e804672c3da4117d65f879031c47f88a2991afbe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/foundry/foundry_treasure.json"
+hash = "62265f8a22444538e690ee4c69beda55f29b70aee008f51b0ca4d9a577a3dfda"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/greenwood_pub/greenwood_pub_barrels_hallways.json"
+hash = "22102e5e9a93f9c7f4f5a6f328c3f13341e8dd8c4dd45537453f30b186d945f4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/greenwood_pub/greenwood_pub_barrels_normal.json"
+hash = "3d873382e09aa679f4d13309faaf5d4e9651e48012d7ed7ec5f0d793a9c7b36a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/greenwood_pub/greenwood_pub_normal.json"
+hash = "d9f4ce263775054c8bc75ad1efe9fcecc7e818ac1cf69abb53c6ccb0d10537a8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_challenger/heavenly_challenger_normal.json"
+hash = "83683bda2ecf9c6fb76a2422f71546ba387e3316f97feb16b66228bbce3800b1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_challenger/heavenly_challenger_theater.json"
+hash = "3f4295605494464bbdd7f170a02077486ecec8042a7b6999fee2daee2a2969aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_challenger/heavenly_challenger_treasure.json"
+hash = "9fc194eefa4ea3d1b3114ccfa7aa25e363b58fd231bdc454558b37445d463ae9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_conqueror/heavenly_conqueror_barrels.json"
+hash = "99b449b3161e3f76732be43ca89a2632da3b598199fb080dc61391548e7dd42a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_conqueror/heavenly_conqueror_normal.json"
+hash = "926cba56f4e2be7fb2b4681df2358d1e06776d0996c2d5a093dcde9c941471e1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_conqueror/heavenly_conqueror_treasure.json"
+hash = "da212a231146a9bbf9cad2b13321b5a9e765acfb5d6a534a4869e078ef65722d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_rider/heavenly_rider_barrels.json"
+hash = "99b449b3161e3f76732be43ca89a2632da3b598199fb080dc61391548e7dd42a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_rider/heavenly_rider_normal.json"
+hash = "99b449b3161e3f76732be43ca89a2632da3b598199fb080dc61391548e7dd42a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/heavenly_rider/heavenly_rider_treasure.json"
+hash = "ad8c2f7270f552be44c39cb62dbc6560003fc5eeb9d5a518966c2d4c8d0af172"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/illager_corsair/illager_corsair_treasure.json"
+hash = "c58b9d075741452316004072d17876ed8689e8e18940231995fd82d5d7e70ae2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/illager_fort/illager_fort_barrels.json"
+hash = "f2464523f7b0f0e8f184c2e2ffc43db0bf0ca2bc703d97392ac32a78ee4642fc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/illager_fort/illager_fort_normal.json"
+hash = "03d8a66b2023d091d29587f3cc037dc2976fbc27b3fcd29a9c0ce7af2b36fec8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/illager_fort/illager_fort_treasure.json"
+hash = "f71a0d3618b8a59d999961ab26bbbc5eaf912b0229fe42390b7f0433ee744c71"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/illager_galley/illager_galley_treasure.json"
+hash = "c58b9d075741452316004072d17876ed8689e8e18940231995fd82d5d7e70ae2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/illager_windmill/illager_windmill_barrels.json"
+hash = "1fde17e819eccf7e95991458977961dd204cee8de4e07eed090cabc59dc41e6e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/illager_windmill/illager_windmill_treasure.json"
+hash = "a5edd9558b9f29fa8ec581d7bef103e02edf5bfd31a5e6303bc9f9868ecccc61"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_room_normal.json"
+hash = "51e795d828105adca34f2c0f908ca017521c3d1dbb0b2513f0dd1ef859dcfdf2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_room_supply.json"
+hash = "64b1d2534c064411fb5a10c3a4208d6a69e0e4618ea8b3721f4d92ea24942ab0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_vault_normal.json"
+hash = "180b2e100f8c75a3cfd9064d619de5b02f2008e4b944ddf658784e1c0da22254"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_vault_ominous.json"
+hash = "5d38b74b820e42e42ab8bab5dce73e3709664e62b8b18ce8e9f4829eca0428bc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/infested_temple/infested_temple_vault_treasure.json"
+hash = "24f48bde0053a23605ccc40ca0a548ab710d65a3710684e4d45deed2366234b4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/jungle_tree_house/jungle_tree_house_treasure.json"
+hash = "9ec2e945bdd60d13f963518091852cfde78a54b0d0c377a1d63461f61a06c3f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/keep_kayra/keep_kayra_garden_normal.json"
+hash = "7df9df3590d006d05d1194992d527768149a9b9aea476ce63247a5a18d40c82d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/keep_kayra/keep_kayra_garden_treasure.json"
+hash = "a14af23a2cc9c0441ea75815df0bfcade7e3c4e7fc8b4fd26ce3643c5d89a5f5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/keep_kayra/keep_kayra_library_normal.json"
+hash = "78a31f418194b109c1474046f4c58e46577018b8e7947289af1f032983b884f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/keep_kayra/keep_kayra_library_treasure.json"
+hash = "0eb0afd5d4bc31d0eac74336c2243a7a468ecd577bbd2e1292fd378f3fb10a05"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/keep_kayra/keep_kayra_normal.json"
+hash = "b19d500bf00afdb03f1fd7978a017c92a07d3ab27e806490151fba711fa57927"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/keep_kayra/keep_kayra_treasure.json"
+hash = "24e4c51b25b59040503cdd529ad9b54184e0b4e53f6ffd02771affb546a5c94a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_basement.json"
+hash = "9d8f07df59369b26d50c864592a187624e53f0b1f9e613881bb3b546ec30902d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_normal.json"
+hash = "f79107eade899cd7cf88396fedf337c437736efcdd56a9fa50b2011c5e11aa2e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_top.json"
+hash = "b02d0454dc2f688552518ad976c3c1b1a134da6f932fa126a949f5ff851834bb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_treasure.json"
+hash = "1dd4fc7c3c9177efd8e6b3479423243f13f343186f67687c4076218a4fcc27c2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal.json"
+hash = "e94b820fd7148a8c52234344733784ad75145ea0297f438972f9b75eea0e4816"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal_treasure.json"
+hash = "8feed3ecb3d46f56afed9549b915d7c799806e2dd938af9abc397a60bb693f0c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous.json"
+hash = "a2c6fefb94c28adff3b1bed73943ef4f4174ab9481e3c6a7b8462c8798223154"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous_treasure.json"
+hash = "ca11f6e1daf1040d7b84b3b82bba085012d7c2527c9f3da2f4e60cfc5a62fc15"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/lighthouse/lighthouse_top.json"
+hash = "edf3147654758b9fae00bcba57a3586dd870f83be5f0321995f2c8fa601628b8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mechanical_nest/mechanical_nest_equipment.json"
+hash = "f3357789d25143149bfa935dec3e47667b3760e38ad81dd9d61194b614cea465"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mechanical_nest/mechanical_nest_normal.json"
+hash = "008f0010923a035a0cd62da515d2180cec9df609e028edf83aa623c0e21163d2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mechanical_nest/mechanical_nest_supply.json"
+hash = "157216cc28fcba4ba5094a1bb4b34afa3a8fc7c7b4f2c01e76bed574cd444d0a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mechanical_nest/mechanical_nest_treasure.json"
+hash = "b27058cb893a3f2e63325137478c225459b1bd9facbd4d8b2d41312fbc34ab47"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/merchant_campsite/merchant_campsite_map.json"
+hash = "344726ff495bf20a7b46649a5d6f64e7e4eaf2c6beb58559b4f8e8cb295689b6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mines_treasure_big.json"
+hash = "cfb3ec3860a7e8f26ea42b956641a2a10924cb0a55c163bf6b750baacde8f360"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mines_treasure_medium.json"
+hash = "ffae6acb6c3c140d5d2ebf87e49c1bef45a62e7185cf2b8bdda8964a0f66ca0d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_barrel.json"
+hash = "3b05787b964aadb9381ac58b1c018ecccc3948a82f31f99de37ed9d1b4e9cc00"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_dripstone_normal.json"
+hash = "b5f95efcfebc9e53b84697f671cd6c8ead3bf7b6ea9dae9ef6e7edb97d8ff6fb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_facility_normal.json"
+hash = "cfdc5757d53b460b0f87cfae4ec7842b561969e03352b48315464baa63ef6090"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_lush_normal.json"
+hash = "3df6db12d8f2fa29248b98eae7999a08e422bf02bb789f072ad8ae1db443773f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mining_complex/mining_complex_treasure.json"
+hash = "f7b01893a97dc0bae7fa59a0344486eda52b5629969baa1f7e4bc5406562d550"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mining_system/mining_system_treasure.json"
+hash = "cfb3ec3860a7e8f26ea42b956641a2a10924cb0a55c163bf6b750baacde8f360"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/monastery/monastery_bridges.json"
+hash = "4fc5174164aabde18b0a0512a556fa825481258dc127f9f708be0697bbdeb0d8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mushroom_house/mushroom_house_barrels.json"
+hash = "4fc5174164aabde18b0a0512a556fa825481258dc127f9f708be0697bbdeb0d8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mushroom_house/mushroom_house_normal.json"
+hash = "41384869b71ab1bd38774babf6a0da8f402e711a236ced211f16a99b1fcffee2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mushroom_house/mushroom_house_treasure.json"
+hash = "cafd47636b75e6983d46f51aae95353ce70817d065ef5a695094011f520f6f82"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mushroom_mines/mushroom_mines_barrels.json"
+hash = "ffae6acb6c3c140d5d2ebf87e49c1bef45a62e7185cf2b8bdda8964a0f66ca0d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mushroom_mines/mushroom_mines_treasure.json"
+hash = "cfb3ec3860a7e8f26ea42b956641a2a10924cb0a55c163bf6b750baacde8f360"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mushroom_village/mushroom_village_barrels.json"
+hash = "26cee71596aaf2c291686ec888dcf33c3ef7e5cc68a0b4fec0d8da84d6913523"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/mushroom_village/mushroom_village_treasure.json"
+hash = "2ddb8258c20c9ca4957b4fb6eaf9aa4fc45898cac4186c8c0c659df60fea837e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/plague_asylum/plague_asylum_barrels.json"
+hash = "bae6cd725a086a4bcbd742282675e77d3b0e2c4fde614d4e00dc30fb962e4106"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/plague_asylum/plague_asylum_cells.json"
+hash = "e04dfdf2a38a3e9b2b76e370dd1917c72eef5e7c1eededb31f62afc774892c57"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/plague_asylum/plague_asylum_normal.json"
+hash = "845b6b53973b44967aeed4ab80f05fbf203e13f49d9815c39d3f2bb20f4b0f34"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/plague_asylum/plague_asylum_potions.json"
+hash = "d0728a7675682bb8e952a7f8bd031731546ca9f9ff1c37da4f9021177e93eb17"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/plague_asylum/plague_asylum_treasure.json"
+hash = "df3430481b1842cc1f9685dfb769abf9ebdefc61533a01c435ec6a83df20812a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/scorched_mines/scorched_mines_barrels.json"
+hash = "cc16337fe79face1227416c3dd4e2f5ebda94d01efa03e59fd691f87746bd9cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/scorched_mines/scorched_mines_housing.json"
+hash = "cc16337fe79face1227416c3dd4e2f5ebda94d01efa03e59fd691f87746bd9cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/scorched_mines/scorched_mines_hub.json"
+hash = "0619db80ae1ef4faceec21cd3178b00cb863f65ebd9ea71d5b1a7ffedc135e08"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/scorched_mines/scorched_mines_normal.json"
+hash = "cc16337fe79face1227416c3dd4e2f5ebda94d01efa03e59fd691f87746bd9cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/scorched_mines/scorched_mines_treasure.json"
+hash = "5b54d21ed8ab354662682c4e93fb3f72c5fcbe7fa2e3c89aeda3a43749c707cf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_elite.json"
+hash = "8e6ad34eceb3ca30f1677d3cba773465459ad85e90cd48c710871923ff4263dd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_gardens.json"
+hash = "c78eb5795bdbeccd23cc6dd14874d67977b6f6a62f2d9e36ce131416f7fff4fa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_library.json"
+hash = "d1625f3b68c530e5bc6523c299db20926fc2e01c38bdb0223d62ca775e3648d5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_normal.json"
+hash = "c720dc59e08a25f81c24b4792f71e4dc16fd9a3d30572eeb7b85ceed8e0b4d8f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_rooms.json"
+hash = "3957301b7c0af5f42bab6f8d1694382b6ab2abbee9ef3d5e668e28d178de6ef4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_supply.json"
+hash = "8f39295ca82d344f3c0063aafb6aa42516002c78c5578279ca02b8c20aae0b2c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_towers.json"
+hash = "4932871ccc062b6d57fbd4f3399feb563d8ca5739ebfc6c4209b55feddddbac7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_treasure.json"
+hash = "63e2a9dd2e270c8f934775bb996f4a3fe2dc671d53cf478d3ba911c664297d7b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/small_blimp/small_blimp_treasure.json"
+hash = "3ee0dee0cdeeab41c2616667f460d525ffdbf43f5d5ba9499c4baf43ec8301c6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/thornborn_towers/thornborn_towers_barrels.json"
+hash = "9824ff7e81b795e20fdac3482090a09692f46427ae572dc67e396957108951c8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/thornborn_towers/thornborn_towers_rooms.json"
+hash = "75734cf8fbff3c99bf590ce702e5a8b465b85c0ff965fb005ea5d4a65f070d8c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/thornborn_towers/thornborn_towers_top_rooms.json"
+hash = "c017fb9c1fabe2152e2af28fa4e8133ff45ea58f0a3d862df50384a545e1765d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/thornborn_towers/thornborn_towers_top_treasure.json"
+hash = "7b6aa1f12dcaa6a720f2b0b7eb46cef36c1b485d942778a758f4657ef3757563"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/typhon/typhon_treasure.json"
+hash = "15cf4a525425645538ee3e3d20a8811a737a0574ee7d5e04fbb5f44a50a61b22"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/undead_pirate_ship/undead_pirate_ship_treasure.json"
+hash = "15cf4a525425645538ee3e3d20a8811a737a0574ee7d5e04fbb5f44a50a61b22"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_set/major_structures.json"
 hash = "551f9497987a1b545bf1b8d94efb5a227f953ec04d0d72b6a9ef48217d31a10d"
 
