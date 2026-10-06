@@ -1527,9 +1527,10 @@
                        {
                            "name":  "mvs:floating_islands",
                            "override_global_flatness_check":  true,
-                           "enable_flatness_check":  true,
+                           "enable_flatness_check":  false,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "exclude_from_overlap_prevention":  true
                        },
                        {
                            "name":  "mvs:flower_hole",
@@ -1639,9 +1640,10 @@
                        {
                            "name":  "mvs:large_floating_island",
                            "override_global_flatness_check":  true,
-                           "enable_flatness_check":  true,
+                           "enable_flatness_check":  false,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "exclude_from_overlap_prevention":  true
                        },
                        {
                            "name":  "mvs:large_mushroom",

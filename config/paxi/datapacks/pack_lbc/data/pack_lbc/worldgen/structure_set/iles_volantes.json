@@ -1,0 +1,18 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "mvs:floating_islands",
+                           "weight":  7
+                       },
+                       {
+                           "structure":  "mvs:large_floating_island",
+                           "weight":  12
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  71925503,
+                      "spacing":  260,
+                      "separation":  100
+                  }
+}

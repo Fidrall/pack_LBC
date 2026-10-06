@@ -946,7 +946,7 @@ hash = "6d7cda497d273a8e48b444ee6d4a5f36a4c7a78057e2fcb37d29169b369f0025"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/villages.json"
-hash = "75146fc3fd27d28b164ab120d840410335bc03a84bf23806ded15f3b67850741"
+hash = "4041a77fd75fdc543025960307eda563cd4bd5e1a9ed60d4ed2eb98550a922b2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woodland_mansions.json"
@@ -954,11 +954,11 @@ hash = "f0d6e83769aefc74344659a047cd9dedd47d2d9300f70b6a633af8587d125b9a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/mvs/worldgen/structure/floating_islands.json"
-hash = "ea5ba583a651e8126f19b66e9cc8142cd5065f5965b9cbf59fb2433b3b59c694"
+hash = "780616e2de8c19b436961cde5be7e64c86b6c7197325fa8eab653944ba25f18b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/mvs/worldgen/structure/large_floating_island.json"
-hash = "6bf4289d13d121c1afb248eef8191120293c29131fd7bc948d9188abff556ca6"
+hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
@@ -3018,7 +3018,7 @@ hash = "a08e9f020be42de75824f4fbe432b37718004b380ed43b1e8e63b5741c2ee287"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "27ac668b7393c0a45410968c4c05ae2bd58e342470833f82e13c633134797723"
+hash = "2f4812d73f132ae238ea46e5ef36be672ece8ef9b0f065dc4a880d4ab050428f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"
@@ -3035,6 +3035,10 @@ hash = "d497585689eba228852b0b17e24342dcc10d0072c00f5e57b49b08b727900489"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_petit.json"
 hash = "7fab0dcd633258dd1438b9162b5dc6f64e4dab9a09fd9a8cc0d844df10954a53"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/iles_volantes.json"
+hash = "a61c2ba45a36da539158a2a452ba669c866b5177ac006eab56f7769e4d5fb341"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/archaion/start.json"
@@ -3070,7 +3074,7 @@ hash = "c2a6ef2aef59b434e3cf54a4c3b89ba085cbb1bc7bae30d9ed452056c10466c4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towns.json"
-hash = "7dcb4c5bffe6604afe88d69466f9995f46035d0ff019d3c72637bc5edbda3455"
+hash = "507940b5ce47d10b6329ab16ac1d9c628254d8084c64224a139ea3145db0d253"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/entity_group/boss.json"
@@ -3330,7 +3334,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "21c1138256aa101ea13c81a3a86b7ae8e87a74d02d477f8ba81eb6e8d1ac677f"
+hash = "9b96a97177004804fe482fcd63992ba428219b0676a58b266f826b40a5083bb0"
 
 [[files]]
 file = "config/tectonic.json"

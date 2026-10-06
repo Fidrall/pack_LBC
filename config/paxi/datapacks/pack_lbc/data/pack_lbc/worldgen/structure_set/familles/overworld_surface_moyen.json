@@ -165,10 +165,6 @@
                            "weight":  138
                        },
                        {
-                           "structure":  "mvs:floating_islands",
-                           "weight":  7
-                       },
-                       {
                            "structure":  "mvs:flower_hole",
                            "weight":  163
                        },
@@ -199,10 +195,6 @@
                        {
                            "structure":  "mvs:large_cart_2",
                            "weight":  110
-                       },
-                       {
-                           "structure":  "mvs:large_floating_island",
-                           "weight":  12
                        },
                        {
                            "structure":  "mvs:large_warped_tower",

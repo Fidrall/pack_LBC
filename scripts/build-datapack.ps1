@@ -188,7 +188,7 @@ W 'data/archaion/worldgen/structure/ancient_keep.json' $j
 # On fusionne : tous les villages, espacement proche de Luki (ses capitales sont grandes).
 $vil = @('plains', 'desert', 'savanna', 'snowy', 'taiga' | ForEach-Object { [ordered]@{ structure = "minecraft:village_$_"; weight = 1 } })
 $vil += 'plains', 'desert', 'savanna', 'snowy', 'taiga', 'swamp_vanilla', 'cherry' | ForEach-Object { [ordered]@{ structure = "trek:village/$_"; weight = 1 } }
-W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 36; separation = 16 } })
+W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 26; separation = 12 } })
 # Structures redefinies : on garde la version Luki's (capitales "revampedvillages", comme ses autres villages).
 # village_taiga : Luki's, avec la liste de biomes plus large de Dungeons and Taverns.
 W 'data/minecraft/worldgen/structure/village_taiga.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#nova_structures:collections/any_taiga'; liquid_settings = 'ignore_waterlogging'; step = 'surface_structures'; spawn_overrides = @{}; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:taiga/start'; size = 5; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })
@@ -212,9 +212,12 @@ $famSpacing = @{
 }
 $fam = Import-Csv (Join-Path $PSScriptRoot 'data\structure_families.csv')
 # Ajustements manuels de frequence (multiplicateur du poids), conserves si le CSV est regenere
-$famFactor = @{ 'mvs:floating_islands' = 0.12; 'mvs:large_floating_island' = 0.15; 'mns:grave_yard' = 0.1; 'mns:large_house_1' = 0.13; 'mns:circle_blackstone' = 0.27; 'mns:crimson_forge' = 0.3 }
+$famFactor = @{ 'mns:grave_yard' = 0.1; 'mns:large_house_1' = 0.13; 'mns:circle_blackstone' = 0.27; 'mns:crimson_forge' = 0.3 }
 foreach ($r in $fam) { if ($famFactor.ContainsKey($r.structure)) { $r.weight = [Math]::Max(1, [Math]::Round([int]$r.weight * $famFactor[$r.structure])) } }
-foreach ($g in ($fam | Group-Object family)) {
+# Iles volantes (Moog's) : hors familles, ensemble a part -> elles ne prennent plus de case aux structures au sol
+$iles = @($fam | Where-Object { $_.structure -like 'mvs:*floating*' })
+W 'data/pack_lbc/worldgen/structure_set/iles_volantes.json' ([ordered]@{ structures = @([ordered]@{ structure = 'mvs:floating_islands'; weight = 7 }, [ordered]@{ structure = 'mvs:large_floating_island'; weight = 12 }); placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 71925503; spacing = 260; separation = 100 } })
+foreach ($g in ($fam | Where-Object { $iles.structure -notcontains $_.structure } | Group-Object family)) {
     $sp = $famSpacing[$g.Name]; if (-not $sp) { throw "Famille sans espacement : $($g.Name)" }
     $salt = 0; foreach ($ch in $g.Name.ToCharArray()) { $salt = ($salt * 31 + [int]$ch) % 1000000007 }
     $pl = [ordered]@{ type = 'minecraft:random_spread'; salt = $salt; spacing = $sp; separation = [Math]::Floor($sp / 2) }
