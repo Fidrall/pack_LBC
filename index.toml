@@ -177,6 +177,10 @@ file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
 hash = "89011c088f96dcd18445ac2553f9c1b1f4d348d534ed41de972858ccf5ff5408"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/hazen_n_stuff.snbt"
+hash = "238b2af8857d23e41c6dac077bd0259a3a711f0fb6d693906ff37e147870302a"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
 hash = "730b04121331705ea7bf278c41fd008eb463fea969b3696cbfa16ea3a4d5ca3b"
 
@@ -214,7 +218,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "8c5bdb131a02033291dcb5e3388a0729ec86d6996dbc93944008c27f0d890acd"
+hash = "b07b9bb9223836f22bca2132bc7cff997cdaaf517737dc0f0a5a3a4be69dbe52"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -1107,6 +1111,11 @@ hash = "68ffacdc44875989d8aba81e8663ce48bafb1a87b764d64ebac763bffd506002"
 metafile = true
 
 [[files]]
+file = "mods/aces-spell-utils.pw.toml"
+hash = "438860e27ad92857c783f7b7b1a16578614d26f42f7c613edbcba5482164e00e"
+metafile = true
+
+[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
@@ -1224,6 +1233,11 @@ metafile = true
 [[files]]
 file = "mods/aures-farmers-structures.pw.toml"
 hash = "280b0345a832d2e903be053c38bdf1be3082a746c616ca054040ed72e54e1ca6"
+metafile = true
+
+[[files]]
+file = "mods/azurelib.pw.toml"
+hash = "f349d37fa4f68bd6261624260d7892f49179982bec762d72fc97461e9980e85c"
 metafile = true
 
 [[files]]
@@ -1752,6 +1766,16 @@ hash = "6b235aa1d0c43ab4fa7eacca3eb3c62530fa6ae1b44bc56aecc25c636a8ffc5b"
 metafile = true
 
 [[files]]
+file = "mods/hazen-n-stuff.pw.toml"
+hash = "fce782d9e0860ca68b66b821d2e13c4698353440a0287c2e800269e372ce9b24"
+metafile = true
+
+[[files]]
+file = "mods/hazentouvelib.pw.toml"
+hash = "30a4fd7bea6950616484f5d25f21afa58657ff72a07ceb37c9bcb0ccf587a276"
+metafile = true
+
+[[files]]
 file = "mods/hellish-trials.pw.toml"
 hash = "e8c484c0779b11a86aecdb9897417aadb5a0ee3536fb918999b192c58322779a"
 metafile = true
@@ -2174,6 +2198,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "3233e81e60fb4bb18d9050137fc780dfc249aaf1558d1da84e57014ba1d46ac9"
+metafile = true
+
+[[files]]
+file = "mods/soul-fire-d.pw.toml"
+hash = "aa7a2c186bf1ce65441be06d1c9a5af18b054098e4bdc37273fb4e75f0d27fc5"
 metafile = true
 
 [[files]]

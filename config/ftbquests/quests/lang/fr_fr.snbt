@@ -57,6 +57,10 @@
 		"Le paradis des îles flottantes"
 	]
 	chapter.793BF4A1BA3A1FC7.title: "&e&lL'Aether"
+	chapter.7ECCE25899EAF251.chapter_subtitle: [
+		"Armes, armures et sorts pour les mages"
+	]
+	chapter.7ECCE25899EAF251.title: "&6&lHazen 'n Stuff"
 	chapter.7EFC62EFB68D7191.chapter_subtitle: [
 		"Deux dimensions transformées"
 	]
@@ -80,6 +84,11 @@
 	quest.01219DEB95032DC7.title: "&dTenue de Marcheur des Ombres"
 	quest.016C498DFB704536.quest_subtitle: "Les villageois te font des prix bien plus bas"
 	quest.0206507E91CB74CB.quest_subtitle: "S'utilise sur la table de forgeron pour retirer une &6imprégnation ou une amélioration"
+	quest.0259E666A5D8A7BA.quest_desc: [
+		"Trois champions du &cPorte-Flamme&r : &cPyromus&r, &cAegis&r et &cAptos&r. Ils lâchent du &6Pyrium&r et des reliques uniques (bague, médaillon, lame du Légat)."
+	]
+	quest.0259E666A5D8A7BA.quest_subtitle: "Pyromus, Aegis et Aptos"
+	quest.0259E666A5D8A7BA.title: "&cLes serviteurs du Porte-Flamme"
 	quest.02ABDDCDE6E1CCAE.quest_desc: [
 		"Tu te demandes peut-être jusqu'où peuvent monter les enchantements avec le &bSuper Enchantement&r ?" "" "C'est simple : le &dniveau maximum est en général le niveau vanilla + 2&r avec le &bSuper Enchantement&r." "" "&6&oPar exemple :&r&r Protection monte normalement jusqu'à &eIV en vanilla&r. &bAvec le Super Enchantement&r, tu peux atteindre &eProtection VI&r." "" "Tu sais sûrement qu'en vanilla, on peut combiner Tranchant IV + IV dans une enclume pour obtenir Tranchant V ?" "" "&a&nPour aller plus loin :&r&r" "&a1)&r Transfère le livre Tranchant V dans un &bModèle de Super Enchantement&r." "" "&a2)&r Utilise ensuite la &6Forge à Blaze&r pour combiner deux modèles Tranchant V : tu obtiens un modèle Tranchant VI." "" "Recommence pour continuer à monter jusqu'au maximum autorisé." "" "&l&6Astuce :&r&r &7L'Imprimante peut copier des livres enchantés, et les modèles peuvent être reconvertis en livres si besoin.&r"
 	]
@@ -254,6 +263,11 @@
 	quest.0D02CCFCDC80B85B.quest_desc: [
 		"La &l&6Scie Mécanique&r&r utilise la rotation pour couper le bois juste devant elle." "" "Sur un arbre ou un champignon géant, casser le bloc du bas abat toute la structure." "" "Sur une construction en mouvement, les scies fonctionnent toutes seules. Elles cassent les blocs et blessent les créatures, d'autant plus fort que la construction va vite."
 	]
+	quest.0D5EE381BFD6374F.quest_desc: [
+		"L'&eEssence Deus&r vient d'un &eéclat d'âme divin&r d'Iron's Spells. Avec le &eMoule divin&r, elle permet le rang 4 des cristaux."
+	]
+	quest.0D5EE381BFD6374F.quest_subtitle: "Le dernier ingrédient"
+	quest.0D5EE381BFD6374F.title: "&eEssence divine"
 	quest.0D63CF8BA1F3A152.quest_desc: [
 		"La &2Forêt du Crépuscule&r est une dimension pleine de biomes, de créatures et d'une longue série de &cboss&r à vaincre dans l'ordre." "" "&n&aConstruire le portail :&r" "1) Creuse un bassin de &b2×2&r (ou plus grand) et remplis-le d'eau." "2) Entoure-le de &efleurs ou de plantes&r (herbe haute, fleurs…) sur tous les côtés." "3) Jette un &bdiamant&r dans l'eau : la foudre frappe et le portail s'ouvre !" "" "&cLa dimension est verrouillée par étapes :&r certains biomes sont protégés tant que tu n'as pas vaincu le boss précédent (brouillard, malédictions, froid…). Suis la progression de ce chapitre." "" "&7Les boss sont renforcés sur ce serveur : venez à plusieurs !"
 	]
@@ -281,6 +295,8 @@
 	]
 	quest.0E3D366B37BED52B.quest_subtitle: "Boss 1 : la Cour du Naga"
 	quest.0E3D366B37BED52B.title: "&2Le Naga"
+	quest.0EDDE6B025DCBD13.quest_subtitle: "Pour les cristaux et l'équipement"
+	quest.0EDDE6B025DCBD13.title: "Orbes d'amélioration"
 	quest.0F4D2E3476133AE8.quest_desc: [
 		"La &eTable d'Imprégnation&r permet d'&aaméliorer un livre enchanté au-delà de son niveau maximum&r, avec des matériaux rares des illagers." "" "Regarde ses recettes dans JEI."
 	]
@@ -659,6 +675,7 @@
 	quest.24A56D98CF3ABB1B.quest_desc: [
 		"La &6&lForge à Blaze&r&r fonctionne comme une &8&lenclume&r&r, avec quelques bonus. Comme l'Enchanteur à Blaze, elle a besoin d'expérience liquide pour fonctionner." "" "Elle &cpeut fusionner les enchantements d'objets du même type&r comme une enclume, mais sans coût de réparation. Elle peut aussi fusionner des Modèles d'Enchantement et les appliquer sur des objets." "" "&6La Forge à Blaze peut aussi retirer les enchantements d'un équipement, d'un livre ou d'un modèle, pour les mettre dans un Modèle d'Enchantement vide.&r"
 	]
+	quest.24AE8E0F8170A4AF.title: "Cristal de vie sacré"
 	quest.24F854A847AE7722.quest_desc: [
 		"Permet de stocker un enchantement pour le transférer plus tard sur un objet." "" "&cIl ne peut contenir qu'un seul enchantement à la fois.&r"
 	]
@@ -682,6 +699,11 @@
 	]
 	quest.268C2A63C8ADA1CD.quest_subtitle: "Des sorts à dénicher"
 	quest.268C2A63C8ADA1CD.title: "&l&cLes sorts rares&r&r"
+	quest.26E3D80B16133799.quest_desc: [
+		"Le minerai de &ePierre d'effroi&r se trouve dans tout l'Overworld, entre &ey=-64 et y=0&r."
+	]
+	quest.26E3D80B16133799.quest_subtitle: "Overworld, sous la couche 0"
+	quest.26E3D80B16133799.title: "Pierre d'effroi"
 	quest.26FB758B3706B935.quest_subtitle: "Les créatures tuées lâchent &6+25 % d'expérience&r."
 	quest.2807106C369DF042.quest_subtitle: "Obtiens un Transmetteur de Sculk."
 	quest.28101F299D039864.quest_desc: [
@@ -692,6 +714,11 @@
 	quest.2843021F7F41ED01.quest_desc: [
 		"La &6&lGoulotte&r&r insère ou extrait des objets des inventaires placés au-dessus ou en dessous, ainsi que des tapis roulants et des dépôts." "" "Connectées verticalement ou en diagonale, les goulottes se passent les objets, comme un tapis roulant mais à la verticale." "" "Un Ventilateur Caréné alimenté, placé en haut ou en bas d'une goulotte (en mode souffler ou aspirer), permet de faire monter les objets. Sa vitesse détermine la vitesse de transport." "" "La &n&6Goulotte Intelligente&r fait la même chose, avec en plus un réglage de quantité, un filtre d'objets et une réaction aux signaux de redstone."
 	]
+	quest.2851A2D8898D8B44.quest_desc: [
+		"Le &dTerraprisma&r invoque des épées de lumière qui combattent à tes côtés." "" "Bravo, tu maîtrises Hazen 'n Stuff !"
+	]
+	quest.2851A2D8898D8B44.quest_subtitle: "L'arme ultime"
+	quest.2851A2D8898D8B44.title: "&d&lTerraprisma"
 	quest.2870830227C66454.quest_desc: [
 		"Le &6Donjon d'Or&r est enfoui sous une grande île couverte de &eChênes Dorés&r." "" "L'&6Esprit du Soleil&r ne peut pas être attaqué tout de suite : &eparle-lui plusieurs fois&r (clic droit) pour lancer le combat." "" "Il fait pleuvoir le feu. Pour le blesser, &brenvoie ses boules de glace&r sur lui. Une bonne protection contre le feu est indispensable." "" "Il donne l'&6armure de Phénix&r (qui devient armure d'Obsidienne dans l'eau)." "" "&6&lTu as conquis l'Aether !&r"
 	]
@@ -724,6 +751,7 @@
 	]
 	quest.29D6C7D5DEC00FB2.quest_subtitle: "Détecter les obstacles"
 	quest.29D6C7D5DEC00FB2.title: "Le Capteur Optique"
+	quest.2B08F0E6CD504832.title: "Acier d'effroi"
 	quest.2B603051BF399205.quest_desc: [
 		"Le &6Composteur Mécanique&r transforme les objets compostables, comme les fleurs, en compost." "" "Il s'alimente par le côté avec un engrenage, ou par en dessous." "" "Il a une sortie d'axe sur le dessus, pour des montages d'automatisation créatifs." "" "Le &acompost&r se récupère à la main avec un &dclic droit&r, ou automatiquement avec un entonnoir." "" "Pour le transformer en liquide, pose-le sur une Vidangeuse." "" "&oNote : &7mélanger du compost liquide et de la lave dans un bassin chauffé par un Brûleur à Blaze donne du compost en fusion.&r&r"
 	]
@@ -816,6 +844,7 @@
 	quest.2F1F1047E8A734EC.quest_desc: [
 		"&cSimply Swords&r ajoute tout un arsenal d'armes à découvrir." "Des dagues rapides aux épées à deux mains, chaque type a son style de combat et ses effets." "" "Il ajoute aussi de très rares &6armes légendaires&r aux pouvoirs puissants, qu'on ne trouve que sur certains boss." "" "Le mod propose un système de &3Pouvoirs Runiques&r : certaines armes trouvées peuvent avoir jusqu'à &6deux emplacements&r pour les améliorer avec des gemmes spéciales." "" "Il existe deux types d'emplacements : &bNetherfused&r et &3Runefused&r." "Pour insérer une gemme, clique gauche sur la gemme, puis clique gauche sur l'arme correspondante." "&c⚠ Attention : c'est définitif, les gemmes ne peuvent pas être retirées.&r" "" "Le chapitre Simply Swords t'explique le reste."
 	]
+	quest.2F364CE206E1C734.title: "Cristal de mana raffiné"
 	quest.2F6A074C1F506CC3.quest_desc: [
 		"Le réservoir dorsal doit être rempli d'air comprimé pour fonctionner." "" "Pour le remplir, pose-le et connecte un axe qui tourne à celui qui est sur le dessus." "" "Le Casque de Plongée en Cuivre, porté avec un Réservoir Dorsal en Cuivre plein d'air, &bdonne Respiration aquatique et Affinité aquatique&r." "" "Les Bottes de Plongée en Cuivre te font couler et empêchent de nager, mais permettent de marcher et de sauter sous l'eau." "" "Les bottes rendent aussi insensible aux tapis roulants, aux escalators et aux trottoirs roulants."
 	]
@@ -1101,6 +1130,11 @@
 	quest.40270C32F09AD402.title: "&6&lCreate !"
 	quest.403CAE721D431F6E.quest_subtitle: "Se trouve aussi dans l'End."
 	quest.4070652999DD3249.quest_subtitle: "En amélioration : &6+5 % de puissance des sorts de Nature"
+	quest.4073D3F1A32198EB.quest_desc: [
+		"&6Hazen 'n Stuff&r ajoute &d39 sorts&r, des dizaines d'&earmes&r et de &esets d'armure de mage&r, et des &bcristaux&r qui renforcent mana, vie et esprit." "" "Tape &d@hazennstuff&r dans JEI pour tout voir."
+	]
+	quest.4073D3F1A32198EB.quest_subtitle: "Une extension d'Iron's Spells"
+	quest.4073D3F1A32198EB.title: "&6&lHazen 'n Stuff"
 	quest.4095FA4FB6615FCA.quest_desc: [
 		"&eApotheosis&r transforme l'équipement en butin façon RPG : raretés, affixes, gemmes et monstres élites." "" "Les objets trouvés peuvent avoir une &6rareté&r (Commun, Peu commun, Rare, Épique, Mythique) qui leur donne des &aaffixes&r (bonus de statistiques) et des &bemplacements de gemmes&r." "" "Tu peux améliorer ton équipement avec plusieurs tables : Récupération, Reforge, Taille de Gemmes et Augmentation." "" "Les &6Niveaux du Monde&r (touche &aCtrl + T&r) rendent le monde plus dangereux, mais le butin meilleur. Tu débloques les niveaux supérieurs en progressant. Mettez-vous d'accord en équipe avant de monter !" "" "Pour enchanter, tu as deux chemins : les bibliothèques d'Apotheosis, ou les machines de &aCreate: Enchantment Industry&r." "" "Les &cmonstres élites&r et les boss donnent les meilleures gemmes et les meilleurs matériaux." "" "&a&oAstuce :&r&r &eUne pioche Toucher de soie permet de récupérer les générateurs de monstres, pour faire des fermes.&r"
 	]
@@ -1151,6 +1185,7 @@
 	]
 	quest.4232D7614DB72EF4.quest_subtitle: "Une laisse et un grappin"
 	quest.4232D7614DB72EF4.title: "La soie d'araignée sauteuse"
+	quest.4378B2ECB92E9CCB.title: "Cristal d'esprit abominable"
 	quest.43A8ECAA22D87380.quest_desc: [
 		"Le &7Platine&r est le métal de base de &eCreate Propulsion&r." "" "Son minerai se trouve sous terre (aussi en version ardoise des abîmes). Comme les autres minerais, broie-le et lave-le avec Create pour en tirer plus de lingots." "" "Il sert à fabriquer le Carter en Platine, les réservoirs en platine (deux fois plus grands que ceux en cuivre) et les machines de propulsion."
 	]
@@ -1178,6 +1213,7 @@
 	]
 	quest.44F5B4AFC2F9B125.quest_subtitle: "Le cristal qui défie la gravité"
 	quest.44F5B4AFC2F9B125.title: "&d&lLa Lévitite"
+	quest.45897F363A6ACCE7.title: "&dCristal de mana radieux"
 	quest.45A82A0D7A2A252B.quest_desc: [
 		"Tu maîtrises maintenant tout ce qu'il faut pour construire le vaisseau de tes rêves." "" "&n&aDernier défi :&r réunis de quoi construire un &bvaisseau amiral&r : lévitite pour flotter, propulseurs orientables pour manœuvrer, table de navigation pour le pilote automatique et connecteurs pour s'amarrer." "" "Ton vaisseau pourra devenir ta &6base volante&r : ferme, usine, entrepôt… tout peut voler !" "" "&6&lBravo, Maître des Airs !&r"
 	]
@@ -1223,6 +1259,11 @@
 	quest.488055D85AD88A2C.quest_desc: [
 		"&nÉtapes pour obtenir le bloc :&r" "" "Résine de mastic jaune" "→ Compactage → Pâte de mastic jaune" "→ Compactage → Bloc de résine de mastic jaune" "→ Mélange → Résine de mastic jaune liquéfiée" "" "Lave + Résine jaune liquéfiée" "→ Réaction dans le monde → &e&lZultanite jaune&r&r"
 	]
+	quest.48A1C863C3D4B969.quest_desc: [
+		"Le minerai de &6Noyau solaire&r se trouve dans la netherrack et la blackstone du &cNether&r."
+	]
+	quest.48A1C863C3D4B969.quest_subtitle: "Dans le Nether"
+	quest.48A1C863C3D4B969.title: "Noyau solaire"
 	quest.48F827FD3545398E.quest_desc: [
 		"&bCreate Aeronautics&r te permet de construire de vrais &evaisseaux avec une physique réaliste&r : dirigeables, montgolfières, avions, hélicoptères, et même des véhicules à roues." "" "Tout ce que tu construis a un &6poids&r, un &6centre de gravité&r, de la &6portance&r et de la &6poussée&r. Un vaisseau mal équilibré penchera, tombera ou tournera sur lui-même : il faudra tester et ajuster !" "" "Ce chapitre te guide pas à pas : faire bouger ta première construction, gonfler ton premier ballon, te propulser, puis piloter, et enfin maîtriser la lévitite et les propulseurs." "" "&aAstuce :&r le &6Ponder&r (touche W en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !" "" "&7Les vaisseaux sont aussi le meilleur moyen de voyager loin sur ce serveur : les waystones et les téléporteurs coûtent cher sur les longues distances."
 	]
@@ -1236,6 +1277,7 @@
 		"L'&dŒil Magique&r est lâché par les &eévocateurs&r (pendant les raids ou dans les manoirs), et se trouve aussi dans les coffres des &emanoirs&r."
 	]
 	quest.498D22534A947B79.quest_subtitle: "Le pouvoir des évocateurs"
+	quest.4991C44BCC24F705.title: "&dCristal d'esprit absolu"
 	quest.49E4AA14726CFAEB.quest_desc: [
 		"L'&bIceologer&r, un illager des glaces, lâche le &eTotem de Gel&r. L'&dIllusionniste&r lâche le &eTotem d'Illusion&r." "" "Ces totems s'activent quand tu es blessé : le premier gèle les attaquants, le second te rend invisible et crée des leurres."
 	]
@@ -1325,6 +1367,8 @@
 	]
 	quest.4D4EE7CADBAF19BB.quest_subtitle: "Incendium"
 	quest.4D4EE7CADBAF19BB.title: "L'esprit de la forêt flétrie"
+	quest.4D7BE28A825840B2.quest_subtitle: "Pour l'armure de Chlorophyte"
+	quest.4D7BE28A825840B2.title: "Lingots de Chlorophyte"
 	quest.4DA92919147B3E18.quest_desc: [
 		"L'&a&lEnchanteur à Blaze&r&r fonctionne comme une table d'enchantement. Pour l'activer, il faut lui pomper de l'expérience liquide." "" "Avant d'enchanter, règle le niveau d'enchantement sur son panneau &b(30 maximum en vanilla)&r. Ce panneau sert aussi d'emplacement de filtre : y placer un objet active le &6&lmode Modèle&r&r." "" "En &6&lmode Modèle&r&r, l'Enchanteur à Blaze enchante un &a&lModèle d'Enchantement&r&r, uniquement avec des enchantements compatibles avec l'objet du filtre." "Par exemple, un plastron en diamant dans le filtre ne donnera que des enchantements de plastron en diamant, à transférer ensuite dans un modèle vide." "" "Des &ltypes d'objets différents&r (plastron en or, matériaux…) donnent des enchantements différents ou meilleurs. Un niveau plus élevé n'est pas toujours conseillé : certains enchantements n'apparaissent pas à haut niveau." "" "&o&l&cJe te conseille FORTEMENT&r de regarder le Ponder (touche W) pour bien comprendre.&r&r"
 	]
@@ -1443,6 +1487,11 @@
 	]
 	quest.549A53036AB75BCE.quest_subtitle: "Tout au fond"
 	quest.549A53036AB75BCE.title: "La Faille Chorale"
+	quest.54DB86AEDE4EFD97.quest_desc: [
+		"Le minerai de &aChlorophyte&r n'apparaît que sous les &ajungles&r. Fais fondre les morceaux pour obtenir des lingots."
+	]
+	quest.54DB86AEDE4EFD97.quest_subtitle: "Dans les jungles"
+	quest.54DB86AEDE4EFD97.title: "Chlorophyte"
 	quest.5502A204AF05E2DA.quest_desc: [
 		"&nÉtapes pour obtenir le bloc :&r" "" "Résine de mastic verte" "→ Compactage → Pâte de mastic verte" "→ Compactage → Bloc de résine de mastic verte" "→ Mélange → Résine de mastic verte liquéfiée" "" "Lave + Résine verte liquéfiée" "→ Réaction dans le monde → &a&lZultanite verte&r&r"
 	]
@@ -1614,6 +1663,8 @@
 	quest.5FE14C4503C34921.title: "Les pneus"
 	quest.603F0A37888A475D.quest_subtitle: "Quelques mods qui ajoutent des options esthétiques et des industries autour de la décoration."
 	quest.603F0A37888A475D.title: "&l&dMods esthétiques&r&r"
+	quest.60545F05A816A0AA.quest_subtitle: "Rune de vie, quartz rose, melon scintillant"
+	quest.60545F05A816A0AA.title: "Cristal de vie brisé"
 	quest.607047A3D380D423.quest_subtitle: "Réduit ta taille de moitié"
 	quest.6073AB1A816E845F.quest_subtitle: "Maîtrise le pouvoir du &cfeu&r. Plus de &cpuissance des sorts de feu&r ou d'&carmure&r."
 	quest.6073AB1A816E845F.title: "&c&lÉcole du Feu"
@@ -1631,6 +1682,8 @@
 	quest.610E616AA011A7A9.quest_desc: [
 		"Un sac (bundle) permet de transporter plusieurs objets différents, jusqu'à une pile au total, dans un seul emplacement."
 	]
+	quest.6115219E505BF81D.quest_subtitle: "Rune de mêlée, pierre d'effroi, épée en diamant"
+	quest.6115219E505BF81D.title: "Cristal d'esprit abstrait"
 	quest.61253545DDE41E88.quest_desc: [
 		"&n&aDéfi :&r ajoute des hélices à ta montgolfière pour en faire un vrai &bdirigeable&r !" "" "- Une ou deux hélices à l'arrière pour avancer." "- De quoi les faire tourner : une manivelle pour commencer, puis un moteur (voir plus bas)." "- Garde le &6centre de gravité&r au milieu, sinon le vaisseau penchera." "" "Pour tourner, fais varier la vitesse d'une hélice de gauche et d'une hélice de droite, ou utilise un gouvernail avec des Voiles Symétriques." "" "Valide quand ton dirigeable vole et avance. Bravo, pilote !"
 	]
@@ -1654,6 +1707,9 @@
 	quest.62C8A74B9C0AC8A4.quest_desc: [
 		"&l&o&cJe te conseille FORTEMENT&r de regarder le Ponder (touche W) de l'&6&lEnchanteur à Blaze&r&r et de la &6&lForge à Blaze&r&r pour bien comprendre.&r&r" "" "L'&6Enchanteur à Blaze&r peut manger un &bGâteau d'Enchantement&r pour passer en &bmode Super Enchantement&r." "" "Dans ce mode, la &dlimite de niveau monte à 60&r, et il peut produire des enchantements trésors." "" "Dans ce mode, il n'accepte que les &3Modèles de Super Enchantement&r." "" "Pense à poser un bloc au-dessus de l'Enchanteur à Blaze et un paratonnerre sur un bloc à côté : le mode Super Enchantement attire la foudre." "" "&l&5..................................................................&r&r" "" "La &6Forge à Blaze&r peut aussi manger un &bGâteau d'Enchantement&r pour passer en &bmode Super Enchantement&r." "" "Dans ce mode, elle dépasse la limite vanilla quand elle fusionne des enchantements, et peut même fusionner des enchantements incompatibles." "" "Elle n'accepte alors que les &3Modèles de Super Enchantement&r." "" "Là aussi, pose un bloc au-dessus de la Forge à Blaze et un paratonnerre à côté : le mode Super Enchantement attire la foudre."
 	]
+	quest.62D0A75C681B5264.quest_subtitle: "Demande de la Zénalite et du Pyrium"
+	quest.62D0A75C681B5264.title: "Cristal de mana renforcé"
+	quest.62EDA3AF2C02713E.title: "&dCristal de vie singulier"
 	quest.62FF89F212A845E9.quest_desc: [
 		"Permet de transférer la &c&lChaleur&r&r." "" "&e&lAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
@@ -1746,6 +1802,8 @@
 	]
 	quest.67FA8896AD563A77.title: "&eWaystones"
 	quest.681E258AB577FF73.quest_subtitle: "Ajoute 1 niveau à Appât et à Chance de la mer"
+	quest.682247A7DBDB0A53.quest_subtitle: "Rune et essence arcaniques, améthyste"
+	quest.682247A7DBDB0A53.title: "Cristal de mana fissuré"
 	quest.689B086F3F8A6221.quest_desc: [
 		"Dans les &emarais&r, cherche une colline avec une entrée au sommet : c'est le &eLabyrinthe&r." "" "Au fond t'attend le &6Minoshroom&r, qui charge et frappe fort. Il lâche du &eMeef Stroganoff&r : &amange-le&r pour débloquer la suite !" "" "&7Le marais empoisonne tant que tu n'as pas vaincu la Liche : prévois du lait ou une potion."
 	]
@@ -1790,6 +1848,11 @@
 		"Imagine que tu as une pièce d'armure avec un enchantement que tu adores, et que tu veux le transférer sur un autre objet. La &6Forge à Blaze&r le permet." "" "Place l'objet enchanté et un &aModèle d'Enchantement&r dans la &6Forge à Blaze&r. Elle retire un enchantement au hasard de l'objet et le transfère sur le modèle." "" "Chaque modèle ne contient qu'un enchantement à la fois : recommence jusqu'à extraire celui que tu veux." "" "Selon le niveau de l'enchantement, il faudra peut-être le &bSuper Enchantement&r pour le réappliquer."
 	]
 	quest.6B2BB3A3AAC179FE.title: "&l&6Désenchanter son équipement"
+	quest.6B59F8A48E274CDA.quest_desc: [
+		"La zénalite brute doit être « bénie » avec un &efragment d'étoile du Nether&r (une étoile du Nether donne plusieurs fragments), puis cuite au haut fourneau." "" "C'est le matériau clé des cristaux de rang 3."
+	]
+	quest.6B59F8A48E274CDA.quest_subtitle: "Il faut une étoile du Nether"
+	quest.6B59F8A48E274CDA.title: "&5Lingots de Zénalite"
 	quest.6B9E13665837ECA1.quest_desc: [
 		"Le &6téléporteur d'objets&r envoie une pile d'objets vers un autre téléporteur d'objets. Il fonctionne au &dTélé-jus&r." "" "Pour les relier, utilise un &aTP Link&r. Parfait pour faire circuler des ressources entre deux parties de ta base."
 	]
@@ -1856,6 +1919,7 @@
 	]
 	quest.6E284AC12A8D5945.quest_subtitle: "Pour défendre ton vaisseau"
 	quest.6E284AC12A8D5945.title: "Le Canon à Patates Monté"
+	quest.6E4B86BAF8B9C263.title: "Cristal de vie fortifié"
 	quest.6E5E7A8C91623534.quest_desc: [
 		"Il fonctionne à l'&eélectricité (FE)&r au lieu du carburant. Alimente-le avec des câbles, un Alternateur de Crafts and Additions ou un Générateur à Corail." "" "Plus besoin de faire le plein, mais il faut une bonne source d'énergie à bord."
 	]
@@ -1902,6 +1966,11 @@
 	quest.70723616C803AE96.quest_desc: [
 		"&bCreate: Aquatic Ambitions&r ajoute des machines, des chaînes de production et des mécaniques inspirées de l'océan." "" "L'un des blocs clés est la &3Cage de Conduit&r, pour la &9canalisation par ventilateur&r : une alternative compacte à l'anneau de prismarine. Pour l'activer, il faut pomper de l'eau sous la cage." "" "Le corail mort peut aussi être ranimé par canalisation, puis récolté automatiquement avec des moissonneuses."
 	]
+	quest.70B095FB7092B03D.quest_desc: [
+		"Les runes de Hazen se font avec une &erune vierge&r d'Iron's et un objet de « focus »." "" "Combinées à un &eorbe d'amélioration&r, elles donnent les orbes de Mêlée et de Vie."
+	]
+	quest.70B095FB7092B03D.quest_subtitle: "Mêlée et Vie"
+	quest.70B095FB7092B03D.title: "Nouvelles runes"
 	quest.70FA406AD3A8A7A9.quest_desc: [
 		"{image:pack_lbc:textures/quests/item_golem4.png width:150 height:60 align:center}" "" "Les &egolems bougies&r apparaissent avec un clic droit sur un &cbloc de golem bougie&r." "" "Un clic droit leur dit de s'asseoir ou de se lever. Assis, ils reçoivent 90 % de dégâts en moins des projectiles." "" "On les allume avec un briquet. Allumés, ils tirent des boules de feu sur les monstres." "" "Trop utiliser cette attaque use leur vie jusqu'à ce que leur bougie s'éteigne," "et il faut alors les réparer."
 	]
@@ -1914,6 +1983,11 @@
 	]
 	quest.7131CFD09C6B9B90.quest_subtitle: "Le minerai qui défie la gravité"
 	quest.7131CFD09C6B9B90.title: "&dLa Gravitite"
+	quest.714D9CD660BAD72E.quest_desc: [
+		"L'&eacier&r sert à presque tout : runes, cristaux, lingots plus rares."
+	]
+	quest.714D9CD660BAD72E.quest_subtitle: "Le métal de base"
+	quest.714D9CD660BAD72E.title: "L'Acier"
 	quest.71A3D03B6C04E703.quest_desc: [
 		"L'&6Insolateur Mécanique&r multiplie automatiquement certaines plantes." "" "&bIl a besoin d'un liquide amené par en dessous.&r Le liquide dépend de la plante : de l'eau pour la plupart, de la lave pour les plantes du Nether, et des liquides spéciaux pour certaines plantes." "" "Par exemple :" "les plantes du Renifleur demandent du compost liquide ;" "les roses de Wither demandent du compost en fusion ;" "les fruits de chorus demandent du compost du néant." "" "&aRécupère les plantes à la main avec un clic droit, ou automatiquement avec un entonnoir.&r"
 	]
@@ -1950,6 +2024,11 @@
 		"Avec une &bpioche en diamant&r, tu peux miner l'&dobsidienne&r, qui sert à construire un portail vers le &cNether&r." "" "Le cadre peut avoir plusieurs tailles, mais la forme classique est une « porte » creuse de 4×5, avec au moins 10 blocs d'obsidienne. Les coins ne sont pas obligatoires !"
 	]
 	quest.72A5DEFDD0F3470D.title: "&cDirection le Nether !&r"
+	quest.72BA9D3890D555BC.quest_desc: [
+		"Le minerai de &5Zénalite&r n'apparaît que dans les &5îles extérieures de l'End&r, pas sur l'île centrale."
+	]
+	quest.72BA9D3890D555BC.quest_subtitle: "Les îles extérieures de l'End"
+	quest.72BA9D3890D555BC.title: "Zénalite brute"
 	quest.72BCCD2255CBE908.quest_desc: [
 		"Il &bincline sa sortie de rotation&r selon un signal de redstone analogique : plus le signal est fort d'un côté, plus il penche de ce côté." "" "La version avancée permet de régler l'angle maximum de chaque côté."
 	]
@@ -2011,6 +2090,7 @@
 		"Fixe un &abloc d'Hypertube&r à l'&eentrée&r, puis fais un &eclic droit&r avec un autre &abloc d'Hypertube&r pour tracer le chemin du tube, comme pour poser une voie ferrée." "" "S'il y a des obstacles, le tube ne peut pas être posé et le tracé s'affiche en rouge."
 	]
 	quest.74C84002EB8E230E.title: "Poser des tubes"
+	quest.751DA00A6BE48ED5.title: "Or cosmique"
 	quest.75245BCD1BB86548.quest_desc: [
 		"Dans la Forêt Obscure se dresse la &4Tour Obscure&r. Entre par les &eblocs réapparaissants&r à sa base, et monte jusqu'au dernier étage." "" "L'&4Ur-Ghast&r, un ghast géant, t'y attend. Il pleure des &cLarmes de Feu&r." "" "&n&aConseil :&r utilise les &epièges à ghast&r de la salle pour le ramener au sol et le rendre vulnérable."
 	]
@@ -2026,6 +2106,11 @@
 	]
 	quest.76100542C15576F4.quest_subtitle: "Des outils cristallins"
 	quest.76100542C15576F4.title: "Les cristaux de l'End"
+	quest.77245D69B2335CEB.quest_desc: [
+		"Le &5Vagabond du Vide&r, le &5Reclus&r et le &5Serviteur de l'Ender&r rôdent dans les îles extérieures de l'End." "" "Le Vagabond lâche de la &dPoussière d'étoile&r, nécessaire à l'&eOr cosmique&r."
+	]
+	quest.77245D69B2335CEB.quest_subtitle: "Un errant des îles de l'End"
+	quest.77245D69B2335CEB.title: "Le Vagabond du Vide"
 	quest.77686848F05F5118.quest_desc: [
 		"La &eFeuille-d'Acier&r se trouve dans les collines creuses et les coffres ; le &eBois-de-Fer&r se fabrique avec des racines de liane, du fer et de l'or." "" "Leurs armures et outils arrivent &adéjà enchantés&r : parfaits en début de progression."
 	]
@@ -2120,6 +2205,8 @@
 		"&n&8Commun&r&r" "0 à 1 affixe" "0 à 1 emplacement de gemme" "" "&n&aPeu commun&r&r" "1 affixe" "1 emplacement de gemme" "" "&n&9Rare&r&r" "1 effet de base" "1 affixe" "2 emplacements de gemme" "" "&n&5Épique&r&r" "1 effet de base" "2 affixes" "2 emplacements de gemme" "" "&n&6Mythique&r&r" "1 effet de base" "2 affixes" "3 emplacements de gemme" "1 capacité unique"
 	]
 	quest.7C68CB331F9E5212.title: "&a&lRaretés des objets et leurs propriétés&r&r"
+	quest.7C6F5E2221B59276.quest_subtitle: "Grâce aux perles divines d'Iron's"
+	quest.7C6F5E2221B59276.title: "Or rose et Lingot sacré"
 	quest.7C837320AB9AD46F.quest_desc: [
 		"L'&6Inferno&r est le grand boss d'Incendium. Il s'invoque dans les &edunes infernales&r (le livre des succès d'Incendium donne des indices)." "" "Prépare-toi : c'est l'un des combats les plus durs du Nether."
 	]
@@ -2145,6 +2232,7 @@
 	]
 	quest.7D08DA1B1071D0C6.quest_subtitle: "Boss : la Reine Valkyrie"
 	quest.7D08DA1B1071D0C6.title: "&f&lLe Donjon d'Argent"
+	quest.7D9D4D16E0D2EE2F.title: "Cristal d'esprit avancé"
 	quest.7DDA573B83BD4B2D.quest_desc: [
 		"L'&5Œil de Sorcière&r se &afabrique&r avec un œil de l'Ender et une &ePupille de Sorcière&r." "" "Les &esorcières&r lâchent une Pupille une fois sur dix. On les trouve dans les marais, autour des cabanes de sorcière."
 	]

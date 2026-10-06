@@ -1,0 +1,827 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hazen_n_stuff"
+	group: "1A00000000000004"
+	icon: {
+		id: "hazennstuff:deus_essence"
+	}
+	id: "7ECCE25899EAF251"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4073D3F1A32198EB"
+			rewards: [
+				{
+					id: "6A06A7943D3EDC32"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "439E795FA1825799"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["4073D3F1A32198EB"]
+			id: "714D9CD660BAD72E"
+			rewards: [
+				{
+					id: "2620AC9CE57177E4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "182CB15C47143EBF"
+					item: { count: 1, id: "hazennstuff:steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 2d
+			y: -1d
+		}
+		{
+			dependencies: ["4073D3F1A32198EB"]
+			id: "70B095FB7092B03D"
+			rewards: [
+				{
+					id: "1B3AFF5584C18B2F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2F79EE1D913F4C52"
+					item: { count: 1, id: "hazennstuff:melee_rune" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "26944674D1FB51DC"
+					item: { count: 1, id: "hazennstuff:health_rune" }
+					type: "item"
+				}
+			]
+			x: 2d
+			y: 1d
+		}
+		{
+			dependencies: ["70B095FB7092B03D"]
+			id: "0EDDE6B025DCBD13"
+			rewards: [
+				{
+					id: "706F80AB71225F56"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "21812DCE25212DB0"
+					item: { count: 1, id: "hazennstuff:melee_upgrade_orb" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "6343D5DC4C3B6B20"
+					item: { count: 1, id: "hazennstuff:health_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 4d
+			y: 1d
+		}
+		{
+			dependencies: ["0EDDE6B025DCBD13"]
+			id: "682247A7DBDB0A53"
+			rewards: [
+				{
+					id: "3CDBAC22BFA1E004"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "34EFD350CE83B7ED"
+					item: { count: 1, id: "hazennstuff:ruptured" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: -2d
+		}
+		{
+			dependencies: ["682247A7DBDB0A53"]
+			id: "2F364CE206E1C734"
+			rewards: [
+				{
+					id: "0360C34EDAB87BC6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "77DA1249740BF1C2"
+					item: { count: 1, id: "hazennstuff:refined" }
+					type: "item"
+				}
+			]
+			x: 8d
+			y: -2d
+		}
+		{
+			dependencies: ["2F364CE206E1C734", "6B59F8A48E274CDA"]
+			id: "62D0A75C681B5264"
+			rewards: [
+				{
+					id: "14781E5EDD91297C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "730CD8F3716E79A4"
+					item: { count: 1, id: "hazennstuff:reinforced" }
+					type: "item"
+				}
+			]
+			x: 10d
+			y: -2d
+		}
+		{
+			dependencies: ["62D0A75C681B5264", "0D5EE381BFD6374F"]
+			id: "45897F363A6ACCE7"
+			rewards: [
+				{
+					id: "0E3734FCEC92E4D1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "272AE85B435EF3FC"
+					item: { count: 1, id: "hazennstuff:radiance" }
+					type: "item"
+				}
+			]
+			x: 12d
+			y: -2d
+		}
+		{
+			dependencies: ["0EDDE6B025DCBD13"]
+			id: "60545F05A816A0AA"
+			rewards: [
+				{
+					id: "2B37517FAEA7BC9C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "55896539397CB7B2"
+					item: { count: 1, id: "hazennstuff:shattered" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 0d
+		}
+		{
+			dependencies: ["60545F05A816A0AA"]
+			id: "24AE8E0F8170A4AF"
+			rewards: [
+				{
+					id: "6AE7A06B7731A778"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "168A50B5416522FF"
+					item: { count: 1, id: "hazennstuff:sacred" }
+					type: "item"
+				}
+			]
+			x: 8d
+			y: 0d
+		}
+		{
+			dependencies: ["24AE8E0F8170A4AF", "6B59F8A48E274CDA"]
+			id: "6E4B86BAF8B9C263"
+			rewards: [
+				{
+					id: "1CAC61FA8791283B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "13A214C7065025A3"
+					item: { count: 1, id: "hazennstuff:strengthened" }
+					type: "item"
+				}
+			]
+			x: 10d
+			y: 0d
+		}
+		{
+			dependencies: ["6E4B86BAF8B9C263", "0D5EE381BFD6374F"]
+			id: "62EDA3AF2C02713E"
+			rewards: [
+				{
+					id: "0B8EA135E9EAB6B0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "243DCFCAD0ACF005"
+					item: { count: 1, id: "hazennstuff:singularity" }
+					type: "item"
+				}
+			]
+			x: 12d
+			y: 0d
+		}
+		{
+			dependencies: ["0EDDE6B025DCBD13", "26E3D80B16133799"]
+			id: "6115219E505BF81D"
+			rewards: [
+				{
+					id: "3B226EF8F0F351A8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6C63A2C9815BD235"
+					item: { count: 1, id: "hazennstuff:abstract" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 2d
+		}
+		{
+			dependencies: ["6115219E505BF81D"]
+			id: "7D9D4D16E0D2EE2F"
+			rewards: [
+				{
+					id: "16840F0611AA9A11"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "05358EAD3DF8156E"
+					item: { count: 1, id: "hazennstuff:advanced" }
+					type: "item"
+				}
+			]
+			x: 8d
+			y: 2d
+		}
+		{
+			dependencies: ["7D9D4D16E0D2EE2F", "6B59F8A48E274CDA"]
+			id: "4378B2ECB92E9CCB"
+			rewards: [
+				{
+					id: "10A20E78C520B868"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "343F626BE34B9741"
+					item: { count: 1, id: "hazennstuff:abomination" }
+					type: "item"
+				}
+			]
+			x: 10d
+			y: 2d
+		}
+		{
+			dependencies: ["4378B2ECB92E9CCB", "0D5EE381BFD6374F"]
+			id: "4991C44BCC24F705"
+			rewards: [
+				{
+					id: "08DF53671F017667"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6744F56E9C214BE4"
+					item: { count: 1, id: "hazennstuff:absolute" }
+					type: "item"
+				}
+			]
+			x: 12d
+			y: 2d
+		}
+		{
+			dependencies: ["4073D3F1A32198EB"]
+			id: "26E3D80B16133799"
+			rewards: [
+				{
+					id: "7D2679FE95A98A77"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "617123276A50FEEB"
+					item: { count: 1, id: "hazennstuff:dreadstone" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 4d
+		}
+		{
+			dependencies: ["26E3D80B16133799", "714D9CD660BAD72E"]
+			id: "2B08F0E6CD504832"
+			rewards: [
+				{
+					id: "49FA839F5628A4A7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "45E0CEA6ABF86FDF"
+					item: { count: 1, id: "hazennstuff:dreadsteel_ingot" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4073D3F1A32198EB"]
+			id: "54DB86AEDE4EFD97"
+			rewards: [
+				{
+					id: "4509C3933165172C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "5D47359B25EB21B9"
+					item: { count: 1, id: "hazennstuff:chlorophyte_chunk" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4d
+		}
+		{
+			dependencies: ["54DB86AEDE4EFD97"]
+			id: "4D7BE28A825840B2"
+			rewards: [
+				{
+					id: "191092F2CA9A547B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7DEC5A4C641076DF"
+					item: { count: 1, id: "hazennstuff:chlorophyte_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4073D3F1A32198EB"]
+			id: "48A1C863C3D4B969"
+			rewards: [
+				{
+					id: "39CCE1626B7314EC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 1L
+					id: "4810FA20D3246142"
+					item: { count: 1, id: "hazennstuff:solar_core" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 4d
+		}
+		{
+			dependencies: ["4073D3F1A32198EB"]
+			id: "72BA9D3890D555BC"
+			rewards: [
+				{
+					id: "0502C1E18FDCEEC5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "562838FEB9F10F89"
+					item: { count: 1, id: "hazennstuff:raw_zenalite" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4d
+		}
+		{
+			dependencies: ["72BA9D3890D555BC"]
+			id: "6B59F8A48E274CDA"
+			rewards: [
+				{
+					id: "586E835416550CA4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "408570093681D8E4"
+					item: { count: 1, id: "hazennstuff:zenalite_ingot" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["72BA9D3890D555BC"]
+			id: "77245D69B2335CEB"
+			rewards: [
+				{
+					id: "2135C9AAEC628901"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "hazennstuff:void_wanderer"
+					id: "2A1360225100A5B0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6d
+			y: 5.5d
+		}
+		{
+			dependencies: ["77245D69B2335CEB", "6B59F8A48E274CDA"]
+			id: "751DA00A6BE48ED5"
+			rewards: [
+				{
+					id: "5054879494A5D7A5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "119732E18B62B7DD"
+					item: { count: 1, id: "hazennstuff:cosmic_gold_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4073D3F1A32198EB"]
+			id: "7C6F5E2221B59276"
+			rewards: [
+				{
+					id: "7EAD739592527F3C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "26F45997DBF56D05"
+					item: { count: 1, id: "hazennstuff:rose_gold_ingot" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3CBB10B9CEC42493"
+					item: { count: 1, id: "hazennstuff:hallowed_ingot" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 7d
+		}
+		{
+			dependencies: ["6B59F8A48E274CDA"]
+			id: "0D5EE381BFD6374F"
+			rewards: [
+				{
+					id: "65C30EFC856BB49A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "421115E6314212BF"
+					item: { count: 1, id: "hazennstuff:deus_essence" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "17F53A9608200106"
+					item: { count: 1, id: "hazennstuff:divine_mold" }
+					type: "item"
+				}
+			]
+			x: 10d
+			y: 4d
+		}
+		{
+			dependencies: ["0D5EE381BFD6374F"]
+			id: "0259E666A5D8A7BA"
+			rewards: [
+				{
+					id: "08E030CE4483B63A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "hazennstuff:pyromus"
+					id: "40BFD5CAE086D3F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 12d
+			y: 4d
+		}
+		{
+			dependencies: ["45897F363A6ACCE7", "62EDA3AF2C02713E", "4991C44BCC24F705"]
+			id: "2851A2D8898D8B44"
+			rewards: [
+				{
+					id: "4107FA2C854DF5E9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					count: 1L
+					id: "695A5E5112437A94"
+					item: { count: 1, id: "hazennstuff:terraprisma" }
+					type: "item"
+				}
+			]
+			x: 14d
+			y: 0d
+		}
+	]
+}

@@ -229,3 +229,4 @@ mr | irons-spells-n-spellbooks-dynamic-skill-trees | qol | 4 arbres de competenc
 mr | pufferfishs-unofficial-additions | qol | dependance des arbres Iron's
 mr | create-skill-tree | qol | arbre de competences Create (xp en fabriquant des objets Create)
 mr | pufferfish-skills-inventory-button | client | bouton Competences dans l'inventaire
+mr | hazen-n-stuff | conserver | extension Iron's (39 sorts, armes, armures, cristaux) + AzureLib, Ace's Spell Utils, HazentouveLib, Soul Fire'd ; chapitre de quetes hazen_n_stuff
