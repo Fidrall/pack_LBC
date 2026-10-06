@@ -1,0 +1,58 @@
+{
+    "structures":  [
+                       {
+                           "structure":  "minecraft:village_plains",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "minecraft:village_desert",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "minecraft:village_savanna",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "minecraft:village_snowy",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "minecraft:village_taiga",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "trek:village/plains",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "trek:village/desert",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "trek:village/savanna",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "trek:village/snowy",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "trek:village/taiga",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "trek:village/swamp_vanilla",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "trek:village/cherry",
+                           "weight":  1
+                       }
+                   ],
+    "placement":  {
+                      "type":  "minecraft:random_spread",
+                      "salt":  10387312,
+                      "spacing":  48,
+                      "separation":  28
+                  }
+}

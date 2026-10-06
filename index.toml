@@ -445,6 +445,22 @@ file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modi
 hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/pillager_outpost.json"
+hash = "8893f595292a3c5499a6e07f609e75ff938011806f5cf43e3d036179383dc2cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/village_taiga.json"
+hash = "34a0406f50ed6c80c4d7147d0233da4fad511f2ce59ec0ccf91b41b96f72e1ac"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/end_cities.json"
+hash = "7054dcef0971ee58b15e9e150f255eab7fa51b972a97c52346718dc135a82308"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/villages.json"
+hash = "d1770662acb080dc1bc50169e5c7fce92d2c3067830adb20bd222728d194ffec"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 

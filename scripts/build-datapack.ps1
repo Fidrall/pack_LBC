@@ -183,5 +183,20 @@ $j = Get-Content (Join-Path $ad 'ancient_keep-structure-orig.json') -Raw | Conve
 $j.start_pool = 'pack_lbc:archaion/start'
 W 'data/archaion/worldgen/structure/ancient_keep.json' $j
 
+# ---------- 8. Ensembles de structures redefinis par deux mods (le dernier charge ecrasait l'autre) ----------
+# minecraft:villages : Luki's Grand Capitals (villages vanilla, 50/35) et Trek (vanilla + 7 villages Trek, 48/20).
+# On fusionne : tous les villages, espacement proche de Luki (ses capitales sont grandes).
+$vil = @('plains', 'desert', 'savanna', 'snowy', 'taiga' | ForEach-Object { [ordered]@{ structure = "minecraft:village_$_"; weight = 1 } })
+$vil += 'plains', 'desert', 'savanna', 'snowy', 'taiga', 'swamp_vanilla', 'cherry' | ForEach-Object { [ordered]@{ structure = "trek:village/$_"; weight = 1 } }
+W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 48; separation = 28 } })
+# Structures redefinies : on garde la version Luki's (capitales "revampedvillages", comme ses autres villages).
+# village_taiga : Luki's, avec la liste de biomes plus large de Dungeons and Taverns.
+W 'data/minecraft/worldgen/structure/village_taiga.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#nova_structures:collections/any_taiga'; liquid_settings = 'ignore_waterlogging'; step = 'surface_structures'; spawn_overrides = @{}; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:taiga/start'; size = 5; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })
+# pillager_outpost : Luki's (avant-poste revisite) plutot que Trek.
+$mon = [ordered]@{ bounding_box = 'full'; spawns = @([ordered]@{ type = 'minecraft:pillager'; maxCount = 1; minCount = 1; weight = 4 }, [ordered]@{ type = 'minecraft:vindicator'; maxCount = 1; minCount = 1; weight = 1 }) }
+W 'data/minecraft/worldgen/structure/pillager_outpost.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#minecraft:has_structure/pillager_outpost'; step = 'surface_structures'; spawn_overrides = [ordered]@{ monster = $mon }; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:outpost/start'; size = 2; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })
+# minecraft:end_cities : Nullscape (26/18, adapte a son terrain) et Trek (20/11). On garde Nullscape.
+W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structures = @([ordered]@{ structure = 'minecraft:end_city'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387313; spacing = 26; separation = 18; spread_type = 'triangular' } })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
