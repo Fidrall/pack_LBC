@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:lava_pool",
+    "structure_sets":  "mns:crimson_forge",
     "structures":  [
-                       "mns:lava_pool"
+                       "mns:crimson_forge"
                    ]
 }

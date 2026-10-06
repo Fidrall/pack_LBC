@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:deadlordshouse",
+    "structure_sets":  "mns:mega_fortress",
     "structures":  [
-                       "create_structures_arise:deadlordshouse"
+                       "mns:mega_fortress"
                    ]
 }

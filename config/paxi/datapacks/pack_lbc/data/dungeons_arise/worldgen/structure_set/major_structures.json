@@ -2,19 +2,19 @@
   "structures": [
     {
       "structure": "dungeons_arise:bandit_village",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:ceryneian_hind",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:coliseum",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:heavenly_rider",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:heavenly_conqueror",
@@ -22,7 +22,7 @@
     },
     {
       "structure": "dungeons_arise:illager_campsite",
-      "weight": 3
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:illager_corsair",
@@ -34,19 +34,19 @@
     },
     {
       "structure": "dungeons_arise:illager_galley",
-      "weight": 2
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:illager_windmill",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:merchant_campsite",
-      "weight": 3
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:monastery",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:mushroom_house",
@@ -54,27 +54,27 @@
     },
     {
       "structure": "dungeons_arise:mushroom_mines",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:mushroom_village",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:scorched_mines",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:small_blimp",
-      "weight": 3
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:typhon",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "dungeons_arise:undead_pirate_ship",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:greenwood_pub",
@@ -86,11 +86,11 @@
     },
     {
       "structure": "dungeons_arise:bandit_towers",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:foundry",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:heavenly_challenger",
@@ -98,11 +98,11 @@
     },
     {
       "structure": "dungeons_arise:thornborn_towers",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:infested_temple",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:mining_complex",
@@ -110,7 +110,7 @@
     },
     {
       "structure": "dungeons_arise:plague_asylum",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:shiraz_palace",

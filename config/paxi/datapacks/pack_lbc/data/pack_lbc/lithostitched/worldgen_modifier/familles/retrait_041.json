@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:medium_house_2",
+    "structure_sets":  "mns:lava_pool",
     "structures":  [
-                       "mns:medium_house_2"
+                       "mns:lava_pool"
                    ]
 }

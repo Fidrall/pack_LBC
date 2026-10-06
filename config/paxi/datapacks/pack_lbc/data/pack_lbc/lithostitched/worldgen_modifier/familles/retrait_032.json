@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:obsidiantemple",
+    "structure_sets":  "mns:nether_tower",
     "structures":  [
-                       "create_structures_arise:obsidiantemple"
+                       "mns:nether_tower"
                    ]
 }

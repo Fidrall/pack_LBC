@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:circle_nether_brick",
+    "structure_sets":  "mns:bridge_6",
     "structures":  [
-                       "mns:circle_nether_brick"
+                       "mns:bridge_6"
                    ]
 }

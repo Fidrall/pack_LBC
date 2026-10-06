@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:nether_wart_farm",
+    "structure_sets":  "mns:medium_house",
     "structures":  [
-                       "mns:nether_wart_farm"
+                       "mns:medium_house"
                    ]
 }

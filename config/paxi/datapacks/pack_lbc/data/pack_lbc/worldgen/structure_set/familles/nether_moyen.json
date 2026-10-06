@@ -17,20 +17,20 @@
                            "weight":  5
                        },
                        {
+                           "structure":  "mns:circle_blackstone",
+                           "weight":  15
+                       },
+                       {
                            "structure":  "mns:copper_tower",
                            "weight":  1
                        },
                        {
+                           "structure":  "mns:crimson_forge",
+                           "weight":  13
+                       },
+                       {
                            "structure":  "mns:giant_skull",
                            "weight":  2
-                       },
-                       {
-                           "structure":  "mns:grave_yard",
-                           "weight":  6
-                       },
-                       {
-                           "structure":  "mns:large_house_1",
-                           "weight":  4
                        },
                        {
                            "structure":  "mns:lava_pool",

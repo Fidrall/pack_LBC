@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:bridge_5",
+    "structure_sets":  "mns:bridge_3",
     "structures":  [
-                       "mns:bridge_5"
+                       "mns:bridge_3"
                    ]
 }

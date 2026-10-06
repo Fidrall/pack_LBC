@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:sword",
+    "structure_sets":  "mns:nether_wart_farm",
     "structures":  [
-                       "mns:sword"
+                       "mns:nether_wart_farm"
                    ]
 }

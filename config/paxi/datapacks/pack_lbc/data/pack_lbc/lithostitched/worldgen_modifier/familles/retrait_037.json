@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:grave_yard",
+    "structure_sets":  "mns:circle_blackstone",
     "structures":  [
-                       "mns:grave_yard"
+                       "mns:circle_blackstone"
                    ]
 }

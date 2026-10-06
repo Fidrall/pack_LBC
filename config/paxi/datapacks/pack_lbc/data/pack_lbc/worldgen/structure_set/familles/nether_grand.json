@@ -13,8 +13,16 @@
                            "weight":  1
                        },
                        {
+                           "structure":  "mns:grave_yard",
+                           "weight":  52
+                       },
+                       {
                            "structure":  "mns:large_arena",
                            "weight":  3
+                       },
+                       {
+                           "structure":  "mns:large_house_1",
+                           "weight":  38
                        },
                        {
                            "structure":  "mns:mega_fortress",

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:large_house_1",
+    "structure_sets":  "mns:copper_tower",
     "structures":  [
-                       "mns:large_house_1"
+                       "mns:copper_tower"
                    ]
 }

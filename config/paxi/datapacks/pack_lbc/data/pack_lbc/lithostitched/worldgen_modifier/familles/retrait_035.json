@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:copper_tower",
+    "structure_sets":  "explorify:black_spirals",
     "structures":  [
-                       "mns:copper_tower"
+                       "explorify:black_spiral"
                    ]
 }

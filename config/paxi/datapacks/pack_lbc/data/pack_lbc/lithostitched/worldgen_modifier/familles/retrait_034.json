@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "farmers_structures:cooks_nether_2_with_all",
+    "structure_sets":  "create_structures_arise:obsidiantemple",
     "structures":  [
-                       "farmers_structures:cooks_nether_2"
+                       "create_structures_arise:obsidiantemple"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:nether_tower",
+    "structure_sets":  "mns:large_house_1",
     "structures":  [
-                       "mns:nether_tower"
+                       "mns:large_house_1"
                    ]
 }

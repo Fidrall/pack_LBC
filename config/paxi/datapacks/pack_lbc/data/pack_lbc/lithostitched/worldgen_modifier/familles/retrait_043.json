@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:sandy_skull",
+    "structure_sets":  "mns:medium_house_2",
     "structures":  [
-                       "mns:sandy_skull"
+                       "mns:medium_house_2"
                    ]
 }
