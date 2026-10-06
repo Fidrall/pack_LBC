@@ -222,7 +222,7 @@ hash = "1237ecf47ff3c7c38cc0d3fa4303d861d2dd9b925d40b141e777f974ef3cbc2f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/epique.snbt"
-hash = "9da98d23107d5bbb754ecd973c00308eb3fe18296a0e4990b541f0eb45a3e89e"
+hash = "75b21c5d89733eabbaa76baadbded80d23152e330231a9eb3d814351f9237d3f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
