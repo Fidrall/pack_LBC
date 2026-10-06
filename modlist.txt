@@ -223,3 +223,4 @@ mr | skills | qol | arbres de competences (config/puffish_skills, a personnalise
 mr | attributes | qol | attributs pour les recompenses des competences
 mr | relics-mod | jetable | 28 reliques a stats aleatoires qui montent en niveau (+ OctoLib)
 mr | iceandfire-ce | jetable | dragons a elever, voie dompteur fin de jeu (epingle 2.0 stable ; + Jupiter, Uranus) ; config a faire apres 1er lancement (griefing apprivoises, vitesse, hippogriffes/amphitheres)
+mr | effortless-building | qol | outils de construction (lignes, murs, sols, formes, miroir, annuler) - pratique sous l'eau
