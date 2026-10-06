@@ -3233,6 +3233,10 @@ file = "config/petting-common.toml"
 hash = "8a66e38937c7f23aaa4cfc3f64859f68b80cebd5288782c70a165dfb843b4a9d"
 
 [[files]]
+file = "config/relics.yaml"
+hash = "a99ad6248bf0f596bd577b3c02135889b7421ce1f6872180df6ed627e43cb2aa"
+
+[[files]]
 file = "config/solcarrot-server.toml"
 hash = "6183ed5338184f36dcd6a55374b37ae6d0545cc9b6b87e80a190491cb3ff52cd"
 
