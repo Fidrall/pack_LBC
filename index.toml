@@ -97,6 +97,10 @@ file = "config/create_enchantment_industry-server.toml"
 hash = "e4d5a42e7f12e8fe39d1be57f807e7eb647e0b43af6c8fdbfe1ace8587ce8652"
 
 [[files]]
+file = "config/ctov-common.toml"
+hash = "24d0a351edd2cd47ba8e86a1b6642dd6e7b0d8f3e6bb4a7ffa74e319b85c0b34"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "84d17af3347be9875094dbab7c7a9509d7623c6cd876aba2dc090b151db911f8"
 
