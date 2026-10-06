@@ -166,7 +166,7 @@
                        },
                        {
                            "structure":  "mvs:floating_islands",
-                           "weight":  20
+                           "weight":  7
                        },
                        {
                            "structure":  "mvs:flower_hole",
@@ -202,7 +202,7 @@
                        },
                        {
                            "structure":  "mvs:large_floating_island",
-                           "weight":  27
+                           "weight":  12
                        },
                        {
                            "structure":  "mvs:large_warped_tower",
@@ -380,8 +380,8 @@
     "placement":  {
                       "type":  "minecraft:random_spread",
                       "salt":  901605316,
-                      "spacing":  8,
-                      "separation":  4,
+                      "spacing":  7,
+                      "separation":  3,
                       "exclusion_zone":  {
                                              "other_set":  "minecraft:villages",
                                              "chunk_count":  4

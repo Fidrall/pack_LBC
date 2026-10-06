@@ -2986,11 +2986,11 @@ hash = "e5b7da8aeacd550426f5528e145de3b3c9af976d0a4e28d705ee8ef8b48a9f63"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_moyen.json"
-hash = "8ab7866511086bd084b95c6c7774849735c982e52966b9e89c2b450927ba29bb"
+hash = "8bbcc2f84a573b25fd80bccab29a8072cba861d994cda89a236aa7ab54bbc460"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_petit.json"
-hash = "b21dfce66922e2bb2e2eea7f36e1b4165e1f0244aca1fa09e9253765a519bd32"
+hash = "0c16a52c0b04e9d0cf59ce3067411b1ec0f9a885b1bca27b4848308a514cd512"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_grand.json"
@@ -2998,11 +2998,11 @@ hash = "1d657e9076d4c468b7ccc7b3cb4fbec17e193e0a1bfaf59c6f9c5acb3c9cc882"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_moyen.json"
-hash = "826971d1c957eda3cda8a9a0229022155a5780b1f25b2629a52512c30e7c7ebd"
+hash = "99bfc989c598f7e9b7c8259b9750426c8230e99a58e9446e6ec575e2a2600b10"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_petit.json"
-hash = "9b31e042a58a0e22fdbea0b910327c9ca5ec7e1ee24a31a9346eb2f9335140d2"
+hash = "22c5f4315a32b7eebb3bef3d7d4d61fe81899b513b95322edcdbced0a330c8e6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/ocean_grand.json"
@@ -3010,7 +3010,7 @@ hash = "677ab14868d5e00448a64586da9db363ad36425cfc950becfbd07b4f37934b04"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/ocean_moyen.json"
-hash = "d6407fb5bcb2cf5cddb89f545364d13c6713725ee62429a2386676ea1c721540"
+hash = "55ab2046fbba74d9562884d000e6092be5931932eda9775f0ffc1e924efca61e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_grand.json"
@@ -3018,11 +3018,11 @@ hash = "a08e9f020be42de75824f4fbe432b37718004b380ed43b1e8e63b5741c2ee287"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "1b697f8d7edf0b023b209984cbbdf78864cb1228d8dce855005868262af1990c"
+hash = "27ac668b7393c0a45410968c4c05ae2bd58e342470833f82e13c633134797723"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"
-hash = "59e8c593159898646ddd1959dcae5de3bb251dae6cd55db6ef92c3ea6c229974"
+hash = "6cbf65796a30fd5af876735d16465cd5cc82884a7dc6c0f8ffae72ea9bbbe9a5"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_grand.json"
@@ -3030,11 +3030,11 @@ hash = "c3fbe2b378afcc9a284774a4beab229b2043c1696bda36ed5a15cd4bacfef0eb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_moyen.json"
-hash = "78c275ea5f8fe0a4f83902cad1f6e49adbf4dacae4a08d0c71c68a3635dca18a"
+hash = "d497585689eba228852b0b17e24342dcc10d0072c00f5e57b49b08b727900489"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_petit.json"
-hash = "abfee26ed4fc20a76e924d26beac21da9427eaa6fb333af137eef1ed3a1fc646"
+hash = "7fab0dcd633258dd1438b9162b5dc6f64e4dab9a09fd9a8cc0d844df10954a53"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/archaion/start.json"
@@ -3235,6 +3235,90 @@ hash = "8a66e38937c7f23aaa4cfc3f64859f68b80cebd5288782c70a165dfb843b4a9d"
 [[files]]
 file = "config/relics.yaml"
 hash = "a99ad6248bf0f596bd577b3c02135889b7421ce1f6872180df6ed627e43cb2aa"
+
+[[files]]
+file = "config/relics/loot.yaml"
+hash = "140c4163b9397e00a6eac090a173e53b05f0d551a317f982476865391649e4c6"
+
+[[files]]
+file = "config/relics/relics/chef_hat.yaml"
+hash = "e289970f75a854c1ffb5e242a7c1f9d9ee4d253416a94437773524c2b218530b"
+
+[[files]]
+file = "config/relics/relics/chorus_staff.yaml"
+hash = "98f29f81d643062683317603a8e9f1f16a8845fe1e18a8cb94bfd1084e5d1482"
+
+[[files]]
+file = "config/relics/relics/clot_of_time.yaml"
+hash = "49555b210ff382b87799293effb0c5d5c24f553911dc17dbd309d51673eefd0b"
+
+[[files]]
+file = "config/relics/relics/cut_glass_boot.yaml"
+hash = "da7eb9f4ad6c77e1a83e04a608fa16ec6fe0e7e1421fa80c3894078319f9f249"
+
+[[files]]
+file = "config/relics/relics/experience_disperser.yaml"
+hash = "b08a040ddffed0d78d6f362ddcb6a9f69531b182b55f6d49b3f141e2aab3ff89"
+
+[[files]]
+file = "config/relics/relics/ghostly_mantle.yaml"
+hash = "718a9c08bb01bd4d733adf1e655f61c31a177d08f01a352960e9296124f0bfd6"
+
+[[files]]
+file = "config/relics/relics/glitchy_mantle.yaml"
+hash = "d1daeb597943eac8151b74819e184e835caef2382b72b7f86d91dba046743272"
+
+[[files]]
+file = "config/relics/relics/hunting_belt.yaml"
+hash = "5584f9ea64c0b7d1bc3833c93560a7a30f64d6caa499060947e26601d8989507"
+
+[[files]]
+file = "config/relics/relics/jellyfish_necklace.yaml"
+hash = "6f453aed762add5c55be97bc7b16da7960dacb2ae4e317984139bb74b378e55e"
+
+[[files]]
+file = "config/relics/relics/kinetic_belt.yaml"
+hash = "41a626feab26e5b5b08f57742f850f94cec716cee86fe9e16eef7b7c22aa83b2"
+
+[[files]]
+file = "config/relics/relics/leafy_mantle.yaml"
+hash = "80abe97bb7b2ca2c45fdf5924e4d5cd27fa6ca104beba924b46b9b23a9849d03"
+
+[[files]]
+file = "config/relics/relics/midnight_mantle.yaml"
+hash = "58a7c9bae37142ceb1c93f38326cb42c2d13f8c57864771d40ee4e97d6fe1e06"
+
+[[files]]
+file = "config/relics/relics/piglin_mask.yaml"
+hash = "0ffd4d56ceb48282214123ec3bf4b4bc7bd09b43b77bb4e0f9e5baee73c3a328"
+
+[[files]]
+file = "config/relics/relics/reflective_necklace.yaml"
+hash = "6f07e1c2b2fce624605c7aae83b6a4f2c1184ddec64a70bd8482e87a7dd01c9b"
+
+[[files]]
+file = "config/relics/relics/rider_flute.yaml"
+hash = "5f7f13bd6733c1e42cb03f10ec93bfea60695251b175e1fa0c65980f7f733f41"
+
+[[files]]
+file = "config/relics/relics/ring_of_the_seven_deadly_sins.yaml"
+hash = "5b76d54d200ba5785abb2171a2874cdd374376cd2955730e202567a533777c45"
+
+[[files]]
+file = "config/relics/relics/roller_skate.yaml"
+hash = "f3088ec6bc57b193a9d85d8a36e45045538c8526c511f9ceb7207a3de4e3458c"
+
+[[files]]
+file = "config/relics/relics/shield_of_retaliation.yaml"
+hash = "7e9f7ff2892ff41fb5d1fd2161b2478576d2bbcb894e8f955dcdef881940c8a6"
+
+[[files]]
+file = "config/relics/relics/sphere_of_self_sacrifice.yaml"
+hash = "a6205bdc5eb6ac2ee5a64d8285ee8b74269e6e0a96179bedbc39cebe03bccbc9"
+
+[[files]]
+file = "config/relics/relics/springy_boot.yaml"
+hash = "edff2c8d63f91806949a498ba5498d05f2a650cb504c697da25aa1a20d180ff3"
 
 [[files]]
 file = "config/solcarrot-server.toml"

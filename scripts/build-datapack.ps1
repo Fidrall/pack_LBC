@@ -204,15 +204,15 @@ W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structure
 # Chaque famille = un seul ensemble : une structure par case ; si le biome ne convient pas, le jeu en essaie une autre.
 # Les structures sont retirees de leur ensemble d'origine par Lithostitched (remove_structure_set_entries).
 $famSpacing = @{
-    overworld_surface_petit = 8; overworld_surface_moyen = 8; overworld_surface_grand = 14
-    overworld_underground_petit = 10; overworld_underground_moyen = 26; overworld_underground_grand = 74
-    ocean_moyen = 22; ocean_grand = 63
-    nether_petit = 8; nether_moyen = 12; nether_grand = 24
-    end_petit = 10; end_moyen = 16; end_grand = 28
+    overworld_surface_petit = 7; overworld_surface_moyen = 7; overworld_surface_grand = 14
+    overworld_underground_petit = 8; overworld_underground_moyen = 21; overworld_underground_grand = 74
+    ocean_moyen = 18; ocean_grand = 63
+    nether_petit = 7; nether_moyen = 10; nether_grand = 24
+    end_petit = 8; end_moyen = 13; end_grand = 28
 }
 $fam = Import-Csv (Join-Path $PSScriptRoot 'data\structure_families.csv')
 # Ajustements manuels de frequence (multiplicateur du poids), conserves si le CSV est regenere
-$famFactor = @{ 'mvs:floating_islands' = 0.33; 'mvs:large_floating_island' = 0.33; 'mns:grave_yard' = 0.1; 'mns:large_house_1' = 0.13; 'mns:circle_blackstone' = 0.27; 'mns:crimson_forge' = 0.3 }
+$famFactor = @{ 'mvs:floating_islands' = 0.12; 'mvs:large_floating_island' = 0.15; 'mns:grave_yard' = 0.1; 'mns:large_house_1' = 0.13; 'mns:circle_blackstone' = 0.27; 'mns:crimson_forge' = 0.3 }
 foreach ($r in $fam) { if ($famFactor.ContainsKey($r.structure)) { $r.weight = [Math]::Max(1, [Math]::Round([int]$r.weight * $famFactor[$r.structure])) } }
 foreach ($g in ($fam | Group-Object family)) {
     $sp = $famSpacing[$g.Name]; if (-not $sp) { throw "Famille sans espacement : $($g.Name)" }
