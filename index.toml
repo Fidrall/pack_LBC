@@ -1086,7 +1086,7 @@ hash = "4e3c4abf66b3f8aaa4df7783556de0efb38aff114c3cdfa7a826e4fcfa2c2385"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "dde086ee4f118ed900a10f00103f28100e56ff0df88c4d3cf3f71c18bbba1ad3"
+hash = "be30ec0a3a95099c0f8a91797636927b571f41a4d43591588f59b1883b678299"
 
 [[files]]
 file = "config/torchmaster.toml"

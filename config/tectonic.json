@@ -29,7 +29,7 @@
   },
   "continents": {
     // Horizontally scales continents. Lower values = larger continents and oceans between them.
-    "continents_scale": 0.09,
+    "continents_scale": 0.104,
     // Horizontally scales erosion, primarily impacting mountains. Lower values = thicker mountain ranges and terrain between them.
     "erosion_scale": 0.25,
     // The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.
@@ -62,7 +62,7 @@
   },
   "global_terrain": {
     // Increases the effects of Vertical Scale on mountainous terrain. This will increase the scale of mountains and plateaus faster than lowlands.
-    "elevation_boost": 0.15,
+    "elevation_boost": 0.05,
     // Rare, deep underground tunnels of lava sometimes generate at the bottom of the world.
     "lava_tunnels": true,
     "max_y": 320,
@@ -70,7 +70,7 @@
     // Greatly smoothens out the terrain like Tectonic v2, removing staircasing artifacts at the cost of strange/broken generation in deep oceans and windswept biomes.
     "ultrasmooth": false,
     // Vertically stretches terrain above sea level. Doubling this value will double the surface's height at a given point from sea level.
-    "vertical_scale": 1.35
+    "vertical_scale": 1.25
   },
   "islands": {
     "enabled": true,
@@ -81,9 +81,9 @@
   "minor_version": 1,
   "oceans": {
     // 0 is at sea level, -0.5 is 64 blocks below sea level.
-    "deep_ocean_depth": -0.65,
+    "deep_ocean_depth": -0.55,
     // Offsets (vanilla) ocean monuments to adjust for deeper oceans.
-    "monument_offset": -45,
+    "monument_offset": -35,
     // 0 is at sea level, -0.5 is 64 blocks below sea level.
     "ocean_depth": -0.3,
     // Removes the surface ice from Frozen Oceans, making them as navigable as Deep Frozen Oceans.
