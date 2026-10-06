@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF1E3B1E",
+    "bag_overlay_color":  "#FF6FD08C",
+    "bag_string_color":  "#FFB0E0B0",
+    "display_name":  "Butin du Crepuscule",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/twilight",
+    "rarity":  "epic",
+    "visible":  true
+}

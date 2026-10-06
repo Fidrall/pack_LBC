@@ -1,0 +1,39 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "minecraft:any_of",
+                           "terms":  [
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "cataclysm:ignis"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "cataclysm:the_harbinger"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "cataclysm:the_leviathan"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "cataclysm:scylla"
+                                                           }
+                                         }
+                                     ]
+                       }
+                   ],
+    "table":  "pack_lbc:boss/cataclysm_t3"
+}

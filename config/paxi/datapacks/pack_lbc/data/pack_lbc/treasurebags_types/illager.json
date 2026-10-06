@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF3C3C46",
+    "bag_overlay_color":  "#FF2FB45A",
+    "bag_string_color":  "#FFB4B4B4",
+    "display_name":  "Butin illager",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/illager",
+    "rarity":  "epic",
+    "visible":  true
+}

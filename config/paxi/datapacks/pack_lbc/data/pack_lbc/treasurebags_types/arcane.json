@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF2A1B4A",
+    "bag_overlay_color":  "#FFB07CFF",
+    "bag_string_color":  "#FF6A4CC2",
+    "display_name":  "Butin arcanique",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/arcane",
+    "rarity":  "epic",
+    "visible":  true
+}

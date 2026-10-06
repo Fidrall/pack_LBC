@@ -328,5 +328,72 @@ W 'data/apotheosis/loot_modifiers/gem_loot_injection.json' ([ordered]@{ type = '
 foreach ($g in 'hostile', 'peaceful', 'player') { W "data/treasurebags/loot_table/entity_group/$g.json" ([ordered]@{ type = 'minecraft:entity'; pools = @() }) }
 W 'data/treasurebags/loot_table/starting_inventory.json' ([ordered]@{ type = 'minecraft:gift'; pools = @() })
 
+# ---------- 14. Butin de boss : sac thematique (Treasure Bags) + chance de carte de structure selon la difficulte ----------
+# S'ajoute au butin normal du boss (modificateur de butin NeoForge declenche par le TYPE de boss tue, joueur requis).
+# Le sac generique de Treasure Bags (2 par boss) est remplace par un sac thematique par famille.
+W 'data/treasurebags/loot_table/entity_group/boss.json' ([ordered]@{ type = 'minecraft:entity'; pools = @() })
+# Paliers de cartes (structures du plus accessible au plus dangereux)
+$palier = @{
+    1 = @('irons_spellbooks:ice_spider_den', 'irons_spellbooks:mangrove_hut', 'irons_spellbooks:catacombs', 'irons_spellbooks:evoker_fort', 'iceandfire:hydra_cave', 'iceandfire:cyclops_cave', 'iceandfire:gorgon_temple', 'minecraft:monument', 'minecraft:mansion', 'mowziesmobs:umvuthana_grove')
+    2 = @('minecraft:ancient_city', 'cataclysm:cursed_pyramid', 'cataclysm:frosted_prison', 'cataclysm:ancient_factory', 'cataclysm:sunken_city', 'cataclysm:acropolis', 'cataclysm:soul_black_smith', 'irons_spellbooks:citadel', 'mowziesmobs:monastery', 'mowziesmobs:wrought_chamber', 'bosses_of_mass_destruction:lich_tower', 'bosses_of_mass_destruction:void_blossom')
+    3 = @('cataclysm:burning_arena', 'cataclysm:ruined_citadel', 'bosses_of_mass_destruction:gauntlet_arena', 'bosses_of_mass_destruction:obsidilith_arena', 'archaion:ancient_keep', 'iceandfire:fire_dragon_roost', 'iceandfire:ice_dragon_roost', 'iceandfire:lightning_dragon_roost')
+}
+foreach ($n in 1..3) {
+    $ent = @($palier[$n] | ForEach-Object { [ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:cartes/carte_' + ($_ -replace '[:/]', '_'); weight = 1 } })
+    W "data/pack_lbc/loot_table/cartes/palier_$n.json" ([ordered]@{ type = 'minecraft:generic'; pools = @([ordered]@{ rolls = 1; entries = $ent }) })
+}
+# chance de carte et paliers tires selon la difficulte du boss
+$carteTier = @{ 1 = @{ chance = 0.25; w = @{ 1 = 1 } }; 2 = @{ chance = 0.30; w = @{ 1 = 1; 2 = 2 } }; 3 = @{ chance = 0.40; w = @{ 2 = 1; 3 = 2 } } }
+# Familles de boss : nom du sac, couleurs, materiaux du mod ; boss par palier de difficulte
+$apo = @(
+    [ordered]@{ type = 'minecraft:item'; name = 'apotheosis:gem_dust'; weight = 5; functions = @([ordered]@{ function = 'minecraft:set_count'; count = [ordered]@{ type = 'minecraft:uniform'; min = 2; max = 6 } }) },
+    [ordered]@{ type = 'minecraft:item'; name = 'apotheosis:mysterious_scrap_metal'; weight = 4; functions = @([ordered]@{ function = 'minecraft:set_count'; count = [ordered]@{ type = 'minecraft:uniform'; min = 1; max = 3 } }) },
+    [ordered]@{ type = 'minecraft:item'; name = 'apotheosis:timeworn_fabric'; weight = 3; functions = @([ordered]@{ function = 'minecraft:set_count'; count = [ordered]@{ type = 'minecraft:uniform'; min = 1; max = 2 } }) },
+    [ordered]@{ type = 'minecraft:item'; name = 'apotheosis:luminous_crystal_shard'; weight = 2 },
+    [ordered]@{ type = 'minecraft:item'; name = 'apotheosis:sigil_of_socketing'; weight = 1 },
+    [ordered]@{ type = 'minecraft:item'; name = 'minecraft:experience_bottle'; weight = 4; functions = @([ordered]@{ function = 'minecraft:set_count'; count = [ordered]@{ type = 'minecraft:uniform'; min = 4; max = 8 } }) }
+)
+$familles = [ordered]@{
+    cataclysm = @{ nom = 'Butin de Cataclysm'; c = @('#FF3A0F0F', '#FFFF5500', '#FFAA3300'); mat = @('cataclysm:ancient_metal_ingot', 'cataclysm:witherite_ingot', 'cataclysm:ignitium_ingot', 'cataclysm:black_steel_ingot', 'cataclysm:koboleton_bone')
+        boss = @{ 2 = @('cataclysm:netherite_monstrosity', 'cataclysm:ender_guardian', 'cataclysm:ancient_remnant', 'cataclysm:maledictus'); 3 = @('cataclysm:ignis', 'cataclysm:the_harbinger', 'cataclysm:the_leviathan', 'cataclysm:scylla') } }
+    twilight = @{ nom = 'Butin du Crepuscule'; c = @('#FF1E3B1E', '#FF6FD08C', '#FFB0E0B0'); mat = @('twilightforest:knightmetal_ingot', 'twilightforest:ironwood_ingot', 'twilightforest:fiery_ingot', 'twilightforest:steeleaf_ingot', 'twilightforest:carminite', 'twilightforest:torchberries')
+        boss = @{ 1 = @('twilightforest:naga', 'twilightforest:lich'); 2 = @('twilightforest:minoshroom', 'twilightforest:hydra', 'twilightforest:knight_phantom', 'twilightforest:alpha_yeti'); 3 = @('twilightforest:ur_ghast', 'twilightforest:snow_queen') } }
+    aether = @{ nom = 'Butin celeste'; c = @('#FFE8F4FF', '#FFFFD54F', '#FF7FC8FF'); mat = @('aether:zanite_gemstone', 'aether:enchanted_gravitite', 'aether:ambrosium_shard', 'aether:golden_amber', 'aether:aechor_petal')
+        boss = @{ 1 = @('aether:slider'); 2 = @('aether:valkyrie_queen'); 3 = @('aether:sun_spirit') } }
+    arcane = @{ nom = 'Butin arcanique'; c = @('#FF2A1B4A', '#FFB07CFF', '#FF6A4CC2'); mat = @('irons_spellbooks:arcane_essence', 'irons_spellbooks:mithril_scrap', 'irons_spellbooks:rare_ink', 'irons_spellbooks:epic_ink', 'irons_spellbooks:divine_pearl', 'hazennstuff:pyrium_nugget', 'hazennstuff:stardust')
+        boss = @{ 1 = @('irons_spellbooks:dead_king'); 2 = @('irons_spellbooks:fire_boss', 'hazennstuff:pyromus', 'hazennstuff:aegis', 'hazennstuff:aptos') } }
+    chaos = @{ nom = 'Butin du Chaos'; c = @('#FF1A1A1A', '#FFC23B22', '#FF8A8A8A'); mat = @('born_in_chaos_v1:dark_metal_ingot', 'born_in_chaos_v1:dark_metal_nugget', 'born_in_chaos_v1:bundle_of_bones', 'born_in_chaos_v1:seedof_chaos')
+        boss = @{ 1 = @('born_in_chaos_v1:missioner', 'born_in_chaos_v1:krampus', 'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:lord_the_headless') } }
+    mowzie = @{ nom = 'Butin ancestral'; c = @('#FF5B3A1E', '#FFE0B050', '#FF9C6B30'); mat = @('mowziesmobs:ice_crystal', 'mowziesmobs:naga_fang', 'mowziesmobs:foliaath_seed', 'minecraft:gold_ingot')
+        boss = @{ 1 = @('mowziesmobs:ferrous_wroughtnaut', 'mowziesmobs:umvuthi'); 2 = @('mowziesmobs:frostmaw', 'mowziesmobs:sculptor') } }
+    destruction = @{ nom = 'Butin de destruction'; c = @('#FF101820', '#FF9B30FF', '#FF5050A0'); mat = @('bosses_of_mass_destruction:ancient_anima', 'bosses_of_mass_destruction:crystal_fruit', 'bosses_of_mass_destruction:soul_star', 'bosses_of_mass_destruction:void_thorn')
+        boss = @{ 2 = @('bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:gauntlet', 'bosses_of_mass_destruction:void_blossom'); 3 = @('bosses_of_mass_destruction:obsidilith') } }
+    illager = @{ nom = 'Butin illager'; c = @('#FF3C3C46', '#FF2FB45A', '#FFB4B4B4'); mat = @('illagerinvasion:hallowed_gem', 'illagerinvasion:platinum_chunk', 'illagerinvasion:illusionary_dust', 'minecraft:emerald')
+        boss = @{ 1 = @('illagerinvasion:invoker'); 2 = @('friendsandfoes:wildfire') } }
+    legende = @{ nom = 'Butin legendaire'; c = @('#FF101010', '#FF7A2BBF', '#FFFFD700'); mat = @('minecraft:diamond', 'minecraft:emerald', 'minecraft:ender_pearl', 'minecraft:blaze_rod', 'archaion:brave_essence')
+        boss = @{ 1 = @('minecraft:elder_guardian'); 2 = @('minecraft:wither'); 3 = @('minecraft:warden', 'minecraft:ender_dragon', 'archaion:deepslate_sentinel') } }
+}
+$glm = @()
+foreach ($f in $familles.Keys) {
+    $fd = $familles[$f]
+    W "data/pack_lbc/treasurebags_types/$f.json" ([ordered]@{ bag_color = $fd.c[0]; bag_overlay_color = $fd.c[1]; bag_string_color = $fd.c[2]; display_name = $fd.nom; drops_from_groups = @(); group = 'pack_lbc'; loot_table = "pack_lbc:bags/$f"; rarity = 'epic'; visible = $true })
+    $mat = @($fd.mat | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = $_; functions = @([ordered]@{ function = 'minecraft:set_count'; count = [ordered]@{ type = 'minecraft:uniform'; min = 1; max = 4 } }) } })
+    W "data/pack_lbc/loot_table/bags/$f.json" ([ordered]@{ type = 'minecraft:gift'; pools = @(
+                [ordered]@{ rolls = [ordered]@{ type = 'minecraft:uniform'; min = 2; max = 3 }; entries = $mat },
+                [ordered]@{ rolls = 2; entries = $apo }) })
+    foreach ($t in $fd.boss.Keys) {
+        $ct = $carteTier[[int]$t]
+        $cartes = @($ct.w.Keys | ForEach-Object { [ordered]@{ type = 'minecraft:loot_table'; value = "pack_lbc:cartes/palier_$_"; weight = $ct.w[$_] } })
+        $kp = [ordered]@{ condition = 'minecraft:killed_by_player' }
+        W "data/pack_lbc/loot_table/boss/${f}_t$t.json" ([ordered]@{ type = 'minecraft:entity'; pools = @(
+                    [ordered]@{ rolls = 1; conditions = @($kp); entries = @([ordered]@{ type = 'minecraft:item'; name = 'treasurebags:treasure_bag'; functions = @([ordered]@{ function = 'treasurebags:set_bag_type'; bag_type = "pack_lbc:$f" }) }) },
+                    [ordered]@{ rolls = 1; conditions = @($kp, [ordered]@{ condition = 'minecraft:random_chance'; chance = $ct.chance }); entries = $cartes }) })
+        $terms = @($fd.boss[$t] | ForEach-Object { [ordered]@{ condition = 'minecraft:entity_properties'; entity = 'this'; predicate = [ordered]@{ type = $_ } } })
+        W "data/pack_lbc/loot_modifiers/boss/${f}_t$t.json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }); table = "pack_lbc:boss/${f}_t$t" })
+        $glm += "pack_lbc:boss/${f}_t$t"
+    }
+}
+W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $glm })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

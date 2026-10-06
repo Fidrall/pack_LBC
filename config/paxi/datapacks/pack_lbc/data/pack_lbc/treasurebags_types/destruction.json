@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF101820",
+    "bag_overlay_color":  "#FF9B30FF",
+    "bag_string_color":  "#FF5050A0",
+    "display_name":  "Butin de destruction",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/destruction",
+    "rarity":  "epic",
+    "visible":  true
+}

@@ -1,0 +1,39 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "minecraft:any_of",
+                           "terms":  [
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "born_in_chaos_v1:missioner"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "born_in_chaos_v1:krampus"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "born_in_chaos_v1:supreme_bonescaller_stage_2"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "born_in_chaos_v1:lord_the_headless"
+                                                           }
+                                         }
+                                     ]
+                       }
+                   ],
+    "table":  "pack_lbc:boss/chaos_t1"
+}

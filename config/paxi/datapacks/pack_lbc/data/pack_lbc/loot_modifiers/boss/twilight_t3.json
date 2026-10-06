@@ -1,0 +1,25 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "minecraft:any_of",
+                           "terms":  [
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "twilightforest:ur_ghast"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "twilightforest:snow_queen"
+                                                           }
+                                         }
+                                     ]
+                       }
+                   ],
+    "table":  "pack_lbc:boss/twilight_t3"
+}

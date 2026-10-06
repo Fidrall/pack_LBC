@@ -1,0 +1,25 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "minecraft:any_of",
+                           "terms":  [
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "twilightforest:naga"
+                                                           }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "twilightforest:lich"
+                                                           }
+                                         }
+                                     ]
+                       }
+                   ],
+    "table":  "pack_lbc:boss/twilight_t1"
+}

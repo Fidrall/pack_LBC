@@ -526,7 +526,7 @@ hash = "6bf4289d13d121c1afb248eef8191120293c29131fd7bc948d9188abff556ca6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
+hash = "9111a85c324eff93e45ce805ff963fbad5cf640b78203b5b2bebc865282dcfc6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -1705,6 +1705,86 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modi
 hash = "078c9f9985681b7dcd157dfa494b1241838bc870354467296ce5a77e97d4cb33"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/aether_t1.json"
+hash = "b1423839618baee0c85e6e0efcf9342e5b87d852c4cd61fcb835395757808ef7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/aether_t2.json"
+hash = "04d91b8e627ad4967a3fbe3a22fbf73a4ad5ba345a2369efff891ce328c277db"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/aether_t3.json"
+hash = "8caa392f1369bd050d5fe890bf599455a81b9536d643ea2560bb0337f6fa402a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/arcane_t1.json"
+hash = "bbc6b3b0561b166460cd943906f7b8c807b91103d160a700dd6d11dd41141726"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/arcane_t2.json"
+hash = "08fffd23636c966c6f8de64c60f262ca3a65e9194481c0b615955b5626c9d9a5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cataclysm_t2.json"
+hash = "c66743a579f67dc8ba6538451ed81cd0494187c7b44b0d73d107464f7ef4e01e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cataclysm_t3.json"
+hash = "eaa3b2636e59ffeea86f10ca8842f7d51abe053c79dd9f650c51517bde704081"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/chaos_t1.json"
+hash = "018147f6d29c70e15a31d2bcfcf6e6a706a33ce1cc43e2d375b169f6e1cf779d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/destruction_t2.json"
+hash = "90df56a15529ce9b25b04fc70456d8b6c4cc10048068d941dd6a6b4c8a8bfe73"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/destruction_t3.json"
+hash = "8162448e25406336a13b2d7e67f9366c048046a72ea02ce89b88680060b1a424"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/illager_t1.json"
+hash = "ff70293ac026d204e933f299ee391d0d67125a8a3d78972ba6a933fb3d104731"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/illager_t2.json"
+hash = "09050acb4284dd4565ddbe7890e85e89965cc1fab4a96317af8fa04fac5182e4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/legende_t1.json"
+hash = "3a11ef5755b11c2e362a3cd787e64712c0528ecd44f04da587f0ded65ec94db0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/legende_t2.json"
+hash = "428d7a1fe78e075c8d8c7e90d8542ea32701f4d8879984813122adc7d65f3985"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/legende_t3.json"
+hash = "f3380961af50a094beb01de881e540ab1090b0e6998bcb40d151ecb77060216e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/mowzie_t1.json"
+hash = "3c4ea23da0bb83f12b1520eaf1f640c91dc168e27440d36a45696f0fa387fb03"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/mowzie_t2.json"
+hash = "cac9ce3b158ada7abe030ad2a91bdd1c61948d9b78c2e2364d77120fd7aea00c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twilight_t1.json"
+hash = "78253feeb56149aae48bb4e5b3db18699419af7130e8917f2883c9c5e6359da5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twilight_t2.json"
+hash = "7b523ad565ce92098ee1dc8b92991db534b437edc6bf1a1f2c5f1eb860e0fff3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twilight_t3.json"
+hash = "e1eb4c170f236a976621c44903a248778194539b87539f2556e62dd05827df6a"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_armorer.json"
 hash = "db103a5563d670988367925c76626c405c2a285ed74a30239ca271a0f5cc5ba1"
 
@@ -1743,6 +1823,122 @@ hash = "026dd8ce41137d2f576d740720b297f37394532edfe10256ae3df5c56671328b"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_weaponsmith.json"
 hash = "e4aca7981f5774751833f4da34316dd2d03bb7c17c270a38fa0aab8747c01b74"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/aether.json"
+hash = "46aa0b409f29a378220dc7be99f240c54dc9a024614dbf7aabfa762b9a1125aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/arcane.json"
+hash = "9ad45e9653881b67b569ea1d2bbe578435f71d224e6fba7930685f57491f10f8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/cataclysm.json"
+hash = "e1de172f26e49eedd4e6edd17b86ec3c131d28534646987311107b0d48d9920c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/chaos.json"
+hash = "70b60ee6bef8221c209b05b21b27ec4f058ee564a1c84cf127d747009df8df1e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/destruction.json"
+hash = "2c18ac786a1bde8f2795ebcaa836d849834c0e9662afa6bd3be8f55c7df7fa92"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/illager.json"
+hash = "6903adc76ec858c96d5c21b4165f28fd84734e59ad042fa1194c4522f343dfc1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/legende.json"
+hash = "03fcc5ca0f9a62918d285a6dc082f7f1ae847b7b149e995fe359eafb59711eb5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/mowzie.json"
+hash = "266ae65db0fda1593e349025eba449fe3b8719153c8b1a069d9d374ab99c3386"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/twilight.json"
+hash = "3104d9b23f42f4d7a8bd898e8b45286b9a99c9997761621adbdf71fa383aff8b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/aether_t1.json"
+hash = "d51d2f3d1dcf4de5cd79a33dd964c433bf819bd35b50ce24ee9a693dd44d2854"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/aether_t2.json"
+hash = "49cae55398326a109e8e8cb7078aeae18188d1ed599443042d360d1ee61a7fd0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/aether_t3.json"
+hash = "54059556bd411e5ea98991df31e5a3773bf80782da30d976dad9dac8af670ead"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/arcane_t1.json"
+hash = "3974050811dd6a837f24c163b8d712fb4ba79516a7839b9c3a80df3d44dfc991"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/arcane_t2.json"
+hash = "035492c02d2386c42af82d820d154dae5944ecbb39eb780740c6e46b16b6f9c8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/cataclysm_t2.json"
+hash = "37d6c7282a80fa633fff353ae0d6b17b7ec7b1ca2493378d4609d23a86608afc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/cataclysm_t3.json"
+hash = "6701432851a7b290b93246e671788f0d082ab57f69d20289165aaeb31be6c021"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/chaos_t1.json"
+hash = "2cefcb6792fd5d4be7036f649cf3631fbe52cf8d987764aaa0d321869234a23a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/destruction_t2.json"
+hash = "69e6d16d8cb8e40420df112c4510fe48c77845b40ed278955e948c0800637aef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/destruction_t3.json"
+hash = "0785e6629d2b3effbb28f4a2d4975241b0c10de738a31635fcc108b4ae805147"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/illager_t1.json"
+hash = "f9ed80df80620e891deffa3656f3b8cd37ce6a371c609e5e778af489c33e3aac"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/illager_t2.json"
+hash = "ad85adb91ca52631d1737cf4f9ad80f129c568cbb2d9c217337037d39e2dd88d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/legende_t1.json"
+hash = "91404893baeca6f2e7d6fb38fd748c93467a4886b89c2fd0eb7f9ce19371567d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/legende_t2.json"
+hash = "e9e292c2dd27dc5f90151f4526b5a3a7b3bc089500ac7cbaefcfc236fe8c85e0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/legende_t3.json"
+hash = "24ee5674526926fda72ed64cd95fbe013489ea11c338de0f87fd517892befca4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/mowzie_t1.json"
+hash = "5427860781f354ec05e46b414d20b72caf78166189bb9aa4856a5ff2405cd86c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/mowzie_t2.json"
+hash = "a624f181492c5d374e8637e36ab3d6b661d453f0942580e76c82b3c76661e091"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t1.json"
+hash = "c37e594a62814daadd01bbe102adc251df5acdeeff6cc678ad3b533bb787d278"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t2.json"
+hash = "1cc04d24e0903ea6b4f262e4f63a10e5e3be21d5ba14d510853f70cc2cc47a3d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t3.json"
+hash = "6214491e9e48d9e3108f2b5d2ac152581940c2fd0ed35b144ec3e727d93e9af6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"
@@ -1863,6 +2059,18 @@ hash = "897e8b6fee10f4292a59c9c6368329250a33dabe062ea3dec6a0b9c9efda479e"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_mowziesmobs_wrought_chamber.json"
 hash = "16b4b26e54679162b9da5951f2435ebfe4a34fc257c3bfabffa03889ccf4d264"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_1.json"
+hash = "ace5ada0e14a688df700bac427ae74960049370a41d5e3f06231fa8090adfc43"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_2.json"
+hash = "a5a83e73c0426a0922e0b5463c1b6d816df388653dad61dfd58e2d9b5e28978a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_3.json"
+hash = "806e07145ceb23b336bc27c293baaa755b3cba1a65865ac6224e85f9367c9b7a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
@@ -2301,6 +2509,42 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/mixing/arcane_essenc
 hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/aether.json"
+hash = "9538cefffb16c2c259a0cb334247ca0a107de761e3d2ab26dac17c24b080536d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/arcane.json"
+hash = "d0e1fe468186da68422a86dc160af298b7a2a1484d0ef3e5bb8a557a9e60b84a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/cataclysm.json"
+hash = "95cdb1089aaf46caaec5953d932c8d2a7fa52e39b81a82cb685fddd935a0f0f3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/chaos.json"
+hash = "9cdbcb8cb99d35422751d83d1812d50037f6cb950957fd5c9327faf1c965e0a7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/destruction.json"
+hash = "bdda575b3727ee9d26c47bed7b3822ce2f206591d801e19eed165e5946296b52"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/illager.json"
+hash = "ab7041a410e684ddeef8719f1084df0dbffa4d5917753050e9212211df65edfd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/legende.json"
+hash = "0afd0acf14bb23a0507323fbc81aed6c2596f9271e8a68eff4b9f79bb0a66dbc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/mowzie.json"
+hash = "0bf8e1b2a686ef7a68c612b49d2f1b3923c21ea3a834c13c2294ad9ea1111215"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/twilight.json"
+hash = "c35710f6669b0d88eafdfac2b05302f8922265def5fb42aafac4b57cd205a51a"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_grand.json"
 hash = "e5b7da8aeacd550426f5528e145de3b3c9af976d0a4e28d705ee8ef8b48a9f63"
 
@@ -2391,6 +2635,10 @@ hash = "c2a6ef2aef59b434e3cf54a4c3b89ba085cbb1bc7bae30d9ed452056c10466c4"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towns.json"
 hash = "7dcb4c5bffe6604afe88d69466f9995f46035d0ff019d3c72637bc5edbda3455"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/entity_group/boss.json"
+hash = "278c0b013015b97589f2615054885fbab58f1b319bd881cfc99a20b2f83dbc02"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/entity_group/hostile.json"

@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF5B3A1E",
+    "bag_overlay_color":  "#FFE0B050",
+    "bag_string_color":  "#FF9C6B30",
+    "display_name":  "Butin ancestral",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/mowzie",
+    "rarity":  "epic",
+    "visible":  true
+}

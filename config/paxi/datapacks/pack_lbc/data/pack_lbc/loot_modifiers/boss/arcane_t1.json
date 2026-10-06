@@ -1,0 +1,18 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "minecraft:any_of",
+                           "terms":  [
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "irons_spellbooks:dead_king"
+                                                           }
+                                         }
+                                     ]
+                       }
+                   ],
+    "table":  "pack_lbc:boss/arcane_t1"
+}

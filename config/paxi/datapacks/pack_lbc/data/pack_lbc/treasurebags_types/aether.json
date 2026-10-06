@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FFE8F4FF",
+    "bag_overlay_color":  "#FFFFD54F",
+    "bag_string_color":  "#FF7FC8FF",
+    "display_name":  "Butin celeste",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/aether",
+    "rarity":  "epic",
+    "visible":  true
+}

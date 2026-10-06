@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF101010",
+    "bag_overlay_color":  "#FF7A2BBF",
+    "bag_string_color":  "#FFFFD700",
+    "display_name":  "Butin legendaire",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/legende",
+    "rarity":  "epic",
+    "visible":  true
+}

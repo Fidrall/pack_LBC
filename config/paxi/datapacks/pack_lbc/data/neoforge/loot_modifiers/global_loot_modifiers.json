@@ -1,15 +1,25 @@
 {
     "replace":  false,
     "entries":  [
-                    "pack_lbc:create_village_village_toolsmith",
-                    "pack_lbc:create_village_village_weaponsmith",
-                    "pack_lbc:create_village_village_armorer",
-                    "pack_lbc:create_village_village_mason",
-                    "pack_lbc:create_village_village_plains_house",
-                    "pack_lbc:create_village_village_taiga_house",
-                    "pack_lbc:create_village_village_savanna_house",
-                    "pack_lbc:create_village_village_desert_house",
-                    "pack_lbc:create_village_village_snowy_house",
-                    "pack_lbc:create_village_village_smith"
+                    "pack_lbc:boss/cataclysm_t2",
+                    "pack_lbc:boss/cataclysm_t3",
+                    "pack_lbc:boss/twilight_t3",
+                    "pack_lbc:boss/twilight_t2",
+                    "pack_lbc:boss/twilight_t1",
+                    "pack_lbc:boss/aether_t3",
+                    "pack_lbc:boss/aether_t2",
+                    "pack_lbc:boss/aether_t1",
+                    "pack_lbc:boss/arcane_t2",
+                    "pack_lbc:boss/arcane_t1",
+                    "pack_lbc:boss/chaos_t1",
+                    "pack_lbc:boss/mowzie_t2",
+                    "pack_lbc:boss/mowzie_t1",
+                    "pack_lbc:boss/destruction_t2",
+                    "pack_lbc:boss/destruction_t3",
+                    "pack_lbc:boss/illager_t2",
+                    "pack_lbc:boss/illager_t1",
+                    "pack_lbc:boss/legende_t3",
+                    "pack_lbc:boss/legende_t2",
+                    "pack_lbc:boss/legende_t1"
                 ]
 }

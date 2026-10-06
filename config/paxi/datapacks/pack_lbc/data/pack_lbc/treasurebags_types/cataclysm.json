@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF3A0F0F",
+    "bag_overlay_color":  "#FFFF5500",
+    "bag_string_color":  "#FFAA3300",
+    "display_name":  "Butin de Cataclysm",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/cataclysm",
+    "rarity":  "epic",
+    "visible":  true
+}
