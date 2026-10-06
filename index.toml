@@ -249,6 +249,10 @@ file = "config/modernfix-mixins.properties"
 hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 
 [[files]]
+file = "config/mostructures-config-v5.json5"
+hash = "a0870a5f73a366a2798799ba60469600868224ad238c0453be028696126b58d9"
+
+[[files]]
 file = "config/mowziesmobs-common.toml"
 hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
 
@@ -457,6 +461,10 @@ file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_se
 hash = "bfe6e7d1a570a158d062dae9dc0c979599e9588938a035eb6606f0afec5ebb73"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_set/citadel.json"
+hash = "a810f27f1ac2422f7e8e54a875eb59bc4f4ea75efd3b6316b14190f6433d42f6"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/portal_dripstone.json"
 hash = "cc98a4b94c1d91149f7da23a28eda2741634258059f6db8218fc7383eaddead8"
 
@@ -499,6 +507,10 @@ hash = "6bf4289d13d121c1afb248eef8191120293c29131fd7bc948d9188abff556ca6"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
+hash = "b9afbea8ecbd757a27f7ac6b609a3bec71fc47210e89cb3f15648a154e97f289"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -2331,6 +2343,10 @@ hash = "ebf41d26d9c25defa4aa3a24142748bcaf28c96023c25209449ce31a15346e4d"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/outposts_nether.json"
 hash = "7f983045f6439f17686062b8c3c13d6c69b1e415a270889cef29e4e1d0fbcea5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/witch_huts_overworld.json"
+hash = "c078b434442a9fd101671a5af3ae8d277922ad42ad1e2965c90a05d205e13c0d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_set/rare_towers.json"
