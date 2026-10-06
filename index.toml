@@ -2294,11 +2294,11 @@ hash = "b21dfce66922e2bb2e2eea7f36e1b4165e1f0244aca1fa09e9253765a519bd32"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_grand.json"
-hash = "6562531b846dd7786f9c6183c35a858a09f3333292f6dc7520c0d8b1bfbc7e03"
+hash = "1d657e9076d4c468b7ccc7b3cb4fbec17e193e0a1bfaf59c6f9c5acb3c9cc882"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_moyen.json"
-hash = "7ec7f52916d9ac2850a46d7b71b97e6ff01caf29f3ab7a36ea6488d3a3650e04"
+hash = "826971d1c957eda3cda8a9a0229022155a5780b1f25b2629a52512c30e7c7ebd"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_petit.json"

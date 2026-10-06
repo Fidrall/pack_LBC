@@ -18,7 +18,7 @@
                        },
                        {
                            "structure":  "mns:circle_blackstone",
-                           "weight":  15
+                           "weight":  4
                        },
                        {
                            "structure":  "mns:copper_tower",
@@ -26,7 +26,7 @@
                        },
                        {
                            "structure":  "mns:crimson_forge",
-                           "weight":  13
+                           "weight":  4
                        },
                        {
                            "structure":  "mns:giant_skull",

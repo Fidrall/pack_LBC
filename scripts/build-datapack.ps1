@@ -212,7 +212,7 @@ $famSpacing = @{
 }
 $fam = Import-Csv (Join-Path $PSScriptRoot 'data\structure_families.csv')
 # Ajustements manuels de frequence (multiplicateur du poids), conserves si le CSV est regenere
-$famFactor = @{ 'mvs:floating_islands' = 0.33; 'mvs:large_floating_island' = 0.33 }
+$famFactor = @{ 'mvs:floating_islands' = 0.33; 'mvs:large_floating_island' = 0.33; 'mns:grave_yard' = 0.1; 'mns:large_house_1' = 0.13; 'mns:circle_blackstone' = 0.27; 'mns:crimson_forge' = 0.3 }
 foreach ($r in $fam) { if ($famFactor.ContainsKey($r.structure)) { $r.weight = [Math]::Max(1, [Math]::Round([int]$r.weight * $famFactor[$r.structure])) } }
 foreach ($g in ($fam | Group-Object family)) {
     $sp = $famSpacing[$g.Name]; if (-not $sp) { throw "Famille sans espacement : $($g.Name)" }
