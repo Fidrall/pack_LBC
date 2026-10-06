@@ -1,0 +1,13 @@
+name = "Create: skills tree"
+filename = "createskillstree-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IdKd8BY9/versions/BATJfvGT/createskillstree-1.0.0.jar"
+hash-format = "sha512"
+hash = "f8f9a35e39bc66cffd609fd904559030a2432c6e208c0aa8f67c947a8b24f0b3fdefd13bac75127073f76a423ccd86fba5106a0c6b848a23a42e66cef0de3804"
+
+[update]
+[update.modrinth]
+mod-id = "IdKd8BY9"
+version = "BATJfvGT"

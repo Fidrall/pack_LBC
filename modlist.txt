@@ -224,3 +224,8 @@ mr | attributes | qol | attributs pour les recompenses des competences
 mr | relics-mod | jetable | 28 reliques a stats aleatoires qui montent en niveau (+ OctoLib)
 mr | iceandfire-ce | jetable | dragons a elever, voie dompteur fin de jeu (epingle 2.0 stable ; + Jupiter, Uranus) ; config a faire apres 1er lancement (griefing apprivoises, vitesse, hippogriffes/amphitheres)
 mr | effortless-building | qol | outils de construction (lignes, murs, sols, formes, miroir, annuler) - pratique sous l'eau
+mr | keystone-expansion-pufferfishs-skills | qol | arbres de competences (9 categories dont Apprivoisement, Magie, Construction)
+mr | irons-spells-n-spellbooks-dynamic-skill-trees | qol | 4 arbres de competences pour la magie d'Iron's
+mr | pufferfishs-unofficial-additions | qol | dependance des arbres Iron's
+mr | create-skill-tree | qol | arbre de competences Create (xp en fabriquant des objets Create)
+mr | pufferfish-skills-inventory-button | client | bouton Competences dans l'inventaire
