@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:grave_yard",
+    "structure_sets":  "mns:warped_dome",
     "structures":  [
-                       "mns:grave_yard"
+                       "mns:warped_dome"
                    ]
 }

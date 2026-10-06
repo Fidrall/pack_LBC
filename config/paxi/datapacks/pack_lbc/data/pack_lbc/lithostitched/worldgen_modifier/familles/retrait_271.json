@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:snowy_fossil",
+    "structure_sets":  "mvs:stone_rock",
     "structures":  [
-                       "mvs:snowy_fossil"
+                       "mvs:stone_rock"
                    ]
 }

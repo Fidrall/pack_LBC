@@ -1,8 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:shrine",
+    "structure_sets":  "mns:small_nether_brick",
     "structures":  [
-                       "mns:shrine",
-                       "mns:smoking_shrine"
+                       "mns:small_nether_brick"
                    ]
 }

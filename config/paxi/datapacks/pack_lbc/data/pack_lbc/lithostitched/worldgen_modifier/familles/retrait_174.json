@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:boulder",
+    "structure_sets":  "philipsruins:pumpkin_ruins",
     "structures":  [
-                       "mvs:boulder"
+                       "philipsruins:pumpkin_ruins"
                    ]
 }

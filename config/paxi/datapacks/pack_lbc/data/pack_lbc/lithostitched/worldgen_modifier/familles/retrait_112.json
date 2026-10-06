@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:create_copper_statue",
+    "structure_sets":  "explorify:taverns",
     "structures":  [
-                       "create_structures_arise:create_copper_statue"
+                       "explorify:tavern"
                    ]
 }

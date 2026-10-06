@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:cathedral",
+    "structure_sets":  "mvs:fox_hut",
     "structures":  [
-                       "mvs:cathedral"
+                       "mvs:fox_hut"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:ruined_beacon",
+    "structure_sets":  "mvs:log_ruin",
     "structures":  [
-                       "mvs:ruined_beacon"
+                       "mvs:log_ruin"
                    ]
 }

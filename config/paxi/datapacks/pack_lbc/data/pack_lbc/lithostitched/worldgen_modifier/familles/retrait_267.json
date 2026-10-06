@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:small_oak_lantern",
+    "structure_sets":  "mvs:snowy_dog_hut",
     "structures":  [
-                       "mvs:small_oak_lantern"
+                       "mvs:snowy_dog_hut"
                    ]
 }

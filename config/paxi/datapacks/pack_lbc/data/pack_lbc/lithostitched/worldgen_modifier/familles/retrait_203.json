@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:small_oak_pond",
+    "structure_sets":  "create_structures_arise:createoldruine",
     "structures":  [
-                       "mvs:small_oak_pond"
+                       "create_structures_arise:createoldruine"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:beach_bar",
+    "structure_sets":  "philipsruins:ancient_towers",
     "structures":  [
-                       "mvs:beach_bar"
+                       "philipsruins:ancient_towers"
                    ]
 }

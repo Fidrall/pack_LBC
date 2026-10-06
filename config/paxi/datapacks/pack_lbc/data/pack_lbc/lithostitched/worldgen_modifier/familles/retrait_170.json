@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:azelea_house",
+    "structure_sets":  "philipsruins:ancient_ruins",
     "structures":  [
-                       "mvs:azelea_house"
+                       "philipsruins:ancient_ruins"
                    ]
 }

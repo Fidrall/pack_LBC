@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:mega_fortress",
+    "structure_sets":  "mns:giant_skull",
     "structures":  [
-                       "mns:mega_fortress"
+                       "mns:giant_skull"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:horse_pen",
+    "structure_sets":  "born_in_chaos_v1:grave_fubuki_banzai",
     "structures":  [
-                       "mvs:horse_pen"
+                       "born_in_chaos_v1:grave_fubuki_banzai"
                    ]
 }

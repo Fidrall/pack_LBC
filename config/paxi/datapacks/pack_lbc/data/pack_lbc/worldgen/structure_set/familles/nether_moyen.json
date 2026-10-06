@@ -2,71 +2,83 @@
     "structures":  [
                        {
                            "structure":  "create_structures_arise:deadlordshouse",
-                           "weight":  2
+                           "weight":  3
                        },
                        {
                            "structure":  "create_structures_arise:obsidiantemple",
-                           "weight":  1
+                           "weight":  2
                        },
                        {
                            "structure":  "explorify:black_spiral",
-                           "weight":  3
+                           "weight":  5
                        },
                        {
                            "structure":  "farmers_structures:cooks_nether_2",
-                           "weight":  3
+                           "weight":  5
                        },
                        {
-                           "structure":  "mns:giant_skull",
+                           "structure":  "mns:copper_tower",
                            "weight":  1
                        },
                        {
+                           "structure":  "mns:giant_skull",
+                           "weight":  2
+                       },
+                       {
                            "structure":  "mns:grave_yard",
-                           "weight":  3
+                           "weight":  6
                        },
                        {
                            "structure":  "mns:large_house_1",
-                           "weight":  2
+                           "weight":  4
                        },
                        {
                            "structure":  "mns:lava_pool",
-                           "weight":  2
+                           "weight":  4
                        },
                        {
                            "structure":  "mns:medium_house",
-                           "weight":  2
+                           "weight":  4
                        },
                        {
                            "structure":  "mns:medium_house_2",
-                           "weight":  2
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:nether_wart_farm",
+                           "weight":  1
                        },
                        {
                            "structure":  "mns:sandy_skull",
-                           "weight":  3
+                           "weight":  5
                        },
                        {
                            "structure":  "mns:sword",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:train",
                            "weight":  2
                        },
                        {
                            "structure":  "mns:warped_dome",
-                           "weight":  2
-                       },
-                       {
-                           "structure":  "mns:warped_house",
-                           "weight":  2
-                       },
-                       {
-                           "structure":  "mns:warped_pool",
                            "weight":  4
                        },
                        {
+                           "structure":  "mns:warped_house",
+                           "weight":  4
+                       },
+                       {
+                           "structure":  "mns:warped_pool",
+                           "weight":  7
+                       },
+                       {
                            "structure":  "mvs:nether_devil",
-                           "weight":  1
+                           "weight":  2
                        },
                        {
                            "structure":  "mvs:nether_well",
-                           "weight":  2
+                           "weight":  3
                        }
                    ],
     "placement":  {

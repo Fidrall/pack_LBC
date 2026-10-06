@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:medium_bamboo_cart",
+    "structure_sets":  "mvs:pile",
     "structures":  [
-                       "mvs:medium_bamboo_cart"
+                       "mvs:pile"
                    ]
 }

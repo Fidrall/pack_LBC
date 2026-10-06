@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:dead_tree_birch",
+    "structure_sets":  "mvs:haystack",
     "structures":  [
-                       "mvs:dead_tree_birch"
+                       "mvs:haystack"
                    ]
 }

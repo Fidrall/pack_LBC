@@ -1,9 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:very_small_nether_brick",
+    "structure_sets":  "mvs:crimson_enchanting_table",
     "structures":  [
-                       "mns:very_small_nether_brick",
-                       "mns:very_small_nether_brick_2",
-                       "mns:very_small_nether_brick_3"
+                       "mvs:crimson_enchanting_table"
                    ]
 }

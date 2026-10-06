@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:level_one_ruins",
+    "structure_sets":  "mvs:paths",
     "structures":  [
-                       "philipsruins:level_one_ruins"
+                       "mvs:paths"
                    ]
 }

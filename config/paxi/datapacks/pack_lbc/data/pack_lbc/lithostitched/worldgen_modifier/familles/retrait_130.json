@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:pillagersteampunkairship",
+    "structure_sets":  "mvs:castle_ruins",
     "structures":  [
-                       "create_structures_arise:pillagersteampunkairship"
+                       "mvs:castle_ruins"
                    ]
 }

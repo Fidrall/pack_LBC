@@ -1,340 +1,536 @@
 {
     "structures":  [
                        {
+                           "structure":  "born_in_chaos_v1:farm",
+                           "weight":  82
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:firewell",
+                           "weight":  82
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_2_dling",
+                           "weight":  38
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_2003wise",
+                           "weight":  83
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_d_4rk_devil_x",
+                           "weight":  96
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_darktitan",
+                           "weight":  31
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_derivas",
+                           "weight":  75
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_euthymia",
+                           "weight":  83
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_feral",
+                           "weight":  77
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_fubuki_banzai",
+                           "weight":  64
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_memesus",
+                           "weight":  37
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_mike_and_rory",
+                           "weight":  59
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_nino_4416",
+                           "weight":  55
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_orion",
+                           "weight":  36
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_petasi",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_plug",
+                           "weight":  83
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_rotborne",
+                           "weight":  74
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_somfunambulist",
+                           "weight":  59
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_tem_187",
+                           "weight":  37
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:grave_the_gentleman_frog",
+                           "weight":  82
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:gravecarrionexe",
+                           "weight":  77
+                       },
+                       {
+                           "structure":  "create_structures_arise:chocolate_pit",
+                           "weight":  20
+                       },
+                       {
+                           "structure":  "create_structures_arise:createcontainer",
+                           "weight":  24
+                       },
+                       {
+                           "structure":  "create_structures_arise:createcushercrane",
+                           "weight":  24
+                       },
+                       {
+                           "structure":  "create_structures_arise:createdesertwell",
+                           "weight":  33
+                       },
+                       {
+                           "structure":  "create_structures_arise:createfluidtank",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "create_structures_arise:createlittleman",
+                           "weight":  24
+                       },
+                       {
+                           "structure":  "create_structures_arise:createoldruine",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "create_structures_arise:createwitchhut",
+                           "weight":  55
+                       },
+                       {
+                           "structure":  "create_structures_arise:honey_pit",
+                           "weight":  20
+                       },
+                       {
+                           "structure":  "create_structures_arise:minetrain",
+                           "weight":  35
+                       },
+                       {
                            "structure":  "explorify:badlands_pyramid",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "explorify:campsite",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "explorify:dark_forest_settlement",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "explorify:desert_shrine",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "explorify:guide_post_cold",
-                           "weight":  4
+                           "weight":  127
                        },
                        {
                            "structure":  "explorify:guide_post_warm",
-                           "weight":  4
+                           "weight":  127
                        },
                        {
                            "structure":  "explorify:mangrove_hut",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "explorify:supply_cache/birch",
-                           "weight":  3
+                           "weight":  36
                        },
                        {
                            "structure":  "explorify:supply_cache/dark",
-                           "weight":  6
+                           "weight":  83
                        },
                        {
                            "structure":  "explorify:supply_cache/desert",
-                           "weight":  1
+                           "weight":  36
                        },
                        {
                            "structure":  "explorify:supply_cache/forest",
-                           "weight":  2
+                           "weight":  36
                        },
                        {
                            "structure":  "explorify:supply_cache/jungle",
-                           "weight":  7
+                           "weight":  81
                        },
                        {
                            "structure":  "explorify:supply_cache/mangrove",
-                           "weight":  5
+                           "weight":  65
                        },
                        {
                            "structure":  "explorify:supply_cache/taiga",
-                           "weight":  2
+                           "weight":  36
                        },
                        {
                            "structure":  "farmers_structures:cooks_moss",
-                           "weight":  37
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:acacia_log_pile",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:acacia_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:acacia_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:barn",
-                           "weight":  10
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:bench",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:birch_log_pile",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:birch_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:birch_well",
-                           "weight":  2
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:blue_stall",
-                           "weight":  2
+                           "weight":  84
                        },
                        {
                            "structure":  "mvs:cherry_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dark_oak_log_pile",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dark_oak_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dark_oak_well",
-                           "weight":  6
+                           "weight":  83
                        },
                        {
                            "structure":  "mvs:dead_tree_acacia",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dead_tree_birch",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dead_tree_cherry",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dead_tree_dark_oak",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dead_tree_jungle",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dead_tree_mangrove",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dead_tree_oak",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:dead_tree_spruce",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:desert_pump",
-                           "weight":  9
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:desert_well",
-                           "weight":  1
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "mvs:duck",
+                           "weight":  39
                        },
                        {
                            "structure":  "mvs:fire_camp",
-                           "weight":  9
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:haystack",
-                           "weight":  37
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:horse_campsite",
-                           "weight":  26
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:jungle_log_pile",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:jungle_palm_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:jungle_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:jungle_well",
-                           "weight":  1
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "mvs:large_mushroom",
+                           "weight":  36
                        },
                        {
                            "structure":  "mvs:medium_bamboo_cart",
-                           "weight":  66
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:medium_igloo_1",
-                           "weight":  13
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:medium_igloo_2",
-                           "weight":  10
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:medium_oak_lantern",
-                           "weight":  12
+                           "weight":  200
+                       },
+                       {
+                           "structure":  "mvs:mushroom_statue",
+                           "weight":  41
+                       },
+                       {
+                           "structure":  "mvs:mushroom_well",
+                           "weight":  49
                        },
                        {
                            "structure":  "mvs:oak_log_pile",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:oak_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:oak_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:orange_stall",
-                           "weight":  2
+                           "weight":  84
                        },
                        {
                            "structure":  "mvs:pile",
-                           "weight":  57
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:pink_stall",
-                           "weight":  2
+                           "weight":  84
                        },
                        {
                            "structure":  "mvs:rare_well",
-                           "weight":  1
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "mvs:rare_well",
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:red_stall",
-                           "weight":  2
+                           "weight":  84
                        },
                        {
                            "structure":  "mvs:rocky_well",
-                           "weight":  1
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "mvs:ruined_beacon",
+                           "weight":  61
                        },
                        {
                            "structure":  "mvs:small_acacia_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_bamboo_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_birch_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_campfire_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_cherry_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_copper_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:small_dark_oak_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_igloo",
-                           "weight":  10
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_jungle_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_mangrove_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_oak_lantern",
-                           "weight":  17
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_spruce_lantern",
-                           "weight":  17
+                           "weight":  200
+                       },
+                       {
+                           "structure":  "mvs:small_swamp_house",
+                           "weight":  57
                        },
                        {
                            "structure":  "mvs:small_tower_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:small_tower_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:small_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:snowy_dog_hut",
-                           "weight":  12
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:snowy_fossil",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:snowy_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:spruce_log_pile",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:spruce_tree",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:spruce_well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:stone_rock",
-                           "weight":  29
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:well",
-                           "weight":  1
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:wheat_grain_bin",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:windmill",
-                           "weight":  14
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:wooden_wheat_farm",
-                           "weight":  14
+                           "weight":  200
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_bee_keeper",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_bridge_remnant",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_medium_remnant",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_medium_remnant_2",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_ominous_shop",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_woodland_hud",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "philipsruins:ancient_crypt",
+                           "weight":  54
+                       },
+                       {
+                           "structure":  "philipsruins:field_stone_ruins",
+                           "weight":  61
+                       },
+                       {
+                           "structure":  "philipsruins:level_one_ruins",
+                           "weight":  61
+                       },
+                       {
+                           "structure":  "philipsruins:level_two_ruins",
+                           "weight":  27
+                       },
+                       {
+                           "structure":  "philipsruins:level_two_ruins_pool",
+                           "weight":  27
                        }
                    ],
     "placement":  {

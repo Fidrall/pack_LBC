@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:shed",
+    "structure_sets":  "create_structures_arise:createlittleman",
     "structures":  [
-                       "mvs:shed"
+                       "create_structures_arise:createlittleman"
                    ]
 }

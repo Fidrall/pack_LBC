@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:nether_tower",
+    "structure_sets":  "mns:grave_yard",
     "structures":  [
-                       "mns:nether_tower"
+                       "mns:grave_yard"
                    ]
 }

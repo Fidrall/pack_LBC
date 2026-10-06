@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:bridge_3",
+    "structure_sets":  "mns:nether_tower",
     "structures":  [
-                       "mns:bridge_3"
+                       "mns:nether_tower"
                    ]
 }

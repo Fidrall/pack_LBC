@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:paths",
+    "structure_sets":  "create_structures_arise:createcontainer",
     "structures":  [
-                       "mvs:paths"
+                       "create_structures_arise:createcontainer"
                    ]
 }

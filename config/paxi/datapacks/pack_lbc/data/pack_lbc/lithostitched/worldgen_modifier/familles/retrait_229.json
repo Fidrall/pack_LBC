@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:bench",
+    "structure_sets":  "mvs:dead_tree_dark_oak",
     "structures":  [
-                       "mvs:bench"
+                       "mvs:dead_tree_dark_oak"
                    ]
 }

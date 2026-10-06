@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:copper_tower",
+    "structure_sets":  "farmers_structures:cooks_nether_2_with_all",
     "structures":  [
-                       "mns:copper_tower"
+                       "farmers_structures:cooks_nether_2"
                    ]
 }

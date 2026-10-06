@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:tree_monument",
+    "structure_sets":  "mvs:mud_brick_house_1",
     "structures":  [
-                       "mvs:tree_monument"
+                       "mvs:mud_brick_house_1"
                    ]
 }

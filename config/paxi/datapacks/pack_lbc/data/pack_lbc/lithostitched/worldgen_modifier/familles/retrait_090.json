@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:firewell",
+    "structure_sets":  "create_structures_arise:pillagersteampunkairship",
     "structures":  [
-                       "born_in_chaos_v1:firewell"
+                       "create_structures_arise:pillagersteampunkairship"
                    ]
 }

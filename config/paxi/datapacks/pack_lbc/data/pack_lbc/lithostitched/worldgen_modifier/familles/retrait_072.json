@@ -1,7 +1,8 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:ruined_portal",
+    "structure_sets":  "mns:shrine",
     "structures":  [
-                       "mns:ruined_portal"
+                       "mns:shrine",
+                       "mns:smoking_shrine"
                    ]
 }

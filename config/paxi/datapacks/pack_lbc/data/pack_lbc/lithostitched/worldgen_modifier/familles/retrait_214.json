@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:ancient_towers",
+    "structure_sets":  "farmers_structures:cooks_moss_with_all",
     "structures":  [
-                       "philipsruins:ancient_towers"
+                       "farmers_structures:cooks_moss"
                    ]
 }

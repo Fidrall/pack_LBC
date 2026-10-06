@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:dead_tree_mangrove",
+    "structure_sets":  "mvs:jungle_tree",
     "structures":  [
-                       "mvs:dead_tree_mangrove"
+                       "mvs:jungle_tree"
                    ]
 }

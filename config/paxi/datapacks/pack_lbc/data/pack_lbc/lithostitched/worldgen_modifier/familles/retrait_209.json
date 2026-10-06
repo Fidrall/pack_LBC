@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:sunzi_gate",
+    "structure_sets":  "explorify:dark_forest_settlements",
     "structures":  [
-                       "mvs:sunzi_gate"
+                       "explorify:dark_forest_settlement"
                    ]
 }

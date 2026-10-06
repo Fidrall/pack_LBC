@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:large_house_1",
+    "structure_sets":  "mns:warped_house",
     "structures":  [
-                       "mns:large_house_1"
+                       "mns:warped_house"
                    ]
 }

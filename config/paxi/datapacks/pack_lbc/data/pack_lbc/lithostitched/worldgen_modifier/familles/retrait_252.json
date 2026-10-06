@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:medium_igloo_1",
+    "structure_sets":  "mvs:rare_well",
     "structures":  [
-                       "mvs:medium_igloo_1"
+                       "mvs:rare_well"
                    ]
 }

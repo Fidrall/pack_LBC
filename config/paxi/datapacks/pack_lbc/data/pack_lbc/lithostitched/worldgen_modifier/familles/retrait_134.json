@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "farmers_structures:aquacultures_cod_with_all",
+    "structure_sets":  "mvs:diorite_and_deepslate_house",
     "structures":  [
-                       "farmers_structures:aquacultures_cod"
+                       "mvs:diorite_and_deepslate_house"
                    ]
 }

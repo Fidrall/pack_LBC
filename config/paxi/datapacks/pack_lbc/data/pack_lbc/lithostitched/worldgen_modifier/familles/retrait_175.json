@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:campsite",
+    "structure_sets":  "philipsruins:rare_ruin",
     "structures":  [
-                       "mvs:campsite"
+                       "philipsruins:rare_ruin"
                    ]
 }

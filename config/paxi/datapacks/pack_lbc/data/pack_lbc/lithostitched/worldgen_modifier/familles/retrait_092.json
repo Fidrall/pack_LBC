@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:grave_2003wise",
+    "structure_sets":  "create_structures_arise:windmill",
     "structures":  [
-                       "born_in_chaos_v1:grave_2003wise"
+                       "create_structures_arise:windmill"
                    ]
 }

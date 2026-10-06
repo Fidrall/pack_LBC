@@ -1,7 +1,9 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:create_ruined_castle",
+    "structure_sets":  "explorify:watchtowers",
     "structures":  [
-                       "create_structures_arise:create_ruined_castle"
+                       "explorify:watchtower/plains",
+                       "explorify:watchtower/savanna",
+                       "explorify:watchtower/taiga"
                    ]
 }

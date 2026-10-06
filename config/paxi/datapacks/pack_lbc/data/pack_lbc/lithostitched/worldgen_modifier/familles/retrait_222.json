@@ -1,7 +1,10 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:mangrove_huts",
+    "structure_sets":  "mvs:stalls",
     "structures":  [
-                       "explorify:mangrove_hut"
+                       "mvs:blue_stall",
+                       "mvs:orange_stall",
+                       "mvs:pink_stall",
+                       "mvs:red_stall"
                    ]
 }

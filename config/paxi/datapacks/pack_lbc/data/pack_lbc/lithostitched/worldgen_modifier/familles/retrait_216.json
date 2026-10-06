@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:pumpkin_ruins",
+    "structure_sets":  "mvs:acacia_tree",
     "structures":  [
-                       "philipsruins:pumpkin_ruins"
+                       "mvs:acacia_tree"
                    ]
 }

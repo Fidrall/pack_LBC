@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "farmers_structures:cacaos_with_all",
+    "structure_sets":  "mvs:diorite_tower",
     "structures":  [
-                       "farmers_structures:cacaos"
+                       "mvs:diorite_tower"
                    ]
 }

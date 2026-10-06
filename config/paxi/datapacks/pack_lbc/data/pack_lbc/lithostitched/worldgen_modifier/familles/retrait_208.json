@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:stone_pillars",
+    "structure_sets":  "explorify:campsites",
     "structures":  [
-                       "mvs:stone_pillars"
+                       "explorify:campsite"
                    ]
 }

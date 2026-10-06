@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:log_ruin",
+    "structure_sets":  "born_in_chaos_v1:grave_somfunambulist",
     "structures":  [
-                       "mvs:log_ruin"
+                       "born_in_chaos_v1:grave_somfunambulist"
                    ]
 }

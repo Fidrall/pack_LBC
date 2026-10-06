@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:jungle_tower",
+    "structure_sets":  "mvs:lamp_chest",
     "structures":  [
-                       "mvs:jungle_tower"
+                       "mvs:lamp_chest"
                    ]
 }

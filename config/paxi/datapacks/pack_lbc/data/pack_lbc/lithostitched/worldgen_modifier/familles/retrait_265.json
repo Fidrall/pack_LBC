@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:small_jungle_lantern",
+    "structure_sets":  "mvs:small_swamp_house",
     "structures":  [
-                       "mvs:small_jungle_lantern"
+                       "mvs:small_swamp_house"
                    ]
 }

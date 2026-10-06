@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createpickaxestatue",
+    "structure_sets":  "mvs:big_oak_tree",
     "structures":  [
-                       "create_structures_arise:createpickaxestatue"
+                       "mvs:big_oak_tree"
                    ]
 }

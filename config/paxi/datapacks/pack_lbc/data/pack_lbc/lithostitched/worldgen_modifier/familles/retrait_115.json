@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createcontainer",
+    "structure_sets":  "farmers_structures:aquacultures_cod_with_all",
     "structures":  [
-                       "create_structures_arise:createcontainer"
+                       "farmers_structures:aquacultures_cod"
                    ]
 }

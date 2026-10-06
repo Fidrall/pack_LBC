@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:warped_house",
+    "structure_sets":  "explorify:mangrove_huts",
     "structures":  [
-                       "mvs:warped_house"
+                       "explorify:mangrove_hut"
                    ]
 }

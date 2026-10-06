@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:bridge_5",
+    "structure_sets":  "create_structures_arise:obsidiantemple",
     "structures":  [
-                       "mns:bridge_5"
+                       "create_structures_arise:obsidiantemple"
                    ]
 }

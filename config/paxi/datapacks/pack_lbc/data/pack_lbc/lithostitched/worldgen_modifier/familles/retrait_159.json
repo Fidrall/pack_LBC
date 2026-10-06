@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:infernal_pumpkin",
+    "structure_sets":  "mvs:small_oak_pond",
     "structures":  [
-                       "born_in_chaos_v1:infernal_pumpkin"
+                       "mvs:small_oak_pond"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createmonsterroom",
+    "structure_sets":  "mvs:beach_bar",
     "structures":  [
-                       "create_structures_arise:createmonsterroom"
+                       "mvs:beach_bar"
                    ]
 }

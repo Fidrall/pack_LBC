@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:medium_igloo_2",
+    "structure_sets":  "mvs:ruined_beacon",
     "structures":  [
-                       "mvs:medium_igloo_2"
+                       "mvs:ruined_beacon"
                    ]
 }

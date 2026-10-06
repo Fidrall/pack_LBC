@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:crimson_enchanting_table",
+    "structure_sets":  "mns:medium_house",
     "structures":  [
-                       "mvs:crimson_enchanting_table"
+                       "mns:medium_house"
                    ]
 }

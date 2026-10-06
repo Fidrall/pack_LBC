@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:mine_with_campsite",
+    "structure_sets":  "born_in_chaos_v1:grave_tem_187",
     "structures":  [
-                       "mvs:mine_with_campsite"
+                       "born_in_chaos_v1:grave_tem_187"
                    ]
 }

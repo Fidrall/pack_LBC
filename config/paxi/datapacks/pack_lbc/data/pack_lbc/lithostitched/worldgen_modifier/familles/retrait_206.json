@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:statue_ruins",
+    "structure_sets":  "create_structures_arise:minetrain",
     "structures":  [
-                       "mvs:statue_ruins"
+                       "create_structures_arise:minetrain"
                    ]
 }

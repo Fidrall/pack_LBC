@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:sandy_skull",
+    "structure_sets":  "farmers_structures:cooks_nether_1_with_all",
     "structures":  [
-                       "mns:sandy_skull"
+                       "farmers_structures:cooks_nether_1"
                    ]
 }

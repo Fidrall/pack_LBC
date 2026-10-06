@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:grave_2_dling",
+    "structure_sets":  "create_structures_arise:towerofochrum",
     "structures":  [
-                       "born_in_chaos_v1:grave_2_dling"
+                       "create_structures_arise:towerofochrum"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:duck",
+    "structure_sets":  "mvs:horse_pen",
     "structures":  [
-                       "mvs:duck"
+                       "mvs:horse_pen"
                    ]
 }

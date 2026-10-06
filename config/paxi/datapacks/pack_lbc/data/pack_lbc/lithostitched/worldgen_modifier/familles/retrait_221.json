@@ -1,8 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:guide_posts",
+    "structure_sets":  "mvs:birch_tree",
     "structures":  [
-                       "explorify:guide_post_cold",
-                       "explorify:guide_post_warm"
+                       "mvs:birch_tree"
                    ]
 }

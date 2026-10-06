@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:out_house",
+    "structure_sets":  "create_structures_arise:chocolate_pit",
     "structures":  [
-                       "mvs:out_house"
+                       "create_structures_arise:chocolate_pit"
                    ]
 }

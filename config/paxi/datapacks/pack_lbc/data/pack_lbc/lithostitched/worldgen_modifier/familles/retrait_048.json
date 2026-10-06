@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:lava_pool",
+    "structure_sets":  "mns:warped_pool",
     "structures":  [
-                       "mns:lava_pool"
+                       "mns:warped_pool"
                    ]
 }

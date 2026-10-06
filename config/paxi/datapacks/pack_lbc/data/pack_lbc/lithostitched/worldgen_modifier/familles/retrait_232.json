@@ -1,10 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:stalls",
+    "structure_sets":  "mvs:dead_tree_oak",
     "structures":  [
-                       "mvs:blue_stall",
-                       "mvs:orange_stall",
-                       "mvs:pink_stall",
-                       "mvs:red_stall"
+                       "mvs:dead_tree_oak"
                    ]
 }

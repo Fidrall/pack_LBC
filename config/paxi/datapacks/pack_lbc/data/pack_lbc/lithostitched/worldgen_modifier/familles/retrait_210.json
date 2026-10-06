@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:tall_house",
+    "structure_sets":  "explorify:desert_shrines",
     "structures":  [
-                       "mvs:tall_house"
+                       "explorify:desert_shrine"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:fox_hut",
+    "structure_sets":  "born_in_chaos_v1:grave_euthymia",
     "structures":  [
-                       "mvs:fox_hut"
+                       "born_in_chaos_v1:grave_euthymia"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:mud_brick_house_1",
+    "structure_sets":  "born_in_chaos_v1:grave_the_gentleman_frog",
     "structures":  [
-                       "mvs:mud_brick_house_1"
+                       "born_in_chaos_v1:grave_the_gentleman_frog"
                    ]
 }

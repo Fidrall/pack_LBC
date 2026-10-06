@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:big_oak_tree",
+    "structure_sets":  "philipsruins:level_three_ruins",
     "structures":  [
-                       "mvs:big_oak_tree"
+                       "philipsruins:level_three_ruins"
                    ]
 }

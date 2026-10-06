@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:small_nether_brick",
+    "structure_sets":  "mns:soul_fire",
     "structures":  [
-                       "mns:small_nether_brick"
+                       "mns:soul_fire"
                    ]
 }

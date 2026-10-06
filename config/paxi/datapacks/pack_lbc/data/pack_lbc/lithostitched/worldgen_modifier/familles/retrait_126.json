@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createwitchhut",
+    "structure_sets":  "mvs:boulder",
     "structures":  [
-                       "create_structures_arise:createwitchhut"
+                       "mvs:boulder"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:red_tower",
+    "structure_sets":  "mvs:lil_house",
     "structures":  [
-                       "mvs:red_tower"
+                       "mvs:lil_house"
                    ]
 }

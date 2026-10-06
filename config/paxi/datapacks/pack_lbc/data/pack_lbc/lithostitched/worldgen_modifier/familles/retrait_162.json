@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:mausoleums",
+    "structure_sets":  "mvs:statue_ruins",
     "structures":  [
-                       "explorify:mausoleum"
+                       "mvs:statue_ruins"
                    ]
 }

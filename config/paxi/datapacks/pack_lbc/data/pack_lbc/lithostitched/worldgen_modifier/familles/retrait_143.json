@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:large_floating_island",
+    "structure_sets":  "mvs:large_cart_1",
     "structures":  [
-                       "mvs:large_floating_island"
+                       "mvs:large_cart_1"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:prismarine_house_2",
+    "structure_sets":  "create_structures_arise:createdesertwell",
     "structures":  [
-                       "mvs:prismarine_house_2"
+                       "create_structures_arise:createdesertwell"
                    ]
 }

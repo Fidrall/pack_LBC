@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:lost_soul_city",
+    "structure_sets":  "create_structures_arise:create_dungeon_base",
     "structures":  [
-                       "philipsruins:lost_soul_city"
+                       "create_structures_arise:create_dungeon_base"
                    ]
 }

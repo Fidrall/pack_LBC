@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:mushroom_statue",
+    "structure_sets":  "mvs:large_floating_island",
     "structures":  [
-                       "mvs:mushroom_statue"
+                       "mvs:large_floating_island"
                    ]
 }

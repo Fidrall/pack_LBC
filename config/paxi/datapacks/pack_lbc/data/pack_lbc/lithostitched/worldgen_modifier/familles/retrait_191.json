@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:lecturn_garden",
+    "structure_sets":  "born_in_chaos_v1:grave_plug",
     "structures":  [
-                       "mvs:lecturn_garden"
+                       "born_in_chaos_v1:grave_plug"
                    ]
 }

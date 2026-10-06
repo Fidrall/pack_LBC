@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createairdrop",
+    "structure_sets":  "farmers_structures:aquacultures_beach_with_all",
     "structures":  [
-                       "create_structures_arise:createairdrop"
+                       "farmers_structures:aquacultures_beach"
                    ]
 }

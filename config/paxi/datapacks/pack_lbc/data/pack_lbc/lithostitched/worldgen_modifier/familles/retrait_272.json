@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:spruce_log_pile",
+    "structure_sets":  "mvs:wheat_grain_bin",
     "structures":  [
-                       "mvs:spruce_log_pile"
+                       "mvs:wheat_grain_bin"
                    ]
 }

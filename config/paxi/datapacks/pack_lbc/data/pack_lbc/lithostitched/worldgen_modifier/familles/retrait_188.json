@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:large_cart_1",
+    "structure_sets":  "born_in_chaos_v1:grave_nino_4416",
     "structures":  [
-                       "mvs:large_cart_1"
+                       "born_in_chaos_v1:grave_nino_4416"
                    ]
 }

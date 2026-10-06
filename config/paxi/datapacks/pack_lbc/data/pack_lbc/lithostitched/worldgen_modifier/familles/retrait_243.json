@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:dead_tree_spruce",
+    "structure_sets":  "mvs:medium_bamboo_cart",
     "structures":  [
-                       "mvs:dead_tree_spruce"
+                       "mvs:medium_bamboo_cart"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:crystal",
+    "structure_sets":  "mvs:gallows",
     "structures":  [
-                       "mvs:crystal"
+                       "mvs:gallows"
                    ]
 }

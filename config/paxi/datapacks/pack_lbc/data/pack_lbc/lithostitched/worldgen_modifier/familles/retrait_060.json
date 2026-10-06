@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:circle_nether_brick",
+    "structure_sets":  "mns:crimson_forge",
     "structures":  [
-                       "mns:circle_nether_brick"
+                       "mns:crimson_forge"
                    ]
 }

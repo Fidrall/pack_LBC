@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:ancient_crypt",
+    "structure_sets":  "mvs:mushroom_pond",
     "structures":  [
-                       "philipsruins:ancient_crypt"
+                       "mvs:mushroom_pond"
                    ]
 }

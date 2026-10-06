@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:grave_mike_and_rory",
+    "structure_sets":  "born_in_chaos_v1:clown_caravan_taiga",
     "structures":  [
-                       "born_in_chaos_v1:grave_mike_and_rory"
+                       "born_in_chaos_v1:clown_caravan_taiga"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createlittleman",
+    "structure_sets":  "farmers_structures:shepherd_farms_with_all",
     "structures":  [
-                       "create_structures_arise:createlittleman"
+                       "farmers_structures:shepherd_farms"
                    ]
 }

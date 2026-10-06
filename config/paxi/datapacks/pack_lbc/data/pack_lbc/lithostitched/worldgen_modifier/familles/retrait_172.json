@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:bee_dome",
+    "structure_sets":  "philipsruins:field_stone_ruins_rocks",
     "structures":  [
-                       "mvs:bee_dome"
+                       "philipsruins:field_stone_ruins_rocks"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:bridge_6",
+    "structure_sets":  "explorify:black_spirals",
     "structures":  [
-                       "mns:bridge_6"
+                       "explorify:black_spiral"
                    ]
 }

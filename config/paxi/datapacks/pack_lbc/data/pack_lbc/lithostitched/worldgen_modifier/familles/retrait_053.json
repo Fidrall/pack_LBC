@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:warped_dome",
+    "structure_sets":  "mns:bridge_2",
     "structures":  [
-                       "mns:warped_dome"
+                       "mns:bridge_2"
                    ]
 }

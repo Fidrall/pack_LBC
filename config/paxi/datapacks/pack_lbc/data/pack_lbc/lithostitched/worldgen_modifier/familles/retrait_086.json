@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:dark_tower_forest",
+    "structure_sets":  "born_in_chaos_v1:observation_tower_forest",
     "structures":  [
-                       "born_in_chaos_v1:dark_tower_forest"
+                       "born_in_chaos_v1:observation_tower_forest"
                    ]
 }

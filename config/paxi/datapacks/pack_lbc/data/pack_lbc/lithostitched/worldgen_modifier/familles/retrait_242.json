@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:dead_tree_oak",
+    "structure_sets":  "mvs:large_mushroom",
     "structures":  [
-                       "mvs:dead_tree_oak"
+                       "mvs:large_mushroom"
                    ]
 }

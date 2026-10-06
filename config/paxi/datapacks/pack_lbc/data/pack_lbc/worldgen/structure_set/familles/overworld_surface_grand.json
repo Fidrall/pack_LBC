@@ -1,308 +1,76 @@
 {
     "structures":  [
                        {
-                           "structure":  "born_in_chaos_v1:clown_caravan_plains",
-                           "weight":  36
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:clown_caravan_savanna",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:clown_caravan_taiga",
-                           "weight":  20
-                       },
-                       {
                            "structure":  "born_in_chaos_v1:dark_tower_forest",
-                           "weight":  23
+                           "weight":  61
                        },
                        {
                            "structure":  "born_in_chaos_v1:dark_tower_plain",
-                           "weight":  18
+                           "weight":  48
                        },
                        {
                            "structure":  "born_in_chaos_v1:dark_tower_taiga",
-                           "weight":  23
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:farm",
-                           "weight":  31
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:firewell",
-                           "weight":  31
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_2_dling",
-                           "weight":  14
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_2003wise",
-                           "weight":  36
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_darktitan",
-                           "weight":  12
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_derivas",
-                           "weight":  27
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_euthymia",
-                           "weight":  36
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_feral",
-                           "weight":  28
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_fubuki_banzai",
-                           "weight":  18
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_memesus",
-                           "weight":  13
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_mike_and_rory",
-                           "weight":  27
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_nino_4416",
-                           "weight":  19
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_orion",
-                           "weight":  13
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_petasi",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_plug",
-                           "weight":  36
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_rotborne",
-                           "weight":  27
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_somfunambulist",
-                           "weight":  27
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_tem_187",
-                           "weight":  13
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:grave_the_gentleman_frog",
-                           "weight":  31
-                       },
-                       {
-                           "structure":  "born_in_chaos_v1:gravecarrionexe",
-                           "weight":  28
+                           "weight":  61
                        },
                        {
                            "structure":  "born_in_chaos_v1:observation_tower_forest",
-                           "weight":  31
+                           "weight":  82
                        },
                        {
                            "structure":  "born_in_chaos_v1:observation_tower_plains",
-                           "weight":  36
-                       },
-                       {
-                           "structure":  "create_structures_arise:chocolate_pit",
-                           "weight":  8
-                       },
-                       {
-                           "structure":  "create_structures_arise:create_copper_statue",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "create_structures_arise:create_ruined_castle",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "create_structures_arise:createairdrop",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "create_structures_arise:createcontainer",
-                           "weight":  9
-                       },
-                       {
-                           "structure":  "create_structures_arise:createcushercrane",
-                           "weight":  9
-                       },
-                       {
-                           "structure":  "create_structures_arise:createdesertwell",
-                           "weight":  14
-                       },
-                       {
-                           "structure":  "create_structures_arise:createfluidtank",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "create_structures_arise:createhouse",
-                           "weight":  9
-                       },
-                       {
-                           "structure":  "create_structures_arise:createlittleman",
-                           "weight":  9
-                       },
-                       {
-                           "structure":  "create_structures_arise:createlosttrainstation",
-                           "weight":  16
+                           "weight":  10
                        },
                        {
                            "structure":  "create_structures_arise:createminiskyvillage",
-                           "weight":  9
-                       },
-                       {
-                           "structure":  "create_structures_arise:createmonsterroom",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "create_structures_arise:createoldruine",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "create_structures_arise:createpickaxestatue",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "create_structures_arise:createwitchhut",
-                           "weight":  19
+                           "weight":  24
                        },
                        {
                            "structure":  "create_structures_arise:crimsite_tower",
-                           "weight":  6
-                       },
-                       {
-                           "structure":  "create_structures_arise:honey_pit",
-                           "weight":  8
-                       },
-                       {
-                           "structure":  "create_structures_arise:minetrain",
-                           "weight":  13
+                           "weight":  15
                        },
                        {
                            "structure":  "create_structures_arise:pillagersteampunkairship",
-                           "weight":  6
+                           "weight":  15
                        },
                        {
                            "structure":  "create_structures_arise:towerofochrum",
-                           "weight":  4
+                           "weight":  11
                        },
                        {
                            "structure":  "create_structures_arise:windmill",
-                           "weight":  16
-                       },
-                       {
-                           "structure":  "farmers_structures:aquacultures_beach",
-                           "weight":  31
-                       },
-                       {
-                           "structure":  "farmers_structures:aquacultures_cod",
-                           "weight":  21
-                       },
-                       {
-                           "structure":  "farmers_structures:cacaos",
-                           "weight":  31
-                       },
-                       {
-                           "structure":  "farmers_structures:shepherd_farms",
-                           "weight":  7
-                       },
-                       {
-                           "structure":  "mvs:cartographer_tower",
-                           "weight":  19
+                           "weight":  43
                        },
                        {
                            "structure":  "mvs:cathedral",
-                           "weight":  12
-                       },
-                       {
-                           "structure":  "mvs:crystal",
-                           "weight":  10
-                       },
-                       {
-                           "structure":  "mvs:duck",
-                           "weight":  15
-                       },
-                       {
-                           "structure":  "mvs:floating_islands",
-                           "weight":  7
+                           "weight":  31
                        },
                        {
                            "structure":  "mvs:jungle_tower",
-                           "weight":  14
-                       },
-                       {
-                           "structure":  "mvs:large_floating_island",
-                           "weight":  10
-                       },
-                       {
-                           "structure":  "mvs:large_mushroom",
-                           "weight":  13
-                       },
-                       {
-                           "structure":  "mvs:mushroom_statue",
-                           "weight":  15
-                       },
-                       {
-                           "structure":  "mvs:mushroom_well",
-                           "weight":  18
-                       },
-                       {
-                           "structure":  "mvs:rare_well",
-                           "weight":  28
+                           "weight":  38
                        },
                        {
                            "structure":  "mvs:red_tower",
-                           "weight":  22
+                           "weight":  60
                        },
                        {
-                           "structure":  "mvs:ruined_beacon",
-                           "weight":  23
+                           "structure":  "nova_structures:remnant_big_remnant",
+                           "weight":  1
                        },
                        {
-                           "structure":  "mvs:small_swamp_house",
-                           "weight":  21
+                           "structure":  "nova_structures:remnant_birch_graveyard",
+                           "weight":  1
                        },
                        {
-                           "structure":  "mvs:tree_monument",
-                           "weight":  22
+                           "structure":  "nova_structures:remnant_graveyard",
+                           "weight":  1
                        },
                        {
-                           "structure":  "philipsruins:ancient_crypt",
-                           "weight":  20
+                           "structure":  "nova_structures:remnant_school_remnant",
+                           "weight":  1
                        },
                        {
-                           "structure":  "philipsruins:field_stone_ruins",
-                           "weight":  23
-                       },
-                       {
-                           "structure":  "philipsruins:level_one_ruins",
-                           "weight":  23
-                       },
-                       {
-                           "structure":  "philipsruins:level_three_ruins",
-                           "weight":  18
-                       },
-                       {
-                           "structure":  "philipsruins:level_two_ruins",
-                           "weight":  10
-                       },
-                       {
-                           "structure":  "philipsruins:level_two_ruins_pool",
-                           "weight":  10
-                       },
-                       {
-                           "structure":  "philipsruins:rare_ruin",
-                           "weight":  12
+                           "structure":  "nova_structures:remnant_taiga_castle",
+                           "weight":  1
                        }
                    ],
     "placement":  {

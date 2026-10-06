@@ -1,9 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:watchtowers",
+    "structure_sets":  "mvs:sunzi_gate",
     "structures":  [
-                       "explorify:watchtower/plains",
-                       "explorify:watchtower/savanna",
-                       "explorify:watchtower/taiga"
+                       "mvs:sunzi_gate"
                    ]
 }

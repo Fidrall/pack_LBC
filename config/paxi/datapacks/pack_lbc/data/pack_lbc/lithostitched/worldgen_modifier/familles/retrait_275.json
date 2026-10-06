@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:wheat_grain_bin",
+    "structure_sets":  "philipsruins:ancient_crypt",
     "structures":  [
-                       "mvs:wheat_grain_bin"
+                       "philipsruins:ancient_crypt"
                    ]
 }

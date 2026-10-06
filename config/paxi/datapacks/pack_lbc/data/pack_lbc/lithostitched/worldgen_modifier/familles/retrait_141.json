@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:floating_islands",
+    "structure_sets":  "mvs:house",
     "structures":  [
-                       "mvs:floating_islands"
+                       "mvs:house"
                    ]
 }

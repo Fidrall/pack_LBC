@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:ruins",
+    "structure_sets":  "mvs:stone_fountain",
     "structures":  [
-                       "explorify:ruins"
+                       "mvs:stone_fountain"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:oak_log_pile",
+    "structure_sets":  "mvs:small_bamboo_lantern",
     "structures":  [
-                       "mvs:oak_log_pile"
+                       "mvs:small_bamboo_lantern"
                    ]
 }

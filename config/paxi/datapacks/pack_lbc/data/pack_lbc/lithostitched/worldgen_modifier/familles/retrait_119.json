@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createhouse",
+    "structure_sets":  "farmers_structures:fishs_stew_with_all",
     "structures":  [
-                       "create_structures_arise:createhouse"
+                       "farmers_structures:fishs_stew"
                    ]
 }

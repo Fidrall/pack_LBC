@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:lil_house",
+    "structure_sets":  "born_in_chaos_v1:grave_rotborne",
     "structures":  [
-                       "mvs:lil_house"
+                       "born_in_chaos_v1:grave_rotborne"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:rare_well",
+    "structure_sets":  "mvs:lecturn_garden",
     "structures":  [
-                       "mvs:rare_well"
+                       "mvs:lecturn_garden"
                    ]
 }

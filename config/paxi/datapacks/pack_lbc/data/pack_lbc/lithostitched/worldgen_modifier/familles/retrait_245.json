@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:fire_camp",
+    "structure_sets":  "mvs:medium_igloo_2",
     "structures":  [
-                       "mvs:fire_camp"
+                       "mvs:medium_igloo_2"
                    ]
 }

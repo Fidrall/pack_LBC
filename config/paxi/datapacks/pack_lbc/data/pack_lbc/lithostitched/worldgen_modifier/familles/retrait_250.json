@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:jungle_tree",
+    "structure_sets":  "mvs:oak_tree",
     "structures":  [
-                       "mvs:jungle_tree"
+                       "mvs:oak_tree"
                    ]
 }

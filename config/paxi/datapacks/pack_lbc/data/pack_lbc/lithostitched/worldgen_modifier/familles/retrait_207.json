@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:stone_fountain",
+    "structure_sets":  "explorify:badlands_pyramids",
     "structures":  [
-                       "mvs:stone_fountain"
+                       "explorify:badlands_pyramid"
                    ]
 }

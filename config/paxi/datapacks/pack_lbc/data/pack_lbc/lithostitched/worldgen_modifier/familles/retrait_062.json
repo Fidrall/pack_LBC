@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:crimson_lava_well",
+    "structure_sets":  "mns:large_blackstone_pillars",
     "structures":  [
-                       "mns:crimson_lava_well"
+                       "mns:large_blackstone_pillars"
                    ]
 }

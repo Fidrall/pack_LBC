@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "farmers_structures:fishs_stew_with_all",
+    "structure_sets":  "mvs:villager_statue",
     "structures":  [
-                       "farmers_structures:fishs_stew"
+                       "mvs:villager_statue"
                    ]
 }

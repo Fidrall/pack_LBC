@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:dark_oak_tree",
+    "structure_sets":  "mvs:duck",
     "structures":  [
-                       "mvs:dark_oak_tree"
+                       "mvs:duck"
                    ]
 }

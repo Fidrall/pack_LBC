@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:oak_tree",
+    "structure_sets":  "mvs:small_birch_lantern",
     "structures":  [
-                       "mvs:oak_tree"
+                       "mvs:small_birch_lantern"
                    ]
 }

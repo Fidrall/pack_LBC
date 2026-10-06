@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:haystack",
+    "structure_sets":  "mvs:medium_oak_lantern",
     "structures":  [
-                       "mvs:haystack"
+                       "mvs:medium_oak_lantern"
                    ]
 }

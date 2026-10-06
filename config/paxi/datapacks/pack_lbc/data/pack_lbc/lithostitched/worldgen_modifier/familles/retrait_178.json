@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:deepslate_house",
+    "structure_sets":  "born_in_chaos_v1:grave_2_dling",
     "structures":  [
-                       "mvs:deepslate_house"
+                       "born_in_chaos_v1:grave_2_dling"
                    ]
 }

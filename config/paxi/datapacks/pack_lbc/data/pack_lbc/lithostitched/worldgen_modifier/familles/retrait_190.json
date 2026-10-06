@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:large_warped_tower",
+    "structure_sets":  "born_in_chaos_v1:grave_petasi",
     "structures":  [
-                       "mvs:large_warped_tower"
+                       "born_in_chaos_v1:grave_petasi"
                    ]
 }

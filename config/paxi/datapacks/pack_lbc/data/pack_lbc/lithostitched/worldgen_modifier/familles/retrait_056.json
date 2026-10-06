@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:nether_devil",
+    "structure_sets":  "mns:bridge_5",
     "structures":  [
-                       "mvs:nether_devil"
+                       "mns:bridge_5"
                    ]
 }

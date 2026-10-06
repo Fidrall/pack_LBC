@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:large_blackstone_pillars",
+    "structure_sets":  "mns:large_blackstone_walls",
     "structures":  [
-                       "mns:large_blackstone_pillars"
+                       "mns:large_blackstone_walls"
                    ]
 }

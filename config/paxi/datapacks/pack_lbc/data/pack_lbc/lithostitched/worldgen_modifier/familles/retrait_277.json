@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:wooden_wheat_farm",
+    "structure_sets":  "philipsruins:level_one_ruins",
     "structures":  [
-                       "mvs:wooden_wheat_farm"
+                       "philipsruins:level_one_ruins"
                    ]
 }

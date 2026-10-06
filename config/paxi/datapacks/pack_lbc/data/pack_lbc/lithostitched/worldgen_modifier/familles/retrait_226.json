@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:acacia_tree",
+    "structure_sets":  "mvs:dead_tree_acacia",
     "structures":  [
-                       "mvs:acacia_tree"
+                       "mvs:dead_tree_acacia"
                    ]
 }

@@ -1,248 +1,380 @@
 {
     "structures":  [
                        {
-                           "structure":  "born_in_chaos_v1:grave_d_4rk_devil_x",
-                           "weight":  3
+                           "structure":  "born_in_chaos_v1:clown_caravan_plains",
+                           "weight":  124
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:clown_caravan_savanna",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "born_in_chaos_v1:clown_caravan_taiga",
+                           "weight":  54
                        },
                        {
                            "structure":  "born_in_chaos_v1:infernal_pumpkin",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "born_in_chaos_v1:mound_of_hounds",
-                           "weight":  4
+                           "weight":  138
+                       },
+                       {
+                           "structure":  "create_structures_arise:create_copper_statue",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "create_structures_arise:create_ruined_castle",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "create_structures_arise:createairdrop",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "create_structures_arise:createhouse",
+                           "weight":  24
+                       },
+                       {
+                           "structure":  "create_structures_arise:createlosttrainstation",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "create_structures_arise:createmonsterroom",
+                           "weight":  43
+                       },
+                       {
+                           "structure":  "create_structures_arise:createpickaxestatue",
+                           "weight":  43
                        },
                        {
                            "structure":  "explorify:farmstead",
-                           "weight":  5
+                           "weight":  191
                        },
                        {
                            "structure":  "explorify:mausoleum",
-                           "weight":  3
+                           "weight":  120
                        },
                        {
                            "structure":  "explorify:ruins",
-                           "weight":  3
+                           "weight":  120
                        },
                        {
                            "structure":  "explorify:tavern",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "explorify:watchtower/plains",
-                           "weight":  1
+                           "weight":  38
                        },
                        {
                            "structure":  "explorify:watchtower/savanna",
-                           "weight":  1
+                           "weight":  38
                        },
                        {
                            "structure":  "explorify:watchtower/taiga",
-                           "weight":  1
+                           "weight":  38
+                       },
+                       {
+                           "structure":  "farmers_structures:aquacultures_beach",
+                           "weight":  82
+                       },
+                       {
+                           "structure":  "farmers_structures:aquacultures_cod",
+                           "weight":  57
                        },
                        {
                            "structure":  "farmers_structures:aquacultures_common",
-                           "weight":  4
+                           "weight":  150
+                       },
+                       {
+                           "structure":  "farmers_structures:cacaos",
+                           "weight":  82
                        },
                        {
                            "structure":  "farmers_structures:cooks",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "farmers_structures:fishs_stew",
-                           "weight":  7
+                           "weight":  200
+                       },
+                       {
+                           "structure":  "farmers_structures:shepherd_farms",
+                           "weight":  17
                        },
                        {
                            "structure":  "farmers_structures:sushis",
-                           "weight":  3
+                           "weight":  119
                        },
                        {
                            "structure":  "mvs:azelea_house",
-                           "weight":  8
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:beach_bar",
-                           "weight":  4
+                           "weight":  150
                        },
                        {
                            "structure":  "mvs:bee_dome",
-                           "weight":  8
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:big_oak_tree",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:boulder",
-                           "weight":  8
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:campsite",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:cart",
-                           "weight":  8
+                           "weight":  200
+                       },
+                       {
+                           "structure":  "mvs:cartographer_tower",
+                           "weight":  50
                        },
                        {
                            "structure":  "mvs:castle_ruins",
-                           "weight":  5
+                           "weight":  171
+                       },
+                       {
+                           "structure":  "mvs:crystal",
+                           "weight":  28
                        },
                        {
                            "structure":  "mvs:deepslate_house",
-                           "weight":  5
+                           "weight":  196
                        },
                        {
                            "structure":  "mvs:desert_house",
-                           "weight":  4
+                           "weight":  150
                        },
                        {
                            "structure":  "mvs:diorite_and_deepslate_house",
-                           "weight":  5
+                           "weight":  179
                        },
                        {
                            "structure":  "mvs:diorite_tower",
-                           "weight":  4
+                           "weight":  138
+                       },
+                       {
+                           "structure":  "mvs:floating_islands",
+                           "weight":  20
                        },
                        {
                            "structure":  "mvs:flower_hole",
-                           "weight":  4
+                           "weight":  163
                        },
                        {
                            "structure":  "mvs:fox_hut",
-                           "weight":  4
+                           "weight":  150
                        },
                        {
                            "structure":  "mvs:gallows",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:horse_pen",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:house",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:lamp_chest",
-                           "weight":  5
+                           "weight":  171
                        },
                        {
                            "structure":  "mvs:large_cart_1",
-                           "weight":  3
+                           "weight":  110
                        },
                        {
                            "structure":  "mvs:large_cart_2",
-                           "weight":  3
+                           "weight":  110
+                       },
+                       {
+                           "structure":  "mvs:large_floating_island",
+                           "weight":  27
                        },
                        {
                            "structure":  "mvs:large_warped_tower",
-                           "weight":  4
+                           "weight":  133
                        },
                        {
                            "structure":  "mvs:lecturn_garden",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:lil_house",
-                           "weight":  8
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:log_ruin",
-                           "weight":  3
+                           "weight":  114
                        },
                        {
                            "structure":  "mvs:mine_with_campsite",
-                           "weight":  4
+                           "weight":  150
                        },
                        {
                            "structure":  "mvs:mud_brick_house_1",
-                           "weight":  4
+                           "weight":  163
                        },
                        {
                            "structure":  "mvs:mushroom_pond",
-                           "weight":  4
+                           "weight":  150
                        },
                        {
                            "structure":  "mvs:out_house",
-                           "weight":  4
+                           "weight":  150
                        },
                        {
                            "structure":  "mvs:paths",
-                           "weight":  8
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:prismarine_house_1",
-                           "weight":  5
+                           "weight":  179
                        },
                        {
                            "structure":  "mvs:prismarine_house_2",
-                           "weight":  5
+                           "weight":  179
                        },
                        {
                            "structure":  "mvs:railway",
-                           "weight":  4
+                           "weight":  163
                        },
                        {
                            "structure":  "mvs:shed",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_oak_pond",
-                           "weight":  8
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_pillager_tower",
-                           "weight":  8
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:small_ruin",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:statue_ruins",
-                           "weight":  6
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:stone_fountain",
-                           "weight":  7
+                           "weight":  200
                        },
                        {
                            "structure":  "mvs:stone_pillars",
-                           "weight":  5
+                           "weight":  196
                        },
                        {
                            "structure":  "mvs:sunzi_gate",
-                           "weight":  3
+                           "weight":  119
                        },
                        {
                            "structure":  "mvs:tall_house",
-                           "weight":  5
+                           "weight":  196
+                       },
+                       {
+                           "structure":  "mvs:tree_monument",
+                           "weight":  60
                        },
                        {
                            "structure":  "mvs:villager_statue",
-                           "weight":  3
+                           "weight":  110
                        },
                        {
                            "structure":  "mvs:warped_house",
-                           "weight":  4
+                           "weight":  150
                        },
                        {
-                           "structure":  "philipsruins:ancient_ruins",
-                           "weight":  3
+                           "structure":  "nova_structures:remnant_big_remnant_2",
+                           "weight":  1
                        },
                        {
-                           "structure":  "philipsruins:ancient_towers",
-                           "weight":  4
+                           "structure":  "nova_structures:remnant_big_remnant_3",
+                           "weight":  1
                        },
                        {
-                           "structure":  "philipsruins:field_stone_ruins_rocks",
+                           "structure":  "nova_structures:remnant_bunny_base",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_classic_village",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_desert_remnant",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_forest_smith",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_frog_ranch",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_miner_hut",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_mud_brick_constructor",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_ruin_farmer",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_ruin_smith",
+                           "weight":  1
+                       },
+                       {
+                           "structure":  "nova_structures:remnant_sawmill",
                            "weight":  6
                        },
                        {
+                           "structure":  "nova_structures:remnant_zombie_horse_ranch",
+                           "weight":  6
+                       },
+                       {
+                           "structure":  "philipsruins:ancient_ruins",
+                           "weight":  96
+                       },
+                       {
+                           "structure":  "philipsruins:ancient_towers",
+                           "weight":  138
+                       },
+                       {
+                           "structure":  "philipsruins:field_stone_ruins_rocks",
+                           "weight":  200
+                       },
+                       {
+                           "structure":  "philipsruins:level_three_ruins",
+                           "weight":  48
+                       },
+                       {
                            "structure":  "philipsruins:pumpkin_ruins",
-                           "weight":  4
+                           "weight":  138
+                       },
+                       {
+                           "structure":  "philipsruins:rare_ruin",
+                           "weight":  52
                        }
                    ],
     "placement":  {

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:mound_of_hounds",
+    "structure_sets":  "mvs:small_pillager_tower",
     "structures":  [
-                       "born_in_chaos_v1:mound_of_hounds"
+                       "mvs:small_pillager_tower"
                    ]
 }

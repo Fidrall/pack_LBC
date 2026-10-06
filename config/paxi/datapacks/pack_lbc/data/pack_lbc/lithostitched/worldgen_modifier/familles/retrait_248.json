@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:jungle_log_pile",
+    "structure_sets":  "mvs:mushroom_well",
     "structures":  [
-                       "mvs:jungle_log_pile"
+                       "mvs:mushroom_well"
                    ]
 }

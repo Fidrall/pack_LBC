@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:dark_tower_taiga",
+    "structure_sets":  "create_structures_arise:createminiskyvillage",
     "structures":  [
-                       "born_in_chaos_v1:dark_tower_taiga"
+                       "create_structures_arise:createminiskyvillage"
                    ]
 }

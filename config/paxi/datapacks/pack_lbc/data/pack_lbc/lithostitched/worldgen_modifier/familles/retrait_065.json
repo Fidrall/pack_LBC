@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:large_nether_brick",
+    "structure_sets":  "mns:leafy_rubble",
     "structures":  [
-                       "mns:large_nether_brick"
+                       "mns:leafy_rubble"
                    ]
 }

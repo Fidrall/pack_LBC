@@ -1,7 +1,8 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:villager_statue",
+    "structure_sets":  "explorify:guide_posts",
     "structures":  [
-                       "mvs:villager_statue"
+                       "explorify:guide_post_cold",
+                       "explorify:guide_post_warm"
                    ]
 }

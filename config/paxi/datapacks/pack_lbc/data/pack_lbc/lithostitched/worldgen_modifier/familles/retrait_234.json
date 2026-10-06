@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:dark_oak_log_pile",
+    "structure_sets":  "mvs:desert_pump",
     "structures":  [
-                       "mvs:dark_oak_log_pile"
+                       "mvs:desert_pump"
                    ]
 }

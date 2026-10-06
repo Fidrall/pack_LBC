@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:towerofochrum",
+    "structure_sets":  "mvs:crystal",
     "structures":  [
-                       "create_structures_arise:towerofochrum"
+                       "mvs:crystal"
                    ]
 }

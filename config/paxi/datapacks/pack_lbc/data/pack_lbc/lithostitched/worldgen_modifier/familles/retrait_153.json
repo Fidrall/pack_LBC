@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:field_stone_ruins",
+    "structure_sets":  "mvs:out_house",
     "structures":  [
-                       "philipsruins:field_stone_ruins"
+                       "mvs:out_house"
                    ]
 }

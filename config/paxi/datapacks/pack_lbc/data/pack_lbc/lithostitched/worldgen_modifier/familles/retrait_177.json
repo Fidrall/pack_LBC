@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:castle_ruins",
+    "structure_sets":  "born_in_chaos_v1:firewell",
     "structures":  [
-                       "mvs:castle_ruins"
+                       "born_in_chaos_v1:firewell"
                    ]
 }

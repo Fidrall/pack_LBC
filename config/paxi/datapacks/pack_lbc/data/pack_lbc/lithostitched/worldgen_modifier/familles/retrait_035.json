@@ -1,9 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:mega_arenas",
+    "structure_sets":  "mns:copper_tower",
     "structures":  [
-                       "mns:dragon_arena",
-                       "mns:large_arena",
-                       "mns:small_arena"
+                       "mns:copper_tower"
                    ]
 }

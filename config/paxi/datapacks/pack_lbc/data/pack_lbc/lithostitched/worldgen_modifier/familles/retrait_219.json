@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:dark_forest_settlements",
+    "structure_sets":  "mvs:bench",
     "structures":  [
-                       "explorify:dark_forest_settlement"
+                       "mvs:bench"
                    ]
 }

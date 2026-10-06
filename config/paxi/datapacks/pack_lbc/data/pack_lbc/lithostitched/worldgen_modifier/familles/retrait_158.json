@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:grave_d_4rk_devil_x",
+    "structure_sets":  "mvs:shed",
     "structures":  [
-                       "born_in_chaos_v1:grave_d_4rk_devil_x"
+                       "mvs:shed"
                    ]
 }

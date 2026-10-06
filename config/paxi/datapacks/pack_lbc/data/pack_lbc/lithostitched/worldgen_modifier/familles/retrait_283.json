@@ -1,7 +1,8 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:ancient_dungeon",
+    "structure_sets":  "philipsruins:underground_structures",
     "structures":  [
-                       "philipsruins:ancient_dungeon"
+                       "philipsruins:lost_soul_dungeon",
+                       "philipsruins:underground_structures"
                    ]
 }

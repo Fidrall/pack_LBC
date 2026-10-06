@@ -1,8 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:underground_structures",
+    "structure_sets":  "farmers_structures:squids_with_all",
     "structures":  [
-                       "philipsruins:lost_soul_dungeon",
-                       "philipsruins:underground_structures"
+                       "farmers_structures:squids"
                    ]
 }

@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:black_spirals",
+    "structure_sets":  "mns:sandy_skull",
     "structures":  [
-                       "explorify:black_spiral"
+                       "mns:sandy_skull"
                    ]
 }

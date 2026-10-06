@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:large_mushroom",
+    "structure_sets":  "mvs:large_cart_2",
     "structures":  [
-                       "mvs:large_mushroom"
+                       "mvs:large_cart_2"
                    ]
 }

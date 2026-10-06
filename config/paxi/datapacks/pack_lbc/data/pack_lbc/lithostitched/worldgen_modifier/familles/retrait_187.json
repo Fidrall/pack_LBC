@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:lamp_chest",
+    "structure_sets":  "born_in_chaos_v1:grave_mike_and_rory",
     "structures":  [
-                       "mvs:lamp_chest"
+                       "born_in_chaos_v1:grave_mike_and_rory"
                    ]
 }

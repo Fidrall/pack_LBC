@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:small_birch_lantern",
+    "structure_sets":  "mvs:small_igloo",
     "structures":  [
-                       "mvs:small_birch_lantern"
+                       "mvs:small_igloo"
                    ]
 }

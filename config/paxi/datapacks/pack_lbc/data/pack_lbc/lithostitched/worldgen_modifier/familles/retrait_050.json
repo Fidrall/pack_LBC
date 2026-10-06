@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:medium_house_2",
+    "structure_sets":  "mvs:nether_well",
     "structures":  [
-                       "mns:medium_house_2"
+                       "mvs:nether_well"
                    ]
 }

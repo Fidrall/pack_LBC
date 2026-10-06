@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:dead_tree_dark_oak",
+    "structure_sets":  "mvs:jungle_log_pile",
     "structures":  [
-                       "mvs:dead_tree_dark_oak"
+                       "mvs:jungle_log_pile"
                    ]
 }

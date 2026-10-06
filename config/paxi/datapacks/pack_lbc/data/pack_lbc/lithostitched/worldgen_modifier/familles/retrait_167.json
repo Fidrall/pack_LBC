@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "farmers_structures:cooks_with_all",
+    "structure_sets":  "mvs:tree_monument",
     "structures":  [
-                       "farmers_structures:cooks"
+                       "mvs:tree_monument"
                    ]
 }

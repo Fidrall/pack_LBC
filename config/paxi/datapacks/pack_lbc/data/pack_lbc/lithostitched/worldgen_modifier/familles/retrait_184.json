@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:gallows",
+    "structure_sets":  "born_in_chaos_v1:grave_feral",
     "structures":  [
-                       "mvs:gallows"
+                       "born_in_chaos_v1:grave_feral"
                    ]
 }

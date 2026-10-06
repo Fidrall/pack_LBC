@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createminiskyvillage",
+    "structure_sets":  "mvs:azelea_house",
     "structures":  [
-                       "create_structures_arise:createminiskyvillage"
+                       "mvs:azelea_house"
                    ]
 }

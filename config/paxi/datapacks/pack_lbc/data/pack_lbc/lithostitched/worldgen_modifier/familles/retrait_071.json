@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:medium_warped_well",
+    "structure_sets":  "mns:ruined_portal",
     "structures":  [
-                       "mns:medium_warped_well"
+                       "mns:ruined_portal"
                    ]
 }

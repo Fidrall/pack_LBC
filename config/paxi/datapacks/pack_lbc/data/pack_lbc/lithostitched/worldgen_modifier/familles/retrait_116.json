@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:createcushercrane",
+    "structure_sets":  "farmers_structures:aquacultures_common_with_all",
     "structures":  [
-                       "create_structures_arise:createcushercrane"
+                       "farmers_structures:aquacultures_common"
                    ]
 }

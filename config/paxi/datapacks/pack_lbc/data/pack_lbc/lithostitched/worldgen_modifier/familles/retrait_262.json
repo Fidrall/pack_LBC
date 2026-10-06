@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:small_cherry_lantern",
+    "structure_sets":  "mvs:small_mangrove_lantern",
     "structures":  [
-                       "mvs:small_cherry_lantern"
+                       "mvs:small_mangrove_lantern"
                    ]
 }

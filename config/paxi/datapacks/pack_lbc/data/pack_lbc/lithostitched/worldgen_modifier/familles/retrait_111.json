@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "create_structures_arise:chocolate_pit",
+    "structure_sets":  "explorify:ruins",
     "structures":  [
-                       "create_structures_arise:chocolate_pit"
+                       "explorify:ruins"
                    ]
 }

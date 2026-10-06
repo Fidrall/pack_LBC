@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:small_ruin",
+    "structure_sets":  "create_structures_arise:honey_pit",
     "structures":  [
-                       "mvs:small_ruin"
+                       "create_structures_arise:honey_pit"
                    ]
 }

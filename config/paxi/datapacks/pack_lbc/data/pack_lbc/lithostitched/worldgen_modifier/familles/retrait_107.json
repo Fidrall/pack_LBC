@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:grave_the_gentleman_frog",
+    "structure_sets":  "create_structures_arise:createmonsterroom",
     "structures":  [
-                       "born_in_chaos_v1:grave_the_gentleman_frog"
+                       "create_structures_arise:createmonsterroom"
                    ]
 }

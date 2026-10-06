@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:horse_campsite",
+    "structure_sets":  "mvs:mushroom_statue",
     "structures":  [
-                       "mvs:horse_campsite"
+                       "mvs:mushroom_statue"
                    ]
 }

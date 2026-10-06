@@ -1,10 +1,9 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:very_small_blackstone",
+    "structure_sets":  "mns:very_small_nether_brick",
     "structures":  [
-                       "mns:very_small_blackstone",
-                       "mns:very_small_blackstone_2",
-                       "mns:very_small_blackstone_3",
-                       "mns:very_small_blackstone_4"
+                       "mns:very_small_nether_brick",
+                       "mns:very_small_nether_brick_2",
+                       "mns:very_small_nether_brick_3"
                    ]
 }

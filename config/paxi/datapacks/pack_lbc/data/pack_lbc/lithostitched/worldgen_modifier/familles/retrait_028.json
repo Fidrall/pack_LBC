@@ -1,7 +1,9 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mns:bridge_1",
+    "structure_sets":  "mns:mega_arenas",
     "structures":  [
-                       "mns:bridge_1"
+                       "mns:dragon_arena",
+                       "mns:large_arena",
+                       "mns:small_arena"
                    ]
 }

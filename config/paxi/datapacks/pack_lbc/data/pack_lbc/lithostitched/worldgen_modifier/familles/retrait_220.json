@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "explorify:desert_shrines",
+    "structure_sets":  "mvs:birch_log_pile",
     "structures":  [
-                       "explorify:desert_shrine"
+                       "mvs:birch_log_pile"
                    ]
 }

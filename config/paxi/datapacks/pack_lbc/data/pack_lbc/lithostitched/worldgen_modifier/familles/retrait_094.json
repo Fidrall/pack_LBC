@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "born_in_chaos_v1:grave_derivas",
+    "structure_sets":  "mvs:jungle_tower",
     "structures":  [
-                       "born_in_chaos_v1:grave_derivas"
+                       "mvs:jungle_tower"
                    ]
 }

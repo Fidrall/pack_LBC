@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:cartographer_tower",
+    "structure_sets":  "mvs:flower_hole",
     "structures":  [
-                       "mvs:cartographer_tower"
+                       "mvs:flower_hole"
                    ]
 }

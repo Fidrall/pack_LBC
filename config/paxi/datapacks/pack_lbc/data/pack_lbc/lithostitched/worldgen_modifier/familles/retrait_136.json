@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "farmers_structures:shepherd_farms_with_all",
+    "structure_sets":  "mvs:floating_islands",
     "structures":  [
-                       "farmers_structures:shepherd_farms"
+                       "mvs:floating_islands"
                    ]
 }

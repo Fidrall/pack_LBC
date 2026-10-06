@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:diorite_and_deepslate_house",
+    "structure_sets":  "born_in_chaos_v1:grave_d_4rk_devil_x",
     "structures":  [
-                       "mvs:diorite_and_deepslate_house"
+                       "born_in_chaos_v1:grave_d_4rk_devil_x"
                    ]
 }

@@ -1,8 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "philipsruins:level_two_ruins",
+    "structure_sets":  "mvs:prismarine_house_2",
     "structures":  [
-                       "philipsruins:level_two_ruins",
-                       "philipsruins:level_two_ruins_pool"
+                       "mvs:prismarine_house_2"
                    ]
 }

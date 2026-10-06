@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:prismarine_house_1",
+    "structure_sets":  "create_structures_arise:createcushercrane",
     "structures":  [
-                       "mvs:prismarine_house_1"
+                       "create_structures_arise:createcushercrane"
                    ]
 }

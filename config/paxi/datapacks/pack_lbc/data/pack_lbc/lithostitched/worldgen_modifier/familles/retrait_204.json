@@ -1,7 +1,7 @@
 {
     "type":  "lithostitched:remove_structure_set_entries",
-    "structure_sets":  "mvs:small_pillager_tower",
+    "structure_sets":  "create_structures_arise:createwitchhut",
     "structures":  [
-                       "mvs:small_pillager_tower"
+                       "create_structures_arise:createwitchhut"
                    ]
 }
