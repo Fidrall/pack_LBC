@@ -1,0 +1,28 @@
+{
+    "type":  "apotheosis:gems",
+    "conditions":  [
+
+                   ],
+    "entries":  [
+                    {
+                        "chance":  0.08,
+                        "pattern":  {
+                                        "domain":  "minecraft",
+                                        "path_regex":  "chests.*"
+                                    }
+                    },
+                    {
+                        "chance":  0.06,
+                        "pattern":  {
+                                        "path_regex":  "chests.*"
+                                    }
+                    },
+                    {
+                        "chance":  0.06,
+                        "pattern":  {
+                                        "domain":  "twilightforest",
+                                        "path_regex":  "structures.*"
+                                    }
+                    }
+                ]
+}

@@ -225,3 +225,5 @@ mr | hazen-n-stuff | conserver | extension Iron's (39 sorts, armes, armures, cri
 mr | cobweb | conserver | bibliotheque Crystal Nest (requise par Soul Fire'd)
 mr | prometheus-api | conserver | bibliotheque Crystal Nest (requise par Soul Fire'd)
 mr | attributesetter | conserver | statistiques des boss sans reglage (+25 % vie, +15 % degats), datapack build-datapack section 12
+mr | treasure-bags | conserver | sacs de recompense (boss seulement pour l'instant, build-datapack section 13)
+mr | silent-lib | conserver | requis par Treasure Bags

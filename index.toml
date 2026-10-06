@@ -269,6 +269,14 @@ file = "config/obscuria/ancient_remnants-common.toml"
 hash = "2fcd76f8cf61b8926980341402ba1b318d231c96035aaa32959f950e75ce2c35"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/affix_loot_injection.json"
+hash = "68e8e1f8a4233e4b928c878204610edf804b8c3bf1b0b6bcfb7f09a158fe0599"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/gem_loot_injection.json"
+hash = "5389253774df00e91f64fbd1ed45820a94e16bd21b0e9eae18b21980e23f3005"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/archaion/worldgen/structure/ancient_keep.json"
 hash = "d957217f6808d94badf23b0bb6d45725aacbda39e59ad8ea086c5304bf5837f6"
 
@@ -2385,6 +2393,22 @@ file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_
 hash = "7dcb4c5bffe6604afe88d69466f9995f46035d0ff019d3c72637bc5edbda3455"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/entity_group/hostile.json"
+hash = "278c0b013015b97589f2615054885fbab58f1b319bd881cfc99a20b2f83dbc02"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/entity_group/peaceful.json"
+hash = "278c0b013015b97589f2615054885fbab58f1b319bd881cfc99a20b2f83dbc02"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/entity_group/player.json"
+hash = "278c0b013015b97589f2615054885fbab58f1b319bd881cfc99a20b2f83dbc02"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/starting_inventory.json"
+hash = "1ef70bd7db8a4e7dc0543405659febdf4a21ce505a75fe8589e6cf678fef5e41"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
 hash = "0e6e5acfc8880fb48770420ce00eec8aa05d2f30e9147585db1df5863e04acda"
 
@@ -3573,6 +3597,11 @@ hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
+file = "mods/silent-lib.pw.toml"
+hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
+metafile = true
+
+[[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "b3b444ca79a5786d5c7589a7119fcf4c3e4cf73c70860c17acb63c88fc06749a"
 metafile = true
@@ -3695,6 +3724,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "01cab903b1a7f77aa4f28c7fab24e7fa09b376b18c77b487b7ba34e0afc57813"
+metafile = true
+
+[[files]]
+file = "mods/treasure-bags.pw.toml"
+hash = "a962b02315aff4d9c716dca5cd784bcdb1bd7b58187e883c6fdb366a35f1ab97"
 metafile = true
 
 [[files]]

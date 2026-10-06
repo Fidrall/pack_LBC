@@ -312,5 +312,21 @@ foreach ($b in $bossPlus) {
 }
 W 'data/pack_lbc/attributesetter/entity/boss_renforces.json' $attr
 
+# ---------- 13. Butin : injection Apotheosis reduite, Treasure Bags limite aux boss ----------
+# Avec Lootr chaque joueur a sa copie de chaque coffre : l'injection Apotheosis (affixes 35/30 %, gemmes 25/20 %
+# de TOUS les coffres, en plus du contenu) est ramenee a ~10 % / ~8 %.
+W 'data/apotheosis/loot_modifiers/affix_loot_injection.json' ([ordered]@{ type = 'apotheosis:affix_loot'; conditions = @(); entries = @(
+            [ordered]@{ chance = 0.10; pattern = [ordered]@{ domain = 'minecraft'; path_regex = 'chests.*' } },
+            [ordered]@{ chance = 0.09; pattern = [ordered]@{ path_regex = 'chests.*' } },
+            [ordered]@{ chance = 0.09; pattern = [ordered]@{ domain = 'twilightforest'; path_regex = 'structures.*' } }) })
+W 'data/apotheosis/loot_modifiers/gem_loot_injection.json' ([ordered]@{ type = 'apotheosis:gems'; conditions = @(); entries = @(
+            [ordered]@{ chance = 0.08; pattern = [ordered]@{ domain = 'minecraft'; path_regex = 'chests.*' } },
+            [ordered]@{ chance = 0.06; pattern = [ordered]@{ path_regex = 'chests.*' } },
+            [ordered]@{ chance = 0.06; pattern = [ordered]@{ domain = 'twilightforest'; path_regex = 'structures.*' } }) })
+# Treasure Bags : en attendant l'equilibrage, seuls les boss lachent des sacs (2 par boss, reglage du mod).
+# Monstres, animaux, joueurs (PvP) et sac de depart neutralises.
+foreach ($g in 'hostile', 'peaceful', 'player') { W "data/treasurebags/loot_table/entity_group/$g.json" ([ordered]@{ type = 'minecraft:entity'; pools = @() }) }
+W 'data/treasurebags/loot_table/starting_inventory.json' ([ordered]@{ type = 'minecraft:gift'; pools = @() })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
