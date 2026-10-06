@@ -241,6 +241,10 @@ file = "config/ftbquests/quests/reward_tables/rare.snbt"
 hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
 
 [[files]]
+file = "config/iceandfire/iaf-common.json"
+hash = "27734abd59fb5d434115a5afaab6421c3a2b4eb1ff00d82cdb07a9c7d423c011"
+
+[[files]]
 file = "config/incontrol/spawn.json"
 hash = "74cbff2c0c92195c0242968388461bce957f5fea8896d7bcd1843c4c757ec119"
 
@@ -519,6 +523,10 @@ hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
 hash = "b9afbea8ecbd757a27f7ac6b609a3bec71fc47210e89cb3f15648a154e97f289"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
+hash = "a71aca6a56b4d06de49b71c6abee2168bff4ce8b16e4ec2d58d58d28e5ea16f7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -2513,6 +2521,10 @@ file = "config/torchmaster.toml"
 hash = "10c56776eaa9f0a77294383297432d9d44876837312e084e5da9bcfbd8424dc7"
 
 [[files]]
+file = "config/twilightforest-common.toml"
+hash = "9cc16d6851b838c48c90e95b8c93ff79af1f50b65ce085360105175f590bf100"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "d25ee7c5a19491d9faf6ab9bf48afa4d05ef15183ac77906fbbd40da4312a7fe"
 
@@ -2639,6 +2651,11 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "f0edb6932d0c3f97338cf660763ff43bc5febdf0eb5edeca3a1927c20f14e296"
+metafile = true
+
+[[files]]
+file = "mods/attributesetter.pw.toml"
+hash = "c6ea8d8f97c36d03248da1d37e6256278eff2fad0fb43980a1a695572ac1b744"
 metafile = true
 
 [[files]]

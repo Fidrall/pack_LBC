@@ -288,5 +288,29 @@ foreach ($k in $cartes) {
     W "data/pack_lbc/loot_table/cartes/$name.json" ([ordered]@{ type = 'minecraft:generic'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = $res.id; functions = @([ordered]@{ function = 'minecraft:set_components'; components = $res.components }) }) }) })
 }
 
+# ---------- 12. Boss renforces (+25 % vie, +15 % degats) via AttributeSetter ----------
+# Pour les boss dont le mod n'a pas de reglage (Cataclysm, Mowzie, BOMD, dragon : configs ; Ice and Fire : config/iceandfire).
+# MULTIPLY_BASE = modificateur ADD_MULTIPLIED_BASE a identifiant fixe (pas de cumul au rechargement), vie remise au max a l'apparition.
+$bossPlus = @(
+    'twilightforest:naga', 'twilightforest:lich', 'twilightforest:minoshroom', 'twilightforest:hydra', 'twilightforest:knight_phantom',
+    'twilightforest:ur_ghast', 'twilightforest:alpha_yeti', 'twilightforest:snow_queen',
+    'aether:slider', 'aether:valkyrie_queen', 'aether:sun_spirit',
+    'irons_spellbooks:dead_king', 'irons_spellbooks:fire_boss',
+    'hazennstuff:pyromus', 'hazennstuff:aegis', 'hazennstuff:aptos',
+    'born_in_chaos_v1:lord_pumpkinhead', 'born_in_chaos_v1:lord_pumpkinhead_withouta_horse', 'born_in_chaos_v1:lord_the_headless',
+    'born_in_chaos_v1:missioner', 'born_in_chaos_v1:supreme_bonescaller', 'born_in_chaos_v1:supreme_bonescaller_not_despawn',
+    'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:krampus',
+    'friendsandfoes:wildfire', 'illagerinvasion:invoker', 'archaion:deepslate_sentinel',
+    'minecraft:wither', 'minecraft:elder_guardian', 'minecraft:warden'
+)
+$attr = [ordered]@{}
+foreach ($b in $bossPlus) {
+    $attr[$b] = @(
+        [ordered]@{ attribute = 'minecraft:generic.max_health'; value = 0.25; operation = 'MULTIPLY_BASE' },
+        [ordered]@{ attribute = 'minecraft:generic.attack_damage'; value = 0.15; operation = 'MULTIPLY_BASE' }
+    )
+}
+W 'data/pack_lbc/attributesetter/entity/boss_renforces.json' $attr
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

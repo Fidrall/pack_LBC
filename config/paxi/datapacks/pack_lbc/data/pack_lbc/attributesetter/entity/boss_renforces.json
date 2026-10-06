@@ -1,0 +1,362 @@
+{
+    "twilightforest:naga":  [
+                                {
+                                    "attribute":  "minecraft:generic.max_health",
+                                    "value":  0.25,
+                                    "operation":  "MULTIPLY_BASE"
+                                },
+                                {
+                                    "attribute":  "minecraft:generic.attack_damage",
+                                    "value":  0.15,
+                                    "operation":  "MULTIPLY_BASE"
+                                }
+                            ],
+    "twilightforest:lich":  [
+                                {
+                                    "attribute":  "minecraft:generic.max_health",
+                                    "value":  0.25,
+                                    "operation":  "MULTIPLY_BASE"
+                                },
+                                {
+                                    "attribute":  "minecraft:generic.attack_damage",
+                                    "value":  0.15,
+                                    "operation":  "MULTIPLY_BASE"
+                                }
+                            ],
+    "twilightforest:minoshroom":  [
+                                      {
+                                          "attribute":  "minecraft:generic.max_health",
+                                          "value":  0.25,
+                                          "operation":  "MULTIPLY_BASE"
+                                      },
+                                      {
+                                          "attribute":  "minecraft:generic.attack_damage",
+                                          "value":  0.15,
+                                          "operation":  "MULTIPLY_BASE"
+                                      }
+                                  ],
+    "twilightforest:hydra":  [
+                                 {
+                                     "attribute":  "minecraft:generic.max_health",
+                                     "value":  0.25,
+                                     "operation":  "MULTIPLY_BASE"
+                                 },
+                                 {
+                                     "attribute":  "minecraft:generic.attack_damage",
+                                     "value":  0.15,
+                                     "operation":  "MULTIPLY_BASE"
+                                 }
+                             ],
+    "twilightforest:knight_phantom":  [
+                                          {
+                                              "attribute":  "minecraft:generic.max_health",
+                                              "value":  0.25,
+                                              "operation":  "MULTIPLY_BASE"
+                                          },
+                                          {
+                                              "attribute":  "minecraft:generic.attack_damage",
+                                              "value":  0.15,
+                                              "operation":  "MULTIPLY_BASE"
+                                          }
+                                      ],
+    "twilightforest:ur_ghast":  [
+                                    {
+                                        "attribute":  "minecraft:generic.max_health",
+                                        "value":  0.25,
+                                        "operation":  "MULTIPLY_BASE"
+                                    },
+                                    {
+                                        "attribute":  "minecraft:generic.attack_damage",
+                                        "value":  0.15,
+                                        "operation":  "MULTIPLY_BASE"
+                                    }
+                                ],
+    "twilightforest:alpha_yeti":  [
+                                      {
+                                          "attribute":  "minecraft:generic.max_health",
+                                          "value":  0.25,
+                                          "operation":  "MULTIPLY_BASE"
+                                      },
+                                      {
+                                          "attribute":  "minecraft:generic.attack_damage",
+                                          "value":  0.15,
+                                          "operation":  "MULTIPLY_BASE"
+                                      }
+                                  ],
+    "twilightforest:snow_queen":  [
+                                      {
+                                          "attribute":  "minecraft:generic.max_health",
+                                          "value":  0.25,
+                                          "operation":  "MULTIPLY_BASE"
+                                      },
+                                      {
+                                          "attribute":  "minecraft:generic.attack_damage",
+                                          "value":  0.15,
+                                          "operation":  "MULTIPLY_BASE"
+                                      }
+                                  ],
+    "aether:slider":  [
+                          {
+                              "attribute":  "minecraft:generic.max_health",
+                              "value":  0.25,
+                              "operation":  "MULTIPLY_BASE"
+                          },
+                          {
+                              "attribute":  "minecraft:generic.attack_damage",
+                              "value":  0.15,
+                              "operation":  "MULTIPLY_BASE"
+                          }
+                      ],
+    "aether:valkyrie_queen":  [
+                                  {
+                                      "attribute":  "minecraft:generic.max_health",
+                                      "value":  0.25,
+                                      "operation":  "MULTIPLY_BASE"
+                                  },
+                                  {
+                                      "attribute":  "minecraft:generic.attack_damage",
+                                      "value":  0.15,
+                                      "operation":  "MULTIPLY_BASE"
+                                  }
+                              ],
+    "aether:sun_spirit":  [
+                              {
+                                  "attribute":  "minecraft:generic.max_health",
+                                  "value":  0.25,
+                                  "operation":  "MULTIPLY_BASE"
+                              },
+                              {
+                                  "attribute":  "minecraft:generic.attack_damage",
+                                  "value":  0.15,
+                                  "operation":  "MULTIPLY_BASE"
+                              }
+                          ],
+    "irons_spellbooks:dead_king":  [
+                                       {
+                                           "attribute":  "minecraft:generic.max_health",
+                                           "value":  0.25,
+                                           "operation":  "MULTIPLY_BASE"
+                                       },
+                                       {
+                                           "attribute":  "minecraft:generic.attack_damage",
+                                           "value":  0.15,
+                                           "operation":  "MULTIPLY_BASE"
+                                       }
+                                   ],
+    "irons_spellbooks:fire_boss":  [
+                                       {
+                                           "attribute":  "minecraft:generic.max_health",
+                                           "value":  0.25,
+                                           "operation":  "MULTIPLY_BASE"
+                                       },
+                                       {
+                                           "attribute":  "minecraft:generic.attack_damage",
+                                           "value":  0.15,
+                                           "operation":  "MULTIPLY_BASE"
+                                       }
+                                   ],
+    "hazennstuff:pyromus":  [
+                                {
+                                    "attribute":  "minecraft:generic.max_health",
+                                    "value":  0.25,
+                                    "operation":  "MULTIPLY_BASE"
+                                },
+                                {
+                                    "attribute":  "minecraft:generic.attack_damage",
+                                    "value":  0.15,
+                                    "operation":  "MULTIPLY_BASE"
+                                }
+                            ],
+    "hazennstuff:aegis":  [
+                              {
+                                  "attribute":  "minecraft:generic.max_health",
+                                  "value":  0.25,
+                                  "operation":  "MULTIPLY_BASE"
+                              },
+                              {
+                                  "attribute":  "minecraft:generic.attack_damage",
+                                  "value":  0.15,
+                                  "operation":  "MULTIPLY_BASE"
+                              }
+                          ],
+    "hazennstuff:aptos":  [
+                              {
+                                  "attribute":  "minecraft:generic.max_health",
+                                  "value":  0.25,
+                                  "operation":  "MULTIPLY_BASE"
+                              },
+                              {
+                                  "attribute":  "minecraft:generic.attack_damage",
+                                  "value":  0.15,
+                                  "operation":  "MULTIPLY_BASE"
+                              }
+                          ],
+    "born_in_chaos_v1:lord_pumpkinhead":  [
+                                              {
+                                                  "attribute":  "minecraft:generic.max_health",
+                                                  "value":  0.25,
+                                                  "operation":  "MULTIPLY_BASE"
+                                              },
+                                              {
+                                                  "attribute":  "minecraft:generic.attack_damage",
+                                                  "value":  0.15,
+                                                  "operation":  "MULTIPLY_BASE"
+                                              }
+                                          ],
+    "born_in_chaos_v1:lord_pumpkinhead_withouta_horse":  [
+                                                             {
+                                                                 "attribute":  "minecraft:generic.max_health",
+                                                                 "value":  0.25,
+                                                                 "operation":  "MULTIPLY_BASE"
+                                                             },
+                                                             {
+                                                                 "attribute":  "minecraft:generic.attack_damage",
+                                                                 "value":  0.15,
+                                                                 "operation":  "MULTIPLY_BASE"
+                                                             }
+                                                         ],
+    "born_in_chaos_v1:lord_the_headless":  [
+                                               {
+                                                   "attribute":  "minecraft:generic.max_health",
+                                                   "value":  0.25,
+                                                   "operation":  "MULTIPLY_BASE"
+                                               },
+                                               {
+                                                   "attribute":  "minecraft:generic.attack_damage",
+                                                   "value":  0.15,
+                                                   "operation":  "MULTIPLY_BASE"
+                                               }
+                                           ],
+    "born_in_chaos_v1:missioner":  [
+                                       {
+                                           "attribute":  "minecraft:generic.max_health",
+                                           "value":  0.25,
+                                           "operation":  "MULTIPLY_BASE"
+                                       },
+                                       {
+                                           "attribute":  "minecraft:generic.attack_damage",
+                                           "value":  0.15,
+                                           "operation":  "MULTIPLY_BASE"
+                                       }
+                                   ],
+    "born_in_chaos_v1:supreme_bonescaller":  [
+                                                 {
+                                                     "attribute":  "minecraft:generic.max_health",
+                                                     "value":  0.25,
+                                                     "operation":  "MULTIPLY_BASE"
+                                                 },
+                                                 {
+                                                     "attribute":  "minecraft:generic.attack_damage",
+                                                     "value":  0.15,
+                                                     "operation":  "MULTIPLY_BASE"
+                                                 }
+                                             ],
+    "born_in_chaos_v1:supreme_bonescaller_not_despawn":  [
+                                                             {
+                                                                 "attribute":  "minecraft:generic.max_health",
+                                                                 "value":  0.25,
+                                                                 "operation":  "MULTIPLY_BASE"
+                                                             },
+                                                             {
+                                                                 "attribute":  "minecraft:generic.attack_damage",
+                                                                 "value":  0.15,
+                                                                 "operation":  "MULTIPLY_BASE"
+                                                             }
+                                                         ],
+    "born_in_chaos_v1:supreme_bonescaller_stage_2":  [
+                                                         {
+                                                             "attribute":  "minecraft:generic.max_health",
+                                                             "value":  0.25,
+                                                             "operation":  "MULTIPLY_BASE"
+                                                         },
+                                                         {
+                                                             "attribute":  "minecraft:generic.attack_damage",
+                                                             "value":  0.15,
+                                                             "operation":  "MULTIPLY_BASE"
+                                                         }
+                                                     ],
+    "born_in_chaos_v1:krampus":  [
+                                     {
+                                         "attribute":  "minecraft:generic.max_health",
+                                         "value":  0.25,
+                                         "operation":  "MULTIPLY_BASE"
+                                     },
+                                     {
+                                         "attribute":  "minecraft:generic.attack_damage",
+                                         "value":  0.15,
+                                         "operation":  "MULTIPLY_BASE"
+                                     }
+                                 ],
+    "friendsandfoes:wildfire":  [
+                                    {
+                                        "attribute":  "minecraft:generic.max_health",
+                                        "value":  0.25,
+                                        "operation":  "MULTIPLY_BASE"
+                                    },
+                                    {
+                                        "attribute":  "minecraft:generic.attack_damage",
+                                        "value":  0.15,
+                                        "operation":  "MULTIPLY_BASE"
+                                    }
+                                ],
+    "illagerinvasion:invoker":  [
+                                    {
+                                        "attribute":  "minecraft:generic.max_health",
+                                        "value":  0.25,
+                                        "operation":  "MULTIPLY_BASE"
+                                    },
+                                    {
+                                        "attribute":  "minecraft:generic.attack_damage",
+                                        "value":  0.15,
+                                        "operation":  "MULTIPLY_BASE"
+                                    }
+                                ],
+    "archaion:deepslate_sentinel":  [
+                                        {
+                                            "attribute":  "minecraft:generic.max_health",
+                                            "value":  0.25,
+                                            "operation":  "MULTIPLY_BASE"
+                                        },
+                                        {
+                                            "attribute":  "minecraft:generic.attack_damage",
+                                            "value":  0.15,
+                                            "operation":  "MULTIPLY_BASE"
+                                        }
+                                    ],
+    "minecraft:wither":  [
+                             {
+                                 "attribute":  "minecraft:generic.max_health",
+                                 "value":  0.25,
+                                 "operation":  "MULTIPLY_BASE"
+                             },
+                             {
+                                 "attribute":  "minecraft:generic.attack_damage",
+                                 "value":  0.15,
+                                 "operation":  "MULTIPLY_BASE"
+                             }
+                         ],
+    "minecraft:elder_guardian":  [
+                                     {
+                                         "attribute":  "minecraft:generic.max_health",
+                                         "value":  0.25,
+                                         "operation":  "MULTIPLY_BASE"
+                                     },
+                                     {
+                                         "attribute":  "minecraft:generic.attack_damage",
+                                         "value":  0.15,
+                                         "operation":  "MULTIPLY_BASE"
+                                     }
+                                 ],
+    "minecraft:warden":  [
+                             {
+                                 "attribute":  "minecraft:generic.max_health",
+                                 "value":  0.25,
+                                 "operation":  "MULTIPLY_BASE"
+                             },
+                             {
+                                 "attribute":  "minecraft:generic.attack_damage",
+                                 "value":  0.15,
+                                 "operation":  "MULTIPLY_BASE"
+                             }
+                         ]
+}

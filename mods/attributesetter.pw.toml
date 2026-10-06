@@ -1,0 +1,13 @@
+name = "AttributeSetter"
+filename = "attributesetter-2.3-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tbDE3NLR/versions/h3HIoImN/attributesetter-2.3-neoforge.jar"
+hash-format = "sha512"
+hash = "eb8dae16866706232d803f338e211a2863bd9ca8505d0f75513b6422dffd18e5757560a195004b7ecb0c43645572119955f787fb339aaa77e147250c393b1541"
+
+[update]
+[update.modrinth]
+mod-id = "tbDE3NLR"
+version = "h3HIoImN"

@@ -224,3 +224,4 @@ mr | effortless-building | qol | outils de construction (lignes, murs, sols, for
 mr | hazen-n-stuff | conserver | extension Iron's (39 sorts, armes, armures, cristaux) + AzureLib, Ace's Spell Utils, HazentouveLib, Soul Fire'd ; chapitre de quetes hazen_n_stuff
 mr | cobweb | conserver | bibliotheque Crystal Nest (requise par Soul Fire'd)
 mr | prometheus-api | conserver | bibliotheque Crystal Nest (requise par Soul Fire'd)
+mr | attributesetter | conserver | statistiques des boss sans reglage (+25 % vie, +15 % degats), datapack build-datapack section 12
