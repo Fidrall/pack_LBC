@@ -1,9 +1,93 @@
 {
-  "general": {
-    "disable_all_structures": false,
-    "prevent_structure_overlap": true,
-    "overlap_padding": 8,
-    "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 1.05
-  }
+    "general":  {
+                    "disable_all_structures":  false,
+                    "prevent_structure_overlap":  true,
+                    "overlap_padding":  8,
+                    "enable_global_spacing_and_separation_modifier":  true,
+                    "global_spacing_and_separation_modifier":  1.05
+                },
+    "structure_namespaces":  [
+                                 {
+                                     "name":  "iceandfire",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "cataclysm",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "bosses_of_mass_destruction",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "archaion",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "mowziesmobs",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "irons_spellbooks",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "alshanex_familiars",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "hellish_trials",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "betterstrongholds",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "betterfortresses",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "betteroceanmonuments",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "bettermineshafts",
+                                     "exclude_from_overlap_prevention":  true
+                                 }
+                             ],
+    "structures":  [
+                       {
+                           "name":  "minecraft:stronghold",
+                           "exclude_from_overlap_prevention":  true
+                       },
+                       {
+                           "name":  "minecraft:end_city",
+                           "exclude_from_overlap_prevention":  true
+                       },
+                       {
+                           "name":  "minecraft:ancient_city",
+                           "exclude_from_overlap_prevention":  true
+                       },
+                       {
+                           "name":  "minecraft:fortress",
+                           "exclude_from_overlap_prevention":  true
+                       },
+                       {
+                           "name":  "minecraft:monument",
+                           "exclude_from_overlap_prevention":  true
+                       },
+                       {
+                           "name":  "minecraft:trial_chambers",
+                           "exclude_from_overlap_prevention":  true
+                       },
+                       {
+                           "name":  "minecraft:mineshaft",
+                           "exclude_from_overlap_prevention":  true
+                       },
+                       {
+                           "name":  "minecraft:mineshaft_mesa",
+                           "exclude_from_overlap_prevention":  true
+                       }
+                   ]
 }
