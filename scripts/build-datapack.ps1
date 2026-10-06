@@ -188,7 +188,7 @@ W 'data/archaion/worldgen/structure/ancient_keep.json' $j
 # On fusionne : tous les villages, espacement proche de Luki (ses capitales sont grandes).
 $vil = @('plains', 'desert', 'savanna', 'snowy', 'taiga' | ForEach-Object { [ordered]@{ structure = "minecraft:village_$_"; weight = 1 } })
 $vil += 'plains', 'desert', 'savanna', 'snowy', 'taiga', 'swamp_vanilla', 'cherry' | ForEach-Object { [ordered]@{ structure = "trek:village/$_"; weight = 1 } }
-W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 48; separation = 28 } })
+W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 36; separation = 16 } })
 # Structures redefinies : on garde la version Luki's (capitales "revampedvillages", comme ses autres villages).
 # village_taiga : Luki's, avec la liste de biomes plus large de Dungeons and Taverns.
 W 'data/minecraft/worldgen/structure/village_taiga.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#nova_structures:collections/any_taiga'; liquid_settings = 'ignore_waterlogging'; step = 'surface_structures'; spawn_overrides = @{}; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:taiga/start'; size = 5; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })

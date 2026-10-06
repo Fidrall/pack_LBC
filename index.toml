@@ -494,7 +494,7 @@ hash = "6d7cda497d273a8e48b444ee6d4a5f36a4c7a78057e2fcb37d29169b369f0025"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/villages.json"
-hash = "d1770662acb080dc1bc50169e5c7fce92d2c3067830adb20bd222728d194ffec"
+hash = "75146fc3fd27d28b164ab120d840410335bc03a84bf23806ded15f3b67850741"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woodland_mansions.json"
@@ -2369,6 +2369,10 @@ file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_
 hash = "c2a6ef2aef59b434e3cf54a4c3b89ba085cbb1bc7bae30d9ed452056c10466c4"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towns.json"
+hash = "7dcb4c5bffe6604afe88d69466f9995f46035d0ff019d3c72637bc5edbda3455"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
 hash = "0e6e5acfc8880fb48770420ce00eec8aa05d2f30e9147585db1df5863e04acda"
 
@@ -2502,7 +2506,7 @@ hash = "21c1138256aa101ea13c81a3a86b7ae8e87a74d02d477f8ba81eb6e8d1ac677f"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "be30ec0a3a95099c0f8a91797636927b571f41a4d43591588f59b1883b678299"
+hash = "38ce6686780e04c35ca997c831639673e3fb833b33dedd06db756265e27529ee"
 
 [[files]]
 file = "config/torchmaster.toml"
@@ -2635,11 +2639,6 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "f0edb6932d0c3f97338cf660763ff43bc5febdf0eb5edeca3a1927c20f14e296"
-metafile = true
-
-[[files]]
-file = "mods/attributes.pw.toml"
-hash = "11ab8a365c5bed4941664f25b31f51ee4db08885c49a0fce64cba5aa5555e2cc"
 metafile = true
 
 [[files]]
@@ -2910,11 +2909,6 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
-metafile = true
-
-[[files]]
-file = "mods/create-skill-tree.pw.toml"
-hash = "e3357c12a051e6ee015ee540e5ea9fcb6e67165608426c7ad68817205122916a"
 metafile = true
 
 [[files]]
@@ -3258,11 +3252,6 @@ hash = "93f7a09e0d9a05c31b55bb9725545c49dc68067556a98d470e4f405bdbf3b25c"
 metafile = true
 
 [[files]]
-file = "mods/irons-spells-n-spellbooks-dynamic-skill-trees.pw.toml"
-hash = "16d067a8f294335dcf3f4858b7285e90f4da66d081e2cf941106c97a10baef80"
-metafile = true
-
-[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
@@ -3305,11 +3294,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "7905c08f37d8ebde50a5330a7dd10029de6259b0cb8adbde1170d93ea20218a7"
-metafile = true
-
-[[files]]
-file = "mods/keystone-expansion-pufferfishs-skills.pw.toml"
-hash = "5aa8d4a024c9838b0b2db4980189f4cb2cda0fd223635223f46a463f24b67a3b"
 metafile = true
 
 [[files]]
@@ -3498,16 +3482,6 @@ hash = "edef74673c04f649fce7fdb438ae12cf5f9aa6416df471f362043f7a09204113"
 metafile = true
 
 [[files]]
-file = "mods/pufferfish-skills-inventory-button.pw.toml"
-hash = "4165fe25a6fae3d0758afa420f8a2f762c4c22c8f3eaaae66b76fa0e134f95b1"
-metafile = true
-
-[[files]]
-file = "mods/pufferfishs-unofficial-additions.pw.toml"
-hash = "3a37a1911cee7925936f8720012eb00bcf4fbae5771a0869e4ce61e405eac91b"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6b1ee632cee2d75301016eaac99a3446ad605f11fbfda631effac0eb7da59f6c"
 metafile = true
@@ -3580,11 +3554,6 @@ metafile = true
 [[files]]
 file = "mods/simply-tooltips.pw.toml"
 hash = "bb5dc8ac909aee1955532a65145f7ebfc3a88289610298e821a974fdda5f1822"
-metafile = true
-
-[[files]]
-file = "mods/skills.pw.toml"
-hash = "1c42d0d46b5325d7c372926d2265f19c0d46a7222b0181596fa8b2ac74e7f126"
 metafile = true
 
 [[files]]

@@ -219,16 +219,9 @@ mr | waystones-teleport-pets | qol | compagnons suivent par Waystone
 mr | create-bionics | conserver | robots-animaux Create (licence : ne pas publier le pack sur CurseForge)
 cf | archaion | jetable | Donjon ancien + boss mecanique (+ AAA Particles)
 cf | ancient-remnants | jetable | monolithes par biome, coeurs d'Elderheart (Fragmentum >= 5.2)
-mr | skills | qol | arbres de competences (config/puffish_skills, a personnaliser)
-mr | attributes | qol | attributs pour les recompenses des competences
 mr | relics-mod | jetable | 28 reliques a stats aleatoires qui montent en niveau (+ OctoLib)
 mr | iceandfire-ce | jetable | dragons a elever, voie dompteur fin de jeu (epingle 2.0 stable ; + Jupiter, Uranus) ; config a faire apres 1er lancement (griefing apprivoises, vitesse, hippogriffes/amphitheres)
 mr | effortless-building | qol | outils de construction (lignes, murs, sols, formes, miroir, annuler) - pratique sous l'eau
-mr | keystone-expansion-pufferfishs-skills | qol | arbres de competences (9 categories dont Apprivoisement, Magie, Construction)
-mr | irons-spells-n-spellbooks-dynamic-skill-trees | qol | 4 arbres de competences pour la magie d'Iron's
-mr | pufferfishs-unofficial-additions | qol | dependance des arbres Iron's
-mr | create-skill-tree | qol | arbre de competences Create (xp en fabriquant des objets Create)
-mr | pufferfish-skills-inventory-button | client | bouton Competences dans l'inventaire
 mr | hazen-n-stuff | conserver | extension Iron's (39 sorts, armes, armures, cristaux) + AzureLib, Ace's Spell Utils, HazentouveLib, Soul Fire'd ; chapitre de quetes hazen_n_stuff
 mr | cobweb | conserver | bibliotheque Crystal Nest (requise par Soul Fire'd)
 mr | prometheus-api | conserver | bibliotheque Crystal Nest (requise par Soul Fire'd)
