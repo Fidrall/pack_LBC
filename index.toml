@@ -953,6 +953,54 @@ file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woo
 hash = "f0d6e83769aefc74344659a047cd9dedd47d2d9300f70b6a633af8587d125b9a"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/aquatic_asurine_vent.json"
+hash = "dcc614c184f99b2b9b525b546d1330b90e7dbff3030966a73554d5e615129dd7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/aquatic_crimsite_vent.json"
+hash = "47e056c1647d24b53234f29dfc74b174f4410989d5e0e112ba1a2e9073690d05"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/aquatic_ochrum_vent.json"
+hash = "94113fa4768258a1a4d236f8f674be905cdf826a1ed413759e639fcad6d6580e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/aquatic_scorchia_vent.json"
+hash = "619e80009142d25c8cb627f92c8536b143f26c1067a98f7764a42ef7bd9b3f86"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/aquatic_scoria_vent.json"
+hash = "54713c8f52ec5006a49279cb87d793bd55f54f6f6f30eb4163c447ce2767b8ee"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/aquatic_veridium_vent.json"
+hash = "6c653f6280628914f5a9d401abbd3a00ea81e0d4b7076645d3e899ea669b45c5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/asurine_vent.json"
+hash = "90125acba5f7c22bdd5e33baa112b0a0c2225794fbc26884c43a3df330f3b7ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/crimsite_vent.json"
+hash = "5dbcafd6d8b93d12da7a216a8982b957105bb4af122687e6fcf112f18cf7e0a0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/ochrum_vent.json"
+hash = "d432129853ef19938b5f56855a05959106967c524cd1c88fd76b87b9859217a4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/scorchia_vent.json"
+hash = "249a6cbc057d028af71eed0a12111bdb2401fb6e6a19dbf17c0f7de6e1b89ef5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/scoria_vent.json"
+hash = "7ec86b25fe103b16a71162d71570c88cf7d3909ed3a0edf8f4f18f6b5214a6e1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/molten_vents/worldgen/placed_feature/veridium_vent.json"
+hash = "584f264d988562228480daf664c6667301cb27ea438309c362fa6bd70e75a45d"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/mvs/worldgen/structure/floating_islands.json"
 hash = "780616e2de8c19b436961cde5be7e64c86b6c7197325fa8eab653944ba25f18b"
 
