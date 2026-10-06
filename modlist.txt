@@ -89,7 +89,6 @@ mr | it-takes-a-pillage-continuation | conserver |
 mr | better-archeology | conserver |
 mr | nullscape | conserver |
 mr | endrem | conserver |
-mr | ends-phantasm | conserver |
 cf | 632624 | conserver | Hopo Better Ruined Portals
 cf | 632622 | conserver | Hopo Better Underwater Ruins
 cf | 1197591 | conserver | Deeper Additional Structures

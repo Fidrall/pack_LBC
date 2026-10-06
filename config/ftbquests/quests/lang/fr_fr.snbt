@@ -648,10 +648,10 @@
 		"Les &n&6Coffres-forts&r&r sont de grands rangements accessibles uniquement par des entonnoirs, des trémies ou des appareils similaires." "" "On peut les assembler jusqu'à une taille de 3×3×9, pour stocker jusqu'à 103 680 objets."
 	]
 	quest.23A42BEFABC326B8.quest_desc: [
-		"Sous le Repaire des Rêves se cache une &eîle souterraine&r. Aventure-toi dessous !"
+		"Une &eforteresse en ruine&r de l'End, avec son butin rare."
 	]
-	quest.23A42BEFABC326B8.quest_subtitle: "Sous le Repaire des Rêves"
-	quest.23A42BEFABC326B8.title: "L'Île du Dessous"
+	quest.23A42BEFABC326B8.quest_subtitle: "Les structures de Moog"
+	quest.23A42BEFABC326B8.title: "La cour de l'Enderkeep"
 	quest.23A4406529BEF918.quest_desc: [
 		"Le &eCompost Organique&r posé au soleil se décompose en &3Terre Riche&r." "" "De l'eau ou des éléments décomposeurs comme des champignons à proximité accélèrent la décomposition."
 	]
@@ -877,10 +877,10 @@
 		"Transforme la &c&lChaleur&r&r en &drotation&r." "" "&l&eAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
 	quest.32049634B2771331.quest_desc: [
-		"Le &dRepaire des Rêves&r est un biome onirique de l'End, avec ses arbres de &epream&r et ses baies."
+		"Les restes d'un &edragon colossal&r gisent quelque part dans les îles extérieures. Un ancêtre du dragon de l'End ?"
 	]
-	quest.32049634B2771331.quest_subtitle: "End's Phantasm"
-	quest.32049634B2771331.title: "Le Repaire des Rêves"
+	quest.32049634B2771331.quest_subtitle: "Nullscape"
+	quest.32049634B2771331.title: "Le squelette de dragon"
 	quest.322078F5AA954906.quest_desc: [
 		"Utilise un &6Schéma et une Plume&r pour enregistrer une construction dans un fichier schéma." "" "Ces fichiers fonctionnent d'un monde à l'autre : tu peux construire en créatif et reconstruire en survie ou sur le serveur." "" "Les schémas enregistrés (dans le dossier 'schematics') peuvent être copiés sur des &eSchémas Vierges&r, pour être construits par un &3Schématicanon&r." "" "&6C'est aussi la meilleure façon de sauvegarder tes constructions en vue d'un futur changement de version du serveur !&r"
 	]
@@ -1047,9 +1047,9 @@
 	quest.3C7D9FC17EB00995.quest_subtitle: "Le seigneur du soleil"
 	quest.3C7D9FC17EB00995.title: "&e&lUmvuthi"
 	quest.3C873E6BA9E110A9.quest_desc: [
-		"Après le dragon, l'End s'ouvre… et il est bien différent de l'End vanilla :" "" "- &dNullscape&r sculpte les îles extérieures : falaises, arches, gouffres et &efailles&r spectaculaires ;" "- &dEnd's Phantasm&r ajoute de nouveaux biomes, créatures, minerais et outils ;" "- les structures de &eMoog&r, de Dungeons and Taverns et de Structory peuplent les îles." "" "N'oublie pas : c'est aussi là que se trouve la &epierre de l'End&r nécessaire à la &dlévitite&r des dirigeables !"
+		"Après le dragon, l'End s'ouvre… et il est bien différent de l'End vanilla :" "" "- &dNullscape&r sculpte les îles extérieures : falaises, arches, pics flottants et &efailles&r spectaculaires ;" "- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles." "" "N'oublie pas : c'est aussi là que se trouve la &epierre de l'End&r nécessaire à la &dlévitite&r des dirigeables !"
 	]
-	quest.3C873E6BA9E110A9.quest_subtitle: "Nullscape et End's Phantasm"
+	quest.3C873E6BA9E110A9.quest_subtitle: "Nullscape"
 	quest.3C873E6BA9E110A9.title: "&d&lUn End transformé"
 	quest.3CA26C2970F112AB.quest_desc: [
 		"Apparaît quand un réacteur fond ou quand on casse une Barre Nucléaire." "" "&6Attention :&r ce bloc est très radioactif. Il finit par faire fondre le sol jusqu'à la bedrock, en répandant des radiations sur son passage."
@@ -1451,10 +1451,10 @@
 	quest.53297F76E059AC9B.quest_subtitle: "Une trouvaille rare"
 	quest.53297F76E059AC9B.title: "La Pioche Brise-Labyrinthe"
 	quest.53660F533D9C497D.quest_desc: [
-		"Les &aAbysses Acides&r sont un biome dangereux de l'End. Garde tes distances avec l'acide !"
+		"Nullscape ajoute trois biomes aux îles extérieures :" "" "- les &7Void Barrens&r, terres désolées au bord du vide ;" "- les &8Shadowlands&r, plongées dans l'ombre ;" "- les &dCrystal Peaks&r, hérissés de pics cristallins." "" "Valide cette quête quand tu les as tous vus !"
 	]
-	quest.53660F533D9C497D.quest_subtitle: "Attention où tu marches"
-	quest.53660F533D9C497D.title: "Les Abysses Acides"
+	quest.53660F533D9C497D.quest_subtitle: "Désolation, ombres et cristaux"
+	quest.53660F533D9C497D.title: "Les nouveaux biomes"
 	quest.5391C1240C677127.quest_subtitle: "En amélioration : &6-5 % de temps de recharge"
 	quest.5399B06BD0D95CAE.quest_desc: [
 		"Le &cWarden&r est un boss terrifiant qui apparaît dans les Abîmes quand on déclenche trop de Hurleurs de Sculk." "" "Il est totalement aveugle : il ne te voit pas, mais te repère aux vibrations et aux bruits." "" "Courir, miner ou même ouvrir un coffre peut attirer son attention." "" "Pour ne pas être repéré, avance accroupi et lentement." "" "Dans les Abîmes, le silence, c'est la survie." "" "&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver une &eCité Antique&r.&r"
@@ -1483,10 +1483,10 @@
 	]
 	quest.5495DCB070D4777A.title: "&6Create: Connected&r"
 	quest.549A53036AB75BCE.quest_desc: [
-		"Descends la &eFaille Chorale&r, un gouffre de l'End. Ses flèches chorales charment les ennemis (à l'arc) ou créent une onde répulsive (à l'arbalète)."
+		"Un &evaisseau&r venu d'ailleurs s'est posé sur les îles de l'End. Qu'est-il venu chercher ?"
 	]
-	quest.549A53036AB75BCE.quest_subtitle: "Tout au fond"
-	quest.549A53036AB75BCE.title: "La Faille Chorale"
+	quest.549A53036AB75BCE.quest_subtitle: "Les structures de Moog"
+	quest.549A53036AB75BCE.title: "Le voyageur des étoiles"
 	quest.54DB86AEDE4EFD97.quest_desc: [
 		"Le minerai de &aChlorophyte&r n'apparaît que sous les &ajungles&r. Fais fondre les morceaux pour obtenir des lingots."
 	]
@@ -2102,10 +2102,10 @@
 	]
 	quest.75813E7A5E88D3B8.quest_subtitle: "En amélioration : &6+5 % de résistance aux sorts"
 	quest.76100542C15576F4.quest_desc: [
-		"Mine des &dÉclats de Cristal&r dans l'End. Ils servent à fabriquer les &eoutils cristallins&r, dont l'efficacité &aaugmente avec ton expérience&r."
+		"Une immense &efaille&r déchire les îles de l'End. Approche-toi du bord… prudemment."
 	]
-	quest.76100542C15576F4.quest_subtitle: "Des outils cristallins"
-	quest.76100542C15576F4.title: "Les cristaux de l'End"
+	quest.76100542C15576F4.quest_subtitle: "Nullscape"
+	quest.76100542C15576F4.title: "La faille"
 	quest.77245D69B2335CEB.quest_desc: [
 		"Le &5Vagabond du Vide&r, le &5Reclus&r et le &5Serviteur de l'Ender&r rôdent dans les îles extérieures de l'End." "" "Le Vagabond lâche de la &dPoussière d'étoile&r, nécessaire à l'&eOr cosmique&r."
 	]
@@ -2141,10 +2141,10 @@
 	quest.789180040016D6AA.quest_subtitle: "Create: Dragons Plus"
 	quest.789180040016D6AA.title: "Teintures liquides"
 	quest.78AFAA428C5BBF29.quest_desc: [
-		"Fabrique &etous les outils cristallins&r : épée, pioche, hache, pelle et houe."
+		"Récupère des &ecarapaces de shulker&r dans les Cités de l'End : de quoi fabriquer des &eboîtes de shulker&r, indispensables pour transporter ton inventaire."
 	]
-	quest.78AFAA428C5BBF29.quest_subtitle: "Tous les outils de cristal"
-	quest.78AFAA428C5BBF29.title: "La panoplie cristalline"
+	quest.78AFAA428C5BBF29.quest_subtitle: "De quoi faire des boîtes"
+	quest.78AFAA428C5BBF29.title: "Carapaces de shulker"
 	quest.78DFD8815E2AE291.quest_subtitle: "Ne disparaît pas quand on le mange : une source de nourriture infinie"
 	quest.78E34F3F9A19F275.quest_subtitle: "Te permet de respirer sous l'eau"
 	quest.7936CCA5490F1C60.quest_desc: [

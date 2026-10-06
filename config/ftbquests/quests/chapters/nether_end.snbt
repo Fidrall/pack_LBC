@@ -7,7 +7,7 @@
 		id: "minecraft:netherrack"
 	}
 	id: "7EFC62EFB68D7191"
-	order_index: 4
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -374,10 +374,9 @@
 			]
 			tasks: [
 				{
-					advancement: "phantasm:find_dreaming_den"
-					criterion: ""
 					id: "561A8B36D7351EF5"
-					type: "advancement"
+					structure: "nullscape:dragon_skeleton"
+					type: "structure"
 				}
 			]
 			x: 1.5d
@@ -401,10 +400,9 @@
 			]
 			tasks: [
 				{
-					advancement: "phantasm:get_crystal"
-					criterion: ""
 					id: "0AE8895BCE3D82FE"
-					type: "advancement"
+					structure: "nullscape:rift"
+					type: "structure"
 				}
 			]
 			x: 3d
@@ -428,10 +426,8 @@
 			]
 			tasks: [
 				{
-					advancement: "phantasm:find_acidburnt_abysses"
-					criterion: ""
 					id: "308CB1273F2A62FA"
-					type: "advancement"
+					type: "checkmark"
 				}
 			]
 			x: 4.5d
@@ -455,10 +451,9 @@
 			]
 			tasks: [
 				{
-					advancement: "phantasm:find_underisland"
-					criterion: ""
 					id: "533BBFAB9E557438"
-					type: "advancement"
+					structure: "mes:enderkeep_courtyard"
+					type: "structure"
 				}
 			]
 			x: 1.5d
@@ -482,10 +477,10 @@
 			]
 			tasks: [
 				{
-					advancement: "phantasm:get_crystal_tools"
-					criterion: ""
+					count: 4L
 					id: "7A85146AE314948E"
-					type: "advancement"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
 				}
 			]
 			x: 3d
@@ -509,10 +504,9 @@
 			]
 			tasks: [
 				{
-					advancement: "phantasm:find_choral_riff"
-					criterion: ""
 					id: "48C4572FF11EA578"
-					type: "advancement"
+					structure: "mes:starlight_voyager"
+					type: "structure"
 				}
 			]
 			x: 4.5d

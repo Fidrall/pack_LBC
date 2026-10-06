@@ -71,45 +71,50 @@ quest.12A0A5DACE8A7479.quest_desc: [
 ]
 task.449AD8FC65D63BE4.title: "Le Nether est à moi"
 quest.3C873E6BA9E110A9.title: "&d&lUn End transformé"
-quest.3C873E6BA9E110A9.quest_subtitle: "Nullscape et End's Phantasm"
+quest.3C873E6BA9E110A9.quest_subtitle: "Nullscape"
 quest.3C873E6BA9E110A9.quest_desc: [
   "Après le dragon, l'End s'ouvre… et il est bien différent de l'End vanilla :"
   ""
-  "- &dNullscape&r sculpte les îles extérieures : falaises, arches, gouffres et &efailles&r spectaculaires ;"
-  "- &dEnd's Phantasm&r ajoute de nouveaux biomes, créatures, minerais et outils ;"
-  "- les structures de &eMoog&r, de Dungeons and Taverns et de Structory peuplent les îles."
+  "- &dNullscape&r sculpte les îles extérieures : falaises, arches, pics flottants et &efailles&r spectaculaires ;"
+  "- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles."
   ""
   "N'oublie pas : c'est aussi là que se trouve la &epierre de l'End&r nécessaire à la &dlévitite&r des dirigeables !"
 ]
-quest.32049634B2771331.title: "Le Repaire des Rêves"
-quest.32049634B2771331.quest_subtitle: "End's Phantasm"
+quest.32049634B2771331.title: "Le squelette de dragon"
+quest.32049634B2771331.quest_subtitle: "Nullscape"
 quest.32049634B2771331.quest_desc: [
-  "Le &dRepaire des Rêves&r est un biome onirique de l'End, avec ses arbres de &epream&r et ses baies."
+  "Les restes d'un &edragon colossal&r gisent quelque part dans les îles extérieures. Un ancêtre du dragon de l'End ?"
 ]
-quest.76100542C15576F4.title: "Les cristaux de l'End"
-quest.76100542C15576F4.quest_subtitle: "Des outils cristallins"
+quest.76100542C15576F4.title: "La faille"
+quest.76100542C15576F4.quest_subtitle: "Nullscape"
 quest.76100542C15576F4.quest_desc: [
-  "Mine des &dÉclats de Cristal&r dans l'End. Ils servent à fabriquer les &eoutils cristallins&r, dont l'efficacité &aaugmente avec ton expérience&r."
+  "Une immense &efaille&r déchire les îles de l'End. Approche-toi du bord… prudemment."
 ]
-quest.53660F533D9C497D.title: "Les Abysses Acides"
-quest.53660F533D9C497D.quest_subtitle: "Attention où tu marches"
+quest.53660F533D9C497D.title: "Les nouveaux biomes"
+quest.53660F533D9C497D.quest_subtitle: "Désolation, ombres et cristaux"
 quest.53660F533D9C497D.quest_desc: [
-  "Les &aAbysses Acides&r sont un biome dangereux de l'End. Garde tes distances avec l'acide !"
+  "Nullscape ajoute trois biomes aux îles extérieures :"
+  ""
+  "- les &7Void Barrens&r, terres désolées au bord du vide ;"
+  "- les &8Shadowlands&r, plongées dans l'ombre ;"
+  "- les &dCrystal Peaks&r, hérissés de pics cristallins."
+  ""
+  "Valide cette quête quand tu les as tous vus !"
 ]
-quest.23A42BEFABC326B8.title: "L'Île du Dessous"
-quest.23A42BEFABC326B8.quest_subtitle: "Sous le Repaire des Rêves"
+quest.23A42BEFABC326B8.title: "La cour de l'Enderkeep"
+quest.23A42BEFABC326B8.quest_subtitle: "Les structures de Moog"
 quest.23A42BEFABC326B8.quest_desc: [
-  "Sous le Repaire des Rêves se cache une &eîle souterraine&r. Aventure-toi dessous !"
+  "Une &eforteresse en ruine&r de l'End, avec son butin rare."
 ]
-quest.78AFAA428C5BBF29.title: "La panoplie cristalline"
-quest.78AFAA428C5BBF29.quest_subtitle: "Tous les outils de cristal"
+quest.78AFAA428C5BBF29.title: "Carapaces de shulker"
+quest.78AFAA428C5BBF29.quest_subtitle: "De quoi faire des boîtes"
 quest.78AFAA428C5BBF29.quest_desc: [
-  "Fabrique &etous les outils cristallins&r : épée, pioche, hache, pelle et houe."
+  "Récupère des &ecarapaces de shulker&r dans les Cités de l'End : de quoi fabriquer des &eboîtes de shulker&r, indispensables pour transporter ton inventaire."
 ]
-quest.549A53036AB75BCE.title: "La Faille Chorale"
-quest.549A53036AB75BCE.quest_subtitle: "Tout au fond"
+quest.549A53036AB75BCE.title: "Le voyageur des étoiles"
+quest.549A53036AB75BCE.quest_subtitle: "Les structures de Moog"
 quest.549A53036AB75BCE.quest_desc: [
-  "Descends la &eFaille Chorale&r, un gouffre de l'End. Ses flèches chorales charment les ennemis (à l'arc) ou créent une onde répulsive (à l'arbalète)."
+  "Un &evaisseau&r venu d'ailleurs s'est posé sur les îles de l'End. Qu'est-il venu chercher ?"
 ]
 quest.699D3019400A5563.title: "Une Cité de l'End"
 quest.699D3019400A5563.quest_subtitle: "Et ses élytres"

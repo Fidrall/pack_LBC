@@ -190,7 +190,7 @@ hash = "730b04121331705ea7bf278c41fd008eb463fea969b3696cbfa16ea3a4d5ca3b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
-hash = "3b441b24494ccb73c5f75428626bcdb591b220e2e824ecd2efaf91760d7ea949"
+hash = "2882423e911eefb7edc111cc201371c6a9c24808d919f5cbc532681898526647"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/new_age.snbt"
@@ -222,7 +222,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "b07b9bb9223836f22bca2132bc7cff997cdaaf517737dc0f0a5a3a4be69dbe52"
+hash = "1e208f65002df5aeab55c105606ab2e386d4fa637700236ffe57a5f9d4c91b3e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -2493,10 +2493,6 @@ file = "config/petting-common.toml"
 hash = "8a66e38937c7f23aaa4cfc3f64859f68b80cebd5288782c70a165dfb843b4a9d"
 
 [[files]]
-file = "config/phantasm.json"
-hash = "0257c15307e9f0ddc8c72a2ed2d2078440d57052a8e8d854023974b5251145aa"
-
-[[files]]
 file = "config/solcarrot-server.toml"
 hash = "6183ed5338184f36dcd6a55374b37ae6d0545cc9b6b87e80a190491cb3ff52cd"
 
@@ -3033,11 +3029,6 @@ metafile = true
 [[files]]
 file = "mods/endrem.pw.toml"
 hash = "6dd4279732a12967444e2e45842cdd99f4964cd1c43a7d24311862540c9c6476"
-metafile = true
-
-[[files]]
-file = "mods/ends-phantasm.pw.toml"
-hash = "e99bc192266affa7203e3536f96a9a584e2fb348a20d780a7c0afcb60623fa7d"
 metafile = true
 
 [[files]]
