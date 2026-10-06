@@ -165,7 +165,7 @@
     "generateIceDragonCaveChance": 0.5,
     "generateIceDragonRoostChance": 0.05,
     "generateLightningDragonCaveChance": 0.5,
-    "generateLightningDragonRoostChance": 0.5,
+    "generateLightningDragonRoostChance": 0.05,
     "generateCyclopsCaveChance": 0.5,
     "generateGorgonTempleChance": 0.5,
     "generateGraveYardChance": 0.5,
