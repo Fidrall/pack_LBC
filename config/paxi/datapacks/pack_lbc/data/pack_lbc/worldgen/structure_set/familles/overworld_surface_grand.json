@@ -2,307 +2,307 @@
     "structures":  [
                        {
                            "structure":  "born_in_chaos_v1:clown_caravan_plains",
-                           "weight":  119424
+                           "weight":  36
                        },
                        {
                            "structure":  "born_in_chaos_v1:clown_caravan_savanna",
-                           "weight":  14928
+                           "weight":  16
                        },
                        {
                            "structure":  "born_in_chaos_v1:clown_caravan_taiga",
-                           "weight":  8531
+                           "weight":  20
                        },
                        {
                            "structure":  "born_in_chaos_v1:dark_tower_forest",
-                           "weight":  6635
+                           "weight":  23
                        },
                        {
                            "structure":  "born_in_chaos_v1:dark_tower_plain",
-                           "weight":  29856
+                           "weight":  18
                        },
                        {
                            "structure":  "born_in_chaos_v1:dark_tower_taiga",
-                           "weight":  8531
+                           "weight":  23
                        },
                        {
                            "structure":  "born_in_chaos_v1:farm",
-                           "weight":  29856
+                           "weight":  31
                        },
                        {
                            "structure":  "born_in_chaos_v1:firewell",
-                           "weight":  964
+                           "weight":  31
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_2_dling",
-                           "weight":  59712
+                           "weight":  14
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_2003wise",
-                           "weight":  119424
+                           "weight":  36
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_darktitan",
-                           "weight":  39808
+                           "weight":  12
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_derivas",
-                           "weight":  119424
+                           "weight":  27
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_euthymia",
-                           "weight":  119424
+                           "weight":  36
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_feral",
-                           "weight":  119424
+                           "weight":  28
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_fubuki_banzai",
-                           "weight":  119424
+                           "weight":  18
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_memesus",
-                           "weight":  59712
+                           "weight":  13
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_mike_and_rory",
-                           "weight":  119424
+                           "weight":  27
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_nino_4416",
-                           "weight":  119424
+                           "weight":  19
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_orion",
-                           "weight":  59712
+                           "weight":  13
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_petasi",
-                           "weight":  59712
+                           "weight":  16
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_plug",
-                           "weight":  119424
+                           "weight":  36
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_rotborne",
-                           "weight":  119424
+                           "weight":  27
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_somfunambulist",
-                           "weight":  119424
+                           "weight":  27
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_tem_187",
-                           "weight":  59712
+                           "weight":  13
                        },
                        {
                            "structure":  "born_in_chaos_v1:grave_the_gentleman_frog",
-                           "weight":  119424
+                           "weight":  31
                        },
                        {
                            "structure":  "born_in_chaos_v1:gravecarrionexe",
-                           "weight":  119424
+                           "weight":  28
                        },
                        {
                            "structure":  "born_in_chaos_v1:observation_tower_forest",
-                           "weight":  6635
+                           "weight":  31
                        },
                        {
                            "structure":  "born_in_chaos_v1:observation_tower_plains",
-                           "weight":  119424
+                           "weight":  36
                        },
                        {
                            "structure":  "create_structures_arise:chocolate_pit",
-                           "weight":  964
+                           "weight":  8
                        },
                        {
                            "structure":  "create_structures_arise:create_copper_statue",
-                           "weight":  964
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:create_ruined_castle",
-                           "weight":  964
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:createairdrop",
-                           "weight":  836
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:createcontainer",
-                           "weight":  964
+                           "weight":  9
                        },
                        {
                            "structure":  "create_structures_arise:createcushercrane",
-                           "weight":  964
+                           "weight":  9
                        },
                        {
                            "structure":  "create_structures_arise:createdesertwell",
-                           "weight":  59712
+                           "weight":  14
                        },
                        {
                            "structure":  "create_structures_arise:createfluidtank",
-                           "weight":  964
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:createhouse",
-                           "weight":  964
+                           "weight":  9
                        },
                        {
                            "structure":  "create_structures_arise:createlittleman",
-                           "weight":  964
+                           "weight":  9
                        },
                        {
                            "structure":  "create_structures_arise:createlosttrainstation",
-                           "weight":  964
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:createminiskyvillage",
-                           "weight":  964
+                           "weight":  9
                        },
                        {
                            "structure":  "create_structures_arise:createmonsterroom",
-                           "weight":  836
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:createoldruine",
-                           "weight":  964
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:createpickaxestatue",
-                           "weight":  964
+                           "weight":  16
                        },
                        {
                            "structure":  "create_structures_arise:createwitchhut",
-                           "weight":  119424
+                           "weight":  19
                        },
                        {
                            "structure":  "create_structures_arise:crimsite_tower",
-                           "weight":  964
+                           "weight":  6
                        },
                        {
                            "structure":  "create_structures_arise:honey_pit",
-                           "weight":  964
+                           "weight":  8
                        },
                        {
                            "structure":  "create_structures_arise:minetrain",
-                           "weight":  964
+                           "weight":  13
                        },
                        {
                            "structure":  "create_structures_arise:pillagersteampunkairship",
-                           "weight":  836
+                           "weight":  6
                        },
                        {
                            "structure":  "create_structures_arise:towerofochrum",
-                           "weight":  964
+                           "weight":  4
                        },
                        {
                            "structure":  "create_structures_arise:windmill",
-                           "weight":  964
+                           "weight":  16
                        },
                        {
                            "structure":  "farmers_structures:aquacultures_beach",
-                           "weight":  39808
+                           "weight":  31
                        },
                        {
                            "structure":  "farmers_structures:aquacultures_cod",
-                           "weight":  5687
+                           "weight":  21
                        },
                        {
                            "structure":  "farmers_structures:cacaos",
-                           "weight":  14928
+                           "weight":  31
                        },
                        {
                            "structure":  "farmers_structures:shepherd_farms",
-                           "weight":  11943
+                           "weight":  7
                        },
                        {
                            "structure":  "mvs:cartographer_tower",
-                           "weight":  836
+                           "weight":  19
                        },
                        {
                            "structure":  "mvs:cathedral",
-                           "weight":  836
+                           "weight":  12
                        },
                        {
                            "structure":  "mvs:crystal",
-                           "weight":  836
+                           "weight":  10
                        },
                        {
                            "structure":  "mvs:duck",
-                           "weight":  836
+                           "weight":  15
                        },
                        {
                            "structure":  "mvs:floating_islands",
-                           "weight":  836
+                           "weight":  7
                        },
                        {
                            "structure":  "mvs:jungle_tower",
-                           "weight":  14928
+                           "weight":  14
                        },
                        {
                            "structure":  "mvs:large_floating_island",
-                           "weight":  836
+                           "weight":  10
                        },
                        {
                            "structure":  "mvs:large_mushroom",
-                           "weight":  39808
+                           "weight":  13
                        },
                        {
                            "structure":  "mvs:mushroom_statue",
-                           "weight":  39808
+                           "weight":  15
                        },
                        {
                            "structure":  "mvs:mushroom_well",
-                           "weight":  39808
+                           "weight":  18
                        },
                        {
                            "structure":  "mvs:rare_well",
-                           "weight":  836
+                           "weight":  28
                        },
                        {
                            "structure":  "mvs:red_tower",
-                           "weight":  8531
+                           "weight":  22
                        },
                        {
                            "structure":  "mvs:ruined_beacon",
-                           "weight":  836
+                           "weight":  23
                        },
                        {
                            "structure":  "mvs:small_swamp_house",
-                           "weight":  29856
+                           "weight":  21
                        },
                        {
                            "structure":  "mvs:tree_monument",
-                           "weight":  836
+                           "weight":  22
                        },
                        {
                            "structure":  "philipsruins:ancient_crypt",
-                           "weight":  19904
+                           "weight":  20
                        },
                        {
                            "structure":  "philipsruins:field_stone_ruins",
-                           "weight":  14928
+                           "weight":  23
                        },
                        {
                            "structure":  "philipsruins:level_one_ruins",
-                           "weight":  14928
+                           "weight":  23
                        },
                        {
                            "structure":  "philipsruins:level_three_ruins",
-                           "weight":  14928
+                           "weight":  18
                        },
                        {
                            "structure":  "philipsruins:level_two_ruins",
-                           "weight":  14928
+                           "weight":  10
                        },
                        {
                            "structure":  "philipsruins:level_two_ruins_pool",
-                           "weight":  14928
+                           "weight":  10
                        },
                        {
                            "structure":  "philipsruins:rare_ruin",
-                           "weight":  59712
+                           "weight":  12
                        }
                    ],
     "placement":  {

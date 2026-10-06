@@ -489,6 +489,14 @@ file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woo
 hash = "f0d6e83769aefc74344659a047cd9dedd47d2d9300f70b6a633af8587d125b9a"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/mvs/worldgen/structure/floating_islands.json"
+hash = "ea5ba583a651e8126f19b66e9cc8142cd5065f5965b9cbf59fb2433b3b59c694"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/mvs/worldgen/structure/large_floating_island.json"
+hash = "6bf4289d13d121c1afb248eef8191120293c29131fd7bc948d9188abff556ca6"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "cd3b123ce60242654da7cad3bf5791d2031985fed5e73aab5c15fcb9175cc735"
 
@@ -2290,15 +2298,15 @@ hash = "d6407fb5bcb2cf5cddb89f545364d13c6713725ee62429a2386676ea1c721540"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_grand.json"
-hash = "fc07506157cce09ebd59d59af890089f5603982b44deff8671ee078a0704e00f"
+hash = "774aed57a8af31e51e94058524c72eb2104807c91139c36546b8d4fe13ccb3d7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "0312b52dd9447289a8176f99b322b13b4b29bcc76406341727f986aaf70dbca8"
+hash = "b6012faaf90d34441886310e179c85d2be4a324355057bcdb81453ee02d5ff10"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"
-hash = "f0b42952531626016c36cf8e1dd49e8dd629fcc97647f452aebbe5794d6e1ef2"
+hash = "be03cda2958b9aeaa7dff088a8129d1ee980233bd8a3cc049229c20825ded20f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_grand.json"
@@ -2306,7 +2314,7 @@ hash = "c3fbe2b378afcc9a284774a4beab229b2043c1696bda36ed5a15cd4bacfef0eb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_moyen.json"
-hash = "04fde3c9832f0e5b1079ab522f33e564f19859bb84002ead6f2d4bb8f39f55fd"
+hash = "78c275ea5f8fe0a4f83902cad1f6e49adbf4dacae4a08d0c71c68a3635dca18a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_petit.json"

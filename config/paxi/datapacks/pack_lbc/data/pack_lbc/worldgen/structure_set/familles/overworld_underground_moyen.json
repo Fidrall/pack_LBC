@@ -10,11 +10,11 @@
                        },
                        {
                            "structure":  "philipsruins:lost_soul_dungeon",
-                           "weight":  3
+                           "weight":  1
                        },
                        {
                            "structure":  "philipsruins:underground_structures",
-                           "weight":  3
+                           "weight":  1
                        }
                    ],
     "placement":  {

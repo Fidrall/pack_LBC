@@ -211,6 +211,9 @@ $famSpacing = @{
     end_petit = 10; end_moyen = 16; end_grand = 28
 }
 $fam = Import-Csv (Join-Path $PSScriptRoot 'data\structure_families.csv')
+# Ajustements manuels de frequence (multiplicateur du poids), conserves si le CSV est regenere
+$famFactor = @{ 'mvs:floating_islands' = 0.33; 'mvs:large_floating_island' = 0.33 }
+foreach ($r in $fam) { if ($famFactor.ContainsKey($r.structure)) { $r.weight = [Math]::Max(1, [Math]::Round([int]$r.weight * $famFactor[$r.structure])) } }
 foreach ($g in ($fam | Group-Object family)) {
     $sp = $famSpacing[$g.Name]; if (-not $sp) { throw "Famille sans espacement : $($g.Name)" }
     $salt = 0; foreach ($ch in $g.Name.ToCharArray()) { $salt = ($salt * 31 + [int]$ch) % 1000000007 }
@@ -227,6 +230,7 @@ foreach ($g in ($fam | Group-Object source_set)) {
 
 # ---------- 10. Ensembles hors familles resserres (objectif : >= 15 exemplaires attendus dans un rayon de 60 000 blocs) ----------
 # Copies figees des fichiers des mods avec spacing/separation reduits : scripts/data/structure_set_overrides/
+# (contient aussi les iles volantes de Moog's remontees : start_height 60 -> 95 blocs au-dessus du sol)
 # (a regenerer si ces mods sont mis a jour : scratchpad make_overrides.ps1).
 $ov = Join-Path $PSScriptRoot 'data\structure_set_overrides'
 foreach ($f in Get-ChildItem $ov -Recurse -File) {

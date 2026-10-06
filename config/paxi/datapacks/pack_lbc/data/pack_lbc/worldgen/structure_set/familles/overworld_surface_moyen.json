@@ -2,7 +2,7 @@
     "structures":  [
                        {
                            "structure":  "born_in_chaos_v1:grave_d_4rk_devil_x",
-                           "weight":  6
+                           "weight":  3
                        },
                        {
                            "structure":  "born_in_chaos_v1:infernal_pumpkin",
@@ -10,7 +10,7 @@
                        },
                        {
                            "structure":  "born_in_chaos_v1:mound_of_hounds",
-                           "weight":  6
+                           "weight":  4
                        },
                        {
                            "structure":  "explorify:farmstead",
