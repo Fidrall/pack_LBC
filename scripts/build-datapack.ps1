@@ -10,7 +10,7 @@ function W($rel, $obj) {
     New-Item -ItemType Directory -Force (Split-Path $p) | Out-Null
     [IO.File]::WriteAllText($p, ($obj | ConvertTo-Json -Depth 20), $enc)
 }
-W 'pack.mcmeta' @{ pack = @{ pack_format = 48; description = 'pack_LBC : recettes croisees (recyclage Create, magie, butin)' } }
+W 'pack.mcmeta' @{ pack = @{ pack_format = 48; description = 'Recettes et butin du pack' } }
 
 
 # ---------- 1. Recyclage d'equipement aux Roues de Broyage ----------

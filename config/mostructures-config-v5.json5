@@ -15,7 +15,7 @@
   //   Modifying these values can shift the chances a structure generates.
   //
   //   If you have any questions, please join my discord available in our CurseForge page.
-  // pack_LBC : grandes structures riches (phare, sphinx, pyramides, chateaux, usine) plus rares
+  // les grosses structures un peu plus rares
   "structureConfigEntries": {
     "villager_tower": {
       "activated": true,

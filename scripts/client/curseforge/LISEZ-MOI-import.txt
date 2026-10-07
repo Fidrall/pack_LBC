@@ -1,16 +1,13 @@
-pack_LBC - installation par import dans CurseForge
-==================================================
+Installer le pack sur CurseForge
 
-1. Dans CurseForge : Minecraft > "Creer un profil personnalise" (Create Custom Profile)
-   > lien "Importer" (Import) en haut de la fenetre > choisir le fichier pack_LBC-x.x.x-curseforge.zip.
-2. Attendre la fin de l'import (NeoForge 21.1.252 et tous les mods sont installes).
-3. Sur le profil : "..." > "Options du profil" (Profile Options) : memoire allouee 5 Go (5120 Mo)
-   si le PC a 8 Go de RAM.
-4. Jouer. Le premier demarrage prend 1 a 2 minutes.
+- Dans CurseForge, onglet Minecraft : "Creer un profil personnalise", puis "Importer" en haut,
+  et tu choisis le zip.
+- Ca installe tout seul NeoForge et les mods, laisse finir.
+- Avant de lancer : sur le profil, "..." > Options du profil, mets 5 Go de RAM
+  (pas plus si t'as 8 Go sur ton PC).
+- Le premier lancement est un peu long, c'est normal.
 
-Mise a jour : ce zip ne se met pas a jour tout seul. Pour une nouvelle version,
-supprimer l'ancien profil (ou en creer un nouveau) et importer le nouveau zip.
-Tes mondes solo sont dans le dossier "saves" du profil : les copier avant de supprimer.
+En jeu je te conseille distance de rendu 8-10 et pas de shaders, ca tourne mieux.
 
-Reglages conseilles (8 Go de RAM) : distance de rendu 8 a 10, pas de shaders,
-navigateur ferme pendant la partie.
+Quand il y aura une nouvelle version je t'enverrai un nouveau zip : tu le reimportes
+(pense a garder tes mondes solo du dossier "saves" si tu en as).

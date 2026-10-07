@@ -1,4 +1,3 @@
-# pack_LBC : modele par defaut de ServerCore 1.21.1 (docs/config/DEFAULT.md, branche ver/1.21.1), seule la section dynamic est modifiee.
 # The main configuration file for ServerCore.
 # Most of these settings can be reloaded without restarting using /servercore reload.
 
@@ -23,9 +22,7 @@ features:
 
 # Automatically modifies dynamic settings based on the server performance.
 dynamic:
-  # pack_LBC : profil moyen. Demarre a 10 (vue/simulation), monte jusqu'a 14/13 si le serveur va bien, descend a 8/7 s'il rame. Curseur = target-mspt (25 prudent, 30 moyen, 35-40 agressif).
-  # Baisse progressivement la charge quand le serveur rame (MSPT moyen > target-mspt), puis remonte.
-  # Ordre : distance de tick des chunks (pousse/apparitions lointaines), plafond de monstres, simulation, puis vue.
+  # vue/simulation : demarre a 10, monte a 14/13 si ca va, descend a 8/7 si ca rame (target-mspt = reglage)
   # Enables dynamic performance checks.
   enabled: true
   # The average MSPT to target.

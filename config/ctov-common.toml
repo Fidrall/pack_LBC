@@ -1,4 +1,4 @@
-# pack_LBC : villages CTOV plus grands en moyenne (petits 10 -> 2, moyens 4 -> 5, grands 1 -> 4)
+# plus de grands villages
 #Structure spawning
 [structures]
 	#Should CTOV small village generates?

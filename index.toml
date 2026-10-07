@@ -98,7 +98,7 @@ hash = "e4d5a42e7f12e8fe39d1be57f807e7eb647e0b43af6c8fdbfe1ace8587ce8652"
 
 [[files]]
 file = "config/ctov-common.toml"
-hash = "24d0a351edd2cd47ba8e86a1b6642dd6e7b0d8f3e6bb4a7ffa74e319b85c0b34"
+hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -258,7 +258,7 @@ hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 
 [[files]]
 file = "config/mostructures-config-v5.json5"
-hash = "a0870a5f73a366a2798799ba60469600868224ad238c0453be028696126b58d9"
+hash = "6b9634547cce8963657e5810c6808e5acbae4168a2a1da3c265a1eb069c62d2f"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
@@ -266,7 +266,7 @@ hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
 
 [[files]]
 file = "config/obscuria/ancient_remnants-common.toml"
-hash = "2fcd76f8cf61b8926980341402ba1b318d231c96035aaa32959f950e75ce2c35"
+hash = "859a1e0b5dcf49c6829a79a9882cee87c8807c1fe4efd2ff4417442c95799ca9"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/affix_loot_injection.json"
@@ -3162,7 +3162,7 @@ hash = "1ef70bd7db8a4e7dc0543405659febdf4a21ce505a75fe8589e6cf678fef5e41"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
-hash = "0e6e5acfc8880fb48770420ce00eec8aa05d2f30e9147585db1df5863e04acda"
+hash = "0803035171ec6be299fa24959347da02448086b90d056a504a0f0436bb7bb9b1"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/en_us.json"
@@ -3294,11 +3294,11 @@ hash = "8d6edbced68423d032a6880a5e2f11ba62f4894e0f9b681cbe0f51125395d547"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/pack.mcmeta"
-hash = "04b4c8c899bb07579f46dbe862815f694a23f9f6a9bc58263a02c818442ad37b"
+hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
 [[files]]
 file = "config/petting-common.toml"
-hash = "8a66e38937c7f23aaa4cfc3f64859f68b80cebd5288782c70a165dfb843b4a9d"
+hash = "450ec4be52d3f58b240f4a19d99576642dad4059f969f61a229e4bd9b1804af3"
 
 [[files]]
 file = "config/relics.yaml"
@@ -3390,7 +3390,7 @@ hash = "edff2c8d63f91806949a498ba5498d05f2a650cb504c697da25aa1a20d180ff3"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "f4d85c7217e79408b9926857e7de013f8e2d24a97b6c5855caf47f7c5ae5bede"
+hash = "97ef2e7684dcae692d7cd9511303e433f71c0538d9b6bc40754f7153a5c7b4f1"
 
 [[files]]
 file = "config/solcarrot-server.toml"

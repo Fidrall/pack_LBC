@@ -9,7 +9,7 @@ $old = "C:\Users\Antho\curseforge\minecraft\Instances\Create Chronicles The Endv
 $rp = Join-Path $root 'config\paxi\resourcepacks\pack_lbc_quests'
 $tex = "$rp\assets\pack_lbc\textures\quests"
 New-Item -ItemType Directory -Force $tex | Out-Null
-[IO.File]::WriteAllText("$rp\pack.mcmeta", '{ "pack": { "pack_format": 34, "description": "pack_LBC : images du livre de quetes" } }', $enc)
+[IO.File]::WriteAllText("$rp\pack.mcmeta", '{ "pack": { "pack_format": 34, "description": "Images des quetes" } }', $enc)
 
 $lang = [Snbt]::Parse([IO.File]::ReadAllText("$old\config\ftbquests\quests\lang\en_us.snbt"))
 $copied = @{}
