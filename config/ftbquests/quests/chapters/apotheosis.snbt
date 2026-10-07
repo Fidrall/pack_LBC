@@ -43,6 +43,201 @@
 			y: 0d
 		}
 		{
+			dependencies: ["35D99C7DB0EC998D"]
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "50488578EC9B00BB"
+			rewards: [
+				{
+					id: "1CDA82DADF73ED90"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:progression/frontier"
+					auto: "enabled"
+					criterion: ""
+					id: "2CAC551D5DDBDF31"
+					type: "advancement"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "448A0CE39E6A21F6"
+					type: "dimension"
+				}
+			]
+			x: -4.5d
+			y: 0d
+		}
+		{
+			dependencies: ["50488578EC9B00BB"]
+			id: "616968FEA10496D7"
+			optional: true
+			size: 0.75d
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "078E536BF076B64D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -6d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50488578EC9B00BB"]
+			id: "1AF2A5A8E3C8FA74"
+			optional: true
+			size: 0.75d
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					id: "685434628E1C1D31"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -6d
+			y: 2.25d
+		}
+		{
+			dependencies: ["50488578EC9B00BB"]
+			id: "398BF9760AEFEF27"
+			optional: true
+			size: 0.75d
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					id: "157E15CF887440CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -6d
+			y: 3d
+		}
+		{
+			dependencies: ["616968FEA10496D7", "1AF2A5A8E3C8FA74", "398BF9760AEFEF27"]
+			min_required_dependencies: 1
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "54BEC9ABC4791318"
+			rewards: [
+				{
+					id: "6EF4954DD03449EA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:progression/ascent"
+					auto: "enabled"
+					criterion: ""
+					id: "7021B1647C3F422B"
+					type: "advancement"
+				}
+			]
+			tasks: [
+				{
+					id: "037E9264B22BEBF4"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["54BEC9ABC4791318"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "13678DCF52726C40"
+			rewards: [
+				{
+					id: "78E0071659A157E1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:progression/summit"
+					auto: "enabled"
+					criterion: ""
+					id: "352B5E67C2DC5094"
+					type: "advancement"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "7C9EA746E6AE6642"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -4.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["13678DCF52726C40"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "08A13A68A77997FD"
+			rewards: [
+				{
+					id: "3471EC9B382CD162"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:progression/pinnacle"
+					auto: "enabled"
+					criterion: ""
+					id: "27B02F87CC843237"
+					type: "advancement"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "16F853B4CB2659C9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -4.5d
+			y: 5.25d
+		}
+		{
 			dependencies: ["6D43AA38D6FF1796"]
 			id: "696BB5F027653A7E"
 			rewards: [

@@ -17,11 +17,50 @@ quest.35D99C7DB0EC998D.quest_subtitle: "Ctrl + T"
 quest.35D99C7DB0EC998D.quest_desc: [
   "Apotheosis a des &6Niveaux du Monde&r : Havre, Frontière, Ascension, Sommet et Apogée. Ouvre le menu avec &aCtrl + T&r."
   ""
-  "Tu débloques les niveaux supérieurs en progressant. Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin."
+  "Tu débloques les niveaux supérieurs de deux façons : en portant un équipement complet (casque, plastron, jambières, bottes et arme) d'une certaine rareté, ou en terminant les &equêtes de palier&r juste à gauche."
   ""
-  "&cChaque joueur choisit son niveau.&r Mettez-vous d'accord en équipe avant de monter : un niveau trop haut peut vite devenir mortel !"
+  "Débloquer un niveau ne l'active pas : c'est toi qui choisis quand monter, dans le menu &aCtrl + T&r. Et tu peux &aredescendre&r à tout moment vers un niveau déjà débloqué."
+  ""
+  "Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin. &cChaque joueur choisit son niveau&r : mettez-vous d'accord en équipe avant de monter !"
 ]
 task.5DB129727B72195B.title: "Compris !"
+quest.50488578EC9B00BB.title: "&aNiveau : Frontière"
+quest.50488578EC9B00BB.quest_subtitle: "Entrer dans le Nether"
+quest.50488578EC9B00BB.quest_desc: [
+  "Ton premier pas dans le Nether prouve que tu es prêt à affronter un monde plus dangereux."
+  ""
+  "Récompense : le niveau &aFrontière&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r."
+  ""
+  "À partir de ce niveau, des &cEnvahisseurs&r (mini-boss d'Apotheosis) peuvent apparaître."
+]
+quest.616968FEA10496D7.title: "Vaincre la Naga"
+quest.616968FEA10496D7.quest_subtitle: "Un des premiers boss"
+quest.1AF2A5A8E3C8FA74.title: "Vaincre le Roi Mort"
+quest.1AF2A5A8E3C8FA74.quest_subtitle: "Un des premiers boss"
+quest.398BF9760AEFEF27.title: "Vaincre un Gardien Ancien"
+quest.398BF9760AEFEF27.quest_subtitle: "Un des premiers boss"
+quest.54BEC9ABC4791318.title: "&9Niveau : Ascension"
+quest.54BEC9ABC4791318.quest_subtitle: "Vaincre un premier boss"
+quest.54BEC9ABC4791318.quest_desc: [
+  "Tu as vaincu un premier boss (la &eNaga&r, le &eRoi Mort&r ou un &eGardien Ancien&r) : tu es prêt pour l'étape suivante."
+  ""
+  "Récompense : le niveau &9Ascension&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r."
+]
+task.037E9264B22BEBF4.title: "Débloquer Ascension"
+quest.13678DCF52726C40.title: "&5Niveau : Sommet"
+quest.13678DCF52726C40.quest_subtitle: "Vaincre le Wither"
+quest.13678DCF52726C40.quest_desc: [
+  "Le Wither est tombé. Le monde va devenir bien plus hostile… si tu le décides."
+  ""
+  "Récompense : le niveau &5Sommet&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r."
+]
+quest.08A13A68A77997FD.title: "&6&lNiveau : Apogée"
+quest.08A13A68A77997FD.quest_subtitle: "Vaincre l'Ender Dragon"
+quest.08A13A68A77997FD.quest_desc: [
+  "La fin de toutes choses… ou le vrai début. Le niveau &6Apogée&r est le plus dangereux, avec le meilleur butin."
+  ""
+  "Récompense : le niveau &6Apogée&r est &edébloqué&r, mais &cpas activé&r. Monte quand toute l'équipe est prête, avec &aCtrl + T&r. Tu peux toujours redescendre."
+]
 quest.696BB5F027653A7E.title: "La Table de Récupération"
 quest.696BB5F027653A7E.quest_subtitle: "Recycler l'équipement inutile"
 quest.696BB5F027653A7E.quest_desc: [

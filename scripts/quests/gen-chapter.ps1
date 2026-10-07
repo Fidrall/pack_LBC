@@ -51,6 +51,8 @@ foreach ($q in $Quests) {
   $ri = 0
   foreach ($r in @($q.give)) { if (-not $r) { continue }; $p = $r.Split('*'); $cnt = if ($p.Count -gt 1) { $p[1] } else { 1 }; if (-not $items.Contains($p[0])) { $warn += "recompense inconnue ($($q.k)): $($p[0])" }; $rw += "`t`t`t`t{`n`t`t`t`t`tcount: $cnt`n`t`t`t`t`tid: `"$(Id ($q.k + '#give' + $ri))`"`n`t`t`t`t`titem: {`n`t`t`t`t`t`tcount: 1`n`t`t`t`t`t`tid: `"$($p[0])`"`n`t`t`t`t`t}`n`t`t`t`t`ttype: `"item`"`n`t`t`t`t}"; $ri++ }
   if ($q.xp) { $rw += "`t`t`t`t{`n`t`t`t`t`tid: `"$(Id ($q.k + '#xp'))`"`n`t`t`t`t`ttype: `"xp`"`n`t`t`t`t`txp: $($q.xp)`n`t`t`t`t}" }
+  $ai = 0
+  foreach ($a in @($q.grantAdv)) { if (-not $a) { continue }; $rw += "`t`t`t`t{`n`t`t`t`t`tadvancement: `"$a`"`n`t`t`t`t`tauto: `"enabled`"`n`t`t`t`t`tcriterion: `"`"`n`t`t`t`t`tid: `"$(Id ($q.k + '#adv' + $ai))`"`n`t`t`t`t`ttype: `"advancement`"`n`t`t`t`t}"; $ai++ }
   if ($rw.Count) { [void]$sb.Append("`t`t`trewards: [`n" + ($rw -join "`n") + "`n`t`t`t]`n") }
   if ($q.shape) { [void]$sb.Append("`t`t`tshape: `"$($q.shape)`"`n") }
   if ($q.size) { [void]$sb.Append("`t`t`tsize: $(Num $q.size)`n") }

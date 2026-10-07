@@ -11,9 +11,40 @@ $Quests = @(
      t='Les Niveaux du Monde'; st='Ctrl + T'
      d=@('Apotheosis a des &6Niveaux du Monde&r : Havre, Frontière, Ascension, Sommet et Apogée. Ouvre le menu avec &aCtrl + T&r.',
          '',
-         'Tu débloques les niveaux supérieurs en progressant. Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin.',
+         'Tu débloques les niveaux supérieurs de deux façons : en portant un équipement complet (casque, plastron, jambières, bottes et arme) d''une certaine rareté, ou en terminant les &equêtes de palier&r juste à gauche.',
          '',
-         '&cChaque joueur choisit son niveau.&r Mettez-vous d''accord en équipe avant de monter : un niveau trop haut peut vite devenir mortel !') }
+         'Débloquer un niveau ne l''active pas : c''est toi qui choisis quand monter, dans le menu &aCtrl + T&r. Et tu peux &aredescendre&r à tout moment vers un niveau déjà débloqué.',
+         '',
+         'Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin. &cChaque joueur choisit son niveau&r : mettez-vous d''accord en équipe avant de monter !') }
+  # --- Echelle des niveaux du monde : debloque (succes Apotheosis) sans activer
+  @{ k='tier_frontier'; x=-4.5; y=0; deps=@('tiers'); tasks=@('dim:minecraft:the_nether'); icon='minecraft:netherrack'; grantAdv=@('apotheosis:progression/frontier'); crate='commune'
+     t='&aNiveau : Frontière'; st='Entrer dans le Nether'
+     d=@('Ton premier pas dans le Nether prouve que tu es prêt à affronter un monde plus dangereux.',
+         '',
+         'Récompense : le niveau &aFrontière&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r.',
+         '',
+         'À partir de ce niveau, des &cEnvahisseurs&r (mini-boss d''Apotheosis) peuvent apparaître.') }
+  @{ k='tier_boss_naga'; x=-6; y=1.5; deps=@('tier_frontier'); tasks=@('kill:twilightforest:naga'); size=0.75; optional=$true
+     t='Vaincre la Naga'; st='Un des premiers boss' }
+  @{ k='tier_boss_deadking'; x=-6; y=2.25; deps=@('tier_frontier'); tasks=@('kill:irons_spellbooks:dead_king'); size=0.75; optional=$true
+     t='Vaincre le Roi Mort'; st='Un des premiers boss' }
+  @{ k='tier_boss_elder'; x=-6; y=3; deps=@('tier_frontier'); tasks=@('kill:minecraft:elder_guardian'); size=0.75; optional=$true
+     t='Vaincre un Gardien Ancien'; st='Un des premiers boss' }
+  @{ k='tier_ascent'; x=-4.5; y=2.25; deps=@('tier_boss_naga','tier_boss_deadking','tier_boss_elder'); minDeps=1; tasks=@('@check'); checkTitle='Débloquer Ascension'; icon='minecraft:iron_sword'; grantAdv=@('apotheosis:progression/ascent'); crate='rare'
+     t='&9Niveau : Ascension'; st='Vaincre un premier boss'
+     d=@('Tu as vaincu un premier boss (la &eNaga&r, le &eRoi Mort&r ou un &eGardien Ancien&r) : tu es prêt pour l''étape suivante.',
+         '',
+         'Récompense : le niveau &9Ascension&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r.') }
+  @{ k='tier_summit'; x=-4.5; y=3.75; deps=@('tier_ascent'); tasks=@('kill:minecraft:wither'); icon='minecraft:wither_skeleton_skull'; grantAdv=@('apotheosis:progression/summit'); crate='epique'
+     t='&5Niveau : Sommet'; st='Vaincre le Wither'
+     d=@('Le Wither est tombé. Le monde va devenir bien plus hostile… si tu le décides.',
+         '',
+         'Récompense : le niveau &5Sommet&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r.') }
+  @{ k='tier_pinnacle'; x=-4.5; y=5.25; size=1.5; deps=@('tier_summit'); tasks=@('kill:minecraft:ender_dragon'); icon='minecraft:dragon_head'; grantAdv=@('apotheosis:progression/pinnacle'); crate='legendaire'
+     t='&6&lNiveau : Apogée'; st='Vaincre l''Ender Dragon'
+     d=@('La fin de toutes choses… ou le vrai début. Le niveau &6Apogée&r est le plus dangereux, avec le meilleur butin.',
+         '',
+         'Récompense : le niveau &6Apogée&r est &edébloqué&r, mais &cpas activé&r. Monte quand toute l''équipe est prête, avec &aCtrl + T&r. Tu peux toujours redescendre.') }
   @{ k='salvage'; x=0; y=1.5; deps=@('intro'); tasks=@('apotheosis:salvaging_table'); crate='commune'
      t='La Table de Récupération'; st='Recycler l''équipement inutile'
      d=@('Elle démonte les objets à affixes et les gemmes pour récupérer des &ematériaux de rareté&r (ferraille mystérieuse, tissu usé, éclats de cristal lumineux…) et de la &epoudre de gemme&r.',

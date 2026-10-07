@@ -394,6 +394,13 @@
 		"Tu peux rendre un portail permanent avec un &bCadre de Portail&r : pose le cadre et lance le sort de portail dessus. Les portails permanents peuvent être teints de différentes couleurs pour les reconnaître."
 	]
 	quest.0819B8A983F38919.title: "&l&5Astuces pour se téléporter&r&r"
+	quest.08A13A68A77997FD.quest_desc: [
+		"La fin de toutes choses… ou le vrai début. Le niveau &6Apogée&r est le plus dangereux, avec le meilleur butin."
+		""
+		"Récompense : le niveau &6Apogée&r est &edébloqué&r, mais &cpas activé&r. Monte quand toute l'équipe est prête, avec &aCtrl + T&r. Tu peux toujours redescendre."
+	]
+	quest.08A13A68A77997FD.quest_subtitle: "Vaincre l'Ender Dragon"
+	quest.08A13A68A77997FD.title: "&6&lNiveau : Apogée"
 	quest.08AA3590E20B7629.quest_desc: [
 		"Le &l&6Inverseur&r&r inverse le sens de rotation quand il reçoit un signal de redstone."
 	]
@@ -725,6 +732,13 @@
 		"Utilise l'&eInvocateur d'Âmes Cendreux&r dans l'arène pour invoquer le boss."
 	]
 	quest.135A70D16AC6511D.quest_subtitle: "Regarde dans JEI comment l'obtenir"
+	quest.13678DCF52726C40.quest_desc: [
+		"Le Wither est tombé. Le monde va devenir bien plus hostile… si tu le décides."
+		""
+		"Récompense : le niveau &5Sommet&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r."
+	]
+	quest.13678DCF52726C40.quest_subtitle: "Vaincre le Wither"
+	quest.13678DCF52726C40.title: "&5Niveau : Sommet"
 	quest.136F140D9A3ED036.quest_subtitle: "Augmente le recul de tes attaques"
 	quest.1370AA1D2E036600.quest_desc: [
 		"Le &cWildfire&r est un puissant blaze protégé par des boucliers, qui vit dans les &ebastions&r du Nether."
@@ -962,6 +976,8 @@
 		"La vitesse de minage dépend de la vitesse de la construction et de la dureté du bloc. Les dégâts aux créatures dépendent aussi de la vitesse."
 	]
 	quest.1ADACCB1A8BB9E7E.quest_subtitle: "Un steak infini"
+	quest.1AF2A5A8E3C8FA74.quest_subtitle: "Un des premiers boss"
+	quest.1AF2A5A8E3C8FA74.title: "Vaincre le Roi Mort"
 	quest.1B17D371E6E7C13A.quest_desc: [
 		"Avec une pioche &eToucher de soie&r, tu peux &arécupérer les générateurs de monstres&r trouvés dans les donjons."
 		""
@@ -1913,9 +1929,11 @@
 	quest.35D99C7DB0EC998D.quest_desc: [
 		"Apotheosis a des &6Niveaux du Monde&r : Havre, Frontière, Ascension, Sommet et Apogée. Ouvre le menu avec &aCtrl + T&r."
 		""
-		"Tu débloques les niveaux supérieurs en progressant. Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin."
+		"Tu débloques les niveaux supérieurs de deux façons : en portant un équipement complet (casque, plastron, jambières, bottes et arme) d'une certaine rareté, ou en terminant les &equêtes de palier&r juste à gauche."
 		""
-		"&cChaque joueur choisit son niveau.&r Mettez-vous d'accord en équipe avant de monter : un niveau trop haut peut vite devenir mortel !"
+		"Débloquer un niveau ne l'active pas : c'est toi qui choisis quand monter, dans le menu &aCtrl + T&r. Et tu peux &aredescendre&r à tout moment vers un niveau déjà débloqué."
+		""
+		"Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin. &cChaque joueur choisit son niveau&r : mettez-vous d'accord en équipe avant de monter !"
 	]
 	quest.35D99C7DB0EC998D.quest_subtitle: "Ctrl + T"
 	quest.35D99C7DB0EC998D.title: "Les Niveaux du Monde"
@@ -2045,6 +2063,8 @@
 		""
 		"Le &emode Tirer&r sert à la compatibilité avec les autres mods : il ne peut pas tirer l'électricité stockée dans un Énergiseur ou un Moteur."
 	]
+	quest.398BF9760AEFEF27.quest_subtitle: "Un des premiers boss"
+	quest.398BF9760AEFEF27.title: "Vaincre un Gardien Ancien"
 	quest.39AD4C222874D63F.quest_subtitle: "Allonge ton temps d'invincibilité après un coup (1 s)"
 	quest.39EC6249048B5DA9.quest_desc: [
 		"Après l'Ur-Ghast, les &fForêts Enneigées&r s'ouvrent. Le froid y est mortel tant que le boss n'est pas vaincu !"
@@ -2770,6 +2790,15 @@
 		"&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver une Pyramide Maudite.&r"
 	]
 	quest.5037AA2541E439E5.quest_subtitle: "&3☠ Niveau 6"
+	quest.50488578EC9B00BB.quest_desc: [
+		"Ton premier pas dans le Nether prouve que tu es prêt à affronter un monde plus dangereux."
+		""
+		"Récompense : le niveau &aFrontière&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r."
+		""
+		"À partir de ce niveau, des &cEnvahisseurs&r (mini-boss d'Apotheosis) peuvent apparaître."
+	]
+	quest.50488578EC9B00BB.quest_subtitle: "Entrer dans le Nether"
+	quest.50488578EC9B00BB.title: "&aNiveau : Frontière"
 	quest.5074B699E6B3FF0F.quest_desc: [
 		"Le &eSac de Couchage&r permet de dormir la nuit &asans changer ton point de réapparition&r : parfait en expédition."
 		""
@@ -2948,6 +2977,13 @@
 	]
 	quest.549A53036AB75BCE.quest_subtitle: "Les structures de Moog"
 	quest.549A53036AB75BCE.title: "Le voyageur des étoiles"
+	quest.54BEC9ABC4791318.quest_desc: [
+		"Tu as vaincu un premier boss (la &eNaga&r, le &eRoi Mort&r ou un &eGardien Ancien&r) : tu es prêt pour l'étape suivante."
+		""
+		"Récompense : le niveau &9Ascension&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r."
+	]
+	quest.54BEC9ABC4791318.quest_subtitle: "Vaincre un premier boss"
+	quest.54BEC9ABC4791318.title: "&9Niveau : Ascension"
 	quest.54DB86AEDE4EFD97.quest_desc: [
 		"Le minerai de &aChlorophyte&r n'apparaît que sous les &ajungles&r. Fais fondre les morceaux pour obtenir des lingots."
 	]
@@ -3315,6 +3351,8 @@
 		"Pour remplir un jetpack, mets-le dans ta seconde main (icône bouclier), sélectionne un seau d'eau ou de lave et appuie sur Q pour le lâcher : le jetpack se remplit. &aLe plus pratique reste le Réservoir de Carburant et le Réservoir de Remplissage.&r"
 	]
 	quest.61666195C2F437BA.title: "&6Jetpacks"
+	quest.616968FEA10496D7.quest_subtitle: "Un des premiers boss"
+	quest.616968FEA10496D7.title: "Vaincre la Naga"
 	quest.618051035B4E9316.quest_subtitle: "Pour les animaux"
 	quest.618051035B4E9316.title: "Os de compagnon"
 	quest.618CDE98123F2697.quest_desc: [
@@ -4612,6 +4650,7 @@
 	]
 	quest.E1E0000000000C04.quest_subtitle: "Une âme en peine"
 	task.0124D844524BF102.title: "J'ai faim !"
+	task.037E9264B22BEBF4.title: "Débloquer Ascension"
 	task.042595FDBE946369.title: "Mon dirigeable avance !"
 	task.06722F76DFA16584.title: "Clique pour valider"
 	task.081BD60DF609D838.title: "J'ai goûté à tout !"

@@ -130,7 +130,7 @@ hash = "a29905ece1ce5a368f53173beda598ba2d70fd9847fa09c5416282c5a543efe3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "f8bd77c127e0bc2f4f496a62ce9b09b1bc9a3e09adfa5e54d57ef14d1c4eb5e2"
+hash = "f7f5e4593f208a7a9c4004c9e4b552859e66308bf720d89427996e952626988c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
@@ -222,7 +222,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "a9c1f629019318c26571cc07c183824783272ea1bebcf91a03102fe1d876c641"
+hash = "4ee90bc7219f56175490f16e7fc6be90f0f4d7657361f1c5c7c9508656abe75b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
