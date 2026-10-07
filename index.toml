@@ -2333,6 +2333,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/destruction
 hash = "2c18ac786a1bde8f2795ebcaa836d849834c0e9662afa6bd3be8f55c7df7fa92"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/explorateur.json"
+hash = "930fc38604bc7f614aa52598bbbbb0308551d740df0fe378ab55f70b56890b7a"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/illager.json"
 hash = "6903adc76ec858c96d5c21b4165f28fd84734e59ad042fa1194c4522f343dfc1"
 
@@ -2566,7 +2570,7 @@ hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/coffres/sac_general.json"
-hash = "eee50321306566db00848f91ca0b75b5df849f182e0763db4a15029a40aef21a"
+hash = "78033df8a29bb6fbce715c7dd2db19de8b48e078294aaab6de9ff8d04b22498c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_boots.json"
@@ -3019,6 +3023,10 @@ hash = "9cdbcb8cb99d35422751d83d1812d50037f6cb950957fd5c9327faf1c965e0a7"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/destruction.json"
 hash = "bdda575b3727ee9d26c47bed7b3822ce2f206591d801e19eed165e5946296b52"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/explorateur.json"
+hash = "dc3a27da1bb36f97d4c8883cec5de9ccf8d297a1b73ae4388f5862d6c1db8fe1"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/illager.json"

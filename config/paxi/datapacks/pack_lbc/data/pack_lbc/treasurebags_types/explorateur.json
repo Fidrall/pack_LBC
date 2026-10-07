@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF5A4632",
+    "bag_overlay_color":  "#FF8FBF6A",
+    "bag_string_color":  "#FFD9C27A",
+    "display_name":  "Sac d\u0027explorateur",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/explorateur",
+    "rarity":  "rare",
+    "visible":  true
+}
