@@ -2334,7 +2334,7 @@ hash = "2c18ac786a1bde8f2795ebcaa836d849834c0e9662afa6bd3be8f55c7df7fa92"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/explorateur.json"
-hash = "930fc38604bc7f614aa52598bbbbb0308551d740df0fe378ab55f70b56890b7a"
+hash = "f14142c96e03f536c489af0ec2628482afaa17538c370204d91ad8d6937c85d0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/illager.json"

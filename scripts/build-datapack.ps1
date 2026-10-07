@@ -398,11 +398,12 @@ foreach ($f in $familles.Keys) {
 }
 # Sacs dans les coffres de structure : 1 % de chance, seulement dans les coffres interessants des structures standard
 # (score de butin 9 a 45 ; ni coffres banals, ni grandes structures / donjons / arenes deja riches).
-# Liste figee : scripts/data/coffres_sacs.csv (table, famille). Sac "explorateur" : 1 equipement a affixes (rare/epique) OU 1 relique (Relics, monte en niveau).
+# Liste figee : scripts/data/coffres_sacs.csv (table, famille). Sac "explorateur" : 1 equipement a affixes (80 % rare, 20 % epique) OU 1 relique, 50/50 (Relics, monte en niveau).
 $sacChance = 0.01
 W 'data/pack_lbc/treasurebags_types/explorateur.json' ([ordered]@{ bag_color = '#FF5A4632'; bag_overlay_color = '#FF8FBF6A'; bag_string_color = '#FFD9C27A'; display_name = "Sac d'explorateur"; drops_from_groups = @(); group = 'pack_lbc'; loot_table = 'pack_lbc:bags/explorateur'; rarity = 'rare'; visible = $true })
 $reliques = 'reflective_necklace', 'jellyfish_necklace', 'kinetic_belt', 'hunting_belt', 'springy_boot', 'roller_skate', 'cut_glass_boot', 'leafy_mantle', 'midnight_mantle', 'glitchy_mantle', 'ghostly_mantle', 'chorus_staff', 'piglin_mask', 'rider_flute', 'pet_bone', 'ring_of_the_seven_deadly_sins', 'sphere_of_self_sacrifice', 'clot_of_time', 'golden_tooth', 'chef_hat', 'experience_disperser', 'shield_of_retaliation'
-$explo = @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = $reliques.Count; rarities = @('apotheosis:rare', 'apotheosis:epic') }) + @($reliques | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = "relics:$_"; weight = 1 } })
+# Relique 50 % (22 x 5) / equipement 50 % (110) dont 80 % rare bleu (88) et 20 % epique violet (22)
+$explo = @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 88; rarities = @('apotheosis:rare') }, [ordered]@{ type = 'apotheosis:random_affix_item'; weight = 22; rarities = @('apotheosis:epic') }) + @($reliques | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = "relics:$_"; weight = 5 } })
 W 'data/pack_lbc/loot_table/bags/explorateur.json' ([ordered]@{ type = 'minecraft:gift'; pools = @([ordered]@{ rolls = 1; entries = $explo }) })
 foreach ($g in (Import-Csv (Join-Path $PSScriptRoot 'data\coffres_sacs.csv') | Group-Object famille)) {
     $ent = @([ordered]@{ type = 'minecraft:item'; name = 'treasurebags:treasure_bag'; functions = @([ordered]@{ function = 'treasurebags:set_bag_type'; bag_type = 'pack_lbc:explorateur' }) })
