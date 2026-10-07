@@ -1,0 +1,48 @@
+pack_LBC avec le launcher CurseForge
+=====================================
+
+Le pack n'est pas publie sur CurseForge : il s'installe et se met a jour
+avec le petit fichier maj-pack.bat fourni avec cette notice.
+
+
+PREMIERE INSTALLATION (une seule fois)
+--------------------------------------
+1. Dans CurseForge : Minecraft > "Creer un profil personnalise" (Create Custom Profile).
+     - Nom : pack_LBC
+     - Version de Minecraft : 1.21.1
+     - Mod loader : NeoForge, version 21.1.252 (choisir exactement celle-ci)
+2. Lance ce profil une premiere fois jusqu'au menu principal, puis ferme le jeu.
+   (CurseForge telecharge Java et prepare le dossier.)
+3. Sur le profil : clic sur les "..." > "Ouvrir le dossier" (Open Folder).
+4. Copie maj-pack.bat dans ce dossier (celui qui contient le dossier "mods").
+5. Double-clique sur maj-pack.bat : il installe tous les mods, configs et quetes.
+   Attends "Pack a jour", puis appuie sur une touche.
+6. Lance le profil depuis CurseForge. Le premier demarrage prend 1 a 2 minutes.
+
+
+AVANT CHAQUE SESSION
+--------------------
+Double-clique sur maj-pack.bat (quelques secondes s'il n'y a rien de nouveau),
+puis lance le profil depuis CurseForge.
+
+
+REGLAGES CONSEILLES (PC avec 8 Go de RAM)
+-----------------------------------------
+- CurseForge > Parametres (roue dentee) > Minecraft > Java Settings :
+  memoire allouee = 5 Go (5120 Mo). Pas plus, Windows a besoin du reste.
+- En jeu : Options > Video > distance de rendu 8 a 10, pas de shaders.
+- Fermer le navigateur pendant la partie.
+
+
+A EVITER
+--------
+- Ne pas ajouter, retirer ou mettre a jour des mods depuis CurseForge dans ce profil :
+  maj-pack.bat remettrait le pack dans son etat et ca pourrait creer des conflits.
+- Ne pas utiliser le bouton "Mettre a jour" / "Reparer" de CurseForge sur ce profil.
+
+
+EN CAS DE PROBLEME
+------------------
+- "Java introuvable" : refaire l'etape 2 (lancer une fois le profil), puis relancer le .bat.
+- Le jeu plante au demarrage : relancer maj-pack.bat, puis reessayer.
+- Sinon, envoyer une capture du message d'erreur.
