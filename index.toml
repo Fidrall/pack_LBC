@@ -3389,6 +3389,10 @@ file = "config/relics/relics/springy_boot.yaml"
 hash = "edff2c8d63f91806949a498ba5498d05f2a650cb504c697da25aa1a20d180ff3"
 
 [[files]]
+file = "config/servercore/config.yml"
+hash = "39ad43204b416869b6cd214c44a6f9e1574d86bffe81bbd2b969d1322734bcc1"
+
+[[files]]
 file = "config/solcarrot-server.toml"
 hash = "6183ed5338184f36dcd6a55374b37ae6d0545cc9b6b87e80a190491cb3ff52cd"
 
@@ -4429,6 +4433,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
 metafile = true
 
 [[files]]
