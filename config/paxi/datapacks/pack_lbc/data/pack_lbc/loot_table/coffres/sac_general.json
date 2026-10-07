@@ -1,0 +1,109 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:cataclysm"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:twilight"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:aether"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:arcane"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:chaos"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:mowzie"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:destruction"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:illager"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:legende"
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

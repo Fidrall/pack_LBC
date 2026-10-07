@@ -396,6 +396,18 @@ foreach ($f in $familles.Keys) {
         $glm += "pack_lbc:boss/${f}_t$t"
     }
 }
+# Sacs dans les coffres de structure : 1 % de chance, seulement dans les coffres interessants des structures standard
+# (score de butin 9 a 45 ; ni coffres banals, ni grandes structures / donjons / arenes deja riches).
+# Liste figee : scripts/data/coffres_sacs.csv (table, famille). Famille "general" = sac thematique tire au hasard.
+$sacChance = 0.01
+$sacBag = { param($f) [ordered]@{ type = 'minecraft:item'; name = 'treasurebags:treasure_bag'; weight = $(if ($f -eq 'legende') { 1 } else { 3 }); functions = @([ordered]@{ function = 'treasurebags:set_bag_type'; bag_type = "pack_lbc:$f" }) } }
+foreach ($g in (Import-Csv (Join-Path $PSScriptRoot 'data\coffres_sacs.csv') | Group-Object famille)) {
+    $ent = if ($g.Name -eq 'general') { @($familles.Keys | ForEach-Object { & $sacBag $_ }) } else { @(& $sacBag $g.Name) }
+    W "data/pack_lbc/loot_table/coffres/sac_$($g.Name).json" ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = $ent }) })
+    $terms = @($g.Group | ForEach-Object { [ordered]@{ condition = 'neoforge:loot_table_id'; loot_table_id = $_.table } })
+    W "data/pack_lbc/loot_modifiers/coffres/sac_$($g.Name).json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }, [ordered]@{ condition = 'minecraft:random_chance'; chance = $sacChance }); table = "pack_lbc:coffres/sac_$($g.Name)" })
+    $glm += "pack_lbc:coffres/sac_$($g.Name)"
+}
 W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $glm })
 
 # ---------- 15. Coffres Dungeons Arise reequilibres (tables figees dans scripts/data/loot_overrides) ----------

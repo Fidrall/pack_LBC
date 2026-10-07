@@ -1010,7 +1010,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "9111a85c324eff93e45ce805ff963fbad5cf640b78203b5b2bebc865282dcfc6"
+hash = "b1daafea09633dab637623856bef75ab928f735186423d0bdc6b132a4893ebb0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -2269,6 +2269,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twiligh
 hash = "e1eb4c170f236a976621c44903a248778194539b87539f2556e62dd05827df6a"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/sac_general.json"
+hash = "59272cf2f2cb55cc4345d87172bfb09b96ef7532d46f4f55de8e03187ea2b0d4"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_armorer.json"
 hash = "db103a5563d670988367925c76626c405c2a285ed74a30239ca271a0f5cc5ba1"
 
@@ -2559,6 +2563,10 @@ hash = "806e07145ceb23b336bc27c293baaa755b3cba1a65865ac6224e85f9367c9b7a"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
 hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/coffres/sac_general.json"
+hash = "eee50321306566db00848f91ca0b75b5df849f182e0763db4a15029a40aef21a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_boots.json"
