@@ -71,6 +71,8 @@ foreach ($d in "config", "defaultconfigs") {
 $srv = Join-Path $PSScriptRoot "server"
 Copy-Item (Join-Path $srv "server.properties") $out -Force
 Copy-Item (Join-Path $srv "user_jvm_args.txt") $out -Force
+# Configs propres au serveur (ex. c2me.toml regle pour 3 coeurs), non envoyees aux clients
+if (Test-Path (Join-Path $srv "config")) { Copy-Item (Join-Path $srv "config\*") (Join-Path $out "config") -Recurse -Force }
 
 $zip = Join-Path $root "build\pack_LBC-server.zip"
 if (Test-Path $zip) { Remove-Item $zip }

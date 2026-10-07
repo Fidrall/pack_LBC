@@ -23,18 +23,21 @@ features:
 
 # Automatically modifies dynamic settings based on the server performance.
 dynamic:
-  # pack_LBC : active. Baisse progressivement la charge quand le serveur rame (MSPT moyen > 35 ms), puis remonte.
+  # pack_LBC : profil moyen. Demarre a 10 (vue/simulation), monte jusqu'a 14/13 si le serveur va bien, descend a 8/7 s'il rame. Curseur = target-mspt (25 prudent, 30 moyen, 35-40 agressif).
+  # Baisse progressivement la charge quand le serveur rame (MSPT moyen > target-mspt), puis remonte.
   # Ordre : distance de tick des chunks (pousse/apparitions lointaines), plafond de monstres, simulation, puis vue.
   # Enables dynamic performance checks.
   enabled: true
   # The average MSPT to target.
-  target-mspt: 35
+  target-mspt: 30
   # The default values for dynamic settings.
   # If left unspecified, the maximum value will be used.
   # Note: adding view / simulation distance here will override their value in server.properties.
   default-values:
     MOBCAP_PERCENTAGE: 100
-    CHUNK_TICK_DISTANCE: 13
+    CHUNK_TICK_DISTANCE: 10
+    SIMULATION_DISTANCE: 10
+    VIEW_DISTANCE: 10
 
   # The settings that will be decreased when the server is overloaded, in the specified order.
   # You can remove settings from the list that you don't want to be dynamically adjusted.

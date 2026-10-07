@@ -3390,7 +3390,7 @@ hash = "edff2c8d63f91806949a498ba5498d05f2a650cb504c697da25aa1a20d180ff3"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "39ad43204b416869b6cd214c44a6f9e1574d86bffe81bbd2b969d1322734bcc1"
+hash = "f4d85c7217e79408b9926857e7de013f8e2d24a97b6c5855caf47f7c5ae5bede"
 
 [[files]]
 file = "config/solcarrot-server.toml"
@@ -3608,6 +3608,11 @@ metafile = true
 [[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "74143850a12b0f9daf3ef2c503e61141319f3715a48a2fde53bc31b3c9719788"
+metafile = true
+
+[[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
 metafile = true
 
 [[files]]
