@@ -242,7 +242,7 @@ hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
 
 [[files]]
 file = "config/iceandfire/iaf-common.json"
-hash = "b2022dc3d13d50019ce646059672443c41d2257a3be903b2339832139cf4efc0"
+hash = "44c561bc48ddf9d1ea2b33c2a5bfee2048cc21adf1f16d3a67e6420fdd61603b"
 
 [[files]]
 file = "config/incontrol/spawn.json"

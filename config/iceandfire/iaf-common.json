@@ -9,7 +9,7 @@
     "generate.skeletonChance": 0.0033333333333333335,
     "generate.denGoldAmount": 0.25,
     "generate.oreRatio": 0.022222222222222223,
-    "griefing": true,
+    "griefing": false,
     "tamedGriefing": false,
     "flapNoiseDistance": 4,
     "fluteDistance": 8,
@@ -22,7 +22,7 @@
     "canHealFromBiting": false,
     "canDespawn": true,
     "sleep": true,
-    "digWhenStuck": true,
+    "digWhenStuck": false,
     "breakBlockCooldown": 5,
     "targetSearchLength": 128,
     "wanderFromHomeDistance": 40,
@@ -56,7 +56,7 @@
     "maxHealth": 188.0,
     "attackDamage": 17.0,
     "biteDamage": 46.0,
-    "griefing": true
+    "griefing": false
   },
   "siren": {
     "maxHealth": 50.0,
@@ -108,7 +108,7 @@
   },
   "seaSerpent": {
     "spawnChance": 0.004,
-    "griefing": true,
+    "griefing": false,
     "baseHealth": 25.0,
     "attackDamage": 4.0
   },
