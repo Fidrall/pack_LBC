@@ -1,12 +1,11 @@
-# pack_LBC - offre MineStrator 12 Go : on laisse ~2 Go au systeme
--Xms6G
--Xmx10G
+# pack_LBC - offre MineStrator 12 Go. Memoire reellement utilisee ~2-4 Go : 8 Go max laisse une bonne marge au systeme.
+-Xms4G
+-Xmx8G
 -XX:+UseG1GC
 -XX:+ParallelRefProcEnabled
 -XX:MaxGCPauseMillis=200
 -XX:+UnlockExperimentalVMOptions
 -XX:+DisableExplicitGC
--XX:+AlwaysPreTouch
 -XX:G1NewSizePercent=30
 -XX:G1MaxNewSizePercent=40
 -XX:G1HeapRegionSize=8M
@@ -19,3 +18,5 @@
 -XX:SurvivorRatio=32
 -XX:+PerfDisableSharedMem
 -XX:MaxTenuringThreshold=1
+# rend au systeme la memoire inutilisee quand le serveur est au calme (verif toutes les 5 min)
+-XX:G1PeriodicGCInterval=300000
