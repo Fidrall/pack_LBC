@@ -4336,6 +4336,11 @@ hash = "dcfbfa39abeaba554c2c5323f9b9a3ec58dfc386aca2d237f73948abdbdc7125"
 metafile = true
 
 [[files]]
+file = "mods/old-glass-photograph.pw.toml"
+hash = "3ef0105de06a4e3556faa58c26cce095dfcb3e533000c8b064e7061de213c6ce"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
