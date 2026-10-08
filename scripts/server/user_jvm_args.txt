@@ -1,6 +1,6 @@
-# ATTENTION : MineStrator lance Java lui-meme (java -Xms128M -Xmx<90% de l'offre> ...) et ce fichier est NON LU.
-# Regler la memoire et les arguments Java dans le panel MineStrator. Valeurs conseillees : Xmx 8 Go + -XX:G1PeriodicGCInterval=300000
-# pack_LBC - offre MineStrator 12 Go. Memoire reellement utilisee ~2-4 Go : 8 Go max laisse une bonne marge au systeme.
+# pack_LBC - arguments Java du serveur (offre MineStrator 12 Go, memoire reellement utilisee 2 a 4 Go)
+# MineStrator ne lit ce fichier que si la commande de demarrage est personnalisee :
+#   java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.252/unix_args.txt nogui
 -Xms4G
 -Xmx8G
 -XX:+UseG1GC
