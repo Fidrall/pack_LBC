@@ -3451,6 +3451,11 @@ hash = "55c8aefec97caf982304d74c1e7b5e0bc45b34da5be45afe9a1c9e23cfd144b3"
 metafile = true
 
 [[files]]
+file = "mods/aeronautics-wind-sound.pw.toml"
+hash = "980a23bd1d06f53cf9c912293cf0a9233c06c729d586c4e38fab26b6f4c125b7"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
