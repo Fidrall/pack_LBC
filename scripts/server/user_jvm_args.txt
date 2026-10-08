@@ -1,3 +1,5 @@
+# ATTENTION : MineStrator lance Java lui-meme (java -Xms128M -Xmx<90% de l'offre> ...) et ce fichier est NON LU.
+# Regler la memoire et les arguments Java dans le panel MineStrator. Valeurs conseillees : Xmx 8 Go + -XX:G1PeriodicGCInterval=300000
 # pack_LBC - offre MineStrator 12 Go. Memoire reellement utilisee ~2-4 Go : 8 Go max laisse une bonne marge au systeme.
 -Xms4G
 -Xmx8G
