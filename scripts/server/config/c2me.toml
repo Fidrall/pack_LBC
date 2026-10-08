@@ -1,4 +1,4 @@
-# pack_LBC : config SERVEUR uniquement (copiee par scripts/build-server.ps1). Offre MineStrator a 3 coeurs : 2 threads C2ME, 1 pour le thread principal.
+# pack_LBC : config SERVEUR uniquement (copiee par scripts/build-server.ps1). Le serveur MineStrator detecte 5 processeurs : 4 threads C2ME, 1 garde pour le thread principal.
 version = 3
 # ================================================================
 # (Default: 
@@ -51,7 +51,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 threadPoolPriorityPreset = "default"
 # ================================================================
 # (Default: 7) Configures the parallelism of global executor
-globalExecutorParallelism = 2
+globalExecutorParallelism = 4
 
 [fixes]
 	# ================================================================
