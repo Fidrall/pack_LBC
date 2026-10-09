@@ -13,7 +13,7 @@
 [mob-spawning]
 	#Cave Creatures (All dinosaurs, raycats, etc) spawn at this frequency.
 	# Default: 1.75
-	cave_creature_spawn_count_modifier = 1.0
+	cave_creature_spawn_count_modifier = 1.5
 
 [mob-behavior]
 	#How many cpu cores big mobs(tremorzilla, atlatitan, grottoceratops etc) should utilize when pathing.
