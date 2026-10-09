@@ -4003,6 +4003,14 @@
                        {
                            "name":  "trek:monster_room/upper/oak",
                            "is_disabled":  true
+                       },
+                       {
+                           "name":  "towns_and_towers:exclusives/village_swedish",
+                           "is_disabled":  true
+                       },
+                       {
+                           "name":  "towns_and_towers:exclusives/village_wandering_trader_camp",
+                           "is_disabled":  true
                        }
                    ]
 }

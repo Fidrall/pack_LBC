@@ -26,15 +26,15 @@ quest.23BCCDEE0FB841DD.quest_subtitle: "Trouver n'importe quel biome"
 quest.23BCCDEE0FB841DD.quest_desc: [
   "La &eBoussole de la Nature&r fait la même chose pour les &abiomes&r. Pratique pour trouver un biome précis de Terralith, une jungle, un désert…"
 ]
-quest.4BD538342D7EAFE9.title: "La carte JourneyMap"
+quest.4BD538342D7EAFE9.title: "La carte FTB Chunks"
 quest.4BD538342D7EAFE9.quest_subtitle: "Ne jamais se perdre"
 quest.4BD538342D7EAFE9.quest_desc: [
-  "&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. Ouvre la grande carte avec &6J&r."
+  "&eFTB Chunks&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite, la grande carte s'ouvre avec &6M&r."
   ""
-  "- Crée des &epoints de passage&r pour retenir tes découvertes."
+  "- Crée des &epoints de passage&r avec &6N&r pour retenir tes découvertes."
   "- Un point est créé automatiquement à &cchaque mort&r."
   ""
-  "&cAttention :&r par défaut, la touche de création de point de passage est &6B&r, comme celle du sac à dos. Change l'une des deux dans les options !"
+  "Depuis la grande carte, tu peux aussi &aprotéger tes chunks&r : personne d'autre ne pourra y casser ou poser des blocs."
 ]
 task.4D81C19520048110.title: "Clique pour valider"
 quest.3CECB75C777B8B2E.title: "Lootr : un butin pour chacun"
@@ -68,9 +68,9 @@ quest.1457CC01C1D455DD.quest_subtitle: "Ton corps t'attend"
 quest.1457CC01C1D455DD.quest_desc: [
   "Quand tu meurs, ton inventaire reste dans ton &ecorps&r, à l'endroit de ta mort. Retourne le chercher pour tout récupérer !"
   ""
-  "La touche &6J&r de Corpse (à vérifier dans les commandes si elle est en conflit avec JourneyMap) affiche l'historique de tes morts et leurs coordonnées."
+  "La touche &6J&r affiche l'historique de tes morts et leurs coordonnées."
   ""
-  "&7Le point de passage de mort de JourneyMap aide aussi à retrouver ton corps."
+  "&7Le point de passage de mort de FTB Chunks aide aussi à retrouver ton corps."
 ]
 task.29E9412E46C50D93.title: "Compris !"
 quest.13384C6B8C1B2D60.title: "Le Tome Akashique"

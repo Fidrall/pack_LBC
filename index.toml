@@ -101,12 +101,16 @@ file = "config/create_enchantment_industry-server.toml"
 hash = "e4d5a42e7f12e8fe39d1be57f807e7eb647e0b43af6c8fdbfe1ace8587ce8652"
 
 [[files]]
+file = "config/create_submarine-client.toml"
+hash = "7159c4254c85b5b8eae3b690e3c5fe54ed2891ed848c080d9f0243d721c01a4e"
+
+[[files]]
 file = "config/ctov-common.toml"
 hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "84d17af3347be9875094dbab7c7a9509d7623c6cd876aba2dc090b151db911f8"
+hash = "2c31c69efdedeb43956025c9a27c2d5ee06e5e1a4919119308c1f9ab7a383325"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -230,7 +234,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "d28c811475244ab3281f8951918b7c0188e4493b50bee71ff83cb8515853235e"
+hash = "56435cfd8895ec6ac3faa650de6fa126c18e15b60c150e029d8fc8685f216252"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -3402,7 +3406,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "ba1d4e509ff2306552765565429b41c50fdb37ed427b7908df1c3a9547dc4be1"
+hash = "1b93055638fec6399ca6756509a1f2a5bf02f18f430dd3db5bedbd3b456eae62"
 
 [[files]]
 file = "config/tectonic.json"
@@ -3418,7 +3422,7 @@ hash = "9cc16d6851b838c48c90e95b8c93ff79af1f50b65ce085360105175f590bf100"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "d25ee7c5a19491d9faf6ab9bf48afa4d05ef15183ac77906fbbd40da4312a7fe"
+hash = "8d5409f352ad5131c8999caab03820abedf49b43735c448bfb619cb0ef46e0bb"
 
 [[files]]
 file = "config/wyrmroost/common.toml"
@@ -3427,6 +3431,10 @@ hash = "e3856fb7b7ce7d89fb90e8cacdb5237bf6de30a6e8e3ef3c8f161cffe81de050"
 [[files]]
 file = "config/wyrmroost/entity-attributes.toml"
 hash = "2c0c2d4e2b1e15ecf18a7db17525a8dbc1a14f6a4dcd89394885fb9ded639a05"
+
+[[files]]
+file = "defaultconfigs/create_submarine-server.toml"
+hash = "3bda94d1408ce4f676565644de266924e03babeba25ecd4ade87c00431af852d"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -4211,16 +4219,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "c911d03476ac0e535c3c601ad98a725ce685e063032474abbf2a2fb9bf23f786"
-metafile = true
-
-[[files]]
-file = "mods/journeymap-integration.pw.toml"
-hash = "f161cd39e3619182a8606ec812634d74713d32ca30c3585bdf7d40b7bb573919"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "783ed30ab6f6f60c604b9bdc2f26ec5b23c7a523179aa17119dbc541f7149022"
 metafile = true
 
 [[files]]

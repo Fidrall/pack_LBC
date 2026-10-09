@@ -1,0 +1,3 @@
+[client]
+	#Disable all Deep Seas startup UI screens (Welcome screen and Update notifications).
+	disableStartupScreens = true

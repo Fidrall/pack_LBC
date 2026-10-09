@@ -819,9 +819,9 @@
 	quest.1457CC01C1D455DD.quest_desc: [
 		"Quand tu meurs, ton inventaire reste dans ton &ecorps&r, à l'endroit de ta mort. Retourne le chercher pour tout récupérer !"
 		""
-		"La touche &6J&r de Corpse (à vérifier dans les commandes si elle est en conflit avec JourneyMap) affiche l'historique de tes morts et leurs coordonnées."
+		"La touche &6J&r affiche l'historique de tes morts et leurs coordonnées."
 		""
-		"&7Le point de passage de mort de JourneyMap aide aussi à retrouver ton corps."
+		"&7Le point de passage de mort de FTB Chunks aide aussi à retrouver ton corps."
 	]
 	quest.1457CC01C1D455DD.quest_subtitle: "Ton corps t'attend"
 	quest.1457CC01C1D455DD.title: "Mourir sans tout perdre"
@@ -2731,15 +2731,15 @@
 	]
 	quest.4BC65D4005C17D9F.title: "&5Tenue d'Électromancien"
 	quest.4BD538342D7EAFE9.quest_desc: [
-		"&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. Ouvre la grande carte avec &6J&r."
+		"&eFTB Chunks&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite, la grande carte s'ouvre avec &6M&r."
 		""
-		"- Crée des &epoints de passage&r pour retenir tes découvertes."
+		"- Crée des &epoints de passage&r avec &6N&r pour retenir tes découvertes."
 		"- Un point est créé automatiquement à &cchaque mort&r."
 		""
-		"&cAttention :&r par défaut, la touche de création de point de passage est &6B&r, comme celle du sac à dos. Change l'une des deux dans les options !"
+		"Depuis la grande carte, tu peux aussi &aprotéger tes chunks&r : personne d'autre ne pourra y casser ou poser des blocs."
 	]
 	quest.4BD538342D7EAFE9.quest_subtitle: "Ne jamais se perdre"
-	quest.4BD538342D7EAFE9.title: "La carte JourneyMap"
+	quest.4BD538342D7EAFE9.title: "La carte FTB Chunks"
 	quest.4BD9677BF8D5318A.quest_desc: [
 		"Ce &ejetpack&r fonctionne avec l'&bair comprimé&r d'un réservoir dorsal de Create : le même que pour la plongée !"
 		""
@@ -3619,11 +3619,9 @@
 		""
 		"&6\"R\"&r – Roulade (Combat Roll)"
 		""
-		"&6\"M\"&r – Carte des chunks (FTB Chunks)"
+		"&6\"M\"&r – Grande carte, chunks protégés et points de passage (FTB Chunks)"
 		""
-		"&6\"J\"&r – Grande carte (JourneyMap)"
-		""
-		"&6Points de passage&r (JourneyMap) : JourneyMap utilise aussi &6\"B\"&r par défaut, comme le sac à dos. Change l'une des deux touches !"
+		"&6\"N\"&r – Ajouter un point de passage (FTB Chunks). La minicarte s'affiche en haut à droite."
 		""
 		"&6\"Ctrl+T\"&r – Niveaux du monde (Apotheosis)"
 		""

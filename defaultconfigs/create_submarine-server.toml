@@ -1,0 +1,6 @@
+# Cables d'acier limites a 256 blocs (defaut 1000) : le mod conseille de baisser sur serveur.
+[mechanics]
+	#Maximum length of a steel cable in blocks (distance between its two attachment points).
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	steelCableMaxLength = 256

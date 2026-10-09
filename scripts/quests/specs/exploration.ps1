@@ -19,13 +19,13 @@ $Quests = @(
      t='La Boussole de la Nature'; st='Trouver n''importe quel biome'
      d=@('La &eBoussole de la Nature&r fait la même chose pour les &abiomes&r. Pratique pour trouver un biome précis de Terralith, une jungle, un désert…') }
   @{ k='journeymap'; x=1.5; y=1.5; deps=@('intro'); tasks=@('@check'); checkTitle='Clique pour valider'; icon='minecraft:map'; crate='commune'
-     t='La carte JourneyMap'; st='Ne jamais se perdre'
-     d=@('&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. Ouvre la grande carte avec &6J&r.',
+     t='La carte FTB Chunks'; st='Ne jamais se perdre'
+     d=@('&eFTB Chunks&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite, la grande carte s''ouvre avec &6M&r.',
          '',
-         '- Crée des &epoints de passage&r pour retenir tes découvertes.',
+         '- Crée des &epoints de passage&r avec &6N&r pour retenir tes découvertes.',
          '- Un point est créé automatiquement à &cchaque mort&r.',
          '',
-         '&cAttention :&r par défaut, la touche de création de point de passage est &6B&r, comme celle du sac à dos. Change l''une des deux dans les options !') }
+         'Depuis la grande carte, tu peux aussi &aprotéger tes chunks&r : personne d''autre ne pourra y casser ou poser des blocs.') }
   @{ k='lootr'; x=3; y=1.5; deps=@('journeymap'); tasks=@('@check'); checkTitle='Compris !'; icon='minecraft:chest'; crate='commune'
      t='Lootr : un butin pour chacun'; st='Pas de jaloux en multijoueur'
      d=@('Grâce à &eLootr&r, les coffres des structures ont un &abutin différent pour chaque joueur&r.',
@@ -49,9 +49,9 @@ $Quests = @(
      t='Mourir sans tout perdre'; st='Ton corps t''attend'
      d=@('Quand tu meurs, ton inventaire reste dans ton &ecorps&r, à l''endroit de ta mort. Retourne le chercher pour tout récupérer !',
          '',
-         'La touche &6J&r de Corpse (à vérifier dans les commandes si elle est en conflit avec JourneyMap) affiche l''historique de tes morts et leurs coordonnées.',
+         'La touche &6J&r affiche l''historique de tes morts et leurs coordonnées.',
          '',
-         '&7Le point de passage de mort de JourneyMap aide aussi à retrouver ton corps.') }
+         '&7Le point de passage de mort de FTB Chunks aide aussi à retrouver ton corps.') }
   @{ k='tome'; x=1.5; y=3; deps=@('journeymap'); tasks=@('akashictome:tome'); crate='commune'
      t='Le Tome Akashique'; st='Tous les livres en un'
      d=@('Combine tous les &elivres de guide&r des mods (Patchouli, etc.) dans le &eTome Akashique&r : un seul livre au lieu de dix dans ton inventaire.',
