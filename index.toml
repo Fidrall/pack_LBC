@@ -66,7 +66,15 @@ hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
 
 [[files]]
 file = "config/alexscaves-general.toml"
-hash = "d596493f1210e251d06bf91cf2ea3ae136c942c8b1f4370c8f10d302ed82234f"
+hash = "0c10febd4d38e1ece92d0743298b285c4bedd83b3d1f53ddc2511ce61c2ae738"
+
+[[files]]
+file = "config/alexscaves_biome_generation/.version"
+hash = "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+
+[[files]]
+file = "config/alexscaves_biome_generation/abyssal_chasm.json"
+hash = "2efb746741e96fbe2533241d06c802d35b9be248ef68e34d8b2e29b59a8777bb"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"

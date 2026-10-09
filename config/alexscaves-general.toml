@@ -7,6 +7,8 @@
 	#Average separation (in blocks) between each Alex's Caves cave biome.
 	# Default: 900
 	cave_biome_mean_separation = 1200
+	#Avertissement Tectonic coupe : les biomes sont regles pour Tectonic (voir config/alexscaves_biome_generation).
+	warn_generation_incompatibility = false
 
 [mob-spawning]
 	#Cave Creatures (All dinosaurs, raycats, etc) spawn at this frequency.
