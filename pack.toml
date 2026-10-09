@@ -1,12 +1,12 @@
 name = "pack_LBC"
 author = "Fidrall"
-version = "1.1.2"
+version = "1.1.3-dev"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "41fcab0a232be6f6482cc68b412a2e427496933cddc934bb6de3ed10b8aaa073"
+hash = "193631d233c8eb1b14f4a01b8013b872ece58e29b49a81af079b8468319e27ff"
 
 [versions]
 minecraft = "1.21.1"

@@ -3566,7 +3566,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
@@ -3997,6 +3997,16 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
+metafile = true
+
+[[files]]
+file = "mods/epic-knights-bettercombat-compatibility.pw.toml"
+hash = "9a6eabf523d237d1d587880b0737eec8a9c2fdfc757a535934f924922afeab54"
+metafile = true
+
+[[files]]
+file = "mods/epic-knights-shields-armor-and-weapons.pw.toml"
+hash = "14bd7ebbaa3c4f1336c63211caa6fc887f2904c587dcc35b9d8c9afaa3c2906f"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Epic Knights x Better Combat Rework"
+filename = "Epic-Knights-x-Better-Combat.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q3sK3Quf/versions/qj0lXWQt/Epic-Knights-x-Better-Combat.jar"
+hash-format = "sha512"
+hash = "bfcbdfb60c39848675a75c5b0d80037ff185b0700a0c2aedc668d6f94f8d26a0f2d5e6da8d0b01ad74a71afdff094e0d5c82eada7021d1a5eafe18c82a3c23f9"
+
+[update]
+[update.modrinth]
+mod-id = "q3sK3Quf"
+version = "qj0lXWQt"
