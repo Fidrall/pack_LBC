@@ -4011,6 +4011,36 @@
                        {
                            "name":  "towns_and_towers:exclusives/village_wandering_trader_camp",
                            "is_disabled":  true
+                       },
+                       {
+                           "name":  "minecraft:village_plains",
+                           "size":  7,
+                           "max_horizontal_distance_from_center":  112,
+                           "max_vertical_distance_from_center":  112
+                       },
+                       {
+                           "name":  "minecraft:village_desert",
+                           "size":  7,
+                           "max_horizontal_distance_from_center":  112,
+                           "max_vertical_distance_from_center":  112
+                       },
+                       {
+                           "name":  "minecraft:village_savanna",
+                           "size":  7,
+                           "max_horizontal_distance_from_center":  112,
+                           "max_vertical_distance_from_center":  112
+                       },
+                       {
+                           "name":  "minecraft:village_snowy",
+                           "size":  7,
+                           "max_horizontal_distance_from_center":  112,
+                           "max_vertical_distance_from_center":  112
+                       },
+                       {
+                           "name":  "minecraft:village_taiga",
+                           "size":  7,
+                           "max_horizontal_distance_from_center":  112,
+                           "max_vertical_distance_from_center":  112
                        }
                    ]
 }

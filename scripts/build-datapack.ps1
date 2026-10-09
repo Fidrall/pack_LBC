@@ -185,7 +185,8 @@ W 'data/archaion/worldgen/structure/ancient_keep.json' $j
 # ---------- 8. Ensembles de structures redefinis par deux mods (le dernier charge ecrasait l'autre) ----------
 # minecraft:villages : Luki's Grand Capitals (villages vanilla, 50/35) et Trek (vanilla + 7 villages Trek, 48/20).
 # On fusionne : tous les villages, espacement proche de Luki (ses capitales sont grandes).
-$vil = @('plains', 'desert', 'savanna', 'snowy', 'taiga' | ForEach-Object { [ordered]@{ structure = "minecraft:village_$_"; weight = 1 } })
+# Capitales de Luki favorisees (poids 3 contre 1 pour Trek) : 3 villages sur 4 dans les biomes ou les deux existent
+$vil = @('plains', 'desert', 'savanna', 'snowy', 'taiga' | ForEach-Object { [ordered]@{ structure = "minecraft:village_$_"; weight = 3 } })
 $vil += 'plains', 'desert', 'savanna', 'snowy', 'taiga', 'swamp_vanilla', 'cherry' | ForEach-Object { [ordered]@{ structure = "trek:village/$_"; weight = 1 } }
 W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 26; separation = 12 } })
 # Structures redefinies : on garde la version Luki's (capitales "revampedvillages", comme ses autres villages).

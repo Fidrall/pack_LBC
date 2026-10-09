@@ -958,7 +958,7 @@ hash = "6d7cda497d273a8e48b444ee6d4a5f36a4c7a78057e2fcb37d29169b369f0025"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/villages.json"
-hash = "4041a77fd75fdc543025960307eda563cd4bd5e1a9ed60d4ed2eb98550a922b2"
+hash = "1753203d23770d4a0c5f80b98a509de4966027122210cdaa2b623e7495b5e4bd"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woodland_mansions.json"
@@ -3406,7 +3406,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "1b93055638fec6399ca6756509a1f2a5bf02f18f430dd3db5bedbd3b456eae62"
+hash = "d9619f1618a32695a49dab6a76c0bc818a039433773bf9504c89b9b2a17a42ee"
 
 [[files]]
 file = "config/tectonic.json"
@@ -3529,6 +3529,11 @@ metafile = true
 [[files]]
 file = "mods/apothic-attributes.pw.toml"
 hash = "39c77ded3382f9ccd9c93e3953f7426c27cd9f16e93224125f061ea7b519e087"
+metafile = true
+
+[[files]]
+file = "mods/apothic-combat.pw.toml"
+hash = "1b48a649e684ae1b73f49676450ab123ad28c02459cf28b2bb231b9c1112ca3b"
 metafile = true
 
 [[files]]
