@@ -4739,7 +4739,7 @@ metafile = true
 
 [[files]]
 file = "mods/spell-engine.pw.toml"
-hash = "7e383589313c596e8256e6e0a3f24c1751560ce86708c1fb3d45ac5860b8658a"
+hash = "c968c08522f92dee47b15da6aec12747ef4a9843b9fc70aa64029a09270d24d0"
 metafile = true
 
 [[files]]
