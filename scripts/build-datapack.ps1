@@ -204,10 +204,10 @@ W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structure
 # Chaque famille = un seul ensemble : une structure par case ; si le biome ne convient pas, le jeu en essaie une autre.
 # Les structures sont retirees de leur ensemble d'origine par Lithostitched (remove_structure_set_entries).
 $famSpacing = @{
-    overworld_surface_petit = 7; overworld_surface_moyen = 7; overworld_surface_grand = 14
+    overworld_surface_petit = 8; overworld_surface_moyen = 8; overworld_surface_grand = 14
     overworld_underground_petit = 8; overworld_underground_moyen = 21; overworld_underground_grand = 74
     ocean_moyen = 18; ocean_grand = 63
-    nether_petit = 7; nether_moyen = 10; nether_grand = 24
+    nether_petit = 8; nether_moyen = 10; nether_grand = 24
     end_petit = 8; end_moyen = 13; end_grand = 28
 }
 $fam = Import-Csv (Join-Path $PSScriptRoot 'data\structure_families.csv')

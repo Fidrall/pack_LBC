@@ -3062,7 +3062,7 @@ hash = "99bfc989c598f7e9b7c8259b9750426c8230e99a58e9446e6ec575e2a2600b10"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_petit.json"
-hash = "22c5f4315a32b7eebb3bef3d7d4d61fe81899b513b95322edcdbced0a330c8e6"
+hash = "9b31e042a58a0e22fdbea0b910327c9ca5ec7e1ee24a31a9346eb2f9335140d2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/ocean_grand.json"
@@ -3078,11 +3078,11 @@ hash = "a08e9f020be42de75824f4fbe432b37718004b380ed43b1e8e63b5741c2ee287"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "2f4812d73f132ae238ea46e5ef36be672ece8ef9b0f065dc4a880d4ab050428f"
+hash = "f7469664ff1ad33c8a7d26d113039578cf0ed126c283698663f227bae0c48b32"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"
-hash = "6cbf65796a30fd5af876735d16465cd5cc82884a7dc6c0f8ffae72ea9bbbe9a5"
+hash = "59e8c593159898646ddd1959dcae5de3bb251dae6cd55db6ef92c3ea6c229974"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_underground_grand.json"
@@ -3398,7 +3398,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "78fa3d42da0c9790150b795fb43fedd64a96189026dd328cbf1a00005b750b72"
+hash = "26666e63b93451dea564b6ec73fbd63c2a8202d5e902bc6f9ac44fb21d1e393b"
 
 [[files]]
 file = "config/tectonic.json"
@@ -4332,11 +4332,6 @@ hash = "78cf82fda4c8a7ea9556cf4481b43f38762151bcac0a09fd412f82d5f0883cc7"
 metafile = true
 
 [[files]]
-file = "mods/noisium.pw.toml"
-hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
-metafile = true
-
-[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
 metafile = true
@@ -4704,6 +4699,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras.pw.toml"
 hash = "cfb7ce4c2b00cedd2e61f7d345b824d6bcc1471021668d2319ee2e4079108639"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
 
 [[files]]
