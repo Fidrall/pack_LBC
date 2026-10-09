@@ -110,7 +110,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "20b4791ca890fa68a1d79ef1e15bb80766ce9730d131b4ecaf9edbbd15799703"
+hash = "2c31c69efdedeb43956025c9a27c2d5ee06e5e1a4919119308c1f9ab7a383325"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -126,7 +126,7 @@ hash = "06b649f3262c29fb92a96a73691578327931a42a95e5b93e12d284c9b3a6f077"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure_progression.snbt"
-hash = "c571f1a6de600eb8f6682e08d0e6c234ab9636d64c224d116ab2e44c6a0e4caf"
+hash = "fa6c8bf1d5ec4b391270f9781b0dc3b4ec97a7a307950e9151eee428aef3fa03"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
@@ -142,7 +142,7 @@ hash = "7090fefad8f8d9cce205a23abf6d6c53d13a9fbe62b02971fc1a47d4a5831e35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "3ef81404fef8fb7f1ecc630f0448c8c7d5fdc43b5bb206aa067e728e52e6d11c"
+hash = "f7f5e4593f208a7a9c4004c9e4b552859e66308bf720d89427996e952626988c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
@@ -151,10 +151,6 @@ hash = "7770ee3ac2a7b90a075ed3148ccf0eda3086964559975bdc922a7efd03b55166"
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
 hash = "40f90f7014ca66e6d138d8c033ebd21f4e773d5272ba995bebcd4d1e8ba9cb47"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/classes.snbt"
-hash = "fb5525eb8d7096760004ca15068a5f6d78c60abc058452173974dcbae07c93ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cooking.snbt"
@@ -197,6 +193,14 @@ file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
 hash = "89011c088f96dcd18445ac2553f9c1b1f4d348d534ed41de972858ccf5ff5408"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/hazen_n_stuff.snbt"
+hash = "238b2af8857d23e41c6dac077bd0259a3a711f0fb6d693906ff37e147870302a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
+hash = "322fe3356a67f6d51756aad41f3fdf8590ec452987dc21590fbb416ba251b21b"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
 hash = "2882423e911eefb7edc111cc201371c6a9c24808d919f5cbc532681898526647"
 
@@ -230,27 +234,31 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "87023c7136b63bea2713c2b8b29e5b42a6ad9c84e89cbefd813a7a56419d0f51"
+hash = "56435cfd8895ec6ac3faa650de6fa126c18e15b60c150e029d8fc8685f216252"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
-hash = "08ee58357e10b3369a2cb229694158303852ad89721e5719e7929844ac8dc9a8"
+hash = "1237ecf47ff3c7c38cc0d3fa4303d861d2dd9b925d40b141e777f974ef3cbc2f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/epique.snbt"
-hash = "fad10420dddb9919e6e27f95f824196cac77a6d0f38cced2c6ad5ef560bead4a"
+hash = "75b21c5d89733eabbaa76baadbded80d23152e330231a9eb3d814351f9237d3f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
-hash = "05e33dc3a98baab56b03d66123e21c6032689a1fc0145eed185ef3537feb6ae2"
+hash = "d97e9c7ce80ad4a812a426a8bd08f1b0d6c15ebd140d2d4a1fbc4b0394006c7e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rare.snbt"
-hash = "2e3416c059cd98ebc920dea44f0ef99e5c08823639de0d81976b88c656271a4d"
+hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
 
 [[files]]
 file = "config/incontrol/spawn.json"
 hash = "74cbff2c0c92195c0242968388461bce957f5fea8896d7bcd1843c4c757ec119"
+
+[[files]]
+file = "config/irons_spellbooks-server.toml"
+hash = "9db94f62e96f2a6f9d3c60ffa28f6811931a697b32c6e7eee3a09996895e0cd9"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -263,10 +271,6 @@ hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
 [[files]]
 file = "config/obscuria/ancient_remnants-common.toml"
 hash = "859a1e0b5dcf49c6829a79a9882cee87c8807c1fe4efd2ff4417442c95799ca9"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/apotheosis/data_maps/item/loot_category_overrides.json"
-hash = "4b101e044adff98ee171388be90c241ced30b54dc11c217a6e0d0a4b77526adb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/affix_loot_injection.json"
@@ -1018,63 +1022,15 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "381b48f828005040ef24455da693b8e820c99caeacf1ee35832e4b35b1c12778"
+hash = "dec110cbce92d3a74601f874ce64b35cb33992b2facb9efce77daba2ec5ba032"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
 hash = "b9afbea8ecbd757a27f7ac6b609a3bec71fc47210e89cb3f15648a154e97f289"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/arcanique.json"
-hash = "8a55407395e00a0036ca30efdf3ae0882d3106f9ee10f782d0c2d0bba500d1d3"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/ardent.json"
-hash = "be309d717ddded54884e17a329c3a88552be4a597973633350775095c951fec0"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/clairvoyant.json"
-hash = "1ef2c7c4371a8d3f027b5fd26b7a23c2fc5211dc0b2725f125f2a8d1928c3b24"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/eolien.json"
-hash = "1ec79b25a796247eabaf9bd41f669afe31e50daa76970551bff92795755285d3"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/givre.json"
-hash = "527088ebd9b4ec16bf4fa488b225005698156eb3e4581bb7cd2786668ccb5e56"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/marin.json"
-hash = "69d1858ab3f61c0aca93c9028ac88bf3a8337c1c725dbfb43ec70a394ff0886c"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/orageux.json"
-hash = "c16a78d3dddb78ab39c9b31bf83a2bc5a80b5506981647247fff0f9a1ef75199"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/puissant.json"
-hash = "fa39019530d8a3ad2017512af900f54b9c7a4448ac97065f4f109d05b2ca6569"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/sacre.json"
-hash = "1343e3a669750ed26d37d58d55ff43fb898e8b20f0e2677fb2baeb1d5c65daa0"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/spectral.json"
-hash = "afa52fbbd242175f3a573ab6e2583160a888bca4ffd9be987013faf7541ec216"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/tellurique.json"
-hash = "fe90d6d9553b4e156ce0ecfe13661db89ccfbcdbcbcdb9bae2a989927fd44542"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affixes/magie/veloce.json"
-hash = "942ad05477acbabf3f01c04e7ea0c39604154cd9c74fa9ab3722385ea4e596da"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
-hash = "6a82b28e75fedcc6bcb52ae99c3e01c713d84e63398a768f182b38f159c54d0b"
+hash = "a71aca6a56b4d06de49b71c6abee2168bff4ce8b16e4ec2d58d58d28e5ea16f7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -1082,7 +1038,7 @@ hash = "db8ec27f6d4bcf75516fd2793c9f6449210b324d1b006a27b41133e47d38954b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/defi_seigneurs.json"
-hash = "c1efee0b3af47bb188dbb32c7bf5095456021f659132081d3e836401f28fa41d"
+hash = "a36c579de0a304fe4d65f9d61886fdc76cbdb873bb8fc3e018179f2fa916391b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/echo_profondeurs.json"
@@ -1090,7 +1046,7 @@ hash = "f561a3a8590e09a761b55825d5749fb9bf0d8e21ab5807d6c8c3a10160c4e4d9"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/gardiens_sorcellerie.json"
-hash = "82c66a16072f1128abc3b058aa06af38c0d29aca582c8e51794fcc2d482fe7c8"
+hash = "76d41fa68859a870031539dd34ae28c07925f8d8c90c93db7d1102796170bd1b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/morts_sans_repos.json"
@@ -1103,34 +1059,6 @@ hash = "c8b498d5f24b36871a7557c37214fc261b6a9ebd696a9cd3b4c47522eb6fdcdc"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/sabbat_citrouilles.json"
 hash = "bef8aacd08c6ef40592fef3418f56541d869a7fbf20aa24ead7ceb61f098bd8c"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/magie/archimage.json"
-hash = "c3f32679576709fc608c2479cb6228e9445b1634504e39ef6eac870534d63f9c"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/magie/celerite.json"
-hash = "3f7666a6785b23288410ee1da8fcceedf5bd229ae0351638b95090dcb0a7908c"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/classes/village_desert.json"
-hash = "31421e99c0175ec6bbc80a2084ddaab5c7f6ca0404da37d1f5a59ebe7c882c1e"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/classes/village_plains.json"
-hash = "74c5de35ebcbb9927dc6ced020d6789f3b51add6ad9fdf31934da6125441f906"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/classes/village_savanna.json"
-hash = "e6fed19deaad76cf28f90eea2fcd4bab1c465f2576a63ba235d8f57cb042ef6d"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/classes/village_snowy.json"
-hash = "74eba273e8a5108b7e673445d03b56e11e6fa995a9e64918df63c6f0989390bd"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/classes/village_taiga.json"
-hash = "b5526ee6c7b5a7acf782214956bdd902769583297b21ad7c079434a0fdd65788"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_000.json"
@@ -2285,6 +2213,14 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/aether_
 hash = "8caa392f1369bd050d5fe890bf599455a81b9536d643ea2560bb0337f6fa402a"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/arcane_t1.json"
+hash = "bbc6b3b0561b166460cd943906f7b8c807b91103d160a700dd6d11dd41141726"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/arcane_t2.json"
+hash = "08fffd23636c966c6f8de64c60f262ca3a65e9194481c0b615955b5626c9d9a5"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cataclysm_t2.json"
 hash = "c66743a579f67dc8ba6538451ed81cd0494187c7b44b0d73d107464f7ef4e01e"
 
@@ -2345,14 +2281,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twiligh
 hash = "e1eb4c170f236a976621c44903a248778194539b87539f2556e62dd05827df6a"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/classes/standard.json"
-hash = "21c70bb99b4b9843ee85ce0ebc055d775ae76d7d32fbc9eb58fe8b4fad9c0f6b"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/classes/tresor.json"
-hash = "821177a06014bc85c151abce2675fd15b123823a304e4dd47a1360f72ee836f7"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/sac_general.json"
 hash = "21b7a26e324c06aa6495242b192df53d2c829eff2a77c0afc05730cb60a5f793"
 
@@ -2409,6 +2337,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/aether.json
 hash = "46aa0b409f29a378220dc7be99f240c54dc9a024614dbf7aabfa762b9a1125aa"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/arcane.json"
+hash = "9ad45e9653881b67b569ea1d2bbe578435f71d224e6fba7930685f57491f10f8"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/cataclysm.json"
 hash = "e1de172f26e49eedd4e6edd17b86ec3c131d28534646987311107b0d48d9920c"
 
@@ -2422,7 +2354,7 @@ hash = "2c18ac786a1bde8f2795ebcaa836d849834c0e9662afa6bd3be8f55c7df7fa92"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/explorateur.json"
-hash = "b94ec4116bbe835f227d2f877990ab2f3806b061d1497b46dc8975657e8a5ffd"
+hash = "f14142c96e03f536c489af0ec2628482afaa17538c370204d91ad8d6937c85d0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/illager.json"
@@ -2442,187 +2374,195 @@ hash = "3104d9b23f42f4d7a8bd898e8b45286b9a99c9997761621adbdf71fa383aff8b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/aether_t1.json"
-hash = "302069666f257cbec4fb118ba95bf6db177b518e89e95890d1c94066a58e34d9"
+hash = "d51d2f3d1dcf4de5cd79a33dd964c433bf819bd35b50ce24ee9a693dd44d2854"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/aether_t2.json"
-hash = "2ded14221d563432503500a8b0a04f5d05674c31509a12f3366838b9034e3989"
+hash = "49cae55398326a109e8e8cb7078aeae18188d1ed599443042d360d1ee61a7fd0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/aether_t3.json"
-hash = "cac62df56f96256abf54e21246257a083ce901d4083c334d99f4d4a5079eb9c5"
+hash = "54059556bd411e5ea98991df31e5a3773bf80782da30d976dad9dac8af670ead"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/arcane_t1.json"
+hash = "3974050811dd6a837f24c163b8d712fb4ba79516a7839b9c3a80df3d44dfc991"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/arcane_t2.json"
+hash = "035492c02d2386c42af82d820d154dae5944ecbb39eb780740c6e46b16b6f9c8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/cataclysm_t2.json"
-hash = "0019ee81f948753450b647abc1dc04f2607f697cabeff0cec067394666673768"
+hash = "37d6c7282a80fa633fff353ae0d6b17b7ec7b1ca2493378d4609d23a86608afc"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/cataclysm_t3.json"
-hash = "53a793ee7636a87a5c1c3cda4e45f127721483c4fc40d6dde818f141f3c584fd"
+hash = "6701432851a7b290b93246e671788f0d082ab57f69d20289165aaeb31be6c021"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/chaos_t1.json"
-hash = "a4ffd830956e2c952b9ceed5a1ffa7b14551f114c4130a7d47daf8515b9ddda3"
+hash = "2cefcb6792fd5d4be7036f649cf3631fbe52cf8d987764aaa0d321869234a23a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/destruction_t2.json"
-hash = "0575a352b58e584d3126b69c728e4451ac4fb4c6f104d906aafed9806b6cf761"
+hash = "69e6d16d8cb8e40420df112c4510fe48c77845b40ed278955e948c0800637aef"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/destruction_t3.json"
-hash = "c3e9b3edb8f74d52a67b641edafb1582b92363d81ad62346690c90179c6f36aa"
+hash = "0785e6629d2b3effbb28f4a2d4975241b0c10de738a31635fcc108b4ae805147"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/illager_t1.json"
-hash = "1fd1cb581327e3e8956ab15330a76ff09ec2e4ef1f2af1359ac4c88a9b46c1a3"
+hash = "f9ed80df80620e891deffa3656f3b8cd37ce6a371c609e5e778af489c33e3aac"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/illager_t2.json"
-hash = "d8c8d0f6d763574a6ff37166948fc1914620c241d0ed5bf87aaeeb87b9769891"
+hash = "ad85adb91ca52631d1737cf4f9ad80f129c568cbb2d9c217337037d39e2dd88d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/legende_t1.json"
-hash = "9e970fb53e9c12c0e61b9fb7b10b2f5c5f9484f98772146723f520f31da417ea"
+hash = "91404893baeca6f2e7d6fb38fd748c93467a4886b89c2fd0eb7f9ce19371567d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/legende_t2.json"
-hash = "e2cc8e2052a91902b537980e0776d88218c518032f79eff2f799e19b31ae4bb5"
+hash = "e9e292c2dd27dc5f90151f4526b5a3a7b3bc089500ac7cbaefcfc236fe8c85e0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/legende_t3.json"
-hash = "b02dcff5845735016dd9ba5869d9495487f50746c54d2863ea511baec45d86c5"
+hash = "24ee5674526926fda72ed64cd95fbe013489ea11c338de0f87fd517892befca4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/mowzie_t1.json"
-hash = "dcb107583eb3e8e03f5048b9b33c7cbf3d54a504b90dc97d2219dce7399a2367"
+hash = "5427860781f354ec05e46b414d20b72caf78166189bb9aa4856a5ff2405cd86c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/mowzie_t2.json"
-hash = "d5076d87491ef321fa92a37cf0aae365aeb93199e34b61b02c4190d214c1b9b0"
+hash = "a624f181492c5d374e8637e36ab3d6b661d453f0942580e76c82b3c76661e091"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t1.json"
-hash = "21768743d485514a155f114dbeb4e0ced3894c8d6be199fd21eed57ec4eeba64"
+hash = "c37e594a62814daadd01bbe102adc251df5acdeeff6cc678ad3b533bb787d278"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t2.json"
-hash = "3a86c6be5831e685f8867ed07062ef76263a51854be6d9983716f36d2522fe78"
+hash = "1cc04d24e0903ea6b4f262e4f63a10e5e3be21d5ba14d510853f70cc2cc47a3d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t3.json"
-hash = "40c502359f6835139e04ef73c2e57fd1570a249db1f7a97d172459105594cdf3"
+hash = "6214491e9e48d9e3108f2b5d2ac152581940c2fd0ed35b144ec3e727d93e9af6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"
-hash = "8d5e29e2f9441cb2e13dd915c552af5f9cdcfc641e073f50df3bb92f5bc1d4ff"
+hash = "6252b767c7202aef52eff59cd949ad0312cd4205ad7919ff923616f23e0ddc07"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_gauntlet_arena.json"
-hash = "6503aa2cd1de5dcb3fb00a754b5f5985636e17108fc21ca65e12670619fb0fef"
+hash = "8ddb0d4b974e941b917278e5d030d9a7b2c83d9cd8619434c5fcdaadef980508"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_lich_tower.json"
-hash = "bcacd9a5c6b0576f276a8de005dbee0e63a5c0638ebdb92afdf0f1591ee2871e"
+hash = "6c6c338a031cc060e4c90ffb506fa6186cc5aa073db0e0390045c0bf414262e4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_obsidilith_arena.json"
-hash = "76581b74052db302d0fc5d404f292c99475da1f2d71def0869bc84460812e222"
+hash = "2bee99d929b92e05c6bf7966364957e3508678083019e9d7690eb6dfd47580fc"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_void_blossom.json"
-hash = "4d1a397fe30bd85f63a002c6ddbaf427dc975b79a44b59dc47e3c3b4b7a718f8"
+hash = "5227c8d87f9ea3532049b4d25d58adc3dc98a9fd7021a78f4919da2ed3c236f3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_acropolis.json"
-hash = "5ac4a4891d098f2e7358b28774d5960b4f9eb72d83ed2ce4152946bcc365c419"
+hash = "46edf64c01242ea2f638b4ba4be0b4bdc0bfb8364f9c6d252cd96962334de7a5"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_ancient_factory.json"
-hash = "24376632ba13e9b057287256bf9b759e07bbf1fd1bc6d3fd7ebc763356d56ae0"
+hash = "92cd6fdc6a5830ee91e011de4498c20342c2a50848dc4257661d28c29b45c845"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_burning_arena.json"
-hash = "7aedb47f913d786ddcb5d03abd4e04c0dd1f0058cd94eec6d4ba66d065593559"
+hash = "83ba881f030456fe847a10620e6b399abe357512a901a313fc195aafefd74bc5"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_cursed_pyramid.json"
-hash = "270c2341f4f027237dc8481a4d08df93b85e84ff33c7dcb93336a5b9db849b5f"
+hash = "c642da38e780f7d41cad44ef5b953460ad4e9a7e1110aab594870564dac1e377"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_frosted_prison.json"
-hash = "965169b051c141b3bbf4dbb2945a0bc3245d9c37b9b66b805f63aba09143bd70"
+hash = "6caa3df329327c78165ec4c99f67625851260277d74c445bf6cb924853ee096a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_ruined_citadel.json"
-hash = "1790e34e81d2979826f7e69a0e685bcfac83565c0b9e5b784be0a036b7424c51"
+hash = "14e89ffef84c92cfb5e332ebfbb0a4e5b05870a1c31c915ccfa414b0cdf673b5"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_soul_black_smith.json"
-hash = "6f41bfd273806b512d2297642b1d456aa95ac90b8186d67607247d2f6ae3e882"
+hash = "56c8033c1e75de7192b53f77d696734687c490e8289317a04171c15803eeac35"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cataclysm_sunken_city.json"
-hash = "2628f8b772d32eb35b26edcb60d1f2faa8cbbe43125f625777b3d9d9a38675e1"
+hash = "31ed7400eec124bcf9faa6016ae18568b40fa1f102e0a1904843f22d0e7d0674"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_catacombs.json"
+hash = "a5b14ebabaf930a29ea1ca56fb4b95eced20e3b841d1877c22f3b094333da05c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_citadel.json"
+hash = "730824252f99dead327fe205cf5595bbd12dcb40e0447955ab28d776829d25a4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_evoker_fort.json"
+hash = "42ab423aeaea75a3abd549ce19f9c3c887121a6435c3ed068801d6c9a0d86f1a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_ice_spider_den.json"
+hash = "b6db7b6442065f09cc330cc0c84e484201a744e6f941cd785f9b3468fde6ae61"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_mangrove_hut.json"
+hash = "fd9efbd040826fee1fb3cea189d2059c29f02f70e6f9c732fe557801a3e0620c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_minecraft_ancient_city.json"
-hash = "483fdebf3de26714abcc28ae8af967737112007a65f264180d0a3e42e26cd186"
+hash = "8dadc31fe1783ff6678903a1d3281f4f04493be8ed29de8406a8c0093f793bc9"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_minecraft_mansion.json"
-hash = "4401779c31b0b7e59b4059da1e6bd88e56b775d641f9f6cacb3eaac028f6198a"
+hash = "5620cf5734f6bbeaa32ed084f537b5630c10484908d017d4d3638c8f10e6e533"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_minecraft_monument.json"
-hash = "b5a0bbf176fd0ccd201101d2edd9bcb30cd70b2bbb6aaabdeb19ad50b1eea0ae"
+hash = "0ef67937d32c6a10eab4c811a68c82351489a697fa2f50cccd651d9822f72c01"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_mowziesmobs_monastery.json"
-hash = "bb9d43bbf692d61fe5b73b606784e3df2bdcd0ea09bb6b65486691aabafb6863"
+hash = "c814c8adf0b4533177b8c0b1646d5f8f4734e3c59230d8c260d1066048d26253"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_mowziesmobs_umvuthana_grove.json"
-hash = "612520dce837d7b855edb852b13c28c021196f8aa163363fbac0eb50d15615c1"
+hash = "897e8b6fee10f4292a59c9c6368329250a33dabe062ea3dec6a0b9c9efda479e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_mowziesmobs_wrought_chamber.json"
-hash = "72663b45cd4d7d97546c0147eb56363190394a70fb5aad42664d519340681850"
+hash = "16b4b26e54679162b9da5951f2435ebfe4a34fc257c3bfabffa03889ccf4d264"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_1.json"
-hash = "3d63d3b0fb90c20e8fd016db431fbaefd625f13a8e8f58a4899c5724d9252b2a"
+hash = "6cd6bee55699f004f2f71954a5ea9c3fdfce064be28eb6ffe133bc3a4e5e492a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_2.json"
-hash = "355e014b3163af549002066cf96e6667a8e0be2b539e3b15400dccd54866cf52"
+hash = "a5a83e73c0426a0922e0b5463c1b6d816df388653dad61dfd58e2d9b5e28978a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_3.json"
-hash = "76e717500625ce895dcb89812a39bb4069a5b678db83fe318ede0f47b8e6d2d8"
+hash = "e51c66eb169159b0d6a441243badca1bf2fc18293b9af18acda68708228f0af0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
 hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/classes/palier_1.json"
-hash = "23bfa62dfa2224c9923a0c5f44eeafcc34076be4f2e2be863ffa4293392e9fcc"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/classes/palier_12.json"
-hash = "8d214adf06c72ea0149841cb17fb1e7fa06067d7f6aed350c9cf14147a494076"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/classes/palier_2.json"
-hash = "ea364af530aa307263ed2d55af75be237522183fd01a22b1c596c9a3934b0708"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/classes/palier_3.json"
-hash = "a46e68a39912ee9e76b01675b0469a77f99af88a4159b4fbcdabb8d7591069a7"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/classes/palier_4.json"
-hash = "847242d25591e9cc9e29c7679f872683608ac9ba1a278c734558b6e29857d6ba"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/coffres/sac_general.json"
@@ -3042,7 +2982,7 @@ hash = "955ccdb41c26fdb7c13e17f1af929199b224b5bc1bc3f9e46135d939819b9854"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/gardiens_sorcellerie.json"
-hash = "d7a26eca60d49cf82d782f18cd33522dfb0530766c7b406de3740bb866c28987"
+hash = "a57ebb693b912af4071ca8077be0bada85a7e11299da4055299df6db126c14ae"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/morts_sans_repos.json"
@@ -3057,84 +2997,16 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/gateways/sabbat_citr
 hash = "f2775ddd7758cb36cf94043c29b694e1e368001cac4244aa3ff309071c05641f"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_archaion_ancient_keep.json"
-hash = "9c875ef54b0de8c7457080ec0ba3b982321b06aa1ea50c54abf78abe8297db64"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_bosses_of_mass_destruction_gauntlet_arena.json"
-hash = "1ee46591df83aa0fe6543da198fae74b49f71811b95ede54c0a6c617b4575558"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_bosses_of_mass_destruction_lich_tower.json"
-hash = "eded2aa7ba8da098dbe3fb01604662c88c4cfb1624a0b82890b5c0f00a47bb89"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_bosses_of_mass_destruction_obsidilith_arena.json"
-hash = "aeaa377accba859882da7d6efbf14af81f91fdbe0250a17c2ea386912ff331d5"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_bosses_of_mass_destruction_void_blossom.json"
-hash = "87fbe4bcdcc765bc1216bfbb50c7c91fd61eebc1185333a27cd20065b9b29d42"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_acropolis.json"
-hash = "4b21d5af98f5050a741c2836a38e9f581067b9eb508f67b6ad25c55f4fba784c"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_ancient_factory.json"
-hash = "63e8eef6b547d0fb1657ede517a59f4adb619bd06c76a0ea9388b59dcd770542"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_burning_arena.json"
-hash = "6ce8450a8c585a76f73e6f6b08b67e7b8eebf68bd125bed9936716b3704783b5"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_cursed_pyramid.json"
-hash = "6f81e8d598d436352edc48a675854ec5dd673d480d9e4bb07ecf421c5ce359e6"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_frosted_prison.json"
-hash = "98e1f2e79eee5b65e49b04c9d9c513225c8a085acdabd9fcfd6d30cda4b12778"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_ruined_citadel.json"
-hash = "c85b4f5c9429388f4303b2af92ce7151db841880292a41e53e1d9c5473877d41"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_soul_black_smith.json"
-hash = "46a090f4a2afaaad2c7d1af13c782dbc047b5e94fb0a1f798861fa011f76c8b1"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_cataclysm_sunken_city.json"
-hash = "c2599d0d9f3dd12670f12d6b4566396885504dea2fe6e1ec642a973df14d16f2"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_minecraft_ancient_city.json"
-hash = "89e2f918841e9ab63911e5b1203ac3250f693e10437d48d3bddfe80b31537ee9"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_minecraft_mansion.json"
-hash = "5815fe13e277abec683f071bd270c843780b2bda0f2c432cd8d349ea636e6874"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_minecraft_monument.json"
-hash = "c83449abb6ee017e60061069850a1c3f455d65c39909b6ee523c4495a41bdfa1"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_mowziesmobs_monastery.json"
-hash = "c3a44fa0404f384c2cfb419235f5eef7b7fb905bcd6267d1c6391e675951eb38"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_mowziesmobs_umvuthana_grove.json"
-hash = "4e7285722bab5b4cec72b4088371dabaf3fefa9efde7463e1d0bda86e2a66371"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/worldgen/structure/cartes/carte_mowziesmobs_wrought_chamber.json"
-hash = "907a2c4dadd56cd7f9f6da63bffdc9946f31dd0f5f819708c3be6c08b3a4aa5f"
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/mixing/arcane_essence.json"
+hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/aether.json"
 hash = "9538cefffb16c2c259a0cb334247ca0a107de761e3d2ab26dac17c24b080536d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/arcane.json"
+hash = "d0e1fe468186da68422a86dc160af298b7a2a1484d0ef3e5bb8a557a9e60b84a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/cataclysm.json"
@@ -3298,19 +3170,11 @@ hash = "0803035171ec6be299fa24959347da02448086b90d056a504a0f0436bb7bb9b1"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/en_us.json"
-hash = "e6442765cd05f733b26f9e35b09299a683ca1c77cf5a3d5cf9f90fcf77d049e5"
+hash = "0879e51cd367fe8b4d7f93af15edf8a620fff0e8dd0c340574426ef76dc91acd"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/fr_fr.json"
-hash = "0388fde8a0492b3b99ca2bc8586d8116d637582816b589dc4903007551971ecf"
-
-[[files]]
-file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/magie/archimage.json"
-hash = "80fbb0391628c6796c2e651aa228fdac65328bd9b0f72fa39b1548a0cd041ad1"
-
-[[files]]
-file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/magie/celerite.json"
-hash = "5392f06f4ae25df5e06267a22c9af149578ca281d3d2bbceedde5c899651875e"
+hash = "294f5afe41734b4d1522d84635d1222fe8664d785187d2dd0ecdac0b21c8df2a"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chalk_block_mark_arrow.png"
@@ -3542,7 +3406,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "6bb16593432323b21358913a758787cbe3ec82954c946b07ffe97df4515748ff"
+hash = "1b93055638fec6399ca6756509a1f2a5bf02f18f430dd3db5bedbd3b456eae62"
 
 [[files]]
 file = "config/tectonic.json"
@@ -3580,6 +3444,11 @@ metafile = true
 [[files]]
 file = "mods/aaa-particles.pw.toml"
 hash = "68ffacdc44875989d8aba81e8663ce48bafb1a87b764d64ebac763bffd506002"
+metafile = true
+
+[[files]]
+file = "mods/aces-spell-utils.pw.toml"
+hash = "438860e27ad92857c783f7b7b1a16578614d26f42f7c613edbcba5482164e00e"
 metafile = true
 
 [[files]]
@@ -3633,6 +3502,11 @@ hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
 metafile = true
 
 [[files]]
+file = "mods/alshanexs-familiars.pw.toml"
+hash = "58028dd92ca88c55cc748d8e313eb3354caad602f9cf138a13b46902e5c4fab7"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "82a03261a6006cda13232610752623abf41552203e26309f4e899de8ad87ace4"
 metafile = true
@@ -3640,6 +3514,11 @@ metafile = true
 [[files]]
 file = "mods/ancient-remnants.pw.toml"
 hash = "c8f2f0d17554c0c5cb857452e35e18020935d583079a0ebcccc2d8af6de08cec"
+metafile = true
+
+[[files]]
+file = "mods/apotheosis-x-irons-spellbooks-compat.pw.toml"
+hash = "ca1984d2c3388cadb5273148883343d40cfa33500cea4a6262162dd25c9285e0"
 metafile = true
 
 [[files]]
@@ -3673,28 +3552,8 @@ hash = "1a9f2c8d93b08d17cdb143665fef4107a03410ff21394458c448eec796487511"
 metafile = true
 
 [[files]]
-file = "mods/archers.pw.toml"
-hash = "4bff1e8a33a3add308656eb3a1af743204ce6469f0ee14c58ef3014cdb558f9e"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
-metafile = true
-
-[[files]]
-file = "mods/armor-model-api.pw.toml"
-hash = "dc7bc27468879b22da06641b444e1cd9e9fedc7fd6d8942f14f29756d7c4e59a"
-metafile = true
-
-[[files]]
-file = "mods/armory-rpg-series.pw.toml"
-hash = "d67e0afb39466da26d5687f320b9cddacc962b5658a6835dfef826601260e214"
-metafile = true
-
-[[files]]
-file = "mods/arsenal-rpg-series.pw.toml"
-hash = "4dd0f3a3980d883254e550b4d98aa9f13dae45a8113e67565ff62786e0172c12"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -3748,11 +3607,6 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
-file = "mods/berserker-rpg-class.pw.toml"
-hash = "6b2126b01063e2a2f9ae4912234723a1efa429abaaa559014945456fa7902aba"
-metafile = true
-
-[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "93c4acd165a291c6d1e69c27b05b2747afc926b38a414712263fbc95f42da323"
 metafile = true
@@ -3780,11 +3634,6 @@ metafile = true
 [[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "74143850a12b0f9daf3ef2c503e61141319f3715a48a2fde53bc31b3c9719788"
-metafile = true
-
-[[files]]
-file = "mods/bundle-api.pw.toml"
-hash = "a7e46ae0871bb75452fcd2044a7a320beb08b2a691518111c9e4906a9c6fde39"
 metafile = true
 
 [[files]]
@@ -4068,11 +3917,6 @@ hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
 metafile = true
 
 [[files]]
-file = "mods/critical-strike.pw.toml"
-hash = "8f7ec1d22f09c9a78d88a13763e4e780f6111e45685f8147e7afd6e49aea4a5c"
-metafile = true
-
-[[files]]
 file = "mods/critters-and-companions.pw.toml"
 hash = "b065a8cb99a887abb2c434b84e3fa84f1e62cf500b1b9f50c86a4b48e4bdcc4f"
 metafile = true
@@ -4123,11 +3967,6 @@ hash = "acca756841ee5e088eaec9474758e402247965f3adf6d7ccd612bb715aa836c9"
 metafile = true
 
 [[files]]
-file = "mods/elemental-wizards-rpg.pw.toml"
-hash = "39147247cb57c2cb93db18aa4aa633e425d68dcebf2b711ccb2c9ddfb17ad7df"
-metafile = true
-
-[[files]]
 file = "mods/elytra-slot.pw.toml"
 hash = "9e2b351f3cabb1252259f5383e6f2fec3e3d90534dbecddef4ed183eba42f35a"
 metafile = true
@@ -4165,6 +4004,11 @@ metafile = true
 [[files]]
 file = "mods/explorify.pw.toml"
 hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
+metafile = true
+
+[[files]]
+file = "mods/familiarslib.pw.toml"
+hash = "60307914360d9611389c6b3ab0221508e32d3697b6edf25258072d9fab5a4438"
 metafile = true
 
 [[files]]
@@ -4278,6 +4122,16 @@ hash = "6b235aa1d0c43ab4fa7eacca3eb3c62530fa6ae1b44bc56aecc25c636a8ffc5b"
 metafile = true
 
 [[files]]
+file = "mods/hazen-n-stuff.pw.toml"
+hash = "fce782d9e0860ca68b66b821d2e13c4698353440a0287c2e800269e372ce9b24"
+metafile = true
+
+[[files]]
+file = "mods/hazentouvelib.pw.toml"
+hash = "30a4fd7bea6950616484f5d25f21afa58657ff72a07ceb37c9bcb0ccf587a276"
+metafile = true
+
+[[files]]
 file = "mods/hellish-trials.pw.toml"
 hash = "e8c484c0779b11a86aecdb9897417aadb5a0ee3536fb918999b192c58322779a"
 metafile = true
@@ -4338,6 +4192,16 @@ hash = "b11b108db94486152457fef8ae05699963324e3132e03211f160928857c8a338"
 metafile = true
 
 [[files]]
+file = "mods/irons-lib.pw.toml"
+hash = "93f7a09e0d9a05c31b55bb9725545c49dc68067556a98d470e4f405bdbf3b25c"
+metafile = true
+
+[[files]]
+file = "mods/irons-spells-n-spellbooks.pw.toml"
+hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
+metafile = true
+
+[[files]]
 file = "mods/it-takes-a-pillage-continuation.pw.toml"
 hash = "59f143c0c7bc463e09ef4f6c6172e3e45208a1a4c01663d2a0a4637a4df3eb73"
 metafile = true
@@ -4355,11 +4219,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "c911d03476ac0e535c3c601ad98a725ce685e063032474abbf2a2fb9bf23f786"
-metafile = true
-
-[[files]]
-file = "mods/jewelry.pw.toml"
-hash = "720e12b39f4689c6d05fd6bf4661b8e54f7b80f6316bf9db5f3c54f8faf58484"
 metafile = true
 
 [[files]]
@@ -4458,16 +4317,6 @@ hash = "48f5f92618ff0a13d6c9bd4b848eb8dc53b1dc476217c75c78e450113fe59030"
 metafile = true
 
 [[files]]
-file = "mods/more-rpg-classes-skill-tree.pw.toml"
-hash = "4cec4133b457bb814721594030553adebd6fd86b7c68ed037eb80415ad2c4873"
-metafile = true
-
-[[files]]
-file = "mods/more-rpg-library.pw.toml"
-hash = "d84884704122020409f4bb341fa39afa2252cb089d387cee3f0bd8f91262c91d"
-metafile = true
-
-[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
@@ -4515,11 +4364,6 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
-metafile = true
-
-[[files]]
-file = "mods/paladins-and-priests.pw.toml"
-hash = "a9c1ecdef94c1e535f7c5ea05e9b720778b8fd9bf0211d7d52a69bb4b6044ad1"
 metafile = true
 
 [[files]]
@@ -4573,11 +4417,6 @@ hash = "6b1ee632cee2d75301016eaac99a3446ad605f11fbfda631effac0eb7da59f6c"
 metafile = true
 
 [[files]]
-file = "mods/ranged-weapon-api.pw.toml"
-hash = "0a7c847cf1bacf6b9756f348a05271c6ff57fad00d1f9d2991ea302f8453340b"
-metafile = true
-
-[[files]]
 file = "mods/redomesticate.pw.toml"
 hash = "22d57fd6dda25bc073bd259942b628195236cc8926639b9168355ddd92f0eb3c"
 metafile = true
@@ -4608,16 +4447,6 @@ hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
-file = "mods/rogues-and-warriors.pw.toml"
-hash = "0ca4e4a6dc001eb5fb81d1817cb8b209e86cb8541a77f6e1de23d92a0e20f45c"
-metafile = true
-
-[[files]]
-file = "mods/runes.pw.toml"
-hash = "05c5359a4419b39c0e72c2693f0cda3bc5959520fe42b348d3bd701384491aef"
-metafile = true
-
-[[files]]
 file = "mods/sable.pw.toml"
 hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
 metafile = true
@@ -4643,11 +4472,6 @@ hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
-file = "mods/shield-api.pw.toml"
-hash = "08f35f067c7a764a894254a8e5c790a8de5e03f21fcff2875a14a31f16b6627a"
-metafile = true
-
-[[files]]
 file = "mods/silent-lib.pw.toml"
 hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
 metafile = true
@@ -4668,11 +4492,6 @@ hash = "8045c493b0eb0196880817b529417742bb65b250805cc14f7abe5ac5f1e4d4b1"
 metafile = true
 
 [[files]]
-file = "mods/simply-bows.pw.toml"
-hash = "ad41fd0b054eeba3c09ca483c07e1578df6ab1b26c09265c0497abee1dbc7db8"
-metafile = true
-
-[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "f11837c4f049aeb3b7ceb086f4c7b1347bfad1826f47722cbdc8b2b38df0067e"
 metafile = true
@@ -4680,16 +4499,6 @@ metafile = true
 [[files]]
 file = "mods/simply-tooltips.pw.toml"
 hash = "bb5dc8ac909aee1955532a65145f7ebfc3a88289610298e821a974fdda5f1822"
-metafile = true
-
-[[files]]
-file = "mods/skill-tree.pw.toml"
-hash = "854e45f44175efa93c049a36016bfe19896b52b4acd9b9c6f30f491daeb08390"
-metafile = true
-
-[[files]]
-file = "mods/skills.pw.toml"
-hash = "77e3c81c00c0a4c61aedea5e57760dac58f181788d670012e66f60614365def3"
 metafile = true
 
 [[files]]
@@ -4738,16 +4547,6 @@ hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
-file = "mods/spell-engine.pw.toml"
-hash = "c968c08522f92dee47b15da6aec12747ef4a9843b9fc70aa64029a09270d24d0"
-metafile = true
-
-[[files]]
-file = "mods/spell-power.pw.toml"
-hash = "cc1491f8817a246d40d0222999788e8b3b442474e2c862637e1ef654997f3826"
-metafile = true
-
-[[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
 metafile = true
@@ -4770,11 +4569,6 @@ metafile = true
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "20d767f7f803fd43e7b539046878bf97a27458595a1beff0b28002aca1b671de"
-metafile = true
-
-[[files]]
-file = "mods/structure-pool-api.pw.toml"
-hash = "b43fd8343ee66b129ea22bcd7ba47ad392e7edc33cb24be0ed604b2225ed0229"
 metafile = true
 
 [[files]]
@@ -4850,16 +4644,6 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
-metafile = true
-
-[[files]]
-file = "mods/witcher-rpg-class.pw.toml"
-hash = "ae92e0f73caaac9a5f5aec43e059090cf323ec26cf030ed7402d464c11b77995"
-metafile = true
-
-[[files]]
-file = "mods/wizards.pw.toml"
-hash = "e6e7bdb68b3a0a824b3c6a19c7f4ec880555f912d6f354d67bbd4c8250922591"
 metafile = true
 
 [[files]]

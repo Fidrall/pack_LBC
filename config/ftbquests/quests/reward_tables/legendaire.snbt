@@ -91,7 +91,7 @@
 			id: "678C101076E53384"
 			item: {
 				count: 1
-				id: "apotheosis:luminous_crystal_shard"
+				id: "irons_spellbooks:epic_ink"
 			}
 			weight: 5.0f
 		}
@@ -100,7 +100,7 @@
 			id: "4584EBE07168D57B"
 			item: {
 				count: 1
-				id: "apotheosis:sigil_of_socketing"
+				id: "irons_spellbooks:legendary_ink"
 			}
 			weight: 3.0f
 		}

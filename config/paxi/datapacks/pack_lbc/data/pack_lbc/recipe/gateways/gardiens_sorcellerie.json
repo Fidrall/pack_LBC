@@ -10,18 +10,18 @@
     "group":  "pack_lbc_gateways",
     "pattern":  [
                     "ALA",
-                    "FEF",
+                    "IEI",
                     "ALA"
                 ],
     "key":  {
                 "A":  {
-                          "item":  "runes:arcane_stone"
+                          "item":  "irons_spellbooks:arcane_essence"
                       },
                 "L":  {
                           "tag":  "c:gems/lapis"
                       },
-                "F":  {
-                          "item":  "runes:fire_stone"
+                "I":  {
+                          "item":  "irons_spellbooks:common_ink"
                       },
                 "E":  {
                           "item":  "minecraft:ender_eye"

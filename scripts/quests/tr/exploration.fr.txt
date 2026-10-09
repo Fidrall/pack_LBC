@@ -158,7 +158,7 @@ quest.20BBDA9AC4B20474.quest_subtitle: "Silence…"
 quest.20BBDA9AC4B20474.quest_desc: [
   "Au fond des &eAbîmes&r se cachent les &eCités Antiques&r. Avance accroupi : le &cWarden&r n'est jamais loin."
   ""
-  "C'est aussi là que se trouve le portail vers &0Deeper and Darker&r."
+  "C'est aussi là que se trouve le portail vers &0Deeper and Darker&r, et les fragments de savoir Eldritch d'Iron's Spells."
 ]
 quest.14C694F523C79625.title: "Une taverne"
 quest.14C694F523C79625.quest_subtitle: "Une pause bien méritée"

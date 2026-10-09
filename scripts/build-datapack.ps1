@@ -41,6 +41,13 @@ foreach ($p in Pieces) {
 # cotte de mailles
 foreach ($k in 'helmet', 'chestplate', 'leggings', 'boots') { Crush "chainmail_$k" "minecraft:chainmail_$k" @(@{ id = 'minecraft:iron_nugget'; count = 9 }, @{ id = 'create:experience_nugget'; chance = 0.5 }) }
 
+# ---------- 2. Essence Arcanique d'Iron's Spells au Melangeur surchauffe ----------
+W 'data/pack_lbc/recipe/mixing/arcane_essence.json' ([ordered]@{
+    type = 'create:mixing'; heat_requirement = 'superheated'
+    ingredients = @(@{ item = 'minecraft:lapis_lazuli' }, @{ item = 'minecraft:lapis_lazuli' }, @{ item = 'minecraft:blaze_powder' }, @{ item = 'minecraft:blaze_powder' }, @{ item = 'create:experience_nugget' })
+    results = @(@{ id = 'irons_spellbooks:arcane_essence'; count = 4 })
+})
+
 # ---------- 3. Butin Create dans les coffres de village ----------
 W 'data/pack_lbc/loot_table/chests/create_village_bonus.json' ([ordered]@{
     type = 'minecraft:chest'
@@ -132,13 +139,13 @@ Gate 'echo_profondeurs' 'large' '#0F5E63' @(
     (Wave @((Mob 'deeperdarker:stalker' 2), (Mob 'deeperdarker:shattered' 3), (Mob 'deeperdarker:sculk_snapper' 3)) 0.2 2000),
     (Wave @((Mob 'minecraft:warden' 1), (Mob 'deeperdarker:shattered' 2)) 0 3000)
 ) @((Chest 'minecraft:chests/ancient_city' 4), (Chest 'deeperdarker:chests/ancient_temple_apex' 1), (Xp 1000)) 2 @('ESE', 'CPC', 'ESE') ([ordered]@{ E = @{ item = 'minecraft:echo_shard' }; S = @{ item = 'deeperdarker:soul_crystal' }; C = @{ item = 'minecraft:sculk_catalyst' }; P = @{ item = 'minecraft:ender_eye' } })
-# Les Gardiens de la sorcellerie (mages illageois d'Illager Invasion)
+# Les Gardiens de la sorcellerie (Iron's Spells)
 Gate 'gardiens_sorcellerie' 'medium' '#9B4DDB' @(
-    (Wave @((Mob 'minecraft:witch' 3), (Mob 'illagerinvasion:provoker' 2)) 0 1600),
-    (Wave @((Mob 'illagerinvasion:firecaller' 2), (Mob 'illagerinvasion:sorcerer' 2), (Mob 'minecraft:witch' 2)) 0.1 1800),
-    (Wave @((Mob 'illagerinvasion:necromancer' 2), (Mob 'illagerinvasion:alchemist' 1), (Mob 'illagerinvasion:archivist' 2)) 0.2 2000),
-    (Wave @((Mob 'minecraft:evoker' 2), (Mob 'illagerinvasion:firecaller' 1), (Mob 'illagerinvasion:sorcerer' 1)) 0.25 2600)
-) @((Chest 'pack_lbc:classes/palier_2' 2), (Chest 'pack_lbc:classes/palier_3' 1), (Xp 800)) 3 @('ALA', 'FEF', 'ALA') ([ordered]@{ A = @{ item = 'runes:arcane_stone' }; L = @{ tag = 'c:gems/lapis' }; F = @{ item = 'runes:fire_stone' }; E = @{ item = 'minecraft:ender_eye' } })
+    (Wave @((Mob 'irons_spellbooks:cultist' 3), (Mob 'irons_spellbooks:magehunter_vindicator' 2)) 0 1600),
+    (Wave @((Mob 'irons_spellbooks:pyromancer' 2), (Mob 'irons_spellbooks:cryomancer' 2), (Mob 'irons_spellbooks:cultist' 2)) 0.1 1800),
+    (Wave @((Mob 'irons_spellbooks:necromancer' 2), (Mob 'irons_spellbooks:apothecarist' 1), (Mob 'irons_spellbooks:magehunter_vindicator' 2)) 0.2 2000),
+    (Wave @((Mob 'irons_spellbooks:archevoker' 2), (Mob 'irons_spellbooks:pyromancer' 1), (Mob 'irons_spellbooks:cryomancer' 1)) 0.25 2600)
+) @((Chest 'irons_spellbooks:chests/additional_good_loot' 4), (Chest 'irons_spellbooks:chests/citadel/citadel_tomes' 1), (Xp 800)) 3 @('ALA', 'IEI', 'ALA') ([ordered]@{ A = @{ item = 'irons_spellbooks:arcane_essence' }; L = @{ tag = 'c:gems/lapis' }; I = @{ item = 'irons_spellbooks:common_ink' }; E = @{ item = 'minecraft:ender_eye' } })
 # La Citadelle de l'Ender (End / Cataclysm)
 Gate 'citadelle_ender' 'large' '#C25BE6' @(
     (Wave @((Mob 'minecraft:enderman' 4), (Mob 'cataclysm:endermaptera' 3)) 0.1 1600),
@@ -154,7 +161,7 @@ $trophy = [ordered]@{ type = 'gateways:stack'; stack = [ordered]@{ id = 'minecra
 Gate 'defi_seigneurs' 'large' '#D4AF37' @(
     (Wave @((Mob 'cataclysm:ignited_revenant' 2), (Mob "$($bic):fallen_chaos_knight" 2)) 0.2 2400),
     (Wave @((Mob 'cataclysm:kobolediator' 1), (Mob 'cataclysm:wadjet' 1), (Mob "$($bic):lifestealer" 1)) 0.25 2800),
-    (Wave @((Mob 'minecraft:evoker' 2), (Mob "$($bic):supreme_bonescaller" 1), (Mob 'cataclysm:ignited_berserker' 2)) 0.3 3000),
+    (Wave @((Mob 'irons_spellbooks:archevoker' 2), (Mob "$($bic):supreme_bonescaller" 1), (Mob 'cataclysm:ignited_berserker' 2)) 0.3 3000),
     (Wave @((Mob 'cataclysm:the_prowler' 1), (Mob 'cataclysm:ignited_revenant' 2), (Mob "$($bic):fallen_chaos_knight" 2)) 0.35 3600)
 ) @((Affix 2 'apotheosis:mythic'), (Gem 3 'perfect'), $trophy, (Xp 3000)) 2 @('IWI', 'DND', 'IWI') ([ordered]@{ I = @{ item = 'cataclysm:ignitium_ingot' }; W = @{ item = 'cataclysm:witherite_ingot' }; D = @{ item = 'minecraft:diamond_block' }; N = @{ item = 'minecraft:nether_star' } })
 
@@ -235,11 +242,10 @@ foreach ($f in Get-ChildItem $ov -Recurse -File) {
     Copy-Item $f.FullName $to -Force
 }
 
-# ---------- 11. Cartes de structures (cartes au tresor vanilla) ----------
+# ---------- 11. Cartes de structures (cartes roulees d'Iron's Spells, comme le marche de l'ancien pack) ----------
 # Une table de butin par carte : data/pack_lbc/loot_table/cartes/carte_<mod>_<structure>.json (test : /loot give @s loot pack_lbc:cartes/...).
-# La carte cherche la structure la plus proche au moment ou elle est generee (recherche en arriere-plan par Async Locator).
-# Elle ne fonctionne que dans la dimension de la structure : les paliers ne proposent que les cartes de la dimension ou le butin tombe.
-# La 4e colonne est un objet evocateur pour une future recette.
+# Clic droit -> carte au tresor vers la structure la plus proche (seulement dans la bonne dimension).
+# Mode d'obtention (quetes, marchand, portails...) a decider plus tard ; la 4e colonne est un objet evocateur pour une future recette.
 $ow = 'minecraft:overworld'; $nt = 'minecraft:the_nether'; $en = 'minecraft:the_end'
 $cartes = @(
     @('minecraft:ancient_city', $ow, 'Cite antique', 'minecraft:sculk', 'Minecraft'),
@@ -253,6 +259,11 @@ $cartes = @(
     @('cataclysm:burning_arena', $nt, 'Arene ardente', 'minecraft:magma_block', 'Cataclysm'),
     @('cataclysm:soul_black_smith', $nt, 'Forge des ames', 'minecraft:soul_sand', 'Cataclysm'),
     @('cataclysm:ruined_citadel', $en, 'Citadelle en ruine', 'minecraft:end_stone_bricks', 'Cataclysm'),
+    @('irons_spellbooks:evoker_fort', $ow, 'Fort des evocateurs', 'minecraft:emerald', 'Iron''s Spells'),
+    @('irons_spellbooks:ice_spider_den', $ow, 'Antre des araignees de glace', 'minecraft:cobweb', 'Iron''s Spells'),
+    @('irons_spellbooks:mangrove_hut', $ow, 'Hutte des mangroves', 'minecraft:mangrove_log', 'Iron''s Spells'),
+    @('irons_spellbooks:catacombs', $ow, 'Catacombes', 'minecraft:bone_block', 'Iron''s Spells'),
+    @('irons_spellbooks:citadel', $nt, 'Citadelle du Nether', 'minecraft:gilded_blackstone', 'Iron''s Spells'),
     @('bosses_of_mass_destruction:void_blossom', $ow, 'Fleur du vide', 'minecraft:spore_blossom', 'Bosses of Mass Destruction'),
     @('bosses_of_mass_destruction:lich_tower', $ow, 'Tour de la liche', 'minecraft:snow_block', 'Bosses of Mass Destruction'),
     @('bosses_of_mass_destruction:gauntlet_arena', $nt, 'Arene du gantelet', 'minecraft:blackstone', 'Bosses of Mass Destruction'),
@@ -262,18 +273,15 @@ $cartes = @(
     @('mowziesmobs:monastery', $ow, 'Monastere', 'minecraft:chiseled_stone_bricks', 'Mowzie''s Mobs'),
     @('mowziesmobs:umvuthana_grove', $ow, 'Bosquet Umvuthana', 'minecraft:acacia_log', 'Mowzie''s Mobs')
 )
-$carteDim = @{}
 foreach ($k in $cartes) {
     $name = 'carte_' + ($k[0] -replace '[:/]', '_')
-    $carteDim[$k[0]] = $k[1]
     $dim = switch ($k[1]) { $ow { 'Overworld' } $nt { 'Nether' } default { 'End' } }
-    W "data/pack_lbc/tags/worldgen/structure/cartes/$name.json" ([ordered]@{ values = @($k[0]) })
-    $fn = @(
-        [ordered]@{ function = 'minecraft:exploration_map'; destination = "pack_lbc:cartes/$name"; decoration = 'minecraft:target_x'; zoom = 2; search_radius = 64; skip_existing_chunks = $false },
-        [ordered]@{ function = 'minecraft:set_name'; target = 'item_name'; name = [ordered]@{ text = "Carte : $($k[2])" } },
-        [ordered]@{ function = 'minecraft:set_lore'; mode = 'append'; lore = @([ordered]@{ text = "[$($k[4]) - $dim]"; italic = $false; color = 'gray' }) }
-    )
-    W "data/pack_lbc/loot_table/cartes/$name.json" ([ordered]@{ type = 'minecraft:generic'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = 'minecraft:map'; functions = $fn }) }) })
+    $res = [ordered]@{ id = 'irons_spellbooks:furled_map'; count = 1; components = [ordered]@{
+            'irons_spellbooks:furled_map_data' = [ordered]@{ destination = $k[0]; descriptionOverride = @{ text = $k[2] }; dimension = $k[1] }
+            'minecraft:custom_name' = '{"text":"Carte : ' + $k[2] + '","italic":false}'
+            'minecraft:lore' = @('{"text":"[' + $k[4] + ' - ' + $dim + ']","italic":false,"color":"gray"}')
+        } }
+    W "data/pack_lbc/loot_table/cartes/$name.json" ([ordered]@{ type = 'minecraft:generic'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = $res.id; functions = @([ordered]@{ function = 'minecraft:set_components'; components = $res.components }) }) }) })
 }
 
 # ---------- 12. Boss renforces (+25 % vie, +15 % degats) via AttributeSetter ----------
@@ -283,6 +291,8 @@ $bossPlus = @(
     'twilightforest:naga', 'twilightforest:lich', 'twilightforest:minoshroom', 'twilightforest:hydra', 'twilightforest:knight_phantom',
     'twilightforest:ur_ghast', 'twilightforest:alpha_yeti', 'twilightforest:snow_queen',
     'aether:slider', 'aether:valkyrie_queen', 'aether:sun_spirit',
+    'irons_spellbooks:dead_king', 'irons_spellbooks:fire_boss',
+    'hazennstuff:pyromus', 'hazennstuff:aegis', 'hazennstuff:aptos',
     'born_in_chaos_v1:lord_pumpkinhead', 'born_in_chaos_v1:lord_pumpkinhead_withouta_horse', 'born_in_chaos_v1:lord_the_headless',
     'born_in_chaos_v1:missioner', 'born_in_chaos_v1:supreme_bonescaller', 'born_in_chaos_v1:supreme_bonescaller_not_despawn',
     'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:krampus',
@@ -320,19 +330,17 @@ W 'data/treasurebags/loot_table/starting_inventory.json' ([ordered]@{ type = 'mi
 W 'data/treasurebags/loot_table/entity_group/boss.json' ([ordered]@{ type = 'minecraft:entity'; pools = @() })
 # Paliers de cartes (structures du plus accessible au plus dangereux)
 $palier = @{
-    1 = @('minecraft:monument', 'minecraft:mansion', 'mowziesmobs:umvuthana_grove', 'mowziesmobs:wrought_chamber')
-    2 = @('minecraft:ancient_city', 'cataclysm:cursed_pyramid', 'cataclysm:frosted_prison', 'cataclysm:ancient_factory', 'cataclysm:sunken_city', 'cataclysm:acropolis', 'cataclysm:soul_black_smith', 'mowziesmobs:monastery', 'bosses_of_mass_destruction:lich_tower', 'bosses_of_mass_destruction:void_blossom')
+    1 = @('irons_spellbooks:ice_spider_den', 'irons_spellbooks:mangrove_hut', 'irons_spellbooks:catacombs', 'irons_spellbooks:evoker_fort', 'minecraft:monument', 'minecraft:mansion', 'mowziesmobs:umvuthana_grove')
+    2 = @('minecraft:ancient_city', 'cataclysm:cursed_pyramid', 'cataclysm:frosted_prison', 'cataclysm:ancient_factory', 'cataclysm:sunken_city', 'cataclysm:acropolis', 'cataclysm:soul_black_smith', 'irons_spellbooks:citadel', 'mowziesmobs:monastery', 'mowziesmobs:wrought_chamber', 'bosses_of_mass_destruction:lich_tower', 'bosses_of_mass_destruction:void_blossom')
     3 = @('cataclysm:burning_arena', 'cataclysm:ruined_citadel', 'bosses_of_mass_destruction:gauntlet_arena', 'bosses_of_mass_destruction:obsidilith_arena', 'archaion:ancient_keep')
 }
 foreach ($n in 1..3) {
-    # carte proposee seulement si le butin tombe dans la dimension de la structure (sinon la carte resterait vide)
-    $ent = @($palier[$n] | ForEach-Object { [ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:cartes/carte_' + ($_ -replace '[:/]', '_'); weight = 1
-                conditions = @([ordered]@{ condition = 'minecraft:location_check'; predicate = [ordered]@{ dimension = $carteDim[$_] } }) } })
+    $ent = @($palier[$n] | ForEach-Object { [ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:cartes/carte_' + ($_ -replace '[:/]', '_'); weight = 1 } })
     W "data/pack_lbc/loot_table/cartes/palier_$n.json" ([ordered]@{ type = 'minecraft:generic'; pools = @([ordered]@{ rolls = 1; entries = $ent }) })
 }
 # chance de carte et paliers tires selon la difficulte du boss
 $carteTier = @{ 1 = @{ chance = 0.25; w = @{ 1 = 1 } }; 2 = @{ chance = 0.30; w = @{ 1 = 1; 2 = 2 } }; 3 = @{ chance = 0.40; w = @{ 2 = 1; 3 = 2 } } }
-$classeBoss = @{ 1 = @{ chance = 0.30; palier = 2 }; 2 = @{ chance = 0.40; palier = 3 }; 3 = @{ chance = 0.50; palier = 4 } }# Familles de boss : nom du sac, couleurs, materiaux du mod ; boss par palier de difficulte
+# Familles de boss : nom du sac, couleurs, materiaux du mod ; boss par palier de difficulte
 $apo = @(
     [ordered]@{ type = 'minecraft:item'; name = 'apotheosis:gem_dust'; weight = 5; functions = @([ordered]@{ function = 'minecraft:set_count'; count = [ordered]@{ type = 'minecraft:uniform'; min = 2; max = 6 } }) },
     [ordered]@{ type = 'minecraft:item'; name = 'apotheosis:mysterious_scrap_metal'; weight = 4; functions = @([ordered]@{ function = 'minecraft:set_count'; count = [ordered]@{ type = 'minecraft:uniform'; min = 1; max = 3 } }) },
@@ -348,6 +356,8 @@ $familles = [ordered]@{
         boss = @{ 1 = @('twilightforest:naga', 'twilightforest:lich'); 2 = @('twilightforest:minoshroom', 'twilightforest:hydra', 'twilightforest:knight_phantom', 'twilightforest:alpha_yeti'); 3 = @('twilightforest:ur_ghast', 'twilightforest:snow_queen') } }
     aether = @{ nom = 'Butin celeste'; c = @('#FFE8F4FF', '#FFFFD54F', '#FF7FC8FF'); mat = @('aether:zanite_gemstone', 'aether:enchanted_gravitite', 'aether:ambrosium_shard', 'aether:golden_amber', 'aether:aechor_petal')
         boss = @{ 1 = @('aether:slider'); 2 = @('aether:valkyrie_queen'); 3 = @('aether:sun_spirit') } }
+    arcane = @{ nom = 'Butin arcanique'; c = @('#FF2A1B4A', '#FFB07CFF', '#FF6A4CC2'); mat = @('irons_spellbooks:arcane_essence', 'irons_spellbooks:mithril_scrap', 'irons_spellbooks:rare_ink', 'irons_spellbooks:epic_ink', 'irons_spellbooks:divine_pearl', 'hazennstuff:pyrium_nugget', 'hazennstuff:stardust')
+        boss = @{ 1 = @('irons_spellbooks:dead_king'); 2 = @('irons_spellbooks:fire_boss', 'hazennstuff:pyromus', 'hazennstuff:aegis', 'hazennstuff:aptos') } }
     chaos = @{ nom = 'Butin du Chaos'; c = @('#FF1A1A1A', '#FFC23B22', '#FF8A8A8A'); mat = @('born_in_chaos_v1:dark_metal_ingot', 'born_in_chaos_v1:dark_metal_nugget', 'born_in_chaos_v1:bundle_of_bones', 'born_in_chaos_v1:seedof_chaos')
         boss = @{ 1 = @('born_in_chaos_v1:missioner', 'born_in_chaos_v1:krampus', 'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:lord_the_headless') } }
     mowzie = @{ nom = 'Butin ancestral'; c = @('#FF5B3A1E', '#FFE0B050', '#FF9C6B30'); mat = @('mowziesmobs:ice_crystal', 'mowziesmobs:naga_fang', 'mowziesmobs:foliaath_seed', 'minecraft:gold_ingot')
@@ -372,12 +382,9 @@ foreach ($f in $familles.Keys) {
         $ct = $carteTier[[int]$t]
         $cartes = @($ct.w.Keys | ForEach-Object { [ordered]@{ type = 'minecraft:loot_table'; value = "pack_lbc:cartes/palier_$_"; weight = $ct.w[$_] } })
         $kp = [ordered]@{ condition = 'minecraft:killed_by_player' }
-        # equipement de classe (RPG Series) : un palier au-dessus de la difficulte du boss
-        $cl = $classeBoss[[int]$t]
         W "data/pack_lbc/loot_table/boss/${f}_t$t.json" ([ordered]@{ type = 'minecraft:entity'; pools = @(
                     [ordered]@{ rolls = 1; conditions = @($kp); entries = @([ordered]@{ type = 'minecraft:item'; name = 'treasurebags:treasure_bag'; functions = @([ordered]@{ function = 'treasurebags:set_bag_type'; bag_type = "pack_lbc:$f" }) }) },
-                    [ordered]@{ rolls = 1; conditions = @($kp, [ordered]@{ condition = 'minecraft:random_chance'; chance = $ct.chance }); entries = $cartes },
-                    [ordered]@{ rolls = 1; conditions = @($kp, [ordered]@{ condition = 'minecraft:random_chance'; chance = $cl.chance }); entries = @([ordered]@{ type = 'minecraft:loot_table'; value = "pack_lbc:classes/palier_$($cl.palier)" }) }) })
+                    [ordered]@{ rolls = 1; conditions = @($kp, [ordered]@{ condition = 'minecraft:random_chance'; chance = $ct.chance }); entries = $cartes }) })
         $terms = @($fd.boss[$t] | ForEach-Object { [ordered]@{ condition = 'minecraft:entity_properties'; entity = 'this'; predicate = [ordered]@{ type = $_ } } })
         W "data/pack_lbc/loot_modifiers/boss/${f}_t$t.json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }); table = "pack_lbc:boss/${f}_t$t" })
         $glm += "pack_lbc:boss/${f}_t$t"
@@ -389,8 +396,8 @@ foreach ($f in $familles.Keys) {
 $sacChance = 0.01
 W 'data/pack_lbc/treasurebags_types/explorateur.json' ([ordered]@{ bag_color = '#FF5A4632'; bag_overlay_color = '#FF8FBF6A'; bag_string_color = '#FFD9C27A'; display_name = "Sac d'explorateur"; drops_from_groups = @(); group = 'pack_lbc'; loot_table = 'pack_lbc:bags/explorateur'; rarity = 'rare'; visible = $true })
 $reliques = 'reflective_necklace', 'jellyfish_necklace', 'kinetic_belt', 'hunting_belt', 'springy_boot', 'roller_skate', 'cut_glass_boot', 'leafy_mantle', 'midnight_mantle', 'glitchy_mantle', 'ghostly_mantle', 'chorus_staff', 'piglin_mask', 'rider_flute', 'pet_bone', 'ring_of_the_seven_deadly_sins', 'sphere_of_self_sacrifice', 'clot_of_time', 'golden_tooth', 'chef_hat', 'experience_disperser', 'shield_of_retaliation'
-# Relique ~40 % (22 x 5) / equipement a affixes ~40 % (110, dont 80 % rare bleu et 20 % epique violet) / equipement de classe ~20 % (55)
-$explo = @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 88; rarities = @('apotheosis:rare') }, [ordered]@{ type = 'apotheosis:random_affix_item'; weight = 22; rarities = @('apotheosis:epic') }) + @($reliques | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = "relics:$_"; weight = 5 } }) + @([ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:classes/palier_2'; weight = 55 })
+# Relique 50 % (22 x 5) / equipement 50 % (110) dont 80 % rare bleu (88) et 20 % epique violet (22)
+$explo = @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 88; rarities = @('apotheosis:rare') }, [ordered]@{ type = 'apotheosis:random_affix_item'; weight = 22; rarities = @('apotheosis:epic') }) + @($reliques | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = "relics:$_"; weight = 5 } })
 W 'data/pack_lbc/loot_table/bags/explorateur.json' ([ordered]@{ type = 'minecraft:gift'; pools = @([ordered]@{ rolls = 1; entries = $explo }) })
 foreach ($g in (Import-Csv (Join-Path $PSScriptRoot 'data\coffres_sacs.csv') | Group-Object famille)) {
     $ent = @([ordered]@{ type = 'minecraft:item'; name = 'treasurebags:treasure_bag'; functions = @([ordered]@{ function = 'treasurebags:set_bag_type'; bag_type = 'pack_lbc:explorateur' }) })
@@ -399,85 +406,6 @@ foreach ($g in (Import-Csv (Join-Path $PSScriptRoot 'data\coffres_sacs.csv') | G
     W "data/pack_lbc/loot_modifiers/coffres/sac_$($g.Name).json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }, [ordered]@{ condition = 'minecraft:random_chance'; chance = $sacChance }); table = "pack_lbc:coffres/sac_$($g.Name)" })
     $glm += "pack_lbc:coffres/sac_$($g.Name)"
 }
-# ---------- RPG Series : equipement de classe dans nos coffres, batiments de classe dans nos villages, magie dans Apotheosis ----------
-# Paliers d'equipement (etiquettes rpg_series:loot_tier/*) : 1 = debut, 2 = robes et armes de classe, 3 = netherite, 4 = uniques (Arsenal, Armory).
-# Les coffres vanilla sont deja servis par la RPG Series elle-meme : on ne vise ici que les coffres des mods de structures.
-function TagE($tag, $w) { [ordered]@{ type = 'minecraft:tag'; name = "rpg_series:loot_tier/$tag"; expand = $true; weight = $w } }
-# Simply Bows n'a ni recette ni butin : ameliorations d'arc au palier 2, arcs uniques aux paliers 3 et 4
-$arcsAmelio = [ordered]@{ type = 'minecraft:tag'; name = 'simplybows:upgrades'; expand = $true; weight = 1 }
-$arcsUniques1 = [ordered]@{ type = 'minecraft:tag'; name = 'simplybows:uniques'; expand = $true; weight = 1 }
-$arcsUniques2 = [ordered]@{ type = 'minecraft:tag'; name = 'simplybows:uniques'; expand = $true; weight = 2 }
-$classePaliers = [ordered]@{
-    1 = @((TagE 'tier_1_weapons' 3), (TagE 'tier_1_armors' 3), (TagE 'tier_0_weapons' 2), (TagE 'tier_0_accessories' 2))
-    2 = @((TagE 'tier_2_weapons' 3), (TagE 'tier_2_armors' 3), (TagE 'tier_1_accessories' 2), $arcsAmelio)
-    3 = @((TagE 'tier_3_weapons' 3), (TagE 'tier_3_armors' 3), (TagE 'tier_2_accessories' 2), (TagE 'tier_3_accessories' 1), $arcsUniques1)
-    4 = @((TagE 'tier_4_weapons' 3), (TagE 'tier_5_weapons' 3), (TagE 'tier_5_armors' 2), (TagE 'tier_4_accessories' 2), $arcsUniques2)
-}
-foreach ($n in $classePaliers.Keys) { W "data/pack_lbc/loot_table/classes/palier_$n.json" ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = $classePaliers[$n] }) }) }
-W 'data/pack_lbc/loot_table/classes/palier_12.json' ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = @(
-                [ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:classes/palier_1'; weight = 3 }, [ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:classes/palier_2'; weight = 1 }) }) })
-# Coffres vises (liste figee : scripts/data/coffres_classes.csv) : coffres interessants des structures (6 %, paliers 1-2), coffres tresor (15 %, palier 3)
-$cc = Import-Csv (Join-Path $PSScriptRoot 'data\coffres_classes.csv')
-foreach ($g in @(@('standard', '1-2', 0.06, 'palier_12'), @('tresor', '3', 0.15, 'palier_3'))) {
-    $terms = @($cc | Where-Object { $_.palier -eq $g[1] } | ForEach-Object { [ordered]@{ condition = 'neoforge:loot_table_id'; loot_table_id = $_.table } })
-    W "data/pack_lbc/loot_modifiers/classes/$($g[0]).json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }, [ordered]@{ condition = 'minecraft:random_chance'; chance = $g[2] }); table = "pack_lbc:classes/$($g[3])" })
-    $glm += "pack_lbc:classes/$($g[0])"
-}
-# Batiments de classe (tour de mage, sanctuaire, caserne, champ de tir, bijouterie) : la RPG Series ne les ajoute qu'aux villages vanilla,
-# que Luki's Grand Capitals remplace. On les ajoute aux villages CTOV, Towns & Towers et Trek (memes raccords que le vanilla).
-# Les capitales de Luki utilisent leurs propres raccords : pas de batiment de classe chez elles.
-# Liste figee des batiments : scripts/data/classes_villages.csv
-$poolsBiome = [ordered]@{
-    plains  = @('ctov:village/plains/house', 'ctov:village/plains_fortified/house', 'ctov:village/beach/house', 'ctov:village/mountain/house', 'ctov:village/mountain_alpine/house',
-        'ctov:village/swamp/house', 'ctov:village/swamp_fortified/house', 'ctov:village/jungle/house', 'ctov:village/jungle_tree/house', 'ctov:village/mushroom/house',
-        'ctov:village/christmas/house', 'ctov:village/halloween/house',
-        'kaisyn:village/exclusives/classic/houses', 'kaisyn:village/exclusives/iberian/houses', 'kaisyn:village/exclusives/rustic/houses', 'kaisyn:village/exclusives/tudor/houses',
-        'kaisyn:village/birch_forest_romanian/houses', 'kaisyn:village/flower_forest_japanese/houses', 'kaisyn:village/meadow_swiss/houses', 'kaisyn:village/jungle_tribal/houses',
-        'kaisyn:village/sparse_jungle_polynesian/houses', 'kaisyn:village/swamp_boat/houses', 'kaisyn:village/mushroom_fields_fantasy/houses', 'kaisyn:village/beach_lighthouse/side/house',
-        'trek:village/plains/houses', 'trek:village/cherry/houses', 'trek:village/mushroom/houses', 'trek:village/swamp_vanilla/houses')
-    desert  = @('ctov:village/desert/house', 'ctov:village/desert_oasis/house', 'ctov:village/mesa/house', 'ctov:village/mesa_fortified/house',
-        'kaisyn:village/badlands_pueblo/houses', 'kaisyn:village/exclusives/nilotic/houses', 'kaisyn:village/wooded_badlands_tipi/houses', 'trek:village/desert/houses')
-    savanna = @('ctov:village/savanna/house', 'ctov:village/savanna_na/house', 'trek:village/savanna/houses')
-    snowy   = @('ctov:village/snowy_igloo/house', 'kaisyn:village/snowy_taiga_viking/houses', 'trek:village/snowy/houses')
-    taiga   = @('ctov:village/taiga/house', 'ctov:village/taiga_fortified/house', 'kaisyn:village/old_growth_taiga_polish/houses', 'trek:village/taiga/houses')
-}
-foreach ($b in (Import-Csv (Join-Path $PSScriptRoot 'data\classes_villages.csv') | Group-Object biome)) {
-    $els = @($b.Group | ForEach-Object { [ordered]@{ weight = [int]$_.weight; element = [ordered]@{ element_type = 'lithostitched:limited'; limit = 1
-                    delegate = [ordered]@{ element_type = 'minecraft:single_pool_element'; projection = 'rigid'; processors = $_.processors; location = $_.location } } } })
-    W "data/pack_lbc/lithostitched/worldgen_modifier/classes/village_$($b.Name).json" ([ordered]@{ type = 'lithostitched:add_template_pool_elements'; template_pools = $poolsBiome[$b.Name]; elements = $els })
-}
-# Apotheosis : les batons et baguettes comptent comme armes (affixes possibles), affixes et gemmes de puissance de sort.
-W 'data/apotheosis/data_maps/item/loot_category_overrides.json' ([ordered]@{ values = [ordered]@{
-            'minecraft:iron_sword' = 'apotheosis:melee_weapon'; 'minecraft:shulker_shell' = 'apotheosis:none'
-            '#rpg_series:archetype/magic_damage_weapon' = 'apotheosis:melee_weapon'; '#rpg_series:archetype/healing_weapon' = 'apotheosis:melee_weapon' } })
-function Vals($c, $u, $r, $e, $m) { [ordered]@{ 'apotheosis:common' = [ordered]@{ min = $c[0]; max = $c[1] }; 'apotheosis:uncommon' = [ordered]@{ min = $u[0]; max = $u[1] }
-        'apotheosis:rare' = [ordered]@{ min = $r[0]; max = $r[1] }; 'apotheosis:epic' = [ordered]@{ min = $e[0]; max = $e[1] }; 'apotheosis:mythic' = [ordered]@{ min = $m[0]; max = $m[1] } } }
-$armures = @('apotheosis:helmet', 'apotheosis:chestplate', 'apotheosis:leggings', 'apotheosis:boots')
-# une ecole de magie par piece d'armure (affixes exclusifs entre eux)
-$ecoles = [ordered]@{ arcanique = 'arcane'; ardent = 'fire'; givre = 'frost'; sacre = 'healing'; orageux = 'lightning'; spectral = 'soul'; tellurique = 'earth'; marin = 'water'; eolien = 'air' }
-foreach ($a in $ecoles.Keys) {
-    $excl = @($ecoles.Keys | Where-Object { $_ -ne $a } | ForEach-Object { "pack_lbc:magie/$_" })
-    W "data/pack_lbc/affixes/magie/$a.json" ([ordered]@{ type = 'apotheosis:attribute'; attribute = "spell_power:$($ecoles[$a])"; categories = $armures
-            definition = [ordered]@{ affix_type = 'stat'; exclusive_set = $excl; weights = [ordered]@{ quality = 0.1; weight = 10 } }; operation = 'add_multiplied_base'
-            values = (Vals @(0.02, 0.04) @(0.03, 0.05) @(0.04, 0.08) @(0.06, 0.10) @(0.09, 0.14)) })
-}
-W 'data/pack_lbc/affixes/magie/puissant.json' ([ordered]@{ type = 'apotheosis:attribute'; attribute = 'spell_power:generic'; categories = @('apotheosis:melee_weapon')
-        definition = [ordered]@{ affix_type = 'stat'; exclusive_set = @(); weights = [ordered]@{ quality = 0.1; weight = 15 } }; operation = 'add_multiplied_base'
-        values = (Vals @(0.03, 0.05) @(0.04, 0.07) @(0.05, 0.10) @(0.08, 0.14) @(0.12, 0.20)) })
-W 'data/pack_lbc/affixes/magie/clairvoyant.json' ([ordered]@{ type = 'apotheosis:attribute'; attribute = 'spell_power:critical_chance'; categories = @('apotheosis:melee_weapon', 'apotheosis:helmet')
-        definition = [ordered]@{ affix_type = 'stat'; exclusive_set = @(); weights = [ordered]@{ quality = 0.1; weight = 10 } }; operation = 'add_multiplied_base'
-        values = (Vals @(0.01, 0.03) @(0.02, 0.04) @(0.03, 0.06) @(0.04, 0.08) @(0.06, 0.10)) })
-W 'data/pack_lbc/affixes/magie/veloce.json' ([ordered]@{ type = 'apotheosis:attribute'; attribute = 'spell_power:haste'; categories = @('apotheosis:melee_weapon', 'apotheosis:boots')
-        definition = [ordered]@{ affix_type = 'stat'; exclusive_set = @(); weights = [ordered]@{ quality = 0.1; weight = 10 } }; operation = 'add_multiplied_base'
-        values = (Vals @(0.01, 0.03) @(0.02, 0.04) @(0.03, 0.06) @(0.04, 0.08) @(0.06, 0.10)) })
-function GemV($v) { [ordered]@{ cracked = $v[0]; chipped = $v[1]; flawed = $v[2]; normal = $v[3]; flawless = $v[4]; perfect = $v[5] } }
-W 'data/pack_lbc/gems/magie/archimage.json' ([ordered]@{ type = 'apotheosis:gem'; weights = [ordered]@{ quality = 0.1; weight = 60 }; bonuses = @(
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'spell_power:generic'; gem_class = [ordered]@{ key = 'armor'; types = $armures }; operation = 'add_multiplied_base'; values = (GemV @(0.02, 0.03, 0.04, 0.06, 0.08, 0.10)) },
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'spell_power:critical_damage'; gem_class = [ordered]@{ key = 'weapon'; types = @('apotheosis:melee_weapon') }; operation = 'add_multiplied_base'; values = (GemV @(0.05, 0.08, 0.12, 0.16, 0.20, 0.25)) }) })
-W 'data/pack_lbc/gems/magie/celerite.json' ([ordered]@{ type = 'apotheosis:gem'; weights = [ordered]@{ quality = 0.1; weight = 60 }; bonuses = @(
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'spell_power:haste'; gem_class = [ordered]@{ key = 'armor'; types = $armures }; operation = 'add_multiplied_base'; values = (GemV @(0.02, 0.03, 0.04, 0.06, 0.08, 0.10)) },
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'spell_power:critical_chance'; gem_class = [ordered]@{ key = 'weapon'; types = @('apotheosis:melee_weapon') }; operation = 'add_multiplied_base'; values = (GemV @(0.02, 0.03, 0.04, 0.05, 0.07, 0.09)) }) })
-
 # Tablettes de grotte d'Alex's Caves : sources ajoutees pour les temples de jungle YUNG (Toxic Caves)
 # et les manoirs de Repurposed Structures (Forlorn Hollows), en plus des coffres vanilla prevus par le mod.
 $tablettes = [ordered]@{

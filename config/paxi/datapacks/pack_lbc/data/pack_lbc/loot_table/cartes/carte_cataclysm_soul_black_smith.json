@@ -6,33 +6,23 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "minecraft:map",
+                                          "name":  "irons_spellbooks:furled_map",
                                           "functions":  [
                                                             {
-                                                                "function":  "minecraft:exploration_map",
-                                                                "destination":  "pack_lbc:cartes/carte_cataclysm_soul_black_smith",
-                                                                "decoration":  "minecraft:target_x",
-                                                                "zoom":  2,
-                                                                "search_radius":  64,
-                                                                "skip_existing_chunks":  false
-                                                            },
-                                                            {
-                                                                "function":  "minecraft:set_name",
-                                                                "target":  "item_name",
-                                                                "name":  {
-                                                                             "text":  "Carte : Forge des ames"
-                                                                         }
-                                                            },
-                                                            {
-                                                                "function":  "minecraft:set_lore",
-                                                                "mode":  "append",
-                                                                "lore":  [
-                                                                             {
-                                                                                 "text":  "[Cataclysm - Nether]",
-                                                                                 "italic":  false,
-                                                                                 "color":  "gray"
-                                                                             }
-                                                                         ]
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "cataclysm:soul_black_smith",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Forge des ames"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:the_nether"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Forge des ames\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Cataclysm - Nether]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
                                                             }
                                                         ]
                                       }

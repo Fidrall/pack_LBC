@@ -7,67 +7,27 @@
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_burning_arena",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:the_nether"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_ruined_citadel",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:the_end"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_bosses_of_mass_destruction_gauntlet_arena",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:the_nether"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_bosses_of_mass_destruction_obsidilith_arena",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:the_end"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_archaion_ancient_keep",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       }
                                   ]
                   }

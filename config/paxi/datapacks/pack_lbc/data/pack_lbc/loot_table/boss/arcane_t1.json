@@ -1,0 +1,44 @@
+{
+    "type":  "minecraft:entity",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:killed_by_player"
+                                         }
+                                     ],
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:arcane"
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:killed_by_player"
+                                         },
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.25
+                                         }
+                                     ],
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/palier_1",
+                                          "weight":  1
+                                      }
+                                  ]
+                  }
+              ]
+}

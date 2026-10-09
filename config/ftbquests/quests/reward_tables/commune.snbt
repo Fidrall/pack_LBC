@@ -189,7 +189,7 @@
 			id: "0B40CCF0EC2397E9"
 			item: {
 				count: 1
-				id: "minecraft:lapis_lazuli"
+				id: "irons_spellbooks:arcane_essence"
 			}
 			weight: 4.0f
 		}
@@ -198,7 +198,7 @@
 			id: "296316F73BE3FDE8"
 			item: {
 				count: 1
-				id: "apotheosis:gem_dust"
+				id: "irons_spellbooks:common_ink"
 			}
 			weight: 3.0f
 		}

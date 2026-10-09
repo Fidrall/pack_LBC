@@ -7,132 +7,62 @@
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_minecraft_ancient_city",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_cursed_pyramid",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_frosted_prison",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_ancient_factory",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_sunken_city",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_acropolis",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_cataclysm_soul_black_smith",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:the_nether"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_irons_spellbooks_citadel",
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_mowziesmobs_monastery",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_mowziesmobs_wrought_chamber",
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_bosses_of_mass_destruction_lich_tower",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_bosses_of_mass_destruction_void_blossom",
-                                          "weight":  1,
-                                          "conditions":  [
-                                                             {
-                                                                 "condition":  "minecraft:location_check",
-                                                                 "predicate":  {
-                                                                                   "dimension":  "minecraft:overworld"
-                                                                               }
-                                                             }
-                                                         ]
+                                          "weight":  1
                                       }
                                   ]
                   }

@@ -6,33 +6,23 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "minecraft:map",
+                                          "name":  "irons_spellbooks:furled_map",
                                           "functions":  [
                                                             {
-                                                                "function":  "minecraft:exploration_map",
-                                                                "destination":  "pack_lbc:cartes/carte_mowziesmobs_wrought_chamber",
-                                                                "decoration":  "minecraft:target_x",
-                                                                "zoom":  2,
-                                                                "search_radius":  64,
-                                                                "skip_existing_chunks":  false
-                                                            },
-                                                            {
-                                                                "function":  "minecraft:set_name",
-                                                                "target":  "item_name",
-                                                                "name":  {
-                                                                             "text":  "Carte : Chambre du Forge-Fer"
-                                                                         }
-                                                            },
-                                                            {
-                                                                "function":  "minecraft:set_lore",
-                                                                "mode":  "append",
-                                                                "lore":  [
-                                                                             {
-                                                                                 "text":  "[Mowzie\u0027s Mobs - Overworld]",
-                                                                                 "italic":  false,
-                                                                                 "color":  "gray"
-                                                                             }
-                                                                         ]
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "mowziesmobs:wrought_chamber",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Chambre du Forge-Fer"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:overworld"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Chambre du Forge-Fer\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Mowzie\u0027s Mobs - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
                                                             }
                                                         ]
                                       }

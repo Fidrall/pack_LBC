@@ -6,33 +6,23 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "minecraft:map",
+                                          "name":  "irons_spellbooks:furled_map",
                                           "functions":  [
                                                             {
-                                                                "function":  "minecraft:exploration_map",
-                                                                "destination":  "pack_lbc:cartes/carte_bosses_of_mass_destruction_obsidilith_arena",
-                                                                "decoration":  "minecraft:target_x",
-                                                                "zoom":  2,
-                                                                "search_radius":  64,
-                                                                "skip_existing_chunks":  false
-                                                            },
-                                                            {
-                                                                "function":  "minecraft:set_name",
-                                                                "target":  "item_name",
-                                                                "name":  {
-                                                                             "text":  "Carte : Arene de l\u0027obsidilithe"
-                                                                         }
-                                                            },
-                                                            {
-                                                                "function":  "minecraft:set_lore",
-                                                                "mode":  "append",
-                                                                "lore":  [
-                                                                             {
-                                                                                 "text":  "[Bosses of Mass Destruction - End]",
-                                                                                 "italic":  false,
-                                                                                 "color":  "gray"
-                                                                             }
-                                                                         ]
+                                                                "function":  "minecraft:set_components",
+                                                                "components":  {
+                                                                                   "irons_spellbooks:furled_map_data":  {
+                                                                                                                            "destination":  "bosses_of_mass_destruction:obsidilith_arena",
+                                                                                                                            "descriptionOverride":  {
+                                                                                                                                                        "text":  "Arene de l\u0027obsidilithe"
+                                                                                                                                                    },
+                                                                                                                            "dimension":  "minecraft:the_end"
+                                                                                                                        },
+                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Arene de l\u0027obsidilithe\",\"italic\":false}",
+                                                                                   "minecraft:lore":  [
+                                                                                                          "{\"text\":\"[Bosses of Mass Destruction - End]\",\"italic\":false,\"color\":\"gray\"}"
+                                                                                                      ]
+                                                                               }
                                                             }
                                                         ]
                                       }
