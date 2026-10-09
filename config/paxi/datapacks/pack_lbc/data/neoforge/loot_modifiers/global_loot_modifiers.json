@@ -30,6 +30,8 @@
                     "pack_lbc:boss/legende_t2",
                     "pack_lbc:boss/legende_t1",
                     "pack_lbc:coffres/sac_general",
+                    "pack_lbc:classes/standard",
+                    "pack_lbc:classes/tresor",
                     "pack_lbc:tablette_toxic_caves",
                     "pack_lbc:tablette_forlorn_hollows"
                 ]

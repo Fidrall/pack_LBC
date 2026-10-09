@@ -15,13 +15,13 @@
                 ],
     "key":  {
                 "A":  {
-                          "item":  "minecraft:amethyst_shard"
+                          "item":  "runes:arcane_stone"
                       },
                 "L":  {
                           "tag":  "c:gems/lapis"
                       },
                 "F":  {
-                          "item":  "minecraft:blaze_powder"
+                          "item":  "runes:fire_stone"
                       },
                 "E":  {
                           "item":  "minecraft:ender_eye"

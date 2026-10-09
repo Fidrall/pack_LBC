@@ -1,0 +1,50 @@
+{
+    "type":  "apotheosis:attribute",
+    "attribute":  "spell_power:soul",
+    "categories":  [
+                       "apotheosis:helmet",
+                       "apotheosis:chestplate",
+                       "apotheosis:leggings",
+                       "apotheosis:boots"
+                   ],
+    "definition":  {
+                       "affix_type":  "stat",
+                       "exclusive_set":  [
+                                             "pack_lbc:magie/arcanique",
+                                             "pack_lbc:magie/ardent",
+                                             "pack_lbc:magie/givre",
+                                             "pack_lbc:magie/sacre",
+                                             "pack_lbc:magie/orageux",
+                                             "pack_lbc:magie/tellurique",
+                                             "pack_lbc:magie/marin",
+                                             "pack_lbc:magie/eolien"
+                                         ],
+                       "weights":  {
+                                       "quality":  0.1,
+                                       "weight":  10
+                                   }
+                   },
+    "operation":  "add_multiplied_base",
+    "values":  {
+                   "apotheosis:common":  {
+                                             "min":  0.02,
+                                             "max":  0.04
+                                         },
+                   "apotheosis:uncommon":  {
+                                               "min":  0.03,
+                                               "max":  0.05
+                                           },
+                   "apotheosis:rare":  {
+                                           "min":  0.04,
+                                           "max":  0.08
+                                       },
+                   "apotheosis:epic":  {
+                                           "min":  0.06,
+                                           "max":  0.1
+                                       },
+                   "apotheosis:mythic":  {
+                                             "min":  0.09,
+                                             "max":  0.14
+                                         }
+               }
+}

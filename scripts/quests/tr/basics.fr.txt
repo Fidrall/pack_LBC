@@ -313,6 +313,8 @@ quest.660C3D5CB407247F.quest_desc: [
   ""
   "&6\"R\"&r – Roulade (Combat Roll)"
   ""
+  "&6\"O\"&r – Arbre de compétences de ta classe (sorts : arme de classe en main, voir la barre de sorts)"
+  ""
   "&6\"M\"&r – Grande carte, chunks protégés et points de passage (FTB Chunks)"
   ""
   "&6\"N\"&r – Ajouter un point de passage (FTB Chunks). La minicarte s'affiche en haut à droite."

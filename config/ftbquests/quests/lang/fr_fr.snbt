@@ -10,6 +10,10 @@
 	reward_table.5BF2DB02CBF4D490.title: "Caisse rare"
 	reward_table.396C1887C2F887B7.title: "Caisse épique"
 	reward_table.7D221ADF1898E942.title: "Caisse légendaire"
+	chapter.04E335F2320D03C2.chapter_subtitle: [
+		"Choisis ta voie, équipe-toi, spécialise-toi"
+	]
+	chapter.04E335F2320D03C2.title: "&d&lLes Classes"
 	chapter.088490E6C2387E8A.chapter_subtitle: [
 		"Six biomes cachés sous terre"
 	]
@@ -156,6 +160,8 @@
 	]
 	quest.02E09ED80689775A.quest_subtitle: "Pas à pas : les algues se trouvent dans l'océan"
 	quest.02E09ED80689775A.title: "&l&aFabriquer une ferme à algues&r&r"
+	quest.036AFA883024E777.quest_subtitle: "Le sanctuaire ambulant"
+	quest.036AFA883024E777.title: "Prieur en netherite"
 	quest.0420DAF362EE2B37.quest_desc: [
 		"Le &6&lChâssis Linéaire&r&r est un bloc de base pour construire des constructions animées."
 		""
@@ -208,6 +214,8 @@
 	]
 	quest.04C1E2AB542EDD57.quest_subtitle: "Plus de puissance"
 	quest.04C1E2AB542EDD57.title: "La Bibliothèque Infernale"
+	quest.04E11F165ADBC22D.quest_subtitle: "Vitesse et tempêtes"
+	quest.04E11F165ADBC22D.title: "&fÉlémentaliste de l'air"
 	quest.05069A76D6F3ECB9.quest_desc: [
 		"Combine la tablette avec une carte pour obtenir une &ecarte de grotte&r. Elle cherche le biome le plus proche, puis te montre le chemin."
 		""
@@ -279,6 +287,16 @@
 		"Ils ne servent pas qu'à frimer : on en a besoin pour les outils et les machines les plus puissants."
 	]
 	quest.06267D7C266DE215.title: "&bBrillant et rare"
+	quest.0636F3B503AE015E.quest_desc: [
+		"Le &cguerrier&r encaisse et frappe : haches doubles, glaives, cris de guerre."
+	]
+	quest.0636F3B503AE015E.quest_subtitle: "Frapper fort"
+	quest.0636F3B503AE015E.title: "&cGuerrier"
+	quest.063AE3A46F02D34C.quest_desc: [
+		"Le &fprêtre&r soigne et renforce ses alliés : indispensable en groupe face aux boss."
+	]
+	quest.063AE3A46F02D34C.quest_subtitle: "Soigner et bénir"
+	quest.063AE3A46F02D34C.title: "&fPrêtre"
 	quest.064A83B56235884F.quest_desc: [
 		"&aFriends and Foes&r ajoute les créatures des votes de Mojang qui n'ont jamais été ajoutées au jeu : golem de cuivre, Glare, Moobloom, Mauler, Iceologer, Wildfire, Rascal, Crabe, Tuff Golem…"
 	]
@@ -566,6 +584,11 @@
 	]
 	quest.0D63CF8BA1F3A152.quest_subtitle: "Un diamant, de l'eau et des fleurs"
 	quest.0D63CF8BA1F3A152.title: "&2&lEntrer dans la Forêt du Crépuscule"
+	quest.0D9176BBBBAAA6F3.quest_desc: [
+		"Les &3élémentalistes&r maîtrisent l'eau, la terre ou l'air."
+	]
+	quest.0D9176BBBBAAA6F3.quest_subtitle: "Vagues et soins"
+	quest.0D9176BBBBAAA6F3.title: "&3Élémentaliste de l'eau"
 	quest.0DBA2118C58A9676.quest_desc: [
 		"La &6&lPresse Mécanique&r&r sert aux recettes de pressage, d'emballage et de compactage."
 		""
@@ -601,6 +624,11 @@
 	]
 	quest.0E3D366B37BED52B.quest_subtitle: "Boss 1 : la Cour du Naga"
 	quest.0E3D366B37BED52B.title: "&2Le Naga"
+	quest.0E5E98FCC85FF60D.quest_desc: [
+		"Le &4berserker&r entre en transe : plus le combat dure, plus il frappe fort."
+	]
+	quest.0E5E98FCC85FF60D.quest_subtitle: "La rage du combat"
+	quest.0E5E98FCC85FF60D.title: "&4Berserker"
 	quest.0F4D2E3476133AE8.quest_desc: [
 		"La &eTable d'Imprégnation&r permet d'&aaméliorer un livre enchanté au-delà de son niveau maximum&r, avec des matériaux rares des illagers."
 		""
@@ -716,6 +744,11 @@
 	quest.12A0A5DACE8A7479.title: "&4&lMaître du Nether"
 	quest.12CA9E9ECFFEA4CE.quest_subtitle: "Charme"
 	quest.12CA9E9ECFFEA4CE.title: "Dent en or"
+	quest.132B3C98E1CC0EC1.quest_desc: [
+		"L'&aarcher&r tire des flèches enchantées et pose des pièges. Arcs longs, arcs courts, arbalètes lourdes ou rapides."
+	]
+	quest.132B3C98E1CC0EC1.quest_subtitle: "Frapper de loin"
+	quest.132B3C98E1CC0EC1.title: "&aArcher"
 	quest.13384C6B8C1B2D60.quest_desc: [
 		"Combine tous les &elivres de guide&r des mods (Patchouli, etc.) dans le &eTome Akashique&r : un seul livre au lieu de dix dans ton inventaire."
 		""
@@ -804,6 +837,8 @@
 		"Un Interrupteur à Seuil permet de suivre la longueur de la corde pour automatiser ou envoyer un signal."
 	]
 	quest.162F3E589083CA60.quest_subtitle: "La défense furieuse est lâchée par les hoglins tués avec une hachette Ravage."
+	quest.16D39E292B14C990.quest_subtitle: "La fureur incarnée"
+	quest.16D39E292B14C990.title: "Berserker en netherite"
 	quest.16FE44DE7D93172C.quest_desc: [
 		"La &a&lLanterne d'Expérience&r&r absorbe l'expérience des joueurs proches et les orbes d'expérience. Elle brille plus ou moins selon la quantité stockée."
 		""
@@ -1064,6 +1099,8 @@
 	]
 	quest.1CFAFD79611B348D.quest_subtitle: "Forgé dans le sang de l'Hydre"
 	quest.1CFAFD79611B348D.title: "L'équipement ardent"
+	quest.1D41F9FF506EE6F7.quest_subtitle: "Ralentir et geler"
+	quest.1D41F9FF506EE6F7.title: "Mage du givre"
 	quest.1DCBB6615422DBBB.quest_desc: [
 		"La &6Boussole de l'Explorateur&r peut localiser &bn'importe quelle structure&r du pack."
 		""
@@ -1216,6 +1253,11 @@
 		"Quand une bobine est vide, elle redevient une Bobine Vide, prête à être rechargée."
 	]
 	quest.2192D2F22A2C17FD.title: "&e🧵 Bobines et câbles"
+	quest.219A7F6DF2F0CF88.quest_desc: [
+		"Le &7witcher&r combat à l'épée et lance des &esignes&r. Il utilise huiles et potions contre les monstres."
+	]
+	quest.219A7F6DF2F0CF88.quest_subtitle: "Chasseur de monstres"
+	quest.219A7F6DF2F0CF88.title: "&7Witcher"
 	quest.21E5B83843A2DA2A.quest_desc: [
 		"Pratique pour séparer des trains ou des wagons qui se cognent, ou simplement pour donner du style à ton train."
 	]
@@ -1346,6 +1388,13 @@
 		""
 		"Comme la version normale, il réagit aussi aux signaux de redstone pour déclencher ou contrôler sa séquence."
 	]
+	quest.26A0E2BF9383780A.quest_desc: [
+		"Chaque &eécole de witcher&r a son armure et son style : le &eChat&r (agilité), le &eGriffon&r (signes), l'&eOurs&r (résistance), le &eLoup&r (équilibre)."
+		""
+		"Les armures s'améliorent ensuite avec des &ediagrammes&r de plus en plus rares."
+	]
+	quest.26A0E2BF9383780A.quest_subtitle: "Chat, Griffon, Ours ou Loup"
+	quest.26A0E2BF9383780A.title: "Choisir son école"
 	quest.2807106C369DF042.quest_subtitle: "Obtiens un Transmetteur de Sculk."
 	quest.28101F299D039864.quest_desc: [
 		"Apparaît naturellement dans les &achunks à slimes&r, en deux tailles différentes, chacune avec ses propres statistiques."
@@ -1427,6 +1476,15 @@
 	]
 	quest.29D6C7D5DEC00FB2.quest_subtitle: "Détecter les obstacles"
 	quest.29D6C7D5DEC00FB2.title: "Le Capteur Optique"
+	quest.2A7CF9825E28A961.quest_desc: [
+		"Les &egemmes&r de Jewelry se trouvent sous terre (rubis, topaze, citrine, jade, saphir, tanzanite)."
+		""
+		"Taillées et montées en &ebagues&r et &ecolliers&r, elles augmentent la puissance de sort, les critiques ou la vitesse d'incantation."
+	]
+	quest.2A7CF9825E28A961.quest_subtitle: "Bagues et colliers"
+	quest.2A7CF9825E28A961.title: "Bijoutier"
+	quest.2AA856A6B9C6F7F4.quest_subtitle: "Au cœur de la mêlée"
+	quest.2AA856A6B9C6F7F4.title: "Armure de guerrier"
 	quest.2B2107E4946671B3.quest_desc: [
 		"La &5Licowitch&r garde sa tour et un coffre secret bien caché."
 	]
@@ -1701,6 +1759,8 @@
 		""
 		"&6C'est aussi la meilleure façon de sauvegarder tes constructions en vue d'un futur changement de version du serveur !&r"
 	]
+	quest.324B080F552E80A2.quest_subtitle: "Roche et défense"
+	quest.324B080F552E80A2.title: "&6Élémentaliste de la terre"
 	quest.32874A063226CBCF.quest_desc: [
 		"Un énorme singe des glaces qui &edort dans les biomes enneigés&r. Ne le réveille que si tu es prêt !"
 		""
@@ -1746,6 +1806,8 @@
 		"Tu peux surveiller la contrainte avec un &eContraintomètre&r ou en portant des &eLunettes d'Ingénieur&r."
 	]
 	quest.3301CEA39477F779.title: "La contrainte cinétique"
+	quest.333FA50DA2DDCF74.quest_subtitle: "Inarrêtable"
+	quest.333FA50DA2DDCF74.title: "Guerrier en netherite"
 	quest.3344885DD43E870C.quest_desc: [
 		"Le &l&9Réservoir de Carburant&r&r stocke de la lave pour remplir ton jetpack ou un objet compatible comme le Grappin-Fouet. Il le fait automatiquement tant qu'il est dans ton inventaire."
 		""
@@ -1942,6 +2004,8 @@
 	]
 	quest.376EB57018B8FCC1.quest_subtitle: "Pour les hélicoptères"
 	quest.376EB57018B8FCC1.title: "Le Roulement Gyroscopique"
+	quest.3771421272146762.quest_subtitle: "Dans l'ombre"
+	quest.3771421272146762.title: "Tenue de voleur"
 	quest.37A185E923C1EC4C.quest_subtitle: "Dos"
 	quest.37A185E923C1EC4C.title: "Cape détraquée"
 	quest.37D3986933A263DB.quest_subtitle: "Un coup fatal te téléporte ailleurs au lieu de te tuer"
@@ -1981,6 +2045,8 @@
 		"C'est la salle la mieux gardée du bastion : les piglins brutes ne plaisantent pas. Porte au moins une pièce d'armure en or pour ne pas énerver les autres piglins."
 	]
 	quest.38C09CF7914BEE30.quest_subtitle: "Le trésor des piglins"
+	quest.38CBDBCB8ECBF182.quest_subtitle: "Projectiles et téléportation"
+	quest.38CBDBCB8ECBF182.title: "Mage des arcanes"
 	quest.3980DD49B40511C6.quest_desc: [
 		"En &emode Tirer&r, le &6&lconnecteur&r&r récupère l'&bélectricité&r d'un bloc qui en produit ou en stocke (par exemple des &dBalais de Carbone&r). Il l'envoie ensuite par un câble vers un autre connecteur, qui peut alimenter une machine."
 		""
@@ -1991,6 +2057,11 @@
 	quest.398BF9760AEFEF27.quest_subtitle: "Un des premiers boss"
 	quest.398BF9760AEFEF27.title: "Vaincre un Gardien Ancien"
 	quest.39AD4C222874D63F.quest_subtitle: "Allonge ton temps d'invincibilité après un coup (1 s)"
+	quest.39C28C4331484696.quest_desc: [
+		"La &etable de liaison des sorts&r permet d'ajouter des sorts à un &elivre de sorts&r ou à une arme compatible, en échange d'expérience."
+	]
+	quest.39C28C4331484696.quest_subtitle: "Lier des sorts"
+	quest.39C28C4331484696.title: "La table de liaison"
 	quest.39EC6249048B5DA9.quest_desc: [
 		"Après l'Ur-Ghast, les &fForêts Enneigées&r s'ouvrent. Le froid y est mortel tant que le boss n'est pas vaincu !"
 		""
@@ -2005,6 +2076,17 @@
 	]
 	quest.3A227C6AE5CB2F32.quest_subtitle: "&l&eUn tapis roulant avec un nouveau look ? Sympa !&r&r"
 	quest.3A227C6AE5CB2F32.title: "Design n Decor"
+	quest.3A9EB01C0BA80D5A.quest_desc: [
+		"Ouvre ton &earbre de compétences&r avec la touche &6O&r."
+		""
+		"Tu gagnes des points en ramassant de l'expérience. Chaque classe a son arbre : spécialisation offensive ou défensive, sorts modifiés, effets passifs."
+		""
+		"&7Les choix comptent : on ne peut pas tout prendre."
+	]
+	quest.3A9EB01C0BA80D5A.quest_subtitle: "Touche O"
+	quest.3A9EB01C0BA80D5A.title: "&eL'arbre de compétences"
+	quest.3B5ADED90E3F4178.quest_subtitle: "Venu du froid"
+	quest.3B5ADED90E3F4178.title: "Armure nordique"
 	quest.3B8DD40BD3EF0512.quest_desc: [
 		"Le Nether de ce pack est bien plus dangereux et riche qu'en vanilla :"
 		""
@@ -2274,6 +2356,16 @@
 		"Ce système te permet de devenir de plus en plus fort, en transformant des outils ordinaires en équipement puissant adapté à ton style de jeu."
 	]
 	quest.419A16655447AA92.quest_subtitle: "Vision nocturne permanente"
+	quest.419F60F8F9FD819D.quest_desc: [
+		"Ta &dclasse&r, c'est ton &eéquipement&r : une arme de classe donne ses sorts et ses compétences, une armure de classe renforce ses pouvoirs."
+		""
+		"Rien n'est figé : tu peux changer de classe en changeant d'équipement. Mais chaque classe a son propre &earbre de compétences&r, et c'est là que tu te spécialises."
+		""
+		"- Les &ebâtiments de classe&r (tour de mage, sanctuaire, caserne, champ de tir, bijouterie) apparaissent dans les villages. Leurs villageois vendent l'équipement de base."
+		"- L'équipement plus puissant se trouve dans les &ecoffres des structures&r et sur les &cboss&r."
+	]
+	quest.419F60F8F9FD819D.quest_subtitle: "Mage, paladin, voleur, archer…"
+	quest.419F60F8F9FD819D.title: "&d&lLes Classes"
 	quest.41A7917AD48BC129.quest_desc: [
 		"On trouve les &eplantes sauvages&r de Farmer's Delight dans la nature : récolte-les pour obtenir des graines."
 		""
@@ -2324,6 +2416,8 @@
 	]
 	quest.43A8ECAA22D87380.quest_subtitle: "Le métal de Propulsion"
 	quest.43A8ECAA22D87380.title: "&7Le Platine"
+	quest.43C257F70DFB78D5.quest_subtitle: "Brûler et exploser"
+	quest.43C257F70DFB78D5.title: "Mage du feu"
 	quest.440CB7D81AEBB293.quest_desc: [
 		"L'&6Emballeur&r crée des &aColis en Carton&r à partir des inventaires attachés, ou des objets insérés avec un entonnoir."
 		""
@@ -2366,6 +2460,11 @@
 	]
 	quest.44F5B4AFC2F9B125.quest_subtitle: "Le cristal qui défie la gravité"
 	quest.44F5B4AFC2F9B125.title: "&d&lLa Lévitite"
+	quest.4550A0CC8748069B.quest_desc: [
+		"Tu as amené une classe au plus haut niveau d'équipement. Reste à remplir ton arbre de compétences… et à essayer une autre voie !"
+	]
+	quest.4550A0CC8748069B.quest_subtitle: "Une classe au sommet"
+	quest.4550A0CC8748069B.title: "&d&lMaître de classe"
 	quest.45588D020EF84979.quest_desc: [
 		"Des grottes chargées de &cnéodyme écarlate&r et &9azur&r, deux métaux qui s'attirent ou se repoussent."
 		""
@@ -2625,6 +2724,11 @@
 	]
 	quest.4D4EE7CADBAF19BB.quest_subtitle: "Incendium"
 	quest.4D4EE7CADBAF19BB.title: "L'esprit de la forêt flétrie"
+	quest.4D9490AFCB608B36.quest_desc: [
+		"Les sets d'&6Armory&r sont les meilleures armures de classe. Ils tombent sur les boss de fin de jeu."
+	]
+	quest.4D9490AFCB608B36.quest_subtitle: "Armory"
+	quest.4D9490AFCB608B36.title: "&6Armures légendaires"
 	quest.4DA92919147B3E18.quest_desc: [
 		"L'&a&lEnchanteur à Blaze&r&r fonctionne comme une table d'enchantement. Pour l'activer, il faut lui pomper de l'expérience liquide."
 		""
@@ -2644,6 +2748,8 @@
 		""
 		"Appuie sur &a'U'&r sur la paille pour voir quels liquides elle accepte et combien de temps ils brûlent."
 	]
+	quest.4DF4E25DE9EEFB28.quest_subtitle: "Léger et précis"
+	quest.4DF4E25DE9EEFB28.title: "Tenue d'archer"
 	quest.4DFE436CD88DAF36.quest_desc: [
 		"L'&l&6Imprimante&r&r utilise deux types de liquides :"
 		""
@@ -2706,6 +2812,11 @@
 	]
 	quest.5074B699E6B3FF0F.quest_subtitle: "Sac de couchage et hamac"
 	quest.5074B699E6B3FF0F.title: "Dormir en expédition"
+	quest.508F49CAAF40ABB9.quest_desc: [
+		"Le &9bâton de mage&r est le premier pas. Choisis ensuite ton école avec une robe et une arme dédiées."
+	]
+	quest.508F49CAAF40ABB9.quest_subtitle: "Arcane, feu ou givre"
+	quest.508F49CAAF40ABB9.title: "&9Mage"
 	quest.50CAC11C32FA70C6.quest_desc: [
 		"Les &eWaystones&r se trouvent dans le monde (y compris dans certains villages). &bActive-les en passant&r pour pouvoir t'y téléporter plus tard."
 		""
@@ -2741,6 +2852,11 @@
 		"Tu peux organiser les objets dans l'interface avec des filtres de liste ou d'attributs, pour créer des catégories."
 	]
 	quest.51A4E097156A6DC1.quest_subtitle: "Tes attaques te soignent un peu"
+	quest.51CC1C90F48933E1.quest_desc: [
+		"Le &8voleur&r frappe vite, disparaît et revient dans le dos de sa cible."
+	]
+	quest.51CC1C90F48933E1.quest_subtitle: "Discrétion et coups critiques"
+	quest.51CC1C90F48933E1.title: "&8Voleur"
 	quest.51DE989136E38F20.quest_desc: [
 		"Pas de pétrole près de chez toi ? Fabrique du &abiodiesel&r à partir d'huile végétale (graines pressées) et d'éthanol (fermenté dans la Cuve de Fermentation)."
 	]
@@ -2916,6 +3032,8 @@
 	quest.580A5EDF8F1FAF78.quest_subtitle: "De la portance à la vapeur"
 	quest.580A5EDF8F1FAF78.title: "La Bouche de Vapeur"
 	quest.5841D16B410B3D41.quest_subtitle: "Le tentacule de ghast est lâché par les ghasts tués avec une hachette Ravage."
+	quest.58BF6AC582D21310.quest_subtitle: "L'œil du faucon"
+	quest.58BF6AC582D21310.title: "Rôdeur en netherite"
 	quest.58D9CE68661256C8.quest_desc: [
 		"La &l&6Transmission à Chaîne&r&r transfère la rotation comme un tapis roulant, mais avec plus de liberté de placement."
 		""
@@ -2937,6 +3055,15 @@
 	]
 	quest.59816734AF9F1906.quest_subtitle: "Il va falloir aller dans l'End"
 	quest.59816734AF9F1906.title: "&dLa Poudre de Pierre de l'End"
+	quest.59A3FEB010820C0D.quest_desc: [
+		"L'équipement de classe peut recevoir des &5affixes&r comme le reste."
+		""
+		"- Sur les armures : &dpuissance d'une école de magie&r (arcane, feu, givre, soin, foudre, âme, terre, eau, air)."
+		"- Sur les armes et bâtons : &dpuissance de sort&r, &dcritique&r et &dvitesse d'incantation&r."
+		"- Deux gemmes : la &eGemme de l'archimage&r et la &eGemme de célérité&r."
+	]
+	quest.59A3FEB010820C0D.quest_subtitle: "Affixes et gemmes de sort"
+	quest.59A3FEB010820C0D.title: "&5La magie d'Apotheosis"
 	quest.59E19F13A596AD38.quest_desc: [
 		"Au cœur des &edéserts de cendres&r se dresse le &cChâteau Interdit&r, la plus grande forteresse du Nether d'Incendium."
 		""
@@ -3024,6 +3151,11 @@
 	]
 	quest.5C6987E41A5D7B87.quest_subtitle: "Enchanter à la mode de l'Aether"
 	quest.5C6987E41A5D7B87.title: "L'Autel"
+	quest.5D06D3C2F056888B.quest_desc: [
+		"Le &epaladin&r protège ses alliés et frappe avec une claymore ou un marteau."
+	]
+	quest.5D06D3C2F056888B.quest_subtitle: "Bouclier et lumière"
+	quest.5D06D3C2F056888B.title: "&ePaladin"
 	quest.5D17E5356CD5A42E.quest_desc: [
 		"Voici une sélection de &estructures remarquables&r à trouver. Chaque quête se valide automatiquement quand tu entres dans la structure."
 		""
@@ -3293,6 +3425,13 @@
 	]
 	quest.63CAF87FBF9AA207.quest_subtitle: "Un monde perdu"
 	quest.63CAF87FBF9AA207.title: "&6Primordial Caves"
+	quest.63DB16AE49DB3F9B.quest_desc: [
+		"Les sorts les plus puissants consomment des &erunes&r : arcane, feu, givre, soin, foudre, âme."
+		""
+		"L'&eautel des runes&r les fabrique à moindre coût. Une &ebourse à runes&r portée en accessoire les fournit automatiquement."
+	]
+	quest.63DB16AE49DB3F9B.quest_subtitle: "Les munitions des sorts"
+	quest.63DB16AE49DB3F9B.title: "L'autel des runes"
 	quest.6407DB1B8FBDBE81.quest_desc: [
 		"Associe des fréquences de &eLiaison Redstone&r à ses touches : tu contrôles ton vaisseau au clavier, comme avec un tableau de bord."
 		""
@@ -3370,6 +3509,8 @@
 		""
 		"&6\"R\"&r – Roulade (Combat Roll)"
 		""
+		"&6\"O\"&r – Arbre de compétences de ta classe (sorts : arme de classe en main, voir la barre de sorts)"
+		""
 		"&6\"M\"&r – Grande carte, chunks protégés et points de passage (FTB Chunks)"
 		""
 		"&6\"N\"&r – Ajouter un point de passage (FTB Chunks). La minicarte s'affiche en haut à droite."
@@ -3442,6 +3583,11 @@
 	]
 	quest.67237310A2D6E738.quest_subtitle: "De la magie à portée de main"
 	quest.67237310A2D6E738.title: "Les sceptres de la Liche"
+	quest.67E2812243E71DF7.quest_desc: [
+		"Les &6armes uniques&r d'Arsenal ont des effets spéciaux en touchant ou en lançant des sorts. On les trouve surtout sur les &cboss les plus durs&r."
+	]
+	quest.67E2812243E71DF7.quest_subtitle: "Arsenal"
+	quest.67E2812243E71DF7.title: "&6Armes uniques"
 	quest.67FA8896AD563A77.quest_desc: [
 		"Les &eWaystones&r sont des pierres de téléportation dispersées dans le monde, y compris dans certains villages."
 		""
@@ -3525,6 +3671,8 @@
 		"{image:pack_lbc:textures/quests/new_age_05.png width:100 height:86 align:center}"
 	]
 	quest.6AD020DBDE0A43F2.title: "Réacteur Nucléaire"
+	quest.6ADF193EF73F89FB.quest_subtitle: "La voix de la lumière"
+	quest.6ADF193EF73F89FB.title: "Robe de prêtre"
 	quest.6AF530358EE9745A.quest_desc: [
 		"Le pack ajoute des dizaines de nouvelles créatures : certaines amicales, d'autres terrifiantes."
 		""
@@ -3714,6 +3862,8 @@
 	]
 	quest.6EF972352D9E0B1F.quest_subtitle: "Un cœur de plus, pour toujours"
 	quest.6EF972352D9E0B1F.title: "Éclat de Vie"
+	quest.6F6F05C3F4774C91.quest_subtitle: "Le rempart"
+	quest.6F6F05C3F4774C91.title: "Croisé en netherite"
 	quest.6F8B33C36B43999A.quest_desc: [
 		"L'&5Invocateur&r est le chef des illagers. Il se trouve dans le &efort des illagers&r."
 		""
@@ -4054,6 +4204,13 @@
 	]
 	quest.74D506A204BAE1B9.quest_subtitle: "La piste d'un biome"
 	quest.74D506A204BAE1B9.title: "Une tablette de grotte"
+	quest.74F976FBD4B40DDF.quest_desc: [
+		"Huit &barcs uniques&r aux effets spéciaux (glace, abeilles, vignes, écho…) se cachent dans les coffres des structures et sur les boss."
+	]
+	quest.74F976FBD4B40DDF.quest_subtitle: "Simply Bows"
+	quest.74F976FBD4B40DDF.title: "&bArcs uniques"
+	quest.74FD9A6F691629B8.quest_subtitle: "Personne ne t'a vu"
+	quest.74FD9A6F691629B8.title: "Assassin en netherite"
 	quest.75245BCD1BB86548.quest_desc: [
 		"Dans la Forêt Obscure se dresse la &4Tour Obscure&r. Entre par les &eblocs réapparaissants&r à sa base, et monte jusqu'au dernier étage."
 		""
@@ -4073,6 +4230,8 @@
 	]
 	quest.76100542C15576F4.quest_subtitle: "Nullscape"
 	quest.76100542C15576F4.title: "La faille"
+	quest.7641AAE9F795D3BE.quest_subtitle: "Tenir la ligne"
+	quest.7641AAE9F795D3BE.title: "Armure de croisé"
 	quest.773E6F091F46BF19.quest_subtitle: "Ceinture"
 	quest.773E6F091F46BF19.title: "Ceinture de chasse"
 	quest.77686848F05F5118.quest_desc: [
@@ -4463,22 +4622,28 @@
 	task.0D14509C8C557CFD.title: "Clique pour valider"
 	task.145078315F0B473D.title: "Clique pour valider"
 	task.1621B878ADF3BB24.title: "170 aliments !"
+	task.17BE6A8F3F6E0254.title: "Clique pour valider"
 	task.184D02801FC28C38.title: "&6J'ai trop hâte de jouer !"
+	task.1ACF1DC7445ADDF3.title: "J'ai un set complet !"
 	task.1D986DC9FFE37C6A.title: "Clique pour valider"
 	task.202EB298365C4009.title: "Clique pour valider"
 	task.2253937F3806BE3D.title: "Tu es sûr ? Ne fais pas de bêtise."
 	task.228DCE6FDAD7130A.title: "Clique pour valider"
 	task.262BA060571DE2D8.title: "Clique pour valider"
+	task.286B000FAEC1ED73.title: "Ma classe est au sommet"
 	task.29E9412E46C50D93.title: "Compris !"
 	task.2E11C158DD5E8E3E.title: "Clique pour valider"
+	task.381363CC72D76E31.title: "Compris !"
 	task.3AD4F43742EABEE7.title: "Clique pour valider"
 	task.3D9F536C18CF7809.title: "Clique pour valider"
 	task.3F5AC72562569158.title: "Unités de contrainte"
+	task.42C27E01AAAE6B9C.title: "J'ai choisi mon école"
 	task.449AD8FC65D63BE4.title: "Le Nether est à moi"
 	task.4D81C19520048110.title: "Clique pour valider"
 	task.509D5321A4F9841D.title: "&6Je suis prêt"
 	task.59B37915ED9CA935.title: "&3Ça a l'air intéressant…"
 	task.5A0FD6D40314D526.title: "Clique pour valider"
+	task.5A5BC81CFEACD58B.title: "J'ai ouvert mon arbre"
 	task.5AEF67BE7BA61DB9.title: "Clique pour valider"
 	task.5C3C1B05DB934DC4.title: "Clique pour valider"
 	task.5DB129727B72195B.title: "Compris !"
@@ -4489,9 +4654,11 @@
 	task.67B3D076689320C9.title: "Je suis un grand explorateur"
 	task.69517BE82B4CD27C.title: "Les six biomes !"
 	task.699F008B89CEDD0B.title: "Clique pour valider"
+	task.6B44369BDECB8832.title: "J'en ai trouvé une !"
 	task.6B87B64D8F370153.title: "Clique pour valider"
 	task.6FA79A0E3B31D1CD.title: "Clique pour valider"
 	task.6FD0241035AC0F91.title: "Clique pour valider"
+	task.70FBE20B11BDE4E5.title: "J'en ai trouvé un !"
 	task.797924159D5342B4.title: "&l&cTu es sûr d'avoir tout lu ? Cette partie est vraiment importante."
 	task.7A914A2A159F03B5.title: "Clique pour valider"
 	task.7B694FDA219E75EB.title: "Mon ballon a décollé !"

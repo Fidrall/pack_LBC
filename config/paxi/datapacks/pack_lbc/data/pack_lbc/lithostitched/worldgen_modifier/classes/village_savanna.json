@@ -1,0 +1,75 @@
+{
+    "type":  "lithostitched:add_template_pool_elements",
+    "template_pools":  [
+                           "ctov:village/savanna/house",
+                           "ctov:village/savanna_na/house",
+                           "trek:village/savanna/houses"
+                       ],
+    "elements":  [
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "archers:village/savanna/archery_range_small"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "jewelry:village/savanna/jewelry_shop"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "paladins:village/savanna/sanctuary"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "rogues:village/savanna/barracks"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "wizards:village/savanna/wizard_tower"
+                                                      }
+                                     }
+                     }
+                 ]
+}

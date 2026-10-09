@@ -1,0 +1,80 @@
+{
+    "type":  "lithostitched:add_template_pool_elements",
+    "template_pools":  [
+                           "ctov:village/desert/house",
+                           "ctov:village/desert_oasis/house",
+                           "ctov:village/mesa/house",
+                           "ctov:village/mesa_fortified/house",
+                           "kaisyn:village/badlands_pueblo/houses",
+                           "kaisyn:village/exclusives/nilotic/houses",
+                           "kaisyn:village/wooded_badlands_tipi/houses",
+                           "trek:village/desert/houses"
+                       ],
+    "elements":  [
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "archers:village/desert/archery_range_small"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "jewelry:village/desert/jewelry_shop"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "paladins:village/desert/sanctuary"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "rogues:village/desert/barracks"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "wizards:village/desert/wizard_tower_2"
+                                                      }
+                                     }
+                     }
+                 ]
+}

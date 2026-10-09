@@ -213,3 +213,4 @@ key_key.create_sa.flying:key.keyboard.space:
 key_key.create_sa.increase_reach:key.keyboard.up:
 key_key.create_sa.decrease_reach:key.keyboard.down:
 key_key.entityculling.toggle:key.keyboard.unknown:
+key_key.puffish_skills.open:key.keyboard.o:

@@ -172,24 +172,16 @@
               ],
     "rewards":  [
                     {
-                        "type":  "gateways:counted",
-                        "count":  2,
-                        "reward":  {
-                                       "type":  "apotheosis:affix_item",
-                                       "rarities":  [
-                                                        "apotheosis:rare"
-                                                    ]
-                                   }
+                        "type":  "gateways:loot_table",
+                        "loot_table":  "pack_lbc:classes/palier_2",
+                        "rolls":  2,
+                        "desc":  "reward.pack_lbc.pack_lbc.classes.palier_2"
                     },
                     {
-                        "type":  "gateways:counted",
-                        "count":  2,
-                        "reward":  {
-                                       "type":  "apotheosis:gem",
-                                       "purities":  [
-                                                        "normal"
-                                                    ]
-                                   }
+                        "type":  "gateways:loot_table",
+                        "loot_table":  "pack_lbc:classes/palier_3",
+                        "rolls":  1,
+                        "desc":  "reward.pack_lbc.pack_lbc.classes.palier_3"
                     },
                     {
                         "type":  "gateways:experience",

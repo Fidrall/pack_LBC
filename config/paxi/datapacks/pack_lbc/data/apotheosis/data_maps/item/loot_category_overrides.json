@@ -1,0 +1,8 @@
+{
+    "values":  {
+                   "minecraft:iron_sword":  "apotheosis:melee_weapon",
+                   "minecraft:shulker_shell":  "apotheosis:none",
+                   "#rpg_series:archetype/magic_damage_weapon":  "apotheosis:melee_weapon",
+                   "#rpg_series:archetype/healing_weapon":  "apotheosis:melee_weapon"
+               }
+}

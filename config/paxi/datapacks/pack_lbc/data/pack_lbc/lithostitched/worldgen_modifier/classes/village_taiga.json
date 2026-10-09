@@ -1,0 +1,76 @@
+{
+    "type":  "lithostitched:add_template_pool_elements",
+    "template_pools":  [
+                           "ctov:village/taiga/house",
+                           "ctov:village/taiga_fortified/house",
+                           "kaisyn:village/old_growth_taiga_polish/houses",
+                           "trek:village/taiga/houses"
+                       ],
+    "elements":  [
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "archers:village/taiga/archery_range_small"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "jewelry:village/taiga/jewelry_shop"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "paladins:village/taiga/sanctuary"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "rogues:village/taiga/barracks"
+                                                      }
+                                     }
+                     },
+                     {
+                         "weight":  5,
+                         "element":  {
+                                         "element_type":  "lithostitched:limited",
+                                         "limit":  1,
+                                         "delegate":  {
+                                                          "element_type":  "minecraft:single_pool_element",
+                                                          "projection":  "rigid",
+                                                          "processors":  "minecraft:empty",
+                                                          "location":  "wizards:village/taiga/wizard_tower"
+                                                      }
+                                     }
+                     }
+                 ]
+}

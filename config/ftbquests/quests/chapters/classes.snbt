@@ -1,0 +1,1042 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "classes"
+	group: "1A00000000000004"
+	icon: {
+		id: "wizards:staff_wizard"
+	}
+	id: "04E335F2320D03C2"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "wizards:staff_wizard"
+			}
+			id: "419F60F8F9FD819D"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "17BE6A8F3F6E0254"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			id: "63DB16AE49DB3F9B"
+			rewards: [
+				{
+					id: "4EA0F1A9FE8C04CC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5F236259470881B4"
+					item: { count: 1, id: "runes:crafting_altar" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			id: "39C28C4331484696"
+			rewards: [
+				{
+					id: "61E18E57F65478E6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "60C4A9580BD89F0A"
+					item: { count: 1, id: "spell_engine:spell_binding" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "3A9EB01C0BA80D5A"
+			rewards: [
+				{
+					id: "5A6274864EFB6A06"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A5BC81CFEACD58B"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			id: "2A7CF9825E28A961"
+			rewards: [
+				{
+					id: "2381899297298A38"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5333FD94DFF19764"
+					item: { count: 1, id: "jewelry:jewelers_kit" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			icon: {
+				id: "apotheosis:gem"
+			}
+			id: "59A3FEB010820C0D"
+			rewards: [
+				{
+					id: "4925718FAF8AFB31"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "381363CC72D76E31"
+					type: "checkmark"
+				}
+			]
+			x: 3d
+			y: 1.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "508F49CAAF40ABB9"
+			rewards: [
+				{
+					id: "649528BB2AF850A0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "747BC972B8FB8848"
+					item: { count: 1, id: "wizards:staff_wizard" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 3d
+		}
+		{
+			dependencies: ["508F49CAAF40ABB9"]
+			id: "38CBDBCB8ECBF182"
+			optional: true
+			rewards: [
+				{
+					id: "35CDDF8139425E88"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "79B8AA1A624007C0"
+					item: { count: 1, id: "wizards:arcane_robe_chest" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["508F49CAAF40ABB9"]
+			id: "43C257F70DFB78D5"
+			optional: true
+			rewards: [
+				{
+					id: "060091E364DF2A18"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "23A6855C19CF6731"
+					item: { count: 1, id: "wizards:fire_robe_chest" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["508F49CAAF40ABB9"]
+			id: "1D41F9FF506EE6F7"
+			optional: true
+			rewards: [
+				{
+					id: "431B08CB74FA743A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "54097A38B17A2499"
+					item: { count: 1, id: "wizards:frost_robe_chest" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "0D9176BBBBAAA6F3"
+			optional: true
+			rewards: [
+				{
+					id: "5B25D9CC02798498"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "199A1F48D75FA4A8"
+					item: { count: 1, id: "elemental_wizards_rpg:ocean_robe_chest" }
+					type: "item"
+				}
+			]
+			x: -5d
+			y: 3d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "324B080F552E80A2"
+			optional: true
+			rewards: [
+				{
+					id: "1C5F71BEF72B3C19"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "75146F4E20A738DA"
+					item: { count: 1, id: "elemental_wizards_rpg:mountain_robe_chest" }
+					type: "item"
+				}
+			]
+			x: -5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "04E11F165ADBC22D"
+			optional: true
+			rewards: [
+				{
+					id: "6DCD886FA2969E2D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2437B0A207C6A1EE"
+					item: { count: 1, id: "elemental_wizards_rpg:hurricane_robe_chest" }
+					type: "item"
+				}
+			]
+			x: -5d
+			y: 6d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "5D06D3C2F056888B"
+			rewards: [
+				{
+					id: "122D8B730F6A4741"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1C44D129A2CC76DE"
+					item: { count: 1, id: "paladins:iron_claymore" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3d
+		}
+		{
+			dependencies: ["5D06D3C2F056888B"]
+			id: "7641AAE9F795D3BE"
+			rewards: [
+				{
+					id: "4030B95308003D97"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "45FD5D740B2A1E3A"
+					item: { count: 1, id: "paladins:crusader_armor_chest" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7641AAE9F795D3BE"]
+			id: "6F6F05C3F4774C91"
+			rewards: [
+				{
+					id: "10F44BAEAB9E937D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5ACC33DEB0F4389C"
+					item: { count: 1, id: "paladins:netherite_crusader_armor_chest" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "063AE3A46F02D34C"
+			rewards: [
+				{
+					id: "236FF9888F10C9C8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6427C314B48EEBA6"
+					item: { count: 1, id: "paladins:holy_wand" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 3d
+		}
+		{
+			dependencies: ["063AE3A46F02D34C"]
+			id: "6ADF193EF73F89FB"
+			rewards: [
+				{
+					id: "3669BCBA94A7218D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "21FF8B3CA40BED4A"
+					item: { count: 1, id: "paladins:priest_robe_chest" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ADF193EF73F89FB"]
+			id: "036AFA883024E777"
+			rewards: [
+				{
+					id: "4E3C3A8FE99455E3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "66FE5126530E343C"
+					item: { count: 1, id: "paladins:netherite_prior_robe_chest" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 6d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "0636F3B503AE015E"
+			rewards: [
+				{
+					id: "72CF3B8C4500CA12"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "01456C576D91A38C"
+					item: { count: 1, id: "rogues:iron_double_axe" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3d
+		}
+		{
+			dependencies: ["0636F3B503AE015E"]
+			id: "2AA856A6B9C6F7F4"
+			rewards: [
+				{
+					id: "36BD82F93131739F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3ADC9D1A59C89DE5"
+					item: { count: 1, id: "rogues:warrior_armor_chest" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AA856A6B9C6F7F4"]
+			id: "333FA50DA2DDCF74"
+			rewards: [
+				{
+					id: "12660B5B585BA42B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "574656887DD0E14F"
+					item: { count: 1, id: "rogues:netherite_berserker_armor_chest" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "51CC1C90F48933E1"
+			rewards: [
+				{
+					id: "0A70727A21E95259"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6D0E67CA261847DF"
+					item: { count: 1, id: "rogues:iron_dagger" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 3d
+		}
+		{
+			dependencies: ["51CC1C90F48933E1"]
+			id: "3771421272146762"
+			rewards: [
+				{
+					id: "5E553CD6C03E8008"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "322A50E7E92A0AEE"
+					item: { count: 1, id: "rogues:rogue_armor_chest" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3771421272146762"]
+			id: "74FD9A6F691629B8"
+			rewards: [
+				{
+					id: "053D598247216EF6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "090F1CCBAD7C98AE"
+					item: { count: 1, id: "rogues:netherite_assassin_armor_chest" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 6d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "0E5E98FCC85FF60D"
+			rewards: [
+				{
+					id: "66531D7579F7F948"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2C835183E5FDC011"
+					item: { count: 1, id: "berserker_rpg:iron_berserker_axe" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3d
+		}
+		{
+			dependencies: ["0E5E98FCC85FF60D"]
+			id: "3B5ADED90E3F4178"
+			rewards: [
+				{
+					id: "65ECE10A7E2DF025"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "464C1BF403F97C11"
+					item: { count: 1, id: "berserker_rpg:northling_chest" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B5ADED90E3F4178"]
+			id: "16D39E292B14C990"
+			rewards: [
+				{
+					id: "1E86406E811CFE27"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "11A5108D16EECAFF"
+					item: { count: 1, id: "berserker_rpg:netherite_northling_chest" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 6d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "132B3C98E1CC0EC1"
+			rewards: [
+				{
+					id: "5ECCC23AA1184D50"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "22506CF7EC82A42A"
+					item: { count: 1, id: "archers:composite_longbow" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 8d
+		}
+		{
+			dependencies: ["132B3C98E1CC0EC1"]
+			id: "4DF4E25DE9EEFB28"
+			rewards: [
+				{
+					id: "099E96FFD730AFD2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "787E8FB45AC486F9"
+					item: { count: 1, id: "archers:archer_armor_chest" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4DF4E25DE9EEFB28"]
+			id: "58BF6AC582D21310"
+			rewards: [
+				{
+					id: "06124BEDE9B0D8EF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "519A3002814D78F2"
+					item: { count: 1, id: "archers:netherite_ranger_armor_chest" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 11d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			id: "219A7F6DF2F0CF88"
+			rewards: [
+				{
+					id: "6EE805298335A537"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0B8578C4E5C2E8C7"
+					item: { count: 1, id: "witcher_rpg:iron_witcher_sword" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 8d
+		}
+		{
+			dependencies: ["219A7F6DF2F0CF88"]
+			icon: {
+				id: "witcher_rpg:cat_school_medallion"
+			}
+			id: "26A0E2BF9383780A"
+			rewards: [
+				{
+					id: "467824E753A51E96"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "42C27E01AAAE6B9C"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "simplybows:ice_bow/ice_bow"
+			}
+			id: "74F976FBD4B40DDF"
+			optional: true
+			rewards: [
+				{
+					id: "31B7C6520D10F4EA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70FBE20B11BDE4E5"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 8d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "arsenal:unique_claymore_1"
+			}
+			id: "67E2812243E71DF7"
+			optional: true
+			rewards: [
+				{
+					id: "3445CB9A0D7C3592"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B44369BDECB8832"
+					type: "checkmark"
+				}
+			]
+			x: 5d
+			y: 8d
+		}
+		{
+			dependencies: ["419F60F8F9FD819D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "armory_rpgs:avatar_robe_chest"
+			}
+			id: "4D9490AFCB608B36"
+			optional: true
+			rewards: [
+				{
+					id: "159094F232EA9CCA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1ACF1DC7445ADDF3"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 8d
+		}
+		{
+			dependencies: ["6F6F05C3F4774C91", "036AFA883024E777", "333FA50DA2DDCF74", "74FD9A6F691629B8", "16D39E292B14C990", "58BF6AC582D21310", "38CBDBCB8ECBF182", "43C257F70DFB78D5", "1D41F9FF506EE6F7"]
+			min_required_dependencies: 1
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "4550A0CC8748069B"
+			rewards: [
+				{
+					id: "594F54AF566D2BD4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "3A94857CE8426080"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2d
+			tasks: [
+				{
+					id: "286B000FAEC1ED73"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 12.5d
+		}
+	]
+}
