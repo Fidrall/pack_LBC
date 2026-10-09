@@ -1,0 +1,13 @@
+name = "Wyrmroost"
+filename = "wyrmroost-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8dYAmpGw/versions/8cPyix5L/wyrmroost-1.4.1.jar"
+hash-format = "sha512"
+hash = "8acbe1966894d40979a842dcbba497957b04f50f862b58bcb7a8542433e2d087904ad0933a9da36912beb03369ded7ee6d138c7bb3624ab133ed41f4c9c10279"
+
+[update]
+[update.modrinth]
+mod-id = "8dYAmpGw"
+version = "8cPyix5L"

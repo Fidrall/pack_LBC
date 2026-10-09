@@ -241,10 +241,6 @@ file = "config/ftbquests/quests/reward_tables/rare.snbt"
 hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
 
 [[files]]
-file = "config/iceandfire/iaf-common.json"
-hash = "44c561bc48ddf9d1ea2b33c2a5bfee2048cc21adf1f16d3a67e6420fdd61603b"
-
-[[files]]
 file = "config/incontrol/spawn.json"
 hash = "74cbff2c0c92195c0242968388461bce957f5fea8896d7bcd1843c4c757ec119"
 
@@ -2489,30 +2485,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_cat
 hash = "31ed7400eec124bcf9faa6016ae18568b40fa1f102e0a1904843f22d0e7d0674"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_cyclops_cave.json"
-hash = "4ca002525fbf014a272a84849409732d20bded7c37503314306cebffe6edbdcc"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_fire_dragon_roost.json"
-hash = "911532d970e0f1cf83e7e59441f366d09689c795409f6e25c7d5bff5ede76dc6"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_gorgon_temple.json"
-hash = "93ed34da1ed16301498b151bc49ccb13f7e2486bd70ecea07cb926c0105ee0c0"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_hydra_cave.json"
-hash = "2c93fb703dd12a0c04b76a8f28732867c6839fa05147fad54e00975d324fe7b5"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_ice_dragon_roost.json"
-hash = "6b3afab92b934d06612ce2675952d6b65f7f596026a07e28dd44047fcd429799"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_iceandfire_lightning_dragon_roost.json"
-hash = "791e86913d150263134c0e94af675850b5e539763224423ca7a2fa6969cceb0f"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_irons_spellbooks_catacombs.json"
 hash = "a5b14ebabaf930a29ea1ca56fb4b95eced20e3b841d1877c22f3b094333da05c"
 
@@ -2558,7 +2530,7 @@ hash = "16b4b26e54679162b9da5951f2435ebfe4a34fc257c3bfabffa03889ccf4d264"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_1.json"
-hash = "ace5ada0e14a688df700bac427ae74960049370a41d5e3f06231fa8090adfc43"
+hash = "6cd6bee55699f004f2f71954a5ea9c3fdfce064be28eb6ffe133bc3a4e5e492a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_2.json"
@@ -2566,7 +2538,7 @@ hash = "a5a83e73c0426a0922e0b5463c1b6d816df388653dad61dfd58e2d9b5e28978a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_3.json"
-hash = "806e07145ceb23b336bc27c293baaa755b3cba1a65865ac6224e85f9367c9b7a"
+hash = "e51c66eb169159b0d6a441243badca1bf2fc18293b9af18acda68708228f0af0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
@@ -3402,7 +3374,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "6e3b5ba39d9a8b5d831365b27c9f425baffbaa50f0ce3e587fadd93b4ad68106"
+hash = "ba1d4e509ff2306552765565429b41c50fdb37ed427b7908df1c3a9547dc4be1"
 
 [[files]]
 file = "config/tectonic.json"
@@ -4126,11 +4098,6 @@ hash = "672fe2518a1795814efc943c3e3cf8dc1b993bc7d838cc62950acfaba348c2c7"
 metafile = true
 
 [[files]]
-file = "mods/iceandfire-ce.pw.toml"
-hash = "ce7d1da616e55c37531efda78abfa0cc3cd784208891d6c99e4d900a3eb459dd"
-metafile = true
-
-[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "a2fbecad69fcbff54919864ea8b95e54d140a1a2c637d73307fb366e76066fe6"
 metafile = true
@@ -4213,11 +4180,6 @@ metafile = true
 [[files]]
 file = "mods/joy-of-painting.pw.toml"
 hash = "5b21ffe8e89b5b31876365b950b2e44fe6d51f8e3d6d3f8c639174ed4f9f8c9c"
-metafile = true
-
-[[files]]
-file = "mods/jupiter.pw.toml"
-hash = "3f44721c554a06b9e922c6102bed6402fed57d6d340de0299ee4237544724c48"
 metafile = true
 
 [[files]]
@@ -4616,11 +4578,6 @@ hash = "856519bd5d0f0736c86a2ebbc833b8499075be4b1d6613988f4e5104ba2d9a32"
 metafile = true
 
 [[files]]
-file = "mods/uranus.pw.toml"
-hash = "c16ee91eeb20999c83deedbf93ce3787bb9bfefad56abd242d90a94dc0534ca0"
-metafile = true
-
-[[files]]
 file = "mods/variants-and-ventures.pw.toml"
 hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
 metafile = true
@@ -4643,6 +4600,11 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
+metafile = true
+
+[[files]]
+file = "mods/wyrmroost.pw.toml"
+hash = "ae24777a079a508972fa1fb33597e00bcb0bb02069a81dc4f9999e99fb414dcd"
 metafile = true
 
 [[files]]

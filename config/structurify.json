@@ -8,10 +8,6 @@
                 },
     "structure_namespaces":  [
                                  {
-                                     "name":  "iceandfire",
-                                     "exclude_from_overlap_prevention":  true
-                                 },
-                                 {
                                      "name":  "cataclysm",
                                      "exclude_from_overlap_prevention":  true
                                  },

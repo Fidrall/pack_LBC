@@ -270,12 +270,6 @@ $cartes = @(
     @('bosses_of_mass_destruction:gauntlet_arena', $nt, 'Arene du gantelet', 'minecraft:blackstone', 'Bosses of Mass Destruction'),
     @('bosses_of_mass_destruction:obsidilith_arena', $en, 'Arene de l''obsidilithe', 'minecraft:obsidian', 'Bosses of Mass Destruction'),
     @('archaion:ancient_keep', $ow, 'Donjon antique', 'minecraft:deepslate_bricks', 'Archaion'),
-    @('iceandfire:fire_dragon_roost', $ow, 'Nid de dragon de feu', 'minecraft:fire_charge', 'Ice and Fire'),
-    @('iceandfire:ice_dragon_roost', $ow, 'Nid de dragon de glace', 'minecraft:packed_ice', 'Ice and Fire'),
-    @('iceandfire:lightning_dragon_roost', $ow, 'Nid de dragon de foudre', 'minecraft:lightning_rod', 'Ice and Fire'),
-    @('iceandfire:gorgon_temple', $ow, 'Temple de la gorgone', 'minecraft:quartz_pillar', 'Ice and Fire'),
-    @('iceandfire:hydra_cave', $ow, 'Grotte de l''hydre', 'minecraft:lily_pad', 'Ice and Fire'),
-    @('iceandfire:cyclops_cave', $ow, 'Grotte du cyclope', 'minecraft:white_wool', 'Ice and Fire'),
     @('mowziesmobs:wrought_chamber', $ow, 'Chambre du Forge-Fer', 'minecraft:iron_block', 'Mowzie''s Mobs'),
     @('mowziesmobs:monastery', $ow, 'Monastere', 'minecraft:chiseled_stone_bricks', 'Mowzie''s Mobs'),
     @('mowziesmobs:umvuthana_grove', $ow, 'Bosquet Umvuthana', 'minecraft:acacia_log', 'Mowzie''s Mobs')
@@ -292,7 +286,7 @@ foreach ($k in $cartes) {
 }
 
 # ---------- 12. Boss renforces (+25 % vie, +15 % degats) via AttributeSetter ----------
-# Pour les boss dont le mod n'a pas de reglage (Cataclysm, Mowzie, BOMD, dragon : configs ; Ice and Fire : config/iceandfire).
+# Pour les boss dont le mod n'a pas de reglage (Cataclysm, Mowzie, BOMD, dragon : configs).
 # MULTIPLY_BASE = modificateur ADD_MULTIPLIED_BASE a identifiant fixe (pas de cumul au rechargement), vie remise au max a l'apparition.
 $bossPlus = @(
     'twilightforest:naga', 'twilightforest:lich', 'twilightforest:minoshroom', 'twilightforest:hydra', 'twilightforest:knight_phantom',
@@ -337,9 +331,9 @@ W 'data/treasurebags/loot_table/starting_inventory.json' ([ordered]@{ type = 'mi
 W 'data/treasurebags/loot_table/entity_group/boss.json' ([ordered]@{ type = 'minecraft:entity'; pools = @() })
 # Paliers de cartes (structures du plus accessible au plus dangereux)
 $palier = @{
-    1 = @('irons_spellbooks:ice_spider_den', 'irons_spellbooks:mangrove_hut', 'irons_spellbooks:catacombs', 'irons_spellbooks:evoker_fort', 'iceandfire:hydra_cave', 'iceandfire:cyclops_cave', 'iceandfire:gorgon_temple', 'minecraft:monument', 'minecraft:mansion', 'mowziesmobs:umvuthana_grove')
+    1 = @('irons_spellbooks:ice_spider_den', 'irons_spellbooks:mangrove_hut', 'irons_spellbooks:catacombs', 'irons_spellbooks:evoker_fort', 'minecraft:monument', 'minecraft:mansion', 'mowziesmobs:umvuthana_grove')
     2 = @('minecraft:ancient_city', 'cataclysm:cursed_pyramid', 'cataclysm:frosted_prison', 'cataclysm:ancient_factory', 'cataclysm:sunken_city', 'cataclysm:acropolis', 'cataclysm:soul_black_smith', 'irons_spellbooks:citadel', 'mowziesmobs:monastery', 'mowziesmobs:wrought_chamber', 'bosses_of_mass_destruction:lich_tower', 'bosses_of_mass_destruction:void_blossom')
-    3 = @('cataclysm:burning_arena', 'cataclysm:ruined_citadel', 'bosses_of_mass_destruction:gauntlet_arena', 'bosses_of_mass_destruction:obsidilith_arena', 'archaion:ancient_keep', 'iceandfire:fire_dragon_roost', 'iceandfire:ice_dragon_roost', 'iceandfire:lightning_dragon_roost')
+    3 = @('cataclysm:burning_arena', 'cataclysm:ruined_citadel', 'bosses_of_mass_destruction:gauntlet_arena', 'bosses_of_mass_destruction:obsidilith_arena', 'archaion:ancient_keep')
 }
 foreach ($n in 1..3) {
     $ent = @($palier[$n] | ForEach-Object { [ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:cartes/carte_' + ($_ -replace '[:/]', '_'); weight = 1 } })

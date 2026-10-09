@@ -28,21 +28,6 @@
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_archaion_ancient_keep",
                                           "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_iceandfire_fire_dragon_roost",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_iceandfire_ice_dragon_roost",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_iceandfire_lightning_dragon_roost",
-                                          "weight":  1
                                       }
                                   ]
                   }

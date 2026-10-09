@@ -26,21 +26,6 @@
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_iceandfire_hydra_cave",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_iceandfire_cyclops_cave",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_iceandfire_gorgon_temple",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_minecraft_monument",
                                           "weight":  1
                                       },
