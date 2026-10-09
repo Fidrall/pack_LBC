@@ -74,7 +74,7 @@ hash = "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
 
 [[files]]
 file = "config/alexscaves_biome_generation/abyssal_chasm.json"
-hash = "2efb746741e96fbe2533241d06c802d35b9be248ef68e34d8b2e29b59a8777bb"
+hash = "7326d35592cf86658de65b4e0e4afab0362976ab39a46a88dcfb010d476782b9"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
