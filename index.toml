@@ -3133,6 +3133,18 @@ file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/starting_inv
 hash = "1ef70bd7db8a4e7dc0543405659febdf4a21ce505a75fe8589e6cf678fef5e41"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/dragon_fruit_drake_spawn.json"
+hash = "dd938b9a6e6b5ea24138975a9c60a7d5bc03583f449eadb8131ad034a9829464"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/roost_stalker_spawn.json"
+hash = "34dc4f75512fca51c8beef514e93d80d19255dc21d3deeeb50419c7290825611"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/worldgen/placed_feature/platinum_ore.json"
+hash = "515112820803ca7b1435013c20a74ccf9ee893372803559e64260ee73476874a"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
 hash = "0803035171ec6be299fa24959347da02448086b90d056a504a0f0436bb7bb9b1"
 
@@ -3391,6 +3403,14 @@ hash = "9cc16d6851b838c48c90e95b8c93ff79af1f50b65ce085360105175f590bf100"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "d25ee7c5a19491d9faf6ab9bf48afa4d05ef15183ac77906fbbd40da4312a7fe"
+
+[[files]]
+file = "config/wyrmroost/common.toml"
+hash = "e3856fb7b7ce7d89fb90e8cacdb5237bf6de30a6e8e3ef3c8f161cffe81de050"
+
+[[files]]
+file = "config/wyrmroost/entity-attributes.toml"
+hash = "2c0c2d4e2b1e15ecf18a7db17525a8dbc1a14f6a4dcd89394885fb9ded639a05"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
