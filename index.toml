@@ -3463,6 +3463,11 @@ hash = "18a5b572a9afdb84b24f5c58c4a53022158f8db746dde95531b780d4713f3fc8"
 metafile = true
 
 [[files]]
+file = "mods/alexs-caves-continued.pw.toml"
+hash = "5ffa3d0118623a3164b2e6b24ba10ca8ca98a9eb640ebf6616cfceead949a492"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "c71a37f05849d41b3b2a883c55afc4d32de7e05beff02b6f94a833be0c59635c"
 metafile = true
@@ -3650,6 +3655,11 @@ metafile = true
 [[files]]
 file = "mods/cobweb.pw.toml"
 hash = "23f681379a3e647a59f0749d25f2ce0725d4afafeed41871c5c87f2658d13a72"
+metafile = true
+
+[[files]]
+file = "mods/codxlib.pw.toml"
+hash = "10c5766cfee693bb3843ecd60334400b239b961c24fd4b9db60aceca272e3e17"
 metafile = true
 
 [[files]]
