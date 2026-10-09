@@ -1959,11 +1959,6 @@
 	quest.36452BF340BDFE34.quest_subtitle: "Des minerais à l'infini"
 	quest.36452BF340BDFE34.title: "La Foreuse"
 	quest.36512D1073448D61.quest_subtitle: "Permet de voir les créatures invisibles."
-	quest.36669258C037D428.quest_desc: [
-		"On raconte qu'un &echâteau flotte dans le ciel&r. Parfait pour une expédition en dirigeable !"
-	]
-	quest.36669258C037D428.quest_subtitle: "Une légende des nuages"
-	quest.36669258C037D428.title: "Le château dans le ciel"
 	quest.36FB336313E5E377.quest_subtitle: "Ralentit ta chute et sert de bouclier"
 	quest.3714D5CA2A2A69EC.title: "&6Tenue de Prêtre"
 	quest.372B31F3D301684A.quest_desc: [
@@ -3559,11 +3554,6 @@
 	]
 	quest.66311A502CC99A40.quest_subtitle: "L'outil du cuisinier"
 	quest.66311A502CC99A40.title: "Le couteau"
-	quest.66439896B6A4F367.quest_desc: [
-		"Un &esphinx&r géant garde un secret dans le désert."
-	]
-	quest.66439896B6A4F367.quest_subtitle: "Dans le désert"
-	quest.66439896B6A4F367.title: "Le Sphinx"
 	quest.6659EBA759E55BD5.quest_desc: [
 		"Avec l'&6amélioration Repas&r dans ton sac, il te nourrit automatiquement quand tu commences à avoir faim !"
 		""

@@ -112,11 +112,6 @@ quest.65B7A1DAF383878B.quest_subtitle: "Au-dessus des nuages"
 quest.65B7A1DAF383878B.quest_desc: [
   "Certains villages flottent dans le ciel ! Il faudra un dirigeable, un jetpack… ou beaucoup d'échelles pour les atteindre."
 ]
-quest.36669258C037D428.title: "Le château dans le ciel"
-quest.36669258C037D428.quest_subtitle: "Une légende des nuages"
-quest.36669258C037D428.quest_desc: [
-  "On raconte qu'un &echâteau flotte dans le ciel&r. Parfait pour une expédition en dirigeable !"
-]
 quest.3CDB2020C5E859C1.title: "Le dirigeable des pillards"
 quest.3CDB2020C5E859C1.quest_subtitle: "Des pillards qui volent ?"
 quest.3CDB2020C5E859C1.quest_desc: [
@@ -145,11 +140,6 @@ quest.5D925522882186A8.title: "La cité des âmes perdues"
 quest.5D925522882186A8.quest_subtitle: "Philips' Ruins"
 quest.5D925522882186A8.quest_desc: [
   "Une cité en ruine, hantée par les âmes perdues. Qui sait ce qu'il reste dans ses coffres ?"
-]
-quest.66439896B6A4F367.title: "Le Sphinx"
-quest.66439896B6A4F367.quest_subtitle: "Dans le désert"
-quest.66439896B6A4F367.quest_desc: [
-  "Un &esphinx&r géant garde un secret dans le désert."
 ]
 quest.20C77374BFA20079.title: "Un fort"
 quest.20C77374BFA20079.quest_subtitle: "Là où se cache le portail de l'End"

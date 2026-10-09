@@ -170,7 +170,7 @@ hash = "3e94c3c4ae4d71c3c3da30ead0cc7eb2f413fa7d61d4f5c41018aeab909eaf8c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "bd34e1691357aa5ea1d9e24a417bd7252cae64d0ef0af31018e70d1b4870b16e"
+hash = "e85797bec6638209f64a7b5c1b8fcc3fa5bb54e67a6d1b712f8ca9ee8c5cf537"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garnish.snbt"
@@ -222,7 +222,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "4ee90bc7219f56175490f16e7fc6be90f0f4d7657361f1c5c7c9508656abe75b"
+hash = "3ace1a77fe169da0e96f147b6d0c666e6c2a81824abbdced19a1709671b369c0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -255,10 +255,6 @@ hash = "9db94f62e96f2a6f9d3c60ffa28f6811931a697b32c6e7eee3a09996895e0cd9"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
-
-[[files]]
-file = "config/mostructures-config-v5.json5"
-hash = "6b9634547cce8963657e5810c6808e5acbae4168a2a1da3c265a1eb069c62d2f"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
@@ -3402,7 +3398,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "dc15e572598eee26ac844a9df523fbf7f09e7d8f722b258e2142ca3ca42109cc"
+hash = "78fa3d42da0c9790150b795fb43fedd64a96189026dd328cbf1a00005b750b72"
 
 [[files]]
 file = "config/tectonic.json"
@@ -4296,11 +4292,6 @@ hash = "79239b5a547be0fae2e8f2a96b2807f538b416a47fcca57233058ca1ec92c2c9"
 metafile = true
 
 [[files]]
-file = "mods/mo-structures.pw.toml"
-hash = "1c6dd585bbeadc325848ebdaa7f4ee5c087b4daa86819acbae2edc219fa2394d"
-metafile = true
-
-[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "c84140c66f233909b392bd7253ca33c59903ffda51beff558d9a2a4a8c6bc269"
 metafile = true
@@ -4633,11 +4624,6 @@ metafile = true
 [[files]]
 file = "mods/variants-and-ventures.pw.toml"
 hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
-metafile = true
-
-[[files]]
-file = "mods/villages-and-pillages.pw.toml"
-hash = "89587a0643aa126da364a94ae1c1c3935dcb03759b4caac30875b41ac9984734"
 metafile = true
 
 [[files]]

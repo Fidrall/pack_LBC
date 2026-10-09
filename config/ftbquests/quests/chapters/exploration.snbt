@@ -372,32 +372,6 @@
 		}
 		{
 			dependencies: ["5D17E5356CD5A42E"]
-			id: "36669258C037D428"
-			rewards: [
-				{
-					id: "1B3C06BD784EC2D4"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "rare"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "485A4AB7EF1C8663"
-					structure: "mostructures:the_castle_in_the_sky"
-					type: "structure"
-				}
-			]
-			x: 0d
-			y: 6d
-		}
-		{
-			dependencies: ["5D17E5356CD5A42E"]
 			id: "3CDB2020C5E859C1"
 			rewards: [
 				{
@@ -527,33 +501,7 @@
 			y: 6d
 		}
 		{
-			dependencies: ["65B7A1DAF383878B"]
-			id: "66439896B6A4F367"
-			rewards: [
-				{
-					id: "32D9B930F6F5FEE9"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "53928D61D71A213A"
-					structure: "mostructures:sphinx"
-					type: "structure"
-				}
-			]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["36669258C037D428"]
+			dependencies: ["5D17E5356CD5A42E"]
 			id: "20C77374BFA20079"
 			rewards: [
 				{
@@ -657,7 +605,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["73F02D17C34B1787", "5D925522882186A8", "66439896B6A4F367", "20C77374BFA20079", "5EE2C7C1568832CC", "20BBDA9AC4B20474", "14C694F523C79625"]
+			dependencies: ["73F02D17C34B1787", "5D925522882186A8", "20C77374BFA20079", "5EE2C7C1568832CC", "20BBDA9AC4B20474", "14C694F523C79625"]
 			icon: {
 				id: "explorerscompass:explorerscompass"
 			}

@@ -80,9 +80,6 @@ $Quests = @(
   @{ k='skyvillage'; x=-1.5; y=6; deps=@('discover'); tasks=@('struct:skyvillages:skyvillage'); crate='rare'
      t='Un village dans le ciel'; st='Au-dessus des nuages'
      d=@('Certains villages flottent dans le ciel ! Il faudra un dirigeable, un jetpack… ou beaucoup d''échelles pour les atteindre.') }
-  @{ k='castlesky'; x=0; y=6; deps=@('discover'); tasks=@('struct:mostructures:the_castle_in_the_sky'); crate='rare'
-     t='Le château dans le ciel'; st='Une légende des nuages'
-     d=@('On raconte qu''un &echâteau flotte dans le ciel&r. Parfait pour une expédition en dirigeable !') }
   @{ k='airship'; x=1.5; y=6; deps=@('discover'); tasks=@('struct:create_structures_arise:pillagersteampunkairship'); crate='rare'
      t='Le dirigeable des pillards'; st='Des pillards qui volent ?'
      d=@('Les pillards ont construit un &edirigeable steampunk&r avec la technologie de Create. Aborde-le et pille-le !',
@@ -102,10 +99,7 @@ $Quests = @(
   @{ k='lostsoul'; x=-3; y=6; deps=@('discover'); tasks=@('struct:philipsruins:lost_soul_city'); crate='rare'
      t='La cité des âmes perdues'; st='Philips'' Ruins'
      d=@('Une cité en ruine, hantée par les âmes perdues. Qui sait ce qu''il reste dans ses coffres ?') }
-  @{ k='sphinx'; x=-1.5; y=7.5; deps=@('skyvillage'); tasks=@('struct:mostructures:sphinx'); crate='commune'
-     t='Le Sphinx'; st='Dans le désert'
-     d=@('Un &esphinx&r géant garde un secret dans le désert.') }
-  @{ k='stronghold'; x=0; y=7.5; deps=@('castlesky'); tasks=@('struct:betterstrongholds:stronghold'); crate='rare'
+  @{ k='stronghold'; x=0; y=7.5; deps=@('discover'); tasks=@('struct:betterstrongholds:stronghold'); crate='rare'
      t='Un fort'; st='Là où se cache le portail de l''End'
      d=@('Les &eforts&r (améliorés par YUNG''s Better Strongholds) cachent le &eportail de l''End&r. Tu devras en trouver un pour y placer tes yeux de l''End !',
          '',
@@ -121,7 +115,7 @@ $Quests = @(
   @{ k='tavern'; x=4.5; y=7.5; deps=@('magetower'); tasks=@('struct:explorify:tavern'); crate='commune'
      t='Une taverne'; st='Une pause bien méritée'
      d=@('Les &etavernes&r sont des haltes accueillantes pour les voyageurs. Il y en a de plusieurs mods différents !') }
-  @{ k='explorer_master'; x=0; y=9; size=2.5; shape='gear'; deps=@('catacombs','lostsoul','sphinx','stronghold','mansion','ancientcity','tavern'); tasks=@('@check'); checkTitle='Je suis un grand explorateur'; icon='explorerscompass:explorerscompass'; crate='legendaire'; xp=1500
+  @{ k='explorer_master'; x=0; y=9; size=2.5; shape='gear'; deps=@('catacombs','lostsoul','stronghold','mansion','ancientcity','tavern'); tasks=@('@check'); checkTitle='Je suis un grand explorateur'; icon='explorerscompass:explorerscompass'; crate='legendaire'; xp=1500
      t='&6&lGrand Explorateur'; st='Le carnet est complet'
      d=@('Tu as découvert toutes les merveilles de ce carnet. Le monde n''a presque plus de secrets pour toi…',
          '',
