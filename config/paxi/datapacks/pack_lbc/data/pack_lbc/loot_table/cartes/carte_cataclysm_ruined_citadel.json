@@ -6,23 +6,33 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "irons_spellbooks:furled_map",
+                                          "name":  "minecraft:map",
                                           "functions":  [
                                                             {
-                                                                "function":  "minecraft:set_components",
-                                                                "components":  {
-                                                                                   "irons_spellbooks:furled_map_data":  {
-                                                                                                                            "destination":  "cataclysm:ruined_citadel",
-                                                                                                                            "descriptionOverride":  {
-                                                                                                                                                        "text":  "Citadelle en ruine"
-                                                                                                                                                    },
-                                                                                                                            "dimension":  "minecraft:the_end"
-                                                                                                                        },
-                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Citadelle en ruine\",\"italic\":false}",
-                                                                                   "minecraft:lore":  [
-                                                                                                          "{\"text\":\"[Cataclysm - End]\",\"italic\":false,\"color\":\"gray\"}"
-                                                                                                      ]
-                                                                               }
+                                                                "function":  "minecraft:exploration_map",
+                                                                "destination":  "pack_lbc:cartes/carte_cataclysm_ruined_citadel",
+                                                                "decoration":  "minecraft:target_x",
+                                                                "zoom":  2,
+                                                                "search_radius":  64,
+                                                                "skip_existing_chunks":  false
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "target":  "item_name",
+                                                                "name":  {
+                                                                             "text":  "Carte : Citadelle en ruine"
+                                                                         }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "mode":  "append",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "[Cataclysm - End]",
+                                                                                 "italic":  false,
+                                                                                 "color":  "gray"
+                                                                             }
+                                                                         ]
                                                             }
                                                         ]
                                       }

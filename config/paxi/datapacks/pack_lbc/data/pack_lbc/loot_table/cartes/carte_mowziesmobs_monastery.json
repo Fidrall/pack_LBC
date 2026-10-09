@@ -6,23 +6,33 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "irons_spellbooks:furled_map",
+                                          "name":  "minecraft:map",
                                           "functions":  [
                                                             {
-                                                                "function":  "minecraft:set_components",
-                                                                "components":  {
-                                                                                   "irons_spellbooks:furled_map_data":  {
-                                                                                                                            "destination":  "mowziesmobs:monastery",
-                                                                                                                            "descriptionOverride":  {
-                                                                                                                                                        "text":  "Monastere"
-                                                                                                                                                    },
-                                                                                                                            "dimension":  "minecraft:overworld"
-                                                                                                                        },
-                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Monastere\",\"italic\":false}",
-                                                                                   "minecraft:lore":  [
-                                                                                                          "{\"text\":\"[Mowzie\u0027s Mobs - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
-                                                                                                      ]
-                                                                               }
+                                                                "function":  "minecraft:exploration_map",
+                                                                "destination":  "pack_lbc:cartes/carte_mowziesmobs_monastery",
+                                                                "decoration":  "minecraft:target_x",
+                                                                "zoom":  2,
+                                                                "search_radius":  64,
+                                                                "skip_existing_chunks":  false
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "target":  "item_name",
+                                                                "name":  {
+                                                                             "text":  "Carte : Monastere"
+                                                                         }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "mode":  "append",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "[Mowzie\u0027s Mobs - Overworld]",
+                                                                                 "italic":  false,
+                                                                                 "color":  "gray"
+                                                                             }
+                                                                         ]
                                                             }
                                                         ]
                                       }

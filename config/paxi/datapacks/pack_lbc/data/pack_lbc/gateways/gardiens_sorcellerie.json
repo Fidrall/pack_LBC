@@ -7,12 +7,12 @@
                       "entities":  [
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:cultist",
+                                           "entity":  "minecraft:witch",
                                            "count":  3
                                        },
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:magehunter_vindicator",
+                                           "entity":  "illagerinvasion:provoker",
                                            "count":  2
                                        }
                                    ],
@@ -22,12 +22,12 @@
                       "rewards":  [
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cultist",
+                                          "entity":  "minecraft:witch",
                                           "rolls":  9
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:magehunter_vindicator",
+                                          "entity":  "illagerinvasion:provoker",
                                           "rolls":  6
                                       }
                                   ],
@@ -38,17 +38,17 @@
                       "entities":  [
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:pyromancer",
+                                           "entity":  "illagerinvasion:firecaller",
                                            "count":  2
                                        },
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:cryomancer",
+                                           "entity":  "illagerinvasion:sorcerer",
                                            "count":  2
                                        },
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:cultist",
+                                           "entity":  "minecraft:witch",
                                            "count":  2
                                        }
                                    ],
@@ -62,17 +62,17 @@
                       "rewards":  [
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:pyromancer",
+                                          "entity":  "illagerinvasion:firecaller",
                                           "rolls":  6
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cryomancer",
+                                          "entity":  "illagerinvasion:sorcerer",
                                           "rolls":  6
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cultist",
+                                          "entity":  "minecraft:witch",
                                           "rolls":  6
                                       }
                                   ],
@@ -83,17 +83,17 @@
                       "entities":  [
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:necromancer",
+                                           "entity":  "illagerinvasion:necromancer",
                                            "count":  2
                                        },
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:apothecarist",
+                                           "entity":  "illagerinvasion:alchemist",
                                            "count":  1
                                        },
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:magehunter_vindicator",
+                                           "entity":  "illagerinvasion:archivist",
                                            "count":  2
                                        }
                                    ],
@@ -107,17 +107,17 @@
                       "rewards":  [
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:necromancer",
+                                          "entity":  "illagerinvasion:necromancer",
                                           "rolls":  6
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:apothecarist",
+                                          "entity":  "illagerinvasion:alchemist",
                                           "rolls":  3
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:magehunter_vindicator",
+                                          "entity":  "illagerinvasion:archivist",
                                           "rolls":  6
                                       }
                                   ],
@@ -128,17 +128,17 @@
                       "entities":  [
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:archevoker",
+                                           "entity":  "minecraft:evoker",
                                            "count":  2
                                        },
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:pyromancer",
+                                           "entity":  "illagerinvasion:firecaller",
                                            "count":  1
                                        },
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:cryomancer",
+                                           "entity":  "illagerinvasion:sorcerer",
                                            "count":  1
                                        }
                                    ],
@@ -152,17 +152,17 @@
                       "rewards":  [
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:archevoker",
+                                          "entity":  "minecraft:evoker",
                                           "rolls":  6
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:pyromancer",
+                                          "entity":  "illagerinvasion:firecaller",
                                           "rolls":  3
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cryomancer",
+                                          "entity":  "illagerinvasion:sorcerer",
                                           "rolls":  3
                                       }
                                   ],
@@ -172,16 +172,24 @@
               ],
     "rewards":  [
                     {
-                        "type":  "gateways:loot_table",
-                        "loot_table":  "irons_spellbooks:chests/additional_good_loot",
-                        "rolls":  4,
-                        "desc":  "reward.pack_lbc.irons_spellbooks.chests.additional_good_loot"
+                        "type":  "gateways:counted",
+                        "count":  2,
+                        "reward":  {
+                                       "type":  "apotheosis:affix_item",
+                                       "rarities":  [
+                                                        "apotheosis:rare"
+                                                    ]
+                                   }
                     },
                     {
-                        "type":  "gateways:loot_table",
-                        "loot_table":  "irons_spellbooks:chests/citadel/citadel_tomes",
-                        "rolls":  1,
-                        "desc":  "reward.pack_lbc.irons_spellbooks.chests.citadel.citadel_tomes"
+                        "type":  "gateways:counted",
+                        "count":  2,
+                        "reward":  {
+                                       "type":  "apotheosis:gem",
+                                       "purities":  [
+                                                        "normal"
+                                                    ]
+                                   }
                     },
                     {
                         "type":  "gateways:experience",

@@ -6,38 +6,55 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_irons_spellbooks_ice_spider_den",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_irons_spellbooks_mangrove_hut",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_irons_spellbooks_catacombs",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
-                                          "value":  "pack_lbc:cartes/carte_irons_spellbooks_evoker_fort",
-                                          "weight":  1
-                                      },
-                                      {
-                                          "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_minecraft_monument",
-                                          "weight":  1
+                                          "weight":  1,
+                                          "conditions":  [
+                                                             {
+                                                                 "condition":  "minecraft:location_check",
+                                                                 "predicate":  {
+                                                                                   "dimension":  "minecraft:overworld"
+                                                                               }
+                                                             }
+                                                         ]
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_minecraft_mansion",
-                                          "weight":  1
+                                          "weight":  1,
+                                          "conditions":  [
+                                                             {
+                                                                 "condition":  "minecraft:location_check",
+                                                                 "predicate":  {
+                                                                                   "dimension":  "minecraft:overworld"
+                                                                               }
+                                                             }
+                                                         ]
                                       },
                                       {
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_mowziesmobs_umvuthana_grove",
-                                          "weight":  1
+                                          "weight":  1,
+                                          "conditions":  [
+                                                             {
+                                                                 "condition":  "minecraft:location_check",
+                                                                 "predicate":  {
+                                                                                   "dimension":  "minecraft:overworld"
+                                                                               }
+                                                             }
+                                                         ]
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_mowziesmobs_wrought_chamber",
+                                          "weight":  1,
+                                          "conditions":  [
+                                                             {
+                                                                 "condition":  "minecraft:location_check",
+                                                                 "predicate":  {
+                                                                                   "dimension":  "minecraft:overworld"
+                                                                               }
+                                                             }
+                                                         ]
                                       }
                                   ]
                   }

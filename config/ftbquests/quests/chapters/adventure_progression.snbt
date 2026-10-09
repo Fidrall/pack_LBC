@@ -602,41 +602,6 @@
 		}
 		{
 			icon: {
-				id: "irons_spellbooks:blood_staff"
-			}
-			id: "1888BBCB9A54D6FD"
-			rewards: [
-				{
-					id: "37E852B7F58D331C"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "rare"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					entity: "irons_spellbooks:dead_king"
-					icon: {
-						id: "irons_spellbooks:blood_staff"
-					}
-					id: "2F9E5E269A16679D"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: 8.5d
-			y: 5.5d
-			dependencies: ["E1E0000000000B01"]
-			hide_dependency_lines: true
-		}
-		{
-			icon: {
 				id: "cataclysm:remnant_skull"
 			}
 			id: "5037AA2541E439E5"
@@ -987,41 +952,6 @@
 			x: 4.5d
 			y: 4d
 			dependencies: ["5B7298316481A1CF"]
-		}
-		{
-			icon: {
-				id: "irons_spellbooks:decrepit_scythe"
-			}
-			id: "583EBA8354586BFD"
-			rewards: [
-				{
-					id: "1C96918742E33C1E"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "epique"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					entity: "irons_spellbooks:fire_boss"
-					icon: {
-						id: "irons_spellbooks:decrepit_scythe"
-					}
-					id: "176B16F5034D6904"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: 13d
-			y: 5.5d
-			dependencies: ["E1E0000000000B01"]
-			hide_dependency_lines: true
 		}
 		{
 			id: "1A1A29A846DABADB"
@@ -1384,19 +1314,6 @@
 					id: "750F1B1D8CC7F34D"
 					item: {
 						components: {
-							"irons_spellbooks:spell_container": {
-								data: [
-									{
-										id: "irons_spellbooks:raise_hell"
-										index: 0
-										level: 3
-										locked: 1b
-									}
-								]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 1b
-							}
 							"minecraft:attribute_modifiers": {
 								modifiers: [
 									{
@@ -1413,21 +1330,14 @@
 										slot: "mainhand"
 										type: "minecraft:generic.attack_speed"
 									}
-									{
-										amount: 0.8d
-										id: "minecraft:1748807267399"
-										operation: "add_multiplied_base"
-										slot: "mainhand"
-										type: "irons_spellbooks:spell_power"
-									}
 								]
 							}
-							"minecraft:custom_name": "{\"extra\":[{\"color\":\"#FF6600\",\"italic\":false,\"text\":\"Hellrazor Éveillée\"}],\"text\":\"\"}"
+							"minecraft:custom_name": "{\"extra\":[{\"color\":\"#FF6600\",\"italic\":false,\"text\":\"Lame Éveillée\"}],\"text\":\"\"}"
 							"minecraft:lore": ["{\"extra\":[{\"color\":\"#CCFF66\",\"italic\":false,\"text\":\"Finir n'est pas la fin : c'est le sommet.\"}],\"text\":\"\"}"]
 							"minecraft:unbreakable": { }
 						}
 						count: 1
-						id: "irons_spellbooks:hellrazor"
+						id: "minecraft:netherite_sword"
 					}
 					type: "item"
 				}

@@ -6,23 +6,33 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "irons_spellbooks:furled_map",
+                                          "name":  "minecraft:map",
                                           "functions":  [
                                                             {
-                                                                "function":  "minecraft:set_components",
-                                                                "components":  {
-                                                                                   "irons_spellbooks:furled_map_data":  {
-                                                                                                                            "destination":  "bosses_of_mass_destruction:lich_tower",
-                                                                                                                            "descriptionOverride":  {
-                                                                                                                                                        "text":  "Tour de la liche"
-                                                                                                                                                    },
-                                                                                                                            "dimension":  "minecraft:overworld"
-                                                                                                                        },
-                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Tour de la liche\",\"italic\":false}",
-                                                                                   "minecraft:lore":  [
-                                                                                                          "{\"text\":\"[Bosses of Mass Destruction - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
-                                                                                                      ]
-                                                                               }
+                                                                "function":  "minecraft:exploration_map",
+                                                                "destination":  "pack_lbc:cartes/carte_bosses_of_mass_destruction_lich_tower",
+                                                                "decoration":  "minecraft:target_x",
+                                                                "zoom":  2,
+                                                                "search_radius":  64,
+                                                                "skip_existing_chunks":  false
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "target":  "item_name",
+                                                                "name":  {
+                                                                             "text":  "Carte : Tour de la liche"
+                                                                         }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "mode":  "append",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "[Bosses of Mass Destruction - Overworld]",
+                                                                                 "italic":  false,
+                                                                                 "color":  "gray"
+                                                                             }
+                                                                         ]
                                                             }
                                                         ]
                                       }

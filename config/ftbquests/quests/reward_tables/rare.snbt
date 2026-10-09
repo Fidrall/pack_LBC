@@ -162,7 +162,7 @@
 			id: "18421920BC3741DF"
 			item: {
 				count: 1
-				id: "irons_spellbooks:arcane_essence"
+				id: "minecraft:amethyst_shard"
 			}
 			weight: 5.0f
 		}
@@ -171,7 +171,7 @@
 			id: "4492B93C7C93F220"
 			item: {
 				count: 1
-				id: "irons_spellbooks:uncommon_ink"
+				id: "apotheosis:mysterious_scrap_metal"
 			}
 			weight: 4.0f
 		}

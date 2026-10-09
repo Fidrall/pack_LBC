@@ -127,7 +127,7 @@
 			id: "4987A1D4DA97953C"
 			item: {
 				count: 1
-				id: "irons_spellbooks:rare_ink"
+				id: "apotheosis:timeworn_fabric"
 			}
 			weight: 5.0f
 		}
@@ -136,7 +136,7 @@
 			id: "577868A621BE1DBC"
 			item: {
 				count: 1
-				id: "irons_spellbooks:mithril_scrap"
+				id: "minecraft:netherite_scrap"
 			}
 			weight: 4.0f
 		}

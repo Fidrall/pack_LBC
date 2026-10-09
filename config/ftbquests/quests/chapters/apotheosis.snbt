@@ -101,7 +101,7 @@
 			size: 0.75d
 			tasks: [
 				{
-					entity: "irons_spellbooks:dead_king"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
 					id: "685434628E1C1D31"
 					type: "kill"
 					value: 1L

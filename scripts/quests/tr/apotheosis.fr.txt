@@ -35,14 +35,14 @@ quest.50488578EC9B00BB.quest_desc: [
 ]
 quest.616968FEA10496D7.title: "Vaincre la Naga"
 quest.616968FEA10496D7.quest_subtitle: "Un des premiers boss"
-quest.1AF2A5A8E3C8FA74.title: "Vaincre le Roi Mort"
+quest.1AF2A5A8E3C8FA74.title: "Vaincre le Wroughtnaut"
 quest.1AF2A5A8E3C8FA74.quest_subtitle: "Un des premiers boss"
 quest.398BF9760AEFEF27.title: "Vaincre un Gardien Ancien"
 quest.398BF9760AEFEF27.quest_subtitle: "Un des premiers boss"
 quest.54BEC9ABC4791318.title: "&9Niveau : Ascension"
 quest.54BEC9ABC4791318.quest_subtitle: "Vaincre un premier boss"
 quest.54BEC9ABC4791318.quest_desc: [
-  "Tu as vaincu un premier boss (la &eNaga&r, le &eRoi Mort&r ou un &eGardien Ancien&r) : tu es prêt pour l'étape suivante."
+  "Tu as vaincu un premier boss (la &eNaga&r, le &eWroughtnaut&r ou un &eGardien Ancien&r) : tu es prêt pour l'étape suivante."
   ""
   "Récompense : le niveau &9Ascension&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r."
 ]

@@ -24,14 +24,6 @@
                                      "exclude_from_overlap_prevention":  true
                                  },
                                  {
-                                     "name":  "irons_spellbooks",
-                                     "exclude_from_overlap_prevention":  true
-                                 },
-                                 {
-                                     "name":  "alshanex_familiars",
-                                     "exclude_from_overlap_prevention":  true
-                                 },
-                                 {
                                      "name":  "hellish_trials",
                                      "exclude_from_overlap_prevention":  true
                                  },

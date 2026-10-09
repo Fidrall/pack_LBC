@@ -26,13 +26,13 @@ $Quests = @(
          'À partir de ce niveau, des &cEnvahisseurs&r (mini-boss d''Apotheosis) peuvent apparaître.') }
   @{ k='tier_boss_naga'; x=-6; y=1.5; deps=@('tier_frontier'); tasks=@('kill:twilightforest:naga'); size=0.75; optional=$true
      t='Vaincre la Naga'; st='Un des premiers boss' }
-  @{ k='tier_boss_deadking'; x=-6; y=2.25; deps=@('tier_frontier'); tasks=@('kill:irons_spellbooks:dead_king'); size=0.75; optional=$true
-     t='Vaincre le Roi Mort'; st='Un des premiers boss' }
+  @{ k='tier_boss_deadking'; x=-6; y=2.25; deps=@('tier_frontier'); tasks=@('kill:mowziesmobs:ferrous_wroughtnaut'); size=0.75; optional=$true
+     t='Vaincre le Wroughtnaut'; st='Un des premiers boss' }
   @{ k='tier_boss_elder'; x=-6; y=3; deps=@('tier_frontier'); tasks=@('kill:minecraft:elder_guardian'); size=0.75; optional=$true
      t='Vaincre un Gardien Ancien'; st='Un des premiers boss' }
   @{ k='tier_ascent'; x=-4.5; y=2.25; deps=@('tier_boss_naga','tier_boss_deadking','tier_boss_elder'); minDeps=1; tasks=@('@check'); checkTitle='Débloquer Ascension'; icon='minecraft:iron_sword'; grantAdv=@('apotheosis:progression/ascent'); crate='rare'
      t='&9Niveau : Ascension'; st='Vaincre un premier boss'
-     d=@('Tu as vaincu un premier boss (la &eNaga&r, le &eRoi Mort&r ou un &eGardien Ancien&r) : tu es prêt pour l''étape suivante.',
+     d=@('Tu as vaincu un premier boss (la &eNaga&r, le &eWroughtnaut&r ou un &eGardien Ancien&r) : tu es prêt pour l''étape suivante.',
          '',
          'Récompense : le niveau &9Ascension&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r.') }
   @{ k='tier_summit'; x=-4.5; y=3.75; deps=@('tier_ascent'); tasks=@('kill:minecraft:wither'); icon='minecraft:wither_skeleton_skull'; grantAdv=@('apotheosis:progression/summit'); crate='epique'

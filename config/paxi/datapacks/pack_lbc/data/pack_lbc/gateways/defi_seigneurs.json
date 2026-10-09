@@ -87,7 +87,7 @@
                       "entities":  [
                                        {
                                            "type":  "gateways:standard",
-                                           "entity":  "irons_spellbooks:archevoker",
+                                           "entity":  "minecraft:evoker",
                                            "count":  2
                                        },
                                        {
@@ -111,7 +111,7 @@
                       "rewards":  [
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:archevoker",
+                                          "entity":  "minecraft:evoker",
                                           "rolls":  6
                                       },
                                       {

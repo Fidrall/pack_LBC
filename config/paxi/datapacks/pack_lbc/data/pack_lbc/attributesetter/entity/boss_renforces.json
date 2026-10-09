@@ -131,66 +131,6 @@
                                   "operation":  "MULTIPLY_BASE"
                               }
                           ],
-    "irons_spellbooks:dead_king":  [
-                                       {
-                                           "attribute":  "minecraft:generic.max_health",
-                                           "value":  0.25,
-                                           "operation":  "MULTIPLY_BASE"
-                                       },
-                                       {
-                                           "attribute":  "minecraft:generic.attack_damage",
-                                           "value":  0.15,
-                                           "operation":  "MULTIPLY_BASE"
-                                       }
-                                   ],
-    "irons_spellbooks:fire_boss":  [
-                                       {
-                                           "attribute":  "minecraft:generic.max_health",
-                                           "value":  0.25,
-                                           "operation":  "MULTIPLY_BASE"
-                                       },
-                                       {
-                                           "attribute":  "minecraft:generic.attack_damage",
-                                           "value":  0.15,
-                                           "operation":  "MULTIPLY_BASE"
-                                       }
-                                   ],
-    "hazennstuff:pyromus":  [
-                                {
-                                    "attribute":  "minecraft:generic.max_health",
-                                    "value":  0.25,
-                                    "operation":  "MULTIPLY_BASE"
-                                },
-                                {
-                                    "attribute":  "minecraft:generic.attack_damage",
-                                    "value":  0.15,
-                                    "operation":  "MULTIPLY_BASE"
-                                }
-                            ],
-    "hazennstuff:aegis":  [
-                              {
-                                  "attribute":  "minecraft:generic.max_health",
-                                  "value":  0.25,
-                                  "operation":  "MULTIPLY_BASE"
-                              },
-                              {
-                                  "attribute":  "minecraft:generic.attack_damage",
-                                  "value":  0.15,
-                                  "operation":  "MULTIPLY_BASE"
-                              }
-                          ],
-    "hazennstuff:aptos":  [
-                              {
-                                  "attribute":  "minecraft:generic.max_health",
-                                  "value":  0.25,
-                                  "operation":  "MULTIPLY_BASE"
-                              },
-                              {
-                                  "attribute":  "minecraft:generic.attack_damage",
-                                  "value":  0.15,
-                                  "operation":  "MULTIPLY_BASE"
-                              }
-                          ],
     "born_in_chaos_v1:lord_pumpkinhead":  [
                                               {
                                                   "attribute":  "minecraft:generic.max_health",

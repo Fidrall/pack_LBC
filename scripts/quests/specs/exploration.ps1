@@ -111,7 +111,7 @@ $Quests = @(
      t='Une Cité Antique'; st='Silence…'
      d=@('Au fond des &eAbîmes&r se cachent les &eCités Antiques&r. Avance accroupi : le &cWarden&r n''est jamais loin.',
          '',
-         'C''est aussi là que se trouve le portail vers &0Deeper and Darker&r, et les fragments de savoir Eldritch d''Iron''s Spells.') }
+         'C''est aussi là que se trouve le portail vers &0Deeper and Darker&r.') }
   @{ k='tavern'; x=4.5; y=7.5; deps=@('magetower'); tasks=@('struct:explorify:tavern'); crate='commune'
      t='Une taverne'; st='Une pause bien méritée'
      d=@('Les &etavernes&r sont des haltes accueillantes pour les voyageurs. Il y en a de plusieurs mods différents !') }

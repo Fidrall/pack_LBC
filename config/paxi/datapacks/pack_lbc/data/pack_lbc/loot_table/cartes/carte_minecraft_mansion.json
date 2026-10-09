@@ -6,23 +6,33 @@
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "irons_spellbooks:furled_map",
+                                          "name":  "minecraft:map",
                                           "functions":  [
                                                             {
-                                                                "function":  "minecraft:set_components",
-                                                                "components":  {
-                                                                                   "irons_spellbooks:furled_map_data":  {
-                                                                                                                            "destination":  "minecraft:mansion",
-                                                                                                                            "descriptionOverride":  {
-                                                                                                                                                        "text":  "Manoir des bois"
-                                                                                                                                                    },
-                                                                                                                            "dimension":  "minecraft:overworld"
-                                                                                                                        },
-                                                                                   "minecraft:custom_name":  "{\"text\":\"Carte : Manoir des bois\",\"italic\":false}",
-                                                                                   "minecraft:lore":  [
-                                                                                                          "{\"text\":\"[Minecraft - Overworld]\",\"italic\":false,\"color\":\"gray\"}"
-                                                                                                      ]
-                                                                               }
+                                                                "function":  "minecraft:exploration_map",
+                                                                "destination":  "pack_lbc:cartes/carte_minecraft_mansion",
+                                                                "decoration":  "minecraft:target_x",
+                                                                "zoom":  2,
+                                                                "search_radius":  64,
+                                                                "skip_existing_chunks":  false
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_name",
+                                                                "target":  "item_name",
+                                                                "name":  {
+                                                                             "text":  "Carte : Manoir des bois"
+                                                                         }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:set_lore",
+                                                                "mode":  "append",
+                                                                "lore":  [
+                                                                             {
+                                                                                 "text":  "[Minecraft - Overworld]",
+                                                                                 "italic":  false,
+                                                                                 "color":  "gray"
+                                                                             }
+                                                                         ]
                                                             }
                                                         ]
                                       }

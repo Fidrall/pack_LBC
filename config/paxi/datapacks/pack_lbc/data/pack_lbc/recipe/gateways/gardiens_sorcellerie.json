@@ -10,18 +10,18 @@
     "group":  "pack_lbc_gateways",
     "pattern":  [
                     "ALA",
-                    "IEI",
+                    "FEF",
                     "ALA"
                 ],
     "key":  {
                 "A":  {
-                          "item":  "irons_spellbooks:arcane_essence"
+                          "item":  "minecraft:amethyst_shard"
                       },
                 "L":  {
                           "tag":  "c:gems/lapis"
                       },
-                "I":  {
-                          "item":  "irons_spellbooks:common_ink"
+                "F":  {
+                          "item":  "minecraft:blaze_powder"
                       },
                 "E":  {
                           "item":  "minecraft:ender_eye"
