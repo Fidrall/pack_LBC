@@ -66,7 +66,7 @@ hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
 
 [[files]]
 file = "config/alexscaves-general.toml"
-hash = "0c10febd4d38e1ece92d0743298b285c4bedd83b3d1f53ddc2511ce61c2ae738"
+hash = "1d69d49397e146fcf553cc011c5f780f6c826016cad7ef2503feaf8df839b51f"
 
 [[files]]
 file = "config/alexscaves_biome_generation/.version"
