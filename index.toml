@@ -65,6 +65,10 @@ file = "config/EndRemastered-NeoForge/Eyes/wither_eye.json"
 hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
 
 [[files]]
+file = "config/alexscaves-general.toml"
+hash = "d596493f1210e251d06bf91cf2ea3ae136c942c8b1f4370c8f10d302ed82234f"
+
+[[files]]
 file = "config/apotheosis/apotheosis.cfg"
 hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
@@ -1010,7 +1014,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "b1daafea09633dab637623856bef75ab928f735186423d0bdc6b132a4893ebb0"
+hash = "dec110cbce92d3a74601f874ce64b35cb33992b2facb9efce77daba2ec5ba032"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -2270,7 +2274,7 @@ hash = "e1eb4c170f236a976621c44903a248778194539b87539f2556e62dd05827df6a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/sac_general.json"
-hash = "59272cf2f2cb55cc4345d87172bfb09b96ef7532d46f4f55de8e03187ea2b0d4"
+hash = "21b7a26e324c06aa6495242b192df53d2c829eff2a77c0afc05730cb60a5f793"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_armorer.json"
@@ -2311,6 +2315,14 @@ hash = "026dd8ce41137d2f576d740720b297f37394532edfe10256ae3df5c56671328b"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/create_village_village_weaponsmith.json"
 hash = "e4aca7981f5774751833f4da34316dd2d03bb7c17c270a38fa0aab8747c01b74"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tablette_forlorn_hollows.json"
+hash = "da68f5f86bfde3e59b750d7b2f451d095d2234f19dc92cd82adfd740bc5b13ad"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tablette_toxic_caves.json"
+hash = "dcaee39d44b4a3742f207f5a1169c58189240a56298425f82b71fe3d74926937"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/aether.json"

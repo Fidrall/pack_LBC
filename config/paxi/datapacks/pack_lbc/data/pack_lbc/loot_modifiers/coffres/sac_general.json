@@ -255,6 +255,66 @@
                                          {
                                              "condition":  "neoforge:loot_table_id",
                                              "loot_table_id":  "betterdeserttemples:chests/wardrobe"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/abyssal_ruins"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/caveman_house"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/forlorn_ruins"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/gingerbread_town"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/licowitch_tower"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/magnetic_ruins"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/toxic_ruins"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/underground_cabin"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/underground_cabin_abyssal_chasm"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/underground_cabin_candy_cavity"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/underground_cabin_forlorn_hollows"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/underground_cabin_magnetic_caves"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/underground_cabin_primordial_caves"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/underground_cabin_toxic_caves"
+                                         },
+                                         {
+                                             "condition":  "neoforge:loot_table_id",
+                                             "loot_table_id":  "alexscaves:chests/witch_hut"
                                          }
                                      ]
                        },

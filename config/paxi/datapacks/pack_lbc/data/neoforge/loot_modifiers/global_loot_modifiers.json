@@ -1,6 +1,16 @@
 {
     "replace":  false,
     "entries":  [
+                    "pack_lbc:create_village_village_toolsmith",
+                    "pack_lbc:create_village_village_weaponsmith",
+                    "pack_lbc:create_village_village_armorer",
+                    "pack_lbc:create_village_village_mason",
+                    "pack_lbc:create_village_village_plains_house",
+                    "pack_lbc:create_village_village_taiga_house",
+                    "pack_lbc:create_village_village_savanna_house",
+                    "pack_lbc:create_village_village_desert_house",
+                    "pack_lbc:create_village_village_snowy_house",
+                    "pack_lbc:create_village_village_smith",
                     "pack_lbc:boss/cataclysm_t2",
                     "pack_lbc:boss/cataclysm_t3",
                     "pack_lbc:boss/twilight_t3",
@@ -21,6 +31,8 @@
                     "pack_lbc:boss/legende_t3",
                     "pack_lbc:boss/legende_t2",
                     "pack_lbc:boss/legende_t1",
-                    "pack_lbc:coffres/sac_general"
+                    "pack_lbc:coffres/sac_general",
+                    "pack_lbc:tablette_toxic_caves",
+                    "pack_lbc:tablette_forlorn_hollows"
                 ]
 }

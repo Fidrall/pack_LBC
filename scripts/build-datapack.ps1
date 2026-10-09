@@ -66,13 +66,12 @@ W 'data/pack_lbc/loot_table/chests/create_village_bonus.json' ([ordered]@{
     })
 })
 $tables = 'minecraft:chests/village/village_toolsmith', 'minecraft:chests/village/village_weaponsmith', 'minecraft:chests/village/village_armorer', 'minecraft:chests/village/village_mason', 'minecraft:chests/village/village_plains_house', 'minecraft:chests/village/village_taiga_house', 'minecraft:chests/village/village_savanna_house', 'minecraft:chests/village/village_desert_house', 'minecraft:chests/village/village_snowy_house', 'ctov:chests/village/village_smith'
-$entries = @()
+$glmVillages = @()
 foreach ($t in $tables) {
     $n = 'create_village_' + (($t -split '[:/]')[-1])
     W "data/pack_lbc/loot_modifiers/$n.json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @(@{ condition = 'neoforge:loot_table_id'; loot_table_id = $t }); table = 'pack_lbc:chests/create_village_bonus' })
-    $entries += "pack_lbc:$n"
+    $glmVillages += "pack_lbc:$n"
 }
-W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $entries })
 
 # ---------- 4. Born in Chaos : apparitions reduites (~60 %), memes biomes/dimensions ----------
 # Copie des biome_modifier d'origine dans scripts/data/borninchaos-spawns.json (a regenerer si le mod change).
@@ -370,7 +369,8 @@ $familles = [ordered]@{
     legende = @{ nom = 'Butin legendaire'; c = @('#FF101010', '#FF7A2BBF', '#FFFFD700'); mat = @('minecraft:diamond', 'minecraft:emerald', 'minecraft:ender_pearl', 'minecraft:blaze_rod', 'archaion:brave_essence')
         boss = @{ 1 = @('minecraft:elder_guardian'); 2 = @('minecraft:wither'); 3 = @('minecraft:warden', 'minecraft:ender_dragon', 'archaion:deepslate_sentinel') } }
 }
-$glm = @()
+# (contient deja les bonus Create des villages de la section 3 : le fichier global est ecrit une seule fois, a la fin)
+$glm = @($glmVillages)
 foreach ($f in $familles.Keys) {
     $fd = $familles[$f]
     W "data/pack_lbc/treasurebags_types/$f.json" ([ordered]@{ bag_color = $fd.c[0]; bag_overlay_color = $fd.c[1]; bag_string_color = $fd.c[2]; display_name = $fd.nom; drops_from_groups = @(); group = 'pack_lbc'; loot_table = "pack_lbc:bags/$f"; rarity = 'epic'; visible = $true })
@@ -405,6 +405,17 @@ foreach ($g in (Import-Csv (Join-Path $PSScriptRoot 'data\coffres_sacs.csv') | G
     $terms = @($g.Group | ForEach-Object { [ordered]@{ condition = 'neoforge:loot_table_id'; loot_table_id = $_.table } })
     W "data/pack_lbc/loot_modifiers/coffres/sac_$($g.Name).json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }, [ordered]@{ condition = 'minecraft:random_chance'; chance = $sacChance }); table = "pack_lbc:coffres/sac_$($g.Name)" })
     $glm += "pack_lbc:coffres/sac_$($g.Name)"
+}
+# Tablettes de grotte d'Alex's Caves : sources ajoutees pour les temples de jungle YUNG (Toxic Caves)
+# et les manoirs de Repurposed Structures (Forlorn Hollows), en plus des coffres vanilla prevus par le mod.
+$tablettes = [ordered]@{
+    toxic_caves     = @('betterjungletemples:chests/treasure')
+    forlorn_hollows = @('birch', 'desert', 'jungle', 'mangrove', 'oak', 'savanna', 'snowy', 'taiga' | ForEach-Object { "repurposed_structures:chests/mansions/$_" })
+}
+foreach ($b in $tablettes.Keys) {
+    $terms = @($tablettes[$b] | ForEach-Object { [ordered]@{ condition = 'neoforge:loot_table_id'; loot_table_id = $_ } })
+    W "data/pack_lbc/loot_modifiers/tablette_$b.json" ([ordered]@{ type = 'alexscaves:cave_tablet'; biome = "alexscaves:$b"; replace = $false; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }) })
+    $glm += "pack_lbc:tablette_$b"
 }
 W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $glm })
 

@@ -1,0 +1,19 @@
+# Reglages modifies pour le pack : biomes plus rares et plus petits, moins de creatures, pathfinding limite (serveur 5 coeurs).
+# Le reste est complete par le jeu avec les valeurs du mod au premier lancement.
+[generation]
+	#Average radius (in blocks) of an Alex's Caves cave biome.
+	# Default: 300.0
+	cave_biome_mean_width = 250.0
+	#Average separation (in blocks) between each Alex's Caves cave biome.
+	# Default: 900
+	cave_biome_mean_separation = 1200
+
+[mob-spawning]
+	#Cave Creatures (All dinosaurs, raycats, etc) spawn at this frequency.
+	# Default: 1.75
+	cave_creature_spawn_count_modifier = 1.0
+
+[mob-behavior]
+	#How many cpu cores big mobs(tremorzilla, atlatitan, grottoceratops etc) should utilize when pathing.
+	# Default: 5
+	pathfinding_threads = 2
