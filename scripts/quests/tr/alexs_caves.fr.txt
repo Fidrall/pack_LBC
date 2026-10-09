@@ -1,0 +1,151 @@
+chapter.088490E6C2387E8A.title: "&3&lLes Grottes d'Alex"
+chapter.088490E6C2387E8A.chapter_subtitle: [
+  "Six biomes cachés sous terre"
+]
+quest.3DCBFD6406A39A18.title: "&3&lLes Grottes d'Alex"
+quest.3DCBFD6406A39A18.quest_subtitle: "Ce qui dort sous nos pieds"
+quest.3DCBFD6406A39A18.quest_desc: [
+  "&eAlex's Caves&r ajoute &bsix grands biomes souterrains&r, chacun avec ses créatures, ses minerais et son équipement."
+  ""
+  "Ils sont rares et profonds : on ne tombe pas dessus par hasard. Il faut d'abord trouver une &etablette de grotte&r dans un coffre, puis s'en servir pour fabriquer une carte."
+  ""
+  "&7Le livre du mod (Cave Book) explique tout en détail."
+]
+task.699F008B89CEDD0B.title: "Clique pour valider"
+quest.74D506A204BAE1B9.title: "Une tablette de grotte"
+quest.74D506A204BAE1B9.quest_subtitle: "La piste d'un biome"
+quest.74D506A204BAE1B9.quest_desc: [
+  "Chaque biome a sa tablette, cachée dans un type de coffre précis :"
+  ""
+  "- &bAbyssal Chasm&r : ruines sous-marines et trésors enfouis"
+  "- &dCandy Cavity&r : cabanes de sorcière"
+  "- &8Forlorn Hollows&r : manoirs"
+  "- &cMagnetic Caves&r : bastions du Nether"
+  "- &6Primordial Caves&r : fouilles archéologiques (pinceau)"
+  "- &aToxic Caves&r : temples de la jungle"
+]
+quest.05069A76D6F3ECB9.title: "La carte des grottes"
+quest.05069A76D6F3ECB9.quest_subtitle: "Tablette + carte"
+quest.05069A76D6F3ECB9.quest_desc: [
+  "Combine la tablette avec une carte pour obtenir une &ecarte de grotte&r. Elle cherche le biome le plus proche, puis te montre le chemin."
+  ""
+  "&7La recherche peut prendre quelques secondes."
+]
+quest.2D57EABD7266C5FC.title: "Le Codex des grottes"
+quest.2D57EABD7266C5FC.quest_subtitle: "Le guide se remplit en explorant"
+quest.2D57EABD7266C5FC.quest_desc: [
+  "Le &eCave Codex&r débloque les pages du livre au fil de tes découvertes : créatures, blocs et objets de chaque biome."
+]
+quest.45588D020EF84979.title: "&cMagnetic Caves"
+quest.45588D020EF84979.quest_subtitle: "Là où le fer flotte"
+quest.45588D020EF84979.quest_desc: [
+  "Des grottes chargées de &cnéodyme écarlate&r et &9azur&r, deux métaux qui s'attirent ou se repoussent."
+  ""
+  "Attention aux créatures faites de métal et d'électricité."
+]
+quest.5F247719D8C2EDF5.title: "Aimants"
+quest.5F247719D8C2EDF5.quest_subtitle: "Attirer et repousser"
+quest.5F247719D8C2EDF5.quest_desc: [
+  "Fabrique un &eaimant&r à partir du néodyme : il déplace les objets et les entités métalliques. La base de toute la technologie du biome."
+]
+quest.760EA1AC32DB5371.title: "&cLe Magnetron"
+quest.760EA1AC32DB5371.quest_subtitle: "Un amas de blocs vivant"
+quest.760EA1AC32DB5371.quest_desc: [
+  "Le &cMagnetron&r se construit un corps avec les blocs qui l'entourent. Vaincs-le pour en récupérer les composants."
+]
+quest.63CAF87FBF9AA207.title: "&6Primordial Caves"
+quest.63CAF87FBF9AA207.quest_subtitle: "Un monde perdu"
+quest.63CAF87FBF9AA207.quest_desc: [
+  "Une jungle souterraine où vivent encore des &6dinosaures&r. Certains se laissent apprivoiser, d'autres pas du tout."
+]
+quest.30A3C867E2D4B1E2.title: "Apprivoiser un Tremorsaurus"
+quest.30A3C867E2D4B1E2.quest_subtitle: "Une monture qui fait trembler le sol"
+quest.30A3C867E2D4B1E2.quest_desc: [
+  "Le &6Tremorsaurus&r est un prédateur redoutable. Apprivoisé, c'est une monture puissante."
+]
+quest.07AE40F3FDA5892E.title: "Tenue préhistorique"
+quest.07AE40F3FDA5892E.quest_subtitle: "S'habiller comme les anciens"
+quest.07AE40F3FDA5892E.quest_desc: [
+  "L'&earmure primordiale&r se fabrique avec les peaux des créatures du biome."
+]
+quest.71D7B68F254A5BD5.title: "&4Le Luxtructosaurus"
+quest.71D7B68F254A5BD5.quest_subtitle: "Le géant des volcans"
+quest.71D7B68F254A5BD5.quest_desc: [
+  "Un dinosaure titanesque fait de roche et de lave. C'est l'un des combats les plus durs du mod : prépare-toi bien."
+]
+quest.6E9E0226EEFA0937.title: "&aToxic Caves"
+quest.6E9E0226EEFA0937.quest_subtitle: "Radioactif"
+quest.6E9E0226EEFA0937.quest_desc: [
+  "Des grottes d'&auranium&r et d'acide. Sans protection, la &cradiation&r fait vite des dégâts."
+]
+quest.0B9D45F5BBBFE914.title: "La combinaison anti-radiation"
+quest.0B9D45F5BBBFE914.quest_subtitle: "Indispensable"
+quest.0B9D45F5BBBFE914.quest_desc: [
+  "La &ecombinaison Hazmat&r complète protège de la radiation. À fabriquer avant de rester longtemps dans le biome."
+]
+quest.006D9B21D132FA90.title: "Le pistolet à rayons"
+quest.006D9B21D132FA90.quest_subtitle: "Science radioactive"
+quest.006D9B21D132FA90.quest_desc: [
+  "Une arme qui tire un rayon d'énergie, alimentée à l'uranium."
+]
+quest.5F187153455262D2.title: "&2Tremorzilla"
+quest.5F187153455262D2.quest_subtitle: "Le roi des monstres"
+quest.5F187153455262D2.quest_desc: [
+  "Fais éclore un œuf de &2Tremorzilla&r et élève-le : un monstre gigantesque au rayon dévastateur, de ton côté."
+]
+quest.2164C2B9C0A64BF4.title: "&bAbyssal Chasm"
+quest.2164C2B9C0A64BF4.quest_subtitle: "Les abysses sous l'océan"
+quest.2164C2B9C0A64BF4.quest_desc: [
+  "Un gouffre noir sous les océans profonds, peuplé de créatures lumineuses et des mystérieux &bDeep Ones&r."
+]
+quest.0D552CBF05899CA4.title: "Scaphandre"
+quest.0D552CBF05899CA4.quest_subtitle: "Respirer au fond"
+quest.0D552CBF05899CA4.quest_desc: [
+  "Le &escaphandre&r complet permet de rester longtemps sous l'eau et de supporter la pression des abysses."
+]
+quest.11F1A2C3D3258AE5.title: "Les Deep Ones"
+quest.11F1A2C3D3258AE5.quest_subtitle: "Gagner leur confiance"
+quest.11F1A2C3D3258AE5.quest_desc: [
+  "Les &bDeep Ones&r se méfient des humains. Gagne leur confiance pour pouvoir commercer avec eux."
+]
+quest.066B3FFA490A7840.title: "Sous-marin"
+quest.066B3FFA490A7840.quest_subtitle: "Explorer les abysses en sécurité"
+quest.066B3FFA490A7840.quest_desc: [
+  "Construis un &esous-marin&r pour explorer le gouffre sans craindre ses habitants."
+]
+quest.7AF0882497D1D408.title: "&8Forlorn Hollows"
+quest.7AF0882497D1D408.quest_subtitle: "Les ténèbres"
+quest.7AF0882497D1D408.quest_desc: [
+  "Des cavernes plongées dans le noir, où rôdent des créatures qui fuient la lumière… ou qui la cherchent."
+]
+quest.71D100598153A94D.title: "&8Le Watcher"
+quest.71D100598153A94D.quest_subtitle: "Il te regarde"
+quest.71D100598153A94D.quest_desc: [
+  "Le &8Watcher&r peut prendre le contrôle de ta vision. Vaincs-le avant qu'il ne te perde dans le noir."
+]
+quest.1CAD616BE493F44A.title: "L'arc de l'effroi"
+quest.1CAD616BE493F44A.quest_subtitle: "Une arme des ténèbres"
+quest.1CAD616BE493F44A.quest_desc: [
+  "Le &5Dreadbow&r tire des flèches d'ombre. Une des armes les plus redoutées du mod."
+]
+quest.09048F696B1B719B.title: "&dCandy Cavity"
+quest.09048F696B1B719B.quest_subtitle: "Tout est en sucre"
+quest.09048F696B1B719B.quest_desc: [
+  "Un monde de bonbons, de chocolat et de pain d'épices. Mignon… en apparence."
+]
+quest.6C07E1E0038BDFA0.title: "La ville en pain d'épices"
+quest.6C07E1E0038BDFA0.quest_subtitle: "Des voisins sucrés"
+quest.6C07E1E0038BDFA0.quest_desc: [
+  "Trouve une &dville en pain d'épices&r et ses habitants."
+]
+quest.2B2107E4946671B3.title: "La tour de la Licowitch"
+quest.2B2107E4946671B3.quest_subtitle: "Une sorcière en réglisse"
+quest.2B2107E4946671B3.quest_desc: [
+  "La &5Licowitch&r garde sa tour et un coffre secret bien caché."
+]
+quest.3D6A386005E8BD41.title: "&3&lSpéléologue accompli"
+quest.3D6A386005E8BD41.quest_subtitle: "Les six biomes découverts"
+quest.3D6A386005E8BD41.quest_desc: [
+  "Tu as visité les six biomes d'Alex's Caves. Peu d'explorateurs peuvent en dire autant !"
+]
+task.69517BE82B4CD27C.title: "Les six biomes !"

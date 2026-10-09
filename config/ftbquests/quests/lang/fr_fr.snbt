@@ -10,6 +10,10 @@
 	reward_table.5BF2DB02CBF4D490.title: "Caisse rare"
 	reward_table.396C1887C2F887B7.title: "Caisse épique"
 	reward_table.7D221ADF1898E942.title: "Caisse légendaire"
+	chapter.088490E6C2387E8A.chapter_subtitle: [
+		"Six biomes cachés sous terre"
+	]
+	chapter.088490E6C2387E8A.title: "&3&lLes Grottes d'Alex"
 	chapter.09B56D111668F538.title: "&6&nPremiers pas !"
 	chapter.178BB414E2F55B72.title: "&aÉlectricité"
 	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
@@ -73,6 +77,11 @@
 	quest.0030852E282BC66A.quest_subtitle: "Les illagers sont plus nombreux"
 	quest.0030852E282BC66A.title: "&4Illager Invasion"
 	quest.0051AD1BF14F9EC9.quest_subtitle: "&6+10 % de dégâts d'invocation"
+	quest.006D9B21D132FA90.quest_desc: [
+		"Une arme qui tire un rayon d'énergie, alimentée à l'uranium."
+	]
+	quest.006D9B21D132FA90.quest_subtitle: "Science radioactive"
+	quest.006D9B21D132FA90.title: "Le pistolet à rayons"
 	quest.008BB9099EFA03A0.quest_desc: [
 		"Tu es arrivé jusqu'ici, mais &cun dernier défi&r te sépare de la maîtrise complète de &el'End&r."
 		""
@@ -213,6 +222,13 @@
 	]
 	quest.04C1E2AB542EDD57.quest_subtitle: "Plus de puissance"
 	quest.04C1E2AB542EDD57.title: "La Bibliothèque Infernale"
+	quest.05069A76D6F3ECB9.quest_desc: [
+		"Combine la tablette avec une carte pour obtenir une &ecarte de grotte&r. Elle cherche le biome le plus proche, puis te montre le chemin."
+		""
+		"&7La recherche peut prendre quelques secondes."
+	]
+	quest.05069A76D6F3ECB9.quest_subtitle: "Tablette + carte"
+	quest.05069A76D6F3ECB9.title: "La carte des grottes"
 	quest.050A758FB6279593.quest_desc: [
 		"Un &echâteau&r perdu au milieu des îles de l'End, avec son phare."
 	]
@@ -296,6 +312,11 @@
 		"&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver une Arène Ardente.&r"
 	]
 	quest.066B217CF45625F9.quest_subtitle: "&a☠ Niveau 7"
+	quest.066B3FFA490A7840.quest_desc: [
+		"Construis un &esous-marin&r pour explorer le gouffre sans craindre ses habitants."
+	]
+	quest.066B3FFA490A7840.quest_subtitle: "Explorer les abysses en sécurité"
+	quest.066B3FFA490A7840.title: "Sous-marin"
 	quest.06B66726F87DF00E.quest_desc: [
 		"La table d'enchantement fonctionne différemment : les &ebibliothèques&r autour d'elle donnent trois statistiques."
 		""
@@ -350,6 +371,11 @@
 	]
 	quest.077E534959528ED7.quest_subtitle: "Critters and Companions"
 	quest.077E534959528ED7.title: "&a&lCompagnons à apprivoiser"
+	quest.07AE40F3FDA5892E.quest_desc: [
+		"L'&earmure primordiale&r se fabrique avec les peaux des créatures du biome."
+	]
+	quest.07AE40F3FDA5892E.quest_subtitle: "S'habiller comme les anciens"
+	quest.07AE40F3FDA5892E.title: "Tenue préhistorique"
 	quest.07CCF0EE3BC96DB1.quest_desc: [
 		"Commence par fabriquer un &6Vestige Scellé&r."
 		""
@@ -405,6 +431,11 @@
 		"Le &l&6Inverseur&r&r inverse le sens de rotation quand il reçoit un signal de redstone."
 	]
 	quest.08B2F767BB0AB1AA.quest_subtitle: "La défense est lâchée par les hoglins tués avec une hachette Ravage, ou par les cochons avec une hachette Récupération."
+	quest.09048F696B1B719B.quest_desc: [
+		"Un monde de bonbons, de chocolat et de pain d'épices. Mignon… en apparence."
+	]
+	quest.09048F696B1B719B.quest_subtitle: "Tout est en sucre"
+	quest.09048F696B1B719B.title: "&dCandy Cavity"
 	quest.090F9541580A5130.quest_desc: [
 		"Le &cGantelet du Nether&r apparaît dans l'&eArène du Gantelet&r, au fond du &aNether&r."
 		""
@@ -493,6 +524,11 @@
 	]
 	quest.0B76EAE1EE32AED7.quest_subtitle: "Un liquide pas comme les autres"
 	quest.0B76EAE1EE32AED7.title: "&dLe Mélange de Lévitite"
+	quest.0B9D45F5BBBFE914.quest_desc: [
+		"La &ecombinaison Hazmat&r complète protège de la radiation. À fabriquer avant de rester longtemps dans le biome."
+	]
+	quest.0B9D45F5BBBFE914.quest_subtitle: "Indispensable"
+	quest.0B9D45F5BBBFE914.title: "La combinaison anti-radiation"
 	quest.0BD070E54EF86FDA.quest_desc: [
 		"Tu peux afficher un objet à l'extérieur d'un rangement pour mieux t'organiser. Par exemple, un coffre de nourriture peut afficher une carotte."
 		""
@@ -534,6 +570,11 @@
 		""
 		"Sur une construction en mouvement, les scies fonctionnent toutes seules. Elles cassent les blocs et blessent les créatures, d'autant plus fort que la construction va vite."
 	]
+	quest.0D552CBF05899CA4.quest_desc: [
+		"Le &escaphandre&r complet permet de rester longtemps sous l'eau et de supporter la pression des abysses."
+	]
+	quest.0D552CBF05899CA4.quest_subtitle: "Respirer au fond"
+	quest.0D552CBF05899CA4.title: "Scaphandre"
 	quest.0D5EE381BFD6374F.quest_desc: [
 		"L'&eEssence Deus&r vient d'un &eéclat d'âme divin&r d'Iron's Spells. Avec le &eMoule divin&r, elle permet le rang 4 des cristaux."
 	]
@@ -682,6 +723,11 @@
 		"Une &eboussole&r peut être liée à une &3magnétite&r avec un &7[&rclic droit&7]&r : l'aiguille pointera alors vers elle, tant que tu es dans la même dimension."
 	]
 	quest.114173896E5DF62C.quest_subtitle: "Trouve une magnétite"
+	quest.11F1A2C3D3258AE5.quest_desc: [
+		"Les &bDeep Ones&r se méfient des humains. Gagne leur confiance pour pouvoir commercer avec eux."
+	]
+	quest.11F1A2C3D3258AE5.quest_subtitle: "Gagner leur confiance"
+	quest.11F1A2C3D3258AE5.title: "Les Deep Ones"
 	quest.12029CC14E6FFE54.quest_desc: [
 		"La &aTable de Reforge&r fonctionne comme la version simple, mais elle permet d'aller au-delà de &9Rare&r, jusqu'aux raretés &6Épique et Mythique&r."
 	]
@@ -1087,6 +1133,11 @@
 	]
 	quest.1C7A2B8C112629AB.quest_subtitle: "Cuire… et assommer"
 	quest.1C7A2B8C112629AB.title: "La Poêle"
+	quest.1CAD616BE493F44A.quest_desc: [
+		"Le &5Dreadbow&r tire des flèches d'ombre. Une des armes les plus redoutées du mod."
+	]
+	quest.1CAD616BE493F44A.quest_subtitle: "Une arme des ténèbres"
+	quest.1CAD616BE493F44A.title: "L'arc de l'effroi"
 	quest.1CEEFAEED5539BA1.quest_desc: [
 		"Fais un clic droit sur une construction simulée avec le &eDiagramme&r pour voir toutes les forces qui s'exercent dessus : &6poids, portance, poussée&r…"
 		""
@@ -1237,6 +1288,11 @@
 	quest.20C77374BFA20079.title: "Un fort"
 	quest.20EAD0D76E8C2683.quest_subtitle: "En amélioration : &6+50 de mana maximum"
 	quest.2109EF6D9005AD03.quest_subtitle: "&6+15 % de dégâts d'invocation"
+	quest.2164C2B9C0A64BF4.quest_desc: [
+		"Un gouffre noir sous les océans profonds, peuplé de créatures lumineuses et des mystérieux &bDeep Ones&r."
+	]
+	quest.2164C2B9C0A64BF4.quest_subtitle: "Les abysses sous l'océan"
+	quest.2164C2B9C0A64BF4.title: "&bAbyssal Chasm"
 	quest.216E2ED7D793F72A.quest_subtitle: "Butin rare lâché au hasard par les évocateurs et les archi-évocateurs."
 	quest.2192D2F22A2C17FD.quest_desc: [
 		"Une &eBobine Vide&r peut être transformée en quatre types de câbles avec le matériau correspondant :"
@@ -1492,6 +1548,11 @@
 	quest.29D6C7D5DEC00FB2.quest_subtitle: "Détecter les obstacles"
 	quest.29D6C7D5DEC00FB2.title: "Le Capteur Optique"
 	quest.2B08F0E6CD504832.title: "Acier d'effroi"
+	quest.2B2107E4946671B3.quest_desc: [
+		"La &5Licowitch&r garde sa tour et un coffre secret bien caché."
+	]
+	quest.2B2107E4946671B3.quest_subtitle: "Une sorcière en réglisse"
+	quest.2B2107E4946671B3.title: "La tour de la Licowitch"
 	quest.2B603051BF399205.quest_desc: [
 		"Le &6Composteur Mécanique&r transforme les objets compostables, comme les fleurs, en compost."
 		""
@@ -1579,6 +1640,11 @@
 	quest.2D412FE8D78F46FE.quest_desc: [
 		"L'&6&lAxe&r&r est essentiel pour transmettre la rotation entre les machines. C'est aussi le seul support sur lequel on peut poser des tapis roulants."
 	]
+	quest.2D57EABD7266C5FC.quest_desc: [
+		"Le &eCave Codex&r débloque les pages du livre au fil de tes découvertes : créatures, blocs et objets de chaque biome."
+	]
+	quest.2D57EABD7266C5FC.quest_subtitle: "Le guide se remplit en explorant"
+	quest.2D57EABD7266C5FC.title: "Le Codex des grottes"
 	quest.2D69922251E3D2CB.quest_subtitle: "&6Rend visibles les créatures invisibles"
 	quest.2D6F91D478384B53.quest_subtitle: "Le parchemin engourdissant est lâché par les vagabonds tués avec une hachette Ravage."
 	quest.2D8A98F91CDD4318.quest_desc: [
@@ -1706,6 +1772,11 @@
 	]
 	quest.305ADD164F83D2D1.quest_subtitle: "Pour faire progresser plus vite"
 	quest.305ADD164F83D2D1.title: "Bouteille d'expérience de relique"
+	quest.30A3C867E2D4B1E2.quest_desc: [
+		"Le &6Tremorsaurus&r est un prédateur redoutable. Apprivoisé, c'est une monture puissante."
+	]
+	quest.30A3C867E2D4B1E2.quest_subtitle: "Une monture qui fait trembler le sol"
+	quest.30A3C867E2D4B1E2.title: "Apprivoiser un Tremorsaurus"
 	quest.30A49F7BE86E7B7D.quest_desc: [
 		"La &6Forge à Blaze&r fonctionne comme une enclume, mais elle peut en plus extraire un enchantement dans un Modèle."
 		""
@@ -2185,6 +2256,11 @@
 	]
 	quest.3D6259FBCAA99583.quest_subtitle: "L'heure est venue d'affronter le puissant Ender Dragon"
 	quest.3D6259FBCAA99583.title: "&4Entrer dans le portail de l'End"
+	quest.3D6A386005E8BD41.quest_desc: [
+		"Tu as visité les six biomes d'Alex's Caves. Peu d'explorateurs peuvent en dire autant !"
+	]
+	quest.3D6A386005E8BD41.quest_subtitle: "Les six biomes découverts"
+	quest.3D6A386005E8BD41.title: "&3&lSpéléologue accompli"
 	quest.3D8B2D9B4488D1C4.quest_desc: [
 		"Les &cVestiges Renforcés&r s'obtiennent en faisant fondre des armes uniques."
 		""
@@ -2194,6 +2270,15 @@
 	quest.3D93780758BA7194.quest_desc: [
 		"Peut-être que tu peux &bles réassembler&r, ou en faire &o&6autre chose&r ?"
 	]
+	quest.3DCBFD6406A39A18.quest_desc: [
+		"&eAlex's Caves&r ajoute &bsix grands biomes souterrains&r, chacun avec ses créatures, ses minerais et son équipement."
+		""
+		"Ils sont rares et profonds : on ne tombe pas dessus par hasard. Il faut d'abord trouver une &etablette de grotte&r dans un coffre, puis s'en servir pour fabriquer une carte."
+		""
+		"&7Le livre du mod (Cave Book) explique tout en détail."
+	]
+	quest.3DCBFD6406A39A18.quest_subtitle: "Ce qui dort sous nos pieds"
+	quest.3DCBFD6406A39A18.title: "&3&lLes Grottes d'Alex"
 	quest.3DEAE2A5E71AEF5A.quest_desc: [
 		"{image:pack_lbc:textures/quests/item_golem5.png width:150 height:60 align:center}"
 		""
@@ -2444,6 +2529,13 @@
 	]
 	quest.44F5B4AFC2F9B125.quest_subtitle: "Le cristal qui défie la gravité"
 	quest.44F5B4AFC2F9B125.title: "&d&lLa Lévitite"
+	quest.45588D020EF84979.quest_desc: [
+		"Des grottes chargées de &cnéodyme écarlate&r et &9azur&r, deux métaux qui s'attirent ou se repoussent."
+		""
+		"Attention aux créatures faites de métal et d'électricité."
+	]
+	quest.45588D020EF84979.quest_subtitle: "Là où le fer flotte"
+	quest.45588D020EF84979.title: "&cMagnetic Caves"
 	quest.45897F363A6ACCE7.title: "&dCristal de mana radieux"
 	quest.45A82A0D7A2A252B.quest_desc: [
 		"Tu maîtrises maintenant tout ce qu'il faut pour construire le vaisseau de tes rêves."
@@ -3246,6 +3338,16 @@
 	quest.5EE2C7C1568832CC.quest_subtitle: "Dungeons and Taverns"
 	quest.5EE2C7C1568832CC.title: "Le manoir des illagers"
 	quest.5EE5A4AA72E10A32.quest_subtitle: "La viande d'ours polaire crue est lâchée par les ours polaires tués avec une hachette Ravage."
+	quest.5F187153455262D2.quest_desc: [
+		"Fais éclore un œuf de &2Tremorzilla&r et élève-le : un monstre gigantesque au rayon dévastateur, de ton côté."
+	]
+	quest.5F187153455262D2.quest_subtitle: "Le roi des monstres"
+	quest.5F187153455262D2.title: "&2Tremorzilla"
+	quest.5F247719D8C2EDF5.quest_desc: [
+		"Fabrique un &eaimant&r à partir du néodyme : il déplace les objets et les entités métalliques. La base de toute la technologie du biome."
+	]
+	quest.5F247719D8C2EDF5.quest_subtitle: "Attirer et repousser"
+	quest.5F247719D8C2EDF5.title: "Aimants"
 	quest.5F7FBCB758D54981.quest_subtitle: "Donne l'&6immunité au gel&r."
 	quest.5F9BEF8918186325.quest_desc: [
 		"Le &l&6Bec Verseur&r&r remplit les contenants (fioles, seaux…) ou applique des liquides pour certaines recettes."
@@ -3430,6 +3532,11 @@
 	]
 	quest.63BA37F707747719.quest_subtitle: "Avec des engrenages"
 	quest.63BA37F707747719.title: "&l&aAccélérer ou ralentir avec des engrenages&r&r"
+	quest.63CAF87FBF9AA207.quest_desc: [
+		"Une jungle souterraine où vivent encore des &6dinosaures&r. Certains se laissent apprivoiser, d'autres pas du tout."
+	]
+	quest.63CAF87FBF9AA207.quest_subtitle: "Un monde perdu"
+	quest.63CAF87FBF9AA207.title: "&6Primordial Caves"
 	quest.6407DB1B8FBDBE81.quest_desc: [
 		"Associe des fréquences de &eLiaison Redstone&r à ses touches : tu contrôles ton vaisseau au clavier, comme avec un tableau de bord."
 		""
@@ -3730,6 +3837,11 @@
 	]
 	quest.6BE589E8C3FADF4C.quest_subtitle: "L'objectif final du chapitre"
 	quest.6BE589E8C3FADF4C.title: "&6&lÉquipement légendaire"
+	quest.6C07E1E0038BDFA0.quest_desc: [
+		"Trouve une &dville en pain d'épices&r et ses habitants."
+	]
+	quest.6C07E1E0038BDFA0.quest_subtitle: "Des voisins sucrés"
+	quest.6C07E1E0038BDFA0.title: "La ville en pain d'épices"
 	quest.6C09C1569A947DA0.quest_desc: [
 		"La &6Table d'Augmentation&r permet de &arelancer les affixes&r de tes objets ou de &amaximiser leurs statistiques&r."
 	]
@@ -3874,6 +3986,11 @@
 	]
 	quest.6E8031A380EB37C8.quest_subtitle: "Inscrire des sorts"
 	quest.6E98473128936047.quest_subtitle: "Tu te déplaces librement dans l'eau, mais tu coules et tu peux prendre des dégâts de chute"
+	quest.6E9E0226EEFA0937.quest_desc: [
+		"Des grottes d'&auranium&r et d'acide. Sans protection, la &cradiation&r fait vite des dégâts."
+	]
+	quest.6E9E0226EEFA0937.quest_subtitle: "Radioactif"
+	quest.6E9E0226EEFA0937.title: "&aToxic Caves"
 	quest.6EF972352D9E0B1F.quest_desc: [
 		"Un &cÉclat de Vie&r donne &cun cœur supplémentaire permanent&r quand on l'utilise."
 		""
@@ -3997,6 +4114,16 @@
 		""
 		"&6Attention :&r casser ce bloc pendant que le réacteur tourne le fait exploser et le transforme en &9Corium&r."
 	]
+	quest.71D100598153A94D.quest_desc: [
+		"Le &8Watcher&r peut prendre le contrôle de ta vision. Vaincs-le avant qu'il ne te perde dans le noir."
+	]
+	quest.71D100598153A94D.quest_subtitle: "Il te regarde"
+	quest.71D100598153A94D.title: "&8Le Watcher"
+	quest.71D7B68F254A5BD5.quest_desc: [
+		"Un dinosaure titanesque fait de roche et de lave. C'est l'un des combats les plus durs du mod : prépare-toi bien."
+	]
+	quest.71D7B68F254A5BD5.quest_subtitle: "Le géant des volcans"
+	quest.71D7B68F254A5BD5.title: "&4Le Luxtructosaurus"
 	quest.71FA7C33865A2435.quest_desc: [
 		"Les &efestins&r (poulet rôti, jambon glacé, pâté du berger…) se posent sur une table et se partagent en plusieurs portions avec un bol."
 		""
@@ -4229,6 +4356,18 @@
 		"S'il y a des obstacles, le tube ne peut pas être posé et le tracé s'affiche en rouge."
 	]
 	quest.74C84002EB8E230E.title: "Poser des tubes"
+	quest.74D506A204BAE1B9.quest_desc: [
+		"Chaque biome a sa tablette, cachée dans un type de coffre précis :"
+		""
+		"- &bAbyssal Chasm&r : ruines sous-marines et trésors enfouis"
+		"- &dCandy Cavity&r : cabanes de sorcière"
+		"- &8Forlorn Hollows&r : manoirs"
+		"- &cMagnetic Caves&r : bastions du Nether"
+		"- &6Primordial Caves&r : fouilles archéologiques (pinceau)"
+		"- &aToxic Caves&r : temples de la jungle"
+	]
+	quest.74D506A204BAE1B9.quest_subtitle: "La piste d'un biome"
+	quest.74D506A204BAE1B9.title: "Une tablette de grotte"
 	quest.751DA00A6BE48ED5.title: "Or cosmique"
 	quest.75245BCD1BB86548.quest_desc: [
 		"Dans la Forêt Obscure se dresse la &4Tour Obscure&r. Entre par les &eblocs réapparaissants&r à sa base, et monte jusqu'au dernier étage."
@@ -4248,6 +4387,11 @@
 		"Dans la &6Forge à Parchemins&r, l'&6encre&r permet de fabriquer un sort de la rareté correspondante, au plus bas niveau disponible. Si la rareté minimum d'un sort est plus élevée que celle de l'encre, tu ne pourras pas le fabriquer : il faudra une encre de meilleure qualité."
 	]
 	quest.75813E7A5E88D3B8.quest_subtitle: "En amélioration : &6+5 % de résistance aux sorts"
+	quest.760EA1AC32DB5371.quest_desc: [
+		"Le &cMagnetron&r se construit un corps avec les blocs qui l'entourent. Vaincs-le pour en récupérer les composants."
+	]
+	quest.760EA1AC32DB5371.quest_subtitle: "Un amas de blocs vivant"
+	quest.760EA1AC32DB5371.title: "&cLe Magnetron"
 	quest.76100542C15576F4.quest_desc: [
 		"Une immense &efaille&r déchire les îles de l'End. Approche-toi du bord… prudemment."
 	]
@@ -4379,6 +4523,11 @@
 	]
 	quest.7AA0DA68DD83387E.quest_subtitle: "Pour les avions"
 	quest.7AA0DA68DD83387E.title: "Les Ailes"
+	quest.7AF0882497D1D408.quest_desc: [
+		"Des cavernes plongées dans le noir, où rôdent des créatures qui fuient la lumière… ou qui la cherchent."
+	]
+	quest.7AF0882497D1D408.quest_subtitle: "Les ténèbres"
+	quest.7AF0882497D1D408.title: "&8Forlorn Hollows"
 	quest.7AF67A6A6FC9FB30.quest_subtitle: "Pieds"
 	quest.7AF67A6A6FC9FB30.title: "Botte de verre taillé"
 	quest.7B2E2427787A55A7.quest_desc: [
@@ -4675,6 +4824,8 @@
 	task.641E02CD66606C20.title: "Golem de cuivre construit !"
 	task.67B32620AF72D501.title: "Mon équipement est mythique"
 	task.67B3D076689320C9.title: "Je suis un grand explorateur"
+	task.69517BE82B4CD27C.title: "Les six biomes !"
+	task.699F008B89CEDD0B.title: "Clique pour valider"
 	task.6B87B64D8F370153.title: "Clique pour valider"
 	task.6FA79A0E3B31D1CD.title: "Clique pour valider"
 	task.6FD0241035AC0F91.title: "Clique pour valider"

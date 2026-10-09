@@ -133,6 +133,10 @@ file = "config/ftbquests/quests/chapters/aether.snbt"
 hash = "a29905ece1ce5a368f53173beda598ba2d70fd9847fa09c5416282c5a543efe3"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/alexs_caves.snbt"
+hash = "7090fefad8f8d9cce205a23abf6d6c53d13a9fbe62b02971fc1a47d4a5831e35"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
 hash = "f7f5e4593f208a7a9c4004c9e4b552859e66308bf720d89427996e952626988c"
 
@@ -226,7 +230,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "3ace1a77fe169da0e96f147b6d0c666e6c2a81824abbdced19a1709671b369c0"
+hash = "d28c811475244ab3281f8951918b7c0188e4493b50bee71ff83cb8515853235e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
