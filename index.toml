@@ -925,6 +925,14 @@ file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/portal_l
 hash = "b36a7db85ab921bb548118197b66eeae243715385236dcbd12d3d4933d45a103"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/underwater_small_ruins.json"
+hash = "abe36872ef6496c991c99340a483c7c3c071d7d0b9ececf42a0db2aa6f69a7d4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/underwater_warm_small_ruins.json"
+hash = "feecfc724cf39d76ba3c4e1b9bca1b560745e4e40046171af01f34bc2546c127"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/pillager_outpost.json"
 hash = "8893f595292a3c5499a6e07f609e75ff938011806f5cf43e3d036179383dc2cd"
 
@@ -3117,10 +3125,6 @@ file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/struc
 hash = "24d1de2515ab8b1e56efa0b3bfbdb491f1377101218d7bf7dc1cbe0053e1d08e"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/witch_huts_overworld.json"
-hash = "c078b434442a9fd101671a5af3ae8d277922ad42ad1e2965c90a05d205e13c0d"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_set/rare_towers.json"
 hash = "37abc71020af94ae3cb720a9b4b02fe65fbd50e6d2f6ba831ca1524156b2d683"
 
@@ -3398,7 +3402,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "26666e63b93451dea564b6ec73fbd63c2a8202d5e902bc6f9ac44fb21d1e393b"
+hash = "6e3b5ba39d9a8b5d831365b27c9f425baffbaa50f0ce3e587fadd93b4ad68106"
 
 [[files]]
 file = "config/tectonic.json"
