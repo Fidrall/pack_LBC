@@ -4163,6 +4163,11 @@ hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "b6a535a801939a78f255203f7b28319773becca20cc88348f8764f4078816300"
+metafile = true
+
+[[files]]
 file = "mods/creeper-overhaul.pw.toml"
 hash = "cd4c4ec6ef26d2b61e0cb0bdd398e8d528b88ebf739fc0898bc8cb2f7a88debb"
 metafile = true

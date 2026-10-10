@@ -253,3 +253,4 @@ mr | create-wizardry | jetable | automatisation Create pour Iron's (version pre-
 mr | journeymap | qol | minimap et grande carte (mode grotte), config d'origine via config/jmdefaultconfig
 mr | journeymap-integration | client | protections FTB Chunks et Waystones sur JourneyMap
 cf | 523327 | jetable | Savage Ender Dragon (eclairs, renforts, anti-vol) en complement de Stellarity : vie/cristaux geres par Stellarity (config/dragonfight.json)
+mr | createbetterfps | client | rendu Create plus rapide avec shaders (a tester : engrenages, dirigeables)
