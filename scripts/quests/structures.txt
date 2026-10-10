@@ -694,8 +694,6 @@ nova_structures:well_savana
 nova_structures:well_spruce
 nova_structures:wild_ruin
 nova_structures:witch_villa
-nullscape:dragon_skeleton
-nullscape:rift
 phantasm:obsidian_tower
 philipsruins:ancient_crypt
 philipsruins:ancient_dungeon
@@ -1104,3 +1102,14 @@ twilightforest:swamp_hollow_tree
 twilightforest:troll_cave
 twilightforest:yeti_cave
 villagesandpillages:village_witch
+stellarity:campsite
+stellarity:chapel_of_light
+stellarity:desert_ruin
+stellarity:fishing_hut
+stellarity:fossil
+stellarity:obsidian_spike
+stellarity:old_stronghold
+stellarity:return_gateway
+stellarity:shipwreck/dunes
+stellarity:shipwreck/normal
+stellarity:village

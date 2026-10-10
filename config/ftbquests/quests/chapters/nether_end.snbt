@@ -375,7 +375,7 @@
 			tasks: [
 				{
 					id: "561A8B36D7351EF5"
-					structure: "nullscape:dragon_skeleton"
+					structure: "stellarity:fossil"
 					type: "structure"
 				}
 			]
@@ -401,7 +401,7 @@
 			tasks: [
 				{
 					id: "0AE8895BCE3D82FE"
-					structure: "nullscape:rift"
+					structure: "stellarity:village"
 					type: "structure"
 				}
 			]

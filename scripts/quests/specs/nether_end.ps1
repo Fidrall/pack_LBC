@@ -49,28 +49,32 @@ $Quests = @(
 
   # --- End
   @{ k='end'; x=3; y=0; size=2; shape='gear'; tasks=@('dim:minecraft:the_end'); icon='minecraft:end_stone'; crate='rare'
-     t='&d&lUn End transformé'; st='Nullscape'
+     t='&d&lUn End transformé'; st='Stellarity'
      d=@('Après le dragon, l''End s''ouvre… et il est bien différent de l''End vanilla :',
          '',
-         '- &dNullscape&r sculpte les îles extérieures : falaises, arches, pics flottants et &efailles&r spectaculaires ;',
-         '- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles.',
+         '- &dStellarity&r transforme les îles extérieures : îles à toutes les hauteurs et une vingtaine de &ebiomes&r (prairies, forêts, dunes, terres gelées…) ;',
+         '- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles ;',
+         '- après le dragon, l''&5Autel du Maudit&r se réveille : il fabrique l''équipement de fin de jeu de Stellarity (recettes sur le wiki de Stellarity).',
          '',
          'N''oublie pas : c''est aussi là que se trouve la &epierre de l''End&r nécessaire à la &dlévitite&r des dirigeables !') }
-  @{ k='dreaming'; x=1.5; y=1.5; deps=@('end'); tasks=@('struct:nullscape:dragon_skeleton'); crate='commune'
-     t='Le squelette de dragon'; st='Nullscape'
-     d=@('Les restes d''un &edragon colossal&r gisent quelque part dans les îles extérieures. Un ancêtre du dragon de l''End ?') }
-  @{ k='crystal'; x=3; y=1.5; deps=@('end'); tasks=@('struct:nullscape:rift'); crate='rare'
-     t='La faille'; st='Nullscape'
-     d=@('Une immense &efaille&r déchire les îles de l''End. Approche-toi du bord… prudemment.') }
+  @{ k='dreaming'; x=1.5; y=1.5; deps=@('end'); tasks=@('struct:stellarity:fossil'); crate='commune'
+     t='Un fossile de l''End'; st='Stellarity'
+     d=@('D''immenses &eossements&r gisent dans les toundras de chair, les nids et les deltas de cendre. Que s''est-il passé ici ?') }
+  @{ k='crystal'; x=3; y=1.5; deps=@('end'); tasks=@('struct:stellarity:village'); crate='rare'
+     t='Un village de l''End'; st='Stellarity'
+     d=@('Il y a des &ehabitants&r dans l''End : trouve l''un de leurs villages, souvent dans le &dHallow&r et les forêts de prismarine.') }
   @{ k='acid'; x=4.5; y=1.5; deps=@('end'); tasks=@('@check'); crate='commune'
-     t='Les nouveaux biomes'; st='Désolation, ombres et cristaux'
-     d=@('Nullscape ajoute trois biomes aux îles extérieures :',
+     t='Les nouveaux biomes'; st='Prairies, forêts, dunes et glaces'
+     d=@('Stellarity ajoute une vingtaine de biomes à l''End, en quatre familles :',
          '',
-         '- les &7Void Barrens&r, terres désolées au bord du vide ;',
-         '- les &8Shadowlands&r, plongées dans l''ombre ;',
-         '- les &dCrystal Peaks&r, hérissés de pics cristallins.',
+         '- les &aprairies&r (End Wilds, End Shrubland, Hallow…) ;',
+         '- les &8landes désolées&r (Ender Wastes, Crystal Crags, The Nest…) ;',
+         '- les &dforêts&r (forêt d''améthyste, forêt de prismarine…) ;',
+         '- les &bterres gelées&r (Frozen Spikes, Frosted Valley…).',
          '',
-         'Valide cette quête quand tu les as tous vus !') }
+         'Astuce : on peut &epêcher dans le vide&r ! Lance ta canne vers les îles en contrebas.',
+         '',
+         'Valide cette quête quand tu as visité un biome de chaque famille !') }
   @{ k='underisland'; x=1.5; y=3; deps=@('dreaming'); tasks=@('struct:mes:enderkeep_courtyard'); crate='rare'
      t='La cour de l''Enderkeep'; st='Les structures de Moog'
      d=@('Une &eforteresse en ruine&r de l''End, avec son butin rare.') }

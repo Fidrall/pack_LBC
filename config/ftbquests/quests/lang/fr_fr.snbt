@@ -1818,10 +1818,10 @@
 		"&l&eAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
 	quest.32049634B2771331.quest_desc: [
-		"Les restes d'un &edragon colossal&r gisent quelque part dans les îles extérieures. Un ancêtre du dragon de l'End ?"
+		"D'immenses &eossements&r gisent dans les toundras de chair, les nids et les deltas de cendre. Que s'est-il passé ici ?"
 	]
-	quest.32049634B2771331.quest_subtitle: "Nullscape"
-	quest.32049634B2771331.title: "Le squelette de dragon"
+	quest.32049634B2771331.quest_subtitle: "Stellarity"
+	quest.32049634B2771331.title: "Un fossile de l'End"
 	quest.322078F5AA954906.quest_desc: [
 		"Utilise un &6Schéma et une Plume&r pour enregistrer une construction dans un fichier schéma."
 		""
@@ -2195,12 +2195,13 @@
 	quest.3C873E6BA9E110A9.quest_desc: [
 		"Après le dragon, l'End s'ouvre… et il est bien différent de l'End vanilla :"
 		""
-		"- &dNullscape&r sculpte les îles extérieures : falaises, arches, pics flottants et &efailles&r spectaculaires ;"
-		"- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles."
+		"- &dStellarity&r transforme les îles extérieures : îles à toutes les hauteurs et une vingtaine de &ebiomes&r (prairies, forêts, dunes, terres gelées…) ;"
+		"- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles ;"
+		"- après le dragon, l'&5Autel du Maudit&r se réveille : il fabrique l'équipement de fin de jeu de Stellarity (recettes sur le wiki de Stellarity)."
 		""
 		"N'oublie pas : c'est aussi là que se trouve la &epierre de l'End&r nécessaire à la &dlévitite&r des dirigeables !"
 	]
-	quest.3C873E6BA9E110A9.quest_subtitle: "Nullscape"
+	quest.3C873E6BA9E110A9.quest_subtitle: "Stellarity"
 	quest.3C873E6BA9E110A9.title: "&d&lUn End transformé"
 	quest.3CA26C2970F112AB.quest_desc: [
 		"Apparaît quand un réacteur fond ou quand on casse une Barre Nucléaire."
@@ -2996,15 +2997,18 @@
 	quest.53297F76E059AC9B.quest_subtitle: "Une trouvaille rare"
 	quest.53297F76E059AC9B.title: "La Pioche Brise-Labyrinthe"
 	quest.53660F533D9C497D.quest_desc: [
-		"Nullscape ajoute trois biomes aux îles extérieures :"
+		"Stellarity ajoute une vingtaine de biomes à l'End, en quatre familles :"
 		""
-		"- les &7Void Barrens&r, terres désolées au bord du vide ;"
-		"- les &8Shadowlands&r, plongées dans l'ombre ;"
-		"- les &dCrystal Peaks&r, hérissés de pics cristallins."
+		"- les &aprairies&r (End Wilds, End Shrubland, Hallow…) ;"
+		"- les &8landes désolées&r (Ender Wastes, Crystal Crags, The Nest…) ;"
+		"- les &dforêts&r (forêt d'améthyste, forêt de prismarine…) ;"
+		"- les &bterres gelées&r (Frozen Spikes, Frosted Valley…)."
 		""
-		"Valide cette quête quand tu les as tous vus !"
+		"Astuce : on peut &epêcher dans le vide&r ! Lance ta canne vers les îles en contrebas."
+		""
+		"Valide cette quête quand tu as visité un biome de chaque famille !"
 	]
-	quest.53660F533D9C497D.quest_subtitle: "Désolation, ombres et cristaux"
+	quest.53660F533D9C497D.quest_subtitle: "Prairies, forêts, dunes et glaces"
 	quest.53660F533D9C497D.title: "Les nouveaux biomes"
 	quest.5391C1240C677127.quest_subtitle: "En amélioration : &6-5 % de temps de recharge"
 	quest.5399B06BD0D95CAE.quest_desc: [
@@ -4391,10 +4395,10 @@
 	quest.760EA1AC32DB5371.quest_subtitle: "Un amas de blocs vivant"
 	quest.760EA1AC32DB5371.title: "&cLe Magnetron"
 	quest.76100542C15576F4.quest_desc: [
-		"Une immense &efaille&r déchire les îles de l'End. Approche-toi du bord… prudemment."
+		"Il y a des &ehabitants&r dans l'End : trouve l'un de leurs villages, souvent dans le &dHallow&r et les forêts de prismarine."
 	]
-	quest.76100542C15576F4.quest_subtitle: "Nullscape"
-	quest.76100542C15576F4.title: "La faille"
+	quest.76100542C15576F4.quest_subtitle: "Stellarity"
+	quest.76100542C15576F4.title: "Un village de l'End"
 	quest.77245D69B2335CEB.quest_desc: [
 		"Le &5Vagabond du Vide&r, le &5Reclus&r et le &5Serviteur de l'Ender&r rôdent dans les îles extérieures de l'End."
 		""

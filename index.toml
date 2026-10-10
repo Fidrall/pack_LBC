@@ -210,7 +210,7 @@ hash = "322fe3356a67f6d51756aad41f3fdf8590ec452987dc21590fbb416ba251b21b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
-hash = "2882423e911eefb7edc111cc201371c6a9c24808d919f5cbc532681898526647"
+hash = "d5e09427e31fb444825b84bbe5c2bc5f77e510e6500a932e66696359c49030aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/new_age.snbt"
@@ -242,7 +242,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "56435cfd8895ec6ac3faa650de6fa126c18e15b60c150e029d8fc8685f216252"
+hash = "9caca44e650d63b9c7781a4fe5ca5998a2bee9d70b20da1f7ff1b978c19d3f6c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -479,6 +479,14 @@ hash = "0ef3757b2084541cb6f547641a449499978d9318ff98d5a6454cc98f06a72c09"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_lumberjack_biome_modifier.json"
 hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/c/tags/worldgen/biome/is_end.json"
+hash = "b6d350b53723e830cff56da536a0e00f2e32af5d4c9be545341a0c3078176c4b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes.json"
+hash = "e4022d4103b6c570763d83b902433793229d9ea06813f5c371bd2e4c6cc0dff3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/cursed_pyramid.json"
@@ -4370,11 +4378,6 @@ hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
 metafile = true
 
 [[files]]
-file = "mods/nullscape.pw.toml"
-hash = "dcfbfa39abeaba554c2c5323f9b9a3ec58dfc386aca2d237f73948abdbdc7125"
-metafile = true
-
-[[files]]
 file = "mods/old-glass-photograph.pw.toml"
 hash = "3ef0105de06a4e3556faa58c26cce095dfcb3e533000c8b064e7061de213c6ce"
 metafile = true
@@ -4475,11 +4478,6 @@ hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
 metafile = true
 
 [[files]]
-file = "mods/savage-ender-dragon.pw.toml"
-hash = "bc400d41aa0775f6473348526a616b96593c322c9888999dd4bfb71f1d59448f"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
@@ -4577,6 +4575,11 @@ metafile = true
 [[files]]
 file = "mods/ssrd.pw.toml"
 hash = "4a4c0c54b3b38ac660b9c06d8dc8e51ed3e2efc6dd94ad3e807a48146a420873"
+metafile = true
+
+[[files]]
+file = "mods/stellarity.pw.toml"
+hash = "d00442fc5ca76e08c5b1dc9eb15ee67ea993b608fae12c7b48529e044b543303"
 metafile = true
 
 [[files]]

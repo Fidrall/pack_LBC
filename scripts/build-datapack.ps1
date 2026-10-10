@@ -195,8 +195,12 @@ W 'data/minecraft/worldgen/structure/village_taiga.json' ([ordered]@{ type = 'mi
 # pillager_outpost : Luki's (avant-poste revisite) plutot que Trek.
 $mon = [ordered]@{ bounding_box = 'full'; spawns = @([ordered]@{ type = 'minecraft:pillager'; maxCount = 1; minCount = 1; weight = 4 }, [ordered]@{ type = 'minecraft:vindicator'; maxCount = 1; minCount = 1; weight = 1 }) }
 W 'data/minecraft/worldgen/structure/pillager_outpost.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#minecraft:has_structure/pillager_outpost'; step = 'surface_structures'; spawn_overrides = [ordered]@{ monster = $mon }; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:outpost/start'; size = 2; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })
-# minecraft:end_cities : Nullscape (26/18, adapte a son terrain) et Trek (20/11). On garde Nullscape.
+# minecraft:end_cities : Trek la redefinit (20/11) ; on garde un espacement un peu plus large (26/18).
 W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structures = @([ordered]@{ structure = 'minecraft:end_city'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387313; spacing = 26; separation = 18; spread_type = 'triangular' } })
+# Stellarity : ses biomes de l'End sont aussi des biomes "c:is_end" (minerais et creatures des autres mods),
+# et la Citadelle en ruine de Cataclysm (Ender Guardian) peut aussi apparaitre dans ses biomes, pas seulement dans les deux vanilla.
+W 'data/c/tags/worldgen/biome/is_end.json' ([ordered]@{ replace = $false; values = @([ordered]@{ id = '#stellarity:biomes/all'; required = $false }) })
+W 'data/cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes.json' ([ordered]@{ replace = $false; values = @([ordered]@{ id = '#stellarity:biomes/regular'; required = $false }) })
 
 # ---------- 9. Familles de structures (repartition homogene) ----------
 # 321 petites structures (Moog's, Born in Chaos, Create Structures Arise, Farmer's, Philips, Explorify) avaient chacune
