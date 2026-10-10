@@ -557,6 +557,30 @@ file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/fro
 hash = "be0347cdda9059360cf153821fe7d1fbd95c29ec5ab7deccab8af32fa53083d1"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/magnet.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/magnet/force_3.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/magnet.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/magnet/force_3.json"
+hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/nuclear/energy_28800.json"
+hash = "8fab0a3b1b7591e5ff7fdcd1da6444d67f61d8d0dae076135d5bbfec8ac3936f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/nuclear/fuel.json"
+hash = "8fab0a3b1b7591e5ff7fdcd1da6444d67f61d8d0dae076135d5bbfec8ac3936f"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/abandoned_temple/abandoned_temple_entrance.json"
 hash = "4aa001cc128173430640a4a31570c9a3f03acce364b6e5977fddc60eaf3932f8"
 
@@ -2703,6 +2727,14 @@ hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/coffres/sac_general.json"
 hash = "78033df8a29bb6fbce715c7dd2db19de8b48e078294aaab6de9ff8d04b22498c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/compat/redstone_magnet_neodymium.json"
+hash = "f4578c3cefd90ed02b474080bebca41f6dd10d70a90e17a3d0310be7bbac77ed"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/compat/uranium_rod_assembly.json"
+hash = "7ac2ad504911ee0e73d8c4b829e95e42002afaaa054b32319f9a100f3ca9c0b0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/crushing/recycle/chainmail_boots.json"

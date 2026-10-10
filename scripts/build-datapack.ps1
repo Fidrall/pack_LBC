@@ -83,6 +83,36 @@ foreach ($p in $bic.PSObject.Properties) {
     W "data/born_in_chaos_v1/neoforge/biome_modifier/$($p.Name).json" $m
 }
 
+# ---------- 5. Create: New Age x Alex's Caves (refait d'apres l'addon 1.20.1 "newagealexscaves", licence MIT) ----------
+# Barre d'uranium = combustible du reacteur New Age (meme energie que le combustible New Age)
+W 'data/create_new_age/tags/item/nuclear/fuel.json' ([ordered]@{ replace = $false; values = @('alexscaves:uranium_rod') })
+W 'data/create_new_age/tags/item/nuclear/energy_28800.json' ([ordered]@{ replace = $false; values = @('alexscaves:uranium_rod') })
+# Blocs de neodyme des grottes magnetiques = aimants pour les bobines de generateur
+$neo = @('alexscaves:block_of_azure_neodymium', 'alexscaves:block_of_scarlet_neodymium')
+foreach ($k in 'block', 'item') {
+    W "data/create_new_age/tags/$k/magnet.json" ([ordered]@{ replace = $false; values = $neo })
+    W "data/create_new_age/tags/$k/magnet/force_3.json" ([ordered]@{ replace = $false; values = $neo })
+}
+# Recette alternative de l'aimant de redstone avec les lingots de neodyme
+W 'data/pack_lbc/recipe/compat/redstone_magnet_neodymium.json' ([ordered]@{
+    type = 'minecraft:crafting_shaped'; category = 'misc'
+    pattern = @('I+I', '-#-', 'I+I')
+    key = [ordered]@{ '#' = @{ tag = 'c:storage_blocks/redstone' }; '+' = @{ item = 'alexscaves:scarlet_neodymium_ingot' }; '-' = @{ item = 'alexscaves:azure_neodymium_ingot' }; 'I' = @{ tag = 'c:ingots/iron' } }
+    result = @{ id = 'create_new_age:redstone_magnet'; count = 4 }
+})
+# Barre d'uranium a la chaine Create (bloc d'uranium : presse, plaque de fer, presse)
+$inc = 'create_new_age:incomplete_fuel'
+W 'data/pack_lbc/recipe/compat/uranium_rod_assembly.json' ([ordered]@{
+    type = 'create:sequenced_assembly'; ingredient = @{ item = 'alexscaves:block_of_uranium' }; loops = 1
+    results = @(@{ id = 'alexscaves:uranium_rod'; count = 2 })
+    sequence = @(
+        [ordered]@{ type = 'create:pressing'; ingredients = @(@{ item = $inc }); results = @(@{ id = $inc }) },
+        [ordered]@{ type = 'create:deploying'; ingredients = @(@{ item = $inc }, @{ tag = 'c:plates/iron' }); results = @(@{ id = $inc }) },
+        [ordered]@{ type = 'create:pressing'; ingredients = @(@{ item = $inc }); results = @(@{ id = $inc }) }
+    )
+    transitional_item = @{ id = $inc }
+})
+
 # ---------- 6. Portails Gateways to Eternity (fin de jeu combat) ----------
 # Recompenses : butin des monstres a chaque vague + coffre de structure / Apotheosis a la fin (pas d'oeufs, pas de livres garantis).
 # Noms : resource pack config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/*.json (cle pack_lbc.<id>)
