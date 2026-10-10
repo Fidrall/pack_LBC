@@ -22,7 +22,8 @@ features:
 
 # Automatically modifies dynamic settings based on the server performance.
 dynamic:
-  # vue/simulation : demarre a 10, plafond 10, descend jusqu'a 6 si ca rame (exploration rapide en terrain neuf)
+  # vue : demarre a 10, monte a 14 si le serveur est calme, descend par pas de 2 toutes les 15 s jusqu'a 6 si ca rame
+  # simulation : plafond 10 (pas besoin de plus pour construire, et ca garde la charge basse)
   # La simulation charge (et genere) aussi ses chunks : ne jamais la mettre au-dessus de la vue.
   # Enables dynamic performance checks.
   enabled: true
@@ -63,9 +64,9 @@ dynamic:
       interval: 15
 
     - setting: 'VIEW_DISTANCE'
-      max: 10
+      max: 14
       min: 6
-      increment: 1
+      increment: 2
       interval: 15
 
 # A special mobcap that only affects the breeding of animals and villagers.
