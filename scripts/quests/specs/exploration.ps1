@@ -115,6 +115,55 @@ $Quests = @(
   @{ k='tavern'; x=4.5; y=7.5; deps=@('magetower'); tasks=@('struct:explorify:tavern'); crate='commune'
      t='Une taverne'; st='Une pause bien méritée'
      d=@('Les &etavernes&r sont des haltes accueillantes pour les voyageurs. Il y en a de plusieurs mods différents !') }
+  # --- Photographie (Exposure)
+  @{ k='photo_camera'; x=6.5; y=1.5; deps=@('intro'); tasks=@('exposure:camera', 'exposure:black_and_white_film'); crate='commune'
+     t='&bL''appareil photo'; st='Garder une trace de ses voyages'
+     d=@('Avec &eExposure&r, tu peux photographier tes découvertes, tes bases et tes amis.',
+         '',
+         'Fabrique un &eappareil photo&r et une &epellicule&r, puis accroupi + clic droit sur l''appareil pour y glisser la pellicule.',
+         '',
+         '&7On peut aussi y ajouter un flash, une lentille de zoom ou un filtre de couleur.') }
+  @{ k='photo_shot'; x=8; y=1.5; deps=@('photo_camera'); tasks=@('adv:exposure:adventure/exposure'); icon='exposure:camera'; crate='commune'
+     t='Clic-clac'; st='Une première vue'
+     d=@('Clic droit pour viser, puis encore clic droit pour déclencher.',
+         '',
+         'Chaque pellicule a un nombre de vues limité. Les &epellicules haute sensibilité&r donnent de meilleurs résultats quand il fait sombre.') }
+  @{ k='photo_print'; x=9.5; y=1.5; deps=@('photo_shot'); tasks=@('adv:exposure:adventure/moment_in_time'); icon='exposure:photograph'; crate='rare'
+     t='&eFigé dans le temps'; st='Développer et tirer une photo'
+     d=@('Une pellicule exposée doit d''abord être &edéveloppée&r en la fabriquant avec les produits indiqués dans sa description.',
+         '',
+         'Pose ensuite la pellicule développée dans une &eChambre claire&r, avec du &epapier&r et des &eteintures&r, pour tirer tes photos.',
+         '',
+         '&7Une photo peut être recopiée, mais chaque copie perd un peu en qualité.') }
+  @{ k='photo_frame'; x=9.5; y=3; deps=@('photo_print'); tasks=@('exposure:photograph_frame'); crate='commune'
+     t='Accrocher ses souvenirs'; st='Cadres et albums'
+     d=@('Les &ecadres photo&r s''accrochent au mur comme des tableaux, en plusieurs tailles. Les &ealbums&r rangent et légendent tes photos.',
+         '',
+         'Idéal pour exposer les plus beaux paysages et les exploits de ton équipe.') }
+  @{ k='photo_selfie'; x=6.5; y=3; deps=@('photo_shot'); optional=$true; tasks=@('adv:exposure:adventure/spotlight'); icon='minecraft:player_head'; crate='commune'
+     t='Selfie'; st='Toi, en vedette'
+     d=@('Passe en vue à la troisième personne (&6F5&r) avec l''appareil en main pour te prendre en photo.',
+         '',
+         '&7Le trépied permet de poser l''appareil pour une photo de groupe.') }
+  @{ k='photo_flash'; x=6.5; y=4.5; deps=@('photo_selfie'); optional=$true; tasks=@('adv:exposure:adventure/lights_up'); icon='minecraft:redstone_lamp'; crate='commune'
+     t='Illumination !'; st='Le flash dans le noir'
+     d=@('Installe un &eflash&r sur ton appareil et prends une photo dans l''obscurité.',
+         '',
+         '&7Attention : un villageois remarque très bien un flash…') }
+  @{ k='photo_color'; x=8; y=4.5; deps=@('photo_print'); tasks=@('adv:exposure:adventure/complex_composite_compound'); icon='exposure:chromatic_sheet'; crate='rare'
+     t='&dDe toutes les couleurs'; st='Une photo couleur à l''ancienne'
+     d=@('Sans pellicule couleur, on peut quand même obtenir de la couleur, comme les pionniers de la photo :',
+         '',
+         '- prends &etrois photos noir et blanc&r du même endroit, avec un filtre de vitre &crouge&r, puis &avert&r, puis &9bleu&r ;',
+         '- combine les trois tirages sur une &efeuille polychrome&r dans la Chambre claire.') }
+  @{ k='photo_end'; x=9.5; y=4.5; deps=@('photo_print'); optional=$true; tasks=@('adv:exposure:adventure/void'); icon='minecraft:end_stone'; crate='rare'
+     t='Carte postale de l''End'; st='Un souvenir du vide'
+     d=@('Prends une photo dans &5l''End&r. Avec Stellarity, il y a de quoi faire de beaux clichés !') }
+  @{ k='photo_wildlife'; x=8; y=6; deps=@('photo_color'); tasks=@('adv:exposure:adventure/wildlife_archivist'); icon='exposure:album'; crate='epique'; xp=500
+     t='&6Inventaire de la faune'; st='Photographier chaque animal sauvage'
+     d=@('Le grand défi du photographe animalier : prendre en photo &echaque animal sauvage&r du jeu, du renard à l''axolotl en passant par le panda.',
+         '',
+         '&7La progression est visible dans les succès (touche &6L&r).') }
   @{ k='explorer_master'; x=0; y=9; size=2.5; shape='gear'; deps=@('catacombs','lostsoul','stronghold','mansion','ancientcity','tavern'); tasks=@('@check'); checkTitle='Je suis un grand explorateur'; icon='explorerscompass:explorerscompass'; crate='legendaire'; xp=1500
      t='&6&lGrand Explorateur'; st='Le carnet est complet'
      d=@('Tu as découvert toutes les merveilles de ce carnet. Le monde n''a presque plus de secrets pour toi…',

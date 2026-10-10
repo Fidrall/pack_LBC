@@ -165,6 +165,72 @@ quest.14C694F523C79625.quest_subtitle: "Une pause bien méritée"
 quest.14C694F523C79625.quest_desc: [
   "Les &etavernes&r sont des haltes accueillantes pour les voyageurs. Il y en a de plusieurs mods différents !"
 ]
+quest.265E5BDB2FBFBD09.title: "&bL'appareil photo"
+quest.265E5BDB2FBFBD09.quest_subtitle: "Garder une trace de ses voyages"
+quest.265E5BDB2FBFBD09.quest_desc: [
+  "Avec &eExposure&r, tu peux photographier tes découvertes, tes bases et tes amis."
+  ""
+  "Fabrique un &eappareil photo&r et une &epellicule&r, puis accroupi + clic droit sur l'appareil pour y glisser la pellicule."
+  ""
+  "&7On peut aussi y ajouter un flash, une lentille de zoom ou un filtre de couleur."
+]
+quest.03796627700DB231.title: "Clic-clac"
+quest.03796627700DB231.quest_subtitle: "Une première vue"
+quest.03796627700DB231.quest_desc: [
+  "Clic droit pour viser, puis encore clic droit pour déclencher."
+  ""
+  "Chaque pellicule a un nombre de vues limité. Les &epellicules haute sensibilité&r donnent de meilleurs résultats quand il fait sombre."
+]
+quest.7D553B2A750147F2.title: "&eFigé dans le temps"
+quest.7D553B2A750147F2.quest_subtitle: "Développer et tirer une photo"
+quest.7D553B2A750147F2.quest_desc: [
+  "Une pellicule exposée doit d'abord être &edéveloppée&r en la fabriquant avec les produits indiqués dans sa description."
+  ""
+  "Pose ensuite la pellicule développée dans une &eChambre claire&r, avec du &epapier&r et des &eteintures&r, pour tirer tes photos."
+  ""
+  "&7Une photo peut être recopiée, mais chaque copie perd un peu en qualité."
+]
+quest.71E18DE493DD7CE8.title: "Accrocher ses souvenirs"
+quest.71E18DE493DD7CE8.quest_subtitle: "Cadres et albums"
+quest.71E18DE493DD7CE8.quest_desc: [
+  "Les &ecadres photo&r s'accrochent au mur comme des tableaux, en plusieurs tailles. Les &ealbums&r rangent et légendent tes photos."
+  ""
+  "Idéal pour exposer les plus beaux paysages et les exploits de ton équipe."
+]
+quest.65BFC46CB102AA4E.title: "Selfie"
+quest.65BFC46CB102AA4E.quest_subtitle: "Toi, en vedette"
+quest.65BFC46CB102AA4E.quest_desc: [
+  "Passe en vue à la troisième personne (&6F5&r) avec l'appareil en main pour te prendre en photo."
+  ""
+  "&7Le trépied permet de poser l'appareil pour une photo de groupe."
+]
+quest.3A49613517FB0651.title: "Illumination !"
+quest.3A49613517FB0651.quest_subtitle: "Le flash dans le noir"
+quest.3A49613517FB0651.quest_desc: [
+  "Installe un &eflash&r sur ton appareil et prends une photo dans l'obscurité."
+  ""
+  "&7Attention : un villageois remarque très bien un flash…"
+]
+quest.015C1D32C6870F09.title: "&dDe toutes les couleurs"
+quest.015C1D32C6870F09.quest_subtitle: "Une photo couleur à l'ancienne"
+quest.015C1D32C6870F09.quest_desc: [
+  "Sans pellicule couleur, on peut quand même obtenir de la couleur, comme les pionniers de la photo :"
+  ""
+  "- prends &etrois photos noir et blanc&r du même endroit, avec un filtre de vitre &crouge&r, puis &avert&r, puis &9bleu&r ;"
+  "- combine les trois tirages sur une &efeuille polychrome&r dans la Chambre claire."
+]
+quest.0D3EE05EB7F26F12.title: "Carte postale de l'End"
+quest.0D3EE05EB7F26F12.quest_subtitle: "Un souvenir du vide"
+quest.0D3EE05EB7F26F12.quest_desc: [
+  "Prends une photo dans &5l'End&r. Avec Stellarity, il y a de quoi faire de beaux clichés !"
+]
+quest.25295B6892793276.title: "&6Inventaire de la faune"
+quest.25295B6892793276.quest_subtitle: "Photographier chaque animal sauvage"
+quest.25295B6892793276.quest_desc: [
+  "Le grand défi du photographe animalier : prendre en photo &echaque animal sauvage&r du jeu, du renard à l'axolotl en passant par le panda."
+  ""
+  "&7La progression est visible dans les succès (touche &6L&r)."
+]
 quest.1C68934A9535EB9C.title: "&6&lGrand Explorateur"
 quest.1C68934A9535EB9C.quest_subtitle: "Le carnet est complet"
 quest.1C68934A9535EB9C.quest_desc: [

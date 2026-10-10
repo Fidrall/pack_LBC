@@ -129,6 +129,10 @@ file = "config/dragonfight.json"
 hash = "0d91e421370e448fdd8be8a96e49f0915fccfb0fd37bd0bb0775e4ea3c487277"
 
 [[files]]
+file = "config/ftbchunks-client.snbt"
+hash = "969a681ca99086c25cf2e2ce858e7f9f02c31c18be91696c5e5db28d12ce2565"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "06b649f3262c29fb92a96a73691578327931a42a95e5b93e12d284c9b3a6f077"
 
@@ -194,7 +198,7 @@ hash = "3e94c3c4ae4d71c3c3da30ead0cc7eb2f413fa7d61d4f5c41018aeab909eaf8c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "e85797bec6638209f64a7b5c1b8fcc3fa5bb54e67a6d1b712f8ca9ee8c5cf537"
+hash = "cdc26a748f9e693877c851738ab82d559735b796f0cecda5edefbfe08b18df17"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garnish.snbt"
@@ -246,7 +250,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "93b2e9b022898ba1c7a4cda20f59ea15b18ca4224e597982fab63394b52a0bec"
+hash = "c86da983563a3ea6d1a5049530992027db4643ee57e5bd97d5ca789ea888bceb"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"

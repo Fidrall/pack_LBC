@@ -115,6 +115,14 @@
 	quest.01421EA2EE567E26.title: "Le gantelet de Sirok"
 	quest.01500464C6F76F10.quest_subtitle: "Ceinture"
 	quest.01500464C6F76F10.title: "Ceinture cinétique"
+	quest.015C1D32C6870F09.quest_desc: [
+		"Sans pellicule couleur, on peut quand même obtenir de la couleur, comme les pionniers de la photo :"
+		""
+		"- prends &etrois photos noir et blanc&r du même endroit, avec un filtre de vitre &crouge&r, puis &avert&r, puis &9bleu&r ;"
+		"- combine les trois tirages sur une &efeuille polychrome&r dans la Chambre claire."
+	]
+	quest.015C1D32C6870F09.quest_subtitle: "Une photo couleur à l'ancienne"
+	quest.015C1D32C6870F09.title: "&dDe toutes les couleurs"
 	quest.016C498DFB704536.quest_subtitle: "Les villageois te font des prix bien plus bas"
 	quest.0206507E91CB74CB.quest_subtitle: "S'utilise sur la table de forgeron pour retirer une &6imprégnation ou une amélioration"
 	quest.0259E666A5D8A7BA.quest_desc: [
@@ -175,6 +183,13 @@
 	]
 	quest.02E09ED80689775A.quest_subtitle: "Pas à pas : les algues se trouvent dans l'océan"
 	quest.02E09ED80689775A.title: "&l&aFabriquer une ferme à algues&r&r"
+	quest.03796627700DB231.quest_desc: [
+		"Clic droit pour viser, puis encore clic droit pour déclencher."
+		""
+		"Chaque pellicule a un nombre de vues limité. Les &epellicules haute sensibilité&r donnent de meilleurs résultats quand il fait sombre."
+	]
+	quest.03796627700DB231.quest_subtitle: "Une première vue"
+	quest.03796627700DB231.title: "Clic-clac"
 	quest.03A09B606040AD2E.quest_subtitle: "Butin rare lâché au hasard par les blazes."
 	quest.0420DAF362EE2B37.quest_desc: [
 		"Le &6&lChâssis Linéaire&r&r est un bloc de base pour construire des constructions animées."
@@ -578,6 +593,11 @@
 		""
 		"Sur une construction en mouvement, les scies fonctionnent toutes seules. Elles cassent les blocs et blessent les créatures, d'autant plus fort que la construction va vite."
 	]
+	quest.0D3EE05EB7F26F12.quest_desc: [
+		"Prends une photo dans &5l'End&r. Avec Stellarity, il y a de quoi faire de beaux clichés !"
+	]
+	quest.0D3EE05EB7F26F12.quest_subtitle: "Un souvenir du vide"
+	quest.0D3EE05EB7F26F12.title: "Carte postale de l'End"
 	quest.0D552CBF05899CA4.quest_desc: [
 		"Le &escaphandre&r complet permet de rester longtemps sous l'eau et de supporter la pression des abysses."
 	]
@@ -1446,6 +1466,13 @@
 	]
 	quest.25291DAC5CB309E0.quest_subtitle: "Un collier précieux"
 	quest.25291DAC5CB309E0.title: "Les perles des loutres"
+	quest.25295B6892793276.quest_desc: [
+		"Le grand défi du photographe animalier : prendre en photo &echaque animal sauvage&r du jeu, du renard à l'axolotl en passant par le panda."
+		""
+		"&7La progression est visible dans les succès (touche &6L&r)."
+	]
+	quest.25295B6892793276.quest_subtitle: "Photographier chaque animal sauvage"
+	quest.25295B6892793276.title: "&6Inventaire de la faune"
 	quest.256C0855A1AD720B.quest_desc: [
 		"Une fois posée, la &9Lampe d'Effroi&r empêche l'apparition naturelle de toutes les créatures passives dans un &drayon de 96 blocs&r."
 	]
@@ -1459,6 +1486,15 @@
 		""
 		"Comme la version normale, il réagit aussi aux signaux de redstone pour déclencher ou contrôler sa séquence."
 	]
+	quest.265E5BDB2FBFBD09.quest_desc: [
+		"Avec &eExposure&r, tu peux photographier tes découvertes, tes bases et tes amis."
+		""
+		"Fabrique un &eappareil photo&r et une &epellicule&r, puis accroupi + clic droit sur l'appareil pour y glisser la pellicule."
+		""
+		"&7On peut aussi y ajouter un flash, une lentille de zoom ou un filtre de couleur."
+	]
+	quest.265E5BDB2FBFBD09.quest_subtitle: "Garder une trace de ses voyages"
+	quest.265E5BDB2FBFBD09.title: "&bL'appareil photo"
 	quest.268C2A63C8ADA1CD.quest_desc: [
 		"&aCertains sorts ne peuvent pas être fabriqués&r : il faut les trouver dans le monde."
 		""
@@ -2175,6 +2211,13 @@
 	]
 	quest.3A227C6AE5CB2F32.quest_subtitle: "&l&eUn tapis roulant avec un nouveau look ? Sympa !&r&r"
 	quest.3A227C6AE5CB2F32.title: "Design n Decor"
+	quest.3A49613517FB0651.quest_desc: [
+		"Installe un &eflash&r sur ton appareil et prends une photo dans l'obscurité."
+		""
+		"&7Attention : un villageois remarque très bien un flash…"
+	]
+	quest.3A49613517FB0651.quest_subtitle: "Le flash dans le noir"
+	quest.3A49613517FB0651.title: "Illumination !"
 	quest.3B8DD40BD3EF0512.quest_desc: [
 		"Le Nether de ce pack est bien plus dangereux et riche qu'en vanilla :"
 		""
@@ -3648,6 +3691,13 @@
 	]
 	quest.65B7A1DAF383878B.quest_subtitle: "Au-dessus des nuages"
 	quest.65B7A1DAF383878B.title: "Un village dans le ciel"
+	quest.65BFC46CB102AA4E.quest_desc: [
+		"Passe en vue à la troisième personne (&6F5&r) avec l'appareil en main pour te prendre en photo."
+		""
+		"&7Le trépied permet de poser l'appareil pour une photo de groupe."
+	]
+	quest.65BFC46CB102AA4E.quest_subtitle: "Toi, en vedette"
+	quest.65BFC46CB102AA4E.title: "Selfie"
 	quest.65C5828BD1FF3F38.quest_subtitle: "Cou"
 	quest.65C5828BD1FF3F38.title: "Collier de méduse"
 	quest.65E6B8689DFD83B1.quest_desc: [
@@ -4183,6 +4233,13 @@
 	]
 	quest.71D7B68F254A5BD5.quest_subtitle: "Le géant des volcans"
 	quest.71D7B68F254A5BD5.title: "&4Le Luxtructosaurus"
+	quest.71E18DE493DD7CE8.quest_desc: [
+		"Les &ecadres photo&r s'accrochent au mur comme des tableaux, en plusieurs tailles. Les &ealbums&r rangent et légendent tes photos."
+		""
+		"Idéal pour exposer les plus beaux paysages et les exploits de ton équipe."
+	]
+	quest.71E18DE493DD7CE8.quest_subtitle: "Cadres et albums"
+	quest.71E18DE493DD7CE8.title: "Accrocher ses souvenirs"
 	quest.71FA7C33865A2435.quest_desc: [
 		"Les &efestins&r (poulet rôti, jambon glacé, pâté du berger…) se posent sur une table et se partagent en plusieurs portions avec un bol."
 		""
@@ -4704,6 +4761,15 @@
 	]
 	quest.7D08DA1B1071D0C6.quest_subtitle: "Boss : la Reine Valkyrie"
 	quest.7D08DA1B1071D0C6.title: "&f&lLe Donjon d'Argent"
+	quest.7D553B2A750147F2.quest_desc: [
+		"Une pellicule exposée doit d'abord être &edéveloppée&r en la fabriquant avec les produits indiqués dans sa description."
+		""
+		"Pose ensuite la pellicule développée dans une &eChambre claire&r, avec du &epapier&r et des &eteintures&r, pour tirer tes photos."
+		""
+		"&7Une photo peut être recopiée, mais chaque copie perd un peu en qualité."
+	]
+	quest.7D553B2A750147F2.quest_subtitle: "Développer et tirer une photo"
+	quest.7D553B2A750147F2.title: "&eFigé dans le temps"
 	quest.7D9D4D16E0D2EE2F.title: "Cristal d'esprit avancé"
 	quest.7DDA573B83BD4B2D.quest_desc: [
 		"L'&5Œil de Sorcière&r se &afabrique&r avec un œil de l'Ender et une &ePupille de Sorcière&r."
