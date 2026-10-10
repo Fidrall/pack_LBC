@@ -230,3 +230,23 @@ mr | apothic-combat | qol | complement d'Apotheosis
 mr | exposure | conserver | appareils photo (remplace Old Glass Photograph, incompatible serveur)
 mr | simple-voice-chat | qol | port UDP 24454
 mr | joy-of-painting | conserver | peinture
+mr | apothic-category-compat | qol | classe les armes des autres mods pour les affixes Apotheosis
+mr | sable-fix-mod | qol | corrige des duplications a l'assemblage Sable
+mr | sablecompat | qol | proprietes physiques des blocs moddes pour Sable
+mr | copycats+-aeronautics-weight | qol | poids des blocs copycat
+mr | create-additions-sable-compat | qol | cables Create Additions sur les dirigeables
+mr | create-stuff-n-additions-x-sable-aeronautics-compat | qol | correctifs Stuff N Additions x Sable
+mr | jade-sable-compat | client | Jade sur les dirigeables
+mr | cataclysm-x-yungs-better-nether-fortress | jetable | Ignited Berserkers dans les forteresses YUNG
+mr | reliquified-twilight-forest | jetable | reliques des boss du Twilight Forest
+mr | reliquified-l-ender-s-cataclysm | jetable | reliques Cataclysm
+mr | reliquified-irons-spells-n-spellbooks | jetable | reliques Iron's
+mr | twilight-delight | jetable | cuisine Twilight Forest
+mr | l_enders-cataclysm-delight | jetable | cuisine Cataclysm
+mr | the-aethers-delight | jetable | cuisine Aether
+mr | alexs-caves-continued-delight | jetable | cuisine Alex's Caves
+mr | apotheoticcreation | qol | filtres Create par rarete et affixe
+mr | apokinetics | jetable | gemmes Apotheosis dans les machines Create
+mr | cataclysm-spellbooks | jetable | sorts Cataclysm pour Iron's
+mr | deeper-and-darker-spellbooks | jetable | sorts et armure du Warden pour Iron's
+mr | create-wizardry | jetable | automatisation Create pour Iron's (version pre-release)

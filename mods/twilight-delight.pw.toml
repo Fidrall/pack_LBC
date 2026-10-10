@@ -1,0 +1,13 @@
+name = "Twilight's Flavor & Delight"
+filename = "twilightdelight-3.2.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/d6cSefpO/versions/373z6J9B/twilightdelight-3.2.6.jar"
+hash-format = "sha512"
+hash = "fc40f92ba7f84b76ba80d3d6afe3cf5e19a6973baa465152bd812589b9f488cf7332e4efc57d78b3a21644d302198b6ab412ac0497cd376df805e7efb907ea6f"
+
+[update]
+[update.modrinth]
+mod-id = "d6cSefpO"
+version = "373z6J9B"
