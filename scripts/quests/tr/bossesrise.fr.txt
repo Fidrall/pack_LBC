@@ -1,0 +1,59 @@
+chapter.6CEDC04EF5DA1995.title: "&6&lLes Souverains"
+chapter.6CEDC04EF5DA1995.chapter_subtitle: [
+  "Bosses'Rise : cinq combats à la Souls"
+]
+quest.459ECD9B1E065F9D.title: "&6&lLes Souverains"
+quest.459ECD9B1E065F9D.quest_subtitle: "Cinq boss, cinq arènes"
+quest.459ECD9B1E065F9D.quest_desc: [
+  "&eBosses'Rise&r ajoute cinq boss à phases, chacun dans son &earène&r, avec ses gardes et sa musique."
+  ""
+  "Observe leurs attaques avant de foncer : chaque phase change le combat. Ta &eroulade&r (touche &6R&r) est ton meilleur allié pour esquiver."
+  ""
+  "Les &ecartes&r de leurs arènes tombent parfois sur les autres boss. La &eBoussole de l'Explorateur&r les trouve aussi."
+]
+task.270989372B6DE3D1.title: "Clique pour valider"
+quest.2D874F6CD01D02B9.title: "&bSkor, le Yéti"
+quest.2D874F6CD01D02B9.quest_subtitle: "Dans les plaines enneigées"
+quest.2D874F6CD01D02B9.quest_desc: [
+  "Son &erepaire&r se cache dans les plaines et les étendues enneigées. Attention aux pics de glace et aux blocs de glace qu'il projette."
+]
+quest.09EFA16D8BACC4A8.title: "Le gantelet de Skor"
+quest.09EFA16D8BACC4A8.quest_subtitle: "Le froid dans le poing"
+quest.4FE9BE6E2975E9A6.title: "&eSirok, le Ver des sables"
+quest.4FE9BE6E2975E9A6.quest_subtitle: "Sous les dunes"
+quest.4FE9BE6E2975E9A6.quest_desc: [
+  "Son &enid&r est enfoui dans le désert. Il surgit du sable et crache du poison : ne reste pas immobile."
+]
+quest.01421EA2EE567E26.title: "Le gantelet de Sirok"
+quest.01421EA2EE567E26.quest_subtitle: "La force des sables"
+quest.6125CFA021C67831.title: "&3Nerakyss, le Kraken"
+quest.6125CFA021C67831.quest_subtitle: "Au large, sur le navire pirate"
+quest.6125CFA021C67831.quest_desc: [
+  "Un &enavire pirate&r croise au-dessus des océans profonds. Débarrasse-toi de l'équipage… puis du Kraken et de ses tentacules."
+  ""
+  "Les &ecanons&r du navire peuvent servir. Viens en bateau, ou en sous-marin !"
+]
+quest.143C40C886DE0462.title: "Le trident du Kraken"
+quest.143C40C886DE0462.quest_subtitle: "L'arme des abysses"
+quest.6308E8A0FF156651.title: "&cHelvar, le Chevalier des enfers"
+quest.6308E8A0FF156651.quest_subtitle: "Dans le Nether"
+quest.6308E8A0FF156651.quest_desc: [
+  "Son &earène&r se dresse dans les déserts du Nether et les vallées des âmes, gardée par des chevaliers squelettes du Wither."
+]
+quest.50B1647DF5646267.title: "L'armure de chevalier"
+quest.50B1647DF5646267.quest_subtitle: "Digne de Helvar"
+quest.30A6AEE50BC0E2CA.title: "&4Ashlord, le Dragon infernal"
+quest.30A6AEE50BC0E2CA.quest_subtitle: "Au sommet de sa tour"
+quest.30A6AEE50BC0E2CA.quest_desc: [
+  "Une &etour&r rare se dresse dans les plaines, les savanes, les jungles et les marais. Au sommet attend &4Ashlord&r, gardé par ses squelettes enflammés."
+  ""
+  "Le plus dur des cinq : prépare tes meilleures armures et des potions de résistance au feu."
+]
+quest.2432CD4EB67D5C20.title: "L'armure en os de dragon"
+quest.2432CD4EB67D5C20.quest_subtitle: "Forgée dans ses restes"
+quest.183F09B193EA2C62.title: "&6&lTueur de Souverains"
+quest.183F09B193EA2C62.quest_subtitle: "Les cinq boss vaincus"
+quest.183F09B193EA2C62.quest_desc: [
+  "Skor, Sirok, Nerakyss, Helvar et Ashlord sont tombés. Ta réputation te précède !"
+]
+task.6EE0388B6613A01B.title: "Les cinq sont tombés"

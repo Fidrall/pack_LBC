@@ -1,0 +1,4 @@
+# Roulade de Bosses'Rise desactivee : le pack utilise celle de Combat Roll (et ses enchantements).
+["Gameplay Changes"]
+	#Can players use the Roll ability
+	"Can players use the Roll ability" = false

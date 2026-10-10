@@ -276,7 +276,12 @@ $cartes = @(
     @('archaion:ancient_keep', $ow, 'Donjon antique', 'minecraft:deepslate_bricks', 'Archaion'),
     @('mowziesmobs:wrought_chamber', $ow, 'Chambre du Forge-Fer', 'minecraft:iron_block', 'Mowzie''s Mobs'),
     @('mowziesmobs:monastery', $ow, 'Monastere', 'minecraft:chiseled_stone_bricks', 'Mowzie''s Mobs'),
-    @('mowziesmobs:umvuthana_grove', $ow, 'Bosquet Umvuthana', 'minecraft:acacia_log', 'Mowzie''s Mobs')
+    @('mowziesmobs:umvuthana_grove', $ow, 'Bosquet Umvuthana', 'minecraft:acacia_log', 'Mowzie''s Mobs'),
+    @('block_factorys_bosses:yeti_hideout', $ow, 'Repaire du yeti', 'minecraft:packed_ice', 'Bosses''Rise'),
+    @('block_factorys_bosses:sandworm_nest', $ow, 'Nid du ver des sables', 'minecraft:sandstone', 'Bosses''Rise'),
+    @('block_factorys_bosses:kraken_ship', $ow, 'Navire du Kraken', 'minecraft:dark_oak_planks', 'Bosses''Rise'),
+    @('block_factorys_bosses:underworld_arena', $nt, 'Arene des enfers', 'minecraft:soul_soil', 'Bosses''Rise'),
+    @('block_factorys_bosses:dragon_tower', $ow, 'Tour du dragon infernal', 'minecraft:magma_block', 'Bosses''Rise')
 )
 foreach ($k in $cartes) {
     $name = 'carte_' + ($k[0] -replace '[:/]', '_')
@@ -335,9 +340,9 @@ W 'data/treasurebags/loot_table/starting_inventory.json' ([ordered]@{ type = 'mi
 W 'data/treasurebags/loot_table/entity_group/boss.json' ([ordered]@{ type = 'minecraft:entity'; pools = @() })
 # Paliers de cartes (structures du plus accessible au plus dangereux)
 $palier = @{
-    1 = @('irons_spellbooks:ice_spider_den', 'irons_spellbooks:mangrove_hut', 'irons_spellbooks:catacombs', 'irons_spellbooks:evoker_fort', 'minecraft:monument', 'minecraft:mansion', 'mowziesmobs:umvuthana_grove')
-    2 = @('minecraft:ancient_city', 'cataclysm:cursed_pyramid', 'cataclysm:frosted_prison', 'cataclysm:ancient_factory', 'cataclysm:sunken_city', 'cataclysm:acropolis', 'cataclysm:soul_black_smith', 'irons_spellbooks:citadel', 'mowziesmobs:monastery', 'mowziesmobs:wrought_chamber', 'bosses_of_mass_destruction:lich_tower', 'bosses_of_mass_destruction:void_blossom')
-    3 = @('cataclysm:burning_arena', 'cataclysm:ruined_citadel', 'bosses_of_mass_destruction:gauntlet_arena', 'bosses_of_mass_destruction:obsidilith_arena', 'archaion:ancient_keep')
+    1 = @('irons_spellbooks:ice_spider_den', 'irons_spellbooks:mangrove_hut', 'irons_spellbooks:catacombs', 'irons_spellbooks:evoker_fort', 'minecraft:monument', 'minecraft:mansion', 'mowziesmobs:umvuthana_grove', 'block_factorys_bosses:yeti_hideout', 'block_factorys_bosses:sandworm_nest')
+    2 = @('minecraft:ancient_city', 'cataclysm:cursed_pyramid', 'cataclysm:frosted_prison', 'cataclysm:ancient_factory', 'cataclysm:sunken_city', 'cataclysm:acropolis', 'cataclysm:soul_black_smith', 'irons_spellbooks:citadel', 'mowziesmobs:monastery', 'mowziesmobs:wrought_chamber', 'bosses_of_mass_destruction:lich_tower', 'bosses_of_mass_destruction:void_blossom', 'block_factorys_bosses:kraken_ship', 'block_factorys_bosses:underworld_arena')
+    3 = @('cataclysm:burning_arena', 'cataclysm:ruined_citadel', 'bosses_of_mass_destruction:gauntlet_arena', 'bosses_of_mass_destruction:obsidilith_arena', 'archaion:ancient_keep', 'block_factorys_bosses:dragon_tower')
 }
 foreach ($n in 1..3) {
     $ent = @($palier[$n] | ForEach-Object { [ordered]@{ type = 'minecraft:loot_table'; value = 'pack_lbc:cartes/carte_' + ($_ -replace '[:/]', '_'); weight = 1 } })
@@ -369,6 +374,8 @@ $familles = [ordered]@{
         boss = @{ 1 = @('mowziesmobs:ferrous_wroughtnaut', 'mowziesmobs:umvuthi'); 2 = @('mowziesmobs:frostmaw', 'mowziesmobs:sculptor') } }
     destruction = @{ nom = 'Butin de destruction'; c = @('#FF101820', '#FF9B30FF', '#FF5050A0'); mat = @('bosses_of_mass_destruction:ancient_anima', 'bosses_of_mass_destruction:crystal_fruit', 'bosses_of_mass_destruction:soul_star', 'bosses_of_mass_destruction:void_thorn')
         boss = @{ 2 = @('bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:gauntlet', 'bosses_of_mass_destruction:void_blossom'); 3 = @('bosses_of_mass_destruction:obsidilith') } }
+    bossesrise = @{ nom = 'Butin des Souverains'; c = @('#FF241A14', '#FFE08A2C', '#FF8C5A2B'); mat = @('block_factorys_bosses:kraken_tooth', 'block_factorys_bosses:dragon_bone', 'block_factorys_bosses:dragon_shank', 'minecraft:gold_ingot', 'minecraft:emerald')
+        boss = @{ 1 = @('block_factorys_bosses:yeti', 'block_factorys_bosses:sandworm'); 2 = @('block_factorys_bosses:kraken', 'block_factorys_bosses:underworld_knight'); 3 = @('block_factorys_bosses:infernal_dragon') } }
     illager = @{ nom = 'Butin illager'; c = @('#FF3C3C46', '#FF2FB45A', '#FFB4B4B4'); mat = @('illagerinvasion:hallowed_gem', 'illagerinvasion:platinum_chunk', 'illagerinvasion:illusionary_dust', 'minecraft:emerald')
         boss = @{ 1 = @('illagerinvasion:invoker'); 2 = @('friendsandfoes:wildfire') } }
     legende = @{ nom = 'Butin legendaire'; c = @('#FF101010', '#FF7A2BBF', '#FFFFD700'); mat = @('minecraft:diamond', 'minecraft:emerald', 'minecraft:ender_pearl', 'minecraft:blaze_rod', 'archaion:brave_essence')
@@ -411,6 +418,13 @@ foreach ($g in (Import-Csv (Join-Path $PSScriptRoot 'data\coffres_sacs.csv') | G
     W "data/pack_lbc/loot_modifiers/coffres/sac_$($g.Name).json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }, [ordered]@{ condition = 'minecraft:random_chance'; chance = $sacChance }); table = "pack_lbc:coffres/sac_$($g.Name)" })
     $glm += "pack_lbc:coffres/sac_$($g.Name)"
 }
+# ---------- Bosses'Rise : arenes aussi dans les biomes equivalents de Terralith et des autres mods ----------
+# (le mod ne vise que des biomes vanilla precis, plus rares avec Terralith)
+function OptT($ids) { @($ids | ForEach-Object { [ordered]@{ id = $_; required = $false } }) }
+W 'data/block_factorys_bosses/tags/worldgen/biome/yeti_hideout.json' ([ordered]@{ replace = $false; values = (OptT @('minecraft:snowy_taiga', 'terralith:snowy_shield', 'terralith:cold_shrubland', 'terralith:ice_marsh')) })
+W 'data/block_factorys_bosses/tags/worldgen/biome/sandworm_nest.json' ([ordered]@{ replace = $false; values = (OptT @('terralith:ancient_sands', 'terralith:lush_desert', 'terralith:gravel_desert', 'terralith:sandstone_valley', 'terralith:desert_oasis')) })
+W 'data/block_factorys_bosses/tags/worldgen/biome/kraken_ship.json' ([ordered]@{ replace = $false; values = (OptT @('#minecraft:is_deep_ocean', 'terralith:deep_warm_ocean')) })
+W 'data/block_factorys_bosses/tags/worldgen/biome/dragon_tower.json' ([ordered]@{ replace = $false; values = (OptT @('#c:is_plains', '#c:is_savanna')) })
 # Tablettes de grotte d'Alex's Caves : sources ajoutees pour les temples de jungle YUNG (Toxic Caves)
 # et les manoirs de Repurposed Structures (Forlorn Hollows), en plus des coffres vanilla prevus par le mod.
 $tablettes = [ordered]@{

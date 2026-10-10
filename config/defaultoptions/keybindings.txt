@@ -232,3 +232,4 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown:
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown:
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown:
 key_key.entityculling.toggle:key.keyboard.unknown:
+key_key.block_factorys_bosses.dodge_roll:key.keyboard.unknown:

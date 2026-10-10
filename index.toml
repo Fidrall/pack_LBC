@@ -118,7 +118,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "2c31c69efdedeb43956025c9a27c2d5ee06e5e1a4919119308c1f9ab7a383325"
+hash = "5dc680171bffd8a76558ca77990978f02a209f334aacf84cdf52f104cda97ec1"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -159,6 +159,10 @@ hash = "7770ee3ac2a7b90a075ed3148ccf0eda3086964559975bdc922a7efd03b55166"
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
 hash = "40f90f7014ca66e6d138d8c033ebd21f4e773d5272ba995bebcd4d1e8ba9cb47"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/bossesrise.snbt"
+hash = "047db2d26d6e8dcc9c371b0d9eb8801148c13055500dc1583ae3c9a854a9c622"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cooking.snbt"
@@ -242,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "9caca44e650d63b9c7781a4fe5ca5998a2bee9d70b20da1f7ff1b978c19d3f6c"
+hash = "93b2e9b022898ba1c7a4cda20f59ea15b18ca4224e597982fab63394b52a0bec"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -299,6 +303,22 @@ hash = "e0edb123d98354d5b6fbc00c9c32b387681558f6ce1c7371af3c8b70dfe00475"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/archaion/worldgen/template_pool/ancient_keep/rooms_x.json"
 hash = "2730c22ab2eb913e7256008858f3920e2690b757be0bf26030b7ae6ec641c815"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/block_factorys_bosses/tags/worldgen/biome/dragon_tower.json"
+hash = "9ed42e2b045eaee260bc8bf41edf8a99f9324015c03150e4b10294b8add32136"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/block_factorys_bosses/tags/worldgen/biome/kraken_ship.json"
+hash = "13eb214e9b231585d597d92f2e36b60a381ebf871a26b8e1f50146ce6e53ad4c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/block_factorys_bosses/tags/worldgen/biome/sandworm_nest.json"
+hash = "873808c21c97ee5fd00318f42b89aa4e49c6c9eb3ac296e3fb59eac799729aeb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/block_factorys_bosses/tags/worldgen/biome/yeti_hideout.json"
+hash = "5294d75d8166d0e4813dec4686134e618e1c72f445c0325d168718e2cef08ecc"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/baby_skeleton_biome_modifier.json"
@@ -1038,7 +1058,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "dec110cbce92d3a74601f874ce64b35cb33992b2facb9efce77daba2ec5ba032"
+hash = "ae92dd649076dc50017b8ff2c3b13bc5ed78652e95b642612b0bdc2edf009208"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -2237,6 +2257,18 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/arcane_
 hash = "08fffd23636c966c6f8de64c60f262ca3a65e9194481c0b615955b5626c9d9a5"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/bossesrise_t1.json"
+hash = "3de9110f5ee805036adc49544b3b14a7db01ce9dad4fa9bf92d747423f5e7d11"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/bossesrise_t2.json"
+hash = "5d1edce065d82fc5681bdcc578547e2909180a57cee5c8dc7098df80faead9a8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/bossesrise_t3.json"
+hash = "ccb7caaf3463105033464c965ea65a125045972a3a7e6acf5dc13608b53e6d10"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cataclysm_t2.json"
 hash = "c66743a579f67dc8ba6538451ed81cd0494187c7b44b0d73d107464f7ef4e01e"
 
@@ -2357,6 +2389,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/arcane.json
 hash = "9ad45e9653881b67b569ea1d2bbe578435f71d224e6fba7930685f57491f10f8"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/bossesrise.json"
+hash = "16072836718e4d45c3666023905ce8b3f5f0cb90d000098ba29f68484baca78e"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/cataclysm.json"
 hash = "e1de172f26e49eedd4e6edd17b86ec3c131d28534646987311107b0d48d9920c"
 
@@ -2407,6 +2443,18 @@ hash = "3974050811dd6a837f24c163b8d712fb4ba79516a7839b9c3a80df3d44dfc991"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/arcane_t2.json"
 hash = "035492c02d2386c42af82d820d154dae5944ecbb39eb780740c6e46b16b6f9c8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/bossesrise_t1.json"
+hash = "a1c314be2d635a953cd7a2db836043dcfb32085cc67e4be25670dc2342788862"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/bossesrise_t2.json"
+hash = "7020f32d76977fac7a2bf08f65af4d9b681deff0822944c94932738cb22b703d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/bossesrise_t3.json"
+hash = "9e481c34d876eb9986fdb5699c3bc812303c53813fb468e2471f4a3749caa2d4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/cataclysm_t2.json"
@@ -2471,6 +2519,26 @@ hash = "6214491e9e48d9e3108f2b5d2ac152581940c2fd0ed35b144ec3e727d93e9af6"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"
 hash = "6252b767c7202aef52eff59cd949ad0312cd4205ad7919ff923616f23e0ddc07"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_block_factorys_bosses_dragon_tower.json"
+hash = "ffa2f2f9f2e2c1f97b2098d4210c1ca046801446daff24aa64efdf5989ab8e41"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_block_factorys_bosses_kraken_ship.json"
+hash = "3e52947d229c4134305b0954268ff771e2596451ff6d59050b4175e2aa38ac4c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_block_factorys_bosses_sandworm_nest.json"
+hash = "afb3f5cbf471a12a936422eac0bfeec12c8fb375ade5fef41b7030ee5a641083"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_block_factorys_bosses_underworld_arena.json"
+hash = "a81908fd52b17561580253c99a3138607d55bc37c418123421c2418de67f84c6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_block_factorys_bosses_yeti_hideout.json"
+hash = "1cb8b4feafa08f9576feb41ac23f05bdde4e8974e23982b66991ad300f9923d8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_bosses_of_mass_destruction_gauntlet_arena.json"
@@ -2566,15 +2634,15 @@ hash = "16b4b26e54679162b9da5951f2435ebfe4a34fc257c3bfabffa03889ccf4d264"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_1.json"
-hash = "6cd6bee55699f004f2f71954a5ea9c3fdfce064be28eb6ffe133bc3a4e5e492a"
+hash = "3f6bb46e405b9ca61708ee323e39bfa5beba3f08fb6519a4169d5b5778623cfa"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_2.json"
-hash = "a5a83e73c0426a0922e0b5463c1b6d816df388653dad61dfd58e2d9b5e28978a"
+hash = "51a5d5725bc38af2ee4a6ae3280b3aab6af2e550f7975807c022455ebf1d8580"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/palier_3.json"
-hash = "e51c66eb169159b0d6a441243badca1bf2fc18293b9af18acda68708228f0af0"
+hash = "f3ff8988961d968a41d1553f4d0bc09207f4cecb5ad0b6bfeb4c0f74d6c7f8bb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
@@ -3025,6 +3093,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/arcane.j
 hash = "d0e1fe468186da68422a86dc160af298b7a2a1484d0ef3e5bb8a557a9e60b84a"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/bossesrise.json"
+hash = "cc3eb60df3531d898316b50676841e95c7f63eea0b297734e54834ed4be5a0c7"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/cataclysm.json"
 hash = "95cdb1089aaf46caaec5953d932c8d2a7fa52e39b81a82cb685fddd935a0f0f3"
 
@@ -3449,6 +3521,10 @@ file = "config/wyrmroost/entity-attributes.toml"
 hash = "2c0c2d4e2b1e15ecf18a7db17525a8dbc1a14f6a4dcd89394885fb9ded639a05"
 
 [[files]]
+file = "defaultconfigs/block_factorys_bosses-server.toml"
+hash = "6718e6472f81a38e3c8bfbba31695be6973a86448f11ec0229452a164dfaeae6"
+
+[[files]]
 file = "defaultconfigs/create_submarine-server.toml"
 hash = "3bda94d1408ce4f676565644de266924e03babeba25ecd4ade87c00431af852d"
 
@@ -3655,6 +3731,11 @@ metafile = true
 [[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "74143850a12b0f9daf3ef2c503e61141319f3715a48a2fde53bc31b3c9719788"
+metafile = true
+
+[[files]]
+file = "mods/bossesrise.pw.toml"
+hash = "d20e603af6e9156021a1b8db31edd187a089b2b21cd7f70fa7eb7507bf81dbf9"
 metafile = true
 
 [[files]]

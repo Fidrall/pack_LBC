@@ -38,6 +38,16 @@
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_mowziesmobs_umvuthana_grove",
                                           "weight":  1
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_block_factorys_bosses_yeti_hideout",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_block_factorys_bosses_sandworm_nest",
+                                          "weight":  1
                                       }
                                   ]
                   }

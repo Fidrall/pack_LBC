@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bossesrise"
+	group: "1A00000000000003"
+	icon: {
+		id: "block_factorys_bosses:dragon_skull"
+	}
+	id: "6CEDC04EF5DA1995"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "block_factorys_bosses:dragon_skull"
+			}
+			id: "459ECD9B1E065F9D"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "270989372B6DE3D1"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["459ECD9B1E065F9D"]
+			icon: {
+				id: "block_factorys_bosses:ice_gauntlet"
+			}
+			id: "2D874F6CD01D02B9"
+			rewards: [
+				{
+					id: "7F532849DA3CD1DC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0C4CB2D3634E3865"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:yeti"
+					id: "2E62F38CCF5900FE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -4d
+			y: 2d
+		}
+		{
+			dependencies: ["2D874F6CD01D02B9"]
+			id: "09EFA16D8BACC4A8"
+			optional: true
+			rewards: [
+				{
+					id: "1C139CCBDE16C36B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "37AC2BDEBA106D5E"
+					item: { count: 1, id: "block_factorys_bosses:ice_gauntlet" }
+					type: "item"
+				}
+			]
+			x: -4d
+			y: 3.5d
+		}
+		{
+			dependencies: ["459ECD9B1E065F9D"]
+			icon: {
+				id: "block_factorys_bosses:sandworm_gauntlet"
+			}
+			id: "4FE9BE6E2975E9A6"
+			rewards: [
+				{
+					id: "53293FEB9B645160"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "070A374FB16D8798"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:sandworm"
+					id: "1E8854222D2144F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2d
+			y: 2d
+		}
+		{
+			dependencies: ["4FE9BE6E2975E9A6"]
+			id: "01421EA2EE567E26"
+			optional: true
+			rewards: [
+				{
+					id: "29F678B5D6D8D0D3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5BCB56B0D81DADE1"
+					item: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+					type: "item"
+				}
+			]
+			x: -2d
+			y: 3.5d
+		}
+		{
+			dependencies: ["459ECD9B1E065F9D"]
+			icon: {
+				id: "block_factorys_bosses:kraken_tooth"
+			}
+			id: "6125CFA021C67831"
+			rewards: [
+				{
+					id: "6545695945AE7131"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0B1126BBF5D2C2C6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:kraken"
+					id: "3880C762CB932163"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0d
+			y: 2d
+		}
+		{
+			dependencies: ["6125CFA021C67831"]
+			id: "143C40C886DE0462"
+			optional: true
+			rewards: [
+				{
+					id: "7D46CF906E768DAC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "592424C7F7F1EC8F"
+					item: { count: 1, id: "block_factorys_bosses:kraken_trident" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["459ECD9B1E065F9D"]
+			icon: {
+				id: "block_factorys_bosses:knight_sword"
+			}
+			id: "6308E8A0FF156651"
+			rewards: [
+				{
+					id: "2406C4096EA9ABAD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0CC33EAE02315841"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:underworld_knight"
+					id: "721A09A66E596BA3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2d
+			y: 2d
+		}
+		{
+			dependencies: ["6308E8A0FF156651"]
+			id: "50B1647DF5646267"
+			optional: true
+			rewards: [
+				{
+					id: "607E6C67B2843EAF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7977BB33B33E8C32"
+					item: { count: 1, id: "block_factorys_bosses:knight_chestplate" }
+					type: "item"
+				}
+			]
+			x: 2d
+			y: 3.5d
+		}
+		{
+			dependencies: ["459ECD9B1E065F9D"]
+			icon: {
+				id: "block_factorys_bosses:dragon_bone"
+			}
+			id: "30A6AEE50BC0E2CA"
+			rewards: [
+				{
+					id: "1A20B9BD442DB7A7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "61D6CD84C5F18E6E"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [
+				{
+					entity: "block_factorys_bosses:infernal_dragon"
+					id: "5B5A2CF79E38F011"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4d
+			y: 2d
+		}
+		{
+			dependencies: ["30A6AEE50BC0E2CA"]
+			id: "2432CD4EB67D5C20"
+			optional: true
+			rewards: [
+				{
+					id: "1BA1CC91CB816B4B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3F13D2DC71086DBF"
+					item: { count: 1, id: "block_factorys_bosses:dragon_bones_chestplate" }
+					type: "item"
+				}
+			]
+			x: 4d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D874F6CD01D02B9", "4FE9BE6E2975E9A6", "6125CFA021C67831", "6308E8A0FF156651", "30A6AEE50BC0E2CA"]
+			hide_dependency_lines: true
+			icon: {
+				id: "block_factorys_bosses:dragon_skull"
+			}
+			id: "183F09B193EA2C62"
+			rewards: [
+				{
+					id: "30A798126069F1E3"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "7AACE82324FCA35A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2d
+			tasks: [
+				{
+					id: "6EE0388B6613A01B"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 5.5d
+		}
+	]
+}

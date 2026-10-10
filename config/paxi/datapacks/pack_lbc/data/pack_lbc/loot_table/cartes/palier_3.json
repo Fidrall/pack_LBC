@@ -28,6 +28,11 @@
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_archaion_ancient_keep",
                                           "weight":  1
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_block_factorys_bosses_dragon_tower",
+                                          "weight":  1
                                       }
                                   ]
                   }

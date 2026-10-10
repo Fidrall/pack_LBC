@@ -1113,3 +1113,8 @@ stellarity:return_gateway
 stellarity:shipwreck/dunes
 stellarity:shipwreck/normal
 stellarity:village
+block_factorys_bosses:sandworm_nest
+block_factorys_bosses:dragon_tower
+block_factorys_bosses:underworld_arena
+block_factorys_bosses:yeti_hideout
+block_factorys_bosses:kraken_ship

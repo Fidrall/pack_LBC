@@ -51,6 +51,10 @@
 	chapter.5F26A3E223519394.title: "&e&lCreate : les addons"
 	chapter.5F7AAB8DEFA61465.title: "&aNew Age"
 	chapter.699146B31CBD0538.title: "&aEnchantment Industry&r"
+	chapter.6CEDC04EF5DA1995.chapter_subtitle: [
+		"Bosses'Rise : cinq combats à la Souls"
+	]
+	chapter.6CEDC04EF5DA1995.title: "&6&lLes Souverains"
 	chapter.734C4C2CDBC52F6C.title: "&bSacs à dos"
 	chapter.76A66079B7CC937B.chapter_subtitle: [
 		"Twilight Forest : une dimension de contes et de boss"
@@ -107,6 +111,8 @@
 	]
 	quest.00D7A88C4C686C02.quest_subtitle: "&3☠ Niveau 6"
 	quest.01219DEB95032DC7.title: "&dTenue de Marcheur des Ombres"
+	quest.01421EA2EE567E26.quest_subtitle: "La force des sables"
+	quest.01421EA2EE567E26.title: "Le gantelet de Sirok"
 	quest.01500464C6F76F10.quest_subtitle: "Ceinture"
 	quest.01500464C6F76F10.title: "Ceinture cinétique"
 	quest.016C498DFB704536.quest_subtitle: "Les villageois te font des prix bien plus bas"
@@ -466,6 +472,8 @@
 	quest.09A89AA4D2362D88.quest_desc: [
 		"Fonctionne comme un &6Brûleur à Blaze&r, mais utilise de la &c&lChaleur&r&r au lieu de &2combustible&r."
 	]
+	quest.09EFA16D8BACC4A8.quest_subtitle: "Le froid dans le poing"
+	quest.09EFA16D8BACC4A8.title: "Le gantelet de Skor"
 	quest.0A157E8B791D9822.quest_desc: [
 		"Ce chapitre présente les &eaddons de Create&r qui n'ont pas leur propre chapitre : moteurs diesel, forage de gisements, logistique des liquides, décoration, jetpack…"
 		""
@@ -816,6 +824,8 @@
 	]
 	quest.13F5B79840CC2A09.quest_subtitle: "Beaucoup de puissance, peu de place"
 	quest.13F5B79840CC2A09.title: "&6Le Moteur Diesel"
+	quest.143C40C886DE0462.quest_subtitle: "L'arme des abysses"
+	quest.143C40C886DE0462.title: "Le trident du Kraken"
 	quest.1457CC01C1D455DD.quest_desc: [
 		"Quand tu meurs, ton inventaire reste dans ton &ecorps&r, à l'endroit de ta mort. Retourne le chercher pour tout récupérer !"
 		""
@@ -912,6 +922,11 @@
 		""
 		"&2Important :&r garde un feu de camp sous le chaudron pour qu'il reste chaud."
 	]
+	quest.183F09B193EA2C62.quest_desc: [
+		"Skor, Sirok, Nerakyss, Helvar et Ashlord sont tombés. Ta réputation te précède !"
+	]
+	quest.183F09B193EA2C62.quest_subtitle: "Les cinq boss vaincus"
+	quest.183F09B193EA2C62.title: "&6&lTueur de Souverains"
 	quest.1859F22FB327067C.quest_desc: [
 		"L'&6Assembleur Physique&r transforme un groupe de blocs en &econstruction simulée&r : un objet physique qui peut voler, flotter, tomber ou rouler."
 		""
@@ -1403,6 +1418,8 @@
 	quest.23DAFFEA162268FD.quest_subtitle: "La colle idéale pour les vaisseaux"
 	quest.23DAFFEA162268FD.title: "La Colle au Miel"
 	quest.2401A3C6E360DD00.title: "Tu l'as perdu ?"
+	quest.2432CD4EB67D5C20.quest_subtitle: "Forgée dans ses restes"
+	quest.2432CD4EB67D5C20.title: "L'armure en os de dragon"
 	quest.24A3D36B0BF64712.quest_desc: [
 		"Le &6téléporteur d'entités&r peut envoyer n'importe quelle créature ou joueur vers un autre téléporteur. Il fonctionne au &dTélé-jus&r."
 		""
@@ -1647,6 +1664,11 @@
 	quest.2D57EABD7266C5FC.title: "Le Codex des grottes"
 	quest.2D69922251E3D2CB.quest_subtitle: "&6Rend visibles les créatures invisibles"
 	quest.2D6F91D478384B53.quest_subtitle: "Le parchemin engourdissant est lâché par les vagabonds tués avec une hachette Ravage."
+	quest.2D874F6CD01D02B9.quest_desc: [
+		"Son &erepaire&r se cache dans les plaines et les étendues enneigées. Attention aux pics de glace et aux blocs de glace qu'il projette."
+	]
+	quest.2D874F6CD01D02B9.quest_subtitle: "Dans les plaines enneigées"
+	quest.2D874F6CD01D02B9.title: "&bSkor, le Yéti"
 	quest.2D8A98F91CDD4318.quest_desc: [
 		"Ces &6Plans&r peuvent recevoir une ou plusieurs recettes de fabrication, qu'ils appliquent aux objets que tu tiens quand tu fais un clic droit dessus."
 		""
@@ -1785,6 +1807,13 @@
 		"Pour &bextraire un enchantement&r d'un objet ou d'un livre vers un modèle, place d'abord l'objet ou le livre, puis le &eModèle d'Enchantement vide&r."
 	]
 	quest.30A49F7BE86E7B7D.title: "&dL'ordre de placement compte"
+	quest.30A6AEE50BC0E2CA.quest_desc: [
+		"Une &etour&r rare se dresse dans les plaines, les savanes, les jungles et les marais. Au sommet attend &4Ashlord&r, gardé par ses squelettes enflammés."
+		""
+		"Le plus dur des cinq : prépare tes meilleures armures et des potions de résistance au feu."
+	]
+	quest.30A6AEE50BC0E2CA.quest_subtitle: "Au sommet de sa tour"
+	quest.30A6AEE50BC0E2CA.title: "&4Ashlord, le Dragon infernal"
 	quest.30B4AA1B5916FC72.quest_desc: [
 		"L'&eAccumulateur&r sert à stocker l'énergie électrique."
 		""
@@ -2538,6 +2567,15 @@
 	quest.45588D020EF84979.quest_subtitle: "Là où le fer flotte"
 	quest.45588D020EF84979.title: "&cMagnetic Caves"
 	quest.45897F363A6ACCE7.title: "&dCristal de mana radieux"
+	quest.459ECD9B1E065F9D.quest_desc: [
+		"&eBosses'Rise&r ajoute cinq boss à phases, chacun dans son &earène&r, avec ses gardes et sa musique."
+		""
+		"Observe leurs attaques avant de foncer : chaque phase change le combat. Ta &eroulade&r (touche &6R&r) est ton meilleur allié pour esquiver."
+		""
+		"Les &ecartes&r de leurs arènes tombent parfois sur les autres boss. La &eBoussole de l'Explorateur&r les trouve aussi."
+	]
+	quest.459ECD9B1E065F9D.quest_subtitle: "Cinq boss, cinq arènes"
+	quest.459ECD9B1E065F9D.title: "&6&lLes Souverains"
 	quest.45A82A0D7A2A252B.quest_desc: [
 		"Tu maîtrises maintenant tout ce qu'il faut pour construire le vaisseau de tes rêves."
 		""
@@ -2866,6 +2904,11 @@
 	]
 	quest.4F734FC470276106.quest_subtitle: "Donne un effet Célérité temporaire après avoir mangé"
 	quest.4FDAFBD64AA710A1.quest_subtitle: "Les monstres lâchent plus d'expérience"
+	quest.4FE9BE6E2975E9A6.quest_desc: [
+		"Son &enid&r est enfoui dans le désert. Il surgit du sable et crache du poison : ne reste pas immobile."
+	]
+	quest.4FE9BE6E2975E9A6.quest_subtitle: "Sous les dunes"
+	quest.4FE9BE6E2975E9A6.title: "&eSirok, le Ver des sables"
 	quest.5037AA2541E439E5.quest_desc: [
 		"Le &cVestige Ancien&r est un boss squelettique qui ressemble à un T-Rex. Il se trouve au fond de la &ePyramide Maudite&r, dans l'Overworld."
 		""
@@ -2895,6 +2938,8 @@
 	quest.5074B699E6B3FF0F.quest_subtitle: "Sac de couchage et hamac"
 	quest.5074B699E6B3FF0F.title: "Dormir en expédition"
 	quest.50A74C04350493E0.quest_subtitle: "&6-15 % de temps de recharge"
+	quest.50B1647DF5646267.quest_subtitle: "Digne de Helvar"
+	quest.50B1647DF5646267.title: "L'armure de chevalier"
 	quest.50CAC11C32FA70C6.quest_desc: [
 		"Les &eWaystones&r se trouvent dans le monde (y compris dans certains villages). &bActive-les en passant&r pour pouvoir t'y téléporter plus tard."
 		""
@@ -3432,6 +3477,13 @@
 	]
 	quest.61253545DDE41E88.quest_subtitle: "Défi : voler et se diriger"
 	quest.61253545DDE41E88.title: "&b&lTon premier dirigeable"
+	quest.6125CFA021C67831.quest_desc: [
+		"Un &enavire pirate&r croise au-dessus des océans profonds. Débarrasse-toi de l'équipage… puis du Kraken et de ses tentacules."
+		""
+		"Les &ecanons&r du navire peuvent servir. Viens en bateau, ou en sous-marin !"
+	]
+	quest.6125CFA021C67831.quest_subtitle: "Au large, sur le navire pirate"
+	quest.6125CFA021C67831.title: "&3Nerakyss, le Kraken"
 	quest.6144BAFB1269A066.quest_desc: [
 		"Comme l'ensemble en cuivre, il donne la respiration aquatique quand le réservoir dorsal contient de l'air comprimé."
 		""
@@ -3506,6 +3558,11 @@
 		""
 		"&e&lAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
+	quest.6308E8A0FF156651.quest_desc: [
+		"Son &earène&r se dresse dans les déserts du Nether et les vallées des âmes, gardée par des chevaliers squelettes du Wither."
+	]
+	quest.6308E8A0FF156651.quest_subtitle: "Dans le Nether"
+	quest.6308E8A0FF156651.title: "&cHelvar, le Chevalier des enfers"
 	quest.632E2AD859CE0BDE.quest_desc: [
 		"Le &6&lRoulement de Moulin&r&r sert à produire de l'énergie passivement."
 		""
@@ -4807,6 +4864,7 @@
 	task.2253937F3806BE3D.title: "Tu es sûr ? Ne fais pas de bêtise."
 	task.228DCE6FDAD7130A.title: "Clique pour valider"
 	task.262BA060571DE2D8.title: "Clique pour valider"
+	task.270989372B6DE3D1.title: "Clique pour valider"
 	task.29E9412E46C50D93.title: "Compris !"
 	task.2E11C158DD5E8E3E.title: "Clique pour valider"
 	task.3AD4F43742EABEE7.title: "Clique pour valider"
@@ -4829,6 +4887,7 @@
 	task.69517BE82B4CD27C.title: "Les six biomes !"
 	task.699F008B89CEDD0B.title: "Clique pour valider"
 	task.6B87B64D8F370153.title: "Clique pour valider"
+	task.6EE0388B6613A01B.title: "Les cinq sont tombés"
 	task.6FA79A0E3B31D1CD.title: "Clique pour valider"
 	task.6FD0241035AC0F91.title: "Clique pour valider"
 	task.797924159D5342B4.title: "&l&cTu es sûr d'avoir tout lu ? Cette partie est vraiment importante."

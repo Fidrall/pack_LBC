@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF241A14",
+    "bag_overlay_color":  "#FFE08A2C",
+    "bag_string_color":  "#FF8C5A2B",
+    "display_name":  "Butin des Souverains",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/bossesrise",
+    "rarity":  "epic",
+    "visible":  true
+}

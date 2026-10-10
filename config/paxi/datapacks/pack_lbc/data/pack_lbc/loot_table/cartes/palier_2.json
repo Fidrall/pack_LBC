@@ -63,6 +63,16 @@
                                           "type":  "minecraft:loot_table",
                                           "value":  "pack_lbc:cartes/carte_bosses_of_mass_destruction_void_blossom",
                                           "weight":  1
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_block_factorys_bosses_kraken_ship",
+                                          "weight":  1
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:cartes/carte_block_factorys_bosses_underworld_arena",
+                                          "weight":  1
                                       }
                                   ]
                   }

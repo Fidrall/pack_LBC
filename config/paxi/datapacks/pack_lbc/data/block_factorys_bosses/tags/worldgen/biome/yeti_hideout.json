@@ -1,0 +1,21 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "minecraft:snowy_taiga",
+                       "required":  false
+                   },
+                   {
+                       "id":  "terralith:snowy_shield",
+                       "required":  false
+                   },
+                   {
+                       "id":  "terralith:cold_shrubland",
+                       "required":  false
+                   },
+                   {
+                       "id":  "terralith:ice_marsh",
+                       "required":  false
+                   }
+               ]
+}
