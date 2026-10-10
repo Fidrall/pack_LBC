@@ -451,5 +451,13 @@ foreach ($f in Get-ChildItem $lo -Recurse -File) {
     Copy-Item $f.FullName $to -Force
 }
 
+# ---------- 16. Dragon de Stellarity : 500 PV (300 par defaut) ----------
+# Stellarity garde ce reglage dans un score du monde ; il ne le cree que s'il est absent.
+# Le score est force a chaque chargement : le menu de config de Stellarity ne le change donc plus.
+$fn = Join-Path $dp 'data\pack_lbc\function\stellarity_config.mcfunction'
+New-Item -ItemType Directory -Force (Split-Path $fn) | Out-Null
+[IO.File]::WriteAllText($fn, "scoreboard objectives add stellarity.config.dragon_health dummy`nscoreboard players set #stellarity.config stellarity.config.dragon_health 500`n", $enc)
+W 'data/minecraft/tags/function/load.json' ([ordered]@{ values = @('pack_lbc:stellarity_config') })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

@@ -981,6 +981,10 @@ file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/underwat
 hash = "feecfc724cf39d76ba3c4e1b9bca1b560745e4e40046171af01f34bc2546c127"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/function/load.json"
+hash = "5122bace2bb014e6c2dfa5224e216c9879f0d6c8bf9821defa7ac467ffdbc882"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/pillager_outpost.json"
 hash = "8893f595292a3c5499a6e07f609e75ff938011806f5cf43e3d036179383dc2cd"
 
@@ -1071,6 +1075,10 @@ hash = "b9afbea8ecbd757a27f7ac6b609a3bec71fc47210e89cb3f15648a154e97f289"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
 hash = "fdc15630be9823ef2e2d58f6343ab6cd811b327d32a61e46a67bb11e66ba53aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/stellarity_config.mcfunction"
+hash = "749f82eff50f2567e593c85a0180e7cb6e296cd4323544815e072b3e3a382882"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
