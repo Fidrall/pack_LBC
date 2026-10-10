@@ -4,7 +4,7 @@
 # Most miscellaneous feature toggles.
 features:
   # Prevents lagspikes caused by players moving into unloaded chunks.
-  prevent-moving-into-unloaded-chunks: false
+  prevent-moving-into-unloaded-chunks: true
   # The amount of seconds between auto-saves when /save-on is active.
   autosave-interval-seconds: 300
   # The fraction that decides the chance of experience orbs being able to merge with each other. (1 = 100%, 40 = 2.5%)
@@ -22,7 +22,8 @@ features:
 
 # Automatically modifies dynamic settings based on the server performance.
 dynamic:
-  # vue/simulation : demarre a 10, monte a 14/13 si ca va, descend a 8/7 si ca rame (target-mspt = reglage)
+  # vue/simulation : demarre a 10, plafond 10, descend jusqu'a 6 si ca rame (exploration rapide en terrain neuf)
+  # La simulation charge (et genere) aussi ses chunks : ne jamais la mettre au-dessus de la vue.
   # Enables dynamic performance checks.
   enabled: true
   # The average MSPT to target.
@@ -44,8 +45,8 @@ dynamic:
   # ► interval = The amount of seconds between each check to increase or decrease.
   dynamic-settings:
     - setting: 'CHUNK_TICK_DISTANCE'
-      max: 13
-      min: 8
+      max: 10
+      min: 6
       increment: 1
       interval: 15
 
@@ -56,16 +57,16 @@ dynamic:
       interval: 15
 
     - setting: 'SIMULATION_DISTANCE'
-      max: 13
-      min: 7
+      max: 10
+      min: 6
       increment: 1
       interval: 15
 
     - setting: 'VIEW_DISTANCE'
-      max: 14
-      min: 8
+      max: 10
+      min: 6
       increment: 1
-      interval: 60
+      interval: 15
 
 # A special mobcap that only affects the breeding of animals and villagers.
 breeding-cap:

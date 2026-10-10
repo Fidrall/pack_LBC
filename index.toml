@@ -3582,7 +3582,7 @@ hash = "edff2c8d63f91806949a498ba5498d05f2a650cb504c697da25aa1a20d180ff3"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "97ef2e7684dcae692d7cd9511303e433f71c0538d9b6bc40754f7153a5c7b4f1"
+hash = "f7aa489546d18b24d7310a1de545674b1102aa92241810a286c7afee81796c49"
 
 [[files]]
 file = "config/simplebackups-common.toml"
