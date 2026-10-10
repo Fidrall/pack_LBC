@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF6B4A2B",
+    "bag_overlay_color":  "#FF3F7FBF",
+    "bag_string_color":  "#FFE8D9A8",
+    "display_name":  "Sac du voyageur",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/voyageur",
+    "rarity":  "uncommon",
+    "visible":  true
+}

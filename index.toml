@@ -2437,6 +2437,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/twilight.js
 hash = "3104d9b23f42f4d7a8bd898e8b45286b9a99c9997761621adbdf71fa383aff8b"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/voyageur.json"
+hash = "3b282b20cc6988900ce3803ce197d214a4218a53ce31ae3321b57f719f18da69"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/aether_t1.json"
 hash = "d51d2f3d1dcf4de5cd79a33dd964c433bf819bd35b50ce24ee9a693dd44d2854"
 
@@ -3141,6 +3145,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/twilight
 hash = "c35710f6669b0d88eafdfac2b05302f8922265def5fb42aafac4b57cd205a51a"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/voyageur.json"
+hash = "80bd6e1f049f3025ae3ae313b09f8e93e98115ac25986960c2629e6970f60fff"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_grand.json"
 hash = "e5b7da8aeacd550426f5528e145de3b3c9af976d0a4e28d705ee8ef8b48a9f63"
 
@@ -3250,7 +3258,7 @@ hash = "278c0b013015b97589f2615054885fbab58f1b319bd881cfc99a20b2f83dbc02"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/starting_inventory.json"
-hash = "1ef70bd7db8a4e7dc0543405659febdf4a21ce505a75fe8589e6cf678fef5e41"
+hash = "1927ae65f2b43747ab43ab3256df8f03d3fdf795d7bcf7558af71c7e7e9b92e7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/dragon_fruit_drake_spawn.json"

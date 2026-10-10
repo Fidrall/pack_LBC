@@ -333,9 +333,16 @@ W 'data/apotheosis/loot_modifiers/gem_loot_injection.json' ([ordered]@{ type = '
             [ordered]@{ chance = 0.06; pattern = [ordered]@{ path_regex = 'chests.*' } },
             [ordered]@{ chance = 0.06; pattern = [ordered]@{ domain = 'twilightforest'; path_regex = 'structures.*' } }) })
 # Treasure Bags : en attendant l'equilibrage, seuls les boss lachent des sacs (2 par boss, reglage du mod).
-# Monstres, animaux, joueurs (PvP) et sac de depart neutralises.
+# Monstres, animaux et joueurs (PvP) neutralises.
 foreach ($g in 'hostile', 'peaceful', 'player') { W "data/treasurebags/loot_table/entity_group/$g.json" ([ordered]@{ type = 'minecraft:entity'; pools = @() }) }
-W 'data/treasurebags/loot_table/starting_inventory.json' ([ordered]@{ type = 'minecraft:gift'; pools = @() })
+# Inventaire de depart (donne une seule fois, a la premiere connexion) : le Sac du voyageur avec le livre de quetes et les guides des mods.
+W 'data/pack_lbc/treasurebags_types/voyageur.json' ([ordered]@{ bag_color = '#FF6B4A2B'; bag_overlay_color = '#FF3F7FBF'; bag_string_color = '#FFE8D9A8'; display_name = 'Sac du voyageur'; drops_from_groups = @(); group = 'pack_lbc'; loot_table = 'pack_lbc:bags/voyageur'; rarity = 'uncommon'; visible = $true })
+$guides = @('ftbquests:book', 'akashictome:tome', 'solcarrot:food_book', 'aether:book_of_lore', 'alexscaves:cave_book', 'alshanex_familiars:familiar_tome')
+$patchouli = @('apotheosis:apoth_chronicle', 'irons_spellbooks:iss_guide_book', 'twilightdelight:twilight_guide')
+$livres = @($guides | ForEach-Object { [ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = $_ }) } }) +
+    @($patchouli | ForEach-Object { [ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = 'patchouli:guide_book'; functions = @([ordered]@{ function = 'minecraft:set_components'; components = [ordered]@{ 'patchouli:book' = $_ } }) }) } })
+W 'data/pack_lbc/loot_table/bags/voyageur.json' ([ordered]@{ type = 'minecraft:gift'; pools = $livres })
+W 'data/treasurebags/loot_table/starting_inventory.json' ([ordered]@{ type = 'minecraft:gift'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = 'treasurebags:treasure_bag'; functions = @([ordered]@{ function = 'treasurebags:set_bag_type'; bag_type = 'pack_lbc:voyageur' }) }) }) })
 
 # ---------- 14. Butin de boss : sac thematique (Treasure Bags) + chance de carte de structure selon la difficulte ----------
 # S'ajoute au butin normal du boss (modificateur de butin NeoForge declenche par le TYPE de boss tue, joueur requis).

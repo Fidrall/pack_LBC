@@ -1,6 +1,20 @@
 {
     "type":  "minecraft:gift",
     "pools":  [
-
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "treasurebags:treasure_bag",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "treasurebags:set_bag_type",
+                                                                "bag_type":  "pack_lbc:voyageur"
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
               ]
 }
