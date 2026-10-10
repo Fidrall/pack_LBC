@@ -3983,6 +3983,11 @@ hash = "db7aed530208f0aedf516a6b616b9034941059354e93f75e5e8e1d57381f3312"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-explosion-physics-simulated.pw.toml"
+hash = "627bd4b191726762636bb515b599482b5ae90bf3e924a0ba0479d7901f3f2563"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
@@ -4050,6 +4055,11 @@ metafile = true
 [[files]]
 file = "mods/create-garnished.pw.toml"
 hash = "7c5ba6334cf31d9d5259c1ccec3e0d02b7351cfdb8f4c4f87ff788711051c3bd"
+metafile = true
+
+[[files]]
+file = "mods/create-high-skies.pw.toml"
+hash = "b62f0d3e119dbf64f790a0e4d25f6882bcdb454640386df1c4afee2a1fd0c520"
 metafile = true
 
 [[files]]

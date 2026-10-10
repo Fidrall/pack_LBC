@@ -1,0 +1,13 @@
+name = "Create High Skies"
+filename = "create-high-skies-0.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf752231935ccbce7c8718b7436b69c3219fcbf1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9051386
+project-id = 1698943

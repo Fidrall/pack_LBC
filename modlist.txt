@@ -254,3 +254,5 @@ mr | journeymap | qol | minimap et grande carte (mode grotte), config d'origine 
 mr | journeymap-integration | client | protections FTB Chunks et Waystones sur JourneyMap
 cf | 523327 | jetable | Savage Ender Dragon (eclairs, renforts, anti-vol) en complement de Stellarity : vie/cristaux geres par Stellarity (config/dragonfight.json)
 mr | createbetterfps | client | rendu Create plus rapide avec shaders (a tester : engrenages, dirigeables)
+cf | 1698943 | conserver | Create High Skies : hydrogene par electrolyse, gaz porteurs pour dirigeables (exige Aeronautics 1.3.2 exactement)
+cf | create-aeronautics-explosion-physics-simulated | jetable | les explosions poussent les objets Sable (dirigeables)
