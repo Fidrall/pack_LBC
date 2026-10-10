@@ -87,6 +87,10 @@ foreach ($p in $bic.PSObject.Properties) {
 # Barre d'uranium = combustible du reacteur New Age (meme energie que le combustible New Age)
 W 'data/create_new_age/tags/item/nuclear/fuel.json' ([ordered]@{ replace = $false; values = @('alexscaves:uranium_rod') })
 W 'data/create_new_age/tags/item/nuclear/energy_28800.json' ([ordered]@{ replace = $false; values = @('alexscaves:uranium_rod') })
+# Radiation du reacteur New Age : la combinaison Hazmat d'Alex's Caves protege (comme le cuir), les blocs Hazmat servent de blindage
+W 'data/create_new_age/tags/item/hazmat_suit.json' ([ordered]@{ replace = $false; values = @('alexscaves:hazmat_mask', 'alexscaves:hazmat_chestplate', 'alexscaves:hazmat_leggings', 'alexscaves:hazmat_boots') })
+$blindage = @('alexscaves:hazmat_block', 'alexscaves:hazmat_warning_block')
+foreach ($k in 'block', 'item') { W "data/create_new_age/tags/$k/stops_radiation.json" ([ordered]@{ replace = $false; values = $blindage }) }
 # Blocs de neodyme des grottes magnetiques = aimants pour les bobines de generateur
 $neo = @('alexscaves:block_of_azure_neodymium', 'alexscaves:block_of_scarlet_neodymium')
 foreach ($k in 'block', 'item') {

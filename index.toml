@@ -565,6 +565,14 @@ file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/magnet/for
 hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/stops_radiation.json"
+hash = "5ba7dcf35538059b24159e50d3f64f427f256797d31b3c8a8360931fa4ce19a3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/hazmat_suit.json"
+hash = "a6ecff189cb168d0f3f88ba10ec48e945c53c4e99499d108964a5e01ea2a5ec1"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/magnet.json"
 hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
 
@@ -579,6 +587,10 @@ hash = "8fab0a3b1b7591e5ff7fdcd1da6444d67f61d8d0dae076135d5bbfec8ac3936f"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/nuclear/fuel.json"
 hash = "8fab0a3b1b7591e5ff7fdcd1da6444d67f61d8d0dae076135d5bbfec8ac3936f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/stops_radiation.json"
+hash = "5ba7dcf35538059b24159e50d3f64f427f256797d31b3c8a8360931fa4ce19a3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/abandoned_temple/abandoned_temple_entrance.json"

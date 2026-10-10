@@ -1,0 +1,7 @@
+{
+    "replace":  false,
+    "values":  [
+                   "alexscaves:hazmat_block",
+                   "alexscaves:hazmat_warning_block"
+               ]
+}
