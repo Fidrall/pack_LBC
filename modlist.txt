@@ -256,3 +256,8 @@ cf | 523327 | jetable | Savage Ender Dragon (eclairs, renforts, anti-vol) en com
 mr | createbetterfps | client | rendu Create plus rapide avec shaders (a tester : engrenages, dirigeables)
 cf | 1698943 | conserver | Create High Skies : hydrogene par electrolyse, gaz porteurs pour dirigeables (exige Aeronautics 1.3.2 exactement)
 cf | create-aeronautics-explosion-physics-simulated | jetable | les explosions poussent les objets Sable (dirigeables)
+mr | vs-hose-connectors | conserver | tuyaux/cables/chaines entre dirigeables et sol
+mr | linear-bearing | conserver | roulement lineaire Aeronautics (+ linear-bearings-fix obligatoire : crashs serveur)
+mr | create-tracks+ | conserver | chenilles pour vehicules Sable
+mr | create-aeroworks | conserver | gyroscope + commandes de pilotage
+mr | aero_cam_sync | client | camera inclinee avec le dirigeable (optionnel a l'installation)
