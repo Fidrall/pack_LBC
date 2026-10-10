@@ -250,3 +250,5 @@ mr | apokinetics | jetable | gemmes Apotheosis dans les machines Create
 mr | cataclysm-spellbooks | jetable | sorts Cataclysm pour Iron's
 mr | deeper-and-darker-spellbooks | jetable | sorts et armure du Warden pour Iron's
 mr | create-wizardry | jetable | automatisation Create pour Iron's (version pre-release)
+mr | journeymap | qol | minimap et grande carte (mode grotte), config d'origine via config/jmdefaultconfig
+mr | journeymap-integration | client | protections FTB Chunks et Waystones sur JourneyMap

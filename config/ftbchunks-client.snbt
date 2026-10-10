@@ -1,7 +1,7 @@
-# Valeurs par defaut du pack. Pour un reglage personnel durable, copier ce fichier dans local/ftbchunks-client.snbt
+# Valeurs par defaut du pack : la minimap est celle de JourneyMap. Reglage personnel durable : local/ftbchunks-client.snbt
 
 {
 	minimap: {
-		enabled: true
+		enabled: false
 	}
 }

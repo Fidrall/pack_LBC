@@ -118,7 +118,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "5dc680171bffd8a76558ca77990978f02a209f334aacf84cdf52f104cda97ec1"
+hash = "0938cae4f09fb7ecbf1fc4c62625016933eb29cd1ca929a51fa0205d3d41f393"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -130,7 +130,7 @@ hash = "0d91e421370e448fdd8be8a96e49f0915fccfb0fd37bd0bb0775e4ea3c487277"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "969a681ca99086c25cf2e2ce858e7f9f02c31c18be91696c5e5db28d12ce2565"
+hash = "8cdbf8f65fa24f5533e7e726e9eb75b5baa23b1a95208e1454c5a67cdd380b56"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -250,7 +250,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "c86da983563a3ea6d1a5049530992027db4643ee57e5bd97d5ca789ea888bceb"
+hash = "9006c31c4c397b83b2be13eac08c7c93c21e7bf6f000ad3f341d3a457797b6b5"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -275,6 +275,42 @@ hash = "74cbff2c0c92195c0242968388461bce957f5fea8896d7bcd1843c4c757ec119"
 [[files]]
 file = "config/irons_spellbooks-server.toml"
 hash = "9db94f62e96f2a6f9d3c60ffa28f6811931a697b32c6e7eee3a09996895e0cd9"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.core.config"
+hash = "2b417fde7a6bd70f853c82be7f00b0e5b2b8dc220788c0225cc415c6dba77934"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.fullmap.config"
+hash = "55eea7cd98695c9bfc3fc039e68940419be63ccc81874457b5f9343f0129d5b0"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.minimap.config"
+hash = "37f62421d282c5c41140d4897ad6d4ef2ac4f67a9b2c3832d10c679f777fcc90"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.minimap2.config"
+hash = "b248b05918bda0120a6d67428da0c7bec21921b748f99c47fae6772a6e0ab6e2"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.rendering.config"
+hash = "8afd6862c760abaf5bb4b83c39df2e3bff41c03d7450f738238503f663461585"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.topo.config"
+hash = "5b65da83a108ed9552bafb10d3fe9bf109e9a5f45c11c3264dc07f41f8a07e13"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.waypoint.config"
+hash = "3a5be14fa5f3317fd924ece2575dc06acd0947eb480dcd07384075fc02f846f4"
+
+[[files]]
+file = "config/jmdefaultconfig/config/6.0/journeymap.webmap.config"
+hash = "b8f464762067333852b532b58cacf89c314e5159db52e5cca73105d3ed822f00"
+
+[[files]]
+file = "config/jmi-client.toml"
+hash = "478a95300f0b93c4de9b864193061f43897261177961013fb07ec7d4487b1d07"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -4420,6 +4456,16 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "8bc018284b753276f8e3510101852809bcccdad31a7ae17847df210c71a2c512"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-integration.pw.toml"
+hash = "f161cd39e3619182a8606ec812634d74713d32ca30c3585bdf7d40b7bb573919"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "783ed30ab6f6f60c604b9bdc2f26ec5b23c7a523179aa17119dbc541f7149022"
 metafile = true
 
 [[files]]
