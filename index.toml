@@ -4119,6 +4119,11 @@ hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
 metafile = true
 
 [[files]]
+file = "mods/exposure.pw.toml"
+hash = "b9c7e06aaedf28d4f5fd4d002aa290b755bea76a9c2c0012a4a46efea1a3ef7d"
+metafile = true
+
+[[files]]
 file = "mods/familiarslib.pw.toml"
 hash = "60307914360d9611389c6b3ab0221508e32d3697b6edf25258072d9fab5a4438"
 metafile = true
