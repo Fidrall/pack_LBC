@@ -126,7 +126,7 @@ hash = "93a729944c1a849fae2496a4e665f5e18956e16537dc5b2d8682a3b2cdc44689"
 
 [[files]]
 file = "config/dragonfight.json"
-hash = "0d91e421370e448fdd8be8a96e49f0915fccfb0fd37bd0bb0775e4ea3c487277"
+hash = "9f965fdd83063072e981f1ead4aa9297abfcec71477860c8c68870397e263e36"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
@@ -4716,6 +4716,11 @@ metafile = true
 [[files]]
 file = "mods/sablecompat.pw.toml"
 hash = "b9ceb0fa4707ced2e0467f334ce8b6cb2fd60c729b47aee065e2bb0d5b905189"
+metafile = true
+
+[[files]]
+file = "mods/savage-ender-dragon.pw.toml"
+hash = "bc400d41aa0775f6473348526a616b96593c322c9888999dd4bfb71f1d59448f"
 metafile = true
 
 [[files]]

@@ -252,3 +252,4 @@ mr | deeper-and-darker-spellbooks | jetable | sorts et armure du Warden pour Iro
 mr | create-wizardry | jetable | automatisation Create pour Iron's (version pre-release)
 mr | journeymap | qol | minimap et grande carte (mode grotte), config d'origine via config/jmdefaultconfig
 mr | journeymap-integration | client | protections FTB Chunks et Waystones sur JourneyMap
+cf | 523327 | jetable | Savage Ender Dragon (eclairs, renforts, anti-vol) en complement de Stellarity : vie/cristaux geres par Stellarity (config/dragonfight.json)

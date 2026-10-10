@@ -1,3 +1,5 @@
+// Avec Stellarity : on garde seulement les ajouts de Savage qui ne font pas doublon (eclairs, explosions, renforts, anti-vol, poison des cristaux).
+// Vie geree par Stellarity (400 PV) -> bonus de vie 0 ; cristaux : Stellarity rend le dragon invulnerable tant qu'il en reste -> pas de reapparition.
 {
   "dragonDifficulty": {
     // Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.
@@ -5,7 +7,7 @@
     // Note that the difficulty already scales on the playercount involved in the fight,
     // this is a static bonus ontop.
     // Default:2, vanilla:0
-    "dragonDifficulty": 2
+    "dragonDifficulty": 0
   },
 
   "crystalRespawnTimeModifier": {
@@ -17,13 +19,13 @@
   "doEndCrystalRespawn": {
     // Set whether end crystals respawn at all. 
     // Default:true
-    "doEndCrystalRespawn": true
+    "doEndCrystalRespawn": false
   },
 
   "crystalMeleeKillDamage": {
     // Set the current health percent the dragon looses when an end crystal is killed by a player in close quarters.
     // Default:10, 0 to disable, 100 to instant kill the dragon
-    "crystalMeleeKillDamage": 10.0
+    "crystalMeleeKillDamage": 0.0
   },
 
   "crystalPotionOnDeath": {
@@ -60,13 +62,13 @@
   "dragonHealthModifier": {
     // Sets the dragon health modifier: 
     // Default:1.0
-    "dragonHealthModifier": 0.2
+    "dragonHealthModifier": 0.0
   },
 
   "dragonDamageModifier": {
     // Sets the dragon damage modifier: 
     // Default:1.0
-    "dragonDamageModifier": 1.15
+    "dragonDamageModifier": 1.0
   },
 
   "mobSpawnAmountModifier": {
