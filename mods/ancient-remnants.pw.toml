@@ -1,13 +1,13 @@
 name = "Ancient Remnants: Monoliths"
-filename = "ancient_remnants-1.5.1+1.21.1-neoforge.jar"
+filename = "ancient_remnants-1.5.2+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bd2cc3dd05e9f310c5a80d8263193d37cb48509c"
+hash = "febbd4abcd8dc099f105802f6edb5bbaef0e79d6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9073021
+file-id = 9084406
 project-id = 1668579

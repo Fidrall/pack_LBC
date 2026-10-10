@@ -1,0 +1,8 @@
+# Sauvegarde complete une fois par jour, puis toutes les 2 h seulement les fichiers modifies depuis.
+# Le monde prégénéré pese plusieurs Go : des sauvegardes completes toutes les 2 h saturent le disque et le processeur.
+backupType = "MODIFIED_SINCE_FULL"
+fullBackupTimer = 1440
+timer = 120
+backupsToKeep = 12
+maxDiskSize = "20 GB"
+compressionLevel = -1

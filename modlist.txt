@@ -61,7 +61,6 @@ mr | tidal-towns | conserver |
 mr | sky-villages | conserver |
 mr | trek | conserver |
 mr | philips-ruins | conserver |
-mr | mo-structures | conserver |
 mr | incendium | conserver |
 mr | towns-and-towers | conserver |
 mr | when-dungeons-arise | conserver |
@@ -84,10 +83,8 @@ mr | aures-farmers-structures | conserver |
 mr | lukis-grand-capitals | conserver |
 mr | adventure-dungeons | conserver |
 mr | hellish-trials | conserver |
-mr | villages-and-pillages | conserver |
 mr | it-takes-a-pillage-continuation | conserver |
 mr | better-archeology | conserver |
-mr | nullscape | conserver |
 mr | endrem | conserver |
 cf | 632624 | conserver | Hopo Better Ruined Portals
 cf | 632622 | conserver | Hopo Better Underwater Ruins
@@ -126,8 +123,6 @@ cf | 316582 | qol | Corpse
 mr | corpse-x-curios-api-compat | qol |
 mr | curios | qol |
 mr | elytra-slot | qol |
-mr | journeymap | qol |
-mr | journeymap-integration | client |
 cf | 422301 | conserver | Sophisticated Backpacks
 cf | 1238567 | conserver | Sophisticated Backpacks Create Integration
 mr | torchmaster | conserver |
@@ -163,7 +158,6 @@ cf | 1091339 | perf | AllTheLeaks
 mr | neruina | perf |
 mr | lmd | perf | Let Me Despawn
 mr | lithium | perf |
-mr | noisium | perf |
 mr | clumps | perf |
 mr | packet-fixer | perf |
 cf | 470193 | perf | Connectivity
@@ -219,7 +213,6 @@ mr | create-bionics | conserver | robots-animaux Create (licence : ne pas publie
 cf | archaion | jetable | Donjon ancien + boss mecanique (+ AAA Particles)
 cf | ancient-remnants | jetable | monolithes par biome, coeurs d'Elderheart (Fragmentum >= 5.2)
 mr | relics-mod | jetable | 28 reliques a stats aleatoires qui montent en niveau (+ OctoLib)
-mr | iceandfire-ce | jetable | dragons a elever, voie dompteur fin de jeu (epingle 2.0 stable ; + Jupiter, Uranus) ; config a faire apres 1er lancement (griefing apprivoises, vitesse, hippogriffes/amphitheres)
 mr | effortless-building | qol | outils de construction (lignes, murs, sols, formes, miroir, annuler) - pratique sous l'eau
 mr | hazen-n-stuff | conserver | extension Iron's (39 sorts, armes, armures, cristaux) + AzureLib, Ace's Spell Utils, HazentouveLib, Soul Fire'd ; chapitre de quetes hazen_n_stuff
 mr | cobweb | conserver | bibliotheque Crystal Nest (requise par Soul Fire'd)
@@ -227,3 +220,13 @@ mr | prometheus-api | conserver | bibliotheque Crystal Nest (requise par Soul Fi
 mr | attributesetter | conserver | statistiques des boss sans reglage (+25 % vie, +15 % degats), datapack build-datapack section 12
 mr | treasure-bags | conserver | sacs de recompense (boss seulement pour l'instant, build-datapack section 13)
 mr | silent-lib | conserver | requis par Treasure Bags
+mr | zfastnoise | perf | remplace Noisium
+mr | wyrmroost | jetable | dragons (remplace Ice and Fire) ; Royal Red renforce, griefing coupe
+mr | alexs-caves-continued | jetable | 6 biomes souterrains, rares (separation 1200)
+mr | stellarity | conserver | End refait (blocs vanilla), remplace Nullscape et Savage Ender Dragon
+mr | bossesrise | jetable | 5 boss a arenes ; roulade coupee (Combat Roll garde)
+mr | epic-knights-shields-armor-and-weapons | jetable | armures et armes medievales (+ compat Better Combat)
+mr | apothic-combat | qol | complement d'Apotheosis
+mr | exposure | conserver | appareils photo (remplace Old Glass Photograph, incompatible serveur)
+mr | simple-voice-chat | qol | port UDP 24454
+mr | joy-of-painting | conserver | peinture

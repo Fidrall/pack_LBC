@@ -12,6 +12,18 @@
                                      "exclude_from_overlap_prevention":  true
                                  },
                                  {
+                                     "name":  "block_factorys_bosses",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "alexscaves",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
+                                     "name":  "stellarity",
+                                     "exclude_from_overlap_prevention":  true
+                                 },
+                                 {
                                      "name":  "bosses_of_mass_destruction",
                                      "exclude_from_overlap_prevention":  true
                                  },

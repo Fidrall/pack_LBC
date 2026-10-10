@@ -358,5 +358,77 @@
                                  "value":  0.15,
                                  "operation":  "MULTIPLY_BASE"
                              }
-                         ]
+                         ],
+    "block_factorys_bosses:yeti":  [
+                                       {
+                                           "attribute":  "minecraft:generic.max_health",
+                                           "value":  0.25,
+                                           "operation":  "MULTIPLY_BASE"
+                                       },
+                                       {
+                                           "attribute":  "minecraft:generic.attack_damage",
+                                           "value":  0.15,
+                                           "operation":  "MULTIPLY_BASE"
+                                       }
+                                   ],
+    "block_factorys_bosses:sandworm":  [
+                                           {
+                                               "attribute":  "minecraft:generic.max_health",
+                                               "value":  0.25,
+                                               "operation":  "MULTIPLY_BASE"
+                                           },
+                                           {
+                                               "attribute":  "minecraft:generic.attack_damage",
+                                               "value":  0.15,
+                                               "operation":  "MULTIPLY_BASE"
+                                           }
+                                       ],
+    "block_factorys_bosses:kraken":  [
+                                         {
+                                             "attribute":  "minecraft:generic.max_health",
+                                             "value":  0.25,
+                                             "operation":  "MULTIPLY_BASE"
+                                         },
+                                         {
+                                             "attribute":  "minecraft:generic.attack_damage",
+                                             "value":  0.15,
+                                             "operation":  "MULTIPLY_BASE"
+                                         }
+                                     ],
+    "block_factorys_bosses:underworld_knight":  [
+                                                    {
+                                                        "attribute":  "minecraft:generic.max_health",
+                                                        "value":  0.25,
+                                                        "operation":  "MULTIPLY_BASE"
+                                                    },
+                                                    {
+                                                        "attribute":  "minecraft:generic.attack_damage",
+                                                        "value":  0.15,
+                                                        "operation":  "MULTIPLY_BASE"
+                                                    }
+                                                ],
+    "block_factorys_bosses:infernal_dragon":  [
+                                                  {
+                                                      "attribute":  "minecraft:generic.max_health",
+                                                      "value":  0.25,
+                                                      "operation":  "MULTIPLY_BASE"
+                                                  },
+                                                  {
+                                                      "attribute":  "minecraft:generic.attack_damage",
+                                                      "value":  0.15,
+                                                      "operation":  "MULTIPLY_BASE"
+                                                  }
+                                              ],
+    "alexscaves:luxtructosaurus":  [
+                                       {
+                                           "attribute":  "minecraft:generic.max_health",
+                                           "value":  0.25,
+                                           "operation":  "MULTIPLY_BASE"
+                                       },
+                                       {
+                                           "attribute":  "minecraft:generic.attack_damage",
+                                           "value":  0.15,
+                                           "operation":  "MULTIPLY_BASE"
+                                       }
+                                   ]
 }
