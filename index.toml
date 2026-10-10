@@ -3154,7 +3154,7 @@ hash = "0c16a52c0b04e9d0cf59ce3067411b1ec0f9a885b1bca27b4848308a514cd512"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_grand.json"
-hash = "1d657e9076d4c468b7ccc7b3cb4fbec17e193e0a1bfaf59c6f9c5acb3c9cc882"
+hash = "b3c8a6cdcf386f38ad8ebe6dfac3297f09f802c2408486afcc46b66dfa8fe510"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/nether_moyen.json"
@@ -3174,11 +3174,11 @@ hash = "55ab2046fbba74d9562884d000e6092be5931932eda9775f0ffc1e924efca61e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_grand.json"
-hash = "a08e9f020be42de75824f4fbe432b37718004b380ed43b1e8e63b5741c2ee287"
+hash = "1eb57f71d59bc419cb59fa25d4a06fdecd7118ce2a47128cc37f952c792c20ed"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "f7469664ff1ad33c8a7d26d113039578cf0ed126c283698663f227bae0c48b32"
+hash = "1c233be6d8b216b9289507b066c94e46fdb37ab3b998269da682340bbb40f452"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"
