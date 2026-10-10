@@ -82,7 +82,7 @@ hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "99a579cfbb550550b514ecf82f6d8a40253ed4c6869323def2c2926f91bc4842"
+hash = "5ef2011007617c6bcab886c3b0eb445b9b3e3b3d64312001f3a3b88fca07eec3"
 
 [[files]]
 file = "config/betterstrongholds-neoforge-1_21.toml"
