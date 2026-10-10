@@ -1078,7 +1078,7 @@ hash = "fdc15630be9823ef2e2d58f6343ab6cd811b327d32a61e46a67bb11e66ba53aa"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/stellarity_config.mcfunction"
-hash = "749f82eff50f2567e593c85a0180e7cb6e296cd4323544815e072b3e3a382882"
+hash = "7183af5c30e0fbf9b3056e4766ede64a9abbb7636a5e788d6b6432a76b0f5a3f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
