@@ -3808,6 +3808,11 @@ hash = "280b0345a832d2e903be053c38bdf1be3082a746c616ca054040ed72e54e1ca6"
 metafile = true
 
 [[files]]
+file = "mods/azimuth-api.pw.toml"
+hash = "a14aa30b199bcc4fb3b382327be7cabb22ce03d8e780f68c3b8307136f0589d7"
+metafile = true
+
+[[files]]
 file = "mods/azurelib.pw.toml"
 hash = "3ca38fec99737a41900a63a940da40ff9ed482a75489073a1870548210fcfd39"
 metafile = true
@@ -4010,6 +4015,11 @@ metafile = true
 [[files]]
 file = "mods/create-bionics.pw.toml"
 hash = "124abaf71e87fc686427821889dcc65ba6b709003c426fbc069aeec5747c5a7a"
+metafile = true
+
+[[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "2aa588c0760e81c40fae4df29e14643ddb19d40474bf177206a8f687e70b953e"
 metafile = true
 
 [[files]]
@@ -4930,6 +4940,11 @@ metafile = true
 [[files]]
 file = "mods/structurify.pw.toml"
 hash = "a9d40525bf0794c2c49585fd502e86cbeb60c202c174f5987ed0802b012dc0cd"
+metafile = true
+
+[[files]]
+file = "mods/strut-your-stuff.pw.toml"
+hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
 metafile = true
 
 [[files]]

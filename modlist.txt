@@ -261,3 +261,4 @@ mr | linear-bearing | conserver | roulement lineaire Aeronautics (+ linear-beari
 mr | create-tracks+ | conserver | chenilles pour vehicules Sable
 mr | create-aeroworks | conserver | gyroscope + commandes de pilotage
 mr | aero_cam_sync | client | camera inclinee avec le dirigeable (optionnel a l'installation)
+mr | create-bits-n-bobs | conserver | poutres diagonales, chaines/poulies, roue dentee geante, Nixie, deco (+ strut-your-stuff, azimuth-api)
