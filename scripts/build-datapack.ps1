@@ -485,7 +485,16 @@ foreach ($b in $tablettes.Keys) {
 # Parchemins d'Apex Arcana (grandsigil) : retires de tous les tirages aleatoires de parchemins (tables reecrites dans
 # scripts/data/spell_loot, copiees en section 17) et places seulement dans quelques coffres de fin de jeu, tres rarement.
 # Chance par coffre (Lootr : par joueur). Liste des sorts : scripts/data/sorts_apex.txt.
-$apexChance = [ordered]@{ 'minecraft:chests/ancient_city' = 0.01; 'minecraft:chests/end_city_treasure' = 0.02; 'minecraft:chests/bastion_treasure' = 0.02 }
+# Un coffre de recompense par structure (sauf cite antique : beaucoup de coffres, d'ou 1 %).
+$apexChance = [ordered]@{
+    'minecraft:chests/ancient_city'                       = 0.01
+    'minecraft:chests/end_city_treasure'                  = 0.02
+    'irons_spellbooks:chests/catacombs/dead_king_vault'   = 0.03  # Dead King
+    'irons_spellbooks:chests/citadel/citadel_vault'       = 0.03
+    'bosses_of_mass_destruction:chests/lich_tower'        = 0.03
+    'twilightforest:darktower_boss'                       = 0.03  # Ur-Ghast
+    'deeperdarker:chests/ancient_temple_apex'             = 0.03
+}
 $apexSorts = @([IO.File]::ReadAllLines((Join-Path $PSScriptRoot 'data\sorts_apex.txt')) | Where-Object { $_.Trim() })
 W 'data/pack_lbc/loot_table/coffres/parchemin_apex.json' ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = 'irons_spellbooks:scroll'; functions = @([ordered]@{ function = 'irons_spellbooks:randomize_spell'; quality = [ordered]@{ min = 0.0; max = 1.0 }; spell_filter = [ordered]@{ spells = $apexSorts } }) }) }) })
 $i = 0

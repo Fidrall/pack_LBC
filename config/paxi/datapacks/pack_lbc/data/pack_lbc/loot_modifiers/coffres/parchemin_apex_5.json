@@ -1,0 +1,14 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "neoforge:loot_table_id",
+                           "loot_table_id":  "bosses_of_mass_destruction:chests/lich_tower"
+                       },
+                       {
+                           "condition":  "minecraft:random_chance",
+                           "chance":  0.03
+                       }
+                   ],
+    "table":  "pack_lbc:coffres/parchemin_apex"
+}

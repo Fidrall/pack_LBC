@@ -1450,7 +1450,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "bb88c2536c06f8f8b969a540be2fa7d0bc9f5febfacdeed3e6812e2c3ee0509b"
+hash = "13df3359fd221ac4bc975ee9c78e317a0b562a98ab58d06be029a176daf81c9c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -2734,7 +2734,23 @@ hash = "25f4ce5345385b4ffd1b3a8adea2d4d5e17a8cdeb2a910ce9ee731a881f1de0c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_3.json"
-hash = "63385fa0c1035a0d478beccaf34ae0e39fa918a441efa4043b3a32b29d1dd7a3"
+hash = "4a5fc68bfc4b9a4efc02886a86cb0b31896831ea8b5f4ef7fa7fcb01c3c2ffc1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_4.json"
+hash = "316300db5b05142d55f7f12514dae413bece4ce1c084b821b28b9005cbdd035d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_5.json"
+hash = "b16801d036806ae4b4ac7e8b736ac18b6f22b85b8f6118e29d8bc16d57754c72"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_6.json"
+hash = "df213057924e87ddef194107c6c43059291b207e698d961b270a9c97678c86a3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_7.json"
+hash = "c494394b30cdbe0f62bb664d575dc3d9bb009d638b20093616ada62bf74caf48"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/sac_general.json"

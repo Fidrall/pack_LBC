@@ -3,11 +3,11 @@
     "conditions":  [
                        {
                            "condition":  "neoforge:loot_table_id",
-                           "loot_table_id":  "minecraft:chests/bastion_treasure"
+                           "loot_table_id":  "irons_spellbooks:chests/catacombs/dead_king_vault"
                        },
                        {
                            "condition":  "minecraft:random_chance",
-                           "chance":  0.02
+                           "chance":  0.03
                        }
                    ],
     "table":  "pack_lbc:coffres/parchemin_apex"
