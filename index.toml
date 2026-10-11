@@ -118,7 +118,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "78499c7f6985963325ddb503f17ddff1cd9f60e4a35ecbb35b8410eabb88ca4f"
+hash = "7f9fcb472c34045a68e2328cc1383617af524dc02e2bce7a3a3d4afbe0f8c24b"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -246,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "812bb493cc378c48c09b31d401588da79da605cd53019cc62c0b42000df5457a"
+hash = "0a365db1149d85df3e62db23fa87c6178367505597e1434d7075c7a4dd584564"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -4664,6 +4664,11 @@ metafile = true
 [[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
 hash = "48f5f92618ff0a13d6c9bd4b848eb8dc53b1dc476217c75c78e450113fe59030"
+metafile = true
+
+[[files]]
+file = "mods/more-overlays-updated.pw.toml"
+hash = "a9b5d9fb791c757bcc59b20d0cf3b1fc42f026feb7514c7ce59ee43726f3366d"
 metafile = true
 
 [[files]]

@@ -38,7 +38,7 @@ key_iris.keybind.reload:key.keyboard.unknown:
 key_iris.keybind.toggleShaders:key.keyboard.unknown:
 key_iris.keybind.shaderPackSelection:key.keyboard.o:
 key_iris.keybind.wireframe:key.keyboard.unknown:
-key_key.corpse.death_history:key.keyboard.unknown:
+key_key.corpse.death_history:key.keyboard.j:
 key_key.curios.open.desc:key.keyboard.g:
 key_accessories.key.open_accessories_screen:key.keyboard.unknown:
 key_key.jetpack.toggle_active.description:key.keyboard.unknown:
@@ -138,7 +138,7 @@ key_key.ftbteams.open_gui:key.keyboard.unknown:
 key_key.golemoverhaul.netherite_golem_summon:key.keyboard.unknown:
 key_key.simplyswords.mainhand_ability:key.keyboard.unknown:
 key_key.simplyswords.offhand_ability:key.keyboard.unknown:
-key_key.ftbquests.quests:key.keyboard.j:
+key_key.ftbquests.quests:key.keyboard.f4:
 key_key.ftbquests.cycle_pinned_tracker:key.keyboard.unknown:
 key_key.ftbquests.gui.zoom_in:key.keyboard.equal:
 key_key.ftbquests.gui.zoom_out:key.keyboard.minus:
@@ -205,7 +205,7 @@ key_equipmentcompare.key.showTooltips:key.keyboard.left.shift:
 key_key.create_sa.flying:key.keyboard.space:
 key_key.create_sa.increase_reach:key.keyboard.up:
 key_key.create_sa.decrease_reach:key.keyboard.down:
-key_key.irons_spellbooks.spell_wheel:key.keyboard.x:
+key_key.irons_spellbooks.spell_wheel:key.mouse.middle:
 key_key.irons_spellbooks.spell_wheel_toggle:key.keyboard.unknown:
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v:
 key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.unknown:
@@ -255,7 +255,7 @@ key_key.journeymap.fullscreen.west:key.keyboard.left:
 key_key.journeymap.fullscreen_follow_player:key.keyboard.f:
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown:
 key_key.journeymap.toggle_entity_names:key.keyboard.unknown:
-key_key.dragon_change_view:key.keyboard.f7:
+key_key.dragon_change_view:key.keyboard.unknown:
 key_controls.petting.open_settings:key.keyboard.unknown:
 key_key.hide_icons:key.keyboard.unknown:
 key_key.hazentouvelib.ability_4:key.keyboard.unknown:
@@ -276,7 +276,7 @@ key_key.doggytalents.whistle.1:key.keyboard.1:SHIFT
 key_key.familiarslib.familiar_quick_summon_6:key.keyboard.unknown:
 key_key.whisper:key.keyboard.unknown:
 key_key.relics.research_relic:key.keyboard.left.shift:
-key_key.mute_microphone:key.keyboard.unknown:
+key_key.mute_microphone:key.keyboard.semicolon:
 key_key.dragon_fireAttack:key.keyboard.unknown:
 key_key.familiarslib.familiar_quick_summon_9:key.keyboard.unknown:
 key_key.disable_voice_chat:key.keyboard.unknown:
@@ -305,3 +305,5 @@ key_key.familiarslib.familiar_quick_summon_3:key.keyboard.unknown:
 key_key.aero_cam_sync.toggle:key.keyboard.unknown:
 key_key.aero_cam_sync.open_config:key.keyboard.unknown:
 key_key.aero_cam_sync.add_mainhand_item_client:key.keyboard.unknown:
+key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:
+key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9:

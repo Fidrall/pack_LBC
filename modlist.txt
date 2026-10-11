@@ -264,3 +264,4 @@ mr | mutant-monsters | jetable | mutants rares
 mr | enderman-overhaul | jetable | variantes d'Enderman par biome (dont grotte)
 mr | nyfs-spiders | jetable | araignees qui grimpent murs/plafonds
 mr | infested-swarms-and-spiders | jetable | araignees/poissons d'argent, nids, 4 enchantements (cfg Apothic)
+mr | more-overlays-updated | client | F7 niveaux de lumiere, F9 bordures de chunks (comme l'Endventure)
