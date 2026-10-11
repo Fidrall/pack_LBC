@@ -4892,6 +4892,11 @@ hash = "fd7473a15dd771e7a7f53159840799afffc62dda2abc4ee95d7ee0cbeac569b2"
 metafile = true
 
 [[files]]
+file = "mods/somake-spells-irons-spells-addon.pw.toml"
+hash = "71380603547e4339a5bcb8ffebc33ac05ca7b41d98b2201f2c8beb4dd2b0eb45"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
 hash = "4ad16a440d4a3ff30953d303a21581c1bdafae9ace3a00ae400a875e24c7f4a5"
 metafile = true
