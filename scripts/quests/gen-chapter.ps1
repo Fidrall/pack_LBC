@@ -16,6 +16,8 @@ $used = New-Object 'System.Collections.Generic.HashSet[string]'
 foreach ($f in Get-ChildItem "$base\chapters", "$base\reward_tables" -Filter *.snbt) { if ($f.BaseName -eq $file) { continue }; foreach ($m in [regex]::Matches([IO.File]::ReadAllText($f.FullName), '"([0-9A-F]{16})"')) { [void]$used.Add($m.Groups[1].Value) } }
 foreach ($v in $ids.Values) { [void]$used.Add($v) }
 function Id($key) {
+  # identifiant FTB brut (16 hexa) : quete d'un autre chapitre ou d'un chapitre importe (dependance vers l'existant)
+  if ($key -cmatch '^[0-9A-F]{16}$') { return $key }
   if ($ids.ContainsKey($key)) { return $ids[$key] }
   do { $n = [QConv]::NewId() } while ($used.Contains($n))
   [void]$used.Add($n); $ids[$key] = $n; return $n

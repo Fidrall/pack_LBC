@@ -1,4 +1,4 @@
-chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
+chapter.19BE083ACF488E0F.title: "&6&lMagic: Iron's Spells and its extensions&r"
 quest.0051AD1BF14F9EC9.quest_subtitle: "&6+10% Summon Damage"
 quest.01219DEB95032DC7.title: "&dShadow-Walker Outfit"
 quest.0206507E91CB74CB.quest_subtitle: "Use in Smithing Table to remove &6Imbuement or Upgrades"

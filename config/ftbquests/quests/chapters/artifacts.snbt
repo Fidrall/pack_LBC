@@ -2148,5 +2148,731 @@
 			x: 6.5d
 			y: 10d
 		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			icon: {
+				id: "reliquified_irons_spells_and_spellbooks:hat_of_omniscience"
+			}
+			id: "07AB874640C562EC"
+			rewards: [
+				{
+					id: "09FDC91CC75D1704"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7F3250DF7741D343"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 12d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "1DA06B171AB6C23C"
+			optional: true
+			rewards: [
+				{
+					id: "15423CA6884FD5DC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1EC1E78D1AABE914"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "60E0824BF42F8446"
+			optional: true
+			rewards: [
+				{
+					id: "584328A0594AD152"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3B8D878520717BB0"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:cardiac_trap" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "5D7341B659452972"
+			optional: true
+			rewards: [
+				{
+					id: "3656B63A34764765"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3DF5CE4426358253"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:cloak_of_the_bloody_feather" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "6F95528D2463F4EF"
+			optional: true
+			rewards: [
+				{
+					id: "65D1EE80EECEED93"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1AB6E90393971EC4"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:dimension_key" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "4522C82AA3368A27"
+			optional: true
+			rewards: [
+				{
+					id: "71EDC6C4F29C4E52"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "62C7D56388C776EE"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:dragon_blood_vial" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "083B2A704B7FC057"
+			optional: true
+			rewards: [
+				{
+					id: "768E48019BC94B2E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "47C68E010728A07E"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:echo_glove" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "6796A0CBC2BA3C7D"
+			optional: true
+			rewards: [
+				{
+					id: "2BD921680C19DC72"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2C6F4D63534CB799"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:ender_bow" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "7CA61CC13875E6E0"
+			optional: true
+			rewards: [
+				{
+					id: "1AAB08B5DFF595BB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "52CA56C1A7E3222D"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 13.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "6A1CD498DB3C2A1B"
+			optional: true
+			rewards: [
+				{
+					id: "5F064F1C9E7A4535"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7241CE6011269237"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:galaxy_devourer_diadem" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "59911189F5F5F299"
+			optional: true
+			rewards: [
+				{
+					id: "04EED71BA14E045D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "01ECD5D8A6791DD7"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:hat_of_omniscience" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "0521CF6514C11CC3"
+			optional: true
+			rewards: [
+				{
+					id: "099DBF492BA026E9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "14B597AFA32993A4"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:immaterial_disperser" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "3C70DF2450BA9060"
+			optional: true
+			rewards: [
+				{
+					id: "743A04D3268C84C2"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "521391048EBB32E0"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:living_flesh" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "46EBC3F0E16D345B"
+			optional: true
+			rewards: [
+				{
+					id: "0E2A28A4E2F772CF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0C5ED5F09C52C387"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:lunar_sextant" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "31D5DC8F978F1581"
+			optional: true
+			rewards: [
+				{
+					id: "3EFE5E64F6A07F07"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "06A845FB64E0DFDB"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:mask_of_hunger" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "21C2F730E6414473"
+			optional: true
+			rewards: [
+				{
+					id: "283CBF0B90A4C4FE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "14A665E4990DD86B"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:mirror_of_transgression" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "5FCDEAF30DC72351"
+			optional: true
+			rewards: [
+				{
+					id: "7601EED497E59BFC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3AEA3CBAE1737661"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:pulsar_mantle" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 15d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "6446E7BD7AFA4193"
+			optional: true
+			rewards: [
+				{
+					id: "6A8C511857516660"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "186D158EB5EF672F"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:ring_of_blades" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "0B692AAED01E8A6C"
+			optional: true
+			rewards: [
+				{
+					id: "56880EC6E066D6FB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3F5BEA0B9483A569"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 16.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "04DCA1735DE8ACF5"
+			optional: true
+			rewards: [
+				{
+					id: "5FB8B110D093C2CB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "01E4C1CE429F7FB2"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_claymore" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "171ACE5A045B9A88"
+			optional: true
+			rewards: [
+				{
+					id: "44C129F47C170E6E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5C18E727B4C52A2C"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_rapier" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "181E09AFC1D626E5"
+			optional: true
+			rewards: [
+				{
+					id: "5CEFDC421951F183"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1D294C0F69CD4FEA"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_sword" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "5652F229B857FED1"
+			optional: true
+			rewards: [
+				{
+					id: "6FA2C1E551EBC6EE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1A44988D3ACB558B"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:shadow_claws" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 16.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "27630A8A791BC3CA"
+			optional: true
+			rewards: [
+				{
+					id: "4F1FD96EE3FC2D04"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "700A53778F0B3232"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:sinner_crown" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["07AB874640C562EC"]
+			hide_dependency_lines: true
+			id: "625D742435C1AF0A"
+			optional: true
+			rewards: [
+				{
+					id: "7D6701554D7357D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5FF7163211570A9E"
+					item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:slicer" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 16.5d
+		}
 	]
 }

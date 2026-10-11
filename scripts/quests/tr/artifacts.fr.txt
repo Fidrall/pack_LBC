@@ -1,4 +1,4 @@
-chapter.464FB437D5DF7824.title: "&eArtefacts"
+chapter.464FB437D5DF7824.title: "&e&lArtefacts et reliques"
 quest.016C498DFB704536.quest_subtitle: "Les villageois te font des prix bien plus bas"
 quest.042259C7B1BF773A.quest_subtitle: "Met le feu à ceux qui t'attaquent"
 quest.0424F3DCA7620F49.quest_subtitle: "Augmente la vitesse de minage et permet de casser la pierre à mains nues"

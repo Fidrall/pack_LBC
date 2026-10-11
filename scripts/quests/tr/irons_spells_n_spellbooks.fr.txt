@@ -1,4 +1,4 @@
-chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
+chapter.19BE083ACF488E0F.title: "&6&lMagie : Iron's Spells et ses extensions&r"
 quest.0051AD1BF14F9EC9.quest_subtitle: "&6+10 % de dégâts d'invocation"
 quest.01219DEB95032DC7.title: "&dTenue de Marcheur des Ombres"
 quest.0206507E91CB74CB.quest_subtitle: "S'utilise sur la table de forgeron pour retirer une &6imprégnation ou une amélioration"

@@ -1,6 +1,7 @@
-﻿$Chapter = @{ file = 'hazen_n_stuff'; title = '&6&lHazen ''n Stuff'; subtitle = 'Armes, armures et sorts pour les mages'; group = '1A00000000000004'; order = 3; icon = 'hazennstuff:deus_essence' }
+﻿# Fusionne dans le chapitre Iron's par merge-into-chapter.ps1 (hazen_n_stuff.snbt est temporaire ; ids conserves).
+$Chapter = @{ file = 'hazen_n_stuff'; title = '&6&lHazen ''n Stuff'; subtitle = 'Armes, armures et sorts pour les mages'; group = '1A00000000000004'; order = 3; icon = 'hazennstuff:deus_essence' }
 $Quests = @(
-  @{ k='intro'; x=0; y=0; size=2; shape='gear'; tasks=@('@check'); crate='commune'
+  @{ k='intro'; x=0; y=0; size=2; shape='gear'; deps=@('53C9B66BEC667ED0'); hideLines=$true; tasks=@('@check'); crate='commune'
      t='&6&lHazen ''n Stuff'; st='Une extension d''Iron''s Spells'
      d=@('&6Hazen ''n Stuff&r ajoute &d39 sorts&r, des dizaines d''&earmes&r et de &esets d''armure de mage&r, et des &bcristaux&r qui renforcent mana, vie et esprit.',
          '',

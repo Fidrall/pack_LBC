@@ -37,4 +37,20 @@ $Quests = @(
   @{ k = 'r_bottle'; x = 6.5; y = 10; deps = @('relics_intro'); tasks = @('relics:relic_experience_bottle'); crate = 'commune'; optional = $true
      t = 'Bouteille d''expérience de relique'; st = 'Pour faire progresser plus vite'
      d = @('Une &ebouteille d''expérience&r qui se donne directement à une relique. Pratique pour monter en niveau celles qui s''utilisent rarement.') }
+  # --- Reliques des mages (Reliquified Iron's Spells) : meme tirage que les reliques, dans les coffres des structures
+  @{ k = 'ri_intro'; x = 1.5; y = 12; size = 1.5; shape = 'gear'; deps = @('relics_intro'); tasks = @('@check'); icon = 'reliquified_irons_spells_and_spellbooks:hat_of_omniscience'; crate = 'commune'
+     t = '&d&lLes reliques des mages'; st = 'Reliquified Iron''s Spells'
+     d = @('&dReliquified Iron''s Spells&r ajoute &e24 reliques&r liées à la magie : poupée vaudou, chapeau d''omniscience, épées scellées, griffes d''ombre…',
+           '',
+           'Elles se trouvent comme les autres reliques, dans les &ecoffres des structures&r, et montent en niveau de la même façon.',
+           '',
+           'Ces quêtes sont &7facultatives&r.') }
 )
+$ri = @(@('bloody_voodoo_doll', 'Poupée vaudou ensanglantée'), @('cardiac_trap', 'Piège cardiaque'), @('cloak_of_the_bloody_feather', 'Cape à la plume sanglante'), @('dimension_key', 'Clé dimensionnelle'), @('dragon_blood_vial', 'Fiole de sang de dragon'), @('echo_glove', 'Gant d''écho'), @('ender_bow', 'Arc de l''Ender'), @('flask_of_the_red_mist', 'Flasque de brume rouge'),
+  @('galaxy_devourer_diadem', 'Diadème du dévoreur de galaxies'), @('hat_of_omniscience', 'Chapeau d''omniscience'), @('immaterial_disperser', 'Disperseur immatériel'), @('living_flesh', 'Chair vivante'), @('lunar_sextant', 'Sextant lunaire'), @('mask_of_hunger', 'Masque de la faim'), @('mirror_of_transgression', 'Miroir de transgression'), @('pulsar_mantle', 'Manteau du pulsar'),
+  @('ring_of_blades', 'Anneau de lames'), @('ring_of_elusiveness', 'Anneau d''insaisissabilité'), @('sealed_claymore', 'Claymore scellée'), @('sealed_rapier', 'Rapière scellée'), @('sealed_sword', 'Épée scellée'), @('shadow_claws', 'Griffes d''ombre'), @('sinner_crown', 'Couronne du pécheur'), @('slicer', 'Trancheur'))
+$i = 0
+foreach ($r in $ri) {
+  $Quests += @{ k = "ri_$($r[0])"; x = -4.5 + ($i % 8) * 1.5; y = 13.5 + [Math]::Floor($i / 8) * 1.5; deps = @('ri_intro'); hideLines = $true; tasks = @("reliquified_irons_spells_and_spellbooks:$($r[0])"); crate = 'rare'; optional = $true; t = $r[1]; st = 'Relique des mages' }
+  $i++
+}

@@ -16,7 +16,7 @@
 	chapter.088490E6C2387E8A.title: "&3&lLes Grottes d'Alex"
 	chapter.09B56D111668F538.title: "&6&nPremiers pas !"
 	chapter.178BB414E2F55B72.title: "&aÉlectricité"
-	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
+	chapter.19BE083ACF488E0F.title: "&6&lMagie : Iron's Spells et ses extensions&r"
 	chapter.1B36D78198D6D21C.chapter_subtitle: [
 		"Farmer's Delight, Create et de bons petits plats"
 	]
@@ -31,7 +31,7 @@
 		"Un monde immense à découvrir"
 	]
 	chapter.3A0D968D2B12B019.title: "&a&lExploration"
-	chapter.464FB437D5DF7824.title: "&eArtefacts"
+	chapter.464FB437D5DF7824.title: "&e&lArtefacts et reliques"
 	chapter.4B6E4A0215F45FC0.title: "&3L'Autre Côté : &0Deeper and Darker"
 	chapter.4C2580819596F6D1.chapter_subtitle: [
 		"Construis, pilote et fais voler tes propres vaisseaux"
@@ -64,10 +64,6 @@
 		"Le paradis des îles flottantes"
 	]
 	chapter.793BF4A1BA3A1FC7.title: "&e&lL'Aether"
-	chapter.7ECCE25899EAF251.chapter_subtitle: [
-		"Armes, armures et sorts pour les mages"
-	]
-	chapter.7ECCE25899EAF251.title: "&6&lHazen 'n Stuff"
 	chapter.7EFC62EFB68D7191.chapter_subtitle: [
 		"Deux dimensions transformées"
 	]
@@ -108,6 +104,8 @@
 		"&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver une Cité Engloutie.&r"
 	]
 	quest.00D7A88C4C686C02.quest_subtitle: "&3☠ Niveau 6"
+	quest.010A0A0127B9CA60.quest_subtitle: "Sort ultime"
+	quest.010A0A0127B9CA60.title: "Mille Lames"
 	quest.01219DEB95032DC7.title: "&dTenue de Marcheur des Ombres"
 	quest.01421EA2EE567E26.quest_subtitle: "La force des sables"
 	quest.01421EA2EE567E26.title: "Le gantelet de Sirok"
@@ -122,6 +120,11 @@
 	quest.015C1D32C6870F09.quest_subtitle: "Une photo couleur à l'ancienne"
 	quest.015C1D32C6870F09.title: "&dDe toutes les couleurs"
 	quest.016C498DFB704536.quest_subtitle: "Les villageois te font des prix bien plus bas"
+	quest.018AADA52763B44E.quest_desc: [
+		"Un des trois nouveaux &emétaux&r de Somake, avec le céranium et le magmarium."
+	]
+	quest.018AADA52763B44E.quest_subtitle: "Un métal des profondeurs"
+	quest.018AADA52763B44E.title: "L'abyssium"
 	quest.0206507E91CB74CB.quest_subtitle: "S'utilise sur la table de forgeron pour retirer une &6imprégnation ou une amélioration"
 	quest.0259E666A5D8A7BA.quest_desc: [
 		"Trois champions du &cPorte-Flamme&r : &cPyromus&r, &cAegis&r et &cAptos&r. Ils lâchent du &6Pyrium&r et des reliques uniques (bague, médaillon, lame du Légat)."
@@ -241,6 +244,8 @@
 	]
 	quest.04C1E2AB542EDD57.quest_subtitle: "Plus de puissance"
 	quest.04C1E2AB542EDD57.title: "La Bibliothèque Infernale"
+	quest.04DCA1735DE8ACF5.quest_subtitle: "Relique des mages"
+	quest.04DCA1735DE8ACF5.title: "Claymore scellée"
 	quest.05069A76D6F3ECB9.quest_desc: [
 		"Combine la tablette avec une carte pour obtenir une &ecarte de grotte&r. Elle cherche le biome le plus proche, puis te montre le chemin."
 		""
@@ -262,6 +267,8 @@
 		""
 		"Pour la « démonter », ramène-la sur l'Assembleur et coupe le signal de redstone."
 	]
+	quest.0521CF6514C11CC3.quest_subtitle: "Relique des mages"
+	quest.0521CF6514C11CC3.title: "Disperseur immatériel"
 	quest.05A39ED901BC6569.quest_subtitle: "Réduit la durée des effets négatifs"
 	quest.05B32DE12868C6DE.quest_desc: [
 		"Avec ta &epioche en bois&r, la pierre n'est plus un problème."
@@ -363,6 +370,8 @@
 	quest.073DFF74F947F72B.quest_subtitle: "Le charbon du ciel"
 	quest.073DFF74F947F72B.title: "L'Ambrosium"
 	quest.07655CF543C452F8.quest_subtitle: "Récupère du souffle du dragon dans une fiole."
+	quest.07722D8B3B464FEF.quest_subtitle: "Sort ultime"
+	quest.07722D8B3B464FEF.title: "Le Dragon de foudre"
 	quest.077E534959528ED7.quest_desc: [
 		"&aCritters and Companions&r ajoute de petits animaux, dont beaucoup peuvent être &aapprivoisés&r :"
 		""
@@ -376,6 +385,15 @@
 	]
 	quest.077E534959528ED7.quest_subtitle: "Critters and Companions"
 	quest.077E534959528ED7.title: "&a&lCompagnons à apprivoiser"
+	quest.07AB874640C562EC.quest_desc: [
+		"&dReliquified Iron's Spells&r ajoute &e24 reliques&r liées à la magie : poupée vaudou, chapeau d'omniscience, épées scellées, griffes d'ombre…"
+		""
+		"Elles se trouvent comme les autres reliques, dans les &ecoffres des structures&r, et montent en niveau de la même façon."
+		""
+		"Ces quêtes sont &7facultatives&r."
+	]
+	quest.07AB874640C562EC.quest_subtitle: "Reliquified Iron's Spells"
+	quest.07AB874640C562EC.title: "&d&lLes reliques des mages"
 	quest.07AE40F3FDA5892E.quest_desc: [
 		"L'&earmure primordiale&r se fabrique avec les peaux des créatures du biome."
 	]
@@ -425,6 +443,8 @@
 		"Tu peux rendre un portail permanent avec un &bCadre de Portail&r : pose le cadre et lance le sort de portail dessus. Les portails permanents peuvent être teints de différentes couleurs pour les reconnaître."
 	]
 	quest.0819B8A983F38919.title: "&l&5Astuces pour se téléporter&r&r"
+	quest.083B2A704B7FC057.quest_subtitle: "Relique des mages"
+	quest.083B2A704B7FC057.title: "Gant d'écho"
 	quest.08A13A68A77997FD.quest_desc: [
 		"La fin de toutes choses… ou le vrai début. Le niveau &6Apogée&r est le plus dangereux, avec le meilleur butin."
 		""
@@ -508,6 +528,11 @@
 		""
 		"Les &6Convoyeurs à Chaîne&r trient automatiquement les colis selon leur adresse, et les envoient vers les &bGrenouilles-Postières&r correspondantes."
 	]
+	quest.0AE3E37BBB68A843.quest_desc: [
+		"&6Create : Wizardry&r automatise la magie avec Create : essence arcanique, encres, mana liquide, foudre et même un lanceur de sorts."
+	]
+	quest.0AE3E37BBB68A843.quest_subtitle: "La sorcellerie mécanique"
+	quest.0AE3E37BBB68A843.title: "&e&lCreate : Wizardry"
 	quest.0B0043E696D0EE22.quest_desc: [
 		"&aLa Table de Forgeron sert à insérer des gemmes dans tes outils&r, à condition qu'ils aient un &bemplacement&r libre."
 		""
@@ -522,6 +547,8 @@
 	]
 	quest.0B1E1FCC73BFB370.quest_subtitle: "Les enchantements les plus hauts"
 	quest.0B1E1FCC73BFB370.title: "La Bibliothèque des Abysses"
+	quest.0B692AAED01E8A6C.quest_subtitle: "Relique des mages"
+	quest.0B692AAED01E8A6C.title: "Anneau d'insaisissabilité"
 	quest.0B76EAE1EE32AED7.quest_desc: [
 		"Mélange 4 poudres de pierre de l'End, 2 pépites de zinc et de l'eau dans un &6bassin chauffé&r (Brûleur à Blaze) avec un &6Mélangeur Mécanique&r."
 		""
@@ -540,6 +567,11 @@
 		"Ta &6main gauche&r a aussi un carrousel : maintiens la touche &bX&r et fais défiler la molette pour changer d'objet."
 	]
 	quest.0BD070E54EF86FDA.title: "Le bon outil, au bon moment"
+	quest.0BD23567F591AE06.quest_desc: [
+		"Le dernier niveau du grimoire."
+	]
+	quest.0BD23567F591AE06.quest_subtitle: "Le grimoire ultime"
+	quest.0BD23567F591AE06.title: "Magma ardent III"
 	quest.0BECBC39B0AB9A3A.quest_desc: [
 		"Autour des &epiliers d'obsidienne&r vivent des &ecorbeaux&r : leurs plumes servent à fabriquer un &eFocus de Carte Magique&r, avec des baies-torches et de la pierre lumineuse."
 		""
@@ -547,6 +579,11 @@
 	]
 	quest.0BECBC39B0AB9A3A.quest_subtitle: "Ne pas se perdre"
 	quest.0BECBC39B0AB9A3A.title: "La Carte Magique"
+	quest.0C1887FFAA36273A.quest_desc: [
+		"Le tome de la &eliche&r."
+	]
+	quest.0C1887FFAA36273A.quest_subtitle: "La tour de la liche"
+	quest.0C1887FFAA36273A.title: "Le secret de la liche"
 	quest.0C23D8D72D09040F.quest_desc: [
 		"&eVibrant Vaults&r ajoute des &econteneurs d'expédition&r, des coffres-forts verticaux et des versions colorées des blocs de logistique : pratique pour organiser un grand entrepôt… ou la soute d'un dirigeable !"
 	]
@@ -651,6 +688,11 @@
 	]
 	quest.0F4D2E3476133AE8.quest_subtitle: "Dépasser les limites des enchantements"
 	quest.0F4D2E3476133AE8.title: "La Table d'Imprégnation"
+	quest.0F6977F5046A34DC.quest_desc: [
+		"Fabrique un &eboîtier arcanique&r."
+	]
+	quest.0F6977F5046A34DC.quest_subtitle: "Le boîtier arcanique"
+	quest.0F6977F5046A34DC.title: "L'âge des Lumières"
 	quest.0F7EFE6F208D4123.quest_desc: [
 		"Les &6&lTuyaux&r&r transportent les liquides entre les réservoirs et le monde."
 		""
@@ -690,6 +732,11 @@
 		"Que pourrais-tu faire avec ces outils ?"
 	]
 	quest.1045FB828F50B457.title: "À la cuisine !"
+	quest.104DD35BA3CA84D0.quest_desc: [
+		"Une &earmure de mage&r forgée avec les matériaux d'Ignis."
+	]
+	quest.104DD35BA3CA84D0.quest_subtitle: "Armure de mage de feu"
+	quest.104DD35BA3CA84D0.title: "La robe d'Ignis"
 	quest.10CDACBCA03AEDF7.quest_subtitle: "Attire les objets au sol vers toi"
 	quest.10D6A1B9E23878A7.quest_desc: [
 		"La &6&lMoissonneuse Mécanique&r&r est un bloc de construction animée qui récolte automatiquement les cultures."
@@ -700,6 +747,11 @@
 		""
 		"Après la récolte, les cultures repartent à leur premier stade de croissance."
 	]
+	quest.10E3F75C7B6B3BA8.quest_desc: [
+		"Apprivoise &etous les types de familiers&r."
+	]
+	quest.10E3F75C7B6B3BA8.quest_subtitle: "Tous les familiers"
+	quest.10E3F75C7B6B3BA8.title: "&d&lAnthropologue"
 	quest.110D42C0780D66BF.quest_desc: [
 		"Le &6&lContraintomètre&r&r mesure la contrainte (SU) sur un axe, pour voir à quel point ton réseau est chargé par rapport à sa capacité totale."
 		""
@@ -732,6 +784,8 @@
 	quest.12029CC14E6FFE54.quest_desc: [
 		"La &aTable de Reforge&r fonctionne comme la version simple, mais elle permet d'aller au-delà de &9Rare&r, jusqu'aux raretés &6Épique et Mythique&r."
 	]
+	quest.12306FEC6457DCCC.quest_subtitle: "Apprivoiser"
+	quest.12306FEC6457DCCC.title: "Familier : Nécromancien"
 	quest.124E77237E4676B6.quest_desc: [
 		"Grâce à &eCreate: Central Kitchen&r, les machines de Create savent utiliser les recettes de Farmer's Delight :"
 		""
@@ -801,6 +855,11 @@
 	]
 	quest.1376726CEAE353A2.quest_subtitle: "Savoir à quelle hauteur on vole"
 	quest.1376726CEAE353A2.title: "Le Capteur d'Altitude"
+	quest.13A8F5D3D1055A2C.quest_desc: [
+		"L'armure de mage de l'école de l'&beau&r."
+	]
+	quest.13A8F5D3D1055A2C.quest_subtitle: "Armure de l'école de l'eau"
+	quest.13A8F5D3D1055A2C.title: "L'aquamancien"
 	quest.13F0D2A3C376C29A.quest_desc: [
 		"L'&eHélice en Andésite&r et l'&eHélice en Bois&r sont des hélices prêtes à l'emploi."
 		""
@@ -872,6 +931,8 @@
 		""
 		"La &a&lLanterne d'Expérience&r&r fonctionne aussi &6&lsur les constructions animées&r&r."
 	]
+	quest.171ACE5A045B9A88.quest_subtitle: "Relique des mages"
+	quest.171ACE5A045B9A88.title: "Rapière scellée"
 	quest.178F6215923BB915.quest_desc: [
 		"L'&6horaire de train&r permet de choisir dans quel ordre le train va de gare en gare et combien de temps il attend à chaque arrêt."
 		""
@@ -908,6 +969,8 @@
 		""
 		"&2Important :&r garde un feu de camp sous le chaudron pour qu'il reste chaud."
 	]
+	quest.181E09AFC1D626E5.quest_subtitle: "Relique des mages"
+	quest.181E09AFC1D626E5.title: "Épée scellée"
 	quest.183F09B193EA2C62.quest_desc: [
 		"Skor, Sirok, Nerakyss, Helvar et Ashlord sont tombés. Ta réputation te précède !"
 	]
@@ -1106,6 +1169,11 @@
 	quest.1C042745514AC596.quest_subtitle: "Le plus rare de tous"
 	quest.1C042745514AC596.title: "Le Moa Noir"
 	quest.1C267CC53FD04C88.title: "&4Tenue de Cultiste"
+	quest.1C5547BC552A32E9.quest_desc: [
+		"Fabrique une &emaison à familiers&r pour les ranger."
+	]
+	quest.1C5547BC552A32E9.quest_subtitle: "Ranger ses familiers"
+	quest.1C5547BC552A32E9.title: "Un village miniature"
 	quest.1C60254EAE960673.quest_desc: [
 		"&e&nFiole de foudre&r&r"
 		"Utilise une fiole vide sur un creeper chargé. Pour charger un creeper, utilise le sort Éclair, un paratonnerre ou un trident."
@@ -1155,6 +1223,8 @@
 	]
 	quest.1CFAFD79611B348D.quest_subtitle: "Forgé dans le sang de l'Hydre"
 	quest.1CFAFD79611B348D.title: "L'équipement ardent"
+	quest.1DA06B171AB6C23C.quest_subtitle: "Relique des mages"
+	quest.1DA06B171AB6C23C.title: "Poupée vaudou ensanglantée"
 	quest.1DCBB6615422DBBB.quest_desc: [
 		"La &6Boussole de l'Explorateur&r peut localiser &bn'importe quelle structure&r du pack."
 		""
@@ -1185,6 +1255,11 @@
 	quest.1E4E4CCC6E1104DC.title: "&2Les véhicules terrestres"
 	quest.1E9C19A7819C7598.quest_subtitle: "Main"
 	quest.1E9C19A7819C7598.title: "Bâton de chorus"
+	quest.1EB944FE6B8CDB68.quest_desc: [
+		"Fabrique le &eTome d'alignement des familiers&r."
+	]
+	quest.1EB944FE6B8CDB68.quest_subtitle: "Le tome d'alignement"
+	quest.1EB944FE6B8CDB68.title: "Nous ne faisons qu'un"
 	quest.1F46D0D373488587.quest_desc: [
 		"Le &6Sculpteur&r se trouve au sommet des &emontagnes&r. Pour l'atteindre, il faut relever son épreuve : grimper une colonne de pierre pendant qu'il la sculpte."
 		""
@@ -1311,9 +1386,16 @@
 		"Quand une bobine est vide, elle redevient une Bobine Vide, prête à être rechargée."
 	]
 	quest.2192D2F22A2C17FD.title: "&e🧵 Bobines et câbles"
+	quest.21C2F730E6414473.quest_subtitle: "Relique des mages"
+	quest.21C2F730E6414473.title: "Miroir de transgression"
 	quest.21E5B83843A2DA2A.quest_desc: [
 		"Pratique pour séparer des trains ou des wagons qui se cognent, ou simplement pour donner du style à ton train."
 	]
+	quest.224003136239F945.quest_desc: [
+		"La &cMonstruosité de Netherite&r cache des sorts infernaux codés dans sa carcasse."
+	]
+	quest.224003136239F945.quest_subtitle: "Les sorts de la Monstruosité"
+	quest.224003136239F945.title: "L'empreinte codée"
 	quest.2241F84F6AAD5933.quest_subtitle: "L'amulette de téléportation te donne de l'esquive après une téléportation, si ta puissance des sorts de l'Ender est assez élevée"
 	quest.226DE63B592A11D8.quest_desc: [
 		"Grâce à &eWaystones: Sable&r, tu peux poser une &ewaystone sur ton vaisseau&r !"
@@ -1341,6 +1423,13 @@
 		""
 		"Une fois produite, elle se transmet par des axes, des engrenages et d'autres pièces mécaniques pour faire tourner tes créations."
 	]
+	quest.232E530C755FCFAB.quest_desc: [
+		"Un des trois nouveaux &emétaux&r de Somake."
+	]
+	quest.232E530C755FCFAB.quest_subtitle: "Un métal céleste"
+	quest.232E530C755FCFAB.title: "Le céranium"
+	quest.235BEC48FF1E7468.quest_subtitle: "Sort ultime"
+	quest.235BEC48FF1E7468.title: "Le Grand Sigil"
 	quest.239660F260DB37EA.quest_desc: [
 		"Les &n&6Coffres-forts&r&r sont de grands rangements accessibles uniquement par des entonnoirs, des trémies ou des appareils similaires."
 		""
@@ -1478,6 +1567,12 @@
 	quest.26E3D80B16133799.quest_subtitle: "Overworld, sous la couche 0"
 	quest.26E3D80B16133799.title: "Pierre d'effroi"
 	quest.26FB758B3706B935.quest_subtitle: "Les créatures tuées lâchent &6+25 % d'expérience&r."
+	quest.272AD46D59843D62.quest_subtitle: "Apprivoiser"
+	quest.272AD46D59843D62.title: "Familier : Médecin de peste"
+	quest.27630A8A791BC3CA.quest_subtitle: "Relique des mages"
+	quest.27630A8A791BC3CA.title: "Couronne du pécheur"
+	quest.27B404AA4E20198D.quest_subtitle: "Sort ultime"
+	quest.27B404AA4E20198D.title: "Pleine floraison"
 	quest.2807106C369DF042.quest_subtitle: "Obtiens un Transmetteur de Sculk."
 	quest.28101F299D039864.quest_desc: [
 		"Apparaît naturellement dans les &achunks à slimes&r, en deux tailles différentes, chacune avec ses propres statistiques."
@@ -1565,6 +1660,11 @@
 	]
 	quest.29D6C7D5DEC00FB2.quest_subtitle: "Détecter les obstacles"
 	quest.29D6C7D5DEC00FB2.title: "Le Capteur Optique"
+	quest.2A485594292869F0.quest_desc: [
+		"Améliore ton grimoire de Netherite en &3Volume des Profondeurs&r."
+	]
+	quest.2A485594292869F0.quest_subtitle: "Un grimoire de Netherite amélioré"
+	quest.2A485594292869F0.title: "Le Volume des Profondeurs"
 	quest.2B08F0E6CD504832.title: "Acier d'effroi"
 	quest.2B2107E4946671B3.quest_desc: [
 		"La &5Licowitch&r garde sa tour et un coffre secret bien caché."
@@ -1609,6 +1709,8 @@
 		""
 		"Elle stocke des &alivres enchantés&r de plus haut niveau et beaucoup plus de &bpoints d'enchantement&r."
 	]
+	quest.2C1508E58B6EA90E.quest_subtitle: "Sort ultime"
+	quest.2C1508E58B6EA90E.title: "Le Cercueil noir"
 	quest.2C203D19752E2E2A.quest_desc: [
 		"L'&eAmélioration Mineure d'Emplacement de Sort&r peut être appliquée plusieurs fois à un livre de sorts, jusqu'à 12 emplacements au maximum."
 	]
@@ -1674,6 +1776,11 @@
 		""
 		"Le plus rapide pour ajouter une recette : ouvre l'interface du plan, trouve la recette dans JEI et clique sur le « + » de la recette. Les ingrédients sont transférés dans le plan."
 	]
+	quest.2DCA6BB2A9F56E00.quest_desc: [
+		"Le tome de la &enaga&r."
+	]
+	quest.2DCA6BB2A9F56E00.quest_subtitle: "Le premier boss"
+	quest.2DCA6BB2A9F56E00.title: "Le grimoire de la naga"
 	quest.2DD3DB23B3ED5709.quest_desc: [
 		"L'&cHydre&r à plusieurs têtes vit dans le &eMarais de Feu&r, entre lave et feu."
 		""
@@ -1775,6 +1882,16 @@
 	quest.2F8EAC597AB7E760.quest_subtitle: "Augmente la vitesse de nage"
 	quest.2FAB9F20E833FA09.quest_subtitle: "Dos"
 	quest.2FAB9F20E833FA09.title: "Cape de feuillage"
+	quest.2FF6576BB06DDEAA.quest_desc: [
+		"Utilise un &eéclat de familier&r pour en créer un."
+	]
+	quest.2FF6576BB06DDEAA.quest_subtitle: "Créer un familier"
+	quest.2FF6576BB06DDEAA.title: "La réincarnation"
+	quest.2FF8FF176131B700.quest_desc: [
+		"Suis les fragments de mémoire jusqu'à l'&eîle des origines&r, où se font les rituels."
+	]
+	quest.2FF8FF176131B700.quest_subtitle: "L'île des origines"
+	quest.2FF8FF176131B700.title: "Là où tout a commencé"
 	quest.30378E9E82826E3A.quest_subtitle: "Besoin de plus de mana ? Il faut ça pour l'amélioration."
 	quest.3052F9967211F448.quest_desc: [
 		"L'&5Ender Dragon&r est un grand boss volant qui t'attend en arrivant dans &5l'End&r."
@@ -1794,6 +1911,8 @@
 	]
 	quest.305ADD164F83D2D1.quest_subtitle: "Pour faire progresser plus vite"
 	quest.305ADD164F83D2D1.title: "Bouteille d'expérience de relique"
+	quest.309783CF0B38841F.quest_subtitle: "Sort ultime"
+	quest.309783CF0B38841F.title: "Le Regard"
 	quest.30A3C867E2D4B1E2.quest_desc: [
 		"Le &6Tremorsaurus&r est un prédateur redoutable. Apprivoisé, c'est une monture puissante."
 	]
@@ -1838,6 +1957,11 @@
 	]
 	quest.3121D591D3807584.quest_subtitle: "Permet le double saut"
 	quest.313B26E365615526.title: "&bTenue de Cryomancien"
+	quest.316714AB0F2A61BC.quest_desc: [
+		"Révèle un &efamilier illusionniste&r déguisé."
+	]
+	quest.316714AB0F2A61BC.quest_subtitle: "Démasquer un illusionniste"
+	quest.316714AB0F2A61BC.title: "Imposteur !"
 	quest.3171F1AE14E3C1ED.quest_desc: [
 		"Les &6Fourneaux de cuisine&r sont une alternative pratique et élégante aux feux de camp. Avec une &6Marmite&r dessus, ils deviennent indispensables pour préparer les meilleurs plats du jeu."
 		""
@@ -1851,6 +1975,8 @@
 		""
 		"&l&eAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
+	quest.31D5DC8F978F1581.quest_subtitle: "Relique des mages"
+	quest.31D5DC8F978F1581.title: "Masque de la faim"
 	quest.32049634B2771331.quest_desc: [
 		"D'immenses &eossements&r de dragon gisent sur les îles de l'End. D'autres dragons ont-ils vécu ici avant celui que tu as affronté ?"
 	]
@@ -1865,6 +1991,11 @@
 		""
 		"&6C'est aussi la meilleure façon de sauvegarder tes constructions en vue d'un futur changement de version du serveur !&r"
 	]
+	quest.3224C7B964D0D7B2.quest_desc: [
+		"Un grimoire en &ebois de fer&r."
+	]
+	quest.3224C7B964D0D7B2.quest_subtitle: "Le premier grimoire du Crépuscule"
+	quest.3224C7B964D0D7B2.title: "Le tome de bois de fer"
 	quest.32874A063226CBCF.quest_desc: [
 		"Un énorme singe des glaces qui &edort dans les biomes enneigés&r. Ne le réveille que si tu es prêt !"
 		""
@@ -1874,6 +2005,8 @@
 	]
 	quest.32874A063226CBCF.quest_subtitle: "La bête des neiges"
 	quest.32874A063226CBCF.title: "&b&lLe Frostmaw"
+	quest.329FA8CA8CA109BC.quest_subtitle: "Sort ultime"
+	quest.329FA8CA8CA109BC.title: "Le Colisée"
 	quest.32C62FEB484884B4.quest_subtitle: "Pieds"
 	quest.32C62FEB484884B4.title: "Botte à ressort"
 	quest.32D8CE4F01902940.quest_desc: [
@@ -1900,6 +2033,11 @@
 	]
 	quest.32F2C746D851BA54.quest_subtitle: "Un arc-en-ciel de laine"
 	quest.32F2C746D851BA54.title: "Le Bélier des Quêtes"
+	quest.32F3AF3FC073676C.quest_desc: [
+		"Le tome du &eyéti alpha&r."
+	]
+	quest.32F3AF3FC073676C.quest_subtitle: "La grotte du yéti"
+	quest.32F3AF3FC073676C.title: "Le cri du yéti"
 	quest.3301CEA39477F779.quest_desc: [
 		"Les &l&6unités de contrainte&r&r (SU) mesurent l'énergie cinétique utilisée par les machines."
 		""
@@ -1930,6 +2068,8 @@
 		"L'&6amélioration d'artisanat&r agrandit la grille de fabrication de ton inventaire. Une version &6four&r ajoute même un four : clique une deuxième fois sur l'onglet d'artisanat."
 	]
 	quest.33628061006314AB.quest_subtitle: "Tirer le meilleur de ton sac"
+	quest.339B098A9E8406EE.quest_subtitle: "Sort ultime"
+	quest.339B098A9E8406EE.title: "Les Fils écarlates"
 	quest.33B4B2123A4A929B.quest_desc: [
 		"Les &eVoiles Symétriques&r ne produisent pas de portance, seulement de la &btraînée&r."
 		""
@@ -1950,6 +2090,11 @@
 		""
 		"{image:pack_lbc:textures/quests/teleport_02.png width:120 height:100 align:center}"
 	]
+	quest.3440C3914CCA9A49.quest_desc: [
+		"Pose un &ecanaliseur&r pour récolter de la &efoudre liquide&r pendant les orages."
+	]
+	quest.3440C3914CCA9A49.quest_subtitle: "La foudre liquide"
+	quest.3440C3914CCA9A49.title: "Récolter le ciel"
 	quest.346E62E8442A15C1.quest_desc: [
 		"Dans ce pack, la cuisine est bien plus qu'un détail : avec &eSpice of Life&r, chaque &anouvel aliment&r goûté te rapproche d'un &ccœur supplémentaire&r (jusqu'à 10 cœurs en plus)."
 		""
@@ -2066,6 +2211,11 @@
 	quest.36452BF340BDFE34.quest_subtitle: "Des minerais à l'infini"
 	quest.36452BF340BDFE34.title: "La Foreuse"
 	quest.36512D1073448D61.quest_subtitle: "Permet de voir les créatures invisibles."
+	quest.367BA715623DCE16.quest_desc: [
+		"Fabrique un &elit&r pour ton familier."
+	]
+	quest.367BA715623DCE16.quest_subtitle: "Le coin de ton familier"
+	quest.367BA715623DCE16.title: "Un lit pour récupérer"
 	quest.36FB336313E5E377.quest_subtitle: "Ralentit ta chute et sert de bouclier"
 	quest.3714D5CA2A2A69EC.title: "&6Tenue de Prêtre"
 	quest.372B31F3D301684A.quest_desc: [
@@ -2117,6 +2267,11 @@
 	]
 	quest.376EB57018B8FCC1.quest_subtitle: "Pour les hélicoptères"
 	quest.376EB57018B8FCC1.title: "Le Roulement Gyroscopique"
+	quest.376FA97736EC730A.quest_desc: [
+		"Le tome de la &eReine des neiges&r."
+	]
+	quest.376FA97736EC730A.quest_subtitle: "Le palais de l'aurore"
+	quest.376FA97736EC730A.title: "Le journal de la reine"
 	quest.37A185E923C1EC4C.quest_subtitle: "Dos"
 	quest.37A185E923C1EC4C.title: "Cape détraquée"
 	quest.37D3986933A263DB.quest_subtitle: "Un coup fatal te téléporte ailleurs au lieu de te tuer"
@@ -2132,6 +2287,8 @@
 	]
 	quest.37E65C83FBB7A83D.quest_subtitle: "Emplacements, retrait et plus"
 	quest.37E65C83FBB7A83D.title: "Les Sceaux"
+	quest.38172BE7A0B9E9B6.quest_subtitle: "Apprivoiser"
+	quest.38172BE7A0B9E9B6.title: "Familier : Mage"
 	quest.383DED27F9FC984B.quest_subtitle: "&6+15 % de régénération de mana"
 	quest.388E9A50F6028454.quest_desc: [
 		"Les &bMoas&r sont de grands oiseaux. Ils pondent parfois des &eŒufs de Moa&r."
@@ -2157,6 +2314,13 @@
 		"C'est la salle la mieux gardée du bastion : les piglins brutes ne plaisantent pas. Porte au moins une pièce d'armure en or pour ne pas énerver les autres piglins."
 	]
 	quest.38C09CF7914BEE30.quest_subtitle: "Le trésor des piglins"
+	quest.38D26AA47778490A.quest_subtitle: "Sort ultime"
+	quest.38D26AA47778490A.title: "Le Jugement"
+	quest.3913CD2C7AD39B5F.quest_desc: [
+		"Chaque boss a son &egrimoire&r : Ignis, le Livre de R'lyeh, le grimoire du désert, le Codex de la Malice…"
+	]
+	quest.3913CD2C7AD39B5F.quest_subtitle: "Un grimoire de boss"
+	quest.3913CD2C7AD39B5F.title: "Le grimoire d'Ignis"
 	quest.391E94F1938AC865.quest_subtitle: "&6+15 % de résistance aux sorts"
 	quest.3980DD49B40511C6.quest_desc: [
 		"En &emode Tirer&r, le &6&lconnecteur&r&r récupère l'&bélectricité&r d'un bloc qui en produit ou en stocke (par exemple des &dBalais de Carbone&r). Il l'envoie ensuite par un câble vers un autre connecteur, qui peut alimenter une machine."
@@ -2189,6 +2353,11 @@
 	]
 	quest.3A49613517FB0651.quest_subtitle: "Le flash dans le noir"
 	quest.3A49613517FB0651.title: "Illumination !"
+	quest.3B48585F6793AF6D.quest_desc: [
+		"Fabrique un &esiphon de mana&r pour récolter ton propre mana."
+	]
+	quest.3B48585F6793AF6D.quest_subtitle: "Ton aura en bouteille"
+	quest.3B48585F6793AF6D.title: "Le siphon de mana"
 	quest.3B8DD40BD3EF0512.quest_desc: [
 		"Le Nether de ce pack est bien plus dangereux et riche qu'en vanilla :"
 		""
@@ -2226,6 +2395,8 @@
 		""
 		"Celle de la construction a besoin d'un inventaire (coffre, tonneau…), tandis que l'immobile a besoin d'un appareil qui insère ou extrait directement, comme un entonnoir, une goulotte ou une trémie."
 	]
+	quest.3C70DF2450BA9060.quest_subtitle: "Relique des mages"
+	quest.3C70DF2450BA9060.title: "Chair vivante"
 	quest.3C7D9FC17EB00995.quest_desc: [
 		"Dans la &esavane&r, les &eUmvuthana&r masqués vivent dans des villages fortifiés. Leur chef, &eUmvuthi&r, t'attend sur son trône."
 		""
@@ -2338,6 +2509,8 @@
 		"L'&6encre&r détermine la rareté et le niveau, et le focus détermine l'école du sort."
 	]
 	quest.3E6E9C53FBE836FB.quest_subtitle: "Créer des sorts"
+	quest.3E9AD2CE88003A57.quest_subtitle: "Sort ultime"
+	quest.3E9AD2CE88003A57.title: "L'Étreinte du vide"
 	quest.3EA662C8DE5BF536.quest_desc: [
 		"Le &6Filet de Pêche&r se fixe sur une construction qui tourne dans l'eau pour pêcher automatiquement, comme un joueur avec une canne à pêche."
 		""
@@ -2447,6 +2620,16 @@
 	quest.409C0F545AE62529.quest_subtitle: "De la poussée brute"
 	quest.409C0F545AE62529.title: "&c&lLe Propulseur"
 	quest.409E9857A7494319.quest_subtitle: "Permet de marcher sur la neige poudreuse et rend la glace moins glissante"
+	quest.40BA402AF9187030.quest_desc: [
+		"Le tome des &echevaliers fantômes&r."
+	]
+	quest.40BA402AF9187030.quest_subtitle: "Le bastion des chevaliers"
+	quest.40BA402AF9187030.title: "Les mémoires du chevalier"
+	quest.40BC7FBFF9180FA1.quest_desc: [
+		"Vaincs le &cRoi Mort&r pour pouvoir ressusciter tes familiers après leur mort."
+	]
+	quest.40BC7FBFF9180FA1.quest_subtitle: "Ramener un familier"
+	quest.40BC7FBFF9180FA1.title: "La nécromancie"
 	quest.40EFE5B89FE6DBA1.quest_desc: [
 		"Les &l&6Tunnels en Andésite&r&r et les &l&6Tunnels en Laiton&r&r recouvrent les tapis roulants pour décorer, mais ils sont aussi utiles, les tunnels en laiton étant les plus avancés."
 		""
@@ -2497,6 +2680,11 @@
 		"Il peut aussi apparaître dans les coffres des &eruines du désert&r et des &edonjons&r."
 	]
 	quest.41C643E334BA412E.quest_subtitle: "Sous les sables du désert"
+	quest.41DF0843EA1498DA.quest_desc: [
+		"Un grimoire en &cmétal ardent&r."
+	]
+	quest.41DF0843EA1498DA.quest_subtitle: "Forgé dans le sang de l'hydre"
+	quest.41DF0843EA1498DA.title: "Le grimoire ardent"
 	quest.421CA9E57B939047.quest_desc: [
 		"Le &6Donjon de Bronze&r est caché &esous terre&r, fait de grandes salles de pierre gravée. Méfie-toi des &eSentinelles&r, qui explosent comme des creepers."
 		""
@@ -2517,6 +2705,16 @@
 	]
 	quest.4232D7614DB72EF4.quest_subtitle: "Une laisse et un grappin"
 	quest.4232D7614DB72EF4.title: "La soie d'araignée sauteuse"
+	quest.42B1DCA72EEE5C1C.quest_desc: [
+		"Les sorts cristallins déposés dans le &dnid d'améthyste&r."
+	]
+	quest.42B1DCA72EEE5C1C.quest_subtitle: "Les sorts du nid d'améthyste"
+	quest.42B1DCA72EEE5C1C.title: "Le manuscrit cristallisé"
+	quest.42D083586F07CC9A.quest_desc: [
+		"Un grimoire en &efeuille d'acier&r."
+	]
+	quest.42D083586F07CC9A.quest_subtitle: "Plus robuste"
+	quest.42D083586F07CC9A.title: "Le grimoire de feuille d'acier"
 	quest.4378B2ECB92E9CCB.title: "Cristal d'esprit abominable"
 	quest.43A8ECAA22D87380.quest_desc: [
 		"Le &7Platine&r est le métal de base de &eCreate Propulsion&r."
@@ -2529,6 +2727,11 @@
 	quest.43A8ECAA22D87380.title: "&7Le Platine"
 	quest.43B06E3FFE5FE8EB.quest_subtitle: "Maîtrise le pouvoir des &dombres&r. Plus de &dpuissance des sorts de l'Ender&r ou d'&darmure&r."
 	quest.43B06E3FFE5FE8EB.title: "&d&lÉcole de l'Ender"
+	quest.43F91753FC128B9B.quest_desc: [
+		"Les sorts oubliés de la &epyramide maudite&r, gardés par l'&6Ancient Remnant&r."
+	]
+	quest.43F91753FC128B9B.quest_subtitle: "Les sorts de la pyramide maudite"
+	quest.43F91753FC128B9B.title: "Le manuscrit hiéroglyphique"
 	quest.440CB7D81AEBB293.quest_desc: [
 		"L'&6Emballeur&r crée des &aColis en Carton&r à partir des inventaires attachés, ou des objets insérés avec un entonnoir."
 		""
@@ -2549,6 +2752,13 @@
 	]
 	quest.441F88F376742590.quest_subtitle: "Tout vaisseau mérite un nom"
 	quest.441F88F376742590.title: "Baptiser son vaisseau"
+	quest.44287246FF4476AE.quest_desc: [
+		"Des &dfamiliers&r mages vivent dans le monde : apprivoise-les pour qu'ils combattent et lancent des sorts à tes côtés."
+		""
+		"Lis le &eTome des familiers&r pour tout savoir."
+	]
+	quest.44287246FF4476AE.quest_subtitle: "Alshanex's Familiars"
+	quest.44287246FF4476AE.title: "&d&lLes familiers"
 	quest.44937B2D2EB38094.quest_desc: [
 		"Après avoir vaincu le Warden, tu peux fabriquer le &aCasque du Warden&r en combinant un casque en Netherite avec des &2Éclats d'Écho Renforcés&r sur la table de forgeron."
 		""
@@ -2572,6 +2782,10 @@
 	]
 	quest.44F5B4AFC2F9B125.quest_subtitle: "Le cristal qui défie la gravité"
 	quest.44F5B4AFC2F9B125.title: "&d&lLa Lévitite"
+	quest.451354CA6DDCF000.quest_subtitle: "Sort ultime"
+	quest.451354CA6DDCF000.title: "L'Arbre-monde"
+	quest.4522C82AA3368A27.quest_subtitle: "Relique des mages"
+	quest.4522C82AA3368A27.title: "Fiole de sang de dragon"
 	quest.45588D020EF84979.quest_desc: [
 		"Des grottes chargées de &cnéodyme écarlate&r et &9azur&r, deux métaux qui s'attirent ou se repoussent."
 		""
@@ -2608,6 +2822,13 @@
 		""
 		"Elles montrent aussi le remplissage et la capacité totale des réservoirs."
 	]
+	quest.469E868877AF4E21.quest_desc: [
+		"Donne un &eobjet d'amélioration&r à un familier."
+	]
+	quest.469E868877AF4E21.quest_subtitle: "Améliorer son familier"
+	quest.469E868877AF4E21.title: "Un petit coup de pouce"
+	quest.46EBC3F0E16D345B.quest_subtitle: "Relique des mages"
+	quest.46EBC3F0E16D345B.title: "Sextant lunaire"
 	quest.47174032FD094F4F.quest_desc: [
 		"Les villages de ce pack sont plus grands et plus vivants : &eCTOV&r en crée de nouveaux par biome, &eTowns and Towers&r en ajoute d'autres, et des &egardes&r les défendent."
 		""
@@ -2635,6 +2856,11 @@
 	]
 	quest.473C8AE01730974E.quest_subtitle: "Monter un Phyg"
 	quest.473C8AE01730974E.title: "Quand les cochons volent"
+	quest.47870B6FCC98A229.quest_desc: [
+		"Synthétise de l'&eessence arcanique&r avec du lapis, de l'améthyste et de l'expérience."
+	]
+	quest.47870B6FCC98A229.quest_subtitle: "De l'essence arcanique à la chaîne"
+	quest.47870B6FCC98A229.title: "Alchimie 101"
 	quest.478DE12D3EF8C22A.quest_desc: [
 		"Une fois posée, la &6Méga Torche&r empêche l'apparition naturelle de tous les monstres hostiles dans un &6rayon de 96 blocs&r."
 		""
@@ -2664,6 +2890,13 @@
 	]
 	quest.48A1C863C3D4B969.quest_subtitle: "Dans le Nether"
 	quest.48A1C863C3D4B969.title: "Noyau solaire"
+	quest.48B836066C8C93E8.quest_subtitle: "Apprivoiser"
+	quest.48B836066C8C93E8.title: "Familier : Givrin"
+	quest.48D27DA06BA1F479.quest_desc: [
+		"Un des trois nouveaux &emétaux&r de Somake."
+	]
+	quest.48D27DA06BA1F479.quest_subtitle: "Un métal de lave"
+	quest.48D27DA06BA1F479.title: "Le magmarium"
 	quest.48F827FD3545398E.quest_desc: [
 		"&bCreate Aeronautics&r te permet de construire de vrais &evaisseaux avec une physique réaliste&r : dirigeables, montgolfières, avions, hélicoptères, et même des véhicules à roues."
 		""
@@ -2819,6 +3052,11 @@
 		""
 		"Astuce : le ventilateur peut traiter les objets posés sur un dépôt ou un tapis au-dessus de lui."
 	]
+	quest.4C78CF4FDFF7A858.quest_desc: [
+		"Chaque nouvelle école a sa &erune&r, base de ses &eorbes d'amélioration&r."
+	]
+	quest.4C78CF4FDFF7A858.quest_subtitle: "Eau, feu infernal, feu des âmes"
+	quest.4C78CF4FDFF7A858.title: "Les runes des nouvelles écoles"
 	quest.4C822F54B99AE3E3.quest_subtitle: "Dos"
 	quest.4C822F54B99AE3E3.title: "Cape de minuit"
 	quest.4C95AFAEBCBF9C66.quest_subtitle: "Pour les montures"
@@ -2851,6 +3089,8 @@
 	]
 	quest.4D4EE7CADBAF19BB.quest_subtitle: "Incendium"
 	quest.4D4EE7CADBAF19BB.title: "L'esprit de la forêt flétrie"
+	quest.4D7354F36867673F.quest_subtitle: "Apprivoiser"
+	quest.4D7354F36867673F.title: "Familier : Brûleur"
 	quest.4D7BE28A825840B2.quest_subtitle: "Pour l'armure de Chlorophyte"
 	quest.4D7BE28A825840B2.title: "Lingots de Chlorophyte"
 	quest.4DA92919147B3E18.quest_desc: [
@@ -3043,6 +3283,8 @@
 	]
 	quest.53297F76E059AC9B.quest_subtitle: "Une trouvaille rare"
 	quest.53297F76E059AC9B.title: "La Pioche Brise-Labyrinthe"
+	quest.535C7416F3FA7ED8.quest_subtitle: "Sort ultime"
+	quest.535C7416F3FA7ED8.title: "La Coupure dimensionnelle"
 	quest.53660F533D9C497D.quest_desc: [
 		"Une immense &ecitadelle&r de l'End, gardée par des Ender Golems."
 		""
@@ -3143,7 +3385,25 @@
 	quest.5542E0D0F60B201D.quest_subtitle: "Un trophée pour ton salon"
 	quest.5542E0D0F60B201D.title: "&d&lMaître de l'End"
 	quest.5590204A473913AC.quest_subtitle: "Fait fondre automatiquement les minerais que tu mines"
+	quest.5601D5C01C25990E.quest_subtitle: "Apprivoiser"
+	quest.5601D5C01C25990E.title: "Familier : Clerc"
+	quest.5652F229B857FED1.quest_subtitle: "Relique des mages"
+	quest.5652F229B857FED1.title: "Griffes d'ombre"
+	quest.56DD3DF20502CDEC.quest_desc: [
+		"&5Apex Arcana&r ajoute &e18 sorts ultimes&r : étoiles qui tombent, dragons de foudre, glaciers, arbres-monde…"
+		""
+		"Leurs parchemins sont &ctrès rares&r : on ne les trouve que dans quelques coffres de fin de jeu (cité antique, trésor de la cité de l'End, chambre du Roi Mort, citadelle d'Iron's, tour du Liche, tour noire du Crépuscule, temple de l'Autre Côté)."
+		""
+		"Chaque quête ci-dessous se valide en lançant le sort."
+	]
+	quest.56DD3DF20502CDEC.quest_subtitle: "Apex Arcana"
+	quest.56DD3DF20502CDEC.title: "&5&lLes sorts ultimes"
 	quest.56F1F049F20B29A7.title: "&aTenue d'Archi-évocateur"
+	quest.57243552290E8AB4.quest_desc: [
+		"Le tome de l'&ehydre&r."
+	]
+	quest.57243552290E8AB4.quest_subtitle: "Le marais de feu"
+	quest.57243552290E8AB4.title: "Le codex de l'hydre"
 	quest.5734D775B5792B39.quest_desc: [
 		"Le &eMétal de Chevalier&r permet de fabriquer une armure et des outils solides, ainsi que le redoutable &eBloc et Chaîne&r (un fléau)."
 		""
@@ -3151,6 +3411,13 @@
 	]
 	quest.5734D775B5792B39.quest_subtitle: "Un équipement solide"
 	quest.5734D775B5792B39.title: "Le Métal de Chevalier"
+	quest.574BC3B363C105CA.quest_desc: [
+		"&6Somake Spells&r ajoute des écoles de magie (&beau&r, &cfeu infernal&r, &3feu des âmes&r…), de nouveaux &emétaux&r, des &egrimoires à trois niveaux&r et des armes de mage."
+		""
+		"Tape &d@somakespells&r dans JEI pour tout voir."
+	]
+	quest.574BC3B363C105CA.quest_subtitle: "Nouvelles écoles et nouveaux métaux"
+	quest.574BC3B363C105CA.title: "&b&lSomake Spells"
 	quest.580A5EDF8F1FAF78.quest_desc: [
 		"La &eBouche de Vapeur&r remplit aussi les ballons, mais avec de la &bvapeur&r."
 		""
@@ -3170,6 +3437,11 @@
 		"&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver la Citadelle.&r"
 	]
 	quest.583EBA8354586BFD.quest_subtitle: "&d☠ Niveau 5"
+	quest.588BA49771B0A2C6.quest_desc: [
+		"Les sorts du vide sont gravés sur la carapace de l'&5Ender Guardian&r, au fond de la citadelle en ruine."
+	]
+	quest.588BA49771B0A2C6.quest_subtitle: "Les sorts du Gardien de l'Ender"
+	quest.588BA49771B0A2C6.title: "Le script de l'oracle"
 	quest.58D9CE68661256C8.quest_desc: [
 		"La &l&6Transmission à Chaîne&r&r transfère la rotation comme un tapis roulant, mais avec plus de liberté de placement."
 		""
@@ -3191,6 +3463,8 @@
 	]
 	quest.594A8459AD944A3B.quest_subtitle: "Ton premier livre de sorts"
 	quest.594EDA0BA8DFB743.quest_subtitle: "Le Prêtre l'échange contre un livre écrit trouvé dans le Fort des Évocateurs. Le livre doit d'abord être traduit par un marchand ambulant retenu prisonnier dans ce même fort."
+	quest.59814CE7812DF1BB.quest_subtitle: "Apprivoiser"
+	quest.59814CE7812DF1BB.title: "Familier : Dragon"
 	quest.59816734AF9F1906.quest_desc: [
 		"La &dlévitite&r, le cristal qui fait flotter les vaisseaux, demande de la &epierre de l'End&r : c'est donc un objectif &cd'après l'Ender Dragon&r !"
 		""
@@ -3200,6 +3474,8 @@
 	]
 	quest.59816734AF9F1906.quest_subtitle: "Il va falloir aller dans l'End"
 	quest.59816734AF9F1906.title: "&dLa Poudre de Pierre de l'End"
+	quest.59911189F5F5F299.quest_subtitle: "Relique des mages"
+	quest.59911189F5F5F299.title: "Chapeau d'omniscience"
 	quest.59E19F13A596AD38.quest_desc: [
 		"Au cœur des &edéserts de cendres&r se dresse le &cChâteau Interdit&r, la plus grande forteresse du Nether d'Incendium."
 		""
@@ -3245,6 +3521,11 @@
 		"Attention, les avant-postes sont bien gardés !"
 	]
 	quest.5B2ECDE4D4FF3D8D.quest_subtitle: "Chez les pillards"
+	quest.5B625E10DEDFA9EA.quest_desc: [
+		"La &eforge d'amélioration&r fait passer grimoires, armes et armures au niveau supérieur."
+	]
+	quest.5B625E10DEDFA9EA.quest_subtitle: "Le cœur de Somake"
+	quest.5B625E10DEDFA9EA.title: "La forge d'amélioration"
 	quest.5B7298316481A1CF.quest_desc: [
 		"Pour ouvrir le portail de &el'End&r et affronter l'&5Ender Dragon&r, les yeux de l'Ender classiques ne suffisent pas : il faut &a12 yeux spéciaux différents&r d'End Remastered, un par cadre du portail."
 		""
@@ -3283,6 +3564,11 @@
 	]
 	quest.5BC526ACC0046B20.quest_subtitle: "Un établi toujours sur toi"
 	quest.5BF082062143531B.title: "&2Tenue de Pestiféré"
+	quest.5C0E72C9BD62946E.quest_desc: [
+		"Mélange de l'&eencre&r avec une machine Create."
+	]
+	quest.5C0E72C9BD62946E.quest_subtitle: "Fini le mélange à la main"
+	quest.5C0E72C9BD62946E.title: "L'encre industrielle"
 	quest.5C304AB81C448E15.quest_subtitle: "Charme"
 	quest.5C304AB81C448E15.title: "Caillot du temps"
 	quest.5C38AF82CEFB8015.quest_subtitle: "Butin rare trouvé au hasard dans le monde."
@@ -3308,12 +3594,24 @@
 		""
 		"Les flèches marron sur la pompe montrent le sens du flux. Utilise une clé pour l'inverser."
 	]
+	quest.5D2F125D138F13E2.quest_desc: [
+		"Isole tes tuyaux avec des &eplaques arcaniques&r pour ne plus perdre de mana en route."
+	]
+	quest.5D2F125D138F13E2.quest_subtitle: "Le mana ne fuit plus"
+	quest.5D2F125D138F13E2.title: "Bien isolé"
 	quest.5D396BE9BA075E66.quest_subtitle: "Se fabrique"
 	quest.5D60A906B489F563.quest_desc: [
 		"La &ePierre Sainte&r est la pierre de l'Aether. Ses outils font parfois tomber des éclats d'&eAmbrosium&r."
 	]
 	quest.5D60A906B489F563.quest_subtitle: "La pierre de l'Aether"
 	quest.5D60A906B489F563.title: "La Pierre Sainte"
+	quest.5D7025D9AD552E89.quest_desc: [
+		"Une &earmure de mage&r pour les sorts abyssaux."
+	]
+	quest.5D7025D9AD552E89.quest_subtitle: "Armure de mage abyssale"
+	quest.5D7025D9AD552E89.title: "La robe du sorcier abyssal"
+	quest.5D7341B659452972.quest_subtitle: "Relique des mages"
+	quest.5D7341B659452972.title: "Cape à la plume sanglante"
 	quest.5D925522882186A8.quest_desc: [
 		"Une cité en ruine, hantée par les âmes perdues. Qui sait ce qu'il reste dans ses coffres ?"
 	]
@@ -3327,6 +3625,11 @@
 		""
 		"Quand l'&e&léclair&r&r frappe le &l&aBloc d'Expérience&r&r, il se transforme en &b&lBloc de Super Expérience&r&r."
 	]
+	quest.5E3AB79E263DECAE.quest_desc: [
+		"Une &earmure de mage&r tirée des trésors de la pyramide maudite."
+	]
+	quest.5E3AB79E263DECAE.quest_subtitle: "Armure sacrée du désert"
+	quest.5E3AB79E263DECAE.title: "Le haubert du pharaon"
 	quest.5E71C98874220025.quest_desc: [
 		"Le &efourneau&r chauffe ce qui est posé dessus. On peut aussi y griller directement des aliments."
 	]
@@ -3375,6 +3678,11 @@
 	]
 	quest.5EE2C7C1568832CC.quest_subtitle: "Dungeons and Taverns"
 	quest.5EE2C7C1568832CC.title: "Le manoir des illagers"
+	quest.5F064383CB085102.quest_desc: [
+		"Fabrique &eles Murmures&r, à partir du bâton sonore de Deeper and Darker."
+	]
+	quest.5F064383CB085102.quest_subtitle: "Le bâton des profondeurs"
+	quest.5F064383CB085102.title: "Les Murmures"
 	quest.5F187153455262D2.quest_desc: [
 		"Fais éclore un œuf de &2Tremorzilla&r et élève-le : un monstre gigantesque au rayon dévastateur, de ton côté."
 	]
@@ -3385,6 +3693,8 @@
 	]
 	quest.5F247719D8C2EDF5.quest_subtitle: "Attirer et repousser"
 	quest.5F247719D8C2EDF5.title: "Aimants"
+	quest.5F6275B785249B70.quest_subtitle: "Apprivoiser"
+	quest.5F6275B785249B70.title: "Familier : Illusionniste"
 	quest.5F7FBCB758D54981.quest_subtitle: "Donne l'&6immunité au gel&r."
 	quest.5F9BEF8918186325.quest_desc: [
 		"Le &l&6Bec Verseur&r&r remplit les contenants (fioles, seaux…) ou applique des liquides pour certaines recettes."
@@ -3396,6 +3706,8 @@
 	quest.5F9DC6A4D253217D.quest_desc: [
 		"Garde la relique dans ton inventaire et subis l'effet &6Obscurité&r. Attends un peu que la transformation se fasse."
 	]
+	quest.5FCDEAF30DC72351.quest_subtitle: "Relique des mages"
+	quest.5FCDEAF30DC72351.title: "Manteau du pulsar"
 	quest.5FCFD038804EFBF7.quest_desc: [
 		"L'&cObsidilithe&r se trouve dans son &earène d'obsidienne&r, dans l'End."
 		""
@@ -3447,6 +3759,8 @@
 	quest.60AF2FC964E72731.quest_subtitle: "Un petit assistant"
 	quest.60AF2FC964E72731.title: "Le Golem de Cuivre"
 	quest.60B9F9AD8F49371D.quest_subtitle: "Donne une résistance au feu temporaire au contact de la lave ou du feu"
+	quest.60E0824BF42F8446.quest_subtitle: "Relique des mages"
+	quest.60E0824BF42F8446.title: "Piège cardiaque"
 	quest.610E616AA011A7A9.quest_desc: [
 		"Un sac (bundle) permet de transporter plusieurs objets différents, jusqu'à une pile au total, dans un seul emplacement."
 	]
@@ -3516,6 +3830,8 @@
 	quest.624E99A4E08167EA.quest_desc: [
 		"Tiens la relique en main et fais-toi toucher par le &6cri sonique du Warden&r."
 	]
+	quest.625D742435C1AF0A.quest_subtitle: "Relique des mages"
+	quest.625D742435C1AF0A.title: "Trancheur"
 	quest.629831A093BC1F03.quest_subtitle: "Tes attaques au corps à corps peuvent infliger Wither"
 	quest.62C8A74B9C0AC8A4.quest_desc: [
 		"&l&o&cJe te conseille FORTEMENT&r de regarder le Ponder (touche Z) de l'&6&lEnchanteur à Blaze&r&r et de la &6&lForge à Blaze&r&r pour bien comprendre.&r&r"
@@ -3612,6 +3928,8 @@
 	]
 	quest.642F9788E428E6BE.quest_subtitle: "Create: Diesel Generators"
 	quest.642F9788E428E6BE.title: "&8Trouver du pétrole"
+	quest.6446E7BD7AFA4193.quest_subtitle: "Relique des mages"
+	quest.6446E7BD7AFA4193.title: "Anneau de lames"
 	quest.64B6D3C0ACA9473F.quest_desc: [
 		"La &6Table de Taille de Gemmes&r augmente la rareté de tes gemmes en combinant deux gemmes du même type."
 		""
@@ -3749,6 +4067,11 @@
 		""
 		"&o&l&cRegarde le Ponder&r (touche Z) pour bien comprendre.&r&r"
 	]
+	quest.66E68F10A1020ADD.quest_desc: [
+		"Joue ce disque dans un juke-box &eaccroupi&r pour apprendre les sorts cachés de l'&eusine antique&r."
+	]
+	quest.66E68F10A1020ADD.quest_subtitle: "Les sorts du Harbinger"
+	quest.66E68F10A1020ADD.title: "Le disque étrange"
 	quest.671D0A62B7171DBB.quest_subtitle: "&6Les longues incantations ne peuvent plus être interrompues"
 	quest.67237310A2D6E738.quest_desc: [
 		"&eSceptre du Crépuscule&r (boules d'énergie, se recharge avec des perles de l'Ender), &eSceptre de Vol de Vie&r (yeux d'araignée fermentés), &eSceptre Zombie&r (chair putréfiée), &eSceptre de Fortification&r (pommes dorées)."
@@ -3757,6 +4080,10 @@
 	]
 	quest.67237310A2D6E738.quest_subtitle: "De la magie à portée de main"
 	quest.67237310A2D6E738.title: "Les sceptres de la Liche"
+	quest.67885E1A64CB51A9.quest_subtitle: "Sort ultime"
+	quest.67885E1A64CB51A9.title: "Les Portes du Paradis"
+	quest.6796A0CBC2BA3C7D.quest_subtitle: "Relique des mages"
+	quest.6796A0CBC2BA3C7D.title: "Arc de l'Ender"
 	quest.67E92583977D7775.quest_subtitle: "Se trouve dans le butin du monde"
 	quest.67FA8896AD563A77.quest_desc: [
 		"Les &eWaystones&r sont des pierres de téléportation dispersées dans le monde, y compris dans certains villages."
@@ -3773,6 +4100,11 @@
 	quest.681E258AB577FF73.quest_subtitle: "Ajoute 1 niveau à Appât et à Chance de la mer"
 	quest.682247A7DBDB0A53.quest_subtitle: "Rune et essence arcaniques, améthyste"
 	quest.682247A7DBDB0A53.title: "Cristal de mana fissuré"
+	quest.68462036ABCF9856.quest_desc: [
+		"Un bâton forgé avec l'&cignitium&r de Cataclysm."
+	]
+	quest.68462036ABCF9856.quest_subtitle: "Un bâton de feu"
+	quest.68462036ABCF9856.title: "Le bâton d'ignitium"
 	quest.689B086F3F8A6221.quest_desc: [
 		"Dans les &emarais&r, cherche une colline avec une entrée au sommet : c'est le &eLabyrinthe&r."
 		""
@@ -3794,6 +4126,15 @@
 	]
 	quest.699D3019400A5563.quest_subtitle: "Et ses élytres"
 	quest.699D3019400A5563.title: "Une Cité de l'End"
+	quest.69E24D167CE3F3C7.quest_desc: [
+		"Vaincs &cIgnis&r dans l'arène brûlante pour obtenir son &6manuscrit&r et apprendre ses sorts de feu."
+	]
+	quest.69E24D167CE3F3C7.quest_subtitle: "Les sorts d'Ignis"
+	quest.69E24D167CE3F3C7.title: "Le manuscrit brûlant"
+	quest.6A1CD498DB3C2A1B.quest_subtitle: "Relique des mages"
+	quest.6A1CD498DB3C2A1B.title: "Diadème du dévoreur de galaxies"
+	quest.6A6BFD1C9FA41545.quest_subtitle: "Sort ultime"
+	quest.6A6BFD1C9FA41545.title: "Brise-ciel"
 	quest.6A7C0604FA1E82BB.quest_desc: [
 		"Se trouve dans les villages. Quand il est attaqué, le &egolem tonneau&r ferme son couvercle et se cache comme un tonneau, ce qui réduit les dégâts reçus de 90 %."
 		""
@@ -3807,6 +4148,11 @@
 		""
 		"Il doit être placé juste au-dessus d'un bassin, avec exactement un bloc d'espace entre les deux. Jette les ingrédients dans le bassin ou utilise un entonnoir fixé au bassin : le mélangeur les combine automatiquement."
 	]
+	quest.6AB8B494868FFB3D.quest_desc: [
+		"Les sorts maudits scellés dans la &bprison gelée&r de &cMaledictus&r."
+	]
+	quest.6AB8B494868FFB3D.quest_subtitle: "Les sorts de la prison gelée"
+	quest.6AB8B494868FFB3D.title: "La tablette gelée"
 	quest.6AD020DBDE0A43F2.quest_desc: [
 		"La puissance du &6&lSoleil&r&r ! C'est du moins ce que disait une certaine &2Pieuvre&r."
 		""
@@ -3883,6 +4229,11 @@
 		""
 		"Pour les relier, utilise un &aTP Link&r. Parfait pour faire circuler des ressources entre deux parties de ta base."
 	]
+	quest.6BA83C7B90279BE8.quest_desc: [
+		"Porte l'armure complète de &3mage-guerrier du Warden&r."
+	]
+	quest.6BA83C7B90279BE8.quest_subtitle: "L'armure de mage du Warden"
+	quest.6BA83C7B90279BE8.title: "Un avec le Warden"
 	quest.6BAC0A0F663D5B1F.quest_desc: [
 		"Sous terre, dans l'Overworld, se cache une mystérieuse caverne sphérique qui ressemble à une grotte luxuriante : c'est le repaire de l'insaisissable &cFleur du Néant&r."
 		""
@@ -3898,6 +4249,16 @@
 	]
 	quest.6BE589E8C3FADF4C.quest_subtitle: "L'objectif final du chapitre"
 	quest.6BE589E8C3FADF4C.title: "&6&lÉquipement légendaire"
+	quest.6BE7479A5B0FCAFA.quest_desc: [
+		"Le tome du &eminoshroom&r."
+	]
+	quest.6BE7479A5B0FCAFA.quest_subtitle: "Le labyrinthe"
+	quest.6BE7479A5B0FCAFA.title: "La fureur du minoshroom"
+	quest.6BF2ADA1795508A3.quest_desc: [
+		"Récolte des &ecristaux de mana&r sur un siphon."
+	]
+	quest.6BF2ADA1795508A3.quest_subtitle: "De l'essence presque gratuite"
+	quest.6BF2ADA1795508A3.title: "Pur à 99,7 %"
 	quest.6C07E1E0038BDFA0.quest_desc: [
 		"Trouve une &dville en pain d'épices&r et ses habitants."
 	]
@@ -3933,6 +4294,11 @@
 	]
 	quest.6CC3201150271644.quest_subtitle: "L'infusion d'objets"
 	quest.6CC3201150271644.title: "Le Souffle Infusé"
+	quest.6CD97174767A092E.quest_desc: [
+		"Le tome de l'&eUr-Ghast&r."
+	]
+	quest.6CD97174767A092E.quest_subtitle: "La tour noire"
+	quest.6CD97174767A092E.title: "La chronique de l'Ur-Ghast"
 	quest.6CEACA7588116B57.quest_desc: [
 		"Les &eEnveloppes&r forment le ballon de ton dirigeable. Elles enferment un volume qui produit de la &bportance&r quand il est rempli d'air chaud."
 		""
@@ -3946,6 +4312,8 @@
 	]
 	quest.6CEACA7588116B57.quest_subtitle: "La toile de ton ballon"
 	quest.6CEACA7588116B57.title: "&eLes Enveloppes"
+	quest.6D02DE61C5C43ECA.quest_subtitle: "Sort ultime"
+	quest.6D02DE61C5C43ECA.title: "Chute du soleil"
 	quest.6D382620BBC1E6C0.quest_desc: [
 		"Le pack inclut le shader &6Complementary Reimagined&r pour embellir le jeu."
 		""
@@ -4010,6 +4378,11 @@
 	quest.6E284AC12A8D5945.quest_subtitle: "Pour défendre ton vaisseau"
 	quest.6E284AC12A8D5945.title: "Le Canon à Patates Monté"
 	quest.6E4B86BAF8B9C263.title: "Cristal de vie fortifié"
+	quest.6E4ED140C8667E06.quest_desc: [
+		"Fabrique le &eRétrécisseur&r, qui réduit les objets à la taille des familiers."
+	]
+	quest.6E4ED140C8667E06.quest_subtitle: "À la taille d'un familier"
+	quest.6E4ED140C8667E06.title: "Le Rétrécisseur !"
 	quest.6E5E7A8C91623534.quest_desc: [
 		"Il fonctionne à l'&eélectricité (FE)&r au lieu du carburant. Alimente-le avec des câbles, un Alternateur de Crafts and Additions ou un Générateur à Corail."
 		""
@@ -4051,6 +4424,11 @@
 	]
 	quest.6E9E0226EEFA0937.quest_subtitle: "Radioactif"
 	quest.6E9E0226EEFA0937.title: "&aToxic Caves"
+	quest.6EB04F643E120B1C.quest_desc: [
+		"Obtiens une &eplaque arcanique&r."
+	]
+	quest.6EB04F643E120B1C.quest_subtitle: "Sploink."
+	quest.6EB04F643E120B1C.title: "La plaque arcanique"
 	quest.6EF972352D9E0B1F.quest_desc: [
 		"Un &cÉclat de Vie&r donne &cun cœur supplémentaire permanent&r quand on l'utilise."
 		""
@@ -4072,6 +4450,12 @@
 	]
 	quest.6F8B33C36B43999A.quest_subtitle: "Le boss des illagers"
 	quest.6F8B33C36B43999A.title: "&5&lL'Invocateur"
+	quest.6F95528D2463F4EF.quest_subtitle: "Relique des mages"
+	quest.6F95528D2463F4EF.title: "Clé dimensionnelle"
+	quest.6FB0397489FE5C8A.quest_subtitle: "Sort ultime"
+	quest.6FB0397489FE5C8A.title: "L'Ère glaciaire"
+	quest.6FBEFDD770C75228.quest_subtitle: "Apprivoiser"
+	quest.6FBEFDD770C75228.title: "Familier : Druide"
 	quest.6FEBA486156AA0CA.quest_desc: [
 		"La &6&lManivelle&r&r produit un peu de rotation à la force de tes bras."
 		""
@@ -4196,6 +4580,8 @@
 	]
 	quest.71E18DE493DD7CE8.quest_subtitle: "Cadres et albums"
 	quest.71E18DE493DD7CE8.title: "Accrocher ses souvenirs"
+	quest.71FA2F479DE5E1FF.quest_subtitle: "Sort ultime"
+	quest.71FA2F479DE5E1FF.title: "Le Phénix"
 	quest.71FA7C33865A2435.quest_desc: [
 		"Les &efestins&r (poulet rôti, jambon glacé, pâté du berger…) se posent sur une table et se partagent en plusieurs portions avec un bol."
 		""
@@ -4220,6 +4606,11 @@
 		"Tu peux aussi appuyer sur &bR&r ou &bU&r en survolant n'importe quel objet pour voir sa recette ou ses utilisations."
 	]
 	quest.7261FED43BDDEFA8.title: "Un inventaire portable"
+	quest.726761734706D40A.quest_desc: [
+		"Les matériaux du &3Warden&r et de l'&3Autre Côté&r donnent un bâton, une armure de mage et un grimoire."
+	]
+	quest.726761734706D40A.quest_subtitle: "Deeper and Darker Spellbooks"
+	quest.726761734706D40A.title: "&3&lLa magie de l'Autre Côté"
 	quest.72746FE37828D4F6.quest_desc: [
 		"Découvre l'avenir du rangement des enchantements avec la &6Bibliothèque d'Enchantements&r, la solution idéale pour gérer tes &alivres enchantés&r."
 		""
@@ -4256,6 +4647,15 @@
 		"&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver une Usine Antique.&r"
 	]
 	quest.72A389F374C87353.quest_subtitle: "&b☠ Niveau 4"
+	quest.72A4B9E052147209.quest_desc: [
+		"Les boss de &cCataclysm&r gardent des &esorts&r. Chacun lâche un &6manuscrit&r : utilise-le pour apprendre ses sorts."
+		""
+		"Tu y gagnes aussi des &egrimoires&r, des &ebâtons&r et des &earmures de mage&r aux couleurs de chaque boss."
+		""
+		"Tape &d@cataclysm_spellbooks&r dans JEI pour tout voir."
+	]
+	quest.72A4B9E052147209.quest_subtitle: "Cataclysm Spellbooks"
+	quest.72A4B9E052147209.title: "&c&lLes grimoires de Cataclysm"
 	quest.72A5DEFDD0F3470D.quest_desc: [
 		"Avec une &bpioche en diamant&r, tu peux miner l'&dobsidienne&r, qui sert à construire un portail vers le &cNether&r."
 		""
@@ -4453,6 +4853,20 @@
 	]
 	quest.76100542C15576F4.quest_subtitle: "Bosses of Mass Destruction"
 	quest.76100542C15576F4.title: "&5L'Obsidilith"
+	quest.762C0673F2B68D8F.quest_subtitle: "Apprivoiser"
+	quest.762C0673F2B68D8F.title: "Familier : Archimage"
+	quest.767CE4240E7B2E54.quest_subtitle: "Sort ultime"
+	quest.767CE4240E7B2E54.title: "Le Glacier"
+	quest.76D5BB2B74860208.quest_desc: [
+		"Un &erenifleur&r peut déterrer une &ebaie de cristal&r."
+	]
+	quest.76D5BB2B74860208.quest_subtitle: "Un fruit du passé"
+	quest.76D5BB2B74860208.title: "La baie de cristal"
+	quest.771232E4F49CBF24.quest_desc: [
+		"Une &eencre&r propre au Crépuscule, comme l'encre royale et l'encre insolite."
+	]
+	quest.771232E4F49CBF24.quest_subtitle: "Pour des parchemins plus puissants"
+	quest.771232E4F49CBF24.title: "L'encre du Crépuscule"
 	quest.77245D69B2335CEB.quest_desc: [
 		"Le &5Vagabond du Vide&r, le &5Reclus&r et le &5Serviteur de l'Ender&r rôdent dans les îles extérieures de l'End."
 		""
@@ -4513,6 +4927,11 @@
 		""
 		"Les conducteurs non-joueurs, eux, peuvent faire jouer tous les sifflets."
 	]
+	quest.7862D2D8792D8F72.quest_desc: [
+		"Les sorts abyssaux protégés par les deeplings de la &3cité engloutie&r."
+	]
+	quest.7862D2D8792D8F72.quest_subtitle: "Les sorts abyssaux"
+	quest.7862D2D8792D8F72.title: "Le manuscrit déchiré"
 	quest.789180040016D6AA.quest_desc: [
 		"&eDragons Plus&r ajoute des &eteintures liquides&r pour teindre en masse avec un ventilateur, des réservoirs fragiles, et d'autres petits outils pratiques."
 	]
@@ -4547,6 +4966,11 @@
 		""
 		"Petit bonus : un jukebox avec un disque à côté le fait danser, et il peut même porter des Lunettes d'Ingénieur."
 	]
+	quest.796DD8C4BB828BD1.quest_desc: [
+		"Forge le &elanceur Blaze&r : une machine qui lance des sorts toute seule."
+	]
+	quest.796DD8C4BB828BD1.quest_subtitle: "Le lanceur de sorts"
+	quest.796DD8C4BB828BD1.title: "JE LANCE BOULE DE FEU !"
 	quest.79B27E5DC08D6FC5.quest_desc: [
 		"Comme les Lunettes d'Ingénieur, elles affichent des informations sur les blocs : contrainte, capacité, contenu…"
 		""
@@ -4574,6 +4998,16 @@
 	]
 	quest.7AA0DA68DD83387E.quest_subtitle: "Pour les avions"
 	quest.7AA0DA68DD83387E.title: "Les Ailes"
+	quest.7AA9851BE336F0C4.quest_desc: [
+		"Les grimoires de Somake s'améliorent en &eII&r puis &eIII&r à la forge d'amélioration."
+	]
+	quest.7AA9851BE336F0C4.quest_subtitle: "Un grimoire à trois niveaux"
+	quest.7AA9851BE336F0C4.title: "Magma ardent"
+	quest.7ADCE78F470B5305.quest_desc: [
+		"Donne une &ebaie de cristal&r à un familier : il te montre un &efragment de mémoire&r."
+	]
+	quest.7ADCE78F470B5305.quest_subtitle: "Un fragment de mémoire"
+	quest.7ADCE78F470B5305.title: "Un goût de chez soi"
 	quest.7AF0882497D1D408.quest_desc: [
 		"Des cavernes plongées dans le noir, où rôdent des créatures qui fuient la lumière… ou qui la cherchent."
 	]
@@ -4668,6 +5102,8 @@
 	]
 	quest.7CA151FCABD637F0.quest_subtitle: "Le sommet"
 	quest.7CA151FCABD637F0.title: "La Bibliothèque de l'End"
+	quest.7CA61CC13875E6E0.quest_subtitle: "Relique des mages"
+	quest.7CA61CC13875E6E0.title: "Flasque de brume rouge"
 	quest.7CC5D0BEAE4099AB.quest_desc: [
 		"Les &eBreloques de Vie&r empêchent une mort (elles sont consommées à la place), et les &eBreloques de Protection&r gardent une partie de ton inventaire à la mort."
 		""
@@ -4691,6 +5127,11 @@
 	]
 	quest.7D08DA1B1071D0C6.quest_subtitle: "Boss : la Reine Valkyrie"
 	quest.7D08DA1B1071D0C6.title: "&f&lLe Donjon d'Argent"
+	quest.7D13DD9E5A4C7207.quest_desc: [
+		"Plus d'emplacements de sorts et plus de puissance."
+	]
+	quest.7D13DD9E5A4C7207.quest_subtitle: "Deuxième niveau"
+	quest.7D13DD9E5A4C7207.title: "Magma ardent II"
 	quest.7D553B2A750147F2.quest_desc: [
 		"Une pellicule exposée doit d'abord être &edéveloppée&r en la fabriquant avec les produits indiqués dans sa description."
 		""
@@ -4715,6 +5156,18 @@
 	quest.7DE30100EBF85C62.quest_subtitle: "Create Ore Excavation"
 	quest.7DE30100EBF85C62.title: "&6Les gisements de minerai"
 	quest.7DE83E440B507868.quest_subtitle: "Niveau I"
+	quest.7DEAA5DD07821D36.quest_desc: [
+		"Les matériaux de la &2Forêt du Crépuscule&r servent aussi aux mages : grimoires, encres et anneaux."
+		""
+		"Chaque &cboss du Crépuscule&r lâche un &6tome&r qui apprend ses sorts."
+	]
+	quest.7DEAA5DD07821D36.quest_subtitle: "Twilight Spellbooks"
+	quest.7DEAA5DD07821D36.title: "&2&lLa magie du Crépuscule"
+	quest.7E328B06EA594628.quest_desc: [
+		"Capture une &eâme de familier&r dans une bouteille."
+	]
+	quest.7E328B06EA594628.quest_subtitle: "Capturer une âme"
+	quest.7E328B06EA594628.title: "Un esprit en bouteille"
 	quest.7E452D2A2E57464F.quest_desc: [
 		"&eBetter Archeology&r ajoute des pinceaux améliorés (fer, diamant, Netherite), des fossiles à reconstituer, des vases à butin et des artefacts aux pouvoirs spéciaux."
 		""
@@ -4765,6 +5218,10 @@
 	]
 	quest.7EF948B39FBEA377.title: "Notre première pioche"
 	quest.7F1AB8E8DA7BFD77.quest_subtitle: "Ajoute un effet Butin aux monstres que tu tues"
+	quest.7F4B764118AF70F0.quest_subtitle: "Apprivoiser"
+	quest.7F4B764118AF70F0.title: "Familier : Invocateur"
+	quest.7F8540F47C5B472B.quest_subtitle: "Apprivoiser"
+	quest.7F8540F47C5B472B.title: "Familier : Chasseur"
 	quest.7FA5CDC0F616D2C5.quest_desc: [
 		"Il est temps de laisser la pierre derrière toi."
 		""

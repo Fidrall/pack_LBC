@@ -1,4 +1,4 @@
-chapter.464FB437D5DF7824.title: "&eArtifacts"
+chapter.464FB437D5DF7824.title: "&e&lArtifacts and relics"
 quest.016C498DFB704536.quest_subtitle: "Allows you to trade with villagers for much cheaper"
 quest.042259C7B1BF773A.quest_subtitle: "Lights your attackers on fire"
 quest.0424F3DCA7620F49.quest_subtitle: "Increases the wearers mining speed and allows the wearer to break blocks like stone with their fist"

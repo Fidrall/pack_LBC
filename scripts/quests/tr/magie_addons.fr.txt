@@ -1,0 +1,405 @@
+chapter.5DF70E87F7C6B2E1.title: "Addons de magie"
+quest.72A4B9E052147209.title: "&c&lLes grimoires de Cataclysm"
+quest.72A4B9E052147209.quest_subtitle: "Cataclysm Spellbooks"
+quest.72A4B9E052147209.quest_desc: [
+  "Les boss de &cCataclysm&r gardent des &esorts&r. Chacun lâche un &6manuscrit&r : utilise-le pour apprendre ses sorts."
+  ""
+  "Tu y gagnes aussi des &egrimoires&r, des &ebâtons&r et des &earmures de mage&r aux couleurs de chaque boss."
+  ""
+  "Tape &d@cataclysm_spellbooks&r dans JEI pour tout voir."
+]
+quest.69E24D167CE3F3C7.title: "Le manuscrit brûlant"
+quest.69E24D167CE3F3C7.quest_subtitle: "Les sorts d'Ignis"
+quest.69E24D167CE3F3C7.quest_desc: [
+  "Vaincs &cIgnis&r dans l'arène brûlante pour obtenir son &6manuscrit&r et apprendre ses sorts de feu."
+]
+quest.224003136239F945.title: "L'empreinte codée"
+quest.224003136239F945.quest_subtitle: "Les sorts de la Monstruosité"
+quest.224003136239F945.quest_desc: [
+  "La &cMonstruosité de Netherite&r cache des sorts infernaux codés dans sa carcasse."
+]
+quest.588BA49771B0A2C6.title: "Le script de l'oracle"
+quest.588BA49771B0A2C6.quest_subtitle: "Les sorts du Gardien de l'Ender"
+quest.588BA49771B0A2C6.quest_desc: [
+  "Les sorts du vide sont gravés sur la carapace de l'&5Ender Guardian&r, au fond de la citadelle en ruine."
+]
+quest.43F91753FC128B9B.title: "Le manuscrit hiéroglyphique"
+quest.43F91753FC128B9B.quest_subtitle: "Les sorts de la pyramide maudite"
+quest.43F91753FC128B9B.quest_desc: [
+  "Les sorts oubliés de la &epyramide maudite&r, gardés par l'&6Ancient Remnant&r."
+]
+quest.6AB8B494868FFB3D.title: "La tablette gelée"
+quest.6AB8B494868FFB3D.quest_subtitle: "Les sorts de la prison gelée"
+quest.6AB8B494868FFB3D.quest_desc: [
+  "Les sorts maudits scellés dans la &bprison gelée&r de &cMaledictus&r."
+]
+quest.7862D2D8792D8F72.title: "Le manuscrit déchiré"
+quest.7862D2D8792D8F72.quest_subtitle: "Les sorts abyssaux"
+quest.7862D2D8792D8F72.quest_desc: [
+  "Les sorts abyssaux protégés par les deeplings de la &3cité engloutie&r."
+]
+quest.66E68F10A1020ADD.title: "Le disque étrange"
+quest.66E68F10A1020ADD.quest_subtitle: "Les sorts du Harbinger"
+quest.66E68F10A1020ADD.quest_desc: [
+  "Joue ce disque dans un juke-box &eaccroupi&r pour apprendre les sorts cachés de l'&eusine antique&r."
+]
+quest.42B1DCA72EEE5C1C.title: "Le manuscrit cristallisé"
+quest.42B1DCA72EEE5C1C.quest_subtitle: "Les sorts du nid d'améthyste"
+quest.42B1DCA72EEE5C1C.quest_desc: [
+  "Les sorts cristallins déposés dans le &dnid d'améthyste&r."
+]
+quest.3913CD2C7AD39B5F.title: "Le grimoire d'Ignis"
+quest.3913CD2C7AD39B5F.quest_subtitle: "Un grimoire de boss"
+quest.3913CD2C7AD39B5F.quest_desc: [
+  "Chaque boss a son &egrimoire&r : Ignis, le Livre de R'lyeh, le grimoire du désert, le Codex de la Malice…"
+]
+quest.104DD35BA3CA84D0.title: "La robe d'Ignis"
+quest.104DD35BA3CA84D0.quest_subtitle: "Armure de mage de feu"
+quest.104DD35BA3CA84D0.quest_desc: [
+  "Une &earmure de mage&r forgée avec les matériaux d'Ignis."
+]
+quest.5D7025D9AD552E89.title: "La robe du sorcier abyssal"
+quest.5D7025D9AD552E89.quest_subtitle: "Armure de mage abyssale"
+quest.5D7025D9AD552E89.quest_desc: [
+  "Une &earmure de mage&r pour les sorts abyssaux."
+]
+quest.5E3AB79E263DECAE.title: "Le haubert du pharaon"
+quest.5E3AB79E263DECAE.quest_subtitle: "Armure sacrée du désert"
+quest.5E3AB79E263DECAE.quest_desc: [
+  "Une &earmure de mage&r tirée des trésors de la pyramide maudite."
+]
+quest.574BC3B363C105CA.title: "&b&lSomake Spells"
+quest.574BC3B363C105CA.quest_subtitle: "Nouvelles écoles et nouveaux métaux"
+quest.574BC3B363C105CA.quest_desc: [
+  "&6Somake Spells&r ajoute des écoles de magie (&beau&r, &cfeu infernal&r, &3feu des âmes&r…), de nouveaux &emétaux&r, des &egrimoires à trois niveaux&r et des armes de mage."
+  ""
+  "Tape &d@somakespells&r dans JEI pour tout voir."
+]
+quest.5B625E10DEDFA9EA.title: "La forge d'amélioration"
+quest.5B625E10DEDFA9EA.quest_subtitle: "Le cœur de Somake"
+quest.5B625E10DEDFA9EA.quest_desc: [
+  "La &eforge d'amélioration&r fait passer grimoires, armes et armures au niveau supérieur."
+]
+quest.018AADA52763B44E.title: "L'abyssium"
+quest.018AADA52763B44E.quest_subtitle: "Un métal des profondeurs"
+quest.018AADA52763B44E.quest_desc: [
+  "Un des trois nouveaux &emétaux&r de Somake, avec le céranium et le magmarium."
+]
+quest.232E530C755FCFAB.title: "Le céranium"
+quest.232E530C755FCFAB.quest_subtitle: "Un métal céleste"
+quest.232E530C755FCFAB.quest_desc: [
+  "Un des trois nouveaux &emétaux&r de Somake."
+]
+quest.48D27DA06BA1F479.title: "Le magmarium"
+quest.48D27DA06BA1F479.quest_subtitle: "Un métal de lave"
+quest.48D27DA06BA1F479.quest_desc: [
+  "Un des trois nouveaux &emétaux&r de Somake."
+]
+quest.4C78CF4FDFF7A858.title: "Les runes des nouvelles écoles"
+quest.4C78CF4FDFF7A858.quest_subtitle: "Eau, feu infernal, feu des âmes"
+quest.4C78CF4FDFF7A858.quest_desc: [
+  "Chaque nouvelle école a sa &erune&r, base de ses &eorbes d'amélioration&r."
+]
+quest.7AA9851BE336F0C4.title: "Magma ardent"
+quest.7AA9851BE336F0C4.quest_subtitle: "Un grimoire à trois niveaux"
+quest.7AA9851BE336F0C4.quest_desc: [
+  "Les grimoires de Somake s'améliorent en &eII&r puis &eIII&r à la forge d'amélioration."
+]
+quest.7D13DD9E5A4C7207.title: "Magma ardent II"
+quest.7D13DD9E5A4C7207.quest_subtitle: "Deuxième niveau"
+quest.7D13DD9E5A4C7207.quest_desc: [
+  "Plus d'emplacements de sorts et plus de puissance."
+]
+quest.0BD23567F591AE06.title: "Magma ardent III"
+quest.0BD23567F591AE06.quest_subtitle: "Le grimoire ultime"
+quest.0BD23567F591AE06.quest_desc: [
+  "Le dernier niveau du grimoire."
+]
+quest.68462036ABCF9856.title: "Le bâton d'ignitium"
+quest.68462036ABCF9856.quest_subtitle: "Un bâton de feu"
+quest.68462036ABCF9856.quest_desc: [
+  "Un bâton forgé avec l'&cignitium&r de Cataclysm."
+]
+quest.13A8F5D3D1055A2C.title: "L'aquamancien"
+quest.13A8F5D3D1055A2C.quest_subtitle: "Armure de l'école de l'eau"
+quest.13A8F5D3D1055A2C.quest_desc: [
+  "L'armure de mage de l'école de l'&beau&r."
+]
+quest.7DEAA5DD07821D36.title: "&2&lLa magie du Crépuscule"
+quest.7DEAA5DD07821D36.quest_subtitle: "Twilight Spellbooks"
+quest.7DEAA5DD07821D36.quest_desc: [
+  "Les matériaux de la &2Forêt du Crépuscule&r servent aussi aux mages : grimoires, encres et anneaux."
+  ""
+  "Chaque &cboss du Crépuscule&r lâche un &6tome&r qui apprend ses sorts."
+]
+quest.3224C7B964D0D7B2.title: "Le tome de bois de fer"
+quest.3224C7B964D0D7B2.quest_subtitle: "Le premier grimoire du Crépuscule"
+quest.3224C7B964D0D7B2.quest_desc: [
+  "Un grimoire en &ebois de fer&r."
+]
+quest.42D083586F07CC9A.title: "Le grimoire de feuille d'acier"
+quest.42D083586F07CC9A.quest_subtitle: "Plus robuste"
+quest.42D083586F07CC9A.quest_desc: [
+  "Un grimoire en &efeuille d'acier&r."
+]
+quest.41DF0843EA1498DA.title: "Le grimoire ardent"
+quest.41DF0843EA1498DA.quest_subtitle: "Forgé dans le sang de l'hydre"
+quest.41DF0843EA1498DA.quest_desc: [
+  "Un grimoire en &cmétal ardent&r."
+]
+quest.771232E4F49CBF24.title: "L'encre du Crépuscule"
+quest.771232E4F49CBF24.quest_subtitle: "Pour des parchemins plus puissants"
+quest.771232E4F49CBF24.quest_desc: [
+  "Une &eencre&r propre au Crépuscule, comme l'encre royale et l'encre insolite."
+]
+quest.2DCA6BB2A9F56E00.title: "Le grimoire de la naga"
+quest.2DCA6BB2A9F56E00.quest_subtitle: "Le premier boss"
+quest.2DCA6BB2A9F56E00.quest_desc: [
+  "Le tome de la &enaga&r."
+]
+quest.0C1887FFAA36273A.title: "Le secret de la liche"
+quest.0C1887FFAA36273A.quest_subtitle: "La tour de la liche"
+quest.0C1887FFAA36273A.quest_desc: [
+  "Le tome de la &eliche&r."
+]
+quest.6BE7479A5B0FCAFA.title: "La fureur du minoshroom"
+quest.6BE7479A5B0FCAFA.quest_subtitle: "Le labyrinthe"
+quest.6BE7479A5B0FCAFA.quest_desc: [
+  "Le tome du &eminoshroom&r."
+]
+quest.57243552290E8AB4.title: "Le codex de l'hydre"
+quest.57243552290E8AB4.quest_subtitle: "Le marais de feu"
+quest.57243552290E8AB4.quest_desc: [
+  "Le tome de l'&ehydre&r."
+]
+quest.40BA402AF9187030.title: "Les mémoires du chevalier"
+quest.40BA402AF9187030.quest_subtitle: "Le bastion des chevaliers"
+quest.40BA402AF9187030.quest_desc: [
+  "Le tome des &echevaliers fantômes&r."
+]
+quest.32F3AF3FC073676C.title: "Le cri du yéti"
+quest.32F3AF3FC073676C.quest_subtitle: "La grotte du yéti"
+quest.32F3AF3FC073676C.quest_desc: [
+  "Le tome du &eyéti alpha&r."
+]
+quest.6CD97174767A092E.title: "La chronique de l'Ur-Ghast"
+quest.6CD97174767A092E.quest_subtitle: "La tour noire"
+quest.6CD97174767A092E.quest_desc: [
+  "Le tome de l'&eUr-Ghast&r."
+]
+quest.376FA97736EC730A.title: "Le journal de la reine"
+quest.376FA97736EC730A.quest_subtitle: "Le palais de l'aurore"
+quest.376FA97736EC730A.quest_desc: [
+  "Le tome de la &eReine des neiges&r."
+]
+quest.726761734706D40A.title: "&3&lLa magie de l'Autre Côté"
+quest.726761734706D40A.quest_subtitle: "Deeper and Darker Spellbooks"
+quest.726761734706D40A.quest_desc: [
+  "Les matériaux du &3Warden&r et de l'&3Autre Côté&r donnent un bâton, une armure de mage et un grimoire."
+]
+quest.5F064383CB085102.title: "Les Murmures"
+quest.5F064383CB085102.quest_subtitle: "Le bâton des profondeurs"
+quest.5F064383CB085102.quest_desc: [
+  "Fabrique &eles Murmures&r, à partir du bâton sonore de Deeper and Darker."
+]
+quest.6BA83C7B90279BE8.title: "Un avec le Warden"
+quest.6BA83C7B90279BE8.quest_subtitle: "L'armure de mage du Warden"
+quest.6BA83C7B90279BE8.quest_desc: [
+  "Porte l'armure complète de &3mage-guerrier du Warden&r."
+]
+quest.2A485594292869F0.title: "Le Volume des Profondeurs"
+quest.2A485594292869F0.quest_subtitle: "Un grimoire de Netherite amélioré"
+quest.2A485594292869F0.quest_desc: [
+  "Améliore ton grimoire de Netherite en &3Volume des Profondeurs&r."
+]
+quest.0AE3E37BBB68A843.title: "&e&lCreate : Wizardry"
+quest.0AE3E37BBB68A843.quest_subtitle: "La sorcellerie mécanique"
+quest.0AE3E37BBB68A843.quest_desc: [
+  "&6Create : Wizardry&r automatise la magie avec Create : essence arcanique, encres, mana liquide, foudre et même un lanceur de sorts."
+]
+quest.47870B6FCC98A229.title: "Alchimie 101"
+quest.47870B6FCC98A229.quest_subtitle: "De l'essence arcanique à la chaîne"
+quest.47870B6FCC98A229.quest_desc: [
+  "Synthétise de l'&eessence arcanique&r avec du lapis, de l'améthyste et de l'expérience."
+]
+quest.5C0E72C9BD62946E.title: "L'encre industrielle"
+quest.5C0E72C9BD62946E.quest_subtitle: "Fini le mélange à la main"
+quest.5C0E72C9BD62946E.quest_desc: [
+  "Mélange de l'&eencre&r avec une machine Create."
+]
+quest.6EB04F643E120B1C.title: "La plaque arcanique"
+quest.6EB04F643E120B1C.quest_subtitle: "Sploink."
+quest.6EB04F643E120B1C.quest_desc: [
+  "Obtiens une &eplaque arcanique&r."
+]
+quest.5D2F125D138F13E2.title: "Bien isolé"
+quest.5D2F125D138F13E2.quest_subtitle: "Le mana ne fuit plus"
+quest.5D2F125D138F13E2.quest_desc: [
+  "Isole tes tuyaux avec des &eplaques arcaniques&r pour ne plus perdre de mana en route."
+]
+quest.3B48585F6793AF6D.title: "Le siphon de mana"
+quest.3B48585F6793AF6D.quest_subtitle: "Ton aura en bouteille"
+quest.3B48585F6793AF6D.quest_desc: [
+  "Fabrique un &esiphon de mana&r pour récolter ton propre mana."
+]
+quest.6BF2ADA1795508A3.title: "Pur à 99,7 %"
+quest.6BF2ADA1795508A3.quest_subtitle: "De l'essence presque gratuite"
+quest.6BF2ADA1795508A3.quest_desc: [
+  "Récolte des &ecristaux de mana&r sur un siphon."
+]
+quest.0F6977F5046A34DC.title: "L'âge des Lumières"
+quest.0F6977F5046A34DC.quest_subtitle: "Le boîtier arcanique"
+quest.0F6977F5046A34DC.quest_desc: [
+  "Fabrique un &eboîtier arcanique&r."
+]
+quest.3440C3914CCA9A49.title: "Récolter le ciel"
+quest.3440C3914CCA9A49.quest_subtitle: "La foudre liquide"
+quest.3440C3914CCA9A49.quest_desc: [
+  "Pose un &ecanaliseur&r pour récolter de la &efoudre liquide&r pendant les orages."
+]
+quest.796DD8C4BB828BD1.title: "JE LANCE BOULE DE FEU !"
+quest.796DD8C4BB828BD1.quest_subtitle: "Le lanceur de sorts"
+quest.796DD8C4BB828BD1.quest_desc: [
+  "Forge le &elanceur Blaze&r : une machine qui lance des sorts toute seule."
+]
+quest.44287246FF4476AE.title: "&d&lLes familiers"
+quest.44287246FF4476AE.quest_subtitle: "Alshanex's Familiars"
+quest.44287246FF4476AE.quest_desc: [
+  "Des &dfamiliers&r mages vivent dans le monde : apprivoise-les pour qu'ils combattent et lancent des sorts à tes côtés."
+  ""
+  "Lis le &eTome des familiers&r pour tout savoir."
+]
+quest.367BA715623DCE16.title: "Un lit pour récupérer"
+quest.367BA715623DCE16.quest_subtitle: "Le coin de ton familier"
+quest.367BA715623DCE16.quest_desc: [
+  "Fabrique un &elit&r pour ton familier."
+]
+quest.1C5547BC552A32E9.title: "Un village miniature"
+quest.1C5547BC552A32E9.quest_subtitle: "Ranger ses familiers"
+quest.1C5547BC552A32E9.quest_desc: [
+  "Fabrique une &emaison à familiers&r pour les ranger."
+]
+quest.6E4ED140C8667E06.title: "Le Rétrécisseur !"
+quest.6E4ED140C8667E06.quest_subtitle: "À la taille d'un familier"
+quest.6E4ED140C8667E06.quest_desc: [
+  "Fabrique le &eRétrécisseur&r, qui réduit les objets à la taille des familiers."
+]
+quest.469E868877AF4E21.title: "Un petit coup de pouce"
+quest.469E868877AF4E21.quest_subtitle: "Améliorer son familier"
+quest.469E868877AF4E21.quest_desc: [
+  "Donne un &eobjet d'amélioration&r à un familier."
+]
+quest.40BC7FBFF9180FA1.title: "La nécromancie"
+quest.40BC7FBFF9180FA1.quest_subtitle: "Ramener un familier"
+quest.40BC7FBFF9180FA1.quest_desc: [
+  "Vaincs le &cRoi Mort&r pour pouvoir ressusciter tes familiers après leur mort."
+]
+quest.76D5BB2B74860208.title: "La baie de cristal"
+quest.76D5BB2B74860208.quest_subtitle: "Un fruit du passé"
+quest.76D5BB2B74860208.quest_desc: [
+  "Un &erenifleur&r peut déterrer une &ebaie de cristal&r."
+]
+quest.7ADCE78F470B5305.title: "Un goût de chez soi"
+quest.7ADCE78F470B5305.quest_subtitle: "Un fragment de mémoire"
+quest.7ADCE78F470B5305.quest_desc: [
+  "Donne une &ebaie de cristal&r à un familier : il te montre un &efragment de mémoire&r."
+]
+quest.2FF8FF176131B700.title: "Là où tout a commencé"
+quest.2FF8FF176131B700.quest_subtitle: "L'île des origines"
+quest.2FF8FF176131B700.quest_desc: [
+  "Suis les fragments de mémoire jusqu'à l'&eîle des origines&r, où se font les rituels."
+]
+quest.7E328B06EA594628.title: "Un esprit en bouteille"
+quest.7E328B06EA594628.quest_subtitle: "Capturer une âme"
+quest.7E328B06EA594628.quest_desc: [
+  "Capture une &eâme de familier&r dans une bouteille."
+]
+quest.2FF6576BB06DDEAA.title: "La réincarnation"
+quest.2FF6576BB06DDEAA.quest_subtitle: "Créer un familier"
+quest.2FF6576BB06DDEAA.quest_desc: [
+  "Utilise un &eéclat de familier&r pour en créer un."
+]
+quest.1EB944FE6B8CDB68.title: "Nous ne faisons qu'un"
+quest.1EB944FE6B8CDB68.quest_subtitle: "Le tome d'alignement"
+quest.1EB944FE6B8CDB68.quest_desc: [
+  "Fabrique le &eTome d'alignement des familiers&r."
+]
+quest.316714AB0F2A61BC.title: "Imposteur !"
+quest.316714AB0F2A61BC.quest_subtitle: "Démasquer un illusionniste"
+quest.316714AB0F2A61BC.quest_desc: [
+  "Révèle un &efamilier illusionniste&r déguisé."
+]
+quest.10E3F75C7B6B3BA8.title: "&d&lAnthropologue"
+quest.10E3F75C7B6B3BA8.quest_subtitle: "Tous les familiers"
+quest.10E3F75C7B6B3BA8.quest_desc: [
+  "Apprivoise &etous les types de familiers&r."
+]
+quest.762C0673F2B68D8F.title: "Familier : Archimage"
+quest.762C0673F2B68D8F.quest_subtitle: "Apprivoiser"
+quest.5601D5C01C25990E.title: "Familier : Clerc"
+quest.5601D5C01C25990E.quest_subtitle: "Apprivoiser"
+quest.59814CE7812DF1BB.title: "Familier : Dragon"
+quest.59814CE7812DF1BB.quest_subtitle: "Apprivoiser"
+quest.6FBEFDD770C75228.title: "Familier : Druide"
+quest.6FBEFDD770C75228.quest_subtitle: "Apprivoiser"
+quest.48B836066C8C93E8.title: "Familier : Givrin"
+quest.48B836066C8C93E8.quest_subtitle: "Apprivoiser"
+quest.7F8540F47C5B472B.title: "Familier : Chasseur"
+quest.7F8540F47C5B472B.quest_subtitle: "Apprivoiser"
+quest.5F6275B785249B70.title: "Familier : Illusionniste"
+quest.5F6275B785249B70.quest_subtitle: "Apprivoiser"
+quest.38172BE7A0B9E9B6.title: "Familier : Mage"
+quest.38172BE7A0B9E9B6.quest_subtitle: "Apprivoiser"
+quest.12306FEC6457DCCC.title: "Familier : Nécromancien"
+quest.12306FEC6457DCCC.quest_subtitle: "Apprivoiser"
+quest.272AD46D59843D62.title: "Familier : Médecin de peste"
+quest.272AD46D59843D62.quest_subtitle: "Apprivoiser"
+quest.4D7354F36867673F.title: "Familier : Brûleur"
+quest.4D7354F36867673F.quest_subtitle: "Apprivoiser"
+quest.7F4B764118AF70F0.title: "Familier : Invocateur"
+quest.7F4B764118AF70F0.quest_subtitle: "Apprivoiser"
+quest.56DD3DF20502CDEC.title: "&5&lLes sorts ultimes"
+quest.56DD3DF20502CDEC.quest_subtitle: "Apex Arcana"
+quest.56DD3DF20502CDEC.quest_desc: [
+  "&5Apex Arcana&r ajoute &e18 sorts ultimes&r : étoiles qui tombent, dragons de foudre, glaciers, arbres-monde…"
+  ""
+  "Leurs parchemins sont &ctrès rares&r : on ne les trouve que dans quelques coffres de fin de jeu (cité antique, trésor de la cité de l'End, chambre du Roi Mort, citadelle d'Iron's, tour du Liche, tour noire du Crépuscule, temple de l'Autre Côté)."
+  ""
+  "Chaque quête ci-dessous se valide en lançant le sort."
+]
+quest.235BEC48FF1E7468.title: "Le Grand Sigil"
+quest.235BEC48FF1E7468.quest_subtitle: "Sort ultime"
+quest.6D02DE61C5C43ECA.title: "Chute du soleil"
+quest.6D02DE61C5C43ECA.quest_subtitle: "Sort ultime"
+quest.6A6BFD1C9FA41545.title: "Brise-ciel"
+quest.6A6BFD1C9FA41545.quest_subtitle: "Sort ultime"
+quest.451354CA6DDCF000.title: "L'Arbre-monde"
+quest.451354CA6DDCF000.quest_subtitle: "Sort ultime"
+quest.67885E1A64CB51A9.title: "Les Portes du Paradis"
+quest.67885E1A64CB51A9.quest_subtitle: "Sort ultime"
+quest.767CE4240E7B2E54.title: "Le Glacier"
+quest.767CE4240E7B2E54.quest_subtitle: "Sort ultime"
+quest.309783CF0B38841F.title: "Le Regard"
+quest.309783CF0B38841F.quest_subtitle: "Sort ultime"
+quest.3E9AD2CE88003A57.title: "L'Étreinte du vide"
+quest.3E9AD2CE88003A57.quest_subtitle: "Sort ultime"
+quest.329FA8CA8CA109BC.title: "Le Colisée"
+quest.329FA8CA8CA109BC.quest_subtitle: "Sort ultime"
+quest.38D26AA47778490A.title: "Le Jugement"
+quest.38D26AA47778490A.quest_subtitle: "Sort ultime"
+quest.2C1508E58B6EA90E.title: "Le Cercueil noir"
+quest.2C1508E58B6EA90E.quest_subtitle: "Sort ultime"
+quest.010A0A0127B9CA60.title: "Mille Lames"
+quest.010A0A0127B9CA60.quest_subtitle: "Sort ultime"
+quest.71FA2F479DE5E1FF.title: "Le Phénix"
+quest.71FA2F479DE5E1FF.quest_subtitle: "Sort ultime"
+quest.07722D8B3B464FEF.title: "Le Dragon de foudre"
+quest.07722D8B3B464FEF.quest_subtitle: "Sort ultime"
+quest.27B404AA4E20198D.title: "Pleine floraison"
+quest.27B404AA4E20198D.quest_subtitle: "Sort ultime"
+quest.6FB0397489FE5C8A.title: "L'Ère glaciaire"
+quest.6FB0397489FE5C8A.quest_subtitle: "Sort ultime"
+quest.339B098A9E8406EE.title: "Les Fils écarlates"
+quest.339B098A9E8406EE.quest_subtitle: "Sort ultime"
+quest.535C7416F3FA7ED8.title: "La Coupure dimensionnelle"
+quest.535C7416F3FA7ED8.quest_subtitle: "Sort ultime"

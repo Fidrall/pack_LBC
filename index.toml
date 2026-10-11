@@ -158,7 +158,7 @@ hash = "f7f5e4593f208a7a9c4004c9e4b552859e66308bf720d89427996e952626988c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "7770ee3ac2a7b90a075ed3148ccf0eda3086964559975bdc922a7efd03b55166"
+hash = "91b7440f9affbbc0ecf066ba35151d65950d208729251a95088ec4ee68108e80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
@@ -205,12 +205,8 @@ file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
 hash = "89011c088f96dcd18445ac2553f9c1b1f4d348d534ed41de972858ccf5ff5408"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/hazen_n_stuff.snbt"
-hash = "238b2af8857d23e41c6dac077bd0259a3a711f0fb6d693906ff37e147870302a"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
-hash = "322fe3356a67f6d51756aad41f3fdf8590ec452987dc21590fbb416ba251b21b"
+hash = "f31c3578a6072769a85796a352c56777fe39649f8e5fe6dd0ee6c9b1d635bc53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
@@ -246,7 +242,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "61409b4928b7a5f3542b33cd40824f642ad5b8f75d2d5d205475ad7a326c9aa8"
+hash = "51f1ef854ef3c3304e9920e1092fffba63300e455ca92ef418844013c114a757"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
