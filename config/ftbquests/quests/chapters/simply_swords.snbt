@@ -1485,5 +1485,469 @@
 			x: 8.5d
 			y: 1.5d
 		}
+		{
+			icon: {
+				id: "magistuarmory:knight_chestplate"
+			}
+			id: "1AB4622179327391"
+			rewards: [
+				{
+					id: "43ED1044AC323C3B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "24183E69368E459E"
+					type: "checkmark"
+				}
+			]
+			x: -6d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "36276ACE9CBB5E3B"
+			optional: true
+			rewards: [
+				{
+					id: "10393E0DA117EE0F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2F174D0DB90AE27C"
+					item: { count: 1, id: "magistuarmory:steel_ingot" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "32EC7D78CBEE058C"
+			optional: true
+			rewards: [
+				{
+					id: "6FC46B51C8A4F487"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0FD43472F42E998C"
+					item: { count: 1, id: "magistuarmory:steel_bastardsword" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "292E391F4037E4AC"
+			optional: true
+			rewards: [
+				{
+					id: "45EE1BB03EE56F21"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "34B29EDDAB9D468A"
+					item: { count: 1, id: "magistuarmory:steel_concavehalberd" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "22C57EE4D56F8883"
+			optional: true
+			rewards: [
+				{
+					id: "52F04E9DB4E54B37"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5FBE0BDA894349A9"
+					item: { count: 1, id: "magistuarmory:steel_morgenstern" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "65123E4190BCE18B"
+			optional: true
+			rewards: [
+				{
+					id: "67AFFC7BB900D6D6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "65975E4E96D26C4F"
+					item: { count: 1, id: "magistuarmory:steel_chivalrylance" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "6767FDEC926C01DE"
+			optional: true
+			rewards: [
+				{
+					id: "7CD47FC33146F395"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0FC3B505E8D07DDF"
+					item: { count: 1, id: "magistuarmory:steel_heatershield" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "683574F1E5FA1393"
+			optional: true
+			rewards: [
+				{
+					id: "26EFDA28BFF4F97B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2E1EFEE58013A51F"
+					item: { count: 1, id: "magistuarmory:heavy_crossbow" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "23C93ED31C676697"
+			optional: true
+			rewards: [
+				{
+					id: "691D045DF70FF981"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "41EC1C416CCAD51B"
+					item: { count: 1, id: "magistuarmory:longbow" }
+					type: "item"
+				}
+			]
+			x: 6d
+			y: 5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "493956CAD2985FD5"
+			optional: true
+			rewards: [
+				{
+					id: "0F554D1BBB3F763E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "08433FA2EF9C839F"
+					item: { count: 1, id: "magistuarmory:knight_chestplate" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "247C2394F663B2D9"
+			optional: true
+			rewards: [
+				{
+					id: "732309E2109BC550"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3E2FCDA2C1DDC581"
+					item: { count: 1, id: "magistuarmory:gothic_chestplate" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "75DEB8298B332B2D"
+			optional: true
+			rewards: [
+				{
+					id: "36B7A55574CADE2C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2274289835932EED"
+					item: { count: 1, id: "magistuarmory:maximilian_chestplate" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "7DEFE3C0CFE1DD46"
+			optional: true
+			rewards: [
+				{
+					id: "36A21E18AA884DC0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "78DC2C59F56FDBF3"
+					item: { count: 1, id: "magistuarmory:crusader_chestplate" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "50A0FF4CB52D4CE2"
+			optional: true
+			rewards: [
+				{
+					id: "30CBAB9C4F6A5DD5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "595F9FD2ABC6811A"
+					item: { count: 1, id: "magistuarmory:jousting_chestplate" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "26679F5867D4F70E"
+			optional: true
+			rewards: [
+				{
+					id: "13EF702EE1909188"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "563C67DFDDB1708D"
+					item: { count: 1, id: "magistuarmory:barding" }
+					type: "item"
+				}
+			]
+			x: 3d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AB4622179327391"]
+			hide_dependency_lines: true
+			id: "7E567F96CF094889"
+			optional: true
+			rewards: [
+				{
+					id: "1FE5264E8EF37BDB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "549D885FFA2FF349"
+					item: { count: 1, id: "magistuarmory:big_plume_decoration" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.5d
+		}
 	]
 }

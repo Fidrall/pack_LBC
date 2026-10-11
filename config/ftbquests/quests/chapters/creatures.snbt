@@ -579,5 +579,1115 @@
 			x: 4.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["0030852E282BC66A"]
+			id: "3647F0C569D14B25"
+			optional: true
+			rewards: [
+				{
+					id: "719339B0A43720D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "takesapillage:adventure/pillager_camp"
+					criterion: ""
+					id: "187665BDD8F7A94D"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3647F0C569D14B25"]
+			id: "1F4BC0A59DF53DB5"
+			optional: true
+			rewards: [
+				{
+					id: "060F86677A594C2A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "takesapillage:adventure/bastille"
+					criterion: ""
+					id: "15CE196A97C3FC1A"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 3d
+		}
+		{
+			dependencies: ["0030852E282BC66A"]
+			id: "312A8576C183203F"
+			optional: true
+			rewards: [
+				{
+					id: "1DA3A51D11A587FC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "guardvillagers:adventure/recruit_guard"
+					criterion: ""
+					id: "55832A94B0B95A3F"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
+			id: "293AA70ADD3EB55C"
+			rewards: [
+				{
+					id: "4FA6747270C7F402"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:bornin_chaos"
+					criterion: ""
+					id: "6E47C9D7B32F186F"
+					type: "advancement"
+				}
+			]
+			x: -3d
+			y: 8d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:pieceofdarkmetal"
+			}
+			id: "461D141399676978"
+			optional: true
+			rewards: [
+				{
+					id: "50454C87DC16625E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dark_metallurgy"
+					criterion: ""
+					id: "6D49CD6B31148C8E"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["461D141399676978"]
+			icon: {
+				id: "born_in_chaos_v1:dark_metal_ingot"
+			}
+			id: "0F27A569EF838CFA"
+			optional: true
+			rewards: [
+				{
+					id: "2137C4C02AA2C2E7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dark_forging"
+					criterion: ""
+					id: "3CFCA22A7A6D26D8"
+					type: "advancement"
+				}
+			]
+			x: -6d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0F27A569EF838CFA"]
+			icon: {
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+			}
+			id: "656AEA6961AD3E31"
+			optional: true
+			rewards: [
+				{
+					id: "10858471C100884C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:chaos_knight"
+					criterion: ""
+					id: "395265A451A1344B"
+					type: "advancement"
+				}
+			]
+			x: -6d
+			y: 11d
+		}
+		{
+			dependencies: ["0F27A569EF838CFA"]
+			icon: {
+				id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+			}
+			id: "06E62F3471611422"
+			optional: true
+			rewards: [
+				{
+					id: "00CD848599229874"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dark_blacksmith"
+					criterion: ""
+					id: "78922FA41D50263C"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 11d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:missionary_hat_helmet"
+			}
+			id: "7356712807828743"
+			optional: true
+			rewards: [
+				{
+					id: "359EE27B7E09C02F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dark_creator"
+					criterion: ""
+					id: "716171F47B02B396"
+					type: "advancement"
+				}
+			]
+			x: -3d
+			y: 9.5d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:orbofthe_summoner"
+			}
+			id: "39F0ABBF728F2D36"
+			optional: true
+			rewards: [
+				{
+					id: "3FF2C11BF0EC1A7E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dismantledto_bones"
+					criterion: ""
+					id: "464150FA3F1CF6EF"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:nightmare_stalker_skull"
+			}
+			id: "520033BCDF31C071"
+			optional: true
+			rewards: [
+				{
+					id: "22DA6E17D6C7D1A5"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:fighting_nightmares"
+					criterion: ""
+					id: "71ACBB8B48A43E84"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+			}
+			id: "47F2AE3AB2B8579D"
+			optional: true
+			rewards: [
+				{
+					id: "7ABCED715C71568E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:pumpkin_lord"
+					criterion: ""
+					id: "314F78167E03A87E"
+					type: "advancement"
+				}
+			]
+			x: -3d
+			y: 11d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:krampus_horn"
+			}
+			id: "6FAA8992606AA62E"
+			optional: true
+			rewards: [
+				{
+					id: "42AE74EC8286BEEA"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:wrong_santa"
+					criterion: ""
+					id: "02D01C19DA5F4800"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 11d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:spider_mandible"
+			}
+			id: "552D5AF82B270643"
+			optional: true
+			rewards: [
+				{
+					id: "4A30CA082FC43C8F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:arachnophobes_nightmare"
+					criterion: ""
+					id: "16BEAFAEFC6A0BAB"
+					type: "advancement"
+				}
+			]
+			x: 0d
+			y: 11d
+		}
+		{
+			dependencies: ["293AA70ADD3EB55C"]
+			icon: {
+				id: "born_in_chaos_v1:fangofthe_hound_leader"
+			}
+			id: "118E94ADE68EA310"
+			optional: true
+			rewards: [
+				{
+					id: "61893C3310AD029A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:big_boy"
+					criterion: ""
+					id: "2731A152BBB6BABE"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mutantmonsters:hulk_hammer"
+			}
+			id: "148D031BB09A03EB"
+			optional: true
+			rewards: [
+				{
+					id: "22AF679C93595CBB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mutantmonsters:root"
+					criterion: ""
+					id: "0CBAA6A687097E68"
+					type: "advancement"
+				}
+			]
+			x: 3d
+			y: 8d
+		}
+		{
+			dependencies: ["148D031BB09A03EB"]
+			icon: {
+				id: "mutantmonsters:hulk_hammer"
+			}
+			id: "3C1506CBC8B8EFDB"
+			optional: true
+			rewards: [
+				{
+					id: "53D619598B8860C6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mutantmonsters:hulk_smash"
+					criterion: ""
+					id: "055111614566074E"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 8d
+		}
+		{
+			dependencies: ["148D031BB09A03EB"]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "54E6C6010F14368A"
+			optional: true
+			rewards: [
+				{
+					id: "0E9A5F9B94382369"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mutantmonsters:gunpowder_spice"
+					criterion: ""
+					id: "3F8CC9BD3F023003"
+					type: "advancement"
+				}
+			]
+			x: 6d
+			y: 8d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "5AE02136F81D2356"
+			optional: true
+			rewards: [
+				{
+					id: "0EB7F6E2F1EDCCBF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "rottencreatures:root"
+					criterion: ""
+					id: "1F8E4BF128C4324C"
+					type: "advancement"
+				}
+			]
+			x: 3d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5AE02136F81D2356"]
+			icon: {
+				id: "rottencreatures:treasure_chest"
+			}
+			id: "2EA7A1B99C490ED2"
+			optional: true
+			rewards: [
+				{
+					id: "35C3A62FF30092F1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "rottencreatures:he_is_a_pirate"
+					criterion: ""
+					id: "77098CDD424077D2"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5AE02136F81D2356"]
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "40091DB1B73FDA95"
+			optional: true
+			rewards: [
+				{
+					id: "2DD408507B69B9C4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "rottencreatures:kill_all_rot"
+					criterion: ""
+					id: "28242C2E479DCB9F"
+					type: "advancement"
+				}
+			]
+			x: 6d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "infested_swarms_spiders:mantis_sickle"
+			}
+			id: "7B5A791F37550AED"
+			optional: true
+			rewards: [
+				{
+					id: "2FCFF9932B5D1A76"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "infested_swarms_spiders:mantis_sickle_get"
+					criterion: ""
+					id: "6811811FF842760D"
+					type: "advancement"
+				}
+			]
+			x: 3d
+			y: 11d
+		}
+		{
+			dependencies: ["7B5A791F37550AED"]
+			icon: {
+				id: "infested_swarms_spiders:insect_template"
+			}
+			id: "50C8341D14498B22"
+			optional: true
+			rewards: [
+				{
+					id: "3E7EB65CC5BA5D58"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "infested_swarms_spiders:insect_template_get"
+					criterion: ""
+					id: "491A20AB6F26984B"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 11d
+		}
+		{
+			dependencies: ["7B5A791F37550AED"]
+			icon: {
+				id: "infested_swarms_spiders:swarm_cell_bee"
+			}
+			id: "09B646351BACA6B9"
+			optional: true
+			rewards: [
+				{
+					id: "646BCF6F20ECD9E6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "infested_swarms_spiders:swarm_cell_get"
+					criterion: ""
+					id: "44D655ACA6BEB02D"
+					type: "advancement"
+				}
+			]
+			x: 6d
+			y: 11d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "332855DD21CA9E29"
+			optional: true
+			rewards: [
+				{
+					id: "2FE9145D03550791"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "variantsandventures:verdant"
+					id: "57FD7859EBEE37DD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "variantsandventures:murk"
+					id: "413A6699D1EBA44B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "variantsandventures:thicket"
+					id: "061882F357C99719"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "variantsandventures:gelid"
+					id: "4DA53F37D87BE3EF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			id: "4FC3D5A9455742C5"
+			optional: true
+			rewards: [
+				{
+					id: "70789BE663055843"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "44C957EAD313390E"
+					item: { count: 1, id: "wyrmroost:platinum_ingot" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 0d
+		}
+		{
+			dependencies: ["4FC3D5A9455742C5"]
+			id: "655E8C45AE0004C6"
+			optional: true
+			rewards: [
+				{
+					id: "5777C90D16FB05AE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "56BC02DF2EB0B6C8"
+					item: { count: 1, id: "wyrmroost:blue_geode" }
+					type: "item"
+				}
+			]
+			x: 11d
+			y: 0d
+		}
+		{
+			dependencies: ["655E8C45AE0004C6"]
+			id: "4CFBF30E24F81CBB"
+			optional: true
+			rewards: [
+				{
+					id: "0AC643E7CBFC17F0"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "73D58FEC3B4B2D48"
+					item: { count: 1, id: "wyrmroost:dragon_staff" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0d
+		}
+		{
+			dependencies: ["4FC3D5A9455742C5"]
+			id: "44A81316105AE0B4"
+			optional: true
+			rewards: [
+				{
+					id: "28C3F8B20CF6A25F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5B0D834FB81EE3DA"
+					item: { count: 1, id: "wyrmroost:iron_dragon_armor" }
+					type: "item"
+				}
+			]
+			x: 11d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44A81316105AE0B4"]
+			id: "25126C5821C98C01"
+			optional: true
+			rewards: [
+				{
+					id: "4EAA4A7BE405AA2F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "668E3E070364E47D"
+					item: { count: 1, id: "wyrmroost:drake_chestplate" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "doggytalents:training_treat"
+			}
+			id: "3230902EC8DD90A6"
+			optional: true
+			rewards: [
+				{
+					id: "443970FEEE8793DE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "doggytalents:dtn_core/train_dog"
+					criterion: ""
+					id: "37F7E361AB267A55"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3230902EC8DD90A6"]
+			icon: {
+				id: "doggytalents:doggy_charm"
+			}
+			id: "62536829DFDCD640"
+			optional: true
+			rewards: [
+				{
+					id: "2DEE26F1395E38F1"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "doggytalents:dtn_core/summon_dog"
+					criterion: ""
+					id: "1AA4B6AB94AC415F"
+					type: "advancement"
+				}
+			]
+			x: 11d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3230902EC8DD90A6"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "7B5FD00B8182D10C"
+			optional: true
+			rewards: [
+				{
+					id: "353ACB757466C6E7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "doggytalents:default/dog_recovered"
+					criterion: ""
+					id: "6230D0FF61A1A5D9"
+					type: "advancement"
+				}
+			]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6AF530358EE9745A"]
+			hide_dependency_lines: true
+			id: "3FF247066FCEC0B6"
+			optional: true
+			rewards: [
+				{
+					id: "11082E800CCABFAB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1D193BFE92C37CB3"
+					item: { count: 1, id: "redomesticate:pet_bed_red" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5d
+		}
+		{
+			dependencies: ["3FF247066FCEC0B6"]
+			id: "5ECE4864DB42FE59"
+			optional: true
+			rewards: [
+				{
+					id: "3AF74C8F3ACA9CE7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7915636B3746DB97"
+					item: { count: 1, id: "redomesticate:drum" }
+					type: "item"
+				}
+			]
+			x: 11d
+			y: 5d
+		}
+		{
+			dependencies: ["3FF247066FCEC0B6"]
+			id: "7025E14765A746FB"
+			optional: true
+			rewards: [
+				{
+					id: "759328A0855CDBCE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0AD5C5157D307152"
+					item: { count: 1, id: "petting:follow_whistle" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 5d
+		}
 	]
 }

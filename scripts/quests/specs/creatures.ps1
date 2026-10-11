@@ -1,4 +1,4 @@
-﻿$Chapter = @{ file = 'creatures'; title = '&c&lBoss et créatures'; subtitle = 'Mowzie''s, Illager Invasion, Friends and Foes, Critters'; group = '1A00000000000003'; order = 2; icon = 'mowziesmobs:wrought_helmet' }
+﻿$Chapter = @{ file = 'creatures'; title = '&c&lBoss et créatures'; subtitle = 'Boss, monstres, dragons et compagnons'; group = '1A00000000000003'; order = 2; icon = 'mowziesmobs:wrought_helmet' }
 $Quests = @(
   @{ k='intro'; x=0; y=0; size=2; shape='gear'; tasks=@('@check'); checkTitle='Clique pour valider'; icon='minecraft:zombie_head'
      t='&c&lUn monde plus vivant… et plus dangereux'; st='Les créatures du pack'
@@ -130,4 +130,106 @@ $Quests = @(
   @{ k='octopus'; x=4.5; y=6.5; deps=@('critters'); tasks=@('crittersandcompanions:dumbo_octopus_bucket'); crate='commune'; optional=$true
      t='La pieuvre Dumbo'; st='Une amie des profondeurs'
      d=@('La &epieuvre Dumbo&r vit dans les océans profonds. Quand tu te noies près d''elle, elle t''offre une &bbulle d''air&r !') }
+  # --- Illagers : It Takes a Pillage, Guard Villagers
+  @{ k='pillage_camp'; x=1.5; y=1.5; deps=@('illagers'); tasks=@('adv:takesapillage:adventure/pillager_camp'); crate='commune'; optional=$true
+     t='Le camp des pillards'; st='It Takes a Pillage'
+     d=@('&eIt Takes a Pillage&r ajoute des illagers (archers, escarmoucheurs, légionnaires), des &ecamps de pillards&r et des &ebastilles&r.') }
+  @{ k='pillage_bastille'; x=1.5; y=3; deps=@('pillage_camp'); tasks=@('adv:takesapillage:adventure/bastille'); crate='rare'; optional=$true
+     t='La bastille'; st='Une forteresse d''illagers'; d=@('Trouve une &ebastille&r, la forteresse des pillards.') }
+  @{ k='guards'; x=1.5; y=4.5; deps=@('illagers'); tasks=@('adv:guardvillagers:adventure/recruit_guard'); crate='commune'; optional=$true
+     t='Recrue !'; st='Guard Villagers'
+     d=@('Donne une &eépée&r à un villageois sans métier : il devient &egarde&r et défend le village. Les gardes s''équipent de ce que tu leur donnes.') }
+  # --- Born in Chaos
+  @{ k='bic_root'; x=-3; y=8; size=1.5; shape='gear'; deps=@('intro'); hideLines=$true; tasks=@('adv:born_in_chaos_v1:bornin_chaos'); icon='born_in_chaos_v1:dark_metal_ingot'; crate='commune'
+     t='&4&lBorn in Chaos'; st='Un monde plein de dangers'
+     d=@('&4Born in Chaos&r ajoute des dizaines de monstres : esprits, épouvantails, clowns zombies, mouches à cadavres…',
+         '',
+         'Et des &cboss&r : le Missionnaire, le Suprême Appelle-os, le Seigneur Citrouille, Krampus…',
+         '',
+         'Le &emétal sombre&r qu''ils lâchent donne des armes et des armures puissantes.') }
+  @{ k='bic_metal'; x=-4.5; y=9.5; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:dark_metallurgy'); crate='commune'; optional=$true; icon='born_in_chaos_v1:pieceofdarkmetal'
+     t='Le métal sombre'; st='Un morceau de chaos'; d=@('Récupère un &emorceau de métal sombre&r.') }
+  @{ k='bic_ingot'; x=-6; y=9.5; deps=@('bic_metal'); tasks=@('adv:born_in_chaos_v1:dark_forging'); crate='commune'; optional=$true; icon='born_in_chaos_v1:dark_metal_ingot'
+     t='La forge sombre'; st='Un lingot de métal sombre'; d=@('Fabrique un &elingot de métal sombre&r.') }
+  @{ k='bic_knight'; x=-6; y=11; deps=@('bic_ingot'); tasks=@('adv:born_in_chaos_v1:chaos_knight'); crate='epique'; optional=$true; icon='born_in_chaos_v1:dark_metal_armor_helmet'
+     t='Chevalier du chaos'; st='L''armure de métal sombre'; d=@('Porte une &earmure complète de métal sombre&r.') }
+  @{ k='bic_weapon'; x=-4.5; y=11; deps=@('bic_ingot'); tasks=@('adv:born_in_chaos_v1:dark_blacksmith'); crate='rare'; optional=$true; icon='born_in_chaos_v1:sharpened_dark_metal_sword'
+     t='Le forgeron sombre'; st='Une arme de métal sombre'; d=@('Fabrique une &earme de métal sombre&r.') }
+  @{ k='bic_missioner'; x=-3; y=9.5; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:dark_creator'); crate='rare'; optional=$true; icon='born_in_chaos_v1:missionary_hat_helmet'
+     t='Le Missionnaire'; st='Un créateur de ténèbres'; d=@('Vaincs le &cMissionnaire&r.') }
+  @{ k='bic_bonescaller'; x=-1.5; y=9.5; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:dismantledto_bones'); crate='rare'; optional=$true; icon='born_in_chaos_v1:orbofthe_summoner'
+     t='Le Suprême Appelle-os'; st='Un invocateur de squelettes'; d=@('Vaincs le &cSuprême Appelle-os&r.') }
+  @{ k='bic_stalker'; x=0; y=9.5; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:fighting_nightmares'); crate='rare'; optional=$true; icon='born_in_chaos_v1:nightmare_stalker_skull'
+     t='Combattre les cauchemars'; st='Le Traqueur de cauchemars'; d=@('Vaincs le &cTraqueur de cauchemars&r.') }
+  @{ k='bic_pumpkin'; x=-3; y=11; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:pumpkin_lord'); crate='epique'; optional=$true; icon='born_in_chaos_v1:lord_pumpkinheads_hat_helmet'
+     t='La dernière nuit'; st='Le Seigneur Citrouille'; d=@('Vaincs le &6Seigneur Citrouille&r et sa monture.') }
+  @{ k='bic_krampus'; x=-1.5; y=11; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:wrong_santa'); crate='epique'; optional=$true; icon='born_in_chaos_v1:krampus_horn'
+     t='Le mauvais Père Noël'; st='Krampus'; d=@('Fais assez de bêtises pour que &cKrampus&r vienne te chercher… puis vaincs-le.') }
+  @{ k='bic_spider'; x=0; y=11; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:arachnophobes_nightmare'); crate='rare'; optional=$true; icon='born_in_chaos_v1:spider_mandible'
+     t='Le cauchemar des arachnophobes'; st='La Mère des araignées'; d=@('Vaincs la &cMère des araignées&r.') }
+  @{ k='bic_hound'; x=-1.5; y=12.5; deps=@('bic_root'); tasks=@('adv:born_in_chaos_v1:big_boy'); crate='rare'; optional=$true; icon='born_in_chaos_v1:fangofthe_hound_leader'
+     t='Le chef de meute'; st='Le Chef des molosses'; d=@('Vaincs le &cChef des molosses&r.') }
+  # --- Monstres revisites
+  @{ k='mut_root'; x=3; y=8; deps=@('intro'); hideLines=$true; tasks=@('adv:mutantmonsters:root'); crate='commune'; optional=$true; icon='mutantmonsters:hulk_hammer'
+     t='&2Les mutants'; st='Mutant Monsters'
+     d=@('Zombies, squelettes, creepers et endermen &2mutants&r : rares, énormes et dangereux. Leurs restes donnent un marteau, une armure et la &ePotion de Chemical X&r.') }
+  @{ k='mut_hulk'; x=4.5; y=8; deps=@('mut_root'); tasks=@('adv:mutantmonsters:hulk_smash'); crate='rare'; optional=$true; icon='mutantmonsters:hulk_hammer'
+     t='Hulk écrase !'; st='Le marteau du mutant'; d=@('Tue un &ezombie mutant&r avec le &emarteau de Hulk&r (clic droit sur le sol : onde de choc).') }
+  @{ k='mut_chem'; x=6; y=8; deps=@('mut_root'); tasks=@('adv:mutantmonsters:gunpowder_spice'); crate='rare'; optional=$true; icon='minecraft:gunpowder'
+     t='Chemical X'; st='De la poudre et des épices'; d=@('Obtiens une &epotion de Chemical X&r : lancée sur un animal, elle le transforme en mutant…') }
+  @{ k='rot_root'; x=3; y=9.5; deps=@('intro'); hideLines=$true; tasks=@('adv:rottencreatures:root'); crate='commune'; optional=$true; icon='minecraft:rotten_flesh'
+     t='&2Pourris jusqu''à l''os'; st='Rotten Creatures'
+     d=@('Des morts-vivants pour chaque biome : zombies gelés, brûlés, des marais, des marécages… et le terrible pirate &cBarbe-Morte&r.') }
+  @{ k='rot_pirate'; x=4.5; y=9.5; deps=@('rot_root'); tasks=@('adv:rottencreatures:he_is_a_pirate'); crate='epique'; optional=$true; icon='rottencreatures:treasure_chest'
+     t='C''est un pirate !'; st='Barbe-Morte et son trésor'; d=@('Vaincs &cBarbe-Morte&r et prends son trésor.') }
+  @{ k='rot_all'; x=6; y=9.5; deps=@('rot_root'); tasks=@('adv:rottencreatures:kill_all_rot'); crate='rare'; optional=$true; icon='minecraft:rotten_flesh'
+     t='Purification !'; st='Toutes les créatures pourries'; d=@('Tue &echaque type&r de créature pourrie.') }
+  @{ k='isp_sickle'; x=3; y=11; deps=@('intro'); hideLines=$true; tasks=@('adv:infested_swarms_spiders:mantis_sickle_get'); crate='commune'; optional=$true; icon='infested_swarms_spiders:mantis_sickle'
+     t='&6Essaims et araignées'; st='Infested Swarms and Spiders'
+     d=@('Mantes, essaims d''abeilles, araignées de toutes sortes… Leurs restes donnent des armes (faucille de mante, poignard à dard) et des &egabarits&r pour des armures spéciales.') }
+  @{ k='isp_template'; x=4.5; y=11; deps=@('isp_sickle'); tasks=@('adv:infested_swarms_spiders:insect_template_get'); crate='rare'; optional=$true; icon='infested_swarms_spiders:insect_template'
+     t='Infesté !'; st='Un gabarit d''insecte'; d=@('Obtiens un &egabarit d''insecte&r pour fabriquer une armure spéciale.') }
+  @{ k='isp_swarm'; x=6; y=11; deps=@('isp_sickle'); tasks=@('adv:infested_swarms_spiders:swarm_cell_get'); crate='rare'; optional=$true; icon='infested_swarms_spiders:swarm_cell_bee'
+     t='L''essaim'; st='La cellule d''essaim'; d=@('Obtiens une &ecellule d''essaim&r.') }
+  @{ k='variants'; x=7.5; y=9.5; deps=@('intro'); hideLines=$true; tasks=@('kill:variantsandventures:verdant','kill:variantsandventures:murk','kill:variantsandventures:thicket','kill:variantsandventures:gelid'); crate='rare'; optional=$true; icon='minecraft:skeleton_skull'
+     t='&aUn bestiaire varié'; st='Variantes de biome'
+     d=@('Dans ce pack, les monstres changent selon le biome :',
+         '',
+         '- &eVariants and Ventures&r : squelettes des jungles et des marais, zombies gelés…',
+         '- &eEnderman Overhaul&r : une vingtaine d''endermen différents selon les biomes, avec leurs perles spéciales ;',
+         '- &eCreeper Overhaul&r : un creeper différent pour chaque biome.',
+         '',
+         'Tue les quatre nouveaux monstres de Variants and Ventures : &everdant, vaseux, des fourrés et gelé&r.') }
+  # --- Dragons (Wyrmroost)
+  @{ k='wr_platinum'; x=9.5; y=0; deps=@('intro'); hideLines=$true; tasks=@('wyrmroost:platinum_ingot'); crate='commune'; optional=$true
+     t='&c&lLes dragons de Wyrmroost'; st='Wyrmroost'
+     d=@('&cWyrmroost&r peuple le monde de &cdragons&r, des petits drakes aux immenses wyvernes. Certains s''apprivoisent !',
+         '',
+         'Commence par le &eplatine&r et les &egéodes&r, pour l''équipement de dragonnier.') }
+  @{ k='wr_geode'; x=11; y=0; deps=@('wr_platinum'); tasks=@('wyrmroost:blue_geode'); crate='commune'; optional=$true
+     t='Les géodes'; st='Bleues, rouges et violettes'; d=@('Les &egéodes&r se minent dans les montagnes et le Nether. Elles donnent outils, armes et armures.') }
+  @{ k='wr_staff'; x=12.5; y=0; deps=@('wr_geode'); tasks=@('wyrmroost:dragon_staff'); crate='rare'; optional=$true
+     t='Le bâton de dragonnier'; st='Commander ses dragons'; d=@('Le &ebâton de dragon&r donne des ordres à tes dragons apprivoisés.') }
+  @{ k='wr_armor'; x=11; y=1.5; deps=@('wr_platinum'); tasks=@('wyrmroost:iron_dragon_armor'); crate='rare'; optional=$true
+     t='Une armure pour dragon'; st='Protéger sa monture'; d=@('Une &earmure&r pour ton dragon, en fer, or, diamant, platine ou géode.') }
+  @{ k='wr_drake'; x=12.5; y=1.5; deps=@('wr_armor'); tasks=@('wyrmroost:drake_chestplate'); crate='rare'; optional=$true
+     t='L''armure de drake'; st='En écailles de dragon'; d=@('Une armure faite avec les écailles d''un &edrake&r.') }
+  # --- Compagnons (Doggy Talents Next, Redomesticate, Petting)
+  @{ k='dog_train'; x=9.5; y=3.5; deps=@('intro'); hideLines=$true; tasks=@('adv:doggytalents:dtn_core/train_dog'); crate='commune'; optional=$true; icon='doggytalents:training_treat'
+     t='&6Les chiens de compagnie'; st='Doggy Talents Next'
+     d=@('Donne une &efriandise de dressage&r à un loup apprivoisé : il devient un &echien&r qui apprend des &etalents&r (gardien, pêcheur, porteur, sauveteur…), qui a de la vie et qui peut s''équiper.') }
+  @{ k='dog_summon'; x=11; y=3.5; deps=@('dog_train'); tasks=@('adv:doggytalents:dtn_core/summon_dog'); crate='commune'; optional=$true; icon='doggytalents:doggy_charm'
+     t='Le charme canin'; st='Appeler son chien'; d=@('Utilise le &echarme canin&r pour faire venir ton chien.') }
+  @{ k='dog_heal'; x=12.5; y=3.5; deps=@('dog_train'); tasks=@('adv:doggytalents:default/dog_recovered'); crate='commune'; optional=$true; icon='minecraft:golden_apple'
+     t='Une guérison complète !'; st='Soigner son chien'; d=@('Un chien gravement blessé ne meurt pas : il reste à terre. Aide-le à &eguérir&r.') }
+  @{ k='pet_bed'; x=9.5; y=5; deps=@('intro'); hideLines=$true; tasks=@('redomesticate:pet_bed_red'); crate='commune'; optional=$true
+     t='&eLes animaux domestiques'; st='Redomesticate et Petting'
+     d=@('Tous tes animaux apprivoisés gagnent des options :',
+         '',
+         '- &eRedomesticate&r : lits, tambour de commandement, collier, titre de propriété pour les donner à un autre joueur ;',
+         '- &ePetting&r : caresser ses animaux (accroupi + clic droit), sifflet pour qu''ils te suivent, laisse, orbe de téléportation.') }
+  @{ k='pet_drum'; x=11; y=5; deps=@('pet_bed'); tasks=@('redomesticate:drum'); crate='commune'; optional=$true
+     t='Le tambour de commandement'; st='Donner des ordres à tous tes animaux'; d=@('Le &etambour&r donne un ordre (suivre, rester, se promener) à tous tes animaux autour de toi.') }
+  @{ k='pet_whistle'; x=12.5; y=5; deps=@('pet_bed'); tasks=@('petting:follow_whistle'); crate='commune'; optional=$true
+     t='Le sifflet'; st='Rassembler ses animaux'; d=@('Le &esifflet&r appelle tes animaux pour qu''ils te suivent.') }
 )

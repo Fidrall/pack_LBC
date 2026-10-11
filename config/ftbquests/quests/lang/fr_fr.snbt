@@ -342,6 +342,11 @@
 	]
 	quest.06B66726F87DF00E.quest_subtitle: "Eterna, Quanta et Arcana"
 	quest.06B66726F87DF00E.title: "&dL'enchantement d'Apotheosis"
+	quest.06E62F3471611422.quest_desc: [
+		"Fabrique une &earme de métal sombre&r."
+	]
+	quest.06E62F3471611422.quest_subtitle: "Une arme de métal sombre"
+	quest.06E62F3471611422.title: "Le forgeron sombre"
 	quest.07297B0121A2DCF0.quest_desc: [
 		"Pose la voie, puis fais un clic droit dessus avec un bloc de gare. Place la gare à côté de la voie."
 		""
@@ -489,6 +494,11 @@
 	quest.09A89AA4D2362D88.quest_desc: [
 		"Fonctionne comme un &6Brûleur à Blaze&r, mais utilise de la &c&lChaleur&r&r au lieu de &2combustible&r."
 	]
+	quest.09B646351BACA6B9.quest_desc: [
+		"Obtiens une &ecellule d'essaim&r."
+	]
+	quest.09B646351BACA6B9.quest_subtitle: "La cellule d'essaim"
+	quest.09B646351BACA6B9.title: "L'essaim"
 	quest.09EFA16D8BACC4A8.quest_subtitle: "Le froid dans le poing"
 	quest.09EFA16D8BACC4A8.title: "Le gantelet de Skor"
 	quest.0A157E8B791D9822.quest_desc: [
@@ -686,6 +696,11 @@
 	quest.0EA8342679F36F8C.title: "Le sonar"
 	quest.0EDDE6B025DCBD13.quest_subtitle: "Pour les cristaux et l'équipement"
 	quest.0EDDE6B025DCBD13.title: "Orbes d'amélioration"
+	quest.0F27A569EF838CFA.quest_desc: [
+		"Fabrique un &elingot de métal sombre&r."
+	]
+	quest.0F27A569EF838CFA.quest_subtitle: "Un lingot de métal sombre"
+	quest.0F27A569EF838CFA.title: "La forge sombre"
 	quest.0F4D2E3476133AE8.quest_desc: [
 		"La &eTable d'Imprégnation&r permet d'&aaméliorer un livre enchanté au-delà de son niveau maximum&r, avec des matériaux rares des illagers."
 		""
@@ -781,6 +796,11 @@
 		"Une &eboussole&r peut être liée à une &3magnétite&r avec un &7[&rclic droit&7]&r : l'aiguille pointera alors vers elle, tant que tu es dans la même dimension."
 	]
 	quest.114173896E5DF62C.quest_subtitle: "Trouve une magnétite"
+	quest.118E94ADE68EA310.quest_desc: [
+		"Vaincs le &cChef des molosses&r."
+	]
+	quest.118E94ADE68EA310.quest_subtitle: "Le Chef des molosses"
+	quest.118E94ADE68EA310.title: "Le chef de meute"
 	quest.11F1A2C3D3258AE5.quest_desc: [
 		"Les &bDeep Ones&r se méfient des humains. Gagne leur confiance pour pouvoir commercer avec eux."
 	]
@@ -892,6 +912,11 @@
 	]
 	quest.1457CC01C1D455DD.quest_subtitle: "Ton corps t'attend"
 	quest.1457CC01C1D455DD.title: "Mourir sans tout perdre"
+	quest.148D031BB09A03EB.quest_desc: [
+		"Zombies, squelettes, creepers et endermen &2mutants&r : rares, énormes et dangereux. Leurs restes donnent un marteau, une armure et la &ePotion de Chemical X&r."
+	]
+	quest.148D031BB09A03EB.quest_subtitle: "Mutant Monsters"
+	quest.148D031BB09A03EB.title: "&2Les mutants"
 	quest.14C694F523C79625.quest_desc: [
 		"Les &etavernes&r sont des haltes accueillantes pour les voyageurs. Il y en a de plusieurs mods différents !"
 	]
@@ -1095,6 +1120,15 @@
 	quest.1A67D80917EA15CF.title: "Le Cor de Vision"
 	quest.1A7B8495DE69B63B.quest_subtitle: "Tête"
 	quest.1A7B8495DE69B63B.title: "Toque de chef"
+	quest.1AB4622179327391.quest_desc: [
+		"&7Epic Knights&r ajoute des dizaines d'&earmures médiévales&r (chevalier, gothique, maximilienne, croisé…), des &earmes&r (épées bâtardes, hallebardes, masses, lances de joute, arbalète lourde) et des &eboucliers&r."
+		""
+		"Les armes ont leurs propres attaques grâce à Better Combat, et les casques se décorent de plumes, de couronnes ou de cornes."
+		""
+		"La plupart existent en plusieurs métaux. Tape &d@magistuarmory&r dans JEI pour tout voir."
+	]
+	quest.1AB4622179327391.quest_subtitle: "Armures et armes médiévales"
+	quest.1AB4622179327391.title: "&7&lEpic Knights"
 	quest.1AC154CB94B7A0EA.quest_desc: [
 		"La &6&lPerceuse Mécanique&r&r casse le bloc juste devant elle quand elle tourne. Sur une construction en mouvement, elle casse les blocs et blesse les créatures qu'elle touche, sans avoir besoin d'une source de rotation directe."
 		""
@@ -1292,6 +1326,11 @@
 	]
 	quest.1F46D0D373488587.quest_subtitle: "L'épreuve de la montagne"
 	quest.1F46D0D373488587.title: "&6Le Sculpteur"
+	quest.1F4BC0A59DF53DB5.quest_desc: [
+		"Trouve une &ebastille&r, la forteresse des pillards."
+	]
+	quest.1F4BC0A59DF53DB5.quest_subtitle: "Une forteresse d'illagers"
+	quest.1F4BC0A59DF53DB5.title: "La bastille"
 	quest.1F6BC8C2A5B8F9B2.quest_desc: [
 		"&c❤&r&a Bienvenue sur le serveur pack_LBC !&r &c❤&r"
 		""
@@ -1446,6 +1485,11 @@
 		"&l&a📝Astuce :&r&r &oLes dauphins peuvent te guider vers des trésors, et l'&eExplorer's Compass&r trouve les Monuments.&r"
 	]
 	quest.229C5328751C93F5.quest_subtitle: "☠ Niveau 1"
+	quest.22C57EE4D56F8883.quest_desc: [
+		"Une &emasse à pointes&r, efficace contre les ennemis en armure."
+	]
+	quest.22C57EE4D56F8883.quest_subtitle: "Contre les armures"
+	quest.22C57EE4D56F8883.title: "L'étoile du matin"
 	quest.231D1BD8D2A930CF.quest_desc: [
 		"Dans Create, la &6&lforce de rotation&r&r est l'énergie produite par les pièces qui tournent."
 		""
@@ -1513,6 +1557,11 @@
 	]
 	quest.23BCCDEE0FB841DD.quest_subtitle: "Trouver n'importe quel biome"
 	quest.23BCCDEE0FB841DD.title: "La Boussole de la Nature"
+	quest.23C93ED31C676697.quest_desc: [
+		"Un &earc long&r qui tire plus loin et plus fort."
+	]
+	quest.23C93ED31C676697.quest_subtitle: "Tirer loin"
+	quest.23C93ED31C676697.title: "L'arc long"
 	quest.23DAFFEA162268FD.quest_desc: [
 		"La &eColle au Miel&r est une alternative pratique à la Super Colle, faite pour les constructions simulées."
 		""
@@ -1527,6 +1576,11 @@
 	quest.2401A3C6E360DD00.title: "Tu l'as perdu ?"
 	quest.2432CD4EB67D5C20.quest_subtitle: "Forgée dans ses restes"
 	quest.2432CD4EB67D5C20.title: "L'armure en os de dragon"
+	quest.247C2394F663B2D9.quest_desc: [
+		"Une &earmure gothique&r aux lignes fines."
+	]
+	quest.247C2394F663B2D9.quest_subtitle: "Élégante et solide"
+	quest.247C2394F663B2D9.title: "L'armure gothique"
 	quest.24A3D36B0BF64712.quest_desc: [
 		"Le &6téléporteur d'entités&r peut envoyer n'importe quelle créature ou joueur vers un autre téléporteur. Il fonctionne au &dTélé-jus&r."
 		""
@@ -1546,6 +1600,11 @@
 		"&cIl ne peut contenir qu'un seul enchantement à la fois.&r"
 	]
 	quest.250E32D632A506B2.quest_subtitle: "Un coussin qui te fait lâcher un gros pet. Totalement inutile… ou pas ?"
+	quest.25126C5821C98C01.quest_desc: [
+		"Une armure faite avec les écailles d'un &edrake&r."
+	]
+	quest.25126C5821C98C01.quest_subtitle: "En écailles de dragon"
+	quest.25126C5821C98C01.title: "L'armure de drake"
 	quest.25291DAC5CB309E0.quest_desc: [
 		"Les &eloutres&r des rivières ouvrent les palourdes (qu'on pêche en rivière) pour y trouver des &eperles&r."
 		""
@@ -1587,6 +1646,11 @@
 	]
 	quest.265E5BDB2FBFBD09.quest_subtitle: "Garder une trace de ses voyages"
 	quest.265E5BDB2FBFBD09.title: "&bL'appareil photo"
+	quest.26679F5867D4F70E.quest_desc: [
+		"Un &ecaparaçon&r protège ton &echeval&r au combat."
+	]
+	quest.26679F5867D4F70E.quest_subtitle: "Une armure pour ton cheval"
+	quest.26679F5867D4F70E.title: "Le caparaçon"
 	quest.268C2A63C8ADA1CD.quest_desc: [
 		"&aCertains sorts ne peuvent pas être fabriqués&r : il faut les trouver dans le monde."
 		""
@@ -1677,6 +1741,20 @@
 	]
 	quest.291D5B25D5A51A9B.quest_subtitle: "Des bonus à insérer"
 	quest.291D5B25D5A51A9B.title: "&bTa première gemme"
+	quest.292E391F4037E4AC.quest_desc: [
+		"Une &earme d'hast&r qui frappe à bonne distance."
+	]
+	quest.292E391F4037E4AC.quest_subtitle: "Frapper de loin"
+	quest.292E391F4037E4AC.title: "La hallebarde"
+	quest.293AA70ADD3EB55C.quest_desc: [
+		"&4Born in Chaos&r ajoute des dizaines de monstres : esprits, épouvantails, clowns zombies, mouches à cadavres…"
+		""
+		"Et des &cboss&r : le Missionnaire, le Suprême Appelle-os, le Seigneur Citrouille, Krampus…"
+		""
+		"Le &emétal sombre&r qu'ils lâchent donne des armes et des armures puissantes."
+	]
+	quest.293AA70ADD3EB55C.quest_subtitle: "Un monde plein de dangers"
+	quest.293AA70ADD3EB55C.title: "&4&lBorn in Chaos"
 	quest.29491A4A65DEDCDC.quest_subtitle: "Donne +5 cœurs"
 	quest.2965B8DD03DA1142.quest_desc: [
 		"La &cLiche de la Nuit&r vit dans la &eTour de la Liche&r, dans les biomes froids de l'Overworld. Pour invoquer ce boss glacial, il faut d'abord récupérer des &aÉtoiles d'Âme&r, que les zombies et les squelettes lâchent parfois."
@@ -1888,6 +1966,11 @@
 	]
 	quest.2EA36C2C0E10266A.quest_subtitle: "Étape 9 : les grottes des trolls"
 	quest.2EA36C2C0E10266A.title: "&6Les Hautes Terres et la Lampe de Cendres"
+	quest.2EA7A1B99C490ED2.quest_desc: [
+		"Vaincs &cBarbe-Morte&r et prends son trésor."
+	]
+	quest.2EA7A1B99C490ED2.quest_subtitle: "Barbe-Morte et son trésor"
+	quest.2EA7A1B99C490ED2.title: "C'est un pirate !"
 	quest.2ED49410115A9FDC.quest_subtitle: "Augmente la hauteur de saut et réduit un peu les dégâts de chute"
 	quest.2F1F1047E8A734EC.quest_desc: [
 		"&cSimply Swords&r ajoute tout un arsenal d'armes à découvrir."
@@ -2003,6 +2086,11 @@
 	quest.3106E97FA1DA221B.quest_subtitle: "Create: Bells and Whistles"
 	quest.3106E97FA1DA221B.title: "Les phares de train"
 	quest.3121D591D3807584.quest_subtitle: "Permet le double saut"
+	quest.312A8576C183203F.quest_desc: [
+		"Donne une &eépée&r à un villageois sans métier : il devient &egarde&r et défend le village. Les gardes s'équipent de ce que tu leur donnes."
+	]
+	quest.312A8576C183203F.quest_subtitle: "Guard Villagers"
+	quest.312A8576C183203F.title: "Recrue !"
 	quest.313B26E365615526.title: "&bTenue de Cryomancien"
 	quest.316714AB0F2A61BC.quest_desc: [
 		"Révèle un &efamilier illusionniste&r déguisé."
@@ -2043,6 +2131,11 @@
 	]
 	quest.3224C7B964D0D7B2.quest_subtitle: "Le premier grimoire du Crépuscule"
 	quest.3224C7B964D0D7B2.title: "Le tome de bois de fer"
+	quest.3230902EC8DD90A6.quest_desc: [
+		"Donne une &efriandise de dressage&r à un loup apprivoisé : il devient un &echien&r qui apprend des &etalents&r (gardien, pêcheur, porteur, sauveteur…), qui a de la vie et qui peut s'équiper."
+	]
+	quest.3230902EC8DD90A6.quest_subtitle: "Doggy Talents Next"
+	quest.3230902EC8DD90A6.title: "&6Les chiens de compagnie"
 	quest.32874A063226CBCF.quest_desc: [
 		"Un énorme singe des glaces qui &edort dans les biomes enneigés&r. Ne le réveille que si tu es prêt !"
 		""
@@ -2073,6 +2166,11 @@
 	quest.32E0EEC3834F9846.quest_desc: [
 		"La &6Paille&r s'obtient en coupant des plantes avec un &6couteau&r sur une planche à découper, ou en récoltant des plantes avec un &6couteau&r."
 	]
+	quest.32EC7D78CBEE058C.quest_desc: [
+		"Une &eépée bâtarde&r en acier, polyvalente."
+	]
+	quest.32EC7D78CBEE058C.quest_subtitle: "À une ou deux mains"
+	quest.32EC7D78CBEE058C.title: "L'épée bâtarde"
 	quest.32F2C746D851BA54.quest_desc: [
 		"Trouve le &eBélier des Quêtes&r dans ses ruines, et apporte-lui de la laine des &e16 couleurs&r."
 		""
@@ -2095,6 +2193,17 @@
 		"Tu peux surveiller la contrainte avec un &eContraintomètre&r ou en portant des &eLunettes d'Ingénieur&r."
 	]
 	quest.3301CEA39477F779.title: "La contrainte cinétique"
+	quest.332855DD21CA9E29.quest_desc: [
+		"Dans ce pack, les monstres changent selon le biome :"
+		""
+		"- &eVariants and Ventures&r : squelettes des jungles et des marais, zombies gelés…"
+		"- &eEnderman Overhaul&r : une vingtaine d'endermen différents selon les biomes, avec leurs perles spéciales ;"
+		"- &eCreeper Overhaul&r : un creeper différent pour chaque biome."
+		""
+		"Tue les quatre nouveaux monstres de Variants and Ventures : &everdant, vaseux, des fourrés et gelé&r."
+	]
+	quest.332855DD21CA9E29.quest_subtitle: "Variantes de biome"
+	quest.332855DD21CA9E29.title: "&aUn bestiaire varié"
 	quest.3344885DD43E870C.quest_desc: [
 		"Le &l&9Réservoir de Carburant&r&r stocke de la lave pour remplir ton jetpack ou un objet compatible comme le Grappin-Fouet. Il le fait automatiquement tant qu'il est dans ton inventaire."
 		""
@@ -2241,6 +2350,11 @@
 	]
 	quest.35D99C7DB0EC998D.quest_subtitle: "Ctrl + T"
 	quest.35D99C7DB0EC998D.title: "Les Niveaux du Monde"
+	quest.36276ACE9CBB5E3B.quest_desc: [
+		"L'&eacier&r sert aux meilleures armes et armures d'Epic Knights."
+	]
+	quest.36276ACE9CBB5E3B.quest_subtitle: "Le métal des chevaliers"
+	quest.36276ACE9CBB5E3B.title: "L'acier"
 	quest.362C70E45443B57C.quest_desc: [
 		"{image:pack_lbc:textures/quests/item_golem3.png width:150 height:60 align:center}"
 		""
@@ -2262,6 +2376,11 @@
 	]
 	quest.36452BF340BDFE34.quest_subtitle: "Des minerais à l'infini"
 	quest.36452BF340BDFE34.title: "La Foreuse"
+	quest.3647F0C569D14B25.quest_desc: [
+		"&eIt Takes a Pillage&r ajoute des illagers (archers, escarmoucheurs, légionnaires), des &ecamps de pillards&r et des &ebastilles&r."
+	]
+	quest.3647F0C569D14B25.quest_subtitle: "It Takes a Pillage"
+	quest.3647F0C569D14B25.title: "Le camp des pillards"
 	quest.36512D1073448D61.quest_subtitle: "Permet de voir les créatures invisibles."
 	quest.367BA715623DCE16.quest_desc: [
 		"Fabrique un &elit&r pour ton familier."
@@ -2400,6 +2519,11 @@
 	]
 	quest.39EC6249048B5DA9.quest_subtitle: "Boss 7 : les Forêts Enneigées"
 	quest.39EC6249048B5DA9.title: "&f&lLe Yéti Alpha"
+	quest.39F0ABBF728F2D36.quest_desc: [
+		"Vaincs le &cSuprême Appelle-os&r."
+	]
+	quest.39F0ABBF728F2D36.quest_subtitle: "Un invocateur de squelettes"
+	quest.39F0ABBF728F2D36.title: "Le Suprême Appelle-os"
 	quest.3A227C6AE5CB2F32.quest_desc: [
 		"&l&aCreate: Design n Decor&r&r enrichit la décoration de Create : variantes de blocs existants, nouvelles roues de broyage, rangements et blocs décoratifs dans le style de Create."
 	]
@@ -2466,6 +2590,11 @@
 		""
 		"Celle de la construction a besoin d'un inventaire (coffre, tonneau…), tandis que l'immobile a besoin d'un appareil qui insère ou extrait directement, comme un entonnoir, une goulotte ou une trémie."
 	]
+	quest.3C1506CBC8B8EFDB.quest_desc: [
+		"Tue un &ezombie mutant&r avec le &emarteau de Hulk&r (clic droit sur le sol : onde de choc)."
+	]
+	quest.3C1506CBC8B8EFDB.quest_subtitle: "Le marteau du mutant"
+	quest.3C1506CBC8B8EFDB.title: "Hulk écrase !"
 	quest.3C70DF2450BA9060.quest_subtitle: "Relique des mages"
 	quest.3C70DF2450BA9060.title: "Chair vivante"
 	quest.3C7D9FC17EB00995.quest_desc: [
@@ -2605,6 +2734,14 @@
 	]
 	quest.3FB24AA6CC69210B.quest_subtitle: "Create: Factory Logistics"
 	quest.3FB24AA6CC69210B.title: "Les liquides en colis"
+	quest.3FF247066FCEC0B6.quest_desc: [
+		"Tous tes animaux apprivoisés gagnent des options :"
+		""
+		"- &eRedomesticate&r : lits, tambour de commandement, collier, titre de propriété pour les donner à un autre joueur ;"
+		"- &ePetting&r : caresser ses animaux (accroupi + clic droit), sifflet pour qu'ils te suivent, laisse, orbe de téléportation."
+	]
+	quest.3FF247066FCEC0B6.quest_subtitle: "Redomesticate et Petting"
+	quest.3FF247066FCEC0B6.title: "&eLes animaux domestiques"
 	quest.3FF93EB2C771B747.quest_desc: [
 		"La &l&6Clé&r&r est un outil polyvalent pour tourner, démonter et régler les &6&lobjets de Create&r&r."
 		""
@@ -2619,6 +2756,11 @@
 		"&n&aLa clé a une fonction spéciale :&r&r"
 		"En regardant certains blocs de Create, comme une boîte de vitesses, &dappuie sur U&r pour ouvrir un menu circulaire avec plusieurs options, dont l'orientation du bloc. Ça rend le placement bien plus facile."
 	]
+	quest.40091DB1B73FDA95.quest_desc: [
+		"Tue &echaque type&r de créature pourrie."
+	]
+	quest.40091DB1B73FDA95.quest_subtitle: "Toutes les créatures pourries"
+	quest.40091DB1B73FDA95.title: "Purification !"
 	quest.4014B03F06188F15.quest_desc: [
 		"L'&eAether&r est une dimension d'&bîles flottantes&r au-dessus des nuages, avec ses propres ressources, créatures et donjons."
 		""
@@ -2845,6 +2987,11 @@
 		""
 		"Ce casque est indispensable pour explorer &8&lL'Autre Côté&r : il annule l'effet d'obscurité de cette dimension."
 	]
+	quest.44A81316105AE0B4.quest_desc: [
+		"Une &earmure&r pour ton dragon, en fer, or, diamant, platine ou géode."
+	]
+	quest.44A81316105AE0B4.quest_subtitle: "Protéger sa monture"
+	quest.44A81316105AE0B4.title: "Une armure pour dragon"
 	quest.44B16905ABBF3A52.quest_subtitle: "Donne l'&6immunité au feu"
 	quest.44CFD2F48C7AA908.quest_desc: [
 		"L'engrais pour arbres fait pousser les pousses instantanément, peu importe la place autour."
@@ -2898,6 +3045,11 @@
 	quest.45B67F9419927086.quest_desc: [
 		"S'utilise avec un Entonnoir pour insérer le combustible dans le Réacteur Nucléaire."
 	]
+	quest.461D141399676978.quest_desc: [
+		"Récupère un &emorceau de métal sombre&r."
+	]
+	quest.461D141399676978.quest_subtitle: "Un morceau de chaos"
+	quest.461D141399676978.title: "Le métal sombre"
 	quest.462639C0EBA1209F.quest_desc: [
 		"Les &l&6Lunettes d'Ingénieur&r&r affichent des informations sur tes constructions, comme la contrainte et la vitesse de rotation."
 		""
@@ -2964,6 +3116,11 @@
 	]
 	quest.4796A7277932F2C4.quest_subtitle: "Des cultures qui poussent toutes seules"
 	quest.4796A7277932F2C4.title: "La Terre Riche"
+	quest.47F2AE3AB2B8579D.quest_desc: [
+		"Vaincs le &6Seigneur Citrouille&r et sa monture."
+	]
+	quest.47F2AE3AB2B8579D.quest_subtitle: "Le Seigneur Citrouille"
+	quest.47F2AE3AB2B8579D.title: "La dernière nuit"
 	quest.482093E9013F52ED.quest_subtitle: "Main secondaire"
 	quest.482093E9013F52ED.title: "Bouclier de représailles"
 	quest.48A1C863C3D4B969.quest_desc: [
@@ -3009,6 +3166,11 @@
 		"L'&aExtrudeuse Mécanique&r rend tout ça beaucoup plus rapide."
 	]
 	quest.48FBEA846EE420D7.title: "&l&aL'andésite"
+	quest.493956CAD2985FD5.quest_desc: [
+		"L'&earmure de chevalier&r complète."
+	]
+	quest.493956CAD2985FD5.quest_subtitle: "La plus classique"
+	quest.493956CAD2985FD5.title: "L'armure de chevalier"
 	quest.498D22534A947B79.quest_desc: [
 		"L'&dŒil Magique&r est lâché par les &eévocateurs&r (pendant les raids ou dans les manoirs), et se trouve aussi dans les coffres des &emanoirs&r."
 	]
@@ -3163,6 +3325,11 @@
 		"Idéal avec les &6améliorations de Pile&r et de &6Destruction&r pour miner en tunnel !"
 	]
 	quest.4CED308848726E28.quest_subtitle: "Laisse ton sac faire le travail"
+	quest.4CFBF30E24F81CBB.quest_desc: [
+		"Le &ebâton de dragon&r donne des ordres à tes dragons apprivoisés."
+	]
+	quest.4CFBF30E24F81CBB.quest_subtitle: "Commander ses dragons"
+	quest.4CFBF30E24F81CBB.title: "Le bâton de dragonnier"
 	quest.4D308AD544372410.quest_subtitle: "En amélioration : &6+5 % de puissance des sorts de Foudre"
 	quest.4D38017F83D30E13.quest_subtitle: "Blesse ceux qui t'attaquent, comme l'enchantement Épines"
 	quest.4D4EE7CADBAF19BB.quest_desc: [
@@ -3226,6 +3393,13 @@
 		"4) Quand il reçoit un signal de redstone, il envoie la demande. Si les objets ne sont pas disponibles sur le réseau, rien n'est demandé."
 	]
 	quest.4F734FC470276106.quest_subtitle: "Donne un effet Célérité temporaire après avoir mangé"
+	quest.4FC3D5A9455742C5.quest_desc: [
+		"&cWyrmroost&r peuple le monde de &cdragons&r, des petits drakes aux immenses wyvernes. Certains s'apprivoisent !"
+		""
+		"Commence par le &eplatine&r et les &egéodes&r, pour l'équipement de dragonnier."
+	]
+	quest.4FC3D5A9455742C5.quest_subtitle: "Wyrmroost"
+	quest.4FC3D5A9455742C5.title: "&c&lLes dragons de Wyrmroost"
 	quest.4FDAFBD64AA710A1.quest_subtitle: "Les monstres lâchent plus d'expérience"
 	quest.4FE9BE6E2975E9A6.quest_desc: [
 		"Son &enid&r est enfoui dans le désert. Il surgit du sable et crache du poison : ne reste pas immobile."
@@ -3260,6 +3434,11 @@
 	]
 	quest.5074B699E6B3FF0F.quest_subtitle: "Sac de couchage et hamac"
 	quest.5074B699E6B3FF0F.title: "Dormir en expédition"
+	quest.50A0FF4CB52D4CE2.quest_desc: [
+		"L'&earmure de joute&r, à porter avec la lance."
+	]
+	quest.50A0FF4CB52D4CE2.quest_subtitle: "Pour les tournois"
+	quest.50A0FF4CB52D4CE2.title: "L'armure de joute"
 	quest.50A74C04350493E0.quest_subtitle: "&6-15 % de temps de recharge"
 	quest.50B1647DF5646267.quest_subtitle: "Digne de Helvar"
 	quest.50B1647DF5646267.title: "L'armure de chevalier"
@@ -3268,6 +3447,11 @@
 	]
 	quest.50C1097E997C6AF7.quest_subtitle: "Tourner à l'angle voulu"
 	quest.50C1097E997C6AF7.title: "Le servomoteur"
+	quest.50C8341D14498B22.quest_desc: [
+		"Obtiens un &egabarit d'insecte&r pour fabriquer une armure spéciale."
+	]
+	quest.50C8341D14498B22.quest_subtitle: "Un gabarit d'insecte"
+	quest.50C8341D14498B22.title: "Infesté !"
 	quest.50CAC11C32FA70C6.quest_desc: [
 		"Les &eWaystones&r se trouvent dans le monde (y compris dans certains villages). &bActive-les en passant&r pour pouvoir t'y téléporter plus tard."
 		""
@@ -3323,6 +3507,11 @@
 	quest.51E604A03CF06C47.title: "La Friteuse Mécanique"
 	quest.51FD16C71DE4883C.quest_subtitle: "Charme"
 	quest.51FD16C71DE4883C.title: "Sphère du sacrifice"
+	quest.520033BCDF31C071.quest_desc: [
+		"Vaincs le &cTraqueur de cauchemars&r."
+	]
+	quest.520033BCDF31C071.quest_subtitle: "Le Traqueur de cauchemars"
+	quest.520033BCDF31C071.title: "Combattre les cauchemars"
 	quest.522B6C7ECBA00B55.quest_subtitle: "Cou"
 	quest.522B6C7ECBA00B55.title: "Collier réfléchissant"
 	quest.523A0A0240B9DE66.quest_desc: [
@@ -3458,6 +3647,11 @@
 	]
 	quest.54DB86AEDE4EFD97.quest_subtitle: "Dans les jungles"
 	quest.54DB86AEDE4EFD97.title: "Chlorophyte"
+	quest.54E6C6010F14368A.quest_desc: [
+		"Obtiens une &epotion de Chemical X&r : lancée sur un animal, elle le transforme en mutant…"
+	]
+	quest.54E6C6010F14368A.quest_subtitle: "De la poudre et des épices"
+	quest.54E6C6010F14368A.title: "Chemical X"
 	quest.54E9C8A5728B8FB4.quest_desc: [
 		"&3Alex's Caves Delight&r cuisine les ingrédients des &3grottes d'Alex&r : moelle magnétique, moules, chair de dinosaure…"
 	]
@@ -3472,6 +3666,11 @@
 		""
 		"&6Loupe :&r pour voir la clé d'une Carte Unique."
 	]
+	quest.552D5AF82B270643.quest_desc: [
+		"Vaincs la &cMère des araignées&r."
+	]
+	quest.552D5AF82B270643.quest_subtitle: "La Mère des araignées"
+	quest.552D5AF82B270643.title: "Le cauchemar des arachnophobes"
 	quest.5534C553D15CD96B.quest_desc: [
 		"La &6Vidangeuse&r extrait le liquide d'un contenant et le garde en attendant qu'il soit pompé vers un autre contenant."
 	]
@@ -3615,6 +3814,11 @@
 	]
 	quest.5A52E77204B42646.quest_subtitle: "Un rangement encore plus grand toujours sur toi"
 	quest.5ABC7CE1A9B9FB7C.quest_subtitle: "Permet de marcher sur les liquides en courant"
+	quest.5AE02136F81D2356.quest_desc: [
+		"Des morts-vivants pour chaque biome : zombies gelés, brûlés, des marais, des marécages… et le terrible pirate &cBarbe-Morte&r."
+	]
+	quest.5AE02136F81D2356.quest_subtitle: "Rotten Creatures"
+	quest.5AE02136F81D2356.title: "&2Pourris jusqu'à l'os"
 	quest.5B00766B91E5F1CB.quest_subtitle: "Lâché par le Roi Mort"
 	quest.5B2ECDE4D4FF3D8D.quest_desc: [
 		"L'&5Œil Corrompu&r se trouve dans les &ecoffres des avant-postes de pillards&r, y compris les variantes ajoutées par les mods du pack."
@@ -3784,6 +3988,11 @@
 	quest.5EA8827577211357.title: "Cordes et treuils"
 	quest.5EC30214D9EE2A0C.quest_subtitle: "Maîtrise le pouvoir de la &2nature&r. Plus de &2puissance des sorts de nature&r ou d'&2armure&r."
 	quest.5EC30214D9EE2A0C.title: "&2&lÉcole de la Nature"
+	quest.5ECE4864DB42FE59.quest_desc: [
+		"Le &etambour&r donne un ordre (suivre, rester, se promener) à tous tes animaux autour de toi."
+	]
+	quest.5ECE4864DB42FE59.quest_subtitle: "Donner des ordres à tous tes animaux"
+	quest.5ECE4864DB42FE59.title: "Le tambour de commandement"
 	quest.5EE2C7C1568832CC.quest_desc: [
 		"Un immense &emanoir&r occupé par les illagers, avec ses évocateurs… qui lâchent parfois l'Œil Magique !"
 	]
@@ -3941,6 +4150,11 @@
 	quest.624E99A4E08167EA.quest_desc: [
 		"Tiens la relique en main et fais-toi toucher par le &6cri sonique du Warden&r."
 	]
+	quest.62536829DFDCD640.quest_desc: [
+		"Utilise le &echarme canin&r pour faire venir ton chien."
+	]
+	quest.62536829DFDCD640.quest_subtitle: "Appeler son chien"
+	quest.62536829DFDCD640.title: "Le charme canin"
 	quest.625D742435C1AF0A.quest_subtitle: "Relique des mages"
 	quest.625D742435C1AF0A.title: "Trancheur"
 	quest.629831A093BC1F03.quest_subtitle: "Tes attaques au corps à corps peuvent infliger Wither"
@@ -4063,7 +4277,22 @@
 	]
 	quest.64F015F16C1C5F55.quest_subtitle: "Des objets qui grandissent avec toi"
 	quest.64F015F16C1C5F55.title: "&6&lLes Reliques"
+	quest.65123E4190BCE18B.quest_desc: [
+		"La &elance&r fait d'énormes dégâts en chargeant à cheval."
+	]
+	quest.65123E4190BCE18B.quest_subtitle: "La charge à cheval"
+	quest.65123E4190BCE18B.title: "La lance de joute"
+	quest.655E8C45AE0004C6.quest_desc: [
+		"Les &egéodes&r se minent dans les montagnes et le Nether. Elles donnent outils, armes et armures."
+	]
+	quest.655E8C45AE0004C6.quest_subtitle: "Bleues, rouges et violettes"
+	quest.655E8C45AE0004C6.title: "Les géodes"
 	quest.65663D9E051280F2.quest_subtitle: "Augmente la vitesse de ta monture"
+	quest.656AEA6961AD3E31.quest_desc: [
+		"Porte une &earmure complète de métal sombre&r."
+	]
+	quest.656AEA6961AD3E31.quest_subtitle: "L'armure de métal sombre"
+	quest.656AEA6961AD3E31.title: "Chevalier du chaos"
 	quest.65B7A1DAF383878B.quest_desc: [
 		"Certains villages flottent dans le ciel ! Il faudra un dirigeable, un jetpack… ou beaucoup d'échelles pour les atteindre."
 	]
@@ -4196,6 +4425,11 @@
 	]
 	quest.67237310A2D6E738.quest_subtitle: "De la magie à portée de main"
 	quest.67237310A2D6E738.title: "Les sceptres de la Liche"
+	quest.6767FDEC926C01DE.quest_desc: [
+		"Un &eécu&r en acier. Il existe aussi des rondaches, des pavois, des boucliers en amande…"
+	]
+	quest.6767FDEC926C01DE.quest_subtitle: "Le bouclier du chevalier"
+	quest.6767FDEC926C01DE.title: "L'écu"
 	quest.67885E1A64CB51A9.quest_subtitle: "Sort ultime"
 	quest.67885E1A64CB51A9.title: "Les Portes du Paradis"
 	quest.6796A0CBC2BA3C7D.quest_subtitle: "Relique des mages"
@@ -4216,6 +4450,11 @@
 	quest.681E258AB577FF73.quest_subtitle: "Ajoute 1 niveau à Appât et à Chance de la mer"
 	quest.682247A7DBDB0A53.quest_subtitle: "Rune et essence arcaniques, améthyste"
 	quest.682247A7DBDB0A53.title: "Cristal de mana fissuré"
+	quest.683574F1E5FA1393.quest_desc: [
+		"Une &earbalète lourde&r, plus lente à recharger mais bien plus puissante."
+	]
+	quest.683574F1E5FA1393.quest_subtitle: "Lente mais redoutable"
+	quest.683574F1E5FA1393.title: "L'arbalète lourde"
 	quest.68462036ABCF9856.quest_desc: [
 		"Un bâton forgé avec l'&cignitium&r de Cataclysm."
 	]
@@ -4573,6 +4812,11 @@
 	quest.6F8B33C36B43999A.title: "&5&lL'Invocateur"
 	quest.6F95528D2463F4EF.quest_subtitle: "Relique des mages"
 	quest.6F95528D2463F4EF.title: "Clé dimensionnelle"
+	quest.6FAA8992606AA62E.quest_desc: [
+		"Fais assez de bêtises pour que &cKrampus&r vienne te chercher… puis vaincs-le."
+	]
+	quest.6FAA8992606AA62E.quest_subtitle: "Krampus"
+	quest.6FAA8992606AA62E.title: "Le mauvais Père Noël"
 	quest.6FB0397489FE5C8A.quest_subtitle: "Sort ultime"
 	quest.6FB0397489FE5C8A.title: "L'Ère glaciaire"
 	quest.6FBEFDD770C75228.quest_subtitle: "Apprivoiser"
@@ -4591,6 +4835,11 @@
 	]
 	quest.6FF9F64496CBECF6.quest_subtitle: "Au sommet du haricot"
 	quest.6FF9F64496CBECF6.title: "Le royaume des Géants"
+	quest.7025E14765A746FB.quest_desc: [
+		"Le &esifflet&r appelle tes animaux pour qu'ils te suivent."
+	]
+	quest.7025E14765A746FB.quest_subtitle: "Rassembler ses animaux"
+	quest.7025E14765A746FB.title: "Le sifflet"
 	quest.7028A4D91D14E5B0.quest_desc: [
 		"Donne-lui un &eobjet de navigation&r (regarde le Ponder pour la liste) : elle émet un signal de redstone &bdans la direction de la destination&r."
 		""
@@ -4812,6 +5061,11 @@
 		""
 		"Elle a aussi un &aemplacement de filtre&r pour les liquides d'expérience des autres mods : place le seau dedans pour que la trappe le traite comme de l'expérience normale."
 	]
+	quest.7356712807828743.quest_desc: [
+		"Vaincs le &cMissionnaire&r."
+	]
+	quest.7356712807828743.quest_subtitle: "Un créateur de ténèbres"
+	quest.7356712807828743.title: "Le Missionnaire"
 	quest.7362AE3D474FF6E1.quest_subtitle: "Augmente énormément ta vitesse de course et te fait monter les marches tout seul"
 	quest.7363495F41F0AE8E.quest_desc: [
 		"La &cMonstruosité de Netherite&r est un golem puissant qui se trouve chez le &eForgeron des Âmes&r, au fond du &aNether&r."
@@ -4967,6 +5221,11 @@
 		"Dans la &6Forge à Parchemins&r, l'&6encre&r permet de fabriquer un sort de la rareté correspondante, au plus bas niveau disponible. Si la rareté minimum d'un sort est plus élevée que celle de l'encre, tu ne pourras pas le fabriquer : il faudra une encre de meilleure qualité."
 	]
 	quest.75813E7A5E88D3B8.quest_subtitle: "En amélioration : &6+5 % de résistance aux sorts"
+	quest.75DEB8298B332B2D.quest_desc: [
+		"L'&earmure maximilienne&r, l'une des plus protectrices."
+	]
+	quest.75DEB8298B332B2D.quest_subtitle: "Cannelée de partout"
+	quest.75DEB8298B332B2D.title: "L'armure maximilienne"
 	quest.760EA1AC32DB5371.quest_desc: [
 		"Le &cMagnetron&r se construit un corps avec les blocs qui l'entourent. Vaincs-le pour en récupérer les composants."
 	]
@@ -5151,6 +5410,16 @@
 		""
 		"Parfait pour ne plus remplir ton sac de pierre en minant !"
 	]
+	quest.7B5A791F37550AED.quest_desc: [
+		"Mantes, essaims d'abeilles, araignées de toutes sortes… Leurs restes donnent des armes (faucille de mante, poignard à dard) et des &egabarits&r pour des armures spéciales."
+	]
+	quest.7B5A791F37550AED.quest_subtitle: "Infested Swarms and Spiders"
+	quest.7B5A791F37550AED.title: "&6Essaims et araignées"
+	quest.7B5FD00B8182D10C.quest_desc: [
+		"Un chien gravement blessé ne meurt pas : il reste à terre. Aide-le à &eguérir&r."
+	]
+	quest.7B5FD00B8182D10C.quest_subtitle: "Soigner son chien"
+	quest.7B5FD00B8182D10C.title: "Une guérison complète !"
 	quest.7B935C61FA732F05.quest_desc: [
 		"Il émet un signal selon l'&binclinaison&r du vaisseau, vers le côté qui descend."
 		""
@@ -5294,6 +5563,11 @@
 	]
 	quest.7DEAA5DD07821D36.quest_subtitle: "Twilight Spellbooks"
 	quest.7DEAA5DD07821D36.title: "&2&lLa magie du Crépuscule"
+	quest.7DEFE3C0CFE1DD46.quest_desc: [
+		"L'&earmure de croisé&r, à porter avec un grand heaume."
+	]
+	quest.7DEFE3C0CFE1DD46.quest_subtitle: "Pour partir en croisade"
+	quest.7DEFE3C0CFE1DD46.title: "L'armure de croisé"
 	quest.7E328B06EA594628.quest_desc: [
 		"Capture une &eâme de familier&r dans une bouteille."
 	]
@@ -5306,6 +5580,11 @@
 	]
 	quest.7E452D2A2E57464F.quest_subtitle: "Better Archeology"
 	quest.7E452D2A2E57464F.title: "&6L'archéologie avancée"
+	quest.7E567F96CF094889.quest_desc: [
+		"Ajoute un &epanache&r, une couronne ou des cornes à ton casque."
+	]
+	quest.7E567F96CF094889.quest_subtitle: "Décorer son casque"
+	quest.7E567F96CF094889.title: "Le panache"
 	quest.7E59389B700FFD7F.quest_desc: [
 		"Le &6Roulement d'Hélice&r se fixe au bloc devant lui et transforme un ensemble de voiles en &bhélice qui pousse&r."
 		""

@@ -1,0 +1,85 @@
+chapter.2FEF27219009583B.title: "Epic Knights"
+quest.1AB4622179327391.title: "&7&lEpic Knights"
+quest.1AB4622179327391.quest_subtitle: "Armures et armes médiévales"
+quest.1AB4622179327391.quest_desc: [
+  "&7Epic Knights&r ajoute des dizaines d'&earmures médiévales&r (chevalier, gothique, maximilienne, croisé…), des &earmes&r (épées bâtardes, hallebardes, masses, lances de joute, arbalète lourde) et des &eboucliers&r."
+  ""
+  "Les armes ont leurs propres attaques grâce à Better Combat, et les casques se décorent de plumes, de couronnes ou de cornes."
+  ""
+  "La plupart existent en plusieurs métaux. Tape &d@magistuarmory&r dans JEI pour tout voir."
+]
+quest.36276ACE9CBB5E3B.title: "L'acier"
+quest.36276ACE9CBB5E3B.quest_subtitle: "Le métal des chevaliers"
+quest.36276ACE9CBB5E3B.quest_desc: [
+  "L'&eacier&r sert aux meilleures armes et armures d'Epic Knights."
+]
+quest.32EC7D78CBEE058C.title: "L'épée bâtarde"
+quest.32EC7D78CBEE058C.quest_subtitle: "À une ou deux mains"
+quest.32EC7D78CBEE058C.quest_desc: [
+  "Une &eépée bâtarde&r en acier, polyvalente."
+]
+quest.292E391F4037E4AC.title: "La hallebarde"
+quest.292E391F4037E4AC.quest_subtitle: "Frapper de loin"
+quest.292E391F4037E4AC.quest_desc: [
+  "Une &earme d'hast&r qui frappe à bonne distance."
+]
+quest.22C57EE4D56F8883.title: "L'étoile du matin"
+quest.22C57EE4D56F8883.quest_subtitle: "Contre les armures"
+quest.22C57EE4D56F8883.quest_desc: [
+  "Une &emasse à pointes&r, efficace contre les ennemis en armure."
+]
+quest.65123E4190BCE18B.title: "La lance de joute"
+quest.65123E4190BCE18B.quest_subtitle: "La charge à cheval"
+quest.65123E4190BCE18B.quest_desc: [
+  "La &elance&r fait d'énormes dégâts en chargeant à cheval."
+]
+quest.6767FDEC926C01DE.title: "L'écu"
+quest.6767FDEC926C01DE.quest_subtitle: "Le bouclier du chevalier"
+quest.6767FDEC926C01DE.quest_desc: [
+  "Un &eécu&r en acier. Il existe aussi des rondaches, des pavois, des boucliers en amande…"
+]
+quest.683574F1E5FA1393.title: "L'arbalète lourde"
+quest.683574F1E5FA1393.quest_subtitle: "Lente mais redoutable"
+quest.683574F1E5FA1393.quest_desc: [
+  "Une &earbalète lourde&r, plus lente à recharger mais bien plus puissante."
+]
+quest.23C93ED31C676697.title: "L'arc long"
+quest.23C93ED31C676697.quest_subtitle: "Tirer loin"
+quest.23C93ED31C676697.quest_desc: [
+  "Un &earc long&r qui tire plus loin et plus fort."
+]
+quest.493956CAD2985FD5.title: "L'armure de chevalier"
+quest.493956CAD2985FD5.quest_subtitle: "La plus classique"
+quest.493956CAD2985FD5.quest_desc: [
+  "L'&earmure de chevalier&r complète."
+]
+quest.247C2394F663B2D9.title: "L'armure gothique"
+quest.247C2394F663B2D9.quest_subtitle: "Élégante et solide"
+quest.247C2394F663B2D9.quest_desc: [
+  "Une &earmure gothique&r aux lignes fines."
+]
+quest.75DEB8298B332B2D.title: "L'armure maximilienne"
+quest.75DEB8298B332B2D.quest_subtitle: "Cannelée de partout"
+quest.75DEB8298B332B2D.quest_desc: [
+  "L'&earmure maximilienne&r, l'une des plus protectrices."
+]
+quest.7DEFE3C0CFE1DD46.title: "L'armure de croisé"
+quest.7DEFE3C0CFE1DD46.quest_subtitle: "Pour partir en croisade"
+quest.7DEFE3C0CFE1DD46.quest_desc: [
+  "L'&earmure de croisé&r, à porter avec un grand heaume."
+]
+quest.50A0FF4CB52D4CE2.title: "L'armure de joute"
+quest.50A0FF4CB52D4CE2.quest_subtitle: "Pour les tournois"
+quest.50A0FF4CB52D4CE2.quest_desc: [
+  "L'&earmure de joute&r, à porter avec la lance."
+]
+quest.26679F5867D4F70E.title: "Le caparaçon"
+quest.26679F5867D4F70E.quest_subtitle: "Une armure pour ton cheval"
+quest.26679F5867D4F70E.quest_desc: [
+  "Un &ecaparaçon&r protège ton &echeval&r au combat."
+]
+quest.7E567F96CF094889.title: "Le panache"
+quest.7E567F96CF094889.quest_subtitle: "Décorer son casque"
+quest.7E567F96CF094889.quest_desc: [
+  "Ajoute un &epanache&r, une couronne ou des cornes à ton casque."
+]

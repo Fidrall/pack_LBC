@@ -182,7 +182,7 @@ hash = "5c745fb4f3f1171a353f713b1322ed6ae5f6ed750c4c9698186c258267ff750d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creatures.snbt"
-hash = "ac53fe350aa56475c8398df6589d305e16865abc1e3f45b549f8d1b516cc8185"
+hash = "75887366608551099220b9d08082369791f73f5c6426fbe2f0d458126c0ebb53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
@@ -218,7 +218,7 @@ hash = "05b8b849a1e0cb385ad99b9fad38bab10267f5a74388ef72ca8f09757988c345"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simply_swords.snbt"
-hash = "d35ead63bd75e286723580df1fb512d2afc3de0a7ef2561e545a14e0004c27c0"
+hash = "81383b4f98428ba0307081432c0acf860f63e22d96ae78f88a50561a912bce64"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
@@ -242,7 +242,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "57ef12d94b649aea3202da056aebc569d7b94120ae32b915a141288b376e827f"
+hash = "256a51118273a5f851b75e203fbfe319024f106889c31dada0eb2e562b55ea54"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"

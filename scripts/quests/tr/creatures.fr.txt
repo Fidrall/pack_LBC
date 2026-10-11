@@ -174,3 +174,198 @@ quest.1E019C50FB661CCD.quest_subtitle: "Une amie des profondeurs"
 quest.1E019C50FB661CCD.quest_desc: [
   "La &epieuvre Dumbo&r vit dans les océans profonds. Quand tu te noies près d'elle, elle t'offre une &bbulle d'air&r !"
 ]
+quest.3647F0C569D14B25.title: "Le camp des pillards"
+quest.3647F0C569D14B25.quest_subtitle: "It Takes a Pillage"
+quest.3647F0C569D14B25.quest_desc: [
+  "&eIt Takes a Pillage&r ajoute des illagers (archers, escarmoucheurs, légionnaires), des &ecamps de pillards&r et des &ebastilles&r."
+]
+quest.1F4BC0A59DF53DB5.title: "La bastille"
+quest.1F4BC0A59DF53DB5.quest_subtitle: "Une forteresse d'illagers"
+quest.1F4BC0A59DF53DB5.quest_desc: [
+  "Trouve une &ebastille&r, la forteresse des pillards."
+]
+quest.312A8576C183203F.title: "Recrue !"
+quest.312A8576C183203F.quest_subtitle: "Guard Villagers"
+quest.312A8576C183203F.quest_desc: [
+  "Donne une &eépée&r à un villageois sans métier : il devient &egarde&r et défend le village. Les gardes s'équipent de ce que tu leur donnes."
+]
+quest.293AA70ADD3EB55C.title: "&4&lBorn in Chaos"
+quest.293AA70ADD3EB55C.quest_subtitle: "Un monde plein de dangers"
+quest.293AA70ADD3EB55C.quest_desc: [
+  "&4Born in Chaos&r ajoute des dizaines de monstres : esprits, épouvantails, clowns zombies, mouches à cadavres…"
+  ""
+  "Et des &cboss&r : le Missionnaire, le Suprême Appelle-os, le Seigneur Citrouille, Krampus…"
+  ""
+  "Le &emétal sombre&r qu'ils lâchent donne des armes et des armures puissantes."
+]
+quest.461D141399676978.title: "Le métal sombre"
+quest.461D141399676978.quest_subtitle: "Un morceau de chaos"
+quest.461D141399676978.quest_desc: [
+  "Récupère un &emorceau de métal sombre&r."
+]
+quest.0F27A569EF838CFA.title: "La forge sombre"
+quest.0F27A569EF838CFA.quest_subtitle: "Un lingot de métal sombre"
+quest.0F27A569EF838CFA.quest_desc: [
+  "Fabrique un &elingot de métal sombre&r."
+]
+quest.656AEA6961AD3E31.title: "Chevalier du chaos"
+quest.656AEA6961AD3E31.quest_subtitle: "L'armure de métal sombre"
+quest.656AEA6961AD3E31.quest_desc: [
+  "Porte une &earmure complète de métal sombre&r."
+]
+quest.06E62F3471611422.title: "Le forgeron sombre"
+quest.06E62F3471611422.quest_subtitle: "Une arme de métal sombre"
+quest.06E62F3471611422.quest_desc: [
+  "Fabrique une &earme de métal sombre&r."
+]
+quest.7356712807828743.title: "Le Missionnaire"
+quest.7356712807828743.quest_subtitle: "Un créateur de ténèbres"
+quest.7356712807828743.quest_desc: [
+  "Vaincs le &cMissionnaire&r."
+]
+quest.39F0ABBF728F2D36.title: "Le Suprême Appelle-os"
+quest.39F0ABBF728F2D36.quest_subtitle: "Un invocateur de squelettes"
+quest.39F0ABBF728F2D36.quest_desc: [
+  "Vaincs le &cSuprême Appelle-os&r."
+]
+quest.520033BCDF31C071.title: "Combattre les cauchemars"
+quest.520033BCDF31C071.quest_subtitle: "Le Traqueur de cauchemars"
+quest.520033BCDF31C071.quest_desc: [
+  "Vaincs le &cTraqueur de cauchemars&r."
+]
+quest.47F2AE3AB2B8579D.title: "La dernière nuit"
+quest.47F2AE3AB2B8579D.quest_subtitle: "Le Seigneur Citrouille"
+quest.47F2AE3AB2B8579D.quest_desc: [
+  "Vaincs le &6Seigneur Citrouille&r et sa monture."
+]
+quest.6FAA8992606AA62E.title: "Le mauvais Père Noël"
+quest.6FAA8992606AA62E.quest_subtitle: "Krampus"
+quest.6FAA8992606AA62E.quest_desc: [
+  "Fais assez de bêtises pour que &cKrampus&r vienne te chercher… puis vaincs-le."
+]
+quest.552D5AF82B270643.title: "Le cauchemar des arachnophobes"
+quest.552D5AF82B270643.quest_subtitle: "La Mère des araignées"
+quest.552D5AF82B270643.quest_desc: [
+  "Vaincs la &cMère des araignées&r."
+]
+quest.118E94ADE68EA310.title: "Le chef de meute"
+quest.118E94ADE68EA310.quest_subtitle: "Le Chef des molosses"
+quest.118E94ADE68EA310.quest_desc: [
+  "Vaincs le &cChef des molosses&r."
+]
+quest.148D031BB09A03EB.title: "&2Les mutants"
+quest.148D031BB09A03EB.quest_subtitle: "Mutant Monsters"
+quest.148D031BB09A03EB.quest_desc: [
+  "Zombies, squelettes, creepers et endermen &2mutants&r : rares, énormes et dangereux. Leurs restes donnent un marteau, une armure et la &ePotion de Chemical X&r."
+]
+quest.3C1506CBC8B8EFDB.title: "Hulk écrase !"
+quest.3C1506CBC8B8EFDB.quest_subtitle: "Le marteau du mutant"
+quest.3C1506CBC8B8EFDB.quest_desc: [
+  "Tue un &ezombie mutant&r avec le &emarteau de Hulk&r (clic droit sur le sol : onde de choc)."
+]
+quest.54E6C6010F14368A.title: "Chemical X"
+quest.54E6C6010F14368A.quest_subtitle: "De la poudre et des épices"
+quest.54E6C6010F14368A.quest_desc: [
+  "Obtiens une &epotion de Chemical X&r : lancée sur un animal, elle le transforme en mutant…"
+]
+quest.5AE02136F81D2356.title: "&2Pourris jusqu'à l'os"
+quest.5AE02136F81D2356.quest_subtitle: "Rotten Creatures"
+quest.5AE02136F81D2356.quest_desc: [
+  "Des morts-vivants pour chaque biome : zombies gelés, brûlés, des marais, des marécages… et le terrible pirate &cBarbe-Morte&r."
+]
+quest.2EA7A1B99C490ED2.title: "C'est un pirate !"
+quest.2EA7A1B99C490ED2.quest_subtitle: "Barbe-Morte et son trésor"
+quest.2EA7A1B99C490ED2.quest_desc: [
+  "Vaincs &cBarbe-Morte&r et prends son trésor."
+]
+quest.40091DB1B73FDA95.title: "Purification !"
+quest.40091DB1B73FDA95.quest_subtitle: "Toutes les créatures pourries"
+quest.40091DB1B73FDA95.quest_desc: [
+  "Tue &echaque type&r de créature pourrie."
+]
+quest.7B5A791F37550AED.title: "&6Essaims et araignées"
+quest.7B5A791F37550AED.quest_subtitle: "Infested Swarms and Spiders"
+quest.7B5A791F37550AED.quest_desc: [
+  "Mantes, essaims d'abeilles, araignées de toutes sortes… Leurs restes donnent des armes (faucille de mante, poignard à dard) et des &egabarits&r pour des armures spéciales."
+]
+quest.50C8341D14498B22.title: "Infesté !"
+quest.50C8341D14498B22.quest_subtitle: "Un gabarit d'insecte"
+quest.50C8341D14498B22.quest_desc: [
+  "Obtiens un &egabarit d'insecte&r pour fabriquer une armure spéciale."
+]
+quest.09B646351BACA6B9.title: "L'essaim"
+quest.09B646351BACA6B9.quest_subtitle: "La cellule d'essaim"
+quest.09B646351BACA6B9.quest_desc: [
+  "Obtiens une &ecellule d'essaim&r."
+]
+quest.332855DD21CA9E29.title: "&aUn bestiaire varié"
+quest.332855DD21CA9E29.quest_subtitle: "Variantes de biome"
+quest.332855DD21CA9E29.quest_desc: [
+  "Dans ce pack, les monstres changent selon le biome :"
+  ""
+  "- &eVariants and Ventures&r : squelettes des jungles et des marais, zombies gelés…"
+  "- &eEnderman Overhaul&r : une vingtaine d'endermen différents selon les biomes, avec leurs perles spéciales ;"
+  "- &eCreeper Overhaul&r : un creeper différent pour chaque biome."
+  ""
+  "Tue les quatre nouveaux monstres de Variants and Ventures : &everdant, vaseux, des fourrés et gelé&r."
+]
+quest.4FC3D5A9455742C5.title: "&c&lLes dragons de Wyrmroost"
+quest.4FC3D5A9455742C5.quest_subtitle: "Wyrmroost"
+quest.4FC3D5A9455742C5.quest_desc: [
+  "&cWyrmroost&r peuple le monde de &cdragons&r, des petits drakes aux immenses wyvernes. Certains s'apprivoisent !"
+  ""
+  "Commence par le &eplatine&r et les &egéodes&r, pour l'équipement de dragonnier."
+]
+quest.655E8C45AE0004C6.title: "Les géodes"
+quest.655E8C45AE0004C6.quest_subtitle: "Bleues, rouges et violettes"
+quest.655E8C45AE0004C6.quest_desc: [
+  "Les &egéodes&r se minent dans les montagnes et le Nether. Elles donnent outils, armes et armures."
+]
+quest.4CFBF30E24F81CBB.title: "Le bâton de dragonnier"
+quest.4CFBF30E24F81CBB.quest_subtitle: "Commander ses dragons"
+quest.4CFBF30E24F81CBB.quest_desc: [
+  "Le &ebâton de dragon&r donne des ordres à tes dragons apprivoisés."
+]
+quest.44A81316105AE0B4.title: "Une armure pour dragon"
+quest.44A81316105AE0B4.quest_subtitle: "Protéger sa monture"
+quest.44A81316105AE0B4.quest_desc: [
+  "Une &earmure&r pour ton dragon, en fer, or, diamant, platine ou géode."
+]
+quest.25126C5821C98C01.title: "L'armure de drake"
+quest.25126C5821C98C01.quest_subtitle: "En écailles de dragon"
+quest.25126C5821C98C01.quest_desc: [
+  "Une armure faite avec les écailles d'un &edrake&r."
+]
+quest.3230902EC8DD90A6.title: "&6Les chiens de compagnie"
+quest.3230902EC8DD90A6.quest_subtitle: "Doggy Talents Next"
+quest.3230902EC8DD90A6.quest_desc: [
+  "Donne une &efriandise de dressage&r à un loup apprivoisé : il devient un &echien&r qui apprend des &etalents&r (gardien, pêcheur, porteur, sauveteur…), qui a de la vie et qui peut s'équiper."
+]
+quest.62536829DFDCD640.title: "Le charme canin"
+quest.62536829DFDCD640.quest_subtitle: "Appeler son chien"
+quest.62536829DFDCD640.quest_desc: [
+  "Utilise le &echarme canin&r pour faire venir ton chien."
+]
+quest.7B5FD00B8182D10C.title: "Une guérison complète !"
+quest.7B5FD00B8182D10C.quest_subtitle: "Soigner son chien"
+quest.7B5FD00B8182D10C.quest_desc: [
+  "Un chien gravement blessé ne meurt pas : il reste à terre. Aide-le à &eguérir&r."
+]
+quest.3FF247066FCEC0B6.title: "&eLes animaux domestiques"
+quest.3FF247066FCEC0B6.quest_subtitle: "Redomesticate et Petting"
+quest.3FF247066FCEC0B6.quest_desc: [
+  "Tous tes animaux apprivoisés gagnent des options :"
+  ""
+  "- &eRedomesticate&r : lits, tambour de commandement, collier, titre de propriété pour les donner à un autre joueur ;"
+  "- &ePetting&r : caresser ses animaux (accroupi + clic droit), sifflet pour qu'ils te suivent, laisse, orbe de téléportation."
+]
+quest.5ECE4864DB42FE59.title: "Le tambour de commandement"
+quest.5ECE4864DB42FE59.quest_subtitle: "Donner des ordres à tous tes animaux"
+quest.5ECE4864DB42FE59.quest_desc: [
+  "Le &etambour&r donne un ordre (suivre, rester, se promener) à tous tes animaux autour de toi."
+]
+quest.7025E14765A746FB.title: "Le sifflet"
+quest.7025E14765A746FB.quest_subtitle: "Rassembler ses animaux"
+quest.7025E14765A746FB.quest_desc: [
+  "Le &esifflet&r appelle tes animaux pour qu'ils te suivent."
+]
