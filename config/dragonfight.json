@@ -1,5 +1,6 @@
-// Avec Stellarity : on garde seulement les ajouts de Savage qui ne font pas doublon (eclairs, explosions, renforts, anti-vol, poison des cristaux).
-// Vie geree par Stellarity (400 PV) -> bonus de vie 0 ; cristaux : Stellarity rend le dragon invulnerable tant qu'il en reste -> pas de reapparition.
+// Savage Ender Dragon gere seul le combat (Stellarity retire).
+// Vie de base = 400 + 50 x dragonDifficulty, puis x (1 + bonus de vie x max(1, D/5)) : difficulte 0 et bonus 0 -> 400 PV pile.
+// Cristaux : reapparition et degats au dragon quand on les casse au corps a corps remis par defaut.
 {
   "dragonDifficulty": {
     // Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.
@@ -19,13 +20,13 @@
   "doEndCrystalRespawn": {
     // Set whether end crystals respawn at all. 
     // Default:true
-    "doEndCrystalRespawn": false
+    "doEndCrystalRespawn": true
   },
 
   "crystalMeleeKillDamage": {
     // Set the current health percent the dragon looses when an end crystal is killed by a player in close quarters.
     // Default:10, 0 to disable, 100 to instant kill the dragon
-    "crystalMeleeKillDamage": 0.0
+    "crystalMeleeKillDamage": 10.0
   },
 
   "crystalPotionOnDeath": {

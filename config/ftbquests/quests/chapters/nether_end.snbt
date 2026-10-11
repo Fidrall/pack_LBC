@@ -364,7 +364,7 @@
 					id: "2E26806544F8CFAE"
 					item: {
 						components: {
-							"ftbquests:loot_crate": "commune"
+							"ftbquests:loot_crate": "rare"
 						}
 						count: 1
 						id: "ftbquests:lootcrate"
@@ -375,7 +375,7 @@
 			tasks: [
 				{
 					id: "561A8B36D7351EF5"
-					structure: "stellarity:fossil"
+					structure: "legendary_monsters:shulker_tower"
 					type: "structure"
 				}
 			]
@@ -390,7 +390,7 @@
 					id: "331DB9A54BDCF7E6"
 					item: {
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "epique"
 						}
 						count: 1
 						id: "ftbquests:lootcrate"
@@ -400,9 +400,10 @@
 			]
 			tasks: [
 				{
+					entity: "legendary_monsters:endersent"
 					id: "0AE8895BCE3D82FE"
-					structure: "stellarity:village"
-					type: "structure"
+					type: "kill"
+					value: 1L
 				}
 			]
 			x: 3d
@@ -416,7 +417,7 @@
 					id: "65A03DA171D170D9"
 					item: {
 						components: {
-							"ftbquests:loot_crate": "commune"
+							"ftbquests:loot_crate": "rare"
 						}
 						count: 1
 						id: "ftbquests:lootcrate"
@@ -427,7 +428,8 @@
 			tasks: [
 				{
 					id: "308CB1273F2A62FA"
-					type: "checkmark"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
 				}
 			]
 			x: 4.5d

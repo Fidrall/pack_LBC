@@ -159,7 +159,7 @@ $Quests = @(
          '- combine les trois tirages sur une &efeuille polychrome&r dans la Chambre claire.') }
   @{ k='photo_end'; x=9.5; y=4.5; deps=@('photo_print'); optional=$true; tasks=@('adv:exposure:adventure/void'); icon='minecraft:end_stone'; crate='rare'
      t='Carte postale de l''End'; st='Un souvenir du vide'
-     d=@('Prends une photo dans &5l''End&r. Avec Stellarity, il y a de quoi faire de beaux clichés !') }
+     d=@('Prends une photo dans &5l''End&r : une cité de l''End, un vaisseau échoué ou une tour de shulkers, à toi de choisir !') }
   @{ k='photo_wildlife'; x=8; y=6; deps=@('photo_color'); tasks=@('adv:exposure:adventure/wildlife_archivist'); icon='exposure:album'; crate='epique'; xp=500
      t='&6Inventaire de la faune'; st='Photographier chaque animal sauvage'
      d=@('Le grand défi du photographe animalier : prendre en photo &echaque animal sauvage&r du jeu, du renard à l''axolotl en passant par le panda.',

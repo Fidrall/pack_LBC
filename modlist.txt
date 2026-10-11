@@ -222,7 +222,7 @@ mr | silent-lib | conserver | requis par Treasure Bags
 mr | zfastnoise | perf | remplace Noisium
 mr | wyrmroost | jetable | dragons (remplace Ice and Fire) ; Royal Red renforce, griefing coupe
 mr | alexs-caves-continued | jetable | 6 biomes souterrains, rares (separation 1200)
-mr | stellarity | conserver | End refait (blocs vanilla), remplace Nullscape et Savage Ender Dragon
+mr | legendary-monsters | jetable | une douzaine de boss et 13 structures (Overworld, Nether, End : Chorusent) ; remplace Stellarity ; Bomber et nid du Fungussus reduits (build-datapack section 8)
 mr | bossesrise | jetable | 5 boss a arenes ; roulade coupee (Combat Roll garde)
 mr | epic-knights-shields-armor-and-weapons | jetable | armures et armes medievales (+ compat Better Combat)
 mr | apothic-combat | qol | complement d'Apotheosis
@@ -248,7 +248,7 @@ mr | deeper-and-darker-spellbooks | jetable | sorts et armure du Warden pour Iro
 mr | create-wizardry | jetable | automatisation Create pour Iron's (version pre-release)
 mr | journeymap | qol | minimap et grande carte (mode grotte), config d'origine via config/jmdefaultconfig
 mr | journeymap-integration | client | protections FTB Chunks et Waystones sur JourneyMap
-cf | 523327 | jetable | Savage Ender Dragon (eclairs, renforts, anti-vol) en complement de Stellarity : vie/cristaux geres par Stellarity (config/dragonfight.json)
+cf | 523327 | jetable | Savage Ender Dragon (eclairs, renforts, anti-vol, cristaux qui reapparaissent) ; dragon 400 PV (config/dragonfight.json)
 mr | createbetterfps | client | rendu Create plus rapide avec shaders (a tester : engrenages, dirigeables)
 cf | 1698943 | conserver | Create High Skies : hydrogene par electrolyse, gaz porteurs pour dirigeables (exige Aeronautics 1.3.2 exactement)
 mr | vs-hose-connectors | conserver | tuyaux/cables/chaines entre dirigeables et sol

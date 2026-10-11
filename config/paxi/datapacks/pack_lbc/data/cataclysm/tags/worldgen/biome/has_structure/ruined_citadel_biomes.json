@@ -1,9 +1,0 @@
-{
-    "replace":  false,
-    "values":  [
-                   {
-                       "id":  "#stellarity:biomes/regular",
-                       "required":  false
-                   }
-               ]
-}

@@ -49,32 +49,29 @@ $Quests = @(
 
   # --- End
   @{ k='end'; x=3; y=0; size=2; shape='gear'; tasks=@('dim:minecraft:the_end'); icon='minecraft:end_stone'; crate='rare'
-     t='&d&lUn End transformé'; st='Stellarity'
-     d=@('Après le dragon, l''End s''ouvre… et il est bien différent de l''End vanilla :',
+     t='&d&lL''End'; st='Les îles extérieures'
+     d=@('Après le dragon, les îles extérieures s''ouvrent… et elles sont bien gardées :',
          '',
-         '- &dStellarity&r transforme les îles extérieures : îles à toutes les hauteurs et une vingtaine de &ebiomes&r (prairies, forêts, dunes, terres gelées…) ;',
          '- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles ;',
-         '- après le dragon, l''&5Autel du Maudit&r se réveille : il fabrique l''équipement de fin de jeu de Stellarity (recettes sur le wiki de Stellarity).',
+         '- &cLegendary Monsters&r y cache des tours de shulkers, les ruines d''une tour antique gardées par le &5Chorusent&r et une très rare &estation spatiale&r ;',
+         '- d''autres boss rôdent : l''&5Ender Guardian&r de Cataclysm, l''&5Obsidilith&r, et les créatures de l''End d''Hazennstuff.',
          '',
          'N''oublie pas : c''est aussi là que se trouve la &epierre de l''End&r nécessaire à la &dlévitite&r des dirigeables !') }
-  @{ k='dreaming'; x=1.5; y=1.5; deps=@('end'); tasks=@('struct:stellarity:fossil'); crate='commune'
-     t='Un fossile de l''End'; st='Stellarity'
-     d=@('D''immenses &eossements&r gisent dans les toundras de chair, les nids et les deltas de cendre. Que s''est-il passé ici ?') }
-  @{ k='crystal'; x=3; y=1.5; deps=@('end'); tasks=@('struct:stellarity:village'); crate='rare'
-     t='Un village de l''End'; st='Stellarity'
-     d=@('Il y a des &ehabitants&r dans l''End : trouve l''un de leurs villages, souvent dans le &dHallow&r et les forêts de prismarine.') }
-  @{ k='acid'; x=4.5; y=1.5; deps=@('end'); tasks=@('@check'); crate='commune'
-     t='Les nouveaux biomes'; st='Prairies, forêts, dunes et glaces'
-     d=@('Stellarity ajoute une vingtaine de biomes à l''End, en quatre familles :',
+  @{ k='dreaming'; x=1.5; y=1.5; deps=@('end'); tasks=@('struct:legendary_monsters:shulker_tower'); crate='rare'
+     t='La tour des shulkers'; st='Legendary Monsters'
+     d=@('Une &etour&r perchée sur les îles de l''End, pleine de shulkers.',
          '',
-         '- les &aprairies&r (End Wilds, End Shrubland, Hallow…) ;',
-         '- les &8landes désolées&r (Ender Wastes, Crystal Crags, The Nest…) ;',
-         '- les &dforêts&r (forêt d''améthyste, forêt de prismarine…) ;',
-         '- les &bterres gelées&r (Frozen Spikes, Frosted Valley…).',
+         'Méfie-toi : certains n''en sont pas. Les &cShulker Mimics&r attendent qu''on s''approche…') }
+  @{ k='crystal'; x=3; y=1.5; deps=@('end'); tasks=@('kill:legendary_monsters:endersent'); crate='epique'
+     t='&5Le Chorusent'; st='Legendary Monsters'
+     d=@('Le &5Chorusent&r garde les &eruines de la tour antique&r, sur les hautes îles de l''End, entouré de Choruslings.',
          '',
-         'Astuce : on peut &epêcher dans le vide&r ! Lance ta canne vers les îles en contrebas.',
+         'Abats-le pour récupérer son butin.') }
+  @{ k='acid'; x=4.5; y=1.5; deps=@('end'); tasks=@('struct:cataclysm:ruined_citadel'); crate='rare'
+     t='La citadelle en ruine'; st='Cataclysm'
+     d=@('Une immense &ecitadelle&r de l''End, gardée par des Ender Golems.',
          '',
-         'Valide cette quête quand tu as visité un biome de chaque famille !') }
+         'Au cœur de la citadelle attend l''&5Ender Guardian&r, l''un des boss les plus durs de Cataclysm. Prépare-toi bien avant de le réveiller !') }
   @{ k='underisland'; x=1.5; y=3; deps=@('dreaming'); tasks=@('struct:mes:enderkeep_courtyard'); crate='rare'
      t='La cour de l''Enderkeep'; st='Les structures de Moog'
      d=@('Une &eforteresse en ruine&r de l''End, avec son butin rare.') }

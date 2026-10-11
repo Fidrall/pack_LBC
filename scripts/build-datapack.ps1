@@ -231,10 +231,10 @@ $mon = [ordered]@{ bounding_box = 'full'; spawns = @([ordered]@{ type = 'minecra
 W 'data/minecraft/worldgen/structure/pillager_outpost.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#minecraft:has_structure/pillager_outpost'; step = 'surface_structures'; spawn_overrides = [ordered]@{ monster = $mon }; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:outpost/start'; size = 2; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })
 # minecraft:end_cities : Trek la redefinit (20/11) ; on garde un espacement un peu plus large (26/18).
 W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structures = @([ordered]@{ structure = 'minecraft:end_city'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387313; spacing = 26; separation = 18; spread_type = 'triangular' } })
-# Stellarity : ses biomes de l'End sont aussi des biomes "c:is_end" (minerais et creatures des autres mods),
-# et la Citadelle en ruine de Cataclysm (Ender Guardian) peut aussi apparaitre dans ses biomes, pas seulement dans les deux vanilla.
-W 'data/c/tags/worldgen/biome/is_end.json' ([ordered]@{ replace = $false; values = @([ordered]@{ id = '#stellarity:biomes/all'; required = $false }) })
-W 'data/cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes.json' ([ordered]@{ replace = $false; values = @([ordered]@{ id = '#stellarity:biomes/regular'; required = $false }) })
+# Legendary Monsters : nid du Warped Fungussus tous les 7 chunks dans les forets biscornues -> 40/30 ;
+# Bombers (explosifs) poids 75 dans les deserts, presque autant que les zombies -> 15.
+W 'data/legendary_monsters/worldgen/structure_set/warped_fungussus_nest.json' ([ordered]@{ structures = @([ordered]@{ structure = 'legendary_monsters:warped_fungussus_nest'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; spacing = 40; separation = 30; salt = 5546645 } })
+W 'data/legendary_monsters/neoforge/biome_modifier/bomber.json' ([ordered]@{ type = 'neoforge:add_spawns'; biomes = 'minecraft:desert'; spawners = [ordered]@{ type = 'legendary_monsters:bomber'; weight = 15; minCount = 1; maxCount = 4 } })
 
 # ---------- 9. Familles de structures (repartition homogene) ----------
 # 321 petites structures (Moog's, Born in Chaos, Create Structures Arise, Farmer's, Philips, Explorify) avaient chacune
@@ -515,13 +515,7 @@ foreach ($f in Get-ChildItem $lo -Recurse -File) {
     Copy-Item $f.FullName $to -Force
 }
 
-# ---------- 16. Dragon de Stellarity : 400 PV (300 par defaut) ----------
-# Stellarity garde ce reglage dans un score du monde ; il ne le cree que s'il est absent.
-# Le score est force a chaque chargement : le menu de config de Stellarity ne le change donc plus.
-$fn = Join-Path $dp 'data\pack_lbc\function\stellarity_config.mcfunction'
-New-Item -ItemType Directory -Force (Split-Path $fn) | Out-Null
-[IO.File]::WriteAllText($fn, "scoreboard objectives add stellarity.config.dragon_health dummy`nscoreboard players set #stellarity.config stellarity.config.dragon_health 400`n", $enc)
-W 'data/minecraft/tags/function/load.json' ([ordered]@{ values = @('pack_lbc:stellarity_config') })
+# ---------- 16. (libre) Dragon : 400 PV regles par Savage Ender Dragon dans config/dragonfight.json ----------
 
 # ---------- 17. Parchemins d'Iron's et de ses addons sans Apex Arcana (tables figees dans scripts/data/spell_loot) ----------
 # 59 tables : chaque tirage aleatoire recoit une liste explicite de sorts (toutes ecoles ou l'ecole demandee), sans grandsigil.

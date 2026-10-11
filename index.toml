@@ -82,7 +82,7 @@ hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "2206ceace86fa0e6d68d3ce3fe05614f9280c1e059afb72c79a1cc0298905226"
+hash = "76da3fb8167c871f02a684e73aafb51d3367bdf67f4e12f2a25cbf461a69cdaa"
 
 [[files]]
 file = "config/betterstrongholds-neoforge-1_21.toml"
@@ -126,7 +126,7 @@ hash = "93a729944c1a849fae2496a4e665f5e18956e16537dc5b2d8682a3b2cdc44689"
 
 [[files]]
 file = "config/dragonfight.json"
-hash = "9f965fdd83063072e981f1ead4aa9297abfcec71477860c8c68870397e263e36"
+hash = "93831787b2e23311e1d8c1491b0c240ce5b03284a66cf07c87da49ce2f02ab5f"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
@@ -214,7 +214,7 @@ hash = "322fe3356a67f6d51756aad41f3fdf8590ec452987dc21590fbb416ba251b21b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
-hash = "d5e09427e31fb444825b84bbe5c2bc5f77e510e6500a932e66696359c49030aa"
+hash = "b49e3c9b6c6b271b32d0da461e8684fabad5aa9ecd8a6dc0a50864e742221fd1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/new_age.snbt"
@@ -246,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "0a365db1149d85df3e62db23fa87c6178367505597e1434d7075c7a4dd584564"
+hash = "af106e28658a354c0b3703d059636af938ce352742b46b9ccb5a3d277d1fb5e7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -619,14 +619,6 @@ hash = "0ef3757b2084541cb6f547641a449499978d9318ff98d5a6454cc98f06a72c09"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_lumberjack_biome_modifier.json"
 hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/c/tags/worldgen/biome/is_end.json"
-hash = "b6d350b53723e830cff56da536a0e00f2e32af5d4c9be545341a0c3078176c4b"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes.json"
-hash = "e4022d4103b6c570763d83b902433793229d9ea06813f5c371bd2e4c6cc0dff3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/cursed_pyramid.json"
@@ -1365,8 +1357,12 @@ file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/worldgen/scroll_gen
 hash = "6226ad38ea76e361d5515018becdbdb9a4e3c62cde69f2694d66ceb887a6fe29"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/function/load.json"
-hash = "5122bace2bb014e6c2dfa5224e216c9879f0d6c8bf9821defa7ac467ffdbc882"
+file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/neoforge/biome_modifier/bomber.json"
+hash = "f6d0274b90148a136c2b4852010f914608104aaf504fd9463d922825dd57eacb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/worldgen/structure_set/warped_fungussus_nest.json"
+hash = "1b1488b294925c80dd149f52572c6b56937c20b32adeb3c09f4c04f45c8cbbf8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/pillager_outpost.json"
@@ -1459,10 +1455,6 @@ hash = "b9afbea8ecbd757a27f7ac6b609a3bec71fc47210e89cb3f15648a154e97f289"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
 hash = "fdc15630be9823ef2e2d58f6343ab6cd811b327d32a61e46a67bb11e66ba53aa"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/stellarity_config.mcfunction"
-hash = "7183af5c30e0fbf9b3056e4766ede64a9abbb7636a5e788d6b6432a76b0f5a3f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -3946,7 +3938,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "b30b286f87d4d3f84e458e027af532a8e9f9b6e6f5ae0149470aae8ef5fe926c"
+hash = "94304615f8550786a02504603a84aa80590847ddef9b07b02b7cf47946c1e9c3"
 
 [[files]]
 file = "config/tectonic.json"
@@ -4931,6 +4923,11 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
+file = "mods/legendary-monsters.pw.toml"
+hash = "5c4e00cc93b6cf4e37b98295186fb708aab0bcbd2c764579c1c0e22c8910330f"
+metafile = true
+
+[[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "0f04f325e69159d49ef7ad0593d9fa2caaca3825bc519b3d54c253bfcb0ae435"
 metafile = true
@@ -5283,11 +5280,6 @@ metafile = true
 [[files]]
 file = "mods/ssrd.pw.toml"
 hash = "4a4c0c54b3b38ac660b9c06d8dc8e51ed3e2efc6dd94ad3e807a48146a420873"
-metafile = true
-
-[[files]]
-file = "mods/stellarity.pw.toml"
-hash = "2a0794f30a563dc48063728a9b452125c4e45749283f103e396ec1890e518a14"
 metafile = true
 
 [[files]]

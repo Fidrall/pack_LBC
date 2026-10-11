@@ -576,7 +576,7 @@
 		"Sur une construction en mouvement, les scies fonctionnent toutes seules. Elles cassent les blocs et blessent les créatures, d'autant plus fort que la construction va vite."
 	]
 	quest.0D3EE05EB7F26F12.quest_desc: [
-		"Prends une photo dans &5l'End&r. Avec Stellarity, il y a de quoi faire de beaux clichés !"
+		"Prends une photo dans &5l'End&r : une cité de l'End, un vaisseau échoué ou une tour de shulkers, à toi de choisir !"
 	]
 	quest.0D3EE05EB7F26F12.quest_subtitle: "Un souvenir du vide"
 	quest.0D3EE05EB7F26F12.title: "Carte postale de l'End"
@@ -1850,10 +1850,12 @@
 		"&l&eAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
 	quest.32049634B2771331.quest_desc: [
-		"D'immenses &eossements&r gisent dans les toundras de chair, les nids et les deltas de cendre. Que s'est-il passé ici ?"
+		"Une &etour&r perchée sur les îles de l'End, pleine de shulkers."
+		""
+		"Méfie-toi : certains n'en sont pas. Les &cShulker Mimics&r attendent qu'on s'approche…"
 	]
-	quest.32049634B2771331.quest_subtitle: "Stellarity"
-	quest.32049634B2771331.title: "Un fossile de l'End"
+	quest.32049634B2771331.quest_subtitle: "Legendary Monsters"
+	quest.32049634B2771331.title: "La tour des shulkers"
 	quest.322078F5AA954906.quest_desc: [
 		"Utilise un &6Schéma et une Plume&r pour enregistrer une construction dans un fichier schéma."
 		""
@@ -2232,16 +2234,16 @@
 	quest.3C7D9FC17EB00995.quest_subtitle: "Le seigneur du soleil"
 	quest.3C7D9FC17EB00995.title: "&e&lUmvuthi"
 	quest.3C873E6BA9E110A9.quest_desc: [
-		"Après le dragon, l'End s'ouvre… et il est bien différent de l'End vanilla :"
+		"Après le dragon, les îles extérieures s'ouvrent… et elles sont bien gardées :"
 		""
-		"- &dStellarity&r transforme les îles extérieures : îles à toutes les hauteurs et une vingtaine de &ebiomes&r (prairies, forêts, dunes, terres gelées…) ;"
 		"- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles ;"
-		"- après le dragon, l'&5Autel du Maudit&r se réveille : il fabrique l'équipement de fin de jeu de Stellarity (recettes sur le wiki de Stellarity)."
+		"- &cLegendary Monsters&r y cache des tours de shulkers, les ruines d'une tour antique gardées par le &5Chorusent&r et une très rare &estation spatiale&r ;"
+		"- d'autres boss rôdent : l'&5Ender Guardian&r de Cataclysm, l'&5Obsidilith&r, et les créatures de l'End d'Hazennstuff."
 		""
 		"N'oublie pas : c'est aussi là que se trouve la &epierre de l'End&r nécessaire à la &dlévitite&r des dirigeables !"
 	]
-	quest.3C873E6BA9E110A9.quest_subtitle: "Stellarity"
-	quest.3C873E6BA9E110A9.title: "&d&lUn End transformé"
+	quest.3C873E6BA9E110A9.quest_subtitle: "Les îles extérieures"
+	quest.3C873E6BA9E110A9.title: "&d&lL'End"
 	quest.3CA26C2970F112AB.quest_desc: [
 		"Apparaît quand un réacteur fond ou quand on casse une Barre Nucléaire."
 		""
@@ -2767,7 +2769,7 @@
 	]
 	quest.4BC65D4005C17D9F.title: "&5Tenue d'Électromancien"
 	quest.4BD538342D7EAFE9.quest_desc: [
-		"&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite (&6Ctrl+virgule&r pour la masquer), la grande carte s'ouvre avec la &6virgule (,)&r."
+		"&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite (&6Ctrl+M&r pour la masquer), la grande carte s'ouvre avec &6M&r."
 		""
 		"- Sous terre, la carte passe toute seule en &emode grotte&r : elle montre les galeries à ta profondeur."
 		"- Crée des &epoints de passage&r avec &6N&r. Un point est créé automatiquement à &cchaque mort&r."
@@ -3040,19 +3042,12 @@
 	quest.53297F76E059AC9B.quest_subtitle: "Une trouvaille rare"
 	quest.53297F76E059AC9B.title: "La Pioche Brise-Labyrinthe"
 	quest.53660F533D9C497D.quest_desc: [
-		"Stellarity ajoute une vingtaine de biomes à l'End, en quatre familles :"
+		"Une immense &ecitadelle&r de l'End, gardée par des Ender Golems."
 		""
-		"- les &aprairies&r (End Wilds, End Shrubland, Hallow…) ;"
-		"- les &8landes désolées&r (Ender Wastes, Crystal Crags, The Nest…) ;"
-		"- les &dforêts&r (forêt d'améthyste, forêt de prismarine…) ;"
-		"- les &bterres gelées&r (Frozen Spikes, Frosted Valley…)."
-		""
-		"Astuce : on peut &epêcher dans le vide&r ! Lance ta canne vers les îles en contrebas."
-		""
-		"Valide cette quête quand tu as visité un biome de chaque famille !"
+		"Au cœur de la citadelle attend l'&5Ender Guardian&r, l'un des boss les plus durs de Cataclysm. Prépare-toi bien avant de le réveiller !"
 	]
-	quest.53660F533D9C497D.quest_subtitle: "Prairies, forêts, dunes et glaces"
-	quest.53660F533D9C497D.title: "Les nouveaux biomes"
+	quest.53660F533D9C497D.quest_subtitle: "Cataclysm"
+	quest.53660F533D9C497D.title: "La citadelle en ruine"
 	quest.5391C1240C677127.quest_subtitle: "En amélioration : &6-5 % de temps de recharge"
 	quest.5399B06BD0D95CAE.quest_desc: [
 		"Le &cWarden&r est un boss terrifiant qui apparaît dans les Abîmes quand on déclenche trop de Hurleurs de Sculk."
@@ -4456,10 +4451,12 @@
 	quest.760EA1AC32DB5371.quest_subtitle: "Un amas de blocs vivant"
 	quest.760EA1AC32DB5371.title: "&cLe Magnetron"
 	quest.76100542C15576F4.quest_desc: [
-		"Il y a des &ehabitants&r dans l'End : trouve l'un de leurs villages, souvent dans le &dHallow&r et les forêts de prismarine."
+		"Le &5Chorusent&r garde les &eruines de la tour antique&r, sur les hautes îles de l'End, entouré de Choruslings."
+		""
+		"Abats-le pour récupérer son butin."
 	]
-	quest.76100542C15576F4.quest_subtitle: "Stellarity"
-	quest.76100542C15576F4.title: "Un village de l'End"
+	quest.76100542C15576F4.quest_subtitle: "Legendary Monsters"
+	quest.76100542C15576F4.title: "&5Le Chorusent"
 	quest.77245D69B2335CEB.quest_desc: [
 		"Le &5Vagabond du Vide&r, le &5Reclus&r et le &5Serviteur de l'Ender&r rôdent dans les îles extérieures de l'End."
 		""
