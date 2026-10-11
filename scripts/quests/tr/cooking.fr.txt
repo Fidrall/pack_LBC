@@ -7,7 +7,7 @@ quest.346E62E8442A15C1.quest_subtitle: "Manger varié pour vivre plus longtemps"
 quest.346E62E8442A15C1.quest_desc: [
   "Dans ce pack, la cuisine est bien plus qu'un détail : avec &eSpice of Life&r, chaque &anouvel aliment&r goûté te rapproche d'un &ccœur supplémentaire&r (jusqu'à 10 cœurs en plus)."
   ""
-  "&eFarmer's Delight&r ajoute des cultures, des outils de cuisine et des dizaines de recettes. Les addons de Create (Garnished, Bitterballen, Central Kitchen…) permettent d'en &6automatiser&r une grande partie."
+  "&eFarmer's Delight&r ajoute des cultures, des outils de cuisine et des dizaines de recettes. Les addons de Create (Bitterballen, Central Kitchen…) permettent d'en &6automatiser&r une grande partie."
 ]
 task.0124D844524BF102.title: "J'ai faim !"
 quest.66311A502CC99A40.title: "Le couteau"
@@ -80,11 +80,6 @@ quest.124E77237E4676B6.quest_desc: [
   ""
   "Une vraie cuisine industrielle pour nourrir tout le serveur !"
 ]
-quest.7800DAE767EFE046.title: "Create Garnished"
-quest.7800DAE767EFE046.quest_subtitle: "Des noix et encore des noix"
-quest.7800DAE767EFE046.quest_desc: [
-  "&eGarnished&r ajoute plein de noix, de sauces et de plats à fabriquer avec Create. Il a son propre chapitre dans le groupe Create !"
-]
 quest.2E8298E39F19B38F.title: "&c&lGastronome"
 quest.2E8298E39F19B38F.quest_subtitle: "Spice of Life : 60 aliments"
 quest.2E8298E39F19B38F.quest_desc: [
@@ -100,7 +95,7 @@ quest.080ED1235E012CF5.quest_subtitle: "Spice of Life : 170 aliments"
 quest.080ED1235E012CF5.quest_desc: [
   "Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life."
   ""
-  "Il faudra goûter aux plats de Farmer's Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest…)."
+  "Il faudra goûter aux plats de Farmer's Delight et de ses addons, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest, Alex's Caves…)."
   ""
   "&6&lChapeau, Grand Chef !&r"
 ]

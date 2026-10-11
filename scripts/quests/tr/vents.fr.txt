@@ -1,48 +1,4 @@
 chapter.1B9B51E90A5A29A0.title: "&aSources Volcaniques et ressources infinies&r"
-quest.105811762A49F84F.quest_desc: [
-  "&nÉtapes pour obtenir le bloc :&r"
-  ""
-  "Résine de mastic rouge"
-  "→ Compactage → Pâte de mastic rouge"
-  "→ Compactage → Bloc de résine de mastic rouge"
-  "→ Mélange → Résine de mastic rouge liquéfiée"
-  ""
-  "Lave + Résine rouge liquéfiée"
-  "→ Réaction dans le monde → &c&lZultanite rouge&r&r"
-]
-quest.17F0FADB3DFB3001.quest_desc: [
-  "&nÉtapes pour obtenir le bloc :&r"
-  ""
-  "Résine de mastic bleue"
-  "→ Compactage → Pâte de mastic bleue"
-  "→ Compactage → Bloc de résine de mastic bleue"
-  "→ Mélange → Résine de mastic bleue liquéfiée"
-  ""
-  "Lave + Résine bleue liquéfiée"
-  "→ Réaction dans le monde → &b&lZultanite bleue&r&r"
-]
-quest.488055D85AD88A2C.quest_desc: [
-  "&nÉtapes pour obtenir le bloc :&r"
-  ""
-  "Résine de mastic jaune"
-  "→ Compactage → Pâte de mastic jaune"
-  "→ Compactage → Bloc de résine de mastic jaune"
-  "→ Mélange → Résine de mastic jaune liquéfiée"
-  ""
-  "Lave + Résine jaune liquéfiée"
-  "→ Réaction dans le monde → &e&lZultanite jaune&r&r"
-]
-quest.5502A204AF05E2DA.quest_desc: [
-  "&nÉtapes pour obtenir le bloc :&r"
-  ""
-  "Résine de mastic verte"
-  "→ Compactage → Pâte de mastic verte"
-  "→ Compactage → Bloc de résine de mastic verte"
-  "→ Mélange → Résine de mastic verte liquéfiée"
-  ""
-  "Lave + Résine verte liquéfiée"
-  "→ Réaction dans le monde → &a&lZultanite verte&r&r"
-]
 quest.736512E2075451A1.quest_desc: [
   "Les Sources Volcaniques sont des formations naturelles qui apparaissent dans l'&aOverworld, uniquement sur la terre ferme&r."
   ""
@@ -60,23 +16,13 @@ quest.736512E2075451A1.quest_desc: [
   "&6Allume la TNT. L'explosion transforme le Magma Dormant en Magma Actif.&r"
   ""
   "&n&lProduction de ressources :&r&r"
-  "Une fois le &6Magma actif, place les bons blocs à côté pour créer des ressources infinies&r du type de la source."
+  "Une fois le &6Magma actif&r, place des &6sources de lave&r juste à côté : elles se transforment en blocs du type de la source (Asurine, Veridium, Crimsite ou Ochrum)."
   ""
-  "Par exemple, le bon bloc placé à côté de l'Asurine en fusion se transforme en bloc d'Asurine. Les blocs du bon type placés à côté de ces nouveaux blocs se transforment aussi."
+  "La transformation se propage : une source de lave posée contre un bloc déjà transformé se transforme à son tour. Tu peux donc construire un bassin de lave autour du cœur et le récolter en boucle."
   ""
-  "&9&lLes blocs à placer :&r&r"
+  "&o&7Il faut de vraies sources de lave (pas de lave qui coule) : prévois une réserve, par exemple avec un drain et des pompes de Create.&r"
   ""
-  "&bAsurine&r = Zultanite bleue"
-  ""
-  "&aVeridium&r = Zultanite verte"
-  ""
-  "&cCrimsite&r = Zultanite rouge"
-  ""
-  "&6Ochrum&r = Zultanite jaune"
-  ""
-  "&o&7Tu peux aussi faire réagir la résine liquéfiée et la lave directement dans le monde, comme un générateur de pierre.&r&r"
-  ""
-  "&o&7Ça crée le bloc directement, l'Extrudeuse n'est donc pas obligatoire.&r"
+  "&o&7Pas de source près de chez toi ? L'Extrudeuse Mécanique sait aussi produire ces pierres (voir JEI).&r"
   ""
   "&n&lRécolter les ressources infinies :&r&r"
   "Casse les blocs ainsi créés, puis broie-les pour obtenir en continu les ressources de ta Source Volcanique."
@@ -93,3 +39,23 @@ quest.7BA36E3934CF3AF9.quest_desc: [
   "La liste complète de ce qu'elle peut produire est dans JEI (touche U)."
 ]
 task.797924159D5342B4.title: "&l&cTu es sûr d'avoir tout lu ? Cette partie est vraiment importante."
+quest.6F83900602D42B9A.quest_desc: [
+  "Lave + &bAsurine&r en fusion activée → &bAsurine&r."
+  ""
+  "Broyée, elle donne du &7zinc&r."
+]
+quest.545D568E01B3BE3E.quest_desc: [
+  "Lave + &2Veridium&r en fusion activé → &2Veridium&r."
+  ""
+  "Broyé, il donne du &6cuivre&r."
+]
+quest.30FF1405E26D8703.quest_desc: [
+  "Lave + &cCrimsite&r en fusion activée → &cCrimsite&r."
+  ""
+  "Broyée, elle donne du &ffer&r."
+]
+quest.16C73D254B843465.quest_desc: [
+  "Lave + &6Ochrum&r en fusion activé → &6Ochrum&r."
+  ""
+  "Broyé, il donne de l'&eor&r."
+]

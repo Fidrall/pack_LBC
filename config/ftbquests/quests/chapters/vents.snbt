@@ -23,7 +23,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["17F0FADB3DFB3001"]
+			dependencies: ["736512E2075451A1"]
 			id: "6F83900602D42B9A"
 			shape: "rsquare"
 			tasks: [
@@ -36,7 +36,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -2.5d
 			y: -0.5d
 			rewards: [
 				{
@@ -54,36 +54,6 @@
 		}
 		{
 			dependencies: ["736512E2075451A1"]
-			id: "17F0FADB3DFB3001"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "7B6B81C21170D996"
-					item: {
-						count: 1
-						id: "garnished:blue_zultanite"
-					}
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: -0.5d
-			rewards: [
-				{
-					id: "63DAEE940C896A59"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-					}
-					type: "item"
-				}
-			]
-		}
-		{
-			dependencies: ["5502A204AF05E2DA"]
 			id: "545D568E01B3BE3E"
 			shape: "rsquare"
 			tasks: [
@@ -96,7 +66,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -2.5d
 			y: 1.0d
 			rewards: [
 				{
@@ -113,7 +83,7 @@
 			]
 		}
 		{
-			dependencies: ["105811762A49F84F"]
+			dependencies: ["736512E2075451A1"]
 			id: "30FF1405E26D8703"
 			shape: "rsquare"
 			tasks: [
@@ -126,7 +96,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -2.5d
 			y: 2.5d
 			rewards: [
 				{
@@ -144,36 +114,6 @@
 		}
 		{
 			dependencies: ["736512E2075451A1"]
-			id: "488055D85AD88A2C"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "59B5FA4176FDC49D"
-					item: {
-						count: 1
-						id: "garnished:yellow_zultanite"
-					}
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 4.0d
-			rewards: [
-				{
-					id: "793A01DE38D9AABA"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-					}
-					type: "item"
-				}
-			]
-		}
-		{
-			dependencies: ["488055D85AD88A2C"]
 			id: "16C73D254B843465"
 			shape: "rsquare"
 			tasks: [
@@ -186,71 +126,11 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -2.5d
 			y: 4.0d
 			rewards: [
 				{
 					id: "6C464597DE2EB564"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-					}
-					type: "item"
-				}
-			]
-		}
-		{
-			dependencies: ["736512E2075451A1"]
-			id: "105811762A49F84F"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "225CE7091042938E"
-					item: {
-						count: 1
-						id: "garnished:red_zultanite"
-					}
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 2.5d
-			rewards: [
-				{
-					id: "376B9955F65A6F88"
-					item: {
-						count: 1
-						id: "ftbquests:lootcrate"
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-					}
-					type: "item"
-				}
-			]
-		}
-		{
-			dependencies: ["736512E2075451A1"]
-			id: "5502A204AF05E2DA"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "3673A88A8CD74D88"
-					item: {
-						count: 1
-						id: "garnished:green_zultanite"
-					}
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 1.0d
-			rewards: [
-				{
-					id: "078CAE12E6915BE8"
 					item: {
 						count: 1
 						id: "ftbquests:lootcrate"
@@ -299,7 +179,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -1.0d
 			y: -0.5d
 			rewards: [
 				{
@@ -328,7 +208,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -1.0d
 			y: 1.0d
 			rewards: [
 				{
@@ -357,7 +237,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -1.0d
 			y: 2.5d
 			rewards: [
 				{
@@ -386,7 +266,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -1.0d
 			y: 4.0d
 			rewards: [
 				{

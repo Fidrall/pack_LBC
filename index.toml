@@ -82,7 +82,7 @@ hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "74e7484665724e3cf9e24e64b9985904c50a60e5894d6e000bb56d1494bd95d9"
+hash = "2206ceace86fa0e6d68d3ce3fe05614f9280c1e059afb72c79a1cc0298905226"
 
 [[files]]
 file = "config/betterstrongholds-neoforge-1_21.toml"
@@ -170,7 +170,7 @@ hash = "047db2d26d6e8dcc9c371b0d9eb8801148c13055500dc1583ae3c9a854a9c622"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cooking.snbt"
-hash = "bc8d56bbffc39b672dbe03438965c00dde2059d2925889417ef1591fe21439ec"
+hash = "2991c930064a0630bd94e81087a91319af552b761c8a4741e18c434ea3ada2a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_addons.snbt"
@@ -199,10 +199,6 @@ hash = "3e94c3c4ae4d71c3c3da30ead0cc7eb2f413fa7d61d4f5c41018aeab909eaf8c"
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
 hash = "cdc26a748f9e693877c851738ab82d559735b796f0cecda5edefbfe08b18df17"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/garnish.snbt"
-hash = "0b57c3846376c3f4293f40fa5a7d137739d8f789f2992ea4cfa69b06f74a8d77"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
@@ -242,7 +238,7 @@ hash = "4978378df1a550b1019c186f118403c8e0b70d249d3a6de1ca2fc9ddb75a6b71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vents.snbt"
-hash = "8e42f31621425a7a4772b6dfb64bf0070b34f7c895118dc184ca0d2470dca8ad"
+hash = "5f8fb82775eeadd131ae6a2ef5cf5dd3bcbff45571584f5bdac0577bf3ffb217"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -250,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "9006c31c4c397b83b2be13eac08c7c93c21e7bf6f000ad3f341d3a457797b6b5"
+hash = "198f126e7a00234ca89b696c25983d96bef317971f8cc0697454f106aed4d0e2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -4070,11 +4066,6 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
-metafile = true
-
-[[files]]
-file = "mods/create-garnished.pw.toml"
-hash = "7c5ba6334cf31d9d5259c1ccec3e0d02b7351cfdb8f4c4f87ff788711051c3bd"
 metafile = true
 
 [[files]]

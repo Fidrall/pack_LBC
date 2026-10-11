@@ -4,7 +4,7 @@ $Quests = @(
      t='&6&lÀ table !'; st='Manger varié pour vivre plus longtemps'
      d=@('Dans ce pack, la cuisine est bien plus qu''un détail : avec &eSpice of Life&r, chaque &anouvel aliment&r goûté te rapproche d''un &ccœur supplémentaire&r (jusqu''à 10 cœurs en plus).',
          '',
-         '&eFarmer''s Delight&r ajoute des cultures, des outils de cuisine et des dizaines de recettes. Les addons de Create (Garnished, Bitterballen, Central Kitchen…) permettent d''en &6automatiser&r une grande partie.') }
+         '&eFarmer''s Delight&r ajoute des cultures, des outils de cuisine et des dizaines de recettes. Les addons de Create (Bitterballen, Central Kitchen…) permettent d''en &6automatiser&r une grande partie.') }
   @{ k='knife'; x=-1.5; y=1.5; deps=@('intro'); tasks=@('farmersdelight:flint_knife'); crate='commune'
      t='Le couteau'; st='L''outil du cuisinier'
      d=@('Le &ecouteau&r coupe les aliments sur la planche à découper, récolte la paille dans les hautes herbes, et fait une arme correcte.',
@@ -55,9 +55,6 @@ $Quests = @(
          '- un &eBrûleur à Blaze&r peut chauffer la marmite.',
          '',
          'Une vraie cuisine industrielle pour nourrir tout le serveur !') }
-  @{ k='garnished'; x=3; y=6; deps=@('automate'); tasks=@('garnished:crushed_salt'); crate='commune'; optional=$true
-     t='Create Garnished'; st='Des noix et encore des noix'
-     d=@('&eGarnished&r ajoute plein de noix, de sauces et de plats à fabriquer avec Create. Il a son propre chapitre dans le groupe Create !') }
   @{ k='spice'; x=0; y=7.5; size=2; shape='hexagon'; deps=@('feast','fryer','automate'); tasks=@('@check'); checkTitle='J''ai goûté à tout !'; icon='solcarrot:food_book'; crate='epique'
      t='&c&lGastronome'; st='Spice of Life : 60 aliments'
      d=@('Ouvre ton &eLivre de Cuisine&r (Spice of Life) pour voir combien d''aliments différents tu as mangés.',
@@ -69,7 +66,7 @@ $Quests = @(
      t='&6&lGrand Chef'; st='Spice of Life : 170 aliments'
      d=@('Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life.',
          '',
-         'Il faudra goûter aux plats de Farmer''s Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest…).',
+         'Il faudra goûter aux plats de Farmer''s Delight et de ses addons, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest, Alex''s Caves…).',
          '',
          '&6&lChapeau, Grand Chef !&r') }
 )

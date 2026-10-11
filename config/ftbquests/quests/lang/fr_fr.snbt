@@ -39,7 +39,6 @@
 	chapter.4C2580819596F6D1.title: "&b&lDirigeables et Aéronautique"
 	chapter.53732D728CE0A308.title: "&aCreate"
 	chapter.576F6A1E4D30F4F2.title: "&l&aLa Route de l'End"
-	chapter.58D00C1309225860.title: "&aGarnished"
 	chapter.5A13526D80BE2D3C.chapter_subtitle: [
 		"Mowzie's, Illager Invasion, Friends and Foes, Critters"
 	]
@@ -97,7 +96,6 @@
 	]
 	quest.008BB9099EFA03A0.quest_subtitle: "Le dernier gardien t'attend"
 	quest.008BB9099EFA03A0.title: "&dAffronter le Gardien de l'Ender"
-	quest.008E19FAAC054402.quest_subtitle: "La peau d'ours polaire est lâchée par les ours polaires tués avec une hachette enchantée Ravage."
 	quest.00D7A88C4C686C02.quest_desc: [
 		"Le &cLéviathan&r se trouve dans les profondeurs de la &eCité Engloutie&r."
 		""
@@ -283,20 +281,6 @@
 	quest.05C4FF888D75423E.quest_desc: [
 		"Le &6&lRoulement Mécanique&r&r sert à faire tourner des constructions animées. Une fois alimenté en rotation, un clic droit dessus lance la rotation, à condition qu'une construction valide soit fixée devant."
 	]
-	quest.05E44A1BD522BC74.quest_desc: [
-		"Au contact de la lave, les liquides de Garnished créent des blocs différents selon le liquide utilisé :"
-		""
-		"Mélange de cajou + lave = Pierre de l'End"
-		""
-		"Huile d'arachide + lave = Bloc de spéléothème"
-		""
-		"Garniture liquide + lave = Calcite"
-		""
-		"Cidre de pomme + lave = Carnotite"
-		""
-		"&6Une Extrudeuse Mécanique fait ça automatiquement !&r"
-	]
-	quest.05E44A1BD522BC74.title: "Réactions des liquides"
 	quest.05F67DDB916F8D32.quest_desc: [
 		"La &l&6Roue à Eau&r&r produit de la rotation quand de l'eau coule dessus. Tant que l'eau coule toujours dans le même sens, la roue tourne et transmet sa force par son axe."
 		""
@@ -411,7 +395,7 @@
 	quest.080ED1235E012CF5.quest_desc: [
 		"Le défi ultime des gourmets : manger &6170 aliments différents&r pour obtenir tous les cœurs de Spice of Life."
 		""
-		"Il faudra goûter aux plats de Farmer's Delight, de Garnished, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest…)."
+		"Il faudra goûter aux plats de Farmer's Delight et de ses addons, de Bitterballen, et à la nourriture des autres dimensions (Aether, Twilight Forest, Alex's Caves…)."
 		""
 		"&6&lChapeau, Grand Chef !&r"
 	]
@@ -451,7 +435,6 @@
 	quest.08AA3590E20B7629.quest_desc: [
 		"Le &l&6Inverseur&r&r inverse le sens de rotation quand il reçoit un signal de redstone."
 	]
-	quest.08B2F767BB0AB1AA.quest_subtitle: "La défense est lâchée par les hoglins tués avec une hachette Ravage, ou par les cochons avec une hachette Récupération."
 	quest.09048F696B1B719B.quest_desc: [
 		"Un monde de bonbons, de chocolat et de pain d'épices. Mignon… en apparence."
 	]
@@ -483,7 +466,6 @@
 		"&dUtilise une clé pour faire passer chaque connecteur entre les modes Pousser, Tirer et Aucun.&r"
 	]
 	quest.091D25B58FD2D1A3.title: "&e🔌 Les connecteurs"
-	quest.098A7DE12CAFAE30.quest_subtitle: "Le noyau préliminaire est lâché par les endermites tuées avec une hachette Ravage."
 	quest.09A89AA4D2362D88.quest_desc: [
 		"Fonctionne comme un &6Brûleur à Blaze&r, mais utilise de la &c&lChaleur&r&r au lieu de &2combustible&r."
 	]
@@ -706,17 +688,6 @@
 		"Que pourrais-tu faire avec ces outils ?"
 	]
 	quest.1045FB828F50B457.title: "À la cuisine !"
-	quest.105811762A49F84F.quest_desc: [
-		"&nÉtapes pour obtenir le bloc :&r"
-		""
-		"Résine de mastic rouge"
-		"→ Compactage → Pâte de mastic rouge"
-		"→ Compactage → Bloc de résine de mastic rouge"
-		"→ Mélange → Résine de mastic rouge liquéfiée"
-		""
-		"Lave + Résine rouge liquéfiée"
-		"→ Réaction dans le monde → &c&lZultanite rouge&r&r"
-	]
 	quest.10CDACBCA03AEDF7.quest_subtitle: "Attire les objets au sol vers toi"
 	quest.10D6A1B9E23878A7.quest_desc: [
 		"La &6&lMoissonneuse Mécanique&r&r est un bloc de construction animée qui récolte automatiquement les cultures."
@@ -889,7 +860,11 @@
 		""
 		"Un Interrupteur à Seuil permet de suivre la longueur de la corde pour automatiser ou envoyer un signal."
 	]
-	quest.162F3E589083CA60.quest_subtitle: "La défense furieuse est lâchée par les hoglins tués avec une hachette Ravage."
+	quest.16C73D254B843465.quest_desc: [
+		"Lave + &6Ochrum&r en fusion activé → &6Ochrum&r."
+		""
+		"Broyé, il donne de l'&eor&r."
+	]
 	quest.16FE44DE7D93172C.quest_desc: [
 		"La &a&lLanterne d'Expérience&r&r absorbe l'expérience des joueurs proches et les orbes d'expérience. Elle brille plus ou moins selon la quantité stockée."
 		""
@@ -914,17 +889,6 @@
 	quest.17C0FD40F5C1CB67.title: "&5La Liche"
 	quest.17C488042DB187A3.quest_subtitle: "Tu ne subis plus de recul"
 	quest.17C649AD8C23444B.quest_subtitle: "Utile pour résister aux sorts."
-	quest.17F0FADB3DFB3001.quest_desc: [
-		"&nÉtapes pour obtenir le bloc :&r"
-		""
-		"Résine de mastic bleue"
-		"→ Compactage → Pâte de mastic bleue"
-		"→ Compactage → Bloc de résine de mastic bleue"
-		"→ Mélange → Résine de mastic bleue liquéfiée"
-		""
-		"Lave + Résine bleue liquéfiée"
-		"→ Réaction dans le monde → &b&lZultanite bleue&r&r"
-	]
 	quest.17F840E5ABDF3FD4.quest_desc: [
 		"Le &6Chaudron d'Alchimiste&r sert à plein de tâches magiques :"
 		""
@@ -1517,7 +1481,6 @@
 		"Apparaît naturellement dans les &achunks à slimes&r, en deux tailles différentes, chacune avec ses propres statistiques."
 	]
 	quest.28101F299D039864.title: "Golem de slime"
-	quest.2831D3B922697A8C.quest_subtitle: "La viande ténébreuse crue est lâchée par le Warden tué avec une hachette Ravage."
 	quest.2843021F7F41ED01.quest_desc: [
 		"La &6&lGoulotte&r&r insère ou extrait des objets des inventaires placés au-dessus ou en dessous, ainsi que des tapis roulants et des dépôts."
 		""
@@ -1699,7 +1662,6 @@
 	quest.2D57EABD7266C5FC.quest_subtitle: "Le guide se remplit en explorant"
 	quest.2D57EABD7266C5FC.title: "Le Codex des grottes"
 	quest.2D69922251E3D2CB.quest_subtitle: "&6Rend visibles les créatures invisibles"
-	quest.2D6F91D478384B53.quest_subtitle: "Le parchemin engourdissant est lâché par les vagabonds tués avec une hachette Ravage."
 	quest.2D874F6CD01D02B9.quest_desc: [
 		"Son &erepaire&r se cache dans les plaines et les étendues enneigées. Attention aux pics de glace et aux blocs de glace qu'il projette."
 	]
@@ -1867,6 +1829,11 @@
 	quest.30FDAAAA8784A842.quest_desc: [
 		"La &6&lMeule&r&r est une version plus simple des &6&lRoues de Broyage&r&r. Les objets s'insèrent par le dessus, et la vitesse dépend de la rotation (tr/min) mais aussi de la recette."
 	]
+	quest.30FF1405E26D8703.quest_desc: [
+		"Lave + &cCrimsite&r en fusion activée → &cCrimsite&r."
+		""
+		"Broyée, elle donne du &ffer&r."
+	]
 	quest.3121D591D3807584.quest_subtitle: "Permet le double saut"
 	quest.313B26E365615526.title: "&bTenue de Cryomancien"
 	quest.3171F1AE14E3C1ED.quest_desc: [
@@ -1982,7 +1949,7 @@
 	quest.346E62E8442A15C1.quest_desc: [
 		"Dans ce pack, la cuisine est bien plus qu'un détail : avec &eSpice of Life&r, chaque &anouvel aliment&r goûté te rapproche d'un &ccœur supplémentaire&r (jusqu'à 10 cœurs en plus)."
 		""
-		"&eFarmer's Delight&r ajoute des cultures, des outils de cuisine et des dizaines de recettes. Les addons de Create (Garnished, Bitterballen, Central Kitchen…) permettent d'en &6automatiser&r une grande partie."
+		"&eFarmer's Delight&r ajoute des cultures, des outils de cuisine et des dizaines de recettes. Les addons de Create (Bitterballen, Central Kitchen…) permettent d'en &6automatiser&r une grande partie."
 	]
 	quest.346E62E8442A15C1.quest_subtitle: "Manger varié pour vivre plus longtemps"
 	quest.346E62E8442A15C1.title: "&6&lÀ table !"
@@ -2280,7 +2247,6 @@
 		""
 		"&6Attention :&r ce bloc est très radioactif. Il finit par faire fondre le sol jusqu'à la bedrock, en répandant des radiations sur son passage."
 	]
-	quest.3CA4542BF17DB864.quest_subtitle: "La mandibule enflammée est lâchée par les blazes tués avec une hachette Ravage."
 	quest.3CBDB45D65737212.quest_subtitle: "Apparaît quand on marche sur du Sculk Infesté."
 	quest.3CDB2020C5E859C1.quest_desc: [
 		"Les pillards ont construit un &edirigeable steampunk&r avec la technologie de Create. Aborde-le et pille-le !"
@@ -2689,17 +2655,6 @@
 	quest.4796A7277932F2C4.title: "La Terre Riche"
 	quest.482093E9013F52ED.quest_subtitle: "Main secondaire"
 	quest.482093E9013F52ED.title: "Bouclier de représailles"
-	quest.488055D85AD88A2C.quest_desc: [
-		"&nÉtapes pour obtenir le bloc :&r"
-		""
-		"Résine de mastic jaune"
-		"→ Compactage → Pâte de mastic jaune"
-		"→ Compactage → Bloc de résine de mastic jaune"
-		"→ Mélange → Résine de mastic jaune liquéfiée"
-		""
-		"Lave + Résine jaune liquéfiée"
-		"→ Réaction dans le monde → &e&lZultanite jaune&r&r"
-	]
 	quest.48A1C863C3D4B969.quest_desc: [
 		"Le minerai de &6Noyau solaire&r se trouve dans la netherrack et la blackstone du &cNether&r."
 	]
@@ -2805,7 +2760,6 @@
 		"Le bloc parfait pour une &bgare&r !"
 	]
 	quest.4B59C0C20AC60DF6.quest_subtitle: "EN VOITURE !"
-	quest.4BA1C262BA0B26C7.quest_subtitle: "Les restes de viande sont lâchés par les ravageurs tués avec une hachette Ravage."
 	quest.4BB82F98EE45B740.quest_desc: [
 		"L'&6observateur ferroviaire&r surveille une portion de voie et détecte quand un train passe dessus. Il envoie alors un signal de redstone."
 		""
@@ -3144,6 +3098,11 @@
 	]
 	quest.543052F17CF1380B.quest_subtitle: "&a☠ Niveau 7"
 	quest.544A301047565927.quest_subtitle: "En amélioration : &6+5 % de puissance des sorts de l'Ender"
+	quest.545D568E01B3BE3E.quest_desc: [
+		"Lave + &2Veridium&r en fusion activé → &2Veridium&r."
+		""
+		"Broyé, il donne du &6cuivre&r."
+	]
 	quest.5470523184A3D0BA.quest_subtitle: "Capacité passive (recharge 8 s) : &6quand tu es attaqué, tu repousses tout avec une rafale d'air"
 	quest.5474CED4870FED3A.quest_desc: [
 		"Récupère l'&bélectricité&r produite par les &dBobines&r et les &dAimants&r, pour l'envoyer par des &6Connecteurs&r et des &6Câbles&r vers des moteurs ou d'autres machines."
@@ -3169,17 +3128,6 @@
 	]
 	quest.54DB86AEDE4EFD97.quest_subtitle: "Dans les jungles"
 	quest.54DB86AEDE4EFD97.title: "Chlorophyte"
-	quest.5502A204AF05E2DA.quest_desc: [
-		"&nÉtapes pour obtenir le bloc :&r"
-		""
-		"Résine de mastic verte"
-		"→ Compactage → Pâte de mastic verte"
-		"→ Compactage → Bloc de résine de mastic verte"
-		"→ Mélange → Résine de mastic verte liquéfiée"
-		""
-		"Lave + Résine verte liquéfiée"
-		"→ Réaction dans le monde → &a&lZultanite verte&r&r"
-	]
 	quest.550AE537ED3CD72E.quest_desc: [
 		"Envie d'un badge d'accès personnel pour sécuriser un endroit ? C'est possible."
 		""
@@ -3225,7 +3173,6 @@
 		"&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver la Citadelle.&r"
 	]
 	quest.583EBA8354586BFD.quest_subtitle: "&d☠ Niveau 5"
-	quest.5841D16B410B3D41.quest_subtitle: "Le tentacule de ghast est lâché par les ghasts tués avec une hachette Ravage."
 	quest.58D9CE68661256C8.quest_desc: [
 		"La &l&6Transmission à Chaîne&r&r transfère la rotation comme un tapis roulant, mais avec plus de liberté de placement."
 		""
@@ -3368,7 +3315,6 @@
 	]
 	quest.5D60A906B489F563.quest_subtitle: "La pierre de l'Aether"
 	quest.5D60A906B489F563.title: "La Pierre Sainte"
-	quest.5D6FDF6682B47167.quest_subtitle: "L'écaille ternie est lâchée par les endermen, les endermites et l'Ender Dragon tués avec une hachette Ravage."
 	quest.5D925522882186A8.quest_desc: [
 		"Une cité en ruine, hantée par les âmes perdues. Qui sait ce qu'il reste dans ses coffres ?"
 	]
@@ -3430,7 +3376,6 @@
 	]
 	quest.5EE2C7C1568832CC.quest_subtitle: "Dungeons and Taverns"
 	quest.5EE2C7C1568832CC.title: "Le manoir des illagers"
-	quest.5EE5A4AA72E10A32.quest_subtitle: "La viande d'ours polaire crue est lâchée par les ours polaires tués avec une hachette Ravage."
 	quest.5F187153455262D2.quest_desc: [
 		"Fais éclore un œuf de &2Tremorzilla&r et élève-le : un monstre gigantesque au rayon dévastateur, de ton côté."
 	]
@@ -3617,7 +3562,6 @@
 		"Il produit selon le nombre de voiles, jusqu'à 128 voiles au maximum."
 	]
 	quest.632F1D52317286A8.quest_subtitle: "Les creepers t'évitent, et il crache sur les phantoms qui t'attaquent"
-	quest.636178B57E7A9E86.quest_subtitle: "Le reste en fusion est lâché par les cubes de magma tués avec une hachette Ravage."
 	quest.63BA37F707747719.quest_desc: [
 		"Place un grand engrenage, puis un petit engrenage en diagonale, de façon à ce que leurs dents s'emboîtent (pas sur l'axe)."
 		""
@@ -3758,7 +3702,7 @@
 		""
 		"&75, 10, 20, 30, 45, 60, 80, 105, 135 et 170 aliments différents.&r"
 		""
-		"Les premiers cœurs viennent vite, les derniers demandent de goûter à tout : Farmer's Delight, Create Garnished, la nourriture des dimensions…"
+		"Les premiers cœurs viennent vite, les derniers demandent de goûter à tout : Farmer's Delight et ses addons, Create: Bitterballen, la nourriture des dimensions…"
 		""
 		"Alors si tu veux devenir plus résistant… à tes fourneaux !"
 	]
@@ -3964,7 +3908,6 @@
 		"Les boules de miel se lancent et ont le même effet que les projectiles du golem."
 	]
 	quest.6C1085B9052E3A52.title: "Golem de miel"
-	quest.6C6589020C2F2E70.quest_subtitle: "L'aile de Vex est lâchée par les Vex, ou très rarement par les Allays, tués avec une hachette Ravage."
 	quest.6C71E2ABAA99C005.title: "&6Collectionner toutes les épées de Simply Swords"
 	quest.6C7DDDC1123E208A.quest_desc: [
 		"Les &l&6Tapis Roulants&r&r transmettent la rotation et transportent les objets et les créatures."
@@ -4108,6 +4051,11 @@
 	]
 	quest.6EF972352D9E0B1F.quest_subtitle: "Un cœur de plus, pour toujours"
 	quest.6EF972352D9E0B1F.title: "Éclat de Vie"
+	quest.6F83900602D42B9A.quest_desc: [
+		"Lave + &bAsurine&r en fusion activée → &bAsurine&r."
+		""
+		"Broyée, elle donne du &7zinc&r."
+	]
 	quest.6F8B33C36B43999A.quest_desc: [
 		"L'&5Invocateur&r est le chef des illagers. Il se trouve dans le &efort des illagers&r."
 		""
@@ -4365,23 +4313,13 @@
 		"&6Allume la TNT. L'explosion transforme le Magma Dormant en Magma Actif.&r"
 		""
 		"&n&lProduction de ressources :&r&r"
-		"Une fois le &6Magma actif, place les bons blocs à côté pour créer des ressources infinies&r du type de la source."
+		"Une fois le &6Magma actif&r, place des &6sources de lave&r juste à côté : elles se transforment en blocs du type de la source (Asurine, Veridium, Crimsite ou Ochrum)."
 		""
-		"Par exemple, le bon bloc placé à côté de l'Asurine en fusion se transforme en bloc d'Asurine. Les blocs du bon type placés à côté de ces nouveaux blocs se transforment aussi."
+		"La transformation se propage : une source de lave posée contre un bloc déjà transformé se transforme à son tour. Tu peux donc construire un bassin de lave autour du cœur et le récolter en boucle."
 		""
-		"&9&lLes blocs à placer :&r&r"
+		"&o&7Il faut de vraies sources de lave (pas de lave qui coule) : prévois une réserve, par exemple avec un drain et des pompes de Create.&r"
 		""
-		"&bAsurine&r = Zultanite bleue"
-		""
-		"&aVeridium&r = Zultanite verte"
-		""
-		"&cCrimsite&r = Zultanite rouge"
-		""
-		"&6Ochrum&r = Zultanite jaune"
-		""
-		"&o&7Tu peux aussi faire réagir la résine liquéfiée et la lave directement dans le monde, comme un générateur de pierre.&r&r"
-		""
-		"&o&7Ça crée le bloc directement, l'Extrudeuse n'est donc pas obligatoire.&r"
+		"&o&7Pas de source près de chez toi ? L'Extrudeuse Mécanique sait aussi produire ces pierres (voir JEI).&r"
 		""
 		"&n&lRécolter les ressources infinies :&r&r"
 		"Casse les blocs ainsi créés, puis broie-les pour obtenir en continu les ressources de ta Source Volcanique."
@@ -4557,11 +4495,6 @@
 		""
 		"Envie d'un élevage ? Donne des Torcheflores à deux Renifleurs adultes pour faire naître une nouvelle génération."
 	]
-	quest.7800DAE767EFE046.quest_desc: [
-		"&eGarnished&r ajoute plein de noix, de sauces et de plats à fabriquer avec Create. Il a son propre chapitre dans le groupe Create !"
-	]
-	quest.7800DAE767EFE046.quest_subtitle: "Des noix et encore des noix"
-	quest.7800DAE767EFE046.title: "Create Garnished"
 	quest.785CEB5E417A45EF.quest_desc: [
 		"Le &6Sifflet à Vapeur&r est un bloc musical activé par un signal de redstone, ou quand il est fixé sur un train."
 		""
@@ -4786,9 +4719,6 @@
 	quest.7DE30100EBF85C62.quest_subtitle: "Create Ore Excavation"
 	quest.7DE30100EBF85C62.title: "&6Les gisements de minerai"
 	quest.7DE83E440B507868.quest_subtitle: "x1.5"
-	quest.7E2CA676B730A7C4.quest_desc: [
-		"L'&6&lHuile d'arachide&r&r peut alimenter un Brûleur à Blaze pour le mettre en mode &l&bsurchauffé&r&r."
-	]
 	quest.7E452D2A2E57464F.quest_desc: [
 		"&eBetter Archeology&r ajoute des pinceaux améliorés (fer, diamant, Netherite), des fossiles à reconstituer, des vases à butin et des artefacts aux pouvoirs spéciaux."
 		""
@@ -4839,27 +4769,6 @@
 	]
 	quest.7EF948B39FBEA377.title: "Notre première pioche"
 	quest.7F1AB8E8DA7BFD77.quest_subtitle: "Ajoute un effet Butin aux monstres que tu tues"
-	quest.7F4C5837BB28BDFC.quest_desc: [
-		"La &l&6Zultanite&r&r existe en plusieurs couleurs, selon la couleur de la résine liquéfiée qui touche la lave. Chaque couleur donne une variante différente du bloc."
-		""
-		"Certains blocs de Zultanite peuvent être broyés avec des Roues de Broyage ou hantés pour donner d'autres objets."
-		""
-		"Quelques combinaisons :"
-		""
-		"* Résine de mastic liquéfiée = Zultanite"
-		"* Résine rouge = Zultanite rouge"
-		"* Résine jaune = Zultanite jaune"
-		"* Résine verte = Zultanite verte"
-		"* Résine bleue = Zultanite bleue"
-		"* Résine violette = Zultanite violette"
-		"* Résine magenta = Zultanite magenta"
-		"* Résine orange = Zultanite orange"
-		"* Résine marron = Zultanite marron"
-		""
-		"&6Une Extrudeuse Mécanique fait ça automatiquement !&r"
-		""
-		"&bRegarde les recettes de l'Extrudeuse Mécanique pour la liste complète.&r"
-	]
 	quest.7FA5CDC0F616D2C5.quest_desc: [
 		"Il est temps de laisser la pierre derrière toi."
 		""

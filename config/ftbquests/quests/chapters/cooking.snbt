@@ -317,34 +317,6 @@
 			y: 6d
 		}
 		{
-			dependencies: ["124E77237E4676B6"]
-			id: "7800DAE767EFE046"
-			optional: true
-			rewards: [
-				{
-					id: "4A478DEE7948C8DD"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 1L
-					id: "30E524C1948301B1"
-					item: { count: 1, id: "garnished:crushed_salt" }
-					type: "item"
-				}
-			]
-			x: 3d
-			y: 6d
-		}
-		{
 			dependencies: ["71FA7C33865A2435", "51E604A03CF06C47", "124E77237E4676B6"]
 			icon: {
 				id: "solcarrot:food_book"

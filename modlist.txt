@@ -23,7 +23,6 @@ mr | copycats | conserver |
 mr | create-design-n-decor | conserver |
 mr | bellsandwhistles | conserver |
 mr | create-enchantment-industry | conserver |
-mr | create-garnished | conserver |
 mr | create-central-kitchen | conserver |
 mr | create-integrated-farming | conserver |
 mr | create-mechanical-botany | conserver |

@@ -344,7 +344,7 @@ quest.6613D41573B7F0B9.quest_desc: [
   ""
   "&75, 10, 20, 30, 45, 60, 80, 105, 135 et 170 aliments différents.&r"
   ""
-  "Les premiers cœurs viennent vite, les derniers demandent de goûter à tout : Farmer's Delight, Create Garnished, la nourriture des dimensions…"
+  "Les premiers cœurs viennent vite, les derniers demandent de goûter à tout : Farmer's Delight et ses addons, Create: Bitterballen, la nourriture des dimensions…"
   ""
   "Alors si tu veux devenir plus résistant… à tes fourneaux !"
 ]
