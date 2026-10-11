@@ -3719,11 +3719,6 @@ hash = "296b06234a9a865197a4b96ad37b24c4e96c1994ffb10e1a1d61b273b462e64f"
 metafile = true
 
 [[files]]
-file = "mods/apokinetics.pw.toml"
-hash = "782c315b1fd4a3c0cf20ce41ea140cf271d030e8335676f6452e0d2dd0ea490f"
-metafile = true
-
-[[files]]
 file = "mods/apotheosis-x-irons-spellbooks-compat.pw.toml"
 hash = "ca1984d2c3388cadb5273148883343d40cfa33500cea4a6262162dd25c9285e0"
 metafile = true
@@ -4786,16 +4781,6 @@ metafile = true
 [[files]]
 file = "mods/reliquified-irons-spells-n-spellbooks.pw.toml"
 hash = "ceff68e5d936197e1354308be805de0ff70d9f1999bd107c52c2f02db5b55ace"
-metafile = true
-
-[[files]]
-file = "mods/reliquified-l-ender-s-cataclysm.pw.toml"
-hash = "ff5afd5570a5a3d921c7764d0c64f82eb0c87c7e2e3db3e53aa45d6b6b4edc47"
-metafile = true
-
-[[files]]
-file = "mods/reliquified-twilight-forest.pw.toml"
-hash = "336a676245f400070c38e06443ba65f664041bfaff5a0dca677dcd10a37d6aad"
 metafile = true
 
 [[files]]
