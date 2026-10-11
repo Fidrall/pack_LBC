@@ -31,6 +31,13 @@
                                              "predicate":  {
                                                                "type":  "born_in_chaos_v1:lord_the_headless"
                                                            }
+                                         },
+                                         {
+                                             "condition":  "minecraft:entity_properties",
+                                             "entity":  "this",
+                                             "predicate":  {
+                                                               "type":  "born_in_chaos_v1:lord_pumpkinhead_head"
+                                                           }
                                          }
                                      ]
                        }

@@ -127,8 +127,10 @@ function Xp($n) { [ordered]@{ type = 'gateways:experience'; experience = $n; orb
 function Affix($n, $rar) { [ordered]@{ type = 'gateways:counted'; count = $n; reward = [ordered]@{ type = 'apotheosis:affix_item'; rarities = @($rar) } } }
 function Gem($n, $pur) { [ordered]@{ type = 'gateways:counted'; count = $n; reward = [ordered]@{ type = 'apotheosis:gem'; purities = @($pur) } } }
 function Hp($v) { [ordered]@{ attribute = 'generic.max_health'; operation = 'add_multiplied_total'; value = $v } }
+# Boss a sac de tresor (section 14) presents dans les vagues : leur butin n'est pas rejoue en recompense (sinon plusieurs sacs).
+$bossAvecSac = @('minecraft:warden', 'deeperdarker:stalker')
 function Wave($mobs, $hp, $time) {
-    $rw = @(); foreach ($m in $mobs) { $rw += Loot $m.entity ([int]($m.count * 3)) }
+    $rw = @(); foreach ($m in $mobs) { if ($bossAvecSac -notcontains $m.entity) { $rw += Loot $m.entity ([int]($m.count * 3)) } }
     $mods = @(); if ($hp -gt 0) { $mods += Hp $hp }
     [ordered]@{ entities = @($mobs); modifiers = $mods; rewards = $rw; max_wave_time = $time; setup_time = 160 }
 }
@@ -339,10 +341,10 @@ $bossPlus = @(
     'aether:slider', 'aether:valkyrie_queen', 'aether:sun_spirit',
     'irons_spellbooks:dead_king', 'irons_spellbooks:fire_boss',
     'hazennstuff:pyromus', 'hazennstuff:aegis', 'hazennstuff:aptos',
-    'born_in_chaos_v1:lord_pumpkinhead', 'born_in_chaos_v1:lord_pumpkinhead_withouta_horse', 'born_in_chaos_v1:lord_the_headless',
+    'born_in_chaos_v1:lord_pumpkinhead', 'born_in_chaos_v1:lord_pumpkinhead_withouta_horse', 'born_in_chaos_v1:lord_pumpkinhead_head', 'born_in_chaos_v1:lord_the_headless',
     'born_in_chaos_v1:missioner', 'born_in_chaos_v1:supreme_bonescaller', 'born_in_chaos_v1:supreme_bonescaller_not_despawn',
     'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:krampus',
-    'friendsandfoes:wildfire', 'illagerinvasion:invoker', 'archaion:deepslate_sentinel',
+    'friendsandfoes:wildfire', 'illagerinvasion:invoker', 'archaion:last_of_deepslate', 'deeperdarker:stalker',
     'minecraft:wither', 'minecraft:elder_guardian', 'minecraft:warden',
     'block_factorys_bosses:yeti', 'block_factorys_bosses:sandworm', 'block_factorys_bosses:kraken',
     'block_factorys_bosses:underworld_knight', 'block_factorys_bosses:infernal_dragon',
@@ -415,7 +417,7 @@ $familles = [ordered]@{
     arcane = @{ nom = 'Butin arcanique'; c = @('#FF2A1B4A', '#FFB07CFF', '#FF6A4CC2'); mat = @('irons_spellbooks:arcane_essence', 'irons_spellbooks:mithril_scrap', 'irons_spellbooks:rare_ink', 'irons_spellbooks:epic_ink', 'irons_spellbooks:divine_pearl', 'hazennstuff:pyrium_nugget', 'hazennstuff:stardust')
         boss = @{ 1 = @('irons_spellbooks:dead_king'); 2 = @('irons_spellbooks:fire_boss', 'hazennstuff:pyromus', 'hazennstuff:aegis', 'hazennstuff:aptos') } }
     chaos = @{ nom = 'Butin du Chaos'; c = @('#FF1A1A1A', '#FFC23B22', '#FF8A8A8A'); mat = @('born_in_chaos_v1:dark_metal_ingot', 'born_in_chaos_v1:dark_metal_nugget', 'born_in_chaos_v1:bundle_of_bones', 'born_in_chaos_v1:seedof_chaos')
-        boss = @{ 1 = @('born_in_chaos_v1:missioner', 'born_in_chaos_v1:krampus', 'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:lord_the_headless') } }
+        boss = @{ 1 = @('born_in_chaos_v1:missioner', 'born_in_chaos_v1:krampus', 'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:lord_the_headless', 'born_in_chaos_v1:lord_pumpkinhead_head') } }
     mowzie = @{ nom = 'Butin ancestral'; c = @('#FF5B3A1E', '#FFE0B050', '#FF9C6B30'); mat = @('mowziesmobs:ice_crystal', 'mowziesmobs:naga_fang', 'mowziesmobs:foliaath_seed', 'minecraft:gold_ingot')
         boss = @{ 1 = @('mowziesmobs:ferrous_wroughtnaut', 'mowziesmobs:umvuthi'); 2 = @('mowziesmobs:frostmaw', 'mowziesmobs:sculptor') } }
     destruction = @{ nom = 'Butin de destruction'; c = @('#FF101820', '#FF9B30FF', '#FF5050A0'); mat = @('bosses_of_mass_destruction:ancient_anima', 'bosses_of_mass_destruction:crystal_fruit', 'bosses_of_mass_destruction:soul_star', 'bosses_of_mass_destruction:void_thorn')
@@ -425,7 +427,11 @@ $familles = [ordered]@{
     illager = @{ nom = 'Butin illager'; c = @('#FF3C3C46', '#FF2FB45A', '#FFB4B4B4'); mat = @('illagerinvasion:hallowed_gem', 'illagerinvasion:platinum_chunk', 'illagerinvasion:illusionary_dust', 'minecraft:emerald')
         boss = @{ 1 = @('illagerinvasion:invoker'); 2 = @('friendsandfoes:wildfire') } }
     legende = @{ nom = 'Butin legendaire'; c = @('#FF101010', '#FF7A2BBF', '#FFFFD700'); mat = @('minecraft:diamond', 'minecraft:emerald', 'minecraft:ender_pearl', 'minecraft:blaze_rod', 'archaion:brave_essence')
-        boss = @{ 1 = @('minecraft:elder_guardian'); 2 = @('minecraft:wither'); 3 = @('minecraft:warden', 'minecraft:ender_dragon', 'archaion:deepslate_sentinel') } }
+        boss = @{ 1 = @('minecraft:elder_guardian'); 2 = @('minecraft:wither'); 3 = @('minecraft:warden', 'minecraft:ender_dragon', 'archaion:last_of_deepslate') } }
+    profondeurs = @{ nom = 'Butin des profondeurs'; c = @('#FF0B1F24', '#FF2FD6C8', '#FF0F5A66'); mat = @('deeperdarker:resonarium', 'deeperdarker:soul_crystal', 'deeperdarker:soul_dust', 'deeperdarker:reinforced_echo_shard', 'deeperdarker:sculk_bone', 'minecraft:echo_shard')
+        boss = @{ 2 = @('deeperdarker:stalker') } }
+    cavernes = @{ nom = 'Butin des cavernes'; c = @('#FF3B2412', '#FFE07B2A', '#FF7A4A22'); mat = @('alexscaves:scarlet_neodymium_ingot', 'alexscaves:azure_neodymium_ingot', 'alexscaves:tectonic_shard', 'alexscaves:heavy_bone', 'alexscaves:amber_curiosity', 'alexscaves:pearl')
+        boss = @{ 2 = @('alexscaves:luxtructosaurus') } }
 }
 # (contient deja les bonus Create des villages de la section 3 : le fichier global est ecrit une seule fois, a la fin)
 $glm = @($glmVillages)
@@ -679,7 +685,7 @@ $elites = [ordered]@{
     'twilight/spectre_errant' = (Elite 'Spectre Errant' @('twilightforest:wraith') ([ordered]@{ dimensions = @('twilightforest:twilight_forest') }) @('frontier', 'ascent', 'summit', 'pinnacle') 'melee' @((Vie 20 40), (Mod 'minecraft:generic.movement_speed' 'add_multiplied_base' 0.2)) $null @('minecraft:weakness') 0.05)
     'aether/valkyrie_dechue' = (Elite 'Valkyrie Déchue' @('aether:valkyrie') ([ordered]@{ dimensions = @('aether:the_aether') }) $pal3 'melee' @((Vie 30 50), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5), (Mod 'minecraft:generic.armor' 'add_value' 8.0)) $null $null 0.05)
     'aether/zephyr_furieux' = (Elite 'Zéphyr Furieux' @('aether:zephyr') ([ordered]@{ dimensions = @('aether:the_aether') }) $pal3 'ranged' @((Vie 30 60)) @(, @('minecraft:resistance', 0)) $null 0.05)
-    'otherside/rodeur_du_sculk' = (Elite 'Rôdeur du Sculk' @('deeperdarker:stalker') ([ordered]@{ dimensions = @('deeperdarker:otherside') }) @('summit', 'pinnacle') 'melee' @((Vie 40 80), (Mod 'minecraft:generic.armor' 'add_value' 8.0)) $null @('minecraft:darkness') 0.05)
+    'otherside/rodeur_du_sculk' = (Elite 'Rôdeur du Sculk' @('deeperdarker:shattered') ([ordered]@{ dimensions = @('deeperdarker:otherside') }) @('summit', 'pinnacle') 'melee' @((Vie 40 80), (Mod 'minecraft:generic.armor' 'add_value' 8.0)) $null @('minecraft:darkness') 0.05)
     'alexscaves/gardien_magnetique' = (Elite 'Gardien Magnétique' @('alexscaves:magnetron') $ow $pal3 'melee' @((Vie 30 60), (Mod 'minecraft:generic.armor' 'add_value' 8.0)) $null @('minecraft:slowness') 0.05)
     'alexscaves/raptor_alpha' = (Elite 'Raptor Alpha' @('alexscaves:vallumraptor') $ow $pal3 'melee' @((Vie 20 40), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5), (Mod 'minecraft:generic.movement_speed' 'add_multiplied_base' 0.2)) $null $null 0.04)
     'alexscaves/rejeton_radioactif' = (Elite 'Rejeton Radioactif' @('alexscaves:nucleeper') $ow $pal3 'melee' @((Vie 20 40)) @(, @('minecraft:resistance', 0)) @('minecraft:poison') 0.04)

@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF0B1F24",
+    "bag_overlay_color":  "#FF2FD6C8",
+    "bag_string_color":  "#FF0F5A66",
+    "display_name":  "Butin des profondeurs",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/profondeurs",
+    "rarity":  "epic",
+    "visible":  true
+}

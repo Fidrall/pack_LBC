@@ -101,11 +101,6 @@
                       "rewards":  [
                                       {
                                           "type":  "gateways:entity_loot",
-                                          "entity":  "deeperdarker:stalker",
-                                          "rolls":  6
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
                                           "entity":  "deeperdarker:shattered",
                                           "rolls":  9
                                       },
@@ -135,11 +130,6 @@
 
                                     ],
                       "rewards":  [
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "minecraft:warden",
-                                          "rolls":  3
-                                      },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "deeperdarker:shattered",

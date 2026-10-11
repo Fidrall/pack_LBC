@@ -22,7 +22,7 @@
                                              "condition":  "minecraft:entity_properties",
                                              "entity":  "this",
                                              "predicate":  {
-                                                               "type":  "archaion:deepslate_sentinel"
+                                                               "type":  "archaion:last_of_deepslate"
                                                            }
                                          }
                                      ]

@@ -215,6 +215,18 @@
                                                                  "operation":  "MULTIPLY_BASE"
                                                              }
                                                          ],
+    "born_in_chaos_v1:lord_pumpkinhead_head":  [
+                                                   {
+                                                       "attribute":  "minecraft:generic.max_health",
+                                                       "value":  0.25,
+                                                       "operation":  "MULTIPLY_BASE"
+                                                   },
+                                                   {
+                                                       "attribute":  "minecraft:generic.attack_damage",
+                                                       "value":  0.15,
+                                                       "operation":  "MULTIPLY_BASE"
+                                                   }
+                                               ],
     "born_in_chaos_v1:lord_the_headless":  [
                                                {
                                                    "attribute":  "minecraft:generic.max_health",
@@ -311,18 +323,30 @@
                                         "operation":  "MULTIPLY_BASE"
                                     }
                                 ],
-    "archaion:deepslate_sentinel":  [
-                                        {
-                                            "attribute":  "minecraft:generic.max_health",
-                                            "value":  0.25,
-                                            "operation":  "MULTIPLY_BASE"
-                                        },
-                                        {
-                                            "attribute":  "minecraft:generic.attack_damage",
-                                            "value":  0.15,
-                                            "operation":  "MULTIPLY_BASE"
-                                        }
-                                    ],
+    "archaion:last_of_deepslate":  [
+                                       {
+                                           "attribute":  "minecraft:generic.max_health",
+                                           "value":  0.25,
+                                           "operation":  "MULTIPLY_BASE"
+                                       },
+                                       {
+                                           "attribute":  "minecraft:generic.attack_damage",
+                                           "value":  0.15,
+                                           "operation":  "MULTIPLY_BASE"
+                                       }
+                                   ],
+    "deeperdarker:stalker":  [
+                                 {
+                                     "attribute":  "minecraft:generic.max_health",
+                                     "value":  0.25,
+                                     "operation":  "MULTIPLY_BASE"
+                                 },
+                                 {
+                                     "attribute":  "minecraft:generic.attack_damage",
+                                     "value":  0.15,
+                                     "operation":  "MULTIPLY_BASE"
+                                 }
+                             ],
     "minecraft:wither":  [
                              {
                                  "attribute":  "minecraft:generic.max_health",

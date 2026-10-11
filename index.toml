@@ -1442,7 +1442,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "13df3359fd221ac4bc975ee9c78e317a0b562a98ab58d06be029a176daf81c9c"
+hash = "05c7dc885fcc1e37559466d4c4c7842a95cccf2eb2677413752eb58e9fba8db9"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -1486,7 +1486,7 @@ hash = "3cb87133a12794d2141e155a7de676687246676a3c1a1c218b80e13f27ea9def"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/otherside/rodeur_du_sculk.json"
-hash = "5a90ba1147023642b235624f241d7ae7f5fc5d7d838d5f48699eb69a80d7de01"
+hash = "2d28ca502be9230f526f48bd4af957a7dd4f15f48e052177ad79a6c6b775f50c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/the_end/assassin_de_l_ender.json"
@@ -1518,7 +1518,7 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
-hash = "fdc15630be9823ef2e2d58f6343ab6cd811b327d32a61e46a67bb11e66ba53aa"
+hash = "db5448e444198f0390586bc3717c5d622df554aec6feefa0ce8d916b18468de9"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -1530,7 +1530,7 @@ hash = "a36c579de0a304fe4d65f9d61886fdc76cbdb873bb8fc3e018179f2fa916391b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/echo_profondeurs.json"
-hash = "f561a3a8590e09a761b55825d5749fb9bf0d8e21ab5807d6c8c3a10160c4e4d9"
+hash = "34a08c2966dcf4fac7c85ece4dcff2dcf39c55fd76b9a06fdb82e3f35b17c140"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/gardiens_sorcellerie.json"
@@ -2793,8 +2793,12 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/catacly
 hash = "eaa3b2636e59ffeea86f10ca8842f7d51abe053c79dd9f650c51517bde704081"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cavernes_t2.json"
+hash = "ed367ba9ba8bb83b511bce5d963bdd848ff539a22979ad13dac7c0d4c163ee91"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/chaos_t1.json"
-hash = "018147f6d29c70e15a31d2bcfcf6e6a706a33ce1cc43e2d375b169f6e1cf779d"
+hash = "1708d6982bfe51394205c5f1bcfefc1c09a8e4805e43ac14f510d3959e663e4a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/destruction_t2.json"
@@ -2822,7 +2826,7 @@ hash = "428d7a1fe78e075c8d8c7e90d8542ea32701f4d8879984813122adc7d65f3985"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/legende_t3.json"
-hash = "f3380961af50a094beb01de881e540ab1090b0e6998bcb40d151ecb77060216e"
+hash = "99a37545b364c5f00da39a32150f9d2389f57925524fa6a25cc9aac6211116c1"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/mowzie_t1.json"
@@ -2831,6 +2835,10 @@ hash = "3c4ea23da0bb83f12b1520eaf1f640c91dc168e27440d36a45696f0fa387fb03"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/mowzie_t2.json"
 hash = "cac9ce3b158ada7abe030ad2a91bdd1c61948d9b78c2e2364d77120fd7aea00c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/profondeurs_t2.json"
+hash = "f9bbd1cb3c74ba55311c417a94324c48d02a7697136e1694122211a94a085d67"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twilight_t1.json"
@@ -2941,6 +2949,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/cataclysm.j
 hash = "e1de172f26e49eedd4e6edd17b86ec3c131d28534646987311107b0d48d9920c"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/cavernes.json"
+hash = "97364e0f6d1b8dbf33d22d4d70d46870743d73562f9aba15cc78c5bf0d230473"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/chaos.json"
 hash = "70b60ee6bef8221c209b05b21b27ec4f058ee564a1c84cf127d747009df8df1e"
 
@@ -2963,6 +2975,10 @@ hash = "03fcc5ca0f9a62918d285a6dc082f7f1ae847b7b149e995fe359eafb59711eb5"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/mowzie.json"
 hash = "266ae65db0fda1593e349025eba449fe3b8719153c8b1a069d9d374ab99c3386"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/profondeurs.json"
+hash = "d6684a61857f2d760d46befb8c5e72915ca048185b389acd941ab5a4563184c5"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/twilight.json"
@@ -3013,6 +3029,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/cataclysm_t
 hash = "6701432851a7b290b93246e671788f0d082ab57f69d20289165aaeb31be6c021"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/cavernes_t2.json"
+hash = "d89358809b9cdb68fca482f9d7e39a13b77419a5e679004eaa624d94556d9374"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/chaos_t1.json"
 hash = "2cefcb6792fd5d4be7036f649cf3631fbe52cf8d987764aaa0d321869234a23a"
 
@@ -3051,6 +3071,10 @@ hash = "5427860781f354ec05e46b414d20b72caf78166189bb9aa4856a5ff2405cd86c"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/mowzie_t2.json"
 hash = "a624f181492c5d374e8637e36ab3d6b661d453f0942580e76c82b3c76661e091"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/profondeurs_t2.json"
+hash = "15d24d2b02aa3fa2f9f70f98c11e860ea9a679da61d3a742468e3409814d8801"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t1.json"
@@ -3661,6 +3685,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/cataclys
 hash = "95cdb1089aaf46caaec5953d932c8d2a7fa52e39b81a82cb685fddd935a0f0f3"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/cavernes.json"
+hash = "166491bff8af02affca1054f73e9f17dd7475cd7a1513b841be986dcbb524cd0"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/chaos.json"
 hash = "9cdbcb8cb99d35422751d83d1812d50037f6cb950957fd5c9327faf1c965e0a7"
 
@@ -3683,6 +3711,10 @@ hash = "0afd0acf14bb23a0507323fbc81aed6c2596f9271e8a68eff4b9f79bb0a66dbc"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/mowzie.json"
 hash = "0bf8e1b2a686ef7a68c612b49d2f1b3923c21ea3a834c13c2294ad9ea1111215"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/profondeurs.json"
+hash = "d1ec4bab154b8f46033d810a52f4771d16a6bcba87d6a01ddf152784e776e9af"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/twilight.json"

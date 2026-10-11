@@ -1,0 +1,13 @@
+{
+    "bag_color":  "#FF3B2412",
+    "bag_overlay_color":  "#FFE07B2A",
+    "bag_string_color":  "#FF7A4A22",
+    "display_name":  "Butin des cavernes",
+    "drops_from_groups":  [
+
+                          ],
+    "group":  "pack_lbc",
+    "loot_table":  "pack_lbc:bags/cavernes",
+    "rarity":  "epic",
+    "visible":  true
+}
