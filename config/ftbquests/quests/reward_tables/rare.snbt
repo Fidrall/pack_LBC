@@ -180,7 +180,7 @@
 			id: "6F0D6BF98F8EB6F8"
 			item: {
 				count: 1
-				id: "sophisticatedbackpacks:upgrade_base"
+				id: "betterinventory:stack_upgrade_1"
 			}
 			weight: 4.0f
 		}
@@ -189,7 +189,7 @@
 			id: "352FC4B4372EE1AC"
 			item: {
 				count: 1
-				id: "sophisticatedbackpacks:iron_backpack"
+				id: "betterinventory:backpack_2"
 			}
 			weight: 3.0f
 		}

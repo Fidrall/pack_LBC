@@ -118,7 +118,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "52cc0bb33c603fe316781c0edea99d9bd4623f49ab22691fab3f7f653a1a0a8e"
+hash = "27c293c0284e368a72b6c1a5bb1673b571218c380e55e72958dc5d5214d504f7"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -226,7 +226,7 @@ hash = "d35ead63bd75e286723580df1fb512d2afc3de0a7ef2561e545a14e0004c27c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
-hash = "cbad9bb9ea568b999b182fadd851e6ea67d97ebf600de3cabeff937ea7ee7725"
+hash = "905914df52f94bea204aa55a1f15318e6091005cd95d65984dfa01adbc431473"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/teleporters.snbt"
@@ -246,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "cc7186e967ebb1035085b509c69b76323845d2045e6dd60fc38f3692c0bd65e6"
+hash = "61409b4928b7a5f3542b33cd40824f642ad5b8f75d2d5d205475ad7a326c9aa8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -254,15 +254,15 @@ hash = "1237ecf47ff3c7c38cc0d3fa4303d861d2dd9b925d40b141e777f974ef3cbc2f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/epique.snbt"
-hash = "75b21c5d89733eabbaa76baadbded80d23152e330231a9eb3d814351f9237d3f"
+hash = "ce0ba87b269f53699023dda20d5ed4ead82dc31c1218f7eb513779999bea0933"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
-hash = "d97e9c7ce80ad4a812a426a8bd08f1b0d6c15ebd140d2d4a1fbc4b0394006c7e"
+hash = "5c19a76ef8a8a41dfea1fc41e772f8b889940bb781ada850bf4f7aa04cdda07f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rare.snbt"
-hash = "3f7a2374e7d44b0b2969bc5f359a2a0c21dd4e96a35d77349b3a936e94514ccf"
+hash = "443b1eb92980b5744d1332b245929535b7f8f069139db838acb5989dcadbd681"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -4489,6 +4489,11 @@ hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
 metafile = true
 
 [[files]]
+file = "mods/better-inventory-and-backpacks.pw.toml"
+hash = "ff574ee0c17e5785f49c679a1ed26e9872bcff0113ce5cc34cb169cfad429d7e"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
@@ -4761,11 +4766,6 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
-metafile = true
-
-[[files]]
-file = "mods/create-sophisticated-backpacks-compat.pw.toml"
-hash = "79d7cf09cdc88b8e64cb684be60efe938193ee13d8a64fc31e3ad1ae622bf4af"
 metafile = true
 
 [[files]]
@@ -5536,31 +5536,6 @@ metafile = true
 [[files]]
 file = "mods/somake-spells-irons-spells-addon.pw.toml"
 hash = "71380603547e4339a5bcb8ffebc33ac05ca7b41d98b2201f2c8beb4dd2b0eb45"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "4ad16a440d4a3ff30953d303a21581c1bdafae9ace3a00ae400a875e24c7f4a5"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-backpacks.pw.toml"
-hash = "73b02212aef023d0709e1c29441004a09c5f34879ff877b49ddf8bcbdd8d5f1f"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-core.pw.toml"
-hash = "7225aa153f0c2b765736adf1e91776af1aa95cd1e545e66a2b9d46f97aa7c7ac"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "6dc3970068b20fae43c4b8fe35566efda3e663b1eedd303834b8159019eb48f7"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-storage.pw.toml"
-hash = "492c4362d7e8e0b5a1ad7c67e6b6e9138f4e4c9b0571a4ec9049d3f85e1013f0"
 metafile = true
 
 [[files]]

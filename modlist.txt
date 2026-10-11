@@ -43,7 +43,6 @@ mr | create-diesel-generators | conserver |
 mr | create-ore-excavation | conserver |
 mr | create-jetpack | conserver |
 mr | create_factory_logistics | conserver |
-mr | create-sophisticated-backpacks-compat | conserver |
 cf | 1086710 | conserver | Create Waystones Recipes
 
 ## --- Generation du monde (conserver) ---
@@ -122,8 +121,6 @@ cf | 316582 | qol | Corpse
 mr | corpse-x-curios-api-compat | qol |
 mr | curios | qol |
 mr | elytra-slot | qol |
-cf | 422301 | conserver | Sophisticated Backpacks
-cf | 1238567 | conserver | Sophisticated Backpacks Create Integration
 mr | torchmaster | conserver |
 mr | comforts | qol |
 cf | 241160 | qol | NetherPortalFix
@@ -195,8 +192,6 @@ cf | 1244863 | jetable | Iron's Apothic (Apotheosis x Iron's Spells)
 cf | ftb-xmod-compat | qol | FTB Quests x JEI
 mr | paxi | qol | charge les packs de ressources/donnees du pack (images quetes, recettes)
 mr | aeronautics-hot-air-fix | qol | client : retire l'effet d'air chaud Aeronautics (ballons blancs avec shaders) - Iris Fix exclu de l'API CF
-mr | sophisticated-storage | conserver | coffres/tonneaux ameliorables (Core mis a jour 1.5.5, requis >=1.5.4)
-mr | sophisticated-storage-create-integration | conserver | coffres Sophisticated sur les contraptions Create
 mr | borninchaos | jetable | monstres d'horreur + boss (apparitions -40 %, plafond 40, pas a moins de 2000 blocs du spawn)
 mr | in-control | qol | regles d'apparition (config/incontrol/spawn.json)
 mr | default-options | client | options/touches par defaut (config/defaultoptions, repris de l'ancien pack)
@@ -268,3 +263,4 @@ cf | 1585352 | jetable | Twilight Spellbooks (Mangelox) : grimoires des boss du 
 cf | 1677981 | jetable | Apex Arcana (grandsigil) : 19 sorts ultimes ; config/irons_spellbooks_spell_config/grandsigil : pas de fabrication, legendaire
 mr | nullscape | conserver | terrain de l'End (blocs vanilla, cout nul en jeu) ; citadelle Cataclysm etendue a ses biomes (build-datapack section 8)
 cf | 1691687 | jetable | Maps 3D : carte 3D d'une zone (4x4 a 16x16 chunks), en main ou dans un cadre (CC0)
+cf | 1618019 | conserver | Better Inventory And Backpacks : inventaire refait (zone 5x9, emplacements d'outils, carrousel main gauche X), sac porte niveaux 1-5 + ameliorations ; remplace Sophisticated Backpacks/Storage (contenus perdus a la fusion : prevenir les joueurs)

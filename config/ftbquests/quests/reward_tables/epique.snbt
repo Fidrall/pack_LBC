@@ -145,7 +145,7 @@
 			id: "44CAF34A9D210469"
 			item: {
 				count: 1
-				id: "sophisticatedbackpacks:gold_backpack"
+				id: "betterinventory:backpack_3"
 			}
 			weight: 3.0f
 		}
@@ -154,7 +154,7 @@
 			id: "70D9645D0B83D77E"
 			item: {
 				count: 1
-				id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				id: "betterinventory:stack_upgrade_2"
 			}
 			weight: 4.0f
 		}

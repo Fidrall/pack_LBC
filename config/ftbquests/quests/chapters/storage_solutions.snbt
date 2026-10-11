@@ -4,7 +4,7 @@
 	filename: "storage_solutions"
 	group: "1A00000000000006"
 	icon: {
-		id: "sophisticatedbackpacks:diamond_backpack"
+		id: "betterinventory:backpack_4"
 	}
 	id: "734C4C2CDBC52F6C"
 	images: [
@@ -76,7 +76,7 @@
 					id: "130C92A47DB62AE9"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:iron_backpack"
+						id: "betterinventory:backpack_2"
 					}
 					type: "item"
 				}
@@ -109,7 +109,7 @@
 					id: "4098258C289F8988"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:gold_backpack"
+						id: "betterinventory:backpack_3"
 					}
 					only_from_crafting: false
 					type: "item"
@@ -143,7 +143,7 @@
 					id: "675716D8D49F9E79"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:diamond_backpack"
+						id: "betterinventory:backpack_4"
 					}
 					only_from_crafting: false
 					type: "item"
@@ -177,7 +177,7 @@
 					id: "2DE5EFAC7AA9FF4F"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:netherite_backpack"
+						id: "betterinventory:backpack_5"
 					}
 					only_from_crafting: false
 					type: "item"
@@ -200,7 +200,7 @@
 					id: "4DF8DD43EA31523F"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:upgrade_base"
+						id: "betterinventory:crafting_upgrade"
 					}
 					type: "item"
 				}
@@ -210,7 +210,7 @@
 					id: "6AF91F57CF082BC7"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:upgrade_base"
+						id: "betterinventory:crafting_upgrade"
 					}
 					type: "item"
 				}
@@ -235,7 +235,7 @@
 					id: "28DECE967CE74AD2"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:backpack"
+						id: "betterinventory:backpack_1"
 					}
 					type: "item"
 				}
@@ -258,7 +258,7 @@
 					id: "386F37C32E7F15B4"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+						id: "betterinventory:stack_upgrade_1"
 					}
 					type: "item"
 				}
@@ -281,7 +281,7 @@
 					id: "7F00E0DAD385F572"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+						id: "betterinventory:stack_upgrade_2"
 					}
 					type: "item"
 				}
@@ -304,7 +304,7 @@
 					id: "7E8B3935EBFC749B"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+						id: "betterinventory:stack_upgrade_3"
 					}
 					type: "item"
 				}
@@ -327,7 +327,7 @@
 					id: "6D6485EA0B0835E2"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+						id: "betterinventory:stack_upgrade_4"
 					}
 					type: "item"
 				}
@@ -350,7 +350,7 @@
 					id: "084840E3C345607A"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+						id: "betterinventory:stack_upgrade_5"
 					}
 					type: "item"
 				}
@@ -373,7 +373,7 @@
 					id: "2319A57BEAEEE38A"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:magnet_upgrade"
+						id: "betterinventory:upgrade_magnet"
 					}
 					type: "item"
 				}
@@ -381,7 +381,7 @@
 					id: "777116601971808A"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:pickup_upgrade"
+						id: "betterinventory:upgrade_pickup"
 					}
 					type: "item"
 				}
@@ -404,7 +404,7 @@
 					id: "7CB84A8A7C1E1147"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:feeding_upgrade"
+						id: "betterinventory:upgrade_feeding"
 					}
 					type: "item"
 				}
@@ -427,7 +427,7 @@
 					id: "428BA6F8008F97AD"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:deposit_upgrade"
+						id: "betterinventory:upgrade_refill"
 					}
 					type: "item"
 				}
@@ -450,7 +450,7 @@
 					id: "4093FF181A482903"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:everlasting_upgrade"
+						id: "betterinventory:upgrade_void"
 					}
 					type: "item"
 				}
@@ -473,7 +473,7 @@
 					id: "1FF82C9B0DACDF82"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:inception_upgrade"
+						id: "betterinventory:advanced_crafting_upgrade"
 					}
 					type: "item"
 				}
@@ -496,7 +496,7 @@
 					id: "7449189305BFA5A0"
 					item: {
 						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+						id: "betterinventory:stack_upgrade_7"
 					}
 					type: "item"
 				}

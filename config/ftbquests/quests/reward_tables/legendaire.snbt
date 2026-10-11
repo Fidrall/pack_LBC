@@ -109,7 +109,7 @@
 			id: "5A86893FE5215620"
 			item: {
 				count: 1
-				id: "sophisticatedbackpacks:diamond_backpack"
+				id: "betterinventory:backpack_4"
 			}
 			weight: 4.0f
 		}
@@ -118,7 +118,7 @@
 			id: "1B2A0259025661D2"
 			item: {
 				count: 1
-				id: "sophisticatedbackpacks:netherite_backpack"
+				id: "betterinventory:backpack_5"
 			}
 			weight: 1.0f
 		}
