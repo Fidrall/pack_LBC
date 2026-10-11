@@ -118,7 +118,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "92d8e98eba390e464fb8aaef168082e1db0ddd10d8c37ffe2aaf27254b2533a4"
+hash = "78499c7f6985963325ddb503f17ddff1cd9f60e4a35ecbb35b8410eabb88ca4f"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -246,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "7fc91a0c5d06f375dd483c24c4db05d1b45536791ffb44604795abd7015fec1e"
+hash = "812bb493cc378c48c09b31d401588da79da605cd53019cc62c0b42000df5457a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"

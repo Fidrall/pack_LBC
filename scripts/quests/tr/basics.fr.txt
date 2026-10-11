@@ -159,7 +159,7 @@ quest.2BC8D0B1B84F96DB.quest_desc: [
 quest.2E3B821A8A402B3E.quest_desc: [
   "Tu peux revendiquer des chunks pour protéger ta base : les autres joueurs ne pourront pas modifier tes constructions."
   ""
-  "Pour commencer, &aouvre la grande carte&r (JourneyMap) avec la touche &6M&r."
+  "Pour commencer, &aouvre la grande carte&r (JourneyMap) avec la touche &6virgule (,)&r."
   "Clique sur le bouton &6« FTBChunks Claiming »&r pour passer en mode revendication."
   ""
   "Une grille apparaît sur la carte."
@@ -313,7 +313,7 @@ quest.660C3D5CB407247F.quest_desc: [
   ""
   "&6\"J\"&r – Livre de quêtes"
   ""
-  "&6\"M\"&r – Grande carte et chunks protégés (JourneyMap) ; &6\"Ctrl+M\"&r – Afficher ou cacher la minicarte ; &6\"N\"&r – Ajouter un point de passage ; &6+ / -&r du pavé numérique – Zoom"
+  "&6\",\"&r (virgule) – Grande carte et chunks protégés (JourneyMap) ; &6\"Ctrl+,\"&r – Afficher ou cacher la minicarte ; &6\"N\"&r – Ajouter un point de passage ; &6+ / -&r du pavé numérique – Zoom"
   ""
   "&6\"B\"&r – Sac à dos (Sophisticated Backpacks)"
   ""

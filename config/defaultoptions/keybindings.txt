@@ -244,9 +244,9 @@ key_key.journeymap.toggle_render_waypoints_map:key.keyboard.unknown:
 key_key.journeymap.toggle_waypoints:key.keyboard.unknown:
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b:
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c:
-key_key.journeymap.map_toggle_alt:key.keyboard.semicolon:
+key_key.journeymap.map_toggle_alt:key.keyboard.m:
 key_key.journeymap.fullscreen_waypoints:key.keyboard.y:
-key_key.journeymap.minimap_toggle_alt:key.keyboard.semicolon:CONTROL
+key_key.journeymap.minimap_toggle_alt:key.keyboard.m:CONTROL
 key_key.journeymap.fullscreen_options:key.keyboard.o:
 key_key.journeymap.fullscreen.north:key.keyboard.up:
 key_key.journeymap.fullscreen.south:key.keyboard.down:
