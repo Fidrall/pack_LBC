@@ -1324,11 +1324,6 @@
 	]
 	quest.1EB944FE6B8CDB68.quest_subtitle: "Le tome d'alignement"
 	quest.1EB944FE6B8CDB68.title: "Nous ne faisons qu'un"
-	quest.1F11289E4F71225C.quest_desc: [
-		"Un &equai&r à poser le long des rails de tes gares."
-	]
-	quest.1F11289E4F71225C.quest_subtitle: "Pour monter à bord en douceur"
-	quest.1F11289E4F71225C.title: "Le quai de gare"
 	quest.1F46D0D373488587.quest_desc: [
 		"Le &6Sculpteur&r se trouve au sommet des &emontagnes&r. Pour l'atteindre, il faut relever son épreuve : grimper une colonne de pierre pendant qu'il la sculpte."
 		""
@@ -2095,11 +2090,6 @@
 		""
 		"Broyée, elle donne du &ffer&r."
 	]
-	quest.3106E97FA1DA221B.quest_desc: [
-		"&eBells and Whistles&r décore tes trains et tes gares : phares, marchepieds, rampes, portes, fenêtres et façades de métro, quais de gare…"
-	]
-	quest.3106E97FA1DA221B.quest_subtitle: "Create: Bells and Whistles"
-	quest.3106E97FA1DA221B.title: "Les phares de train"
 	quest.3121D591D3807584.quest_subtitle: "Permet le double saut"
 	quest.312A8576C183203F.quest_desc: [
 		"Donne une &eépée&r à un villageois sans métier : il devient &egarde&r et défend le village. Les gardes s'équipent de ce que tu leur donnes."

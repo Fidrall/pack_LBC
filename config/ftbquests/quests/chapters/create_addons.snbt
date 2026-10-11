@@ -416,63 +416,6 @@
 		{
 			dependencies: ["0A157E8B791D9822"]
 			hide_dependency_lines: true
-			id: "3106E97FA1DA221B"
-			optional: true
-			rewards: [
-				{
-					id: "3D7E9B13ECD8C733"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 1L
-					id: "2A0CFD3192FEF059"
-					item: { count: 1, id: "bellsandwhistles:headlight" }
-					type: "item"
-				}
-			]
-			x: 0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["3106E97FA1DA221B"]
-			id: "1F11289E4F71225C"
-			optional: true
-			rewards: [
-				{
-					id: "460DDED9E6756613"
-					item: {
-						components: {
-							"ftbquests:loot_crate": "commune"
-						}
-						count: 1
-						id: "ftbquests:lootcrate"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 1L
-					id: "1BE3A2ADAE20EBE6"
-					item: { count: 1, id: "bellsandwhistles:station_platform" }
-					type: "item"
-				}
-			]
-			x: 0d
-			y: 9d
-		}
-		{
-			dependencies: ["0A157E8B791D9822"]
-			hide_dependency_lines: true
 			id: "17D6526ED30DEC5D"
 			optional: true
 			rewards: [

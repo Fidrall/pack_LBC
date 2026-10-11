@@ -174,7 +174,7 @@ hash = "21bc09199f969e5eb1239816c02555c52bcd57d4cc91b370546f7e17caf227d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_addons.snbt"
-hash = "7bf0073185837ed45ce1fd234a5bae2e5679b7f6da1ba88143adb727bd67939f"
+hash = "7f7bb3bcf0cb484f22694586b355b1553adcc1abb0791f7ab5bf24c282988d1b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_basic.snbt"
@@ -242,7 +242,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "d8ff2684d1d1af24ebab780a50388c9cc6a0391e1c1686008d44b44304d4515d"
+hash = "36ea0c0b1907dbec88423c7379589811dafb251aa4ffb3da224a7e843e30d849"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"

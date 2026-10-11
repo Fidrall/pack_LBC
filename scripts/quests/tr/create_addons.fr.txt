@@ -96,16 +96,6 @@ quest.789180040016D6AA.quest_subtitle: "Create: Dragons Plus"
 quest.789180040016D6AA.quest_desc: [
   "&eDragons Plus&r ajoute des &eteintures liquides&r pour teindre en masse avec un ventilateur, des réservoirs fragiles, et d'autres petits outils pratiques."
 ]
-quest.3106E97FA1DA221B.title: "Les phares de train"
-quest.3106E97FA1DA221B.quest_subtitle: "Create: Bells and Whistles"
-quest.3106E97FA1DA221B.quest_desc: [
-  "&eBells and Whistles&r décore tes trains et tes gares : phares, marchepieds, rampes, portes, fenêtres et façades de métro, quais de gare…"
-]
-quest.1F11289E4F71225C.title: "Le quai de gare"
-quest.1F11289E4F71225C.quest_subtitle: "Pour monter à bord en douceur"
-quest.1F11289E4F71225C.quest_desc: [
-  "Un &equai&r à poser le long des rails de tes gares."
-]
 quest.17D6526ED30DEC5D.title: "L'atelier des robots"
 quest.17D6526ED30DEC5D.quest_subtitle: "Create: Bionics"
 quest.17D6526ED30DEC5D.quest_desc: [

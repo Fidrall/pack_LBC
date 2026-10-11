@@ -68,12 +68,7 @@ $Quests = @(
   @{ k='dyes'; x=0; y=6; deps=@('roost','jetpack'); tasks=@('create_dragons_plus:red_dye_bucket'); crate='commune'; optional=$true
      t='Teintures liquides'; st='Create: Dragons Plus'
      d=@('&eDragons Plus&r ajoute des &eteintures liquides&r pour teindre en masse avec un ventilateur, des réservoirs fragiles, et d''autres petits outils pratiques.') }
-  # --- Bells and Whistles, Bionics (Tracks+ : chapitre Dirigeables) (Bits 'n' Bobs : deco, pas de quete)
-  @{ k='bw_headlight'; x=0; y=7.5; deps=@('intro'); hideLines=$true; tasks=@('bellsandwhistles:headlight'); crate='commune'; optional=$true
-     t='Les phares de train'; st='Create: Bells and Whistles'
-     d=@('&eBells and Whistles&r décore tes trains et tes gares : phares, marchepieds, rampes, portes, fenêtres et façades de métro, quais de gare…') }
-  @{ k='bw_platform'; x=0; y=9; deps=@('bw_headlight'); tasks=@('bellsandwhistles:station_platform'); crate='commune'; optional=$true
-     t='Le quai de gare'; st='Pour monter à bord en douceur'; d=@('Un &equai&r à poser le long des rails de tes gares.') }
+  # --- Bionics (Tracks+ : chapitre Dirigeables ; Bits 'n' Bobs et Bells and Whistles : deco, pas de quete)
   @{ k='bio_builder'; x=1.5; y=7.5; deps=@('intro'); hideLines=$true; tasks=@('createbionics:robot_builder'); crate='rare'; optional=$true
      t='L''atelier des robots'; st='Create: Bionics'
      d=@('&eCreate: Bionics&r permet de construire des &ecréatures mécaniques&r pièce par pièce sur l''&eatelier des robots&r.') }
