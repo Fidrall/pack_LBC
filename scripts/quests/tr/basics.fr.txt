@@ -329,7 +329,7 @@ quest.660C3D5CB407247F.quest_desc: [
   ""
   "&6\"Y\"&r – Mode rotation du bâton de physique (Aeronautics) ; &6\"Z\"&r en survolant un objet – Ponder"
   ""
-  "&6\"K\"&r – Menu du chat vocal ; &6\"M\"&r – Couper ou rétablir ton micro ; &6\"Verr. Maj\"&r – Parler (si le mode « appuyer pour parler » est choisi) ; &6\"O\"&r – Shaders"
+  "&6\"K\"&r – Menu du chat vocal ; &6\"M\"&r – Couper ou rétablir ton micro ; &6\"Verr. Maj\"&r – Parler (si le mode « appuyer pour parler » est choisi) ; &6\"O\"&r – Shaders ; &6\"F6\"&r – Recharger les shaders"
   ""
   "&6\"Ctrl+T\"&r – Niveaux du monde ; &6\"Maj+T\"&r – Afficher un objet dans le chat (Apotheosis)"
   ""
