@@ -15,7 +15,7 @@ quest.239660F260DB37EA.quest_desc: [
 quest.23A74B3AD73B9E08.quest_desc: [
   "La &6Jauge d'Usine&r surveille la quantité d'objets dans les inventaires connectés. Elle peut les réapprovisionner automatiquement via le Réseau Logistique, ou piloter des Fabricateurs pour fabriquer automatiquement."
   ""
-  "&aPour bien comprendre la Jauge d'Usine, regarde le Ponder en maintenant W.&r"
+  "&aPour bien comprendre la Jauge d'Usine, regarde le Ponder en maintenant Z.&r"
   ""
   "&nEn résumé :&r"
   "Fais un clic droit sur un Lien de Stock avant de poser la jauge, pour la connecter à un Réseau Logistique."
@@ -77,7 +77,7 @@ quest.2BA2400B5F877FF7.quest_desc: [
   ""
   "Les &6Liens de Stock&r n'ont pas de limite de portée, &bmais le chunk où ils sont posés doit être chargé pour que le réseau les reconnaisse.&r Pense à tes 5 chunks forcés !"
   ""
-  "&aPour bien comprendre le Lien de Stock, regarde le Ponder en maintenant W.&r"
+  "&aPour bien comprendre le Lien de Stock, regarde le Ponder en maintenant Z.&r"
 ]
 quest.2C4242CB2934DC57.quest_desc: [
   "Très pratique quand tu construis, la &6Boîte à Outils&r libère tes poches. Prends-la dans ton atelier et emporte-la avec toi."
@@ -278,7 +278,7 @@ quest.40270C32F09AD402.quest_desc: [
   ""
   "&l&nObtenir de l'aide&r&r"
   ""
-  "-> &6Ponder :&r en cas de doute sur un bloc ou un objet, maintiens 'W' en le survolant pour ouvrir un wiki en 3D directement dans le jeu !"
+  "-> &6Ponder :&r en cas de doute sur un bloc ou un objet, maintiens 'Z' en le survolant pour ouvrir un wiki en 3D directement dans le jeu !"
   ""
   "-> &6Recettes :&r survole un objet dans un inventaire (ou dans une quête) et appuie sur 'R' pour voir comment le fabriquer, ou 'U' pour voir à quoi il sert."
   ""

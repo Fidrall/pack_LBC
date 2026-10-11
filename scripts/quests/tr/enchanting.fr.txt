@@ -60,7 +60,7 @@ quest.4DA92919147B3E18.quest_desc: [
   ""
   "Des &ltypes d'objets différents&r (plastron en or, matériaux…) donnent des enchantements différents ou meilleurs. Un niveau plus élevé n'est pas toujours conseillé : certains enchantements n'apparaissent pas à haut niveau."
   ""
-  "&o&l&cJe te conseille FORTEMENT&r de regarder le Ponder (touche W) pour bien comprendre.&r&r"
+  "&o&l&cJe te conseille FORTEMENT&r de regarder le Ponder (touche Z) pour bien comprendre.&r&r"
 ]
 quest.4DFE436CD88DAF36.quest_desc: [
   "L'&l&6Imprimante&r&r utilise deux types de liquides :"
@@ -92,7 +92,7 @@ quest.5E0CC434DF548813.quest_desc: [
   "Quand l'&e&léclair&r&r frappe le &l&aBloc d'Expérience&r&r, il se transforme en &b&lBloc de Super Expérience&r&r."
 ]
 quest.62C8A74B9C0AC8A4.quest_desc: [
-  "&l&o&cJe te conseille FORTEMENT&r de regarder le Ponder (touche W) de l'&6&lEnchanteur à Blaze&r&r et de la &6&lForge à Blaze&r&r pour bien comprendre.&r&r"
+  "&l&o&cJe te conseille FORTEMENT&r de regarder le Ponder (touche Z) de l'&6&lEnchanteur à Blaze&r&r et de la &6&lForge à Blaze&r&r pour bien comprendre.&r&r"
   ""
   "L'&6Enchanteur à Blaze&r peut manger un &bGâteau d'Enchantement&r pour passer en &bmode Super Enchantement&r."
   ""
@@ -119,7 +119,7 @@ quest.66E127ED18F447AD.quest_desc: [
   ""
   "On peut aussi y placer des objets à la main."
   ""
-  "&o&l&cRegarde le Ponder&r (touche W) pour bien comprendre.&r&r"
+  "&o&l&cRegarde le Ponder&r (touche Z) pour bien comprendre.&r&r"
 ]
 quest.6B2BB3A3AAC179FE.quest_desc: [
   "Imagine que tu as une pièce d'armure avec un enchantement que tu adores, et que tu veux le transférer sur un autre objet. La &6Forge à Blaze&r le permet."
