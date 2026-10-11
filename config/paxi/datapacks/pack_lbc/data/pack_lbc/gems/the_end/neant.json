@@ -1,0 +1,90 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "dimensions":  [
+                                           "minecraft:the_end"
+                                       ]
+                    },
+    "min_purity":  "normal",
+    "unique":  true,
+    "weights":  {
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  40
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  40
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:mob_effect",
+                        "gem_class":  {
+                                          "key":  "light_weapon",
+                                          "types":  [
+                                                        "apotheosis:melee_weapon",
+                                                        "apotheosis:trident"
+                                                    ]
+                                      },
+                        "mob_effect":  "minecraft:levitation",
+                        "target":  "attack_target",
+                        "values":  {
+                                       "normal":  {
+                                                      "duration":  20,
+                                                      "amplifier":  0,
+                                                      "cooldown":  80
+                                                  },
+                                       "flawless":  {
+                                                        "duration":  30,
+                                                        "amplifier":  0,
+                                                        "cooldown":  80
+                                                    },
+                                       "perfect":  {
+                                                       "duration":  40,
+                                                       "amplifier":  0,
+                                                       "cooldown":  80
+                                                   }
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:mob_effect",
+                        "gem_class":  "apotheosis:shield",
+                        "mob_effect":  "minecraft:levitation",
+                        "target":  "block_attacker",
+                        "values":  {
+                                       "normal":  {
+                                                      "duration":  40,
+                                                      "amplifier":  0,
+                                                      "cooldown":  200
+                                                  },
+                                       "flawless":  {
+                                                        "duration":  60,
+                                                        "amplifier":  0,
+                                                        "cooldown":  200
+                                                    },
+                                       "perfect":  {
+                                                       "duration":  80,
+                                                       "amplifier":  0,
+                                                       "cooldown":  200
+                                                   }
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:damage_reduction",
+                        "damage_type":  "explosion",
+                        "gem_class":  {
+                                          "key":  "core_armor",
+                                          "types":  [
+                                                        "apotheosis:chestplate",
+                                                        "apotheosis:leggings"
+                                                    ]
+                                      },
+                        "values":  {
+                                       "normal":  0.15,
+                                       "flawless":  0.25,
+                                       "perfect":  0.35
+                                   }
+                    }
+                ]
+}

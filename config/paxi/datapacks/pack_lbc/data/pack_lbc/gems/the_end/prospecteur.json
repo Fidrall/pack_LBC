@@ -1,0 +1,45 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "dimensions":  [
+                                           "minecraft:the_end"
+                                       ]
+                    },
+    "min_purity":  "normal",
+    "unique":  true,
+    "weights":  {
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  40
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  40
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:drop_transform",
+                        "conditions":  [
+                                           {
+                                               "condition":  "apotheosis:matches_block",
+                                               "valid_blocks":  "minecraft:end_stone"
+                                           }
+                                       ],
+                        "desc":  "gem.pack_lbc:the_end/prospecteur.bonus.pickaxe",
+                        "gem_class":  "apotheosis:breaker",
+                        "inputs":  {
+                                       "item":  "minecraft:end_stone"
+                                   },
+                        "output":  {
+                                       "count":  1,
+                                       "id":  "minecraft:ender_pearl"
+                                   },
+                        "values":  {
+                                       "normal":  0.05,
+                                       "flawless":  0.1,
+                                       "perfect":  0.15
+                                   }
+                    }
+                ]
+}

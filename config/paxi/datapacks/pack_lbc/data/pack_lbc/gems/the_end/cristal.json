@@ -1,0 +1,56 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "dimensions":  [
+                                           "minecraft:the_end"
+                                       ]
+                    },
+    "min_purity":  "normal",
+    "unique":  true,
+    "weights":  {
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  40
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  40
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:mob_effect",
+                        "gem_class":  "apotheosis:chestplate",
+                        "mob_effect":  "minecraft:regeneration",
+                        "target":  "hurt_self",
+                        "values":  {
+                                       "normal":  {
+                                                      "duration":  60,
+                                                      "amplifier":  0,
+                                                      "cooldown":  300
+                                                  },
+                                       "flawless":  {
+                                                        "duration":  80,
+                                                        "amplifier":  0,
+                                                        "cooldown":  300
+                                                    },
+                                       "perfect":  {
+                                                       "duration":  100,
+                                                       "amplifier":  1,
+                                                       "cooldown":  300
+                                                   }
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "apothic_attributes:overheal",
+                        "gem_class":  "apotheosis:helmet",
+                        "operation":  "add_value",
+                        "values":  {
+                                       "normal":  0.1,
+                                       "flawless":  0.2,
+                                       "perfect":  0.3
+                                   }
+                    }
+                ]
+}

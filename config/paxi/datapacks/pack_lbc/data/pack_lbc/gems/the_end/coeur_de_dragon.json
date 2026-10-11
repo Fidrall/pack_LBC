@@ -1,0 +1,52 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "dimensions":  [
+                                           "minecraft:the_end"
+                                       ]
+                    },
+    "min_purity":  "flawless",
+    "unique":  true,
+    "weights":  {
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  15
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "apothic_attributes:current_hp_damage",
+                        "gem_class":  {
+                                          "key":  "light_weapon",
+                                          "types":  [
+                                                        "apotheosis:melee_weapon",
+                                                        "apotheosis:trident"
+                                                    ]
+                                      },
+                        "operation":  "add_value",
+                        "values":  {
+                                       "flawless":  0.04,
+                                       "perfect":  0.08
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "apothic_attributes:elytra_flight",
+                        "gem_class":  "apotheosis:chestplate",
+                        "operation":  "add_value",
+                        "values":  {
+                                       "perfect":  1
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:damage_reduction",
+                        "damage_type":  "fire",
+                        "gem_class":  "apotheosis:helmet",
+                        "values":  {
+                                       "flawless":  0.2,
+                                       "perfect":  0.35
+                                   }
+                    }
+                ]
+}

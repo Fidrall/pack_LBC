@@ -1,0 +1,61 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "dimensions":  [
+                                           "minecraft:the_end"
+                                       ]
+                    },
+    "min_purity":  "normal",
+    "unique":  true,
+    "weights":  {
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  40
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  40
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:damage_reduction",
+                        "damage_type":  "projectile",
+                        "gem_class":  {
+                                          "key":  "core_armor",
+                                          "types":  [
+                                                        "apotheosis:chestplate",
+                                                        "apotheosis:leggings"
+                                                    ]
+                                      },
+                        "values":  {
+                                       "normal":  0.15,
+                                       "flawless":  0.25,
+                                       "perfect":  0.35
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:mob_effect",
+                        "gem_class":  "apotheosis:helmet",
+                        "mob_effect":  "minecraft:glowing",
+                        "target":  "hurt_attacker",
+                        "values":  {
+                                       "normal":  {
+                                                      "duration":  200,
+                                                      "amplifier":  0,
+                                                      "cooldown":  100
+                                                  },
+                                       "flawless":  {
+                                                        "duration":  200,
+                                                        "amplifier":  0,
+                                                        "cooldown":  100
+                                                    },
+                                       "perfect":  {
+                                                       "duration":  200,
+                                                       "amplifier":  0,
+                                                       "cooldown":  100
+                                                   }
+                                   }
+                    }
+                ]
+}
