@@ -273,6 +273,82 @@ file = "config/irons_spellbooks-server.toml"
 hash = "9db94f62e96f2a6f9d3c60ffa28f6811931a697b32c6e7eee3a09996895e0cd9"
 
 [[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/black_coffin.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/caldera.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/colosseum.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/crimson_threads.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/dimension_cut.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/full_bloom.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/glaciation.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/grand_sigil.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/heaven_gate.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/ice_age.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/phoenix.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/reckoning.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/skybreak.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/sunfall.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/the_gaze.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/thousand_blades.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/thunder_dragon.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/voidgrip.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
+file = "config/irons_spellbooks_spell_config/grandsigil/world_tree.json"
+hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
+
+[[files]]
 file = "config/jmdefaultconfig/config/6.0/journeymap.core.config"
 hash = "2b417fde7a6bd70f853c82be7f00b0e5b2b8dc220788c0225cc415c6dba77934"
 
@@ -3727,6 +3803,11 @@ hash = "296b06234a9a865197a4b96ad37b24c4e96c1994ffb10e1a1d61b273b462e64f"
 metafile = true
 
 [[files]]
+file = "mods/apex-arcana-irons-spells-n-spellbooks-addon.pw.toml"
+hash = "e805f51e40310bca757535c20cf91bc529faf46fe251c4aca99cae9197da4536"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis-x-irons-spellbooks-compat.pw.toml"
 hash = "ca1984d2c3388cadb5273148883343d40cfa33500cea4a6262162dd25c9285e0"
 metafile = true
@@ -5024,6 +5105,11 @@ metafile = true
 [[files]]
 file = "mods/twilight-delight.pw.toml"
 hash = "3e1300fe9600e1a0e1421662754ebb7d53e596511aae2cfee8b173401cdc2451"
+metafile = true
+
+[[files]]
+file = "mods/twilight-spellbooks-irons-spells-n-spellbooks.pw.toml"
+hash = "3ad0a5623baecf06df73bb9566662c1fb7eb674c242ffa3e516fa21bb54b088c"
 metafile = true
 
 [[files]]

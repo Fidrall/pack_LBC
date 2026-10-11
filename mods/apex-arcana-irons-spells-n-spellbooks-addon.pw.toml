@@ -1,0 +1,13 @@
+name = "Apex Arcana — Iron's Spells 'n Spellbooks Addon"
+filename = "grandsigil-1.21.1-neoforge-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "61d0acfa8dde640610f1c31371110f2d458c7c94"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9056814
+project-id = 1677981
