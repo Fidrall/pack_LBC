@@ -37,23 +37,23 @@
                     {
                         "type":  "apotheosis:mob_effect",
                         "gem_class":  "apotheosis:helmet",
-                        "mob_effect":  "minecraft:glowing",
+                        "mob_effect":  "minecraft:levitation",
                         "target":  "hurt_attacker",
                         "values":  {
                                        "normal":  {
-                                                      "duration":  200,
+                                                      "duration":  40,
                                                       "amplifier":  0,
-                                                      "cooldown":  100
+                                                      "cooldown":  200
                                                   },
                                        "flawless":  {
-                                                        "duration":  200,
+                                                        "duration":  60,
                                                         "amplifier":  0,
-                                                        "cooldown":  100
+                                                        "cooldown":  200
                                                     },
                                        "perfect":  {
-                                                       "duration":  200,
+                                                       "duration":  80,
                                                        "amplifier":  0,
-                                                       "cooldown":  100
+                                                       "cooldown":  200
                                                    }
                                    }
                     }

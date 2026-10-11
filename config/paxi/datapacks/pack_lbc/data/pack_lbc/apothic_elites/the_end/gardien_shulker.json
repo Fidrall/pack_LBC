@@ -1,7 +1,7 @@
 {
     "type":  "apotheosis:elite",
     "affix_data":  {
-                       "affix_chance":  0.5
+                       "affix_chance":  0.4
                    },
     "basic_data":  {
                        "constraints":  {
@@ -10,35 +10,6 @@
                                                           ]
                                        },
                        "name":  "Gardien Shulker",
-                       "nbt":  {
-                                   "Passengers":  [
-                                                      {
-                                                          "id":  "minecraft:area_effect_cloud",
-                                                          "Duration":  200000,
-                                                          "Radius":  3,
-                                                          "ReapplicationDelay":  20,
-                                                          "WaitTime":  0,
-                                                          "Particle":  {
-                                                                           "type":  "entity_effect",
-                                                                           "color":  0
-                                                                       },
-                                                          "potion_contents":  {
-                                                                                  "custom_effects":  [
-                                                                                                         {
-                                                                                                             "id":  "minecraft:slowness",
-                                                                                                             "amplifier":  1,
-                                                                                                             "duration":  60
-                                                                                                         },
-                                                                                                         {
-                                                                                                             "id":  "minecraft:weakness",
-                                                                                                             "amplifier":  0,
-                                                                                                             "duration":  60
-                                                                                                         }
-                                                                                                     ]
-                                                                              }
-                                                      }
-                                                  ]
-                               },
                        "spawn_conditions":  [
                                                 {
                                                     "type":  "apotheosis:not",
@@ -76,7 +47,36 @@
                                                         "quality":  0.1,
                                                         "weight":  100
                                                     }
-                                   }
+                                   },
+                       "nbt":  {
+                                   "Passengers":  [
+                                                      {
+                                                          "id":  "minecraft:area_effect_cloud",
+                                                          "Duration":  200000,
+                                                          "Radius":  3,
+                                                          "ReapplicationDelay":  20,
+                                                          "WaitTime":  0,
+                                                          "Particle":  {
+                                                                           "type":  "entity_effect",
+                                                                           "color":  0
+                                                                       },
+                                                          "potion_contents":  {
+                                                                                  "custom_effects":  [
+                                                                                                         {
+                                                                                                             "id":  "minecraft:slowness",
+                                                                                                             "amplifier":  0,
+                                                                                                             "duration":  60
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "minecraft:weakness",
+                                                                                                             "amplifier":  0,
+                                                                                                             "duration":  60
+                                                                                                         }
+                                                                                                     ]
+                                                                              }
+                                                      }
+                                                  ]
+                               }
                    },
     "entities":  [
                      "minecraft:shulker"
@@ -97,10 +97,10 @@
                                                   "value":  10
                                               }
                                           ],
-                  "enchant_chance":  0.35,
+                  "enchant_chance":  0.3,
                   "enchantment_levels":  {
-                                             "primary":  30,
-                                             "secondary":  20
+                                             "primary":  25,
+                                             "secondary":  15
                                          }
               },
     "success_chance":  0.06

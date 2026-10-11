@@ -1449,16 +1449,72 @@ file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_s
 hash = "b9afbea8ecbd757a27f7ac6b609a3bec71fc47210e89cb3f15648a154e97f289"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/aether/valkyrie_dechue.json"
+hash = "51328b3a2b467233db3920c1a347435a0181d84f565d826982e665318ffd4a11"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/aether/zephyr_furieux.json"
+hash = "b4e6c3d10e30c826d4bb33d23108ae648cb78f3be9673b397812f5f9fdac9751"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/alexscaves/chevalier_des_profondeurs.json"
+hash = "2063cd3943cad54e567577107849e49316393d6a0df66f26a8dc7db6617cdd3e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/alexscaves/gardien_magnetique.json"
+hash = "c89bd5fdc5e1e4bae550622cd3283721ec01d0773d07f0973cef1664982989ee"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/alexscaves/raptor_alpha.json"
+hash = "4b913ba7806ffdbe55b7980b623af5a540020cf1296c76f42e2c56aaf77fe7a4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/alexscaves/rejeton_radioactif.json"
+hash = "3d84e361a2735d1bc19f1d2953f4cd64235b346c2c37e60cf49cb04088a3fe51"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/alexscaves/veilleur_oublie.json"
+hash = "33baf4f748a7a21d7acec4104f65d88e945393255ea21525159517efab1240bf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/cavernes/matriarche_des_profondeurs.json"
+hash = "22899a49d12019049ec9de5231270e775e38d9119d546fe2146d4b5570903df0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/cavernes/mineur_maudit.json"
+hash = "3cb87133a12794d2141e155a7de676687246676a3c1a1c218b80e13f27ea9def"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/otherside/rodeur_du_sculk.json"
+hash = "5a90ba1147023642b235624f241d7ae7f5fc5d7d838d5f48699eb69a80d7de01"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/the_end/assassin_de_l_ender.json"
-hash = "8444da9454fed72354fad8d24f2330805d9a01af0cab5bf8e9a943398bd55cb4"
+hash = "6d5ada0e3e18802b8c338f26bb54ee3135e93851baf6ab045494ae2b279b42e8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/the_end/gardien_shulker.json"
-hash = "2a255b26204909b53d617a471458d63c1577da4243f1f908389d2cd81c7649e7"
+hash = "e569562fb9e9cdaea88dd407372f6aa965523becb8ff8aa0751875618ed52f99"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/the_end/sentinelle_du_vide.json"
-hash = "31d54ccbd7ae6fd9cff82727d235e1ded6444323eb5fcddbca856ebad257c6d8"
+hash = "9a7423a27617536c59748d5a5cb92629ceaa174f6f69dd66c7b4725ee0b14cdf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/the_nether/brute_dechue.json"
+hash = "92346bbdcfb27819db28e4ecc88c2bf265bdb510487f565a115e788e87519bff"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/the_nether/spectre_de_cendre.json"
+hash = "ef6fa39fd6f8f344b7311a51b02d37955b3cc8a6ce33e026956691f7bb963429"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/twilight/druide_de_la_liche.json"
+hash = "15335934b2552f02dc8696b1c72f76c18cf6aebbb4ad54b235643b130e4f7642"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/twilight/spectre_errant.json"
+hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
@@ -1493,12 +1549,40 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/sabbat_citrouilles
 hash = "bef8aacd08c6ef40592fef3418f56541d869a7fbf20aa24ead7ceb61f098bd8c"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/aether/celeste.json"
+hash = "dd858fba66b1e12d21093b57456ac489f8e41241afd09cb72188fe1e30aa056e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/cavernes/abysses.json"
+hash = "e5039bcef3dc1688d1b4a148da229ffbf17872040189de0f8834fa0e8b832c53"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/cavernes/filon.json"
+hash = "825548a729e68331a3248eda762f1da81260020397c44dd72bd06188215b950a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/cavernes/magnetique.json"
+hash = "af8f709d4a4c3b0ab968e74d241b4aea9a247a38cd720ed54619c69fb5844043"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/cavernes/primordiale.json"
+hash = "05b0ace855ad4be77938442ab052d832e1d70c5ff2abe8731f357f306c4adae6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/cavernes/sculk.json"
+hash = "a61d34c4e8bf1628f79c05067c7683ab36ac08584612f310f1b10031e688c9ad"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/cavernes/toxique.json"
+hash = "fb7d723f61e88a9b011cd8d8c5c3467da5c3fa86c8e2bb050614c5848fab15fe"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/the_end/apesanteur.json"
 hash = "a981952e741571f0799749eed778ccc9c9923cb8f4712478bdbe0aae4af26634"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/the_end/chorale.json"
-hash = "e109d83713dda0b20f57007b2af71e0a47ade28fb912b0490eb800978f27c453"
+hash = "cc9bfc008cf8ff6c187173ff62bfb96ba2be9d16c885554d2c54e6a28ff3b49d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/the_end/coeur_de_dragon.json"
@@ -1518,7 +1602,15 @@ hash = "172956fcb4917f0632c9b181b15387622507d0df53085470d40c09650060a448"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/the_end/shulker.json"
-hash = "345c1812f102ac512f72576e97aaa80843d9e2a0a71e1cf46b57c132fcf92149"
+hash = "8e5838d930ec64875dc75f4066869d801be8a5dabced31cec5cab121a1f5380f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/the_nether/cendre.json"
+hash = "e907f293bfe6cf05ee3e22095dd93b82c9cf980dfd7f8b725053d1239a79d7d3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/twilight/liche.json"
+hash = "154a22330ce06d52141d0cfc51ab695ab28e8905501fa5c92aeeb7c7c436f159"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modifier/familles/retrait_000.json"
@@ -3741,6 +3833,34 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/fr_fr.jso
 hash = "294f5afe41734b4d1522d84635d1222fe8664d785187d2dd0ecdac0b21c8df2a"
 
 [[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/aether/celeste.json"
+hash = "3961b1e98c347df5fd73efbd187c5ed038085e24634778f161cc3b82235bdd49"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/cavernes/abysses.json"
+hash = "fae8fbbe681f9a045361be3847cfc7a06ec20fe5545a18cc4640e2a9e0178b30"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/cavernes/filon.json"
+hash = "6e54681ff8590a9b70c18b5b9e4a02a653ea4b02c0f5950b9bb08e4b51cd2f8e"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/cavernes/magnetique.json"
+hash = "20fef01ff35d1e7cbfdae6d11057a5da7a2084dfd2246e5dfcd9b40b4048d8d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/cavernes/primordiale.json"
+hash = "055b30177da43ab828d34246109ff16b7742301cb8d26952bf4fbe38d3177a29"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/cavernes/sculk.json"
+hash = "e9400253af4ce9eab0dca8d57eef8e2a0b0beaa1dd87a14c15156189343e830d"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/cavernes/toxique.json"
+hash = "25ff9acb1d1853e2859521353b62ff2dd3caa8c7716a67efde02f9ee1f3a015b"
+
+[[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/the_end/apesanteur.json"
 hash = "f0f22a023b8bafa61a53a2f86814b9f936e9e6a868535edaabfc587ff00e49b8"
 
@@ -3769,6 +3889,42 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/ge
 hash = "a8697ab6fa0288d2d324a0212caa49531e656e0f1d789a09e65c0a9055dfb414"
 
 [[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/the_nether/cendre.json"
+hash = "029288ee70296f20c2975649fc47db36e2c3c15435e39fd8aec3366746c57420"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/models/item/gems/twilight/liche.json"
+hash = "d6849c76aee22977f77d0609bdab12467af86e9f6d541bf2808cf4c85022e94c"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/aether/celeste.png"
+hash = "57f169d0dabd675297ebcfa6ee58199a5207f232adff6b1c4e2a9311f1ad9a1f"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/cavernes/abysses.png"
+hash = "e335609e9b6501c6911feffa8b178c57328f06663bdb7f063cf22a8d5dde457a"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/cavernes/filon.png"
+hash = "4459053d256593f023c2c6f2a7d33d5a50b853a62b84e19df832f93e0d624af8"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/cavernes/magnetique.png"
+hash = "38e1a5f2a620e15308fa52484466438727d6297004759e91fc5716ec7e7417f9"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/cavernes/primordiale.png"
+hash = "396f012578e3a6563eaa37338402454ed1506dc1f22b221372bcd03f1e6a6b47"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/cavernes/sculk.png"
+hash = "bb4c04eec603c2f8c52f35137c4a2ddbd8d08e9c7946850dcd565d5ff30d60e4"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/cavernes/toxique.png"
+hash = "a19f189d41fb3033b846a1ede6f0ff25a66d0a3da67c60411dd2c61951652865"
+
+[[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/the_end/apesanteur.png"
 hash = "559ad2f92085137556b5b5897ff451c990b78bfc7f4f56a9a3e99621dfdd5890"
 
@@ -3795,6 +3951,14 @@ hash = "0ac851979129a543274a6a75c8e1962a31ca286c8c35ca4686dace9664d40b1c"
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/the_end/shulker.png"
 hash = "3fc455fb2c2db07505e23335c2d9629c617d3458fd6baf6797b94852d6f5d5cb"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/the_nether/cendre.png"
+hash = "9165ebaad043b0c76b4be3a1d108d4225644625fb219f209ae99cdf15b4e2857"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/item/gems/twilight/liche.png"
+hash = "247289b095343f376d022a8026bd23fc203f9093b35ff8808eae20d99be49582"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chalk_block_mark_arrow.png"
@@ -3918,11 +4082,11 @@ hash = "8d6edbced68423d032a6880a5e2f11ba62f4894e0f9b681cbe0f51125395d547"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc_gemmes/lang/en_us.json"
-hash = "0258762e226920dab4759d6c43f0cea3746ac5846fda1a0de590c2116206c7c3"
+hash = "212ff9643a0405d8870bec9ae0a1826e04b22cd364b1615521ceccf43ee0847a"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc_gemmes/lang/fr_fr.json"
-hash = "63f4ac3047c5ac30950cc3925c1aab1db259901be4935fade99c4df9d810bbca"
+hash = "ea51a4d1996484be1597518cc704d5b676745b5b5b513a48b9be17bf8d67eb36"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/pack.mcmeta"

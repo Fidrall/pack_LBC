@@ -20,7 +20,7 @@
     "bonuses":  [
                     {
                         "type":  "apotheosis:attribute",
-                        "attribute":  "irons_spellbooks:ender_spell_power",
+                        "attribute":  "irons_spellbooks:summon_damage",
                         "gem_class":  "apotheosis:helmet",
                         "operation":  "add_multiplied_base",
                         "values":  {
@@ -31,13 +31,13 @@
                     },
                     {
                         "type":  "apotheosis:attribute",
-                        "attribute":  "irons_spellbooks:cooldown_reduction",
+                        "attribute":  "irons_spellbooks:casting_movespeed",
                         "gem_class":  "apotheosis:chestplate",
                         "operation":  "add_multiplied_base",
                         "values":  {
-                                       "normal":  0.05,
-                                       "flawless":  0.08,
-                                       "perfect":  0.12
+                                       "normal":  0.15,
+                                       "flawless":  0.25,
+                                       "perfect":  0.4
                                    }
                     },
                     {

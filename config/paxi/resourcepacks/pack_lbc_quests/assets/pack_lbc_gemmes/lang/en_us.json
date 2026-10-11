@@ -6,5 +6,15 @@
     "item.apotheosis.gem.pack_lbc:the_end/cristal":  "Crystal Gem",
     "item.apotheosis.gem.pack_lbc:the_end/shulker":  "Shulker Gem",
     "item.apotheosis.gem.pack_lbc:the_end/prospecteur":  "Prospector\u0027s Gem",
-    "gem.pack_lbc:the_end/prospecteur.bonus.pickaxe":  "Breaking End Stone has a %s%% chance to drop an Ender Pearl instead."
+    "gem.pack_lbc:the_end/prospecteur.bonus.pickaxe":  "Breaking End Stone has a %s%% chance to drop an Ender Pearl instead.",
+    "item.apotheosis.gem.pack_lbc:cavernes/sculk":  "Sculk Gem",
+    "item.apotheosis.gem.pack_lbc:cavernes/filon":  "Lode Gem",
+    "gem.pack_lbc:cavernes/filon.bonus.pickaxe":  "Breaking Deepslate has a %s%% chance to drop Raw Iron instead.",
+    "item.apotheosis.gem.pack_lbc:cavernes/toxique":  "Toxic Gem",
+    "item.apotheosis.gem.pack_lbc:cavernes/magnetique":  "Magnetic Gem",
+    "item.apotheosis.gem.pack_lbc:cavernes/primordiale":  "Primordial Gem",
+    "item.apotheosis.gem.pack_lbc:cavernes/abysses":  "Abyssal Gem",
+    "item.apotheosis.gem.pack_lbc:the_nether/cendre":  "Ash Gem",
+    "item.apotheosis.gem.pack_lbc:twilight/liche":  "Lich\u0027s Gem",
+    "item.apotheosis.gem.pack_lbc:aether/celeste":  "Celestial Gem"
 }

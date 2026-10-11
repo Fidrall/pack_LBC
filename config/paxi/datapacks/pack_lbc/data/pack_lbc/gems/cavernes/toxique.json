@@ -1,0 +1,88 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "biomes":  [
+                                       "alexscaves:toxic_caves"
+                                   ]
+                    },
+    "min_purity":  "flawed",
+    "unique":  true,
+    "weights":  {
+                    "ascent":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  30
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:mob_effect",
+                        "gem_class":  {
+                                          "key":  "light_weapon",
+                                          "types":  [
+                                                        "apotheosis:melee_weapon",
+                                                        "apotheosis:trident"
+                                                    ]
+                                      },
+                        "mob_effect":  "minecraft:poison",
+                        "target":  "attack_target",
+                        "values":  {
+                                       "flawed":  {
+                                                      "duration":  60,
+                                                      "amplifier":  0,
+                                                      "cooldown":  60
+                                                  },
+                                       "normal":  {
+                                                      "duration":  80,
+                                                      "amplifier":  0,
+                                                      "cooldown":  60
+                                                  },
+                                       "flawless":  {
+                                                        "duration":  100,
+                                                        "amplifier":  1,
+                                                        "cooldown":  60
+                                                    },
+                                       "perfect":  {
+                                                       "duration":  140,
+                                                       "amplifier":  1,
+                                                       "cooldown":  60
+                                                   }
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:mob_effect",
+                        "gem_class":  "apotheosis:helmet",
+                        "mob_effect":  "minecraft:nausea",
+                        "target":  "hurt_attacker",
+                        "values":  {
+                                       "flawed":  {
+                                                      "duration":  60,
+                                                      "amplifier":  0,
+                                                      "cooldown":  200
+                                                  },
+                                       "normal":  {
+                                                      "duration":  80,
+                                                      "amplifier":  0,
+                                                      "cooldown":  200
+                                                  },
+                                       "flawless":  {
+                                                        "duration":  100,
+                                                        "amplifier":  0,
+                                                        "cooldown":  200
+                                                    },
+                                       "perfect":  {
+                                                       "duration":  140,
+                                                       "amplifier":  0,
+                                                       "cooldown":  200
+                                                   }
+                                   }
+                    }
+                ]
+}

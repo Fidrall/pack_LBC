@@ -1,0 +1,67 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "biomes":  [
+                                       "minecraft:dripstone_caves",
+                                       "minecraft:lush_caves"
+                                   ]
+                    },
+    "min_purity":  "flawed",
+    "unique":  true,
+    "weights":  {
+                    "frontier":  {
+                                     "quality":  2,
+                                     "weight":  30
+                                 },
+                    "ascent":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  30
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:drop_transform",
+                        "conditions":  [
+                                           {
+                                               "condition":  "apotheosis:matches_block",
+                                               "valid_blocks":  "minecraft:deepslate"
+                                           }
+                                       ],
+                        "desc":  "gem.pack_lbc:cavernes/filon.bonus.pickaxe",
+                        "gem_class":  "apotheosis:breaker",
+                        "inputs":  {
+                                       "item":  "minecraft:cobbled_deepslate"
+                                   },
+                        "output":  {
+                                       "count":  1,
+                                       "id":  "minecraft:raw_iron"
+                                   },
+                        "values":  {
+                                       "flawed":  0.02,
+                                       "normal":  0.04,
+                                       "flawless":  0.06,
+                                       "perfect":  0.08
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "minecraft:player.mining_efficiency",
+                        "gem_class":  "apotheosis:leggings",
+                        "operation":  "add_value",
+                        "values":  {
+                                       "flawed":  2,
+                                       "normal":  4,
+                                       "flawless":  6,
+                                       "perfect":  9
+                                   }
+                    }
+                ]
+}

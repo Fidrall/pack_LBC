@@ -527,45 +527,94 @@ foreach ($f in Get-ChildItem $sl -Recurse -File) {
     Copy-Item $f.FullName $to -Force
 }
 
-# ---------- 18. Gemmes et elites Apotheosis propres a l'End ----------
-# 7 gemmes (data/pack_lbc/gems/the_end) qui ne tombent que dans l'End (monstres et coffres, paliers Summit/Pinnacle) et
-# 3 elites (data/pack_lbc/apothic_elites/the_end). Effets choisis absents des 23 gemmes d'Apotheosis.
+# ---------- 18. Gemmes et elites Apotheosis par lieu (End, cavernes, Nether, Twilight, Aether, Otherside, Alex's Caves) ----------
+# Gemmes data/pack_lbc/gems/<lieu>/<nom> : ne tombent qu'au lieu indique (constraints dimensions ou biomes), sur les monstres
+# et dans les coffres. Effets choisis absents des 38 gemmes d'Apotheosis et d'Iron's Apothic (verifie le 2026-10-11).
+# Elites data/pack_lbc/apothic_elites/<lieu>/<nom> : mini-boss nommes, equipes au palier du joueur, apparition naturelle.
 # Noms (fr/en), modeles et textures (dessinees ici) : resource pack config/paxi/resourcepacks/pack_lbc_quests.
 $rp = Join-Path $root 'config\paxi\resourcepacks\pack_lbc_quests\assets'
 function RW($rel, $text) { $p = Join-Path $rp $rel; New-Item -ItemType Directory -Force (Split-Path $p) | Out-Null; [IO.File]::WriteAllText($p, $text, $enc) }
-function Pur($n, $f, $p) { [ordered]@{ normal = $n; flawless = $f; perfect = $p } }
-function Eff($cls, $eff, $target, $d, $amp, $cd) { [ordered]@{ type = 'apotheosis:mob_effect'; gem_class = $cls; mob_effect = $eff; target = $target; values = [ordered]@{ normal = [ordered]@{ duration = $d[0]; amplifier = $amp[0]; cooldown = $cd }; flawless = [ordered]@{ duration = $d[1]; amplifier = $amp[1]; cooldown = $cd }; perfect = [ordered]@{ duration = $d[2]; amplifier = $amp[2]; cooldown = $cd } } } }
+$PUR = @('cracked', 'chipped', 'flawed', 'normal', 'flawless', 'perfect')
+# Valeurs par purete : le tableau couvre les N dernieres puretes (3 = normale -> parfaite, 4 = imparfaite -> parfaite)
+function V($vals) { $o = [ordered]@{}; $s = 6 - $vals.Count; for ($i = 0; $i -lt $vals.Count; $i++) { $o[$PUR[$s + $i]] = $vals[$i] }; $o }
+function Att($cls, $attr, $op, $vals) { [ordered]@{ type = 'apotheosis:attribute'; attribute = $attr; gem_class = $cls; operation = $op; values = (V $vals) } }
+function Red($cls, $dmg, $vals) { [ordered]@{ type = 'apotheosis:damage_reduction'; damage_type = $dmg; gem_class = $cls; values = (V $vals) } }
+function Eff($cls, $eff, $target, $d, $amp, $cd) {
+    $o = [ordered]@{}; $s = 6 - $d.Count
+    for ($i = 0; $i -lt $d.Count; $i++) { $o[$PUR[$s + $i]] = [ordered]@{ duration = $d[$i]; amplifier = $amp[$i]; cooldown = $cd } }
+    [ordered]@{ type = 'apotheosis:mob_effect'; gem_class = $cls; mob_effect = $eff; target = $target; values = $o }
+}
+function Tiers($names, $w) { $o = [ordered]@{}; foreach ($t in $names) { $o[$t] = [ordered]@{ quality = 2.0; weight = $w } }; $o }
 $coreArmor = [ordered]@{ key = 'core_armor'; types = @('apotheosis:chestplate', 'apotheosis:leggings') }
 $lightWeapon = [ordered]@{ key = 'light_weapon'; types = @('apotheosis:melee_weapon', 'apotheosis:trident') }
-$poids = [ordered]@{ summit = [ordered]@{ quality = 2.0; weight = 40 }; pinnacle = [ordered]@{ quality = 2.0; weight = 40 } }
-$gemmes = [ordered]@{
-    apesanteur = @{ fr = "Gemme d'Apesanteur"; en = 'Weightless Gem'; color = 0x8FE3E0; bonuses = @(
+$fin = Tiers @('summit', 'pinnacle') 40
+$milieu = Tiers @('frontier', 'ascent', 'summit', 'pinnacle') 30
+$tard = Tiers @('ascent', 'summit', 'pinnacle') 30
+$end = [ordered]@{ dimensions = @('minecraft:the_end') }
+$gemmes = @(
+    # --- End
+    @{ path = 'the_end/apesanteur'; fr = "Gemme d'Apesanteur"; en = 'Weightless Gem'; color = 0x8FE3E0; c = $end; w = $fin; bonuses = @(
             [ordered]@{ type = 'apotheosis:multi_attribute'; desc = 'bonus.apotheosis:multi_attr.desc.and'; gem_class = 'apotheosis:boots'; modifiers = @(
-                    [ordered]@{ attribute = 'minecraft:generic.safe_fall_distance'; operation = 'add_value'; values = (Pur 4 8 16) },
-                    [ordered]@{ attribute = 'minecraft:generic.fall_damage_multiplier'; operation = 'add_multiplied_total'; values = (Pur (-0.25) (-0.5) (-0.75)) }) },
+                    [ordered]@{ attribute = 'minecraft:generic.safe_fall_distance'; operation = 'add_value'; values = (V @(4, 8, 16)) },
+                    [ordered]@{ attribute = 'minecraft:generic.fall_damage_multiplier'; operation = 'add_multiplied_total'; values = (V @(-0.25, -0.5, -0.75)) }) },
             (Eff $coreArmor 'minecraft:slow_falling' 'hurt_self' @(60, 80, 100) @(0, 0, 0) 200),
             (Eff 'apotheosis:bow' 'minecraft:levitation' 'arrow_target' @(40, 60, 80) @(0, 0, 0) 100)) }
-    neant = @{ fr = 'Gemme du Néant'; en = 'Void Gem'; color = 0x5B2A86; bonuses = @(
+    @{ path = 'the_end/neant'; fr = 'Gemme du Néant'; en = 'Void Gem'; color = 0x5B2A86; c = $end; w = $fin; bonuses = @(
             (Eff $lightWeapon 'minecraft:levitation' 'attack_target' @(20, 30, 40) @(0, 0, 0) 80),
             (Eff 'apotheosis:shield' 'minecraft:levitation' 'block_attacker' @(40, 60, 80) @(0, 0, 0) 200),
-            [ordered]@{ type = 'apotheosis:damage_reduction'; damage_type = 'explosion'; gem_class = $coreArmor; values = (Pur 0.15 0.25 0.35) }) }
-    chorale = @{ fr = 'Gemme Chorale'; en = 'Chorus Gem'; color = 0xB57EDC; bonuses = @(
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'irons_spellbooks:ender_spell_power'; gem_class = 'apotheosis:helmet'; operation = 'add_multiplied_base'; values = (Pur 0.10 0.15 0.25) },
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'irons_spellbooks:cooldown_reduction'; gem_class = 'apotheosis:chestplate'; operation = 'add_multiplied_base'; values = (Pur 0.05 0.08 0.12) },
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'minecraft:generic.jump_strength'; gem_class = 'apotheosis:boots'; operation = 'add_multiplied_base'; values = (Pur 0.10 0.20 0.30) }) }
-    coeur_de_dragon = @{ fr = 'Cœur de Dragon'; en = 'Dragonheart'; color = 0x7A1FA2; min = 'flawless'; weights = [ordered]@{ pinnacle = [ordered]@{ quality = 2.0; weight = 15 } }; bonuses = @(
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'apothic_attributes:current_hp_damage'; gem_class = $lightWeapon; operation = 'add_value'; values = [ordered]@{ flawless = 0.04; perfect = 0.08 } },
+            (Red $coreArmor 'explosion' @(0.15, 0.25, 0.35))) }
+    @{ path = 'the_end/chorale'; fr = 'Gemme Chorale'; en = 'Chorus Gem'; color = 0xB57EDC; c = $end; w = $fin; bonuses = @(
+            (Att 'apotheosis:helmet' 'irons_spellbooks:summon_damage' 'add_multiplied_base' @(0.10, 0.15, 0.25)),
+            (Att 'apotheosis:chestplate' 'irons_spellbooks:casting_movespeed' 'add_multiplied_base' @(0.15, 0.25, 0.40)),
+            (Att 'apotheosis:boots' 'minecraft:generic.jump_strength' 'add_multiplied_base' @(0.10, 0.20, 0.30))) }
+    @{ path = 'the_end/coeur_de_dragon'; fr = 'Cœur de Dragon'; en = 'Dragonheart'; color = 0x7A1FA2; min = 'flawless'; c = $end; w = (Tiers @('pinnacle') 15); bonuses = @(
+            (Att $lightWeapon 'apothic_attributes:current_hp_damage' 'add_value' @(0.04, 0.08)),
             [ordered]@{ type = 'apotheosis:attribute'; attribute = 'apothic_attributes:elytra_flight'; gem_class = 'apotheosis:chestplate'; operation = 'add_value'; values = [ordered]@{ perfect = 1.0 } },
-            [ordered]@{ type = 'apotheosis:damage_reduction'; damage_type = 'fire'; gem_class = 'apotheosis:helmet'; values = [ordered]@{ flawless = 0.20; perfect = 0.35 } }) }
-    cristal = @{ fr = 'Gemme de Cristal'; en = 'Crystal Gem'; color = 0xF2A7D8; bonuses = @(
+            (Red 'apotheosis:helmet' 'fire' @(0.20, 0.35))) }
+    @{ path = 'the_end/cristal'; fr = 'Gemme de Cristal'; en = 'Crystal Gem'; color = 0xF2A7D8; c = $end; w = $fin; bonuses = @(
             (Eff 'apotheosis:chestplate' 'minecraft:regeneration' 'hurt_self' @(60, 80, 100) @(0, 0, 1) 300),
-            [ordered]@{ type = 'apotheosis:attribute'; attribute = 'apothic_attributes:overheal'; gem_class = 'apotheosis:helmet'; operation = 'add_value'; values = (Pur 0.10 0.20 0.30) }) }
-    shulker = @{ fr = 'Gemme de Shulker'; en = 'Shulker Gem'; color = 0xA97CA9; bonuses = @(
-            [ordered]@{ type = 'apotheosis:damage_reduction'; damage_type = 'projectile'; gem_class = $coreArmor; values = (Pur 0.15 0.25 0.35) },
-            (Eff 'apotheosis:helmet' 'minecraft:glowing' 'hurt_attacker' @(200, 200, 200) @(0, 0, 0) 100)) }
-    prospecteur = @{ fr = 'Gemme du Prospecteur'; en = "Prospector's Gem"; color = 0xDCDB9C; bonuses = @(
-            [ordered]@{ type = 'apotheosis:drop_transform'; conditions = @([ordered]@{ condition = 'apotheosis:matches_block'; valid_blocks = 'minecraft:end_stone' }); desc = 'gem.pack_lbc:the_end/prospecteur.bonus.pickaxe'; gem_class = 'apotheosis:breaker'; inputs = [ordered]@{ item = 'minecraft:end_stone' }; output = [ordered]@{ count = 1; id = 'minecraft:ender_pearl' }; values = (Pur 0.05 0.10 0.15) }) }
-}
+            (Att 'apotheosis:helmet' 'apothic_attributes:overheal' 'add_value' @(0.10, 0.20, 0.30))) }
+    @{ path = 'the_end/shulker'; fr = 'Gemme de Shulker'; en = 'Shulker Gem'; color = 0xA97CA9; c = $end; w = $fin; bonuses = @(
+            (Red $coreArmor 'projectile' @(0.15, 0.25, 0.35)),
+            (Eff 'apotheosis:helmet' 'minecraft:levitation' 'hurt_attacker' @(40, 60, 80) @(0, 0, 0) 200)) }
+    @{ path = 'the_end/prospecteur'; fr = 'Gemme du Prospecteur'; en = "Prospector's Gem"; color = 0xDCDB9C; c = $end; w = $fin
+        desc = @{ fr = "Casser de la pierre de l'End a %s%% de chances de donner une perle de l'Ender."; en = 'Breaking End Stone has a %s%% chance to drop an Ender Pearl instead.' }; bonuses = @(
+            [ordered]@{ type = 'apotheosis:drop_transform'; conditions = @([ordered]@{ condition = 'apotheosis:matches_block'; valid_blocks = 'minecraft:end_stone' }); desc = 'gem.pack_lbc:the_end/prospecteur.bonus.pickaxe'; gem_class = 'apotheosis:breaker'; inputs = [ordered]@{ item = 'minecraft:end_stone' }; output = [ordered]@{ count = 1; id = 'minecraft:ender_pearl' }; values = (V @(0.05, 0.10, 0.15)) }) }
+    # --- Cavernes de l'Overworld (biomes)
+    @{ path = 'cavernes/sculk'; fr = 'Gemme du Sculk'; en = 'Sculk Gem'; color = 0x0F5A66; min = 'flawed'; w = $milieu
+        c = [ordered]@{ biomes = @('minecraft:deep_dark', 'deeperdarker:blooming_caverns', 'deeperdarker:deeplands', 'deeperdarker:echoing_forest', 'deeperdarker:overcast_columns') }; bonuses = @(
+            (Eff 'apotheosis:helmet' 'minecraft:glowing' 'hurt_attacker' @(100, 160, 200, 300) @(0, 0, 0, 0) 60),
+            (Att 'apotheosis:boots' 'minecraft:player.sneaking_speed' 'add_value' @(0.10, 0.20, 0.30, 0.45)),
+            (Eff $lightWeapon 'minecraft:blindness' 'attack_target' @(40, 60, 80, 100) @(0, 0, 0, 0) 100)) }
+    @{ path = 'cavernes/filon'; fr = 'Gemme du Filon'; en = 'Lode Gem'; color = 0xC08A55; min = 'flawed'; w = $milieu; c = [ordered]@{ biomes = @('minecraft:dripstone_caves', 'minecraft:lush_caves') }
+        desc = @{ fr = "Casser de l'ardoise des abîmes a %s%% de chances de donner du fer brut."; en = 'Breaking Deepslate has a %s%% chance to drop Raw Iron instead.' }; bonuses = @(
+            [ordered]@{ type = 'apotheosis:drop_transform'; conditions = @([ordered]@{ condition = 'apotheosis:matches_block'; valid_blocks = 'minecraft:deepslate' }); desc = 'gem.pack_lbc:cavernes/filon.bonus.pickaxe'; gem_class = 'apotheosis:breaker'; inputs = [ordered]@{ item = 'minecraft:cobbled_deepslate' }; output = [ordered]@{ count = 1; id = 'minecraft:raw_iron' }; values = (V @(0.02, 0.04, 0.06, 0.08)) },
+            (Att 'apotheosis:leggings' 'minecraft:player.mining_efficiency' 'add_value' @(2, 4, 6, 9))) }
+    @{ path = 'cavernes/toxique'; fr = 'Gemme Toxique'; en = 'Toxic Gem'; color = 0x7CC242; min = 'flawed'; w = $tard; c = [ordered]@{ biomes = @('alexscaves:toxic_caves') }; bonuses = @(
+            (Eff $lightWeapon 'minecraft:poison' 'attack_target' @(60, 80, 100, 140) @(0, 0, 1, 1) 60),
+            (Eff 'apotheosis:helmet' 'minecraft:nausea' 'hurt_attacker' @(60, 80, 100, 140) @(0, 0, 0, 0) 200)) }
+    @{ path = 'cavernes/magnetique'; fr = 'Gemme Magnétique'; en = 'Magnetic Gem'; color = 0xB33A3A; min = 'flawed'; w = $tard; c = [ordered]@{ biomes = @('alexscaves:magnetic_caves') }; bonuses = @(
+            (Eff $lightWeapon 'minecraft:slowness' 'attack_target' @(40, 60, 80, 80) @(0, 0, 0, 1) 60),
+            (Att 'apotheosis:chestplate' 'minecraft:generic.explosion_knockback_resistance' 'add_value' @(0.25, 0.5, 0.75, 1.0))) }
+    @{ path = 'cavernes/primordiale'; fr = 'Gemme Primordiale'; en = 'Primordial Gem'; color = 0xD9822B; min = 'flawed'; w = $tard; c = [ordered]@{ biomes = @('alexscaves:primordial_caves') }; bonuses = @(
+            (Att 'apotheosis:melee_weapon' 'minecraft:player.sweeping_damage_ratio' 'add_value' @(0.10, 0.20, 0.30, 0.45)),
+            (Red 'apotheosis:leggings' 'fall' @(0.20, 0.30, 0.40, 0.50))) }
+    @{ path = 'cavernes/abysses'; fr = 'Gemme des Abysses'; en = 'Abyssal Gem'; color = 0x1E4FA8; min = 'flawed'; w = $tard
+        c = [ordered]@{ biomes = @('alexscaves:abyssal_chasm', 'minecraft:deep_ocean', 'minecraft:deep_cold_ocean', 'minecraft:deep_lukewarm_ocean', 'minecraft:deep_frozen_ocean') }; bonuses = @(
+            (Att 'apotheosis:helmet' 'minecraft:generic.oxygen_bonus' 'add_value' @(1, 2, 3, 4)),
+            (Att 'apotheosis:boots' 'minecraft:generic.water_movement_efficiency' 'add_value' @(0.15, 0.25, 0.35, 0.5)),
+            (Eff 'apotheosis:chestplate' 'minecraft:conduit_power' 'hurt_self' @(100, 140, 200, 300) @(0, 0, 0, 0) 300)) }
+    # --- Autres dimensions
+    @{ path = 'the_nether/cendre'; fr = 'Gemme de Cendre'; en = 'Ash Gem'; color = 0x6E6A66; min = 'flawed'; w = $tard; c = [ordered]@{ dimensions = @('minecraft:the_nether') }; bonuses = @(
+            (Att 'apotheosis:chestplate' 'minecraft:generic.burning_time' 'add_multiplied_total' @(-0.2, -0.3, -0.4, -0.5)),
+            (Eff $lightWeapon 'minecraft:wither' 'attack_target' @(40, 60, 80, 80) @(0, 0, 0, 1) 80)) }
+    @{ path = 'twilight/liche'; fr = 'Gemme de la Liche'; en = "Lich's Gem"; color = 0x9FB7C9; min = 'flawed'; w = $milieu; c = [ordered]@{ dimensions = @('twilightforest:twilight_forest') }; bonuses = @(
+            (Eff $lightWeapon 'minecraft:weakness' 'attack_target' @(60, 80, 100, 100) @(0, 0, 0, 1) 80),
+            (Eff 'apotheosis:helmet' 'minecraft:mining_fatigue' 'hurt_attacker' @(60, 80, 100, 100) @(0, 0, 0, 1) 200)) }
+    @{ path = 'aether/celeste'; fr = 'Gemme Céleste'; en = 'Celestial Gem'; color = 0xF5E27A; min = 'flawed'; w = $tard; c = [ordered]@{ dimensions = @('aether:the_aether') }; bonuses = @(
+            (Att 'apotheosis:bow' 'apothic_attributes:projectile_damage' 'add_multiplied_total' @(0.05, 0.10, 0.15, 0.20)),
+            (Red 'apotheosis:chestplate' 'lightning' @(0.20, 0.30, 0.40, 0.50))) }
+)
 # Texture 16x16 d'une gemme taillee : contour, ombre, teinte, clair, reflet (couleurs derivees de la teinte de la gemme)
 $motif = @('................', '................', '....oooooooo....', '...ohhlllmmdo...', '..ohhllllmmmdo..', '.ohlllllmmmmddo.', '.oooooooooooooo.', '.olhllmmmmmdddo.', '..olllmmmmmddo..', '...ollmmmmddo...', '....olmmmmdo....', '.....olmmdo.....', '......omdo......', '.......oo.......', '................', '................')
 Add-Type -AssemblyName System.Drawing
@@ -582,36 +631,62 @@ function Gemme-Png($path, [int]$rgb) {
     New-Item -ItemType Directory -Force (Split-Path $path) | Out-Null
     $bmp.Save($path, [Drawing.Imaging.ImageFormat]::Png); $bmp.Dispose()
 }
+$texGemmes = Join-Path $rp 'pack_lbc\textures\item\gems'
+if (Test-Path $texGemmes) { Remove-Item -LiteralPath $texGemmes -Recurse -Force }
+$modGemmes = Join-Path $rp 'pack_lbc\models\item\gems'
+if (Test-Path $modGemmes) { Remove-Item -LiteralPath $modGemmes -Recurse -Force }
 $langFr = [ordered]@{}; $langEn = [ordered]@{}
-foreach ($k in $gemmes.Keys) {
-    $gm = $gemmes[$k]
-    $obj = [ordered]@{ type = 'apotheosis:gem'; constraints = [ordered]@{ dimensions = @('minecraft:the_end') }; min_purity = $(if ($gm.min) { $gm.min } else { 'normal' }); unique = $true; weights = $(if ($gm.weights) { $gm.weights } else { $poids }); bonuses = $gm.bonuses }
-    W "data/pack_lbc/gems/the_end/$k.json" $obj
-    RW "pack_lbc/models/item/gems/the_end/$k.json" (([ordered]@{ parent = 'item/generated'; textures = [ordered]@{ layer0 = "pack_lbc:item/gems/the_end/$k" } }) | ConvertTo-Json)
-    Gemme-Png (Join-Path $rp "pack_lbc\textures\item\gems\the_end\$k.png") $gm.color
-    $langFr["item.apotheosis.gem.pack_lbc:the_end/$k"] = $gm.fr; $langEn["item.apotheosis.gem.pack_lbc:the_end/$k"] = $gm.en
+foreach ($gm in $gemmes) {
+    $obj = [ordered]@{ type = 'apotheosis:gem'; constraints = $gm.c; min_purity = $(if ($gm.min) { $gm.min } else { 'normal' }); unique = $true; weights = $gm.w; bonuses = $gm.bonuses }
+    W "data/pack_lbc/gems/$($gm.path).json" $obj
+    RW "pack_lbc/models/item/gems/$($gm.path).json" (([ordered]@{ parent = 'item/generated'; textures = [ordered]@{ layer0 = "pack_lbc:item/gems/$($gm.path)" } }) | ConvertTo-Json)
+    Gemme-Png ((Join-Path $texGemmes ($gm.path -replace '/', '\')) + '.png') $gm.color
+    $langFr["item.apotheosis.gem.pack_lbc:$($gm.path)"] = $gm.fr; $langEn["item.apotheosis.gem.pack_lbc:$($gm.path)"] = $gm.en
+    if ($gm.desc) { $langFr["gem.pack_lbc:$($gm.path).bonus.pickaxe"] = $gm.desc.fr; $langEn["gem.pack_lbc:$($gm.path).bonus.pickaxe"] = $gm.desc.en }
 }
-$langFr['gem.pack_lbc:the_end/prospecteur.bonus.pickaxe'] = "Casser de la pierre de l'End a %s%% de chances de donner une perle de l'Ender."
-$langEn['gem.pack_lbc:the_end/prospecteur.bonus.pickaxe'] = 'Breaking End Stone has a %s%% chance to drop an Ender Pearl instead.'
 RW 'pack_lbc_gemmes/lang/fr_fr.json' ($langFr | ConvertTo-Json)
 RW 'pack_lbc_gemmes/lang/en_us.json' ($langEn | ConvertTo-Json)
-# Elites de l'End : mini-boss nommes, equipes au palier du joueur (Ascent a Pinnacle), apparition naturelle seulement
-$pasInvoque = @([ordered]@{ type = 'apotheosis:not'; spawn_condition = [ordered]@{ type = 'apotheosis:spawn_type'; spawn_types = @('spawn_egg', 'spawner', 'mob_summoned') } })
-$poidsElite = [ordered]@{ ascent = [ordered]@{ quality = 0.1; weight = 100 }; summit = [ordered]@{ quality = 0.1; weight = 100 }; pinnacle = [ordered]@{ quality = 0.1; weight = 100 } }
-function GearSets($kind) { [ordered]@{ ascent = @("#ascent_$kind"); summit = @("#summit_$kind"); pinnacle = @("#pinnacle_$kind") } }
+
+# Elites : apparition naturelle seulement (pas d'oeuf, de generateur ni d'invocation), equipement du palier du joueur
+$pasInvoque = [ordered]@{ type = 'apotheosis:not'; spawn_condition = [ordered]@{ type = 'apotheosis:spawn_type'; spawn_types = @('spawn_egg', 'spawner', 'mob_summoned') } }
+$sousTerre = [ordered]@{ type = 'apotheosis:surface_type'; surface_type = 'below_surface' }
 function Mod($attr, $op, $val) { [ordered]@{ attribute = $attr; operation = $op; value = $val } }
+function Vie($min, $max) { Mod 'minecraft:generic.max_health' 'add_value' ([ordered]@{ min = [double]$min; max = [double]$max }) }
+function Elite($nom, $entities, $c, $tiers, $kind, $mods, $effects, $aura, $chance, [switch]$Sous) {
+    $poidsE = [ordered]@{}; $gear = [ordered]@{}
+    foreach ($t in $tiers) { $poidsE[$t] = [ordered]@{ quality = 0.1; weight = 100 }; $gear[$t] = @("#${t}_$kind") }
+    $conds = @($pasInvoque); if ($Sous) { $conds += $sousTerre }
+    $basic = [ordered]@{ constraints = $c; name = $nom; spawn_conditions = $conds; valid_gear_sets = $gear; weights = $poidsE }
+    if ($aura) { $basic.nbt = [ordered]@{ Passengers = @([ordered]@{ id = 'minecraft:area_effect_cloud'; Duration = 200000; Radius = 3.0; ReapplicationDelay = 20; WaitTime = 0; Particle = [ordered]@{ type = 'entity_effect'; color = 0 }; potion_contents = [ordered]@{ custom_effects = @($aura | ForEach-Object { [ordered]@{ id = $_; amplifier = 0; duration = 60 } }) } }) } }
+    $stats = [ordered]@{ attribute_modifiers = $mods }
+    if ($effects) { $stats.effects = @($effects | ForEach-Object { [ordered]@{ amplifier = [double]$_[1]; effect = $_[0] } }) }
+    $stats.enchant_chance = 0.3; $stats.enchantment_levels = [ordered]@{ primary = 25; secondary = 15 }
+    [ordered]@{ type = 'apotheosis:elite'; affix_data = [ordered]@{ affix_chance = 0.4 }; basic_data = $basic; entities = $entities; stats = $stats; success_chance = $chance }
+}
+$ow = [ordered]@{ dimensions = @('minecraft:overworld') }
+$tousPaliers = @('haven', 'frontier', 'ascent', 'summit', 'pinnacle')
+$pal3 = @('ascent', 'summit', 'pinnacle')
 $endermen = @('minecraft:enderman', 'endermanoverhaul:end_enderman', 'endermanoverhaul:end_islands_enderman')
 $elites = [ordered]@{
-    sentinelle_du_vide = [ordered]@{ type = 'apotheosis:elite'; affix_data = [ordered]@{ affix_chance = 0.5 }; basic_data = [ordered]@{ constraints = [ordered]@{ dimensions = @('minecraft:the_end') }; name = 'Sentinelle du Vide'; spawn_conditions = $pasInvoque; valid_gear_sets = (GearSets 'melee'); weights = $poidsElite }
-        entities = $endermen; stats = [ordered]@{ attribute_modifiers = @((Mod 'minecraft:generic.max_health' 'add_value' ([ordered]@{ min = 40.0; max = 80.0 })), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5), (Mod 'minecraft:generic.armor' 'add_value' 10.0), (Mod 'minecraft:generic.knockback_resistance' 'add_value' 1.0)); effects = @([ordered]@{ amplifier = 0.0; effect = 'minecraft:resistance' }); enchant_chance = 0.35; enchantment_levels = [ordered]@{ primary = 30; secondary = 20 } }; success_chance = 0.02 }
-    assassin_de_l_ender = [ordered]@{ type = 'apotheosis:elite'; affix_data = [ordered]@{ affix_chance = 0.5 }; basic_data = [ordered]@{ constraints = [ordered]@{ dimensions = @('minecraft:the_end') }; name = "Assassin de l'Ender"; spawn_conditions = $pasInvoque; valid_gear_sets = (GearSets 'melee'); weights = $poidsElite }
-        entities = $endermen; stats = [ordered]@{ attribute_modifiers = @((Mod 'minecraft:generic.max_health' 'add_value' ([ordered]@{ min = 20.0; max = 40.0 })), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 1.0), (Mod 'minecraft:generic.movement_speed' 'add_multiplied_base' 0.3), (Mod 'apothic_attributes:crit_chance' 'add_value' 0.3)); effects = @([ordered]@{ amplifier = 1.0; effect = 'minecraft:speed' }); enchant_chance = 0.35; enchantment_levels = [ordered]@{ primary = 30; secondary = 20 } }; success_chance = 0.015 }
-    gardien_shulker = [ordered]@{ type = 'apotheosis:elite'; affix_data = [ordered]@{ affix_chance = 0.5 }; basic_data = [ordered]@{ constraints = [ordered]@{ dimensions = @('minecraft:the_end') }; name = 'Gardien Shulker'
-            nbt = [ordered]@{ Passengers = @([ordered]@{ id = 'minecraft:area_effect_cloud'; Duration = 200000; Radius = 3.0; ReapplicationDelay = 20; WaitTime = 0; Particle = [ordered]@{ type = 'entity_effect'; color = 0 }; potion_contents = [ordered]@{ custom_effects = @([ordered]@{ id = 'minecraft:slowness'; amplifier = 1; duration = 60 }, [ordered]@{ id = 'minecraft:weakness'; amplifier = 0; duration = 60 }) } }) }
-            spawn_conditions = $pasInvoque; valid_gear_sets = (GearSets 'ranged'); weights = $poidsElite }
-        entities = @('minecraft:shulker'); stats = [ordered]@{ attribute_modifiers = @((Mod 'minecraft:generic.max_health' 'add_value' ([ordered]@{ min = 30.0; max = 50.0 })), (Mod 'minecraft:generic.armor' 'add_value' 10.0)); enchant_chance = 0.35; enchantment_levels = [ordered]@{ primary = 30; secondary = 20 } }; success_chance = 0.06 }
+    'the_end/sentinelle_du_vide' = (Elite 'Sentinelle du Vide' $endermen $end $pal3 'melee' @((Vie 40 80), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5), (Mod 'minecraft:generic.armor' 'add_value' 10.0), (Mod 'minecraft:generic.knockback_resistance' 'add_value' 1.0)) @(, @('minecraft:resistance', 0)) $null 0.02)
+    'the_end/assassin_de_l_ender' = (Elite "Assassin de l'Ender" $endermen $end $pal3 'melee' @((Vie 20 40), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 1.0), (Mod 'minecraft:generic.movement_speed' 'add_multiplied_base' 0.3), (Mod 'apothic_attributes:crit_chance' 'add_value' 0.3)) @(, @('minecraft:speed', 1)) $null 0.015)
+    'the_end/gardien_shulker' = (Elite 'Gardien Shulker' @('minecraft:shulker') $end $pal3 'ranged' @((Vie 30 50), (Mod 'minecraft:generic.armor' 'add_value' 10.0)) $null @('minecraft:slowness', 'minecraft:weakness') 0.06)
+    'cavernes/mineur_maudit' = (Elite 'Mineur Maudit' @('minecraft:zombie') $ow $tousPaliers 'melee' @((Vie 20 40), (Mod 'minecraft:generic.armor' 'add_value' 6.0), (Mod 'minecraft:generic.knockback_resistance' 'add_value' 0.5)) @(, @('minecraft:haste', 1)) $null 0.01 -Sous)
+    'cavernes/matriarche_des_profondeurs' = (Elite 'Matriarche des Profondeurs' @('minecraft:spider', 'minecraft:cave_spider') $ow $tousPaliers 'melee' @((Vie 20 40), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5)) $null @('minecraft:poison') 0.01 -Sous)
+    'the_nether/spectre_de_cendre' = (Elite 'Spectre de Cendre' @('minecraft:blaze') ([ordered]@{ dimensions = @('minecraft:the_nether') }) $pal3 'ranged' @((Vie 30 50), (Mod 'apothic_attributes:fire_damage' 'add_value' 4.0), (Mod 'minecraft:generic.armor' 'add_value' 6.0)) $null @('minecraft:weakness') 0.03)
+    'the_nether/brute_dechue' = (Elite 'Brute Déchue' @('minecraft:zombified_piglin', 'minecraft:piglin') ([ordered]@{ dimensions = @('minecraft:the_nether') }) $pal3 'melee' @((Vie 30 60), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5), (Mod 'minecraft:generic.armor' 'add_value' 8.0), (Mod 'minecraft:generic.knockback_resistance' 'add_value' 0.6)) $null $null 0.015)
+    'twilight/druide_de_la_liche' = (Elite 'Druide de la Liche' @('twilightforest:skeleton_druid') ([ordered]@{ dimensions = @('twilightforest:twilight_forest') }) @('frontier', 'ascent', 'summit', 'pinnacle') 'ranged' @((Vie 20 40), (Mod 'minecraft:generic.armor' 'add_value' 6.0)) @(, @('minecraft:resistance', 0)) @('minecraft:slowness') 0.04)
+    'twilight/spectre_errant' = (Elite 'Spectre Errant' @('twilightforest:wraith') ([ordered]@{ dimensions = @('twilightforest:twilight_forest') }) @('frontier', 'ascent', 'summit', 'pinnacle') 'melee' @((Vie 20 40), (Mod 'minecraft:generic.movement_speed' 'add_multiplied_base' 0.2)) $null @('minecraft:weakness') 0.05)
+    'aether/valkyrie_dechue' = (Elite 'Valkyrie Déchue' @('aether:valkyrie') ([ordered]@{ dimensions = @('aether:the_aether') }) $pal3 'melee' @((Vie 30 50), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5), (Mod 'minecraft:generic.armor' 'add_value' 8.0)) $null $null 0.05)
+    'aether/zephyr_furieux' = (Elite 'Zéphyr Furieux' @('aether:zephyr') ([ordered]@{ dimensions = @('aether:the_aether') }) $pal3 'ranged' @((Vie 30 60)) @(, @('minecraft:resistance', 0)) $null 0.05)
+    'otherside/rodeur_du_sculk' = (Elite 'Rôdeur du Sculk' @('deeperdarker:stalker') ([ordered]@{ dimensions = @('deeperdarker:otherside') }) @('summit', 'pinnacle') 'melee' @((Vie 40 80), (Mod 'minecraft:generic.armor' 'add_value' 8.0)) $null @('minecraft:darkness') 0.05)
+    'alexscaves/gardien_magnetique' = (Elite 'Gardien Magnétique' @('alexscaves:magnetron') $ow $pal3 'melee' @((Vie 30 60), (Mod 'minecraft:generic.armor' 'add_value' 8.0)) $null @('minecraft:slowness') 0.05)
+    'alexscaves/raptor_alpha' = (Elite 'Raptor Alpha' @('alexscaves:vallumraptor') $ow $pal3 'melee' @((Vie 20 40), (Mod 'minecraft:generic.attack_damage' 'add_multiplied_total' 0.5), (Mod 'minecraft:generic.movement_speed' 'add_multiplied_base' 0.2)) $null $null 0.04)
+    'alexscaves/rejeton_radioactif' = (Elite 'Rejeton Radioactif' @('alexscaves:nucleeper') $ow $pal3 'melee' @((Vie 20 40)) @(, @('minecraft:resistance', 0)) @('minecraft:poison') 0.04)
+    'alexscaves/chevalier_des_profondeurs' = (Elite 'Chevalier des Profondeurs' @('alexscaves:deep_one_knight') $ow $pal3 'melee' @((Vie 30 60), (Mod 'minecraft:generic.armor' 'add_value' 8.0), (Mod 'minecraft:generic.knockback_resistance' 'add_value' 0.5)) $null $null 0.04)
+    'alexscaves/veilleur_oublie' = (Elite 'Veilleur Oublié' @('alexscaves:watcher') $ow $pal3 'melee' @((Vie 30 50)) $null @('minecraft:blindness') 0.04)
 }
-foreach ($k in $elites.Keys) { W "data/pack_lbc/apothic_elites/the_end/$k.json" $elites[$k] }
+foreach ($k in $elites.Keys) { W "data/pack_lbc/apothic_elites/$k.json" $elites[$k] }
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

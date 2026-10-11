@@ -1,7 +1,7 @@
 {
     "type":  "apotheosis:elite",
     "affix_data":  {
-                       "affix_chance":  0.5
+                       "affix_chance":  0.4
                    },
     "basic_data":  {
                        "constraints":  {
@@ -86,10 +86,10 @@
                                       "effect":  "minecraft:resistance"
                                   }
                               ],
-                  "enchant_chance":  0.35,
+                  "enchant_chance":  0.3,
                   "enchantment_levels":  {
-                                             "primary":  30,
-                                             "secondary":  20
+                                             "primary":  25,
+                                             "secondary":  15
                                          }
               },
     "success_chance":  0.02

@@ -6,5 +6,15 @@
     "item.apotheosis.gem.pack_lbc:the_end/cristal":  "Gemme de Cristal",
     "item.apotheosis.gem.pack_lbc:the_end/shulker":  "Gemme de Shulker",
     "item.apotheosis.gem.pack_lbc:the_end/prospecteur":  "Gemme du Prospecteur",
-    "gem.pack_lbc:the_end/prospecteur.bonus.pickaxe":  "Casser de la pierre de l\u0027End a %s%% de chances de donner une perle de l\u0027Ender."
+    "gem.pack_lbc:the_end/prospecteur.bonus.pickaxe":  "Casser de la pierre de l\u0027End a %s%% de chances de donner une perle de l\u0027Ender.",
+    "item.apotheosis.gem.pack_lbc:cavernes/sculk":  "Gemme du Sculk",
+    "item.apotheosis.gem.pack_lbc:cavernes/filon":  "Gemme du Filon",
+    "gem.pack_lbc:cavernes/filon.bonus.pickaxe":  "Casser de l\u0027ardoise des abîmes a %s%% de chances de donner du fer brut.",
+    "item.apotheosis.gem.pack_lbc:cavernes/toxique":  "Gemme Toxique",
+    "item.apotheosis.gem.pack_lbc:cavernes/magnetique":  "Gemme Magnétique",
+    "item.apotheosis.gem.pack_lbc:cavernes/primordiale":  "Gemme Primordiale",
+    "item.apotheosis.gem.pack_lbc:cavernes/abysses":  "Gemme des Abysses",
+    "item.apotheosis.gem.pack_lbc:the_nether/cendre":  "Gemme de Cendre",
+    "item.apotheosis.gem.pack_lbc:twilight/liche":  "Gemme de la Liche",
+    "item.apotheosis.gem.pack_lbc:aether/celeste":  "Gemme Céleste"
 }

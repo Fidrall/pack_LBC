@@ -1,0 +1,121 @@
+{
+    "type":  "apotheosis:elite",
+    "affix_data":  {
+                       "affix_chance":  0.4
+                   },
+    "basic_data":  {
+                       "constraints":  {
+                                           "dimensions":  [
+                                                              "minecraft:overworld"
+                                                          ]
+                                       },
+                       "name":  "Matriarche des Profondeurs",
+                       "spawn_conditions":  [
+                                                {
+                                                    "type":  "apotheosis:not",
+                                                    "spawn_condition":  {
+                                                                            "type":  "apotheosis:spawn_type",
+                                                                            "spawn_types":  [
+                                                                                                "spawn_egg",
+                                                                                                "spawner",
+                                                                                                "mob_summoned"
+                                                                                            ]
+                                                                        }
+                                                },
+                                                {
+                                                    "type":  "apotheosis:surface_type",
+                                                    "surface_type":  "below_surface"
+                                                }
+                                            ],
+                       "valid_gear_sets":  {
+                                               "haven":  [
+                                                             "#haven_melee"
+                                                         ],
+                                               "frontier":  [
+                                                                "#frontier_melee"
+                                                            ],
+                                               "ascent":  [
+                                                              "#ascent_melee"
+                                                          ],
+                                               "summit":  [
+                                                              "#summit_melee"
+                                                          ],
+                                               "pinnacle":  [
+                                                                "#pinnacle_melee"
+                                                            ]
+                                           },
+                       "weights":  {
+                                       "haven":  {
+                                                     "quality":  0.1,
+                                                     "weight":  100
+                                                 },
+                                       "frontier":  {
+                                                        "quality":  0.1,
+                                                        "weight":  100
+                                                    },
+                                       "ascent":  {
+                                                      "quality":  0.1,
+                                                      "weight":  100
+                                                  },
+                                       "summit":  {
+                                                      "quality":  0.1,
+                                                      "weight":  100
+                                                  },
+                                       "pinnacle":  {
+                                                        "quality":  0.1,
+                                                        "weight":  100
+                                                    }
+                                   },
+                       "nbt":  {
+                                   "Passengers":  [
+                                                      {
+                                                          "id":  "minecraft:area_effect_cloud",
+                                                          "Duration":  200000,
+                                                          "Radius":  3,
+                                                          "ReapplicationDelay":  20,
+                                                          "WaitTime":  0,
+                                                          "Particle":  {
+                                                                           "type":  "entity_effect",
+                                                                           "color":  0
+                                                                       },
+                                                          "potion_contents":  {
+                                                                                  "custom_effects":  [
+                                                                                                         {
+                                                                                                             "id":  "minecraft:poison",
+                                                                                                             "amplifier":  0,
+                                                                                                             "duration":  60
+                                                                                                         }
+                                                                                                     ]
+                                                                              }
+                                                      }
+                                                  ]
+                               }
+                   },
+    "entities":  [
+                     "minecraft:spider",
+                     "minecraft:cave_spider"
+                 ],
+    "stats":  {
+                  "attribute_modifiers":  [
+                                              {
+                                                  "attribute":  "minecraft:generic.max_health",
+                                                  "operation":  "add_value",
+                                                  "value":  {
+                                                                "min":  20,
+                                                                "max":  40
+                                                            }
+                                              },
+                                              {
+                                                  "attribute":  "minecraft:generic.attack_damage",
+                                                  "operation":  "add_multiplied_total",
+                                                  "value":  0.5
+                                              }
+                                          ],
+                  "enchant_chance":  0.3,
+                  "enchantment_levels":  {
+                                             "primary":  25,
+                                             "secondary":  15
+                                         }
+              },
+    "success_chance":  0.01
+}

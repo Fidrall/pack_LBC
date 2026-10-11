@@ -1,0 +1,49 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "dimensions":  [
+                                           "aether:the_aether"
+                                       ]
+                    },
+    "min_purity":  "flawed",
+    "unique":  true,
+    "weights":  {
+                    "ascent":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  30
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "apothic_attributes:projectile_damage",
+                        "gem_class":  "apotheosis:bow",
+                        "operation":  "add_multiplied_total",
+                        "values":  {
+                                       "flawed":  0.05,
+                                       "normal":  0.1,
+                                       "flawless":  0.15,
+                                       "perfect":  0.2
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:damage_reduction",
+                        "damage_type":  "lightning",
+                        "gem_class":  "apotheosis:chestplate",
+                        "values":  {
+                                       "flawed":  0.2,
+                                       "normal":  0.3,
+                                       "flawless":  0.4,
+                                       "perfect":  0.5
+                                   }
+                    }
+                ]
+}

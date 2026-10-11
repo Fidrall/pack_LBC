@@ -1,0 +1,49 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "biomes":  [
+                                       "alexscaves:primordial_caves"
+                                   ]
+                    },
+    "min_purity":  "flawed",
+    "unique":  true,
+    "weights":  {
+                    "ascent":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  30
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "minecraft:player.sweeping_damage_ratio",
+                        "gem_class":  "apotheosis:melee_weapon",
+                        "operation":  "add_value",
+                        "values":  {
+                                       "flawed":  0.1,
+                                       "normal":  0.2,
+                                       "flawless":  0.3,
+                                       "perfect":  0.45
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:damage_reduction",
+                        "damage_type":  "fall",
+                        "gem_class":  "apotheosis:leggings",
+                        "values":  {
+                                       "flawed":  0.2,
+                                       "normal":  0.3,
+                                       "flawless":  0.4,
+                                       "perfect":  0.5
+                                   }
+                    }
+                ]
+}

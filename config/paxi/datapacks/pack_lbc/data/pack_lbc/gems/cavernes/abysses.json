@@ -1,0 +1,82 @@
+{
+    "type":  "apotheosis:gem",
+    "constraints":  {
+                        "biomes":  [
+                                       "alexscaves:abyssal_chasm",
+                                       "minecraft:deep_ocean",
+                                       "minecraft:deep_cold_ocean",
+                                       "minecraft:deep_lukewarm_ocean",
+                                       "minecraft:deep_frozen_ocean"
+                                   ]
+                    },
+    "min_purity":  "flawed",
+    "unique":  true,
+    "weights":  {
+                    "ascent":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "summit":  {
+                                   "quality":  2,
+                                   "weight":  30
+                               },
+                    "pinnacle":  {
+                                     "quality":  2,
+                                     "weight":  30
+                                 }
+                },
+    "bonuses":  [
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "minecraft:generic.oxygen_bonus",
+                        "gem_class":  "apotheosis:helmet",
+                        "operation":  "add_value",
+                        "values":  {
+                                       "flawed":  1,
+                                       "normal":  2,
+                                       "flawless":  3,
+                                       "perfect":  4
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:attribute",
+                        "attribute":  "minecraft:generic.water_movement_efficiency",
+                        "gem_class":  "apotheosis:boots",
+                        "operation":  "add_value",
+                        "values":  {
+                                       "flawed":  0.15,
+                                       "normal":  0.25,
+                                       "flawless":  0.35,
+                                       "perfect":  0.5
+                                   }
+                    },
+                    {
+                        "type":  "apotheosis:mob_effect",
+                        "gem_class":  "apotheosis:chestplate",
+                        "mob_effect":  "minecraft:conduit_power",
+                        "target":  "hurt_self",
+                        "values":  {
+                                       "flawed":  {
+                                                      "duration":  100,
+                                                      "amplifier":  0,
+                                                      "cooldown":  300
+                                                  },
+                                       "normal":  {
+                                                      "duration":  140,
+                                                      "amplifier":  0,
+                                                      "cooldown":  300
+                                                  },
+                                       "flawless":  {
+                                                        "duration":  200,
+                                                        "amplifier":  0,
+                                                        "cooldown":  300
+                                                    },
+                                       "perfect":  {
+                                                       "duration":  300,
+                                                       "amplifier":  0,
+                                                       "cooldown":  300
+                                                   }
+                                   }
+                    }
+                ]
+}
