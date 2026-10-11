@@ -222,7 +222,6 @@ mr | silent-lib | conserver | requis par Treasure Bags
 mr | zfastnoise | perf | remplace Noisium
 mr | wyrmroost | jetable | dragons (remplace Ice and Fire) ; Royal Red renforce, griefing coupe
 mr | alexs-caves-continued | jetable | 6 biomes souterrains, rares (separation 1200)
-mr | legendary-monsters | jetable | une douzaine de boss et 13 structures (Overworld, Nether, End : Chorusent) ; remplace Stellarity ; Bomber et nid du Fungussus reduits (build-datapack section 8)
 mr | bossesrise | jetable | 5 boss a arenes ; roulade coupee (Combat Roll garde)
 mr | epic-knights-shields-armor-and-weapons | jetable | armures et armes medievales (+ compat Better Combat)
 mr | apothic-combat | qol | complement d'Apotheosis
@@ -267,4 +266,4 @@ mr | more-overlays-updated | client | F7 niveaux de lumiere, F9 bordures de chun
 mr | somake-spells-irons-spells-addon | jetable | 67 sorts Iron's + ecole Aqua (liens Cataclysm, Born in Chaos, familiers) ; packwiz re-ajoute Cataclysm en doublon -> le retirer
 cf | 1585352 | jetable | Twilight Spellbooks (Mangelox) : grimoires des boss du Twilight Forest
 cf | 1677981 | jetable | Apex Arcana (grandsigil) : 19 sorts ultimes ; config/irons_spellbooks_spell_config/grandsigil : pas de fabrication, legendaire
-mr | nullscape | conserver | terrain de l'End (blocs vanilla, cout nul en jeu) ; structures LM/Cataclysm/Choruslings etendues a ses biomes (build-datapack section 8)
+mr | nullscape | conserver | terrain de l'End (blocs vanilla, cout nul en jeu) ; citadelle Cataclysm etendue a ses biomes (build-datapack section 8)

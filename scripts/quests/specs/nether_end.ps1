@@ -54,18 +54,15 @@ $Quests = @(
          '',
          '- &dNullscape&r sculpte un terrain surréaliste : pics de cristal, terres d''ombre, landes du vide, squelettes de dragon et failles ;',
          '- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles ;',
-         '- &cLegendary Monsters&r y cache des tours de shulkers, les ruines d''une tour antique gardées par le &5Chorusent&r et une très rare &estation spatiale&r ;',
-         '- d''autres boss rôdent : l''&5Ender Guardian&r de Cataclysm, l''&5Obsidilith&r, et les créatures de l''End d''Hazennstuff.',
+         '- des boss rôdent : l''&5Ender Guardian&r de Cataclysm, l''&5Obsidilith&r, et les créatures de l''End d''Hazennstuff.',
          '',
          'N''oublie pas : c''est aussi là que se trouve la &epierre de l''End&r nécessaire à la &dlévitite&r des dirigeables !') }
-  @{ k='dreaming'; x=1.5; y=1.5; deps=@('end'); tasks=@('struct:legendary_monsters:shulker_tower'); crate='rare'
-     t='La tour des shulkers'; st='Legendary Monsters'
-     d=@('Une &etour&r perchée sur les îles de l''End, pleine de shulkers.',
-         '',
-         'Méfie-toi : certains n''en sont pas. Les &cShulker Mimics&r attendent qu''on s''approche…') }
-  @{ k='crystal'; x=3; y=1.5; deps=@('end'); tasks=@('kill:legendary_monsters:endersent'); crate='epique'
-     t='&5Le Chorusent'; st='Legendary Monsters'
-     d=@('Le &5Chorusent&r garde les &eruines de la tour antique&r, sur les hautes îles de l''End, entouré de Choruslings.',
+  @{ k='dreaming'; x=1.5; y=1.5; deps=@('end'); tasks=@('struct:nullscape:dragon_skeleton'); crate='commune'
+     t='Un squelette de dragon'; st='Nullscape'
+     d=@('D''immenses &eossements&r de dragon gisent sur les îles de l''End. D''autres dragons ont-ils vécu ici avant celui que tu as affronté ?') }
+  @{ k='crystal'; x=3; y=1.5; deps=@('end'); tasks=@('kill:bosses_of_mass_destruction:obsidilith'); crate='epique'
+     t='&5L''Obsidilith'; st='Bosses of Mass Destruction'
+     d=@('Une &earène d''obsidienne&r cache l''&5Obsidilith&r, un monolithe vivant aux attaques dévastatrices.',
          '',
          'Abats-le pour récupérer son butin.') }
   @{ k='acid'; x=4.5; y=1.5; deps=@('end'); tasks=@('struct:cataclysm:ruined_citadel'); crate='rare'

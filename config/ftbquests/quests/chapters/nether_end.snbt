@@ -364,7 +364,7 @@
 					id: "2E26806544F8CFAE"
 					item: {
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 						count: 1
 						id: "ftbquests:lootcrate"
@@ -375,7 +375,7 @@
 			tasks: [
 				{
 					id: "561A8B36D7351EF5"
-					structure: "legendary_monsters:shulker_tower"
+					structure: "nullscape:dragon_skeleton"
 					type: "structure"
 				}
 			]
@@ -400,7 +400,7 @@
 			]
 			tasks: [
 				{
-					entity: "legendary_monsters:endersent"
+					entity: "bosses_of_mass_destruction:obsidilith"
 					id: "0AE8895BCE3D82FE"
 					type: "kill"
 					value: 1L

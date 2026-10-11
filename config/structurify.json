@@ -20,10 +20,6 @@
                                      "exclude_from_overlap_prevention":  true
                                  },
                                  {
-                                     "name":  "legendary_monsters",
-                                     "exclude_from_overlap_prevention":  true
-                                 },
-                                 {
                                      "name":  "bosses_of_mass_destruction",
                                      "exclude_from_overlap_prevention":  true
                                  },

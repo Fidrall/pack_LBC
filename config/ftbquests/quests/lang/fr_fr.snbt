@@ -1850,12 +1850,10 @@
 		"&l&eAttention :&r&r si le bloc surchauffe, il se transforme en &6lave&r."
 	]
 	quest.32049634B2771331.quest_desc: [
-		"Une &etour&r perchée sur les îles de l'End, pleine de shulkers."
-		""
-		"Méfie-toi : certains n'en sont pas. Les &cShulker Mimics&r attendent qu'on s'approche…"
+		"D'immenses &eossements&r de dragon gisent sur les îles de l'End. D'autres dragons ont-ils vécu ici avant celui que tu as affronté ?"
 	]
-	quest.32049634B2771331.quest_subtitle: "Legendary Monsters"
-	quest.32049634B2771331.title: "La tour des shulkers"
+	quest.32049634B2771331.quest_subtitle: "Nullscape"
+	quest.32049634B2771331.title: "Un squelette de dragon"
 	quest.322078F5AA954906.quest_desc: [
 		"Utilise un &6Schéma et une Plume&r pour enregistrer une construction dans un fichier schéma."
 		""
@@ -2238,8 +2236,7 @@
 		""
 		"- &dNullscape&r sculpte un terrain surréaliste : pics de cristal, terres d'ombre, landes du vide, squelettes de dragon et failles ;"
 		"- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles ;"
-		"- &cLegendary Monsters&r y cache des tours de shulkers, les ruines d'une tour antique gardées par le &5Chorusent&r et une très rare &estation spatiale&r ;"
-		"- d'autres boss rôdent : l'&5Ender Guardian&r de Cataclysm, l'&5Obsidilith&r, et les créatures de l'End d'Hazennstuff."
+		"- des boss rôdent : l'&5Ender Guardian&r de Cataclysm, l'&5Obsidilith&r, et les créatures de l'End d'Hazennstuff."
 		""
 		"N'oublie pas : c'est aussi là que se trouve la &epierre de l'End&r nécessaire à la &dlévitite&r des dirigeables !"
 	]
@@ -4452,12 +4449,12 @@
 	quest.760EA1AC32DB5371.quest_subtitle: "Un amas de blocs vivant"
 	quest.760EA1AC32DB5371.title: "&cLe Magnetron"
 	quest.76100542C15576F4.quest_desc: [
-		"Le &5Chorusent&r garde les &eruines de la tour antique&r, sur les hautes îles de l'End, entouré de Choruslings."
+		"Une &earène d'obsidienne&r cache l'&5Obsidilith&r, un monolithe vivant aux attaques dévastatrices."
 		""
 		"Abats-le pour récupérer son butin."
 	]
-	quest.76100542C15576F4.quest_subtitle: "Legendary Monsters"
-	quest.76100542C15576F4.title: "&5Le Chorusent"
+	quest.76100542C15576F4.quest_subtitle: "Bosses of Mass Destruction"
+	quest.76100542C15576F4.title: "&5L'Obsidilith"
 	quest.77245D69B2335CEB.quest_desc: [
 		"Le &5Vagabond du Vide&r, le &5Reclus&r et le &5Serviteur de l'Ender&r rôdent dans les îles extérieures de l'End."
 		""

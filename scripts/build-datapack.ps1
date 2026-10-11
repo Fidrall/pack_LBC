@@ -231,18 +231,10 @@ $mon = [ordered]@{ bounding_box = 'full'; spawns = @([ordered]@{ type = 'minecra
 W 'data/minecraft/worldgen/structure/pillager_outpost.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#minecraft:has_structure/pillager_outpost'; step = 'surface_structures'; spawn_overrides = [ordered]@{ monster = $mon }; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:outpost/start'; size = 2; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })
 # minecraft:end_cities : Trek la redefinit (20/11) ; on garde un espacement un peu plus large (26/18).
 W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structures = @([ordered]@{ structure = 'minecraft:end_city'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387313; spacing = 26; separation = 18; spread_type = 'triangular' } })
-# Legendary Monsters : nid du Warped Fungussus tous les 7 chunks dans les forets biscornues -> 40/30 ;
-# Bombers (explosifs) poids 75 dans les deserts, presque autant que les zombies -> 15.
-W 'data/legendary_monsters/worldgen/structure_set/warped_fungussus_nest.json' ([ordered]@{ structures = @([ordered]@{ structure = 'legendary_monsters:warped_fungussus_nest'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; spacing = 40; separation = 30; salt = 5546645 } })
-W 'data/legendary_monsters/neoforge/biome_modifier/bomber.json' ([ordered]@{ type = 'neoforge:add_spawns'; biomes = 'minecraft:desert'; spawners = [ordered]@{ type = 'legendary_monsters:bomber'; weight = 15; minCount = 1; maxCount = 4 } })
 # Nullscape : les iles exterieures sont surtout ses 3 biomes (crystal_peaks, shadowlands, void_barrens) ; il ne garde que
-# end_highlands et small_end_islands en vanilla, et plus de end_midlands. Les structures de l'End de Legendary Monsters,
-# la Citadelle en ruine de Cataclysm (Ender Guardian) et les Choruslings y apparaissent donc aussi.
-$nulls = [ordered]@{ id = '#nullscape:all_nullscape_biomes'; required = $false }
-foreach ($t in 'legendary_monsters/tags/worldgen/biome/has_structure/shulker_tower_biomes', 'legendary_monsters/tags/worldgen/biome/has_structure/ancient_tower_remains_biomes', 'legendary_monsters/tags/worldgen/biome/has_structure/space_station_biomes', 'cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes') {
-    W "data/$t.json" ([ordered]@{ replace = $false; values = @($nulls) })
-}
-W 'data/legendary_monsters/neoforge/biome_modifier/chorusling.json' ([ordered]@{ type = 'neoforge:add_spawns'; biomes = @('minecraft:end_highlands', 'minecraft:end_midlands', 'minecraft:small_end_islands', 'nullscape:crystal_peaks', 'nullscape:shadowlands', 'nullscape:void_barrens'); spawners = @([ordered]@{ type = 'legendary_monsters:chorusling'; weight = 3; minCount = 1; maxCount = 1 }) })
+# end_highlands et small_end_islands en vanilla, et plus de end_midlands. La Citadelle en ruine de Cataclysm (Ender Guardian),
+# prevue pour les biomes vanilla seulement, y apparait donc aussi.
+W 'data/cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes.json' ([ordered]@{ replace = $false; values = @([ordered]@{ id = '#nullscape:all_nullscape_biomes'; required = $false }) })
 
 # ---------- 9. Familles de structures (repartition homogene) ----------
 # 321 petites structures (Moog's, Born in Chaos, Create Structures Arise, Farmer's, Philips, Explorify) avaient chacune

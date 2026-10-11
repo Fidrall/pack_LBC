@@ -214,7 +214,7 @@ hash = "322fe3356a67f6d51756aad41f3fdf8590ec452987dc21590fbb416ba251b21b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
-hash = "b49e3c9b6c6b271b32d0da461e8684fabad5aa9ecd8a6dc0a50864e742221fd1"
+hash = "68c47a15986ebdae507ca641e89fe9d05dad44923057b1d0ad95954de542f99e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/new_age.snbt"
@@ -246,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "23942200ee2d795121e83e03209f0b44396478186bdce0ec09b0026c322af890"
+hash = "0ff5f60a428334f815a5048047a89922bb4d47c14cf661f0e3143168fade96e2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -1359,30 +1359,6 @@ hash = "5cc008a7b38dda7122b90cbedc11d467457ec9f3526801d1137e18170e3a8b6d"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/worldgen/scroll_gen.json"
 hash = "6226ad38ea76e361d5515018becdbdb9a4e3c62cde69f2694d66ceb887a6fe29"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/neoforge/biome_modifier/bomber.json"
-hash = "f6d0274b90148a136c2b4852010f914608104aaf504fd9463d922825dd57eacb"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/neoforge/biome_modifier/chorusling.json"
-hash = "5726b83780d8617570699e1a222d4db817645ca13ff13c4d7b6383534002d034"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/tags/worldgen/biome/has_structure/ancient_tower_remains_biomes.json"
-hash = "e4d6a40d15d0ca0f6de643d5e0c0bce39a93272a5d66a5b24cb2b54f9e367628"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/tags/worldgen/biome/has_structure/shulker_tower_biomes.json"
-hash = "e4d6a40d15d0ca0f6de643d5e0c0bce39a93272a5d66a5b24cb2b54f9e367628"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/tags/worldgen/biome/has_structure/space_station_biomes.json"
-hash = "e4d6a40d15d0ca0f6de643d5e0c0bce39a93272a5d66a5b24cb2b54f9e367628"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/worldgen/structure_set/warped_fungussus_nest.json"
-hash = "1b1488b294925c80dd149f52572c6b56937c20b32adeb3c09f4c04f45c8cbbf8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/pillager_outpost.json"
@@ -3958,7 +3934,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "94304615f8550786a02504603a84aa80590847ddef9b07b02b7cf47946c1e9c3"
+hash = "d39a3a15432557fce730d16386cd10a8e2f0d5f5108be864907a4c7c6191972f"
 
 [[files]]
 file = "config/tectonic.json"
@@ -4940,11 +4916,6 @@ metafile = true
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
-metafile = true
-
-[[files]]
-file = "mods/legendary-monsters.pw.toml"
-hash = "5c4e00cc93b6cf4e37b98295186fb708aab0bcbd2c764579c1c0e22c8910330f"
 metafile = true
 
 [[files]]
