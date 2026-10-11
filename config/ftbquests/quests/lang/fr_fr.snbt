@@ -680,6 +680,11 @@
 		""
 		"La vitesse et le sens de rotation se règlent sur le panneau à l'avant ou à l'arrière du régulateur."
 	]
+	quest.0E36F4ABBFD064DF.quest_desc: [
+		"Récupère une &eclé d'écho&r sur un générateur d'ardoise, puis ouvre une &echambre forte&r."
+	]
+	quest.0E36F4ABBFD064DF.quest_subtitle: "La chambre forte d'ardoise"
+	quest.0E36F4ABBFD064DF.title: "Les richesses oubliées"
 	quest.0E3D366B37BED52B.quest_desc: [
 		"Le &2Naga&r est un grand serpent vert qui vit dans une &ecour entourée de haies&r, près du centre de la forêt."
 		""
@@ -942,6 +947,11 @@
 		""
 		"&cIl ne peut contenir qu'un seul enchantement à la fois.&r"
 	]
+	quest.15E7947F197BF7DF.quest_desc: [
+		"Trouve la &eclé du boss&r de la citadelle et ouvre sa salle."
+	]
+	quest.15E7947F197BF7DF.quest_subtitle: "La salle du trésor"
+	quest.15E7947F197BF7DF.title: "La clé du boss"
 	quest.1605A9755E36BD61.quest_desc: [
 		"La &6&lPoulie à Corde&r&r sert à construire des constructions animées qui montent et descendent, pour creuser ou faire des ascenseurs."
 		""
@@ -1441,6 +1451,11 @@
 	quest.2164C2B9C0A64BF4.quest_subtitle: "Les abysses sous l'océan"
 	quest.2164C2B9C0A64BF4.title: "&bAbyssal Chasm"
 	quest.216E2ED7D793F72A.quest_subtitle: "Butin rare lâché au hasard par les évocateurs et les archi-évocateurs."
+	quest.2189134BBBB81C74.quest_desc: [
+		"Dans les &3cités antiques&r, cherche une &ecarte&r : elle mène à l'&3Ancient Keep&r, un donjon d'ardoise des abîmes gardé par des créatures anciennes."
+	]
+	quest.2189134BBBB81C74.quest_subtitle: "Archaion"
+	quest.2189134BBBB81C74.title: "Des murmures dans les ruines"
 	quest.2192D2F22A2C17FD.quest_desc: [
 		"Une &eBobine Vide&r peut être transformée en quatre types de câbles avec le matériau correspondant :"
 		""
@@ -2933,6 +2948,11 @@
 	]
 	quest.42B1DCA72EEE5C1C.quest_subtitle: "Les sorts du nid d'améthyste"
 	quest.42B1DCA72EEE5C1C.title: "Le manuscrit cristallisé"
+	quest.42BCBB60DFC0A5B1.quest_desc: [
+		"Forge la &emasse d'écho&r avec une masse, un éclat d'écho et son gabarit."
+	]
+	quest.42BCBB60DFC0A5B1.quest_subtitle: "Une arme des profondeurs"
+	quest.42BCBB60DFC0A5B1.title: "La masse d'écho"
 	quest.42D083586F07CC9A.quest_desc: [
 		"Un grimoire en &efeuille d'acier&r."
 	]
@@ -3130,6 +3150,11 @@
 	quest.48A1C863C3D4B969.title: "Noyau solaire"
 	quest.48B836066C8C93E8.quest_subtitle: "Apprivoiser"
 	quest.48B836066C8C93E8.title: "Familier : Givrin"
+	quest.48BCE01947F7B0E8.quest_desc: [
+		"Ouvre &e100 coffres&r de structures. Chaque joueur a sa propre copie de chaque coffre : pas de jaloux !"
+	]
+	quest.48BCE01947F7B0E8.quest_subtitle: "100 coffres pillés"
+	quest.48BCE01947F7B0E8.title: "Centenaire"
 	quest.48D27DA06BA1F479.quest_desc: [
 		"Un des trois nouveaux &emétaux&r de Somake."
 	]
@@ -3176,6 +3201,11 @@
 	]
 	quest.498D22534A947B79.quest_subtitle: "Le pouvoir des évocateurs"
 	quest.4991C44BCC24F705.title: "&dCristal d'esprit absolu"
+	quest.49CBE5770D2EA92A.quest_desc: [
+		"Vaincs le &3Last of Deepslate&r, le gardien de l'Ancient Keep."
+	]
+	quest.49CBE5770D2EA92A.quest_subtitle: "Le gardien du donjon"
+	quest.49CBE5770D2EA92A.title: "&3Le Dernier des Abîmes"
 	quest.49E4AA14726CFAEB.quest_desc: [
 		"L'&bIceologer&r, un illager des glaces, lâche le &eTotem de Gel&r. L'&dIllusionniste&r lâche le &eTotem d'Illusion&r."
 		""
@@ -3884,6 +3914,11 @@
 	]
 	quest.5C6987E41A5D7B87.quest_subtitle: "Enchanter à la mode de l'Aether"
 	quest.5C6987E41A5D7B87.title: "L'Autel"
+	quest.5C75D49E5C26BC85.quest_desc: [
+		"Une &eépreuve&r sous-marine, inspirée des chambres d'épreuves."
+	]
+	quest.5C75D49E5C26BC85.quest_subtitle: "Une épreuve sous la mer"
+	quest.5C75D49E5C26BC85.title: "Le monument du trident"
 	quest.5C8A84C89C4CBFE6.quest_desc: [
 		"Le &eroulement linéaire&r fait glisser une partie de ton véhicule en ligne droite : portes coulissantes, trains d'atterrissage, rampes…"
 	]
@@ -4128,6 +4163,11 @@
 	quest.61666195C2F437BA.title: "&6Jetpacks"
 	quest.616968FEA10496D7.quest_subtitle: "Un des premiers boss"
 	quest.616968FEA10496D7.title: "Vaincre la Naga"
+	quest.616AC8FA0412F410.quest_desc: [
+		"Un donjon rempli de &apoison&r, avec sa propre clé de boss."
+	]
+	quest.616AC8FA0412F410.quest_subtitle: "Un donjon empoisonné"
+	quest.616AC8FA0412F410.title: "Le repaire toxique"
 	quest.618051035B4E9316.quest_subtitle: "Pour les animaux"
 	quest.618051035B4E9316.title: "Os de compagnon"
 	quest.618CDE98123F2697.quest_desc: [
@@ -4394,6 +4434,13 @@
 	quest.6659EBA759E55BD5.title: "Repas automatique"
 	quest.66630803C9EA0DEA.quest_subtitle: "Maîtrise le pouvoir &6sacré&r. Plus de &6puissance des sorts sacrés&r ou d'&6armure&r."
 	quest.66630803C9EA0DEA.title: "&6&lÉcole Sacrée"
+	quest.667D1FADD0043B55.quest_desc: [
+		"&eDungeons and Taverns&r ajoute des tavernes, des villages, des ruines… et des &edonjons&r avec des &echambres fortes&r."
+		""
+		"Les &eclés&r se trouvent dans le donjon lui-même : la dernière ouvre la salle du boss."
+	]
+	quest.667D1FADD0043B55.quest_subtitle: "Dungeons and Taverns"
+	quest.667D1FADD0043B55.title: "La citadelle solitaire"
 	quest.66A8B9C4C4AC291A.quest_subtitle: "Foudroie ceux qui t'attaquent, et te rend insensible à la foudre"
 	quest.66CF9B7A1C500A4E.quest_desc: [
 		"La &6&lBoîte de Vitesses&r&r transmet la rotation dans quatre directions."
@@ -4490,6 +4537,11 @@
 	quest.6A1CD498DB3C2A1B.title: "Diadème du dévoreur de galaxies"
 	quest.6A6BFD1C9FA41545.quest_subtitle: "Sort ultime"
 	quest.6A6BFD1C9FA41545.title: "Brise-ciel"
+	quest.6A6E45780CE1521A.quest_desc: [
+		"Entre dans l'&3Ancient Keep&r."
+	]
+	quest.6A6E45780CE1521A.quest_subtitle: "L'Ancient Keep"
+	quest.6A6E45780CE1521A.title: "Briser le donjon"
 	quest.6A7C0604FA1E82BB.quest_desc: [
 		"Se trouve dans les villages. Quand il est attaqué, le &egolem tonneau&r ferme son couvercle et se cache comme un tonneau, ce qui réduit les dégâts reçus de 90 %."
 		""
@@ -4579,6 +4631,11 @@
 	]
 	quest.6B59F8A48E274CDA.quest_subtitle: "Il faut une étoile du Nether"
 	quest.6B59F8A48E274CDA.title: "&5Lingots de Zénalite"
+	quest.6B617F18D7044F74.quest_desc: [
+		"Une &ecarte en 3D&r d'une zone de 4×4 à 16×16 chunks : tiens-la en main ou pose-la dans un &ecadre pour carte 3D&r. Parfait pour exposer ta base ou ta ville !"
+	]
+	quest.6B617F18D7044F74.quest_subtitle: "Maps 3D"
+	quest.6B617F18D7044F74.title: "La carte en relief"
 	quest.6B9E13665837ECA1.quest_desc: [
 		"Le &6téléporteur d'objets&r envoie une pile d'objets vers un autre téléporteur d'objets. Il fonctionne au &dTélé-jus&r."
 		""
@@ -5295,6 +5352,11 @@
 		""
 		"Envie d'un élevage ? Donne des Torcheflores à deux Renifleurs adultes pour faire naître une nouvelle génération."
 	]
+	quest.7829334A398EB609.quest_desc: [
+		"Pose un &echevalet&r, mets-y une &etoile&r et prends ta &epalette&r : tu peux peindre des tableaux pixel par pixel et les accrocher chez toi."
+	]
+	quest.7829334A398EB609.quest_subtitle: "Joy of Painting"
+	quest.7829334A398EB609.title: "La peinture"
 	quest.785CEB5E417A45EF.quest_desc: [
 		"Le &6Sifflet à Vapeur&r est un bloc musical activé par un signal de redstone, ou quand il est fixé sur un train."
 		""
@@ -5719,6 +5781,7 @@
 	task.3AD4F43742EABEE7.title: "Clique pour valider"
 	task.3D9F536C18CF7809.title: "Clique pour valider"
 	task.3F5AC72562569158.title: "Unités de contrainte"
+	task.43FADABA18FBD206.title: "Salle du boss ouverte !"
 	task.449AD8FC65D63BE4.title: "Le Nether est à moi"
 	task.4D81C19520048110.title: "Clique pour valider"
 	task.509D5321A4F9841D.title: "&6Je suis prêt"

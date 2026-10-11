@@ -198,7 +198,7 @@ hash = "3e94c3c4ae4d71c3c3da30ead0cc7eb2f413fa7d61d4f5c41018aeab909eaf8c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "cdc26a748f9e693877c851738ab82d559735b796f0cecda5edefbfe08b18df17"
+hash = "6db1c20947473a1393968aebf6f72759bee53d8d667df601b08598286b111eb1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
@@ -242,7 +242,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "256a51118273a5f851b75e203fbfe319024f106889c31dada0eb2e562b55ea54"
+hash = "d8ff2684d1d1af24ebab780a50388c9cc6a0391e1c1686008d44b44304d4515d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"

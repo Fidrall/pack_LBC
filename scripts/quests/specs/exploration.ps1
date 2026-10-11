@@ -172,4 +172,37 @@ $Quests = @(
          '… presque. Il reste des centaines de structures à découvrir, et des dimensions entières à explorer !',
          '',
          '&6&lBravo, Grand Explorateur !&r') }
+  # --- Lootr, Maps 3D, Joy of Painting
+  @{ k='lootr_100'; x=4.5; y=1.5; deps=@('lootr'); tasks=@('adv:lootr:100loot'); crate='rare'; optional=$true; icon='lootr:lootr_chest'
+     t='Centenaire'; st='100 coffres pillés'; d=@('Ouvre &e100 coffres&r de structures. Chaque joueur a sa propre copie de chaque coffre : pas de jaloux !') }
+  @{ k='map3d'; x=-3; y=3; deps=@('journeymap'); hideLines=$true; tasks=@('maps3d:map_3d'); crate='commune'; optional=$true
+     t='La carte en relief'; st='Maps 3D'
+     d=@('Une &ecarte en 3D&r d''une zone de 4×4 à 16×16 chunks : tiens-la en main ou pose-la dans un &ecadre pour carte 3D&r. Parfait pour exposer ta base ou ta ville !') }
+  @{ k='paint'; x=-4.5; y=3; deps=@('intro'); hideLines=$true; tasks=@('xercapaint:item_easel','xercapaint:item_palette'); crate='commune'; optional=$true
+     t='La peinture'; st='Joy of Painting'
+     d=@('Pose un &echevalet&r, mets-y une &etoile&r et prends ta &epalette&r : tu peux peindre des tableaux pixel par pixel et les accrocher chez toi.') }
+  # --- Dungeons and Taverns
+  @{ k='dnt_citadel'; x=4.5; y=9; deps=@('tavern'); tasks=@('struct:nova_structures:lone_citadel'); crate='rare'; optional=$true
+     t='La citadelle solitaire'; st='Dungeons and Taverns'
+     d=@('&eDungeons and Taverns&r ajoute des tavernes, des villages, des ruines… et des &edonjons&r avec des &echambres fortes&r.',
+         '',
+         'Les &eclés&r se trouvent dans le donjon lui-même : la dernière ouvre la salle du boss.') }
+  @{ k='dnt_toxic'; x=6; y=9; deps=@('dnt_citadel'); tasks=@('struct:nova_structures:toxic_lair'); crate='rare'; optional=$true
+     t='Le repaire toxique'; st='Un donjon empoisonné'; d=@('Un donjon rempli de &apoison&r, avec sa propre clé de boss.') }
+  @{ k='dnt_trident'; x=7.5; y=9; deps=@('dnt_citadel'); tasks=@('struct:nova_structures:trident_trial_monument'); crate='rare'; optional=$true
+     t='Le monument du trident'; st='Une épreuve sous la mer'; d=@('Une &eépreuve&r sous-marine, inspirée des chambres d''épreuves.') }
+  @{ k='dnt_key'; x=6; y=10.5; deps=@('dnt_citadel'); tasks=@('@check'); checkTitle='Salle du boss ouverte !'; icon='minecraft:trial_key'; crate='epique'; optional=$true
+     t='La clé du boss'; st='La salle du trésor'; d=@('Trouve la &eclé du boss&r de la citadelle et ouvre sa salle.') }
+  # --- Archaion (le donjon de la cite antique)
+  @{ k='arch_map'; x=-6; y=6; deps=@('ancientcity'); hideLines=$true; tasks=@('adv:archaion:obtain_map'); crate='commune'; optional=$true; icon='minecraft:filled_map'
+     t='Des murmures dans les ruines'; st='Archaion'
+     d=@('Dans les &3cités antiques&r, cherche une &ecarte&r : elle mène à l''&3Ancient Keep&r, un donjon d''ardoise des abîmes gardé par des créatures anciennes.') }
+  @{ k='arch_keep'; x=-7.5; y=6; deps=@('arch_map'); tasks=@('adv:archaion:enter_ancient_keep'); crate='rare'; optional=$true; icon='archaion:reinforced_deepslate_bricks'
+     t='Briser le donjon'; st='L''Ancient Keep'; d=@('Entre dans l''&3Ancient Keep&r.') }
+  @{ k='arch_vault'; x=-7.5; y=7.5; deps=@('arch_keep'); tasks=@('adv:archaion:open_deepslate_vault'); crate='rare'; optional=$true; icon='archaion:echo_key'
+     t='Les richesses oubliées'; st='La chambre forte d''ardoise'; d=@('Récupère une &eclé d''écho&r sur un générateur d''ardoise, puis ouvre une &echambre forte&r.') }
+  @{ k='arch_boss'; x=-6; y=7.5; deps=@('arch_keep'); tasks=@('adv:archaion:kill_last_of_deepslate'); crate='legendaire'; optional=$true; icon='archaion:echo_charge'
+     t='&3Le Dernier des Abîmes'; st='Le gardien du donjon'; d=@('Vaincs le &3Last of Deepslate&r, le gardien de l''Ancient Keep.') }
+  @{ k='arch_mace'; x=-6; y=9; deps=@('arch_boss'); tasks=@('adv:archaion:craft_echo_mace'); crate='epique'; optional=$true; icon='archaion:echo_mace'
+     t='La masse d''écho'; st='Une arme des profondeurs'; d=@('Forge la &emasse d''écho&r avec une masse, un éclat d''écho et son gabarit.') }
 )

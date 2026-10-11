@@ -242,3 +242,66 @@ quest.1C68934A9535EB9C.quest_desc: [
   "&6&lBravo, Grand Explorateur !&r"
 ]
 task.67B3D076689320C9.title: "Je suis un grand explorateur"
+quest.48BCE01947F7B0E8.title: "Centenaire"
+quest.48BCE01947F7B0E8.quest_subtitle: "100 coffres pillés"
+quest.48BCE01947F7B0E8.quest_desc: [
+  "Ouvre &e100 coffres&r de structures. Chaque joueur a sa propre copie de chaque coffre : pas de jaloux !"
+]
+quest.6B617F18D7044F74.title: "La carte en relief"
+quest.6B617F18D7044F74.quest_subtitle: "Maps 3D"
+quest.6B617F18D7044F74.quest_desc: [
+  "Une &ecarte en 3D&r d'une zone de 4×4 à 16×16 chunks : tiens-la en main ou pose-la dans un &ecadre pour carte 3D&r. Parfait pour exposer ta base ou ta ville !"
+]
+quest.7829334A398EB609.title: "La peinture"
+quest.7829334A398EB609.quest_subtitle: "Joy of Painting"
+quest.7829334A398EB609.quest_desc: [
+  "Pose un &echevalet&r, mets-y une &etoile&r et prends ta &epalette&r : tu peux peindre des tableaux pixel par pixel et les accrocher chez toi."
+]
+quest.667D1FADD0043B55.title: "La citadelle solitaire"
+quest.667D1FADD0043B55.quest_subtitle: "Dungeons and Taverns"
+quest.667D1FADD0043B55.quest_desc: [
+  "&eDungeons and Taverns&r ajoute des tavernes, des villages, des ruines… et des &edonjons&r avec des &echambres fortes&r."
+  ""
+  "Les &eclés&r se trouvent dans le donjon lui-même : la dernière ouvre la salle du boss."
+]
+quest.616AC8FA0412F410.title: "Le repaire toxique"
+quest.616AC8FA0412F410.quest_subtitle: "Un donjon empoisonné"
+quest.616AC8FA0412F410.quest_desc: [
+  "Un donjon rempli de &apoison&r, avec sa propre clé de boss."
+]
+quest.5C75D49E5C26BC85.title: "Le monument du trident"
+quest.5C75D49E5C26BC85.quest_subtitle: "Une épreuve sous la mer"
+quest.5C75D49E5C26BC85.quest_desc: [
+  "Une &eépreuve&r sous-marine, inspirée des chambres d'épreuves."
+]
+quest.15E7947F197BF7DF.title: "La clé du boss"
+quest.15E7947F197BF7DF.quest_subtitle: "La salle du trésor"
+quest.15E7947F197BF7DF.quest_desc: [
+  "Trouve la &eclé du boss&r de la citadelle et ouvre sa salle."
+]
+task.43FADABA18FBD206.title: "Salle du boss ouverte !"
+quest.2189134BBBB81C74.title: "Des murmures dans les ruines"
+quest.2189134BBBB81C74.quest_subtitle: "Archaion"
+quest.2189134BBBB81C74.quest_desc: [
+  "Dans les &3cités antiques&r, cherche une &ecarte&r : elle mène à l'&3Ancient Keep&r, un donjon d'ardoise des abîmes gardé par des créatures anciennes."
+]
+quest.6A6E45780CE1521A.title: "Briser le donjon"
+quest.6A6E45780CE1521A.quest_subtitle: "L'Ancient Keep"
+quest.6A6E45780CE1521A.quest_desc: [
+  "Entre dans l'&3Ancient Keep&r."
+]
+quest.0E36F4ABBFD064DF.title: "Les richesses oubliées"
+quest.0E36F4ABBFD064DF.quest_subtitle: "La chambre forte d'ardoise"
+quest.0E36F4ABBFD064DF.quest_desc: [
+  "Récupère une &eclé d'écho&r sur un générateur d'ardoise, puis ouvre une &echambre forte&r."
+]
+quest.49CBE5770D2EA92A.title: "&3Le Dernier des Abîmes"
+quest.49CBE5770D2EA92A.quest_subtitle: "Le gardien du donjon"
+quest.49CBE5770D2EA92A.quest_desc: [
+  "Vaincs le &3Last of Deepslate&r, le gardien de l'Ancient Keep."
+]
+quest.42BCBB60DFC0A5B1.title: "La masse d'écho"
+quest.42BCBB60DFC0A5B1.quest_subtitle: "Une arme des profondeurs"
+quest.42BCBB60DFC0A5B1.quest_desc: [
+  "Forge la &emasse d'écho&r avec une masse, un éclat d'écho et son gabarit."
+]

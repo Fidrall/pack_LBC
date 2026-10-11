@@ -917,5 +917,366 @@
 			x: 0d
 			y: 9d
 		}
+		{
+			dependencies: ["3CECB75C777B8B2E"]
+			icon: {
+				id: "lootr:lootr_chest"
+			}
+			id: "48BCE01947F7B0E8"
+			optional: true
+			rewards: [
+				{
+					id: "3562F62D206F278F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:100loot"
+					criterion: ""
+					id: "005A993784BE5A5F"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BD538342D7EAFE9"]
+			hide_dependency_lines: true
+			id: "6B617F18D7044F74"
+			optional: true
+			rewards: [
+				{
+					id: "6406CB90C7B7D85B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2CE0A9085DBBFA01"
+					item: { count: 1, id: "maps3d:map_3d" }
+					type: "item"
+				}
+			]
+			x: -3d
+			y: 3d
+		}
+		{
+			dependencies: ["65E6B8689DFD83B1"]
+			hide_dependency_lines: true
+			id: "7829334A398EB609"
+			optional: true
+			rewards: [
+				{
+					id: "62812EE678981131"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "12824919A397C8C9"
+					item: { count: 1, id: "xercapaint:item_easel" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "013E8AA31551022F"
+					item: { count: 1, id: "xercapaint:item_palette" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3d
+		}
+		{
+			dependencies: ["14C694F523C79625"]
+			id: "667D1FADD0043B55"
+			optional: true
+			rewards: [
+				{
+					id: "50C22E4588F2E214"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E77F5DB72E15D61"
+					structure: "nova_structures:lone_citadel"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: 9d
+		}
+		{
+			dependencies: ["667D1FADD0043B55"]
+			id: "616AC8FA0412F410"
+			optional: true
+			rewards: [
+				{
+					id: "7FFF7FFA7864610E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "46F3C8E16982418F"
+					structure: "nova_structures:toxic_lair"
+					type: "structure"
+				}
+			]
+			x: 6d
+			y: 9d
+		}
+		{
+			dependencies: ["667D1FADD0043B55"]
+			id: "5C75D49E5C26BC85"
+			optional: true
+			rewards: [
+				{
+					id: "20BD4B653B40513E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4D1EC68872E79B6A"
+					structure: "nova_structures:trident_trial_monument"
+					type: "structure"
+				}
+			]
+			x: 7.5d
+			y: 9d
+		}
+		{
+			dependencies: ["667D1FADD0043B55"]
+			icon: {
+				id: "minecraft:trial_key"
+			}
+			id: "15E7947F197BF7DF"
+			optional: true
+			rewards: [
+				{
+					id: "29399E8E3D56B358"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "43FADABA18FBD206"
+					type: "checkmark"
+				}
+			]
+			x: 6d
+			y: 10.5d
+		}
+		{
+			dependencies: ["20BBDA9AC4B20474"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "2189134BBBB81C74"
+			optional: true
+			rewards: [
+				{
+					id: "596A8874923D6BA4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "archaion:obtain_map"
+					criterion: ""
+					id: "456C3C02A1C20177"
+					type: "advancement"
+				}
+			]
+			x: -6d
+			y: 6d
+		}
+		{
+			dependencies: ["2189134BBBB81C74"]
+			icon: {
+				id: "archaion:reinforced_deepslate_bricks"
+			}
+			id: "6A6E45780CE1521A"
+			optional: true
+			rewards: [
+				{
+					id: "158DDD8F68AC2370"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "archaion:enter_ancient_keep"
+					criterion: ""
+					id: "1C29B5D3CD3FC505"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: 6d
+		}
+		{
+			dependencies: ["6A6E45780CE1521A"]
+			icon: {
+				id: "archaion:echo_key"
+			}
+			id: "0E36F4ABBFD064DF"
+			optional: true
+			rewards: [
+				{
+					id: "089BE14D73A367F8"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "archaion:open_deepslate_vault"
+					criterion: ""
+					id: "176D5F0460DC3B19"
+					type: "advancement"
+				}
+			]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6A6E45780CE1521A"]
+			icon: {
+				id: "archaion:echo_charge"
+			}
+			id: "49CBE5770D2EA92A"
+			optional: true
+			rewards: [
+				{
+					id: "283FEAD6ECA75B44"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "archaion:kill_last_of_deepslate"
+					criterion: ""
+					id: "29FE07CCCBD6FD78"
+					type: "advancement"
+				}
+			]
+			x: -6d
+			y: 7.5d
+		}
+		{
+			dependencies: ["49CBE5770D2EA92A"]
+			icon: {
+				id: "archaion:echo_mace"
+			}
+			id: "42BCBB60DFC0A5B1"
+			optional: true
+			rewards: [
+				{
+					id: "7ADB61F3EAECD15A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "archaion:craft_echo_mace"
+					criterion: ""
+					id: "71B6A434B8910C70"
+					type: "advancement"
+				}
+			]
+			x: -6d
+			y: 9d
+		}
 	]
 }
