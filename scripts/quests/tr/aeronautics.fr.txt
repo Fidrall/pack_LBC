@@ -11,7 +11,7 @@ quest.48F827FD3545398E.quest_desc: [
   ""
   "Ce chapitre te guide pas à pas : faire bouger ta première construction, gonfler ton premier ballon, te propulser, puis piloter, et enfin maîtriser la lévitite et les propulseurs."
   ""
-  "&aAstuce :&r le &6Ponder&r (touche Z en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !"
+  "&aAstuce :&r le &6Ponder&r (touche W en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !"
   ""
   "&7Les vaisseaux sont aussi le meilleur moyen de voyager loin sur ce serveur : les waystones et les téléporteurs coûtent cher sur les longues distances."
 ]
@@ -392,31 +392,26 @@ quest.72BCCD2255CBE908.quest_desc: [
 quest.1E4E4CCC6E1104DC.title: "&2Les véhicules terrestres"
 quest.1E4E4CCC6E1104DC.quest_subtitle: "Pas besoin de voler pour voyager"
 quest.1E4E4CCC6E1104DC.quest_desc: [
-  "Le &2Support de Roue&r permet à une construction simulée de &2rouler&r."
+  "Avec &2Create: Tracks+&r, une construction simulée peut &2rouler&r sur des &echenilles&r."
   ""
-  "- Un signal de redstone par le dessus &cfreine&r la roue."
-  "- Un signal par le côté la fait &bbraquer&r de ce côté."
+  "Le &esupport de chenille&r se fixe sous ton véhicule ; ajoute ensuite des roues motrices et des chenilles."
   ""
   "Voitures, camions, chars… tout est possible !"
 ]
-quest.5FE14C4503C34921.title: "Les pneus"
+quest.5FE14C4503C34921.title: "Les chenilles"
 quest.5FE14C4503C34921.quest_subtitle: "Pour tous les terrains"
 quest.5FE14C4503C34921.quest_desc: [
-  "Fais un clic droit sur un support de roue avec un pneu pour l'installer."
+  "La &eroue motrice&r fait avancer la chenille, et la &echenille à suspension&r absorbe les bosses du terrain."
   ""
-  "Il en existe plusieurs tailles : &epetit, normal, grand et monstrueux&r."
+  "Il en existe plusieurs tailles, jusqu'aux &egrandes chenilles&r pour les engins lourds."
 ]
 quest.1BF5491FFC8A97FF.title: "&6Le tunnelier"
 quest.1BF5491FFC8A97FF.quest_subtitle: "Creuser des tunnels à la machine"
 quest.1BF5491FFC8A97FF.quest_desc: [
-  "Le &6Roulement de Forage&r, équipé de &6Roues de Coupe&r et d'un rangement, devient une &6foreuse géante&r."
+  "Monte des &6perceuses mécaniques&r à l'avant d'un véhicule à chenilles, ajoute un rangement, et tu as un &etunnelier&r !"
   ""
-  "- Les roues de coupe cassent les blocs &btout autour d'elles&r, et s'attachent toutes seules sans colle."
-  "- Il tourne à 1/4 de la vitesse reçue, et la vitesse de minage dépend de la rotation."
-  "- Plus il casse de blocs à la fois, plus il ralentit : plusieurs roulements compensent."
-  "- Les objets vont dans le rangement de la foreuse. Quand il est plein, elle s'arrête : vide-le directement depuis le roulement."
-  ""
-  "Monte-le sur un véhicule à roues et tu as un &etunnelier&r !"
+  "- Les perceuses cassent les blocs devant elles pendant que le véhicule avance."
+  "- Les objets vont dans les rangements du véhicule."
 ]
 quest.45A82A0D7A2A252B.title: "&6&lMaître des Airs"
 quest.45A82A0D7A2A252B.quest_subtitle: "L'objectif final du chapitre"
@@ -428,4 +423,71 @@ quest.45A82A0D7A2A252B.quest_desc: [
   "Ton vaisseau pourra devenir ta &6base volante&r : ferme, usine, entrepôt… tout peut voler !"
   ""
   "&6&lBravo, Maître des Airs !&r"
+]
+quest.3A9B7134B76FD237.title: "&9Les voiliers"
+quest.3A9B7134B76FD237.quest_subtitle: "Create: Deep Seas"
+quest.3A9B7134B76FD237.quest_desc: [
+  "&9Deep Seas&r construit des bateaux avec Create : &evoiles&r qui avancent avec le vent, moteurs, gouvernails, ancres et bouées."
+  ""
+  "Et sous la surface : des &esous-marins&r avec ballasts, sonar et réserve d'oxygène."
+]
+quest.7E9E74C003E37EAF.title: "Le moteur de bateau"
+quest.7E9E74C003E37EAF.quest_subtitle: "Quand il n'y a pas de vent"
+quest.7E9E74C003E37EAF.quest_desc: [
+  "Un &emoteur&r pour avancer même sans vent."
+]
+quest.62E66E9399E31004.title: "L'ancre"
+quest.62E66E9399E31004.quest_subtitle: "Rester à quai"
+quest.62E66E9399E31004.quest_desc: [
+  "Une &eancre&r pour immobiliser ton bateau."
+]
+quest.25CACEEFB75C11CF.title: "&3Le sous-marin"
+quest.25CACEEFB75C11CF.quest_subtitle: "Plonger et remonter"
+quest.25CACEEFB75C11CF.quest_desc: [
+  "Les &eballasts&r se remplissent d'eau pour plonger et se vident pour remonter."
+]
+quest.1BD17B391C7F6F8E.title: "L'hélice de sous-marin"
+quest.1BD17B391C7F6F8E.quest_subtitle: "Avancer sous l'eau"
+quest.1BD17B391C7F6F8E.quest_desc: [
+  "Une &ehélice&r faite pour avancer sous l'eau."
+]
+quest.0EA8342679F36F8C.title: "Le sonar"
+quest.0EA8342679F36F8C.quest_subtitle: "Voir dans les profondeurs"
+quest.0EA8342679F36F8C.quest_desc: [
+  "Un &esonar&r pour repérer ce qui t'entoure dans le noir des abysses."
+]
+quest.7AB96C85FB3F6204.title: "Le diffuseur d'oxygène"
+quest.7AB96C85FB3F6204.quest_subtitle: "Respirer à bord"
+quest.7AB96C85FB3F6204.quest_desc: [
+  "Un &ediffuseur d'oxygène&r pour respirer dans ton sous-marin."
+]
+quest.34A13CE312D6DF46.title: "Le gyroscope"
+quest.34A13CE312D6DF46.quest_subtitle: "Create: Aeroworks"
+quest.34A13CE312D6DF46.quest_desc: [
+  "&eAeroworks&r ajoute un &egyroscope&r qui garde ton appareil à l'horizontale, et des &ecommandes&r de pilotage : pupitres, manches, palonniers, manettes des gaz, volants…"
+]
+quest.3AE2BE9C9FF60093.title: "Le pupitre de commande"
+quest.3AE2BE9C9FF60093.quest_subtitle: "Un vrai cockpit"
+quest.3AE2BE9C9FF60093.quest_desc: [
+  "Un &epupitre&r où installer tes modules de commande (volant, manche, boutons…)."
+]
+quest.50C1097E997C6AF7.title: "Le servomoteur"
+quest.50C1097E997C6AF7.quest_subtitle: "Tourner à l'angle voulu"
+quest.50C1097E997C6AF7.quest_desc: [
+  "Un &eservomoteur&r qui oriente précisément une pièce."
+]
+quest.5C8A84C89C4CBFE6.title: "Le roulement linéaire"
+quest.5C8A84C89C4CBFE6.quest_subtitle: "Create: Linear Bearing"
+quest.5C8A84C89C4CBFE6.quest_desc: [
+  "Le &eroulement linéaire&r fait glisser une partie de ton véhicule en ligne droite : portes coulissantes, trains d'atterrissage, rampes…"
+]
+quest.3CC37D850FE7A119.title: "Les tuyaux d'amarrage"
+quest.3CC37D850FE7A119.quest_subtitle: "VS Hose Connectors"
+quest.3CC37D850FE7A119.quest_desc: [
+  "Relie ton dirigeable au sol (ou à un autre véhicule) avec des &etuyaux&r, des &ecâbles&r ou des &echaînes&r : fluides, objets et électricité passent d'un côté à l'autre."
+]
+quest.1E46493FCC3F7F19.title: "Le tuyau à objets"
+quest.1E46493FCC3F7F19.quest_subtitle: "Ravitailler en vol"
+quest.1E46493FCC3F7F19.quest_desc: [
+  "Un &etuyau à objets&r pour charger ou décharger ton dirigeable."
 ]

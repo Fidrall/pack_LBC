@@ -315,30 +315,25 @@ $Quests = @(
          '',
          'La version avancée permet de régler l''angle maximum de chaque côté.') }
 
-  # --- Offroad
-  @{ k='wheelmount'; x=-4.5; y=8; deps=@('assembler'); tasks=@('offroad:wheel_mount*4'); crate='commune'
+  # --- Vehicules terrestres : Create Tracks+ (remplace Offroad, retire du pack)
+  @{ k='wheelmount'; x=-4.5; y=8; deps=@('assembler'); tasks=@('tracks:track_mount'); crate='commune'
      t='&2Les véhicules terrestres'; st='Pas besoin de voler pour voyager'
-     d=@('Le &2Support de Roue&r permet à une construction simulée de &2rouler&r.',
+     d=@('Avec &2Create: Tracks+&r, une construction simulée peut &2rouler&r sur des &echenilles&r.',
          '',
-         '- Un signal de redstone par le dessus &cfreine&r la roue.',
-         '- Un signal par le côté la fait &bbraquer&r de ce côté.',
+         'Le &esupport de chenille&r se fixe sous ton véhicule ; ajoute ensuite des roues motrices et des chenilles.',
          '',
          'Voitures, camions, chars… tout est possible !') }
-  @{ k='tires'; x=-6; y=8; deps=@('wheelmount'); tasks=@('offroad:tire*4'); crate='commune'
-     t='Les pneus'; st='Pour tous les terrains'
-     d=@('Fais un clic droit sur un support de roue avec un pneu pour l''installer.',
+  @{ k='tires'; x=-6; y=8; deps=@('wheelmount'); tasks=@('tracks:track_drive_wheel','tracks:suspension_track'); crate='commune'
+     t='Les chenilles'; st='Pour tous les terrains'
+     d=@('La &eroue motrice&r fait avancer la chenille, et la &echenille à suspension&r absorbe les bosses du terrain.',
          '',
-         'Il en existe plusieurs tailles : &epetit, normal, grand et monstrueux&r.') }
-  @{ k='borehead'; x=-6; y=9.5; deps=@('tires'); tasks=@('offroad:borehead_bearing','offroad:rockcutting_wheel'); crate='rare'
+         'Il en existe plusieurs tailles, jusqu''aux &egrandes chenilles&r pour les engins lourds.') }
+  @{ k='borehead'; x=-6; y=9.5; deps=@('tires'); tasks=@('create:mechanical_drill*4'); crate='rare'
      t='&6Le tunnelier'; st='Creuser des tunnels à la machine'
-     d=@('Le &6Roulement de Forage&r, équipé de &6Roues de Coupe&r et d''un rangement, devient une &6foreuse géante&r.',
+     d=@('Monte des &6perceuses mécaniques&r à l''avant d''un véhicule à chenilles, ajoute un rangement, et tu as un &etunnelier&r !',
          '',
-         '- Les roues de coupe cassent les blocs &btout autour d''elles&r, et s''attachent toutes seules sans colle.',
-         '- Il tourne à 1/4 de la vitesse reçue, et la vitesse de minage dépend de la rotation.',
-         '- Plus il casse de blocs à la fois, plus il ralentit : plusieurs roulements compensent.',
-         '- Les objets vont dans le rangement de la foreuse. Quand il est plein, elle s''arrête : vide-le directement depuis le roulement.',
-         '',
-         'Monte-le sur un véhicule à roues et tu as un &etunnelier&r !') }
+         '- Les perceuses cassent les blocs devant elles pendant que le véhicule avance.',
+         '- Les objets vont dans les rangements du véhicule.') }
 
   # --- Final
   @{ k='master'; x=7.5; y=12.5; size=2.5; shape='gear'; deps=@('levitite','ion','navtable','docking'); tasks=@('aeronautics:levitite*32','createpropulsion:vector_thruster*4','simulated:navigation_table','simulated:docking_connector*2'); crate='legendaire'; xp=2000
@@ -350,4 +345,38 @@ $Quests = @(
          'Ton vaisseau pourra devenir ta &6base volante&r : ferme, usine, entrepôt… tout peut voler !',
          '',
          '&6&lBravo, Maître des Airs !&r') }
+  # --- Sur l'eau et sous l'eau (Create: Deep Seas)
+  @{ k='sea_sail'; x=12; y=0; deps=@('intro'); hideLines=$true; tasks=@('create_high_seas:white_sail'); crate='commune'; optional=$true
+     t='&9Les voiliers'; st='Create: Deep Seas'
+     d=@('&9Deep Seas&r construit des bateaux avec Create : &evoiles&r qui avancent avec le vent, moteurs, gouvernails, ancres et bouées.',
+         '',
+         'Et sous la surface : des &esous-marins&r avec ballasts, sonar et réserve d''oxygène.') }
+  @{ k='sea_engine'; x=13.5; y=0; deps=@('sea_sail'); tasks=@('create_high_seas:boat_engine'); crate='commune'; optional=$true
+     t='Le moteur de bateau'; st='Quand il n''y a pas de vent'; d=@('Un &emoteur&r pour avancer même sans vent.') }
+  @{ k='sea_anchor'; x=15; y=0; deps=@('sea_sail'); tasks=@('create_high_seas:anchor'); crate='commune'; optional=$true
+     t='L''ancre'; st='Rester à quai'; d=@('Une &eancre&r pour immobiliser ton bateau.') }
+  @{ k='sub_ballast'; x=12; y=1.5; deps=@('sea_sail'); tasks=@('create_submarine:ballast_tank'); crate='rare'; optional=$true
+     t='&3Le sous-marin'; st='Plonger et remonter'; d=@('Les &eballasts&r se remplissent d''eau pour plonger et se vident pour remonter.') }
+  @{ k='sub_prop'; x=13.5; y=1.5; deps=@('sub_ballast'); tasks=@('create_submarine:submarine_propeller'); crate='rare'; optional=$true
+     t='L''hélice de sous-marin'; st='Avancer sous l''eau'; d=@('Une &ehélice&r faite pour avancer sous l''eau.') }
+  @{ k='sub_sonar'; x=15; y=1.5; deps=@('sub_ballast'); tasks=@('create_submarine:sonar'); crate='rare'; optional=$true
+     t='Le sonar'; st='Voir dans les profondeurs'; d=@('Un &esonar&r pour repérer ce qui t''entoure dans le noir des abysses.') }
+  @{ k='sub_oxygen'; x=13.5; y=3; deps=@('sub_ballast'); tasks=@('create_submarine:oxygene_diffuser'); crate='rare'; optional=$true
+     t='Le diffuseur d''oxygène'; st='Respirer à bord'; d=@('Un &ediffuseur d''oxygène&r pour respirer dans ton sous-marin.') }
+  # --- Commandes et pièces de vehicules (Aeroworks, Linear Bearing, Hose Connectors)
+  @{ k='aw_gyro'; x=12; y=4.5; deps=@('firstflight'); hideLines=$true; tasks=@('aeroworks:gyroscope'); crate='rare'; optional=$true
+     t='Le gyroscope'; st='Create: Aeroworks'
+     d=@('&eAeroworks&r ajoute un &egyroscope&r qui garde ton appareil à l''horizontale, et des &ecommandes&r de pilotage : pupitres, manches, palonniers, manettes des gaz, volants…') }
+  @{ k='aw_desk'; x=13.5; y=4.5; deps=@('aw_gyro'); tasks=@('aeroworks:control_desk'); crate='commune'; optional=$true
+     t='Le pupitre de commande'; st='Un vrai cockpit'; d=@('Un &epupitre&r où installer tes modules de commande (volant, manche, boutons…).') }
+  @{ k='aw_servo'; x=15; y=4.5; deps=@('aw_gyro'); tasks=@('aeroworks:mechanical_servo'); crate='commune'; optional=$true
+     t='Le servomoteur'; st='Tourner à l''angle voulu'; d=@('Un &eservomoteur&r qui oriente précisément une pièce.') }
+  @{ k='lb_bearing'; x=12; y=6; deps=@('firstflight'); hideLines=$true; tasks=@('linearbearing:linear_bearing'); crate='commune'; optional=$true
+     t='Le roulement linéaire'; st='Create: Linear Bearing'
+     d=@('Le &eroulement linéaire&r fait glisser une partie de ton véhicule en ligne droite : portes coulissantes, trains d''atterrissage, rampes…') }
+  @{ k='hose'; x=13.5; y=6; deps=@('firstflight'); hideLines=$true; tasks=@('vsfluidlink:hose_connector'); crate='commune'; optional=$true
+     t='Les tuyaux d''amarrage'; st='VS Hose Connectors'
+     d=@('Relie ton dirigeable au sol (ou à un autre véhicule) avec des &etuyaux&r, des &ecâbles&r ou des &echaînes&r : fluides, objets et électricité passent d''un côté à l''autre.') }
+  @{ k='hose_items'; x=15; y=6; deps=@('hose'); tasks=@('vsfluidlink:item_hose_connector'); crate='commune'; optional=$true
+     t='Le tuyau à objets'; st='Ravitailler en vol'; d=@('Un &etuyau à objets&r pour charger ou décharger ton dirigeable.') }
 )

@@ -1169,9 +1169,9 @@
 			]
 			tasks: [
 				{
-					count: 4L
+					count: 1L
 					id: "20A3D47C911E0E3D"
-					item: { count: 1, id: "offroad:wheel_mount" }
+					item: { count: 1, id: "tracks:track_mount" }
 					type: "item"
 				}
 			]
@@ -1196,9 +1196,15 @@
 			]
 			tasks: [
 				{
-					count: 4L
+					count: 1L
 					id: "1705D1CBE41D9BA4"
-					item: { count: 1, id: "offroad:tire" }
+					item: { count: 1, id: "tracks:track_drive_wheel" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "7D6D6D648C8C7238"
+					item: { count: 1, id: "tracks:suspension_track" }
 					type: "item"
 				}
 			]
@@ -1223,15 +1229,9 @@
 			]
 			tasks: [
 				{
-					count: 1L
+					count: 4L
 					id: "3CDC15593047F383"
-					item: { count: 1, id: "offroad:borehead_bearing" }
-					type: "item"
-				}
-				{
-					count: 1L
-					id: "09DEE58C4D4359C2"
-					item: { count: 1, id: "offroad:rockcutting_wheel" }
+					item: { count: 1, id: "create:mechanical_drill" }
 					type: "item"
 				}
 			]
@@ -1289,6 +1289,374 @@
 			]
 			x: 7.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["48F827FD3545398E"]
+			hide_dependency_lines: true
+			id: "3A9B7134B76FD237"
+			optional: true
+			rewards: [
+				{
+					id: "10C7555E21B8A92B"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7FD669763FB51FF0"
+					item: { count: 1, id: "create_high_seas:white_sail" }
+					type: "item"
+				}
+			]
+			x: 12d
+			y: 0d
+		}
+		{
+			dependencies: ["3A9B7134B76FD237"]
+			id: "7E9E74C003E37EAF"
+			optional: true
+			rewards: [
+				{
+					id: "4C7E4B555C23B19F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2850FEC3DFAE22DC"
+					item: { count: 1, id: "create_high_seas:boat_engine" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0d
+		}
+		{
+			dependencies: ["3A9B7134B76FD237"]
+			id: "62E66E9399E31004"
+			optional: true
+			rewards: [
+				{
+					id: "7B80B618FB11342D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "48A591A36D53CFDC"
+					item: { count: 1, id: "create_high_seas:anchor" }
+					type: "item"
+				}
+			]
+			x: 15d
+			y: 0d
+		}
+		{
+			dependencies: ["3A9B7134B76FD237"]
+			id: "25CACEEFB75C11CF"
+			optional: true
+			rewards: [
+				{
+					id: "7B97DE1C74EB16E9"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6E47D9DB6D98A396"
+					item: { count: 1, id: "create_submarine:ballast_tank" }
+					type: "item"
+				}
+			]
+			x: 12d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25CACEEFB75C11CF"]
+			id: "1BD17B391C7F6F8E"
+			optional: true
+			rewards: [
+				{
+					id: "17926DCE15204C1F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6FE79C643317B85D"
+					item: { count: 1, id: "create_submarine:submarine_propeller" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25CACEEFB75C11CF"]
+			id: "0EA8342679F36F8C"
+			optional: true
+			rewards: [
+				{
+					id: "2637D3E6E0D7B2FB"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "274F05E27D47D44D"
+					item: { count: 1, id: "create_submarine:sonar" }
+					type: "item"
+				}
+			]
+			x: 15d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25CACEEFB75C11CF"]
+			id: "7AB96C85FB3F6204"
+			optional: true
+			rewards: [
+				{
+					id: "181EAA744B491423"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "23E1A8DD4D663E97"
+					item: { count: 1, id: "create_submarine:oxygene_diffuser" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 3d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			hide_dependency_lines: true
+			id: "34A13CE312D6DF46"
+			optional: true
+			rewards: [
+				{
+					id: "53E62BC087E990E6"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "54CFCDC22C3DB0DD"
+					item: { count: 1, id: "aeroworks:gyroscope" }
+					type: "item"
+				}
+			]
+			x: 12d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34A13CE312D6DF46"]
+			id: "3AE2BE9C9FF60093"
+			optional: true
+			rewards: [
+				{
+					id: "7AD4505A027EF242"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3E63A0641D549B39"
+					item: { count: 1, id: "aeroworks:control_desk" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34A13CE312D6DF46"]
+			id: "50C1097E997C6AF7"
+			optional: true
+			rewards: [
+				{
+					id: "705EA92F1742A7DD"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "669845B39836E355"
+					item: { count: 1, id: "aeroworks:mechanical_servo" }
+					type: "item"
+				}
+			]
+			x: 15d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			hide_dependency_lines: true
+			id: "5C8A84C89C4CBFE6"
+			optional: true
+			rewards: [
+				{
+					id: "46854CDDED82FAFE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "69596AA4D5C22BFB"
+					item: { count: 1, id: "linearbearing:linear_bearing" }
+					type: "item"
+				}
+			]
+			x: 12d
+			y: 6d
+		}
+		{
+			dependencies: ["61253545DDE41E88"]
+			hide_dependency_lines: true
+			id: "3CC37D850FE7A119"
+			optional: true
+			rewards: [
+				{
+					id: "5DB3A10EF7A15AA4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1FC2E892F6C9EF63"
+					item: { count: 1, id: "vsfluidlink:hose_connector" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 6d
+		}
+		{
+			dependencies: ["3CC37D850FE7A119"]
+			id: "1E46493FCC3F7F19"
+			optional: true
+			rewards: [
+				{
+					id: "5F880CD9CE3AD75F"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6332FF39E1EB06C8"
+					item: { count: 1, id: "vsfluidlink:item_hose_connector" }
+					type: "item"
+				}
+			]
+			x: 15d
+			y: 6d
 		}
 	]
 }

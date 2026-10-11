@@ -317,6 +317,314 @@
 			y: 6d
 		}
 		{
+			dependencies: ["66311A502CC99A40"]
+			id: "37076A641C09848E"
+			optional: true
+			rewards: [
+				{
+					id: "072AAAAF4088F0A7"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "282F0FC061FFBC56"
+					item: { count: 1, id: "twilightdelight:ironwood_knife" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 0d
+		}
+		{
+			dependencies: ["37076A641C09848E"]
+			id: "5DD0C14712065BA0"
+			optional: true
+			rewards: [
+				{
+					id: "725B661BB6D1D735"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "56EC55746CB6A94F"
+					item: { count: 1, id: "twilightdelight:maze_stove" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0d
+		}
+		{
+			dependencies: ["37076A641C09848E"]
+			id: "528BC96184FCA737"
+			optional: true
+			rewards: [
+				{
+					id: "4A13064C473C7C81"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4F093CE521D4F0D6"
+					item: { count: 1, id: "twilightdelight:hydra_burger" }
+					type: "item"
+				}
+			]
+			x: 8d
+			y: 0d
+		}
+		{
+			dependencies: ["66311A502CC99A40"]
+			id: "58DA6974A948E9A7"
+			optional: true
+			rewards: [
+				{
+					id: "2672F5863DF91B75"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "332ED0A3CB8AED1A"
+					item: { count: 1, id: "aethersdelight:zanite_knife" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58DA6974A948E9A7"]
+			id: "70D4A56279C42E7D"
+			optional: true
+			rewards: [
+				{
+					id: "1BF209AA92338D02"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "295E25D546F544D5"
+					item: { count: 1, id: "aethersdelight:holystone_stove" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58DA6974A948E9A7"]
+			id: "6DC731F2034D0BCD"
+			optional: true
+			rewards: [
+				{
+					id: "6C4F04D5A3872E62"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4478EB4AF071E280"
+					item: { count: 1, id: "aethersdelight:moa_stew" }
+					type: "item"
+				}
+			]
+			x: 8d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66311A502CC99A40"]
+			id: "20CE796C6518D47A"
+			optional: true
+			rewards: [
+				{
+					id: "10CF74B2923B794E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "673BBE432EB85FA2"
+					item: { count: 1, id: "lendersdelight:ignitium_knife" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 3d
+		}
+		{
+			dependencies: ["20CE796C6518D47A"]
+			id: "30C291CD0AF9E57C"
+			optional: true
+			rewards: [
+				{
+					id: "64B15135D49E67D4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7B8945D3137BCF08"
+					item: { count: 1, id: "lendersdelight:maledictus_heart_stew" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3d
+		}
+		{
+			dependencies: ["20CE796C6518D47A"]
+			id: "7E9D62B4B39E51E8"
+			optional: true
+			rewards: [
+				{
+					id: "6FD63CA286067096"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "69F7CDE1EA447949"
+					item: { count: 1, id: "lendersdelight:cooked_netherite_monstrosity_meat" }
+					type: "item"
+				}
+			]
+			x: 8d
+			y: 3d
+		}
+		{
+			dependencies: ["2C5F1B348AD531AB"]
+			id: "54E9C8A5728B8FB4"
+			optional: true
+			rewards: [
+				{
+					id: "7389CE6D9631C945"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6068C5FD62C44D74"
+					item: { count: 1, id: "accdelight:primordial_stew" }
+					type: "item"
+				}
+			]
+			x: 5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54E9C8A5728B8FB4"]
+			id: "18AFEA1BADEE1DBA"
+			optional: true
+			rewards: [
+				{
+					id: "2319DFC9D6AB76E4"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4787AFFD3703FFB7"
+					item: { count: 1, id: "accdelight:hullbreaker_platter" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
 			dependencies: ["71FA7C33865A2435", "51E604A03CF06C47", "124E77237E4676B6"]
 			icon: {
 				id: "solcarrot:food_book"

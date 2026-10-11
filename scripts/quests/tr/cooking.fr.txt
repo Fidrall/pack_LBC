@@ -80,6 +80,65 @@ quest.124E77237E4676B6.quest_desc: [
   ""
   "Une vraie cuisine industrielle pour nourrir tout le serveur !"
 ]
+quest.37076A641C09848E.title: "&2Cuisine du Crépuscule"
+quest.37076A641C09848E.quest_subtitle: "Twilight Delight"
+quest.37076A641C09848E.quest_desc: [
+  "&2Twilight Delight&r cuisine les créatures et les plantes de la &2Forêt du Crépuscule&r : venaison, naga, hydre, baies-torches…"
+  ""
+  "Les couteaux se forgent avec les métaux du Crépuscule (bois de fer, métal de chevalier, métal ardent)."
+]
+quest.5DD0C14712065BA0.title: "Le fourneau du labyrinthe"
+quest.5DD0C14712065BA0.quest_subtitle: "Un fourneau en pierre de labyrinthe"
+quest.5DD0C14712065BA0.quest_desc: [
+  "Un &efourneau&r taillé dans la pierre du labyrinthe du minoshroom."
+]
+quest.528BC96184FCA737.title: "Le burger d'hydre"
+quest.528BC96184FCA737.quest_subtitle: "Un repas de boss"
+quest.528BC96184FCA737.quest_desc: [
+  "Un &eburger&r préparé avec la viande de l'&chydre&r."
+]
+quest.58DA6974A948E9A7.title: "&eCuisine céleste"
+quest.58DA6974A948E9A7.quest_subtitle: "The Aether's Delight"
+quest.58DA6974A948E9A7.quest_desc: [
+  "&eThe Aether's Delight&r cuisine les ingrédients de l'&eAether&r : moa, vache volante, swet, pommes blanches, gingembre…"
+]
+quest.70D4A56279C42E7D.title: "Le fourneau de pierre sacrée"
+quest.70D4A56279C42E7D.quest_subtitle: "Cuisiner dans les nuages"
+quest.70D4A56279C42E7D.quest_desc: [
+  "Un &efourneau&r en pierre sacrée de l'Aether."
+]
+quest.6DC731F2034D0BCD.title: "Le ragoût de moa"
+quest.6DC731F2034D0BCD.quest_subtitle: "Une spécialité de l'Aether"
+quest.6DC731F2034D0BCD.quest_desc: [
+  "Un &eragoût&r de viande de moa."
+]
+quest.20CE796C6518D47A.title: "&cCuisine de Cataclysm"
+quest.20CE796C6518D47A.quest_subtitle: "L'Ender's Cataclysm Delight"
+quest.20CE796C6518D47A.quest_desc: [
+  "Des recettes à base des créatures et des boss de &cCataclysm&r : crabes d'améthyste, deeplings, cœur de Maledictus, Léviathan…"
+  ""
+  "Les couteaux se forgent avec les métaux des boss (ignitium, witherite, cursium…)."
+]
+quest.30C291CD0AF9E57C.title: "Le ragoût de cœur de Maledictus"
+quest.30C291CD0AF9E57C.quest_subtitle: "Un plat maudit"
+quest.30C291CD0AF9E57C.quest_desc: [
+  "Un &eragoût&r préparé avec le cœur de &cMaledictus&r."
+]
+quest.7E9D62B4B39E51E8.title: "Le sandwich de la Monstruosité"
+quest.7E9D62B4B39E51E8.quest_subtitle: "Un sandwich de Netherite"
+quest.7E9D62B4B39E51E8.quest_desc: [
+  "Un &esandwich&r de viande de la &cMonstruosité de Netherite&r. Ne demande pas comment on l'a cuite."
+]
+quest.54E9C8A5728B8FB4.title: "&3Cuisine des grottes"
+quest.54E9C8A5728B8FB4.quest_subtitle: "Alex's Caves Delight"
+quest.54E9C8A5728B8FB4.quest_desc: [
+  "&3Alex's Caves Delight&r cuisine les ingrédients des &3grottes d'Alex&r : moelle magnétique, moules, chair de dinosaure…"
+]
+quest.18AFEA1BADEE1DBA.title: "Le plateau du Hullbreaker"
+quest.18AFEA1BADEE1DBA.quest_subtitle: "Un festin des abysses"
+quest.18AFEA1BADEE1DBA.quest_desc: [
+  "Un &efestin&r préparé avec le &3Hullbreaker&r, le monstre du gouffre abyssal."
+]
 quest.2E8298E39F19B38F.title: "&c&lGastronome"
 quest.2E8298E39F19B38F.quest_subtitle: "Spice of Life : 60 aliments"
 quest.2E8298E39F19B38F.quest_desc: [

@@ -55,6 +55,37 @@ $Quests = @(
          '- un &eBrûleur à Blaze&r peut chauffer la marmite.',
          '',
          'Une vraie cuisine industrielle pour nourrir tout le serveur !') }
+  # --- Cuisine des dimensions (addons de Farmer's Delight)
+  @{ k='tw_knife'; x=5; y=0; deps=@('knife'); tasks=@('twilightdelight:ironwood_knife'); crate='commune'; optional=$true
+     t='&2Cuisine du Crépuscule'; st='Twilight Delight'
+     d=@('&2Twilight Delight&r cuisine les créatures et les plantes de la &2Forêt du Crépuscule&r : venaison, naga, hydre, baies-torches…',
+         '',
+         'Les couteaux se forgent avec les métaux du Crépuscule (bois de fer, métal de chevalier, métal ardent).') }
+  @{ k='tw_stove'; x=6.5; y=0; deps=@('tw_knife'); tasks=@('twilightdelight:maze_stove'); crate='commune'; optional=$true
+     t='Le fourneau du labyrinthe'; st='Un fourneau en pierre de labyrinthe'; d=@('Un &efourneau&r taillé dans la pierre du labyrinthe du minoshroom.') }
+  @{ k='tw_dish'; x=8; y=0; deps=@('tw_knife'); tasks=@('twilightdelight:hydra_burger'); crate='rare'; optional=$true
+     t='Le burger d''hydre'; st='Un repas de boss'; d=@('Un &eburger&r préparé avec la viande de l''&chydre&r.') }
+  @{ k='ae_knife'; x=5; y=1.5; deps=@('knife'); tasks=@('aethersdelight:zanite_knife'); crate='commune'; optional=$true
+     t='&eCuisine céleste'; st='The Aether''s Delight'
+     d=@('&eThe Aether''s Delight&r cuisine les ingrédients de l''&eAether&r : moa, vache volante, swet, pommes blanches, gingembre…') }
+  @{ k='ae_stove'; x=6.5; y=1.5; deps=@('ae_knife'); tasks=@('aethersdelight:holystone_stove'); crate='commune'; optional=$true
+     t='Le fourneau de pierre sacrée'; st='Cuisiner dans les nuages'; d=@('Un &efourneau&r en pierre sacrée de l''Aether.') }
+  @{ k='ae_dish'; x=8; y=1.5; deps=@('ae_knife'); tasks=@('aethersdelight:moa_stew'); crate='rare'; optional=$true
+     t='Le ragoût de moa'; st='Une spécialité de l''Aether'; d=@('Un &eragoût&r de viande de moa.') }
+  @{ k='cc_knife'; x=5; y=3; deps=@('knife'); tasks=@('lendersdelight:ignitium_knife'); crate='rare'; optional=$true
+     t='&cCuisine de Cataclysm'; st='L''Ender''s Cataclysm Delight'
+     d=@('Des recettes à base des créatures et des boss de &cCataclysm&r : crabes d''améthyste, deeplings, cœur de Maledictus, Léviathan…',
+         '',
+         'Les couteaux se forgent avec les métaux des boss (ignitium, witherite, cursium…).') }
+  @{ k='cc_heart'; x=6.5; y=3; deps=@('cc_knife'); tasks=@('lendersdelight:maledictus_heart_stew'); crate='rare'; optional=$true
+     t='Le ragoût de cœur de Maledictus'; st='Un plat maudit'; d=@('Un &eragoût&r préparé avec le cœur de &cMaledictus&r.') }
+  @{ k='cc_monstro'; x=8; y=3; deps=@('cc_knife'); tasks=@('lendersdelight:cooked_netherite_monstrosity_meat'); crate='epique'; optional=$true
+     t='Le sandwich de la Monstruosité'; st='Un sandwich de Netherite'; d=@('Un &esandwich&r de viande de la &cMonstruosité de Netherite&r. Ne demande pas comment on l''a cuite.') }
+  @{ k='ac_stew'; x=5; y=4.5; deps=@('pot'); tasks=@('accdelight:primordial_stew'); crate='rare'; optional=$true
+     t='&3Cuisine des grottes'; st='Alex''s Caves Delight'
+     d=@('&3Alex''s Caves Delight&r cuisine les ingrédients des &3grottes d''Alex&r : moelle magnétique, moules, chair de dinosaure…') }
+  @{ k='ac_platter'; x=6.5; y=4.5; deps=@('ac_stew'); tasks=@('accdelight:hullbreaker_platter'); crate='epique'; optional=$true
+     t='Le plateau du Hullbreaker'; st='Un festin des abysses'; d=@('Un &efestin&r préparé avec le &3Hullbreaker&r, le monstre du gouffre abyssal.') }
   @{ k='spice'; x=0; y=7.5; size=2; shape='hexagon'; deps=@('feast','fryer','automate'); tasks=@('@check'); checkTitle='J''ai goûté à tout !'; icon='solcarrot:food_book'; crate='epique'
      t='&c&lGastronome'; st='Spice of Life : 60 aliments'
      d=@('Ouvre ton &eLivre de Cuisine&r (Spice of Life) pour voir combien d''aliments différents tu as mangés.',

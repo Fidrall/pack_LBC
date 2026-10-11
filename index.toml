@@ -142,7 +142,7 @@ hash = "fa6c8bf1d5ec4b391270f9781b0dc3b4ec97a7a307950e9151eee428aef3fa03"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
-hash = "2d56d7e835b8004ac6f23a620d1e38d25a04bbbda5d939e7ad9a0253f0f00e01"
+hash = "5fb8a5f90b78944e38ed638a8dac7bf1fdcbc89341ebcd1c1c810d6121f7c658"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aether.snbt"
@@ -170,11 +170,11 @@ hash = "047db2d26d6e8dcc9c371b0d9eb8801148c13055500dc1583ae3c9a854a9c622"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cooking.snbt"
-hash = "2991c930064a0630bd94e81087a91319af552b761c8a4741e18c434ea3ada2a1"
+hash = "21bc09199f969e5eb1239816c02555c52bcd57d4cc91b370546f7e17caf227d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_addons.snbt"
-hash = "ba3f066d920fc3aa2cfd4d205abf542ce5ed4f38b07f9e74ed40fbb504d4bced"
+hash = "7bf0073185837ed45ce1fd234a5bae2e5679b7f6da1ba88143adb727bd67939f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_basic.snbt"
@@ -242,7 +242,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "51f1ef854ef3c3304e9920e1092fffba63300e455ca92ef418844013c114a757"
+hash = "57ef12d94b649aea3202da056aebc569d7b94120ae32b915a141288b376e827f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
