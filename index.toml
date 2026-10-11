@@ -4768,12 +4768,12 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "3b5f787b41d1814911aad8f199ad7db55a65459e1833b843abb12615dfa0a580"
+hash = "0a04f1d0b86262c6dfdbd14e0493d7f4786f24054a95a07ff7b41a7870bb258d"
 metafile = true
 
 [[files]]
 file = "mods/redomesticate.pw.toml"
-hash = "22d57fd6dda25bc073bd259942b628195236cc8926639b9168355ddd92f0eb3c"
+hash = "4e85c74b04c9a317fa5eb7756dd9e3503211e19236a91da4d1433c3b7cc378c9"
 metafile = true
 
 [[files]]
@@ -5023,7 +5023,7 @@ metafile = true
 
 [[files]]
 file = "mods/vs-hose-connectors.pw.toml"
-hash = "74f3c53faf5649dbc16c1a55fde5fef4949438d67908a64cac30ea680bfb86d8"
+hash = "48cf23db7ab7d8f9d7c0516b1400dfb0997c22e86e6e4b98f341d9afa2b6b013"
 metafile = true
 
 [[files]]
