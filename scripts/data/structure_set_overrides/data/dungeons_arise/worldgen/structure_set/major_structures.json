@@ -18,23 +18,15 @@
     },
     {
       "structure": "dungeons_arise:heavenly_conqueror",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:illager_campsite",
       "weight": 2
     },
     {
-      "structure": "dungeons_arise:illager_corsair",
-      "weight": 2
-    },
-    {
       "structure": "dungeons_arise:illager_fort",
-      "weight": 1
-    },
-    {
-      "structure": "dungeons_arise:illager_galley",
-      "weight": 4
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:illager_windmill",
@@ -69,20 +61,12 @@
       "weight": 4
     },
     {
-      "structure": "dungeons_arise:typhon",
-      "weight": 4
-    },
-    {
-      "structure": "dungeons_arise:undead_pirate_ship",
-      "weight": 2
-    },
-    {
       "structure": "dungeons_arise:greenwood_pub",
       "weight": 2
     },
     {
       "structure": "dungeons_arise:aviary",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:bandit_towers",
@@ -94,7 +78,7 @@
     },
     {
       "structure": "dungeons_arise:heavenly_challenger",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:thornborn_towers",
@@ -106,7 +90,7 @@
     },
     {
       "structure": "dungeons_arise:mining_complex",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:plague_asylum",
@@ -114,25 +98,25 @@
     },
     {
       "structure": "dungeons_arise:shiraz_palace",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:keep_kayra",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:mechanical_nest",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "dungeons_arise:kisegi_sanctuary",
-      "weight": 1
+      "weight": 2
     }
   ],
   "placement": {
     "salt": 88371663,
-    "spacing": 37,
-    "separation": 33,
+    "spacing": 28,
+    "separation": 24,
     "type": "minecraft:random_spread"
   }
 }

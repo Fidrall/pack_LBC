@@ -273,6 +273,8 @@ foreach ($g in ($fam | Group-Object source_set)) {
 # Copies figees des fichiers des mods avec spacing/separation reduits : scripts/data/structure_set_overrides/
 # (contient aussi les iles volantes de Moog's remontees : start_height 60 -> 95 blocs au-dessus du sol)
 # (a regenerer si ces mods sont mis a jour : scratchpad make_overrides.ps1).
+# When Dungeons Arise (mesure 2026-10-11 : ~20 % de reussite sur terre a cause de la planeite) : grandes terrestres a 28
+# avec geantes en poids 2, navires/Typhon a part dans pack_lbc:dungeons_arise_marins (37), petites a 34.
 $ov = Join-Path $PSScriptRoot 'data\structure_set_overrides'
 foreach ($f in Get-ChildItem $ov -Recurse -File) {
     $rel = $f.FullName.Substring($ov.Length + 1)

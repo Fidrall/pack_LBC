@@ -311,21 +311,24 @@
                            "name":  "born_in_chaos_v1:dark_tower_forest",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  13,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "born_in_chaos_v1:dark_tower_plain",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  13,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "born_in_chaos_v1:dark_tower_taiga",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  13,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
@@ -493,14 +496,16 @@
                            "name":  "born_in_chaos_v1:observation_tower_forest",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  13,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "born_in_chaos_v1:observation_tower_plains",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  13,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
@@ -619,7 +624,8 @@
                            "name":  "create_structures_arise:crimsite_tower",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
@@ -640,217 +646,248 @@
                            "name":  "create_structures_arise:pillagersteampunkairship",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  38,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "create_structures_arise:towerofochrum",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  15,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "create_structures_arise:windmill",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  13,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:abandoned_temple",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  47,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:bandit_towers",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:bathhouse",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  19,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:ceryneian_hind",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:coliseum",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  38,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:fishing_hut",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:greenwood_pub",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:heavenly_challenger",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  40,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:heavenly_conqueror",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  38,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:heavenly_rider",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  38,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:illager_campsite",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:illager_fort",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  31,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:illager_windmill",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:infested_temple",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:jungle_tree_house",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  19,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:keep_kayra",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  40,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:kisegi_sanctuary",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  40,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:lighthouse",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:mechanical_nest",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  40,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:merchant_campsite",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:monastery",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  18,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:mushroom_house",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:mushroom_mines",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:scorched_mines",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:shiraz_palace",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  40,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:small_blimp",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:thornborn_towers",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "dungeons_arise:wishing_well",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  26,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
@@ -1256,7 +1293,8 @@
                            "name":  "mvs:cathedral",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  39,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
@@ -1481,7 +1519,8 @@
                            "name":  "mvs:jungle_tower",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  20,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
@@ -1720,7 +1759,8 @@
                            "name":  "mvs:red_tower",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  20,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
@@ -2119,161 +2159,184 @@
                            "name":  "nova_structures:remnant_bee_keeper",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_big_remnant",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  16,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_big_remnant_2",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  19,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_big_remnant_3",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  16,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_birch_graveyard",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_bridge_remnant",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_bunny_base",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_desert_remnant",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_forest_smith",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_frog_ranch",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_graveyard",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_medium_remnant",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_medium_remnant_2",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_miner_hut",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_mud_brick_constructor",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_ominous_shop",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_ruin_farmer",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_ruin_smith",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_sawmill",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_school_remnant",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  14,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_taiga_castle",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_woodland_hud",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {
                            "name":  "nova_structures:remnant_zombie_horse_ranch",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
-                           "flatness_check_mode":  "AUTO",
+                           "flatness_check_mode":  "MANUAL",
+                           "flatness_check_max_height_difference":  12,
                            "flatness_check_allow_non_solid_blocks":  false
                        },
                        {

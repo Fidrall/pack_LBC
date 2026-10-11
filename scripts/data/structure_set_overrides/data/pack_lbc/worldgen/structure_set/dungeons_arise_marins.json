@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:illager_corsair",
+      "weight": 2
+    },
+    {
+      "structure": "dungeons_arise:illager_galley",
+      "weight": 4
+    },
+    {
+      "structure": "dungeons_arise:typhon",
+      "weight": 4
+    },
+    {
+      "structure": "dungeons_arise:undead_pirate_ship",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 71233409,
+    "spacing": 37,
+    "separation": 33,
+    "type": "minecraft:random_spread"
+  }
+}

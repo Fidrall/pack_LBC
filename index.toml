@@ -1026,7 +1026,11 @@ hash = "15cf4a525425645538ee3e3d20a8811a737a0574ee7d5e04fbb5f44a50a61b22"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_set/major_structures.json"
-hash = "551f9497987a1b545bf1b8d94efb5a227f953ec04d0d72b6a9ef48217d31a10d"
+hash = "913a61ba1797785e6b6a0f1a800777c66957374f9bc99b2ebcfc5235151215b5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
+hash = "6789f57229123913d83b1d8f32ca529e6b018be439ac136dc06216e26768605d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_set/citadel.json"
@@ -3225,6 +3229,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/voyageur
 hash = "80bd6e1f049f3025ae3ae313b09f8e93e98115ac25986960c2629e6970f60fff"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/dungeons_arise_marins.json"
+hash = "ea109b5e63f3c9feb4f067e016d11f4a3ad52c45dd903bbda7bbe2fa5204a99f"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/end_grand.json"
 hash = "e5b7da8aeacd550426f5528e145de3b3c9af976d0a4e28d705ee8ef8b48a9f63"
 
@@ -3594,7 +3602,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "ed00a383b77fcc73aaf95684973c2151cc29ad308a837ca042ac97c2bdca4047"
+hash = "b30b286f87d4d3f84e458e027af532a8e9f9b6e6f5ae0149470aae8ef5fe926c"
 
 [[files]]
 file = "config/tectonic.json"
