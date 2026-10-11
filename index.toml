@@ -82,7 +82,7 @@ hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "5ef2011007617c6bcab886c3b0eb445b9b3e3b3d64312001f3a3b88fca07eec3"
+hash = "74e7484665724e3cf9e24e64b9985904c50a60e5894d6e000bb56d1494bd95d9"
 
 [[files]]
 file = "config/betterstrongholds-neoforge-1_21.toml"
@@ -4278,6 +4278,11 @@ hash = "88b9e727611f06350c407aeb4ccb41207b5058fef127abe0ff24c13505618aaf"
 metafile = true
 
 [[files]]
+file = "mods/enderman-overhaul.pw.toml"
+hash = "1045ba1bb46eb77e2fea9be04268c2c73c161b94f3bceddbd4c3dbff1c0bf555"
+metafile = true
+
+[[files]]
 file = "mods/endrem.pw.toml"
 hash = "6dd4279732a12967444e2e45842cdd99f4964cd1c43a7d24311862540c9c6476"
 metafile = true
@@ -4493,6 +4498,11 @@ hash = "391f5b0b0fcae3ce77be6ab211435228faec79cb92c50d69471c52ba36b139d6"
 metafile = true
 
 [[files]]
+file = "mods/infested-swarms-and-spiders.pw.toml"
+hash = "cfd602524a4bab2229eaa7264bcc214b633d6fa615f8e0a7318f1a91761532ef"
+metafile = true
+
+[[files]]
 file = "mods/inventory-essentials.pw.toml"
 hash = "22c8ee8cf4a728f6f5892e9cc569e4b6fb689ca7af219ed5b56d8b6376730d39"
 metafile = true
@@ -4544,7 +4554,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap-integration.pw.toml"
-hash = "f161cd39e3619182a8606ec812634d74713d32ca30c3585bdf7d40b7bb573919"
+hash = "bb9fd09de77332694de434f2d38fd1dcad204c7d133fcc71013c8c7a5fbb7d2b"
 metafile = true
 
 [[files]]
@@ -4673,6 +4683,11 @@ hash = "02aa4dcb8fa24cffcd2182c66683c2a476a95abf53002373f953a49737a587e3"
 metafile = true
 
 [[files]]
+file = "mods/mutant-monsters.pw.toml"
+hash = "e672245ac368cb42b521a0be668fed61a5b5129d25eec7b8db7722e8f49e2292"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
@@ -4690,6 +4705,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
+metafile = true
+
+[[files]]
+file = "mods/nyfs-spiders.pw.toml"
+hash = "8cf9452197ae7deae53c504a98406494cbd2468055bff5d9d0d981c50eb09748"
 metafile = true
 
 [[files]]
@@ -4730,6 +4750,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "d8c433e94f2c8e5838e8937d7a162fe834e966f1f9640a563db5060a3011b2f4"
+metafile = true
+
+[[files]]
+file = "mods/platform.pw.toml"
+hash = "00887452f4c902a5f98fc42875d522e59948b60c20d887855a183c0f7235c641"
 metafile = true
 
 [[files]]
@@ -4795,6 +4820,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+metafile = true
+
+[[files]]
+file = "mods/rottencreatures.pw.toml"
+hash = "fffc4ce08823b44a89f5117fc3feabfa4a5ec92abf3ce18debd6017e04331aaf"
 metafile = true
 
 [[files]]

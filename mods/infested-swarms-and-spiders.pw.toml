@@ -1,0 +1,13 @@
+name = "Infested: Swarms and Spiders"
+filename = "infested_swarms_spiders-2.4.2-neoforge-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rLSpTTf0/versions/9aEVdeuR/infested_swarms_spiders-2.4.2-neoforge-1.21.jar"
+hash-format = "sha512"
+hash = "1ce2f199316333a3fcdde85fe2326bc3a34d2be7545b67659ca45ce8aae9f19d8a345858bd54aeb6b5ec3e571fc6a9800f872fc05867a613e168ecb260b451d5"
+
+[update]
+[update.modrinth]
+mod-id = "rLSpTTf0"
+version = "9aEVdeuR"

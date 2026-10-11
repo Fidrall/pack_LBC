@@ -262,3 +262,9 @@ mr | create-tracks+ | conserver | chenilles pour vehicules Sable
 mr | create-aeroworks | conserver | gyroscope + commandes de pilotage
 mr | aero_cam_sync | client | camera inclinee avec le dirigeable (optionnel a l'installation)
 mr | create-bits-n-bobs | conserver | poutres diagonales, chaines/poulies, roue dentee geante, Nixie, deco (+ strut-your-stuff, azimuth-api)
+mr | rottencreatures | jetable | variantes de zombies (mineur mort-vivant en grotte), dep Platform
+mr | platform | jetable | lib de Rotten Creatures
+mr | mutant-monsters | jetable | mutants rares
+mr | enderman-overhaul | jetable | variantes d'Enderman par biome (dont grotte)
+mr | nyfs-spiders | jetable | araignees qui grimpent murs/plafonds
+mr | infested-swarms-and-spiders | jetable | araignees/poissons d'argent, nids, 4 enchantements (cfg Apothic)
