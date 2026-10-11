@@ -235,6 +235,14 @@ W 'data/minecraft/worldgen/structure_set/end_cities.json' ([ordered]@{ structure
 # Bombers (explosifs) poids 75 dans les deserts, presque autant que les zombies -> 15.
 W 'data/legendary_monsters/worldgen/structure_set/warped_fungussus_nest.json' ([ordered]@{ structures = @([ordered]@{ structure = 'legendary_monsters:warped_fungussus_nest'; weight = 1 }); placement = [ordered]@{ type = 'minecraft:random_spread'; spacing = 40; separation = 30; salt = 5546645 } })
 W 'data/legendary_monsters/neoforge/biome_modifier/bomber.json' ([ordered]@{ type = 'neoforge:add_spawns'; biomes = 'minecraft:desert'; spawners = [ordered]@{ type = 'legendary_monsters:bomber'; weight = 15; minCount = 1; maxCount = 4 } })
+# Nullscape : les iles exterieures sont surtout ses 3 biomes (crystal_peaks, shadowlands, void_barrens) ; il ne garde que
+# end_highlands et small_end_islands en vanilla, et plus de end_midlands. Les structures de l'End de Legendary Monsters,
+# la Citadelle en ruine de Cataclysm (Ender Guardian) et les Choruslings y apparaissent donc aussi.
+$nulls = [ordered]@{ id = '#nullscape:all_nullscape_biomes'; required = $false }
+foreach ($t in 'legendary_monsters/tags/worldgen/biome/has_structure/shulker_tower_biomes', 'legendary_monsters/tags/worldgen/biome/has_structure/ancient_tower_remains_biomes', 'legendary_monsters/tags/worldgen/biome/has_structure/space_station_biomes', 'cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes') {
+    W "data/$t.json" ([ordered]@{ replace = $false; values = @($nulls) })
+}
+W 'data/legendary_monsters/neoforge/biome_modifier/chorusling.json' ([ordered]@{ type = 'neoforge:add_spawns'; biomes = @('minecraft:end_highlands', 'minecraft:end_midlands', 'minecraft:small_end_islands', 'nullscape:crystal_peaks', 'nullscape:shadowlands', 'nullscape:void_barrens'); spawners = @([ordered]@{ type = 'legendary_monsters:chorusling'; weight = 3; minCount = 1; maxCount = 1 }) })
 
 # ---------- 9. Familles de structures (repartition homogene) ----------
 # 321 petites structures (Moog's, Born in Chaos, Create Structures Arise, Farmer's, Philips, Explorify) avaient chacune

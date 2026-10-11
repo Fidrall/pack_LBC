@@ -52,6 +52,7 @@ $Quests = @(
      t='&d&lL''End'; st='Les îles extérieures'
      d=@('Après le dragon, les îles extérieures s''ouvrent… et elles sont bien gardées :',
          '',
+         '- &dNullscape&r sculpte un terrain surréaliste : pics de cristal, terres d''ombre, landes du vide, squelettes de dragon et failles ;',
          '- les structures de &eMoog&r, de Dungeons and Taverns et de Cataclysm peuplent les îles ;',
          '- &cLegendary Monsters&r y cache des tours de shulkers, les ruines d''une tour antique gardées par le &5Chorusent&r et une très rare &estation spatiale&r ;',
          '- d''autres boss rôdent : l''&5Ender Guardian&r de Cataclysm, l''&5Obsidilith&r, et les créatures de l''End d''Hazennstuff.',

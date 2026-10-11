@@ -246,7 +246,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "af106e28658a354c0b3703d059636af938ce352742b46b9ccb5a3d277d1fb5e7"
+hash = "23942200ee2d795121e83e03209f0b44396478186bdce0ec09b0026c322af890"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -619,6 +619,10 @@ hash = "0ef3757b2084541cb6f547641a449499978d9318ff98d5a6454cc98f06a72c09"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_lumberjack_biome_modifier.json"
 hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes.json"
+hash = "e4d6a40d15d0ca0f6de643d5e0c0bce39a93272a5d66a5b24cb2b54f9e367628"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/cursed_pyramid.json"
@@ -1359,6 +1363,22 @@ hash = "6226ad38ea76e361d5515018becdbdb9a4e3c62cde69f2694d66ceb887a6fe29"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/neoforge/biome_modifier/bomber.json"
 hash = "f6d0274b90148a136c2b4852010f914608104aaf504fd9463d922825dd57eacb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/neoforge/biome_modifier/chorusling.json"
+hash = "5726b83780d8617570699e1a222d4db817645ca13ff13c4d7b6383534002d034"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/tags/worldgen/biome/has_structure/ancient_tower_remains_biomes.json"
+hash = "e4d6a40d15d0ca0f6de643d5e0c0bce39a93272a5d66a5b24cb2b54f9e367628"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/tags/worldgen/biome/has_structure/shulker_tower_biomes.json"
+hash = "e4d6a40d15d0ca0f6de643d5e0c0bce39a93272a5d66a5b24cb2b54f9e367628"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/tags/worldgen/biome/has_structure/space_station_biomes.json"
+hash = "e4d6a40d15d0ca0f6de643d5e0c0bce39a93272a5d66a5b24cb2b54f9e367628"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/legendary_monsters/worldgen/structure_set/warped_fungussus_nest.json"
@@ -5045,6 +5065,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
+metafile = true
+
+[[files]]
+file = "mods/nullscape.pw.toml"
+hash = "dcfbfa39abeaba554c2c5323f9b9a3ec58dfc386aca2d237f73948abdbdc7125"
 metafile = true
 
 [[files]]

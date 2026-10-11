@@ -267,3 +267,4 @@ mr | more-overlays-updated | client | F7 niveaux de lumiere, F9 bordures de chun
 mr | somake-spells-irons-spells-addon | jetable | 67 sorts Iron's + ecole Aqua (liens Cataclysm, Born in Chaos, familiers) ; packwiz re-ajoute Cataclysm en doublon -> le retirer
 cf | 1585352 | jetable | Twilight Spellbooks (Mangelox) : grimoires des boss du Twilight Forest
 cf | 1677981 | jetable | Apex Arcana (grandsigil) : 19 sorts ultimes ; config/irons_spellbooks_spell_config/grandsigil : pas de fabrication, legendaire
+mr | nullscape | conserver | terrain de l'End (blocs vanilla, cout nul en jeu) ; structures LM/Cataclysm/Choruslings etendues a ses biomes (build-datapack section 8)
