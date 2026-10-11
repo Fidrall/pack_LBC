@@ -5264,6 +5264,11 @@ hash = "2fe01d8046db2246c6df01eedd1fbc7837c08cc6d3b2a9017107ade989e86a28"
 metafile = true
 
 [[files]]
+file = "mods/maps-3d.pw.toml"
+hash = "7013bd8870f7a8d9a4d5d024ad89d63cca7adbac54cecc32c4bec4914b1fab99"
+metafile = true
+
+[[files]]
 file = "mods/mechanicals-lib.pw.toml"
 hash = "c9e181185e3177d43fc9bd8d919288ac1bc0ce6b85e7049890f3eb231f5be10d"
 metafile = true

@@ -267,3 +267,4 @@ mr | somake-spells-irons-spells-addon | jetable | 67 sorts Iron's + ecole Aqua (
 cf | 1585352 | jetable | Twilight Spellbooks (Mangelox) : grimoires des boss du Twilight Forest
 cf | 1677981 | jetable | Apex Arcana (grandsigil) : 19 sorts ultimes ; config/irons_spellbooks_spell_config/grandsigil : pas de fabrication, legendaire
 mr | nullscape | conserver | terrain de l'End (blocs vanilla, cout nul en jeu) ; citadelle Cataclysm etendue a ses biomes (build-datapack section 8)
+cf | 1691687 | jetable | Maps 3D : carte 3D d'une zone (4x4 a 16x16 chunks), en main ou dans un cadre (CC0)
