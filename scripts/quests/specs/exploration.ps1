@@ -193,6 +193,44 @@ $Quests = @(
      t='Le monument du trident'; st='Une épreuve sous la mer'; d=@('Une &eépreuve&r sous-marine, inspirée des chambres d''épreuves.') }
   @{ k='dnt_key'; x=6; y=10.5; deps=@('dnt_citadel'); tasks=@('@check'); checkTitle='Salle du boss ouverte !'; icon='minecraft:trial_key'; crate='epique'; optional=$true
      t='La clé du boss'; st='La salle du trésor'; d=@('Trouve la &eclé du boss&r de la citadelle et ouvre sa salle.') }
+  # --- Chambres d'epreuves (Not Enough Trials, Create: Trial and Error)
+  @{ k='tc_enter'; x=11.5; y=0; size=1.5; shape='gear'; deps=@('intro'); hideLines=$true; tasks=@('adv:minecraft:adventure/minecraft_trials_edition'); icon='minecraft:trial_key'; crate='commune'
+     t='&6&lLes chambres d''épreuves'; st='Not Enough Trials'
+     d=@('Les &6chambres d''épreuves&r sont refaites par &eNot Enough Trials&r : salles plus ouvertes, nouvelles salles, &csalles de boss&r, &esalles secrètes&r et une variante &everticale&r.',
+         '',
+         '- les &egénérateurs d''épreuves&r lâchent des &eclés&r une fois vaincus ;',
+         '- une clé ouvre une &echambre forte&r (une fois par joueur) ;',
+         '- avec l''effet &8Présage&r, tout devient &8sinistre&r : plus dur, et plus généreux.') }
+  @{ k='tc_key'; x=13; y=0; deps=@('tc_enter'); tasks=@('minecraft:trial_key'); crate='commune'; optional=$true
+     t='La clé d''épreuves'; st='Ouvrir une chambre forte'; d=@('Vaincs un &egénérateur d''épreuves&r pour obtenir une &eclé&r, puis ouvre une &echambre forte&r.') }
+  @{ k='tc_breeze'; x=14.5; y=0; deps=@('tc_enter'); tasks=@('minecraft:breeze_rod*4'); crate='commune'; optional=$true
+     t='Le Breeze'; st='Des bâtons de vent'; d=@('Le &eBreeze&r renvoie les flèches et saute partout. Ses &ebâtons&r donnent des charges de vent et servent à la masse.') }
+  @{ k='tc_scrape'; x=13; y=1.5; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/scraping_through'); crate='commune'; optional=$true; icon='minecraft:chiseled_copper'
+     t='Gratter pour passer'; st='Les mécanismes cachés'; d=@('Gratte un bloc de &ecuivre ciselé&r à la hache : il déclenche un mécanisme. Gratte tous ceux que tu vois !') }
+  @{ k='tc_luck'; x=14.5; y=1.5; deps=@('tc_scrape'); tasks=@('adv:minecraft:adventure/luck_potion'); crate='rare'; optional=$true; icon='minecraft:potion'
+     t='Un acheté, un offert !'; st='La potion de chance secrète'; d=@('Trouve une &epotion de chance&r cachée dans une salle secrète.') }
+  @{ k='tc_boss'; x=11.5; y=1.5; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/boss'); crate='rare'; optional=$true; icon='minecraft:trial_spawner'
+     t='Qui est le patron ?'; st='Une salle de boss'; d=@('Vaincs une &csalle de boss&r des chambres d''épreuves.') }
+  @{ k='tc_vertical'; x=11.5; y=3; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/vertical_trial_chambers'); crate='rare'; optional=$true; icon='minecraft:tuff_bricks'
+     t='Le puits des 100 épreuves'; st='La chambre verticale'; d=@('Entre dans une &echambre d''épreuves verticale&r.') }
+  @{ k='tc_ominous_key'; x=13; y=3; deps=@('tc_key'); tasks=@('minecraft:ominous_trial_key'); crate='rare'; optional=$true
+     t='La clé sinistre'; st='Sous l''effet de Présage'; d=@('Bois une &ebouteille sinistre&r (pillards) avant d''entrer : les générateurs deviennent &8sinistres&r et lâchent des &eclés sinistres&r.') }
+  @{ k='tc_boss_ominous'; x=14.5; y=3; deps=@('tc_boss','tc_ominous_key'); tasks=@('adv:minecraft:adventure/boss_ominous'); crate='epique'; optional=$true; icon='minecraft:ominous_trial_key'
+     t='Sinistrement fort'; st='Une salle de boss sinistre'; d=@('Vaincs une &csalle de boss sinistre&r.') }
+  @{ k='tc_champion'; x=16; y=3; size=1.5; shape='hexagon'; deps=@('tc_boss_ominous'); tasks=@('adv:minecraft:adventure/kill_all_bosses'); crate='legendaire'; optional=$true; icon='minecraft:heavy_core'
+     t='&6&lChampion des épreuves'; st='Toutes les salles de boss'; d=@('Affronte &etoutes les salles de boss&r des chambres d''épreuves.') }
+  @{ k='tc_core'; x=13; y=4.5; deps=@('tc_ominous_key'); tasks=@('minecraft:heavy_core'); crate='epique'; optional=$true
+     t='Le cœur lourd'; st='Le trésor des chambres sinistres'; d=@('Le &ecœur lourd&r se trouve dans les &echambres fortes sinistres&r.') }
+  @{ k='tc_mace'; x=14.5; y=4.5; deps=@('tc_core','tc_breeze'); tasks=@('minecraft:mace'); crate='epique'; optional=$true
+     t='La masse'; st='Plus on tombe de haut, plus ça fait mal'; d=@('Fabrique la &emasse&r avec le cœur lourd et un bâton de Breeze. Ses dégâts augmentent avec la hauteur de ta chute !') }
+  @{ k='tae_cast'; x=11.5; y=6; deps=@('tc_key'); hideLines=$true; tasks=@('trialanderror:trial_key_cast'); crate='rare'; optional=$true
+     t='Le moule à clés'; st='Create: Trial and Error'
+     d=@('&eTrial and Error&r automatise les chambres d''épreuves avec Create :',
+         '',
+         '- un &emoule&r copie une clé (souvent raté au début) puis produit des clés à l''infini avec du tuf et du cuivre ;',
+         '- un &edéployeur&r peut ouvrir une chambre forte sans joueur à côté.') }
+  @{ k='tae_ominous'; x=13; y=6; deps=@('tae_cast','tc_ominous_key'); tasks=@('trialanderror:ominous_key_cast'); crate='epique'; optional=$true
+     t='Le moule sinistre'; st='Des clés sinistres à la chaîne'; d=@('Un &emoule à clés sinistres&r.') }
   # --- Archaion (le donjon de la cite antique)
   @{ k='arch_map'; x=-6; y=6; deps=@('ancientcity'); hideLines=$true; tasks=@('adv:archaion:obtain_map'); crate='commune'; optional=$true; icon='minecraft:filled_map'
      t='Des murmures dans les ruines'; st='Archaion'

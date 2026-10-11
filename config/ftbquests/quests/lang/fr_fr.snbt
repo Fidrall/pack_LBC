@@ -269,6 +269,11 @@
 	]
 	quest.0521CF6514C11CC3.quest_subtitle: "Relique des mages"
 	quest.0521CF6514C11CC3.title: "Disperseur immatériel"
+	quest.056440BEAB2DF86B.quest_desc: [
+		"Entre dans une &echambre d'épreuves verticale&r."
+	]
+	quest.056440BEAB2DF86B.quest_subtitle: "La chambre verticale"
+	quest.056440BEAB2DF86B.title: "Le puits des 100 épreuves"
 	quest.05A39ED901BC6569.quest_subtitle: "Réduit la durée des effets négatifs"
 	quest.05B32DE12868C6DE.quest_desc: [
 		"Avec ta &epioche en bois&r, la pierre n'est plus un problème."
@@ -855,6 +860,11 @@
 	quest.13384C6B8C1B2D60.quest_subtitle: "Tous les livres en un"
 	quest.13384C6B8C1B2D60.title: "Le Tome Akashique"
 	quest.13449219998C54E1.quest_subtitle: "Tes attaques mettent le feu à la cible"
+	quest.13561E759DFF48D8.quest_desc: [
+		"Affronte &etoutes les salles de boss&r des chambres d'épreuves."
+	]
+	quest.13561E759DFF48D8.quest_subtitle: "Toutes les salles de boss"
+	quest.13561E759DFF48D8.title: "&6&lChampion des épreuves"
 	quest.135A70D16AC6511D.quest_desc: [
 		"Sert à réveiller l'&cÉcho de Tyros, le Premier Porte-Flamme&r, dans l'&6arène de la Citadelle&r du Nether."
 		""
@@ -2141,6 +2151,11 @@
 	]
 	quest.3230902EC8DD90A6.quest_subtitle: "Doggy Talents Next"
 	quest.3230902EC8DD90A6.title: "&6Les chiens de compagnie"
+	quest.3243C6CE6219D4C5.quest_desc: [
+		"Gratte un bloc de &ecuivre ciselé&r à la hache : il déclenche un mécanisme. Gratte tous ceux que tu vois !"
+	]
+	quest.3243C6CE6219D4C5.quest_subtitle: "Les mécanismes cachés"
+	quest.3243C6CE6219D4C5.title: "Gratter pour passer"
 	quest.32874A063226CBCF.quest_desc: [
 		"Un énorme singe des glaces qui &edort dans les biomes enneigés&r. Ne le réveille que si tu es prêt !"
 		""
@@ -2473,6 +2488,11 @@
 	quest.38172BE7A0B9E9B6.quest_subtitle: "Apprivoiser"
 	quest.38172BE7A0B9E9B6.title: "Familier : Mage"
 	quest.383DED27F9FC984B.quest_subtitle: "&6+15 % de régénération de mana"
+	quest.38403B8B8C82D6D2.quest_desc: [
+		"Fabrique la &emasse&r avec le cœur lourd et un bâton de Breeze. Ses dégâts augmentent avec la hauteur de ta chute !"
+	]
+	quest.38403B8B8C82D6D2.quest_subtitle: "Plus on tombe de haut, plus ça fait mal"
+	quest.38403B8B8C82D6D2.title: "La masse"
 	quest.388E9A50F6028454.quest_desc: [
 		"Les &bMoas&r sont de grands oiseaux. Ils pondent parfois des &eŒufs de Moa&r."
 		""
@@ -2602,6 +2622,11 @@
 	quest.3C1506CBC8B8EFDB.title: "Hulk écrase !"
 	quest.3C70DF2450BA9060.quest_subtitle: "Relique des mages"
 	quest.3C70DF2450BA9060.title: "Chair vivante"
+	quest.3C78EFD83BE2FCB7.quest_desc: [
+		"Vaincs un &egénérateur d'épreuves&r pour obtenir une &eclé&r, puis ouvre une &echambre forte&r."
+	]
+	quest.3C78EFD83BE2FCB7.quest_subtitle: "Ouvrir une chambre forte"
+	quest.3C78EFD83BE2FCB7.title: "La clé d'épreuves"
 	quest.3C7D9FC17EB00995.quest_desc: [
 		"Dans la &esavane&r, les &eUmvuthana&r masqués vivent dans des villages fortifiés. Leur chef, &eUmvuthi&r, t'attend sur son trône."
 		""
@@ -2865,6 +2890,11 @@
 		""
 		"Le Tunnel en Laiton peut diviser, trier et fusionner les flux d'objets sur les tapis. Chacun de ses quatre côtés peut être une entrée ou une sortie, pour des circuits flexibles et complexes."
 	]
+	quest.410A3B1B82ACAB79.quest_desc: [
+		"Le &eBreeze&r renvoie les flèches et saute partout. Ses &ebâtons&r donnent des charges de vent et servent à la masse."
+	]
+	quest.410A3B1B82ACAB79.quest_subtitle: "Des bâtons de vent"
+	quest.410A3B1B82ACAB79.title: "Le Breeze"
 	quest.41856CF652A43501.quest_desc: [
 		"Dans les &eplaines de quartz&r se cache un &esanctuaire&r et sa chambre forte. Trouve comment l'ouvrir !"
 	]
@@ -3031,6 +3061,11 @@
 	]
 	quest.45588D020EF84979.quest_subtitle: "Là où le fer flotte"
 	quest.45588D020EF84979.title: "&cMagnetic Caves"
+	quest.456686EA224D107F.quest_desc: [
+		"Le &ecœur lourd&r se trouve dans les &echambres fortes sinistres&r."
+	]
+	quest.456686EA224D107F.quest_subtitle: "Le trésor des chambres sinistres"
+	quest.456686EA224D107F.title: "Le cœur lourd"
 	quest.45897F363A6ACCE7.title: "&dCristal de mana radieux"
 	quest.459ECD9B1E065F9D.quest_desc: [
 		"&eBosses'Rise&r ajoute cinq boss à phases, chacun dans son &earène&r, avec ses gardes et sa musique."
@@ -3240,6 +3275,11 @@
 	]
 	quest.4AB73A2B94869F22.quest_subtitle: "Tout recommencer là-haut"
 	quest.4AB73A2B94869F22.title: "Le bois de Ciel-Racine"
+	quest.4AD7D92332DDFC82.quest_desc: [
+		"Bois une &ebouteille sinistre&r (pillards) avant d'entrer : les générateurs deviennent &8sinistres&r et lâchent des &eclés sinistres&r."
+	]
+	quest.4AD7D92332DDFC82.quest_subtitle: "Sous l'effet de Présage"
+	quest.4AD7D92332DDFC82.title: "La clé sinistre"
 	quest.4AF21A7894A9F73A.quest_desc: [
 		"&7Clic droit :&r"
 		"Ouvre l'&6interface&r. &7Clic accroupi&r pour le poser sur une surface."
@@ -4073,6 +4113,15 @@
 		"&l&a📝Astuce :&r&r &oUtilise l'&eExplorer's Compass&r pour trouver une Acropole.&r"
 	]
 	quest.5FDAADD20C6A6DC7.quest_subtitle: "&3☠ Niveau 6"
+	quest.5FE0D8DD70AC5CE7.quest_desc: [
+		"Les &6chambres d'épreuves&r sont refaites par &eNot Enough Trials&r : salles plus ouvertes, nouvelles salles, &csalles de boss&r, &esalles secrètes&r et une variante &everticale&r."
+		""
+		"- les &egénérateurs d'épreuves&r lâchent des &eclés&r une fois vaincus ;"
+		"- une clé ouvre une &echambre forte&r (une fois par joueur) ;"
+		"- avec l'effet &8Présage&r, tout devient &8sinistre&r : plus dur, et plus généreux."
+	]
+	quest.5FE0D8DD70AC5CE7.quest_subtitle: "Not Enough Trials"
+	quest.5FE0D8DD70AC5CE7.title: "&6&lLes chambres d'épreuves"
 	quest.5FE14C4503C34921.quest_desc: [
 		"La &eroue motrice&r fait avancer la chenille, et la &echenille à suspension&r absorbe les bosses du terrain."
 		""
@@ -4312,6 +4361,16 @@
 	]
 	quest.65123E4190BCE18B.quest_subtitle: "La charge à cheval"
 	quest.65123E4190BCE18B.title: "La lance de joute"
+	quest.6531105041C0F3E6.quest_desc: [
+		"Vaincs une &csalle de boss sinistre&r."
+	]
+	quest.6531105041C0F3E6.quest_subtitle: "Une salle de boss sinistre"
+	quest.6531105041C0F3E6.title: "Sinistrement fort"
+	quest.655257D7E45C1BE2.quest_desc: [
+		"Un &emoule à clés sinistres&r."
+	]
+	quest.655257D7E45C1BE2.quest_subtitle: "Des clés sinistres à la chaîne"
+	quest.655257D7E45C1BE2.title: "Le moule sinistre"
 	quest.655E8C45AE0004C6.quest_desc: [
 		"Les &egéodes&r se minent dans les montagnes et le Nether. Elles donnent outils, armes et armures."
 	]
@@ -4346,6 +4405,11 @@
 	]
 	quest.65E6B8689DFD83B1.quest_subtitle: "Un monde plus grand, plus haut, plus profond"
 	quest.65E6B8689DFD83B1.title: "&a&lPartir à l'aventure"
+	quest.65EA2874B44180CA.quest_desc: [
+		"Trouve une &epotion de chance&r cachée dans une salle secrète."
+	]
+	quest.65EA2874B44180CA.quest_subtitle: "La potion de chance secrète"
+	quest.65EA2874B44180CA.title: "Un acheté, un offert !"
 	quest.66099384BDDAD77A.quest_desc: [
 		"Les donjons cachent des armes uniques : le &eMarteau de Kingbdogz&r (tire des projectiles), l'&eÉpée Vampire&r (vol de vie), l'&eÉpée de Foudre&r, l'&eArc Phénix&r (flèches enflammées), l'&eÉpée Sacrée&r…"
 		""
@@ -4762,6 +4826,14 @@
 		"Enfin, la &6Télécommande de Dimension de Poche&r t'envoie dans une petite pièce personnelle, pratique pour tester des machines ou stocker des choses en sécurité."
 	]
 	quest.6D5015C82CCC85FE.title: "&aCreate Teleporters&r"
+	quest.6DB1B4C2D5BBFB0E.quest_desc: [
+		"&eTrial and Error&r automatise les chambres d'épreuves avec Create :"
+		""
+		"- un &emoule&r copie une clé (souvent raté au début) puis produit des clés à l'infini avec du tuf et du cuivre ;"
+		"- un &edéployeur&r peut ouvrir une chambre forte sans joueur à côté."
+	]
+	quest.6DB1B4C2D5BBFB0E.quest_subtitle: "Create: Trial and Error"
+	quest.6DB1B4C2D5BBFB0E.title: "Le moule à clés"
 	quest.6DC731F2034D0BCD.quest_desc: [
 		"Un &eragoût&r de viande de moa."
 	]
@@ -5374,6 +5446,11 @@
 	]
 	quest.789180040016D6AA.quest_subtitle: "Create: Dragons Plus"
 	quest.789180040016D6AA.title: "Teintures liquides"
+	quest.789542A164D38E3F.quest_desc: [
+		"Vaincs une &csalle de boss&r des chambres d'épreuves."
+	]
+	quest.789542A164D38E3F.quest_subtitle: "Une salle de boss"
+	quest.789542A164D38E3F.title: "Qui est le patron ?"
 	quest.78AFAA428C5BBF29.quest_desc: [
 		"Récupère des &ecarapaces de shulker&r dans les Cités de l'End : de quoi fabriquer des &eboîtes de shulker&r, indispensables pour transporter ton inventaire."
 	]

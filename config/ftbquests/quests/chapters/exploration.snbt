@@ -1123,6 +1123,424 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["65E6B8689DFD83B1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:trial_key"
+			}
+			id: "5FE0D8DD70AC5CE7"
+			rewards: [
+				{
+					id: "7B53649C7553D14E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/minecraft_trials_edition"
+					criterion: ""
+					id: "631DB8B2606698F6"
+					type: "advancement"
+				}
+			]
+			x: 11.5d
+			y: 0d
+		}
+		{
+			dependencies: ["5FE0D8DD70AC5CE7"]
+			id: "3C78EFD83BE2FCB7"
+			optional: true
+			rewards: [
+				{
+					id: "596F15DA2D3A6B74"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6B91037F227747BE"
+					item: { count: 1, id: "minecraft:trial_key" }
+					type: "item"
+				}
+			]
+			x: 13d
+			y: 0d
+		}
+		{
+			dependencies: ["5FE0D8DD70AC5CE7"]
+			id: "410A3B1B82ACAB79"
+			optional: true
+			rewards: [
+				{
+					id: "48E1A1F8BC84AB19"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "56ADC2053EF72028"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 0d
+		}
+		{
+			dependencies: ["5FE0D8DD70AC5CE7"]
+			icon: {
+				id: "minecraft:chiseled_copper"
+			}
+			id: "3243C6CE6219D4C5"
+			optional: true
+			rewards: [
+				{
+					id: "31311631A7E1342C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/scraping_through"
+					criterion: ""
+					id: "439C924C9972B866"
+					type: "advancement"
+				}
+			]
+			x: 13d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3243C6CE6219D4C5"]
+			icon: {
+				id: "minecraft:potion"
+			}
+			id: "65EA2874B44180CA"
+			optional: true
+			rewards: [
+				{
+					id: "6912683EE6DC172E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/luck_potion"
+					criterion: ""
+					id: "0CDBC78A6E7A7275"
+					type: "advancement"
+				}
+			]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FE0D8DD70AC5CE7"]
+			icon: {
+				id: "minecraft:trial_spawner"
+			}
+			id: "789542A164D38E3F"
+			optional: true
+			rewards: [
+				{
+					id: "0B5FE978F16010EF"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/boss"
+					criterion: ""
+					id: "314B479478F546E6"
+					type: "advancement"
+				}
+			]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FE0D8DD70AC5CE7"]
+			icon: {
+				id: "minecraft:tuff_bricks"
+			}
+			id: "056440BEAB2DF86B"
+			optional: true
+			rewards: [
+				{
+					id: "77B3FC1EFFDE6616"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/vertical_trial_chambers"
+					criterion: ""
+					id: "0428B386F39E3DAC"
+					type: "advancement"
+				}
+			]
+			x: 11.5d
+			y: 3d
+		}
+		{
+			dependencies: ["3C78EFD83BE2FCB7"]
+			id: "4AD7D92332DDFC82"
+			optional: true
+			rewards: [
+				{
+					id: "4F5B1C0093D0945D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "677D003D63F2F0D2"
+					item: { count: 1, id: "minecraft:ominous_trial_key" }
+					type: "item"
+				}
+			]
+			x: 13d
+			y: 3d
+		}
+		{
+			dependencies: ["789542A164D38E3F", "4AD7D92332DDFC82"]
+			icon: {
+				id: "minecraft:ominous_trial_key"
+			}
+			id: "6531105041C0F3E6"
+			optional: true
+			rewards: [
+				{
+					id: "2793F3D354D4389A"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/boss_ominous"
+					criterion: ""
+					id: "3779CFA3C16582B3"
+					type: "advancement"
+				}
+			]
+			x: 14.5d
+			y: 3d
+		}
+		{
+			dependencies: ["6531105041C0F3E6"]
+			icon: {
+				id: "minecraft:heavy_core"
+			}
+			id: "13561E759DFF48D8"
+			optional: true
+			rewards: [
+				{
+					id: "66073E01CDAC418E"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/kill_all_bosses"
+					criterion: ""
+					id: "6836D9FFDDC10992"
+					type: "advancement"
+				}
+			]
+			x: 16d
+			y: 3d
+		}
+		{
+			dependencies: ["4AD7D92332DDFC82"]
+			id: "456686EA224D107F"
+			optional: true
+			rewards: [
+				{
+					id: "2E5CBCEBA17D4827"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4B1AEC4D9637CD0B"
+					item: { count: 1, id: "minecraft:heavy_core" }
+					type: "item"
+				}
+			]
+			x: 13d
+			y: 4.5d
+		}
+		{
+			dependencies: ["456686EA224D107F", "410A3B1B82ACAB79"]
+			id: "38403B8B8C82D6D2"
+			optional: true
+			rewards: [
+				{
+					id: "4D8C3037795EB599"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "76BF5270F055EDEA"
+					item: { count: 1, id: "minecraft:mace" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C78EFD83BE2FCB7"]
+			hide_dependency_lines: true
+			id: "6DB1B4C2D5BBFB0E"
+			optional: true
+			rewards: [
+				{
+					id: "197BB2E21185F22C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "06EA9D154D11AEED"
+					item: { count: 1, id: "trialanderror:trial_key_cast" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 6d
+		}
+		{
+			dependencies: ["6DB1B4C2D5BBFB0E", "4AD7D92332DDFC82"]
+			id: "655257D7E45C1BE2"
+			optional: true
+			rewards: [
+				{
+					id: "52509DDBCE13FC91"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "10229EFEABD38870"
+					item: { count: 1, id: "trialanderror:ominous_key_cast" }
+					type: "item"
+				}
+			]
+			x: 13d
+			y: 6d
+		}
+		{
 			dependencies: ["20BBDA9AC4B20474"]
 			hide_dependency_lines: true
 			icon: {

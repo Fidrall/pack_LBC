@@ -82,7 +82,7 @@ hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "76da3fb8167c871f02a684e73aafb51d3367bdf67f4e12f2a25cbf461a69cdaa"
+hash = "44864879cbf21351d11ee4ef9ae4dd042cae5cb8ec36cdff84ca748286b02068"
 
 [[files]]
 file = "config/betterstrongholds-neoforge-1_21.toml"
@@ -198,7 +198,7 @@ hash = "3e94c3c4ae4d71c3c3da30ead0cc7eb2f413fa7d61d4f5c41018aeab909eaf8c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.snbt"
-hash = "6db1c20947473a1393968aebf6f72759bee53d8d667df601b08598286b111eb1"
+hash = "6bbf90d577c47c666d1dabfadc113a241e888552b5247f9c650de54c5cad3d05"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
@@ -242,7 +242,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "36ea0c0b1907dbec88423c7379589811dafb251aa4ffb3da224a7e843e30d849"
+hash = "2c8cafc39ae7a173e3f5cfef786858b102c3bff12e9b341053a37b2818bbbbc0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -4790,6 +4790,11 @@ hash = "b5d7bf5c707e49e0ad5f266fc440ad6bdfeb86c2774e9b3574ea17c35d33082d"
 metafile = true
 
 [[files]]
+file = "mods/create-trial-and-error.pw.toml"
+hash = "66c22cdbadb6dc099aa3617293622ab91a58acf98a301425dc4085827a933279"
+metafile = true
+
+[[files]]
 file = "mods/create-vibrant-vaults.pw.toml"
 hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
 metafile = true
@@ -4812,6 +4817,11 @@ metafile = true
 [[files]]
 file = "mods/create_factory_logistics.pw.toml"
 hash = "5992df64e27a5dd20a386c32e7c2c8018e0c31ac9a25ee655bc375ef648e3590"
+metafile = true
+
+[[files]]
+file = "mods/create_oxidized.pw.toml"
+hash = "7e9e3d04c85d0a94a449245bae9239658e0fdeaf53043145c70d54070a38b9b0"
 metafile = true
 
 [[files]]
@@ -5337,6 +5347,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-trials.pw.toml"
+hash = "dd5f609b21c44691e9dcd1a072223e2cd0990b9f07ec80b37516640bfe6426c5"
 metafile = true
 
 [[files]]

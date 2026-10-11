@@ -264,3 +264,6 @@ cf | 1677981 | jetable | Apex Arcana (grandsigil) : 19 sorts ultimes ; config/ir
 mr | nullscape | conserver | terrain de l'End (blocs vanilla, cout nul en jeu) ; citadelle Cataclysm etendue a ses biomes (build-datapack section 8)
 cf | 1691687 | jetable | Maps 3D : carte 3D d'une zone (4x4 a 16x16 chunks), en main ou dans un cadre (CC0)
 cf | 1618019 | conserver | Better Inventory And Backpacks : inventaire refait (zone 5x9, emplacements d'outils, carrousel main gauche X), sac porte niveaux 1-5 + ameliorations ; remplace Sophisticated Backpacks/Storage (contenus perdus a la fusion : prevenir les joueurs)
+mr | not-enough-trials | jetable | chambres d'epreuves refaites (salles de boss, secretes, variante verticale ; 4 enchantements dans enchantments.cfg) ; GARDER la version 6.4 NeoForge (packwiz update prend la 6.0 FabricForge) ; declare minecraft [1.21,1.21.1) mais se charge bien
+mr | create-trial-and-error | jetable | automatisation des chambres d'epreuves avec Create (moules a cles, deployeur sur les chambres fortes)
+mr | create_oxidized | jetable | oxydation du cuivre au bec verseur (dependance Modrinth de Trial and Error)

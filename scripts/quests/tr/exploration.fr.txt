@@ -280,6 +280,83 @@ quest.15E7947F197BF7DF.quest_desc: [
   "Trouve la &eclé du boss&r de la citadelle et ouvre sa salle."
 ]
 task.43FADABA18FBD206.title: "Salle du boss ouverte !"
+quest.5FE0D8DD70AC5CE7.title: "&6&lLes chambres d'épreuves"
+quest.5FE0D8DD70AC5CE7.quest_subtitle: "Not Enough Trials"
+quest.5FE0D8DD70AC5CE7.quest_desc: [
+  "Les &6chambres d'épreuves&r sont refaites par &eNot Enough Trials&r : salles plus ouvertes, nouvelles salles, &csalles de boss&r, &esalles secrètes&r et une variante &everticale&r."
+  ""
+  "- les &egénérateurs d'épreuves&r lâchent des &eclés&r une fois vaincus ;"
+  "- une clé ouvre une &echambre forte&r (une fois par joueur) ;"
+  "- avec l'effet &8Présage&r, tout devient &8sinistre&r : plus dur, et plus généreux."
+]
+quest.3C78EFD83BE2FCB7.title: "La clé d'épreuves"
+quest.3C78EFD83BE2FCB7.quest_subtitle: "Ouvrir une chambre forte"
+quest.3C78EFD83BE2FCB7.quest_desc: [
+  "Vaincs un &egénérateur d'épreuves&r pour obtenir une &eclé&r, puis ouvre une &echambre forte&r."
+]
+quest.410A3B1B82ACAB79.title: "Le Breeze"
+quest.410A3B1B82ACAB79.quest_subtitle: "Des bâtons de vent"
+quest.410A3B1B82ACAB79.quest_desc: [
+  "Le &eBreeze&r renvoie les flèches et saute partout. Ses &ebâtons&r donnent des charges de vent et servent à la masse."
+]
+quest.3243C6CE6219D4C5.title: "Gratter pour passer"
+quest.3243C6CE6219D4C5.quest_subtitle: "Les mécanismes cachés"
+quest.3243C6CE6219D4C5.quest_desc: [
+  "Gratte un bloc de &ecuivre ciselé&r à la hache : il déclenche un mécanisme. Gratte tous ceux que tu vois !"
+]
+quest.65EA2874B44180CA.title: "Un acheté, un offert !"
+quest.65EA2874B44180CA.quest_subtitle: "La potion de chance secrète"
+quest.65EA2874B44180CA.quest_desc: [
+  "Trouve une &epotion de chance&r cachée dans une salle secrète."
+]
+quest.789542A164D38E3F.title: "Qui est le patron ?"
+quest.789542A164D38E3F.quest_subtitle: "Une salle de boss"
+quest.789542A164D38E3F.quest_desc: [
+  "Vaincs une &csalle de boss&r des chambres d'épreuves."
+]
+quest.056440BEAB2DF86B.title: "Le puits des 100 épreuves"
+quest.056440BEAB2DF86B.quest_subtitle: "La chambre verticale"
+quest.056440BEAB2DF86B.quest_desc: [
+  "Entre dans une &echambre d'épreuves verticale&r."
+]
+quest.4AD7D92332DDFC82.title: "La clé sinistre"
+quest.4AD7D92332DDFC82.quest_subtitle: "Sous l'effet de Présage"
+quest.4AD7D92332DDFC82.quest_desc: [
+  "Bois une &ebouteille sinistre&r (pillards) avant d'entrer : les générateurs deviennent &8sinistres&r et lâchent des &eclés sinistres&r."
+]
+quest.6531105041C0F3E6.title: "Sinistrement fort"
+quest.6531105041C0F3E6.quest_subtitle: "Une salle de boss sinistre"
+quest.6531105041C0F3E6.quest_desc: [
+  "Vaincs une &csalle de boss sinistre&r."
+]
+quest.13561E759DFF48D8.title: "&6&lChampion des épreuves"
+quest.13561E759DFF48D8.quest_subtitle: "Toutes les salles de boss"
+quest.13561E759DFF48D8.quest_desc: [
+  "Affronte &etoutes les salles de boss&r des chambres d'épreuves."
+]
+quest.456686EA224D107F.title: "Le cœur lourd"
+quest.456686EA224D107F.quest_subtitle: "Le trésor des chambres sinistres"
+quest.456686EA224D107F.quest_desc: [
+  "Le &ecœur lourd&r se trouve dans les &echambres fortes sinistres&r."
+]
+quest.38403B8B8C82D6D2.title: "La masse"
+quest.38403B8B8C82D6D2.quest_subtitle: "Plus on tombe de haut, plus ça fait mal"
+quest.38403B8B8C82D6D2.quest_desc: [
+  "Fabrique la &emasse&r avec le cœur lourd et un bâton de Breeze. Ses dégâts augmentent avec la hauteur de ta chute !"
+]
+quest.6DB1B4C2D5BBFB0E.title: "Le moule à clés"
+quest.6DB1B4C2D5BBFB0E.quest_subtitle: "Create: Trial and Error"
+quest.6DB1B4C2D5BBFB0E.quest_desc: [
+  "&eTrial and Error&r automatise les chambres d'épreuves avec Create :"
+  ""
+  "- un &emoule&r copie une clé (souvent raté au début) puis produit des clés à l'infini avec du tuf et du cuivre ;"
+  "- un &edéployeur&r peut ouvrir une chambre forte sans joueur à côté."
+]
+quest.655257D7E45C1BE2.title: "Le moule sinistre"
+quest.655257D7E45C1BE2.quest_subtitle: "Des clés sinistres à la chaîne"
+quest.655257D7E45C1BE2.quest_desc: [
+  "Un &emoule à clés sinistres&r."
+]
 quest.2189134BBBB81C74.title: "Des murmures dans les ruines"
 quest.2189134BBBB81C74.quest_subtitle: "Archaion"
 quest.2189134BBBB81C74.quest_desc: [
