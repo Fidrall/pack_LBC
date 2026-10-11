@@ -1,0 +1,93 @@
+{
+    "type":  "minecraft:entity",
+    "pools":  [
+                  {
+                      "bonus_rolls":  0.0,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "functions":  [
+                                                            {
+                                                                "add":  false,
+                                                                "count":  {
+                                                                              "type":  "minecraft:uniform",
+                                                                              "max":  4.0,
+                                                                              "min":  0.0
+                                                                          },
+                                                                "function":  "minecraft:set_count"
+                                                            },
+                                                            {
+                                                                "count":  {
+                                                                              "type":  "minecraft:uniform",
+                                                                              "max":  1.0,
+                                                                              "min":  0.0
+                                                                          },
+                                                                "function":  "minecraft:enchanted_count_increase",
+                                                                "enchantment":  "minecraft:looting"
+                                                            }
+                                                        ],
+                                          "name":  "irons_spellbooks:arcane_essence"
+                                      }
+                                  ],
+                      "rolls":  1.0
+                  },
+                  {
+                      "bonus_rolls":  0.0,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.0,
+                                                                                "max":  0.3
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:void_bulwark",
+                                                                                                    "cataclysm_spellbooks:void_rune",
+                                                                                                    "irons_spellbooks:arcane_shackle",
+                                                                                                    "irons_spellbooks:black_hole",
+                                                                                                    "irons_spellbooks:counterspell",
+                                                                                                    "irons_spellbooks:dragon_breath",
+                                                                                                    "irons_spellbooks:echoing_strikes",
+                                                                                                    "irons_spellbooks:evasion",
+                                                                                                    "irons_spellbooks:gravity_fissure",
+                                                                                                    "irons_spellbooks:magic_arrow",
+                                                                                                    "irons_spellbooks:magic_missile",
+                                                                                                    "irons_spellbooks:portal",
+                                                                                                    "irons_spellbooks:recall",
+                                                                                                    "irons_spellbooks:shadow_slash",
+                                                                                                    "irons_spellbooks:starfall",
+                                                                                                    "irons_spellbooks:summon_ender_chest",
+                                                                                                    "irons_spellbooks:summon_swords",
+                                                                                                    "irons_spellbooks:teleport",
+                                                                                                    "somakespells:abyssal_orbs",
+                                                                                                    "somakespells:ender_corruption"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ],
+                                          "conditions":  [
+                                                             {
+                                                                 "condition":  "minecraft:random_chance_with_enchanted_bonus",
+                                                                 "enchantment":  "minecraft:looting",
+                                                                 "unenchanted_chance":  0.25,
+                                                                 "enchanted_chance":  {
+                                                                                          "type":  "minecraft:linear",
+                                                                                          "base":  0.3,
+                                                                                          "per_level_above_first":  0.05
+                                                                                      }
+                                                             },
+                                                             {
+                                                                 "condition":  "minecraft:killed_by_player"
+                                                             }
+                                                         ]
+                                      }
+                                  ],
+                      "rolls":  1
+                  }
+              ]
+}

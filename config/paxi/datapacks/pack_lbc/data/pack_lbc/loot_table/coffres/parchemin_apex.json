@@ -1,0 +1,45 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0,
+                                                                                "max":  1
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "grandsigil:black_coffin",
+                                                                                                    "grandsigil:colosseum",
+                                                                                                    "grandsigil:crimson_threads",
+                                                                                                    "grandsigil:dimension_cut",
+                                                                                                    "grandsigil:full_bloom",
+                                                                                                    "grandsigil:glaciation",
+                                                                                                    "grandsigil:grand_sigil",
+                                                                                                    "grandsigil:heaven_gate",
+                                                                                                    "grandsigil:ice_age",
+                                                                                                    "grandsigil:phoenix",
+                                                                                                    "grandsigil:reckoning",
+                                                                                                    "grandsigil:skybreak",
+                                                                                                    "grandsigil:sunfall",
+                                                                                                    "grandsigil:the_gaze",
+                                                                                                    "grandsigil:thousand_blades",
+                                                                                                    "grandsigil:thunder_dragon",
+                                                                                                    "grandsigil:voidgrip",
+                                                                                                    "grandsigil:world_tree"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

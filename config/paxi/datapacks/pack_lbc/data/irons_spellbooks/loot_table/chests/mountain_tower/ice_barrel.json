@@ -1,0 +1,102 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  2,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.0,
+                                                                                "max":  0.75
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:conjure_thralls",
+                                                                                                    "cataclysm_spellbooks:phantasmal_blade",
+                                                                                                    "hazennstuff:hailstorm",
+                                                                                                    "hazennstuff:ice_arrow",
+                                                                                                    "irons_spellbooks:blizzard",
+                                                                                                    "irons_spellbooks:cone_of_cold",
+                                                                                                    "irons_spellbooks:frost_step",
+                                                                                                    "irons_spellbooks:frostbite",
+                                                                                                    "irons_spellbooks:frostwave",
+                                                                                                    "irons_spellbooks:ice_block",
+                                                                                                    "irons_spellbooks:ice_spikes",
+                                                                                                    "irons_spellbooks:ice_tomb",
+                                                                                                    "irons_spellbooks:icicle",
+                                                                                                    "irons_spellbooks:ray_of_frost",
+                                                                                                    "irons_spellbooks:snowball",
+                                                                                                    "irons_spellbooks:summon_polar_bear",
+                                                                                                    "somakespells:permafrost"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  4,
+                                          "name":  "irons_spellbooks:affinity_ring",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_ring_enhancement",
+                                                                "school":  "irons_spellbooks:ice"
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "irons_spellbooks:frostward_ring"
+                                      },
+                                      {
+                                          "type":  "minecraft:empty",
+                                          "weight":  2
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  {
+                                    "min":  6,
+                                    "max":  12
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:snowball",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  2
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:ice",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  2,
+                                                                              "max":  4
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

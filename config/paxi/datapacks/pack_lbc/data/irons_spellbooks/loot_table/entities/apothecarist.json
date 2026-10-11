@@ -1,0 +1,92 @@
+{
+    "type":  "minecraft:entity",
+    "pools":  [
+                  {
+                      "bonus_rolls":  0.0,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "functions":  [
+                                                            {
+                                                                "add":  false,
+                                                                "count":  {
+                                                                              "type":  "minecraft:uniform",
+                                                                              "max":  8.0,
+                                                                              "min":  0.0
+                                                                          },
+                                                                "function":  "minecraft:set_count"
+                                                            },
+                                                            {
+                                                                "count":  {
+                                                                              "type":  "minecraft:uniform",
+                                                                              "max":  1.0,
+                                                                              "min":  0.0
+                                                                          },
+                                                                "function":  "minecraft:enchanted_count_increase",
+                                                                "enchantment":  "minecraft:looting"
+                                                            }
+                                                        ],
+                                          "name":  "irons_spellbooks:arcane_essence"
+                                      }
+                                  ],
+                      "rolls":  1.0
+                  },
+                  {
+                      "bonus_rolls":  0.0,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.25,
+                                                                                "max":  0.85
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:amethyst_puncture",
+                                                                                                    "cataclysm_spellbooks:conjure_amethyst_crab",
+                                                                                                    "cataclysm_spellbooks:desert_winds",
+                                                                                                    "cataclysm_spellbooks:sandstorm",
+                                                                                                    "hazennstuff:counterspell_spider_lily",
+                                                                                                    "hazennstuff:death_sentence",
+                                                                                                    "hazennstuff:shard_sword",
+                                                                                                    "hazennstuff:thorn_chakram",
+                                                                                                    "irons_spellbooks:acid_orb",
+                                                                                                    "irons_spellbooks:blight",
+                                                                                                    "irons_spellbooks:earthquake",
+                                                                                                    "irons_spellbooks:firefly_swarm",
+                                                                                                    "irons_spellbooks:gluttony",
+                                                                                                    "irons_spellbooks:oakskin",
+                                                                                                    "irons_spellbooks:poison_arrow",
+                                                                                                    "irons_spellbooks:poison_breath",
+                                                                                                    "irons_spellbooks:poison_splash",
+                                                                                                    "irons_spellbooks:root",
+                                                                                                    "irons_spellbooks:spider_aspect",
+                                                                                                    "irons_spellbooks:stomp",
+                                                                                                    "irons_spellbooks:touch_dig",
+                                                                                                    "somakespells:overgrowth"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ],
+                      "rolls":  1
+                  },
+                  {
+                      "rolls":  {
+                                    "min":  1,
+                                    "max":  3
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/good_ink"
+                                      }
+                                  ]
+                  }
+              ]
+}

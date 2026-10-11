@@ -482,6 +482,18 @@ foreach ($b in $tablettes.Keys) {
     W "data/pack_lbc/loot_modifiers/tablette_$b.json" ([ordered]@{ type = 'alexscaves:cave_tablet'; biome = "alexscaves:$b"; replace = $false; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }) })
     $glm += "pack_lbc:tablette_$b"
 }
+# Parchemins d'Apex Arcana (grandsigil) : retires de tous les tirages aleatoires de parchemins (tables reecrites dans
+# scripts/data/spell_loot, copiees en section 17) et places seulement dans quelques coffres de fin de jeu, tres rarement.
+# Chance par coffre (Lootr : par joueur). Liste des sorts : scripts/data/sorts_apex.txt.
+$apexChance = [ordered]@{ 'minecraft:chests/ancient_city' = 0.01; 'minecraft:chests/end_city_treasure' = 0.02; 'minecraft:chests/bastion_treasure' = 0.02 }
+$apexSorts = @([IO.File]::ReadAllLines((Join-Path $PSScriptRoot 'data\sorts_apex.txt')) | Where-Object { $_.Trim() })
+W 'data/pack_lbc/loot_table/coffres/parchemin_apex.json' ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = 'irons_spellbooks:scroll'; functions = @([ordered]@{ function = 'irons_spellbooks:randomize_spell'; quality = [ordered]@{ min = 0.0; max = 1.0 }; spell_filter = [ordered]@{ spells = $apexSorts } }) }) }) })
+$i = 0
+foreach ($t in $apexChance.Keys) {
+    $i++
+    W "data/pack_lbc/loot_modifiers/coffres/parchemin_apex_$i.json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'neoforge:loot_table_id'; loot_table_id = $t }, [ordered]@{ condition = 'minecraft:random_chance'; chance = $apexChance[$t] }); table = 'pack_lbc:coffres/parchemin_apex' })
+    $glm += "pack_lbc:coffres/parchemin_apex_$i"
+}
 W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $glm })
 
 # ---------- 15. Coffres Dungeons Arise reequilibres (tables figees dans scripts/data/loot_overrides) ----------
@@ -501,6 +513,16 @@ $fn = Join-Path $dp 'data\pack_lbc\function\stellarity_config.mcfunction'
 New-Item -ItemType Directory -Force (Split-Path $fn) | Out-Null
 [IO.File]::WriteAllText($fn, "scoreboard objectives add stellarity.config.dragon_health dummy`nscoreboard players set #stellarity.config stellarity.config.dragon_health 400`n", $enc)
 W 'data/minecraft/tags/function/load.json' ([ordered]@{ values = @('pack_lbc:stellarity_config') })
+
+# ---------- 17. Parchemins d'Iron's et de ses addons sans Apex Arcana (tables figees dans scripts/data/spell_loot) ----------
+# 59 tables : chaque tirage aleatoire recoit une liste explicite de sorts (toutes ecoles ou l'ecole demandee), sans grandsigil.
+# (regenerer avec scratchpad gen_spell_loot.ps1 apres chaque mise a jour d'Iron's ou d'un addon de sorts)
+$sl = Join-Path $PSScriptRoot 'data\spell_loot'
+foreach ($f in Get-ChildItem $sl -Recurse -File) {
+    $to = Join-Path $dp $f.FullName.Substring($sl.Length + 1)
+    New-Item -ItemType Directory -Force (Split-Path $to) | Out-Null
+    Copy-Item $f.FullName $to -Force
+}
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

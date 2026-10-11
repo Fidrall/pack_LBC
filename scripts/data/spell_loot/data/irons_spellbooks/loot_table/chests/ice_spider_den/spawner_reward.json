@@ -1,0 +1,59 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:enchant_with_levels",
+                                                                "levels":  15.0,
+                                                                "options":  "#minecraft:on_random_loot"
+                                                            }
+                                                        ],
+                                          "name":  "minecraft:book"
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/decent_ink"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.0,
+                                                                                "max":  0.5
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:conjure_thralls",
+                                                                                                    "cataclysm_spellbooks:phantasmal_blade",
+                                                                                                    "hazennstuff:hailstorm",
+                                                                                                    "hazennstuff:ice_arrow",
+                                                                                                    "irons_spellbooks:blizzard",
+                                                                                                    "irons_spellbooks:cone_of_cold",
+                                                                                                    "irons_spellbooks:frost_step",
+                                                                                                    "irons_spellbooks:frostbite",
+                                                                                                    "irons_spellbooks:frostwave",
+                                                                                                    "irons_spellbooks:ice_block",
+                                                                                                    "irons_spellbooks:ice_spikes",
+                                                                                                    "irons_spellbooks:ice_tomb",
+                                                                                                    "irons_spellbooks:icicle",
+                                                                                                    "irons_spellbooks:ray_of_frost",
+                                                                                                    "irons_spellbooks:snowball",
+                                                                                                    "irons_spellbooks:summon_polar_bear",
+                                                                                                    "somakespells:permafrost"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

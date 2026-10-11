@@ -1,0 +1,148 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  15,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  5,
+                                          "name":  "irons_spellbooks:arcane_essence",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  3
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  5,
+                                          "name":  "minecraft:paper",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  5
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  5,
+                                          "name":  "minecraft:rabbit_stew"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  6,
+                                          "name":  "minecraft:amethyst_shard"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  8,
+                                          "name":  "irons_spellbooks:frozen_bone"
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:goat_horn",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_instrument",
+                                                                "options":  "#minecraft:goat_horns"
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  {
+                                    "min":  1,
+                                    "max":  2
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.1,
+                                                                                "max":  0.75
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:conjure_thralls",
+                                                                                                    "cataclysm_spellbooks:phantasmal_blade",
+                                                                                                    "hazennstuff:hailstorm",
+                                                                                                    "hazennstuff:ice_arrow",
+                                                                                                    "irons_spellbooks:blizzard",
+                                                                                                    "irons_spellbooks:cone_of_cold",
+                                                                                                    "irons_spellbooks:frost_step",
+                                                                                                    "irons_spellbooks:frostbite",
+                                                                                                    "irons_spellbooks:frostwave",
+                                                                                                    "irons_spellbooks:ice_block",
+                                                                                                    "irons_spellbooks:ice_spikes",
+                                                                                                    "irons_spellbooks:ice_tomb",
+                                                                                                    "irons_spellbooks:icicle",
+                                                                                                    "irons_spellbooks:ray_of_frost",
+                                                                                                    "irons_spellbooks:snowball",
+                                                                                                    "irons_spellbooks:summon_polar_bear",
+                                                                                                    "somakespells:permafrost"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:furled_map",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:set_furled_map",
+                                                                "destination":  "irons_spellbooks:impaled_icebreaker",
+                                                                "description_translation":  "item.irons_spellbooks.failed_arctic_voyage_map"
+                                                            }
+                                                        ]
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.3
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/basic_curios"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.3
+                                         }
+                                     ]
+                  }
+              ]
+}

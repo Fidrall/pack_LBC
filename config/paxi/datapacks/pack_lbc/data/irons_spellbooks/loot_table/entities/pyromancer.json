@@ -1,0 +1,101 @@
+{
+    "type":  "minecraft:entity",
+    "pools":  [
+                  {
+                      "bonus_rolls":  0.0,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "functions":  [
+                                                            {
+                                                                "add":  false,
+                                                                "count":  {
+                                                                              "type":  "minecraft:uniform",
+                                                                              "max":  8.0,
+                                                                              "min":  0.0
+                                                                          },
+                                                                "function":  "minecraft:set_count"
+                                                            },
+                                                            {
+                                                                "count":  {
+                                                                              "type":  "minecraft:uniform",
+                                                                              "max":  1.0,
+                                                                              "min":  0.0
+                                                                          },
+                                                                "function":  "minecraft:enchanted_count_increase",
+                                                                "enchantment":  "minecraft:looting"
+                                                            }
+                                                        ],
+                                          "name":  "irons_spellbooks:arcane_essence"
+                                      }
+                                  ],
+                      "rolls":  1.0
+                  },
+                  {
+                      "bonus_rolls":  0.0,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.25,
+                                                                                "max":  0.85
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:ashen_breath",
+                                                                                                    "cataclysm_spellbooks:bone_storm",
+                                                                                                    "cataclysm_spellbooks:conjure_ignited_reinforcement",
+                                                                                                    "cataclysm_spellbooks:piercing_bone",
+                                                                                                    "hazennstuff:cinderous_step",
+                                                                                                    "hazennstuff:soul_flame_bolt",
+                                                                                                    "hazennstuff:soul_flaming_strike",
+                                                                                                    "irons_spellbooks:blaze_storm",
+                                                                                                    "irons_spellbooks:burning_dash",
+                                                                                                    "irons_spellbooks:fire_arrow",
+                                                                                                    "irons_spellbooks:fire_breath",
+                                                                                                    "irons_spellbooks:fireball",
+                                                                                                    "irons_spellbooks:firebolt",
+                                                                                                    "irons_spellbooks:flaming_barrage",
+                                                                                                    "irons_spellbooks:flaming_strike",
+                                                                                                    "irons_spellbooks:heat_surge",
+                                                                                                    "irons_spellbooks:magma_bomb",
+                                                                                                    "irons_spellbooks:scorch",
+                                                                                                    "irons_spellbooks:wall_of_fire",
+                                                                                                    "somakespells:abyssal_burn",
+                                                                                                    "somakespells:apocalyptic_burst",
+                                                                                                    "somakespells:combustion",
+                                                                                                    "somakespells:damned_demomans",
+                                                                                                    "somakespells:eruption",
+                                                                                                    "somakespells:fire_blast",
+                                                                                                    "somakespells:fire_orbs",
+                                                                                                    "somakespells:firestorm_vortex",
+                                                                                                    "somakespells:ignis_shield",
+                                                                                                    "somakespells:incinerator_slash",
+                                                                                                    "somakespells:pumpkin_bomb",
+                                                                                                    "somakespells:ritual_flame"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ],
+                      "rolls":  1
+                  },
+                  {
+                      "rolls":  {
+                                    "min":  1,
+                                    "max":  3
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/good_ink"
+                                      }
+                                  ]
+                  }
+              ]
+}

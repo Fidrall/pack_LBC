@@ -36,6 +36,9 @@
                     "pack_lbc:boss/legende_t1",
                     "pack_lbc:coffres/sac_general",
                     "pack_lbc:tablette_toxic_caves",
-                    "pack_lbc:tablette_forlorn_hollows"
+                    "pack_lbc:tablette_forlorn_hollows",
+                    "pack_lbc:coffres/parchemin_apex_1",
+                    "pack_lbc:coffres/parchemin_apex_2",
+                    "pack_lbc:coffres/parchemin_apex_3"
                 ]
 }

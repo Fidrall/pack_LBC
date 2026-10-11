@@ -1,0 +1,160 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "irons_spellbooks:arcane_essence",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  6
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/basic_curios"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.15
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.3,
+                                                                                "max":  0.6
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:amethyst_puncture",
+                                                                                                    "cataclysm_spellbooks:conjure_amethyst_crab",
+                                                                                                    "cataclysm_spellbooks:desert_winds",
+                                                                                                    "cataclysm_spellbooks:sandstorm",
+                                                                                                    "hazennstuff:counterspell_spider_lily",
+                                                                                                    "hazennstuff:death_sentence",
+                                                                                                    "hazennstuff:shard_sword",
+                                                                                                    "hazennstuff:thorn_chakram",
+                                                                                                    "irons_spellbooks:acid_orb",
+                                                                                                    "irons_spellbooks:blight",
+                                                                                                    "irons_spellbooks:earthquake",
+                                                                                                    "irons_spellbooks:firefly_swarm",
+                                                                                                    "irons_spellbooks:gluttony",
+                                                                                                    "irons_spellbooks:oakskin",
+                                                                                                    "irons_spellbooks:poison_arrow",
+                                                                                                    "irons_spellbooks:poison_breath",
+                                                                                                    "irons_spellbooks:poison_splash",
+                                                                                                    "irons_spellbooks:root",
+                                                                                                    "irons_spellbooks:spider_aspect",
+                                                                                                    "irons_spellbooks:stomp",
+                                                                                                    "irons_spellbooks:touch_dig",
+                                                                                                    "somakespells:overgrowth"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.7
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  {
+                                    "min":  1,
+                                    "max":  3
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/poor_ink"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.35
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "irons_spellbooks:rotten_spell_book"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.15
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  3,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "cataclysm_spellbooks:crystallized_manuscript",
+                                          "conditions":  [
+                                                             {
+                                                                 "condition":  "minecraft:random_chance",
+                                                                 "chance":  0.35
+                                                             }
+                                                         ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  20,
+                                          "name":  "irons_spellbooks:blank_rune"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  1,
+                                          "name":  "irons_spellbooks:nature_rune"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.15
+                                         }
+                                     ]
+                  }
+              ]
+}

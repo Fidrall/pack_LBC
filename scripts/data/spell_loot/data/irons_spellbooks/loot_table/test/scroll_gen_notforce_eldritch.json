@@ -1,0 +1,39 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.0,
+                                                                                "max":  1.0
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "darkermagic:summoned_sculk_centipede",
+                                                                                                    "darkermagic:summoned_sculk_snapper",
+                                                                                                    "darkermagic:summoned_shattered",
+                                                                                                    "darkermagic:summoned_warden",
+                                                                                                    "hazennstuff:soul_seekers",
+                                                                                                    "irons_spellbooks:abyssal_shroud",
+                                                                                                    "irons_spellbooks:eldritch_blast",
+                                                                                                    "irons_spellbooks:planar_sight",
+                                                                                                    "irons_spellbooks:pocket_dimension",
+                                                                                                    "irons_spellbooks:sculk_tentacles",
+                                                                                                    "irons_spellbooks:sonic_boom",
+                                                                                                    "irons_spellbooks:telekinesis",
+                                                                                                    "somakespells:eldritch_gambit"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

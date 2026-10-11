@@ -397,6 +397,14 @@ file = "config/obscuria/ancient_remnants-common.toml"
 hash = "859a1e0b5dcf49c6829a79a9882cee87c8807c1fe4efd2ff4417442c95799ca9"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/alshanex_familiars/loot_table/chests/origin_island/workshop/scrolls.json"
+hash = "da0a5a6ebc7a40e0e9e24e73b4b474cbe942ffd9b358a5d4bf215402b9bf03e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/alshanex_familiars/loot_table/chests/summoner_lab/treasure.json"
+hash = "c16c2c26e0ebd6b611b06c66d17388bd0ba109ceeac4caf082e9f0ac98545ab7"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/affix_loot_injection.json"
 hash = "68e8e1f8a4233e4b928c878204610edf804b8c3bf1b0b6bcfb7f09a158fe0599"
 
@@ -627,6 +635,14 @@ hash = "e411d1813167c058e5cb970c923ad12be9b4298552de6b10ac34322bea068b1f"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/cataclysm/worldgen/structure_set/frosted_prison.json"
 hash = "be0347cdda9059360cf153821fe7d1fbd95c29ec5ab7deccab8af32fa53083d1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/cataclysm_spellbooks/loot_table/chests/additional_amethyst_nest_loot.json"
+hash = "f7ce8e39273f697e15b036fa00e2edf5f8b15d7a31872dc2d80f72a057a70697"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/cataclysm_spellbooks/loot_table/chests/additional_frosted_prison_loot.json"
+hash = "fc9134c72fc438929facf896401d7780fea00b7767f20e5c147af0e2f1db5543"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/magnet.json"
@@ -1113,6 +1129,22 @@ file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_se
 hash = "a810f27f1ac2422f7e8e54a875eb59bc4f4ea75efd3b6316b14190f6433d42f6"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hazennstuff/loot_table/chests/additional_citadel_vault_loot.json"
+hash = "f66e3be0c1f72c9d6c9be241c55543767a25acea1a5d3cd55e987a28e5438bce"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hazennstuff/loot_table/entities/servant_of_ender.json"
+hash = "651afb957563890aa170ee0a743006edf3a197eb5e8860ce6e88d47e305f5e75"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hazennstuff/loot_table/entities/the_recluse.json"
+hash = "ab3968779f16583eb93748eec689b487321352bfdc7b7e46ebed2ff20cb70d7a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/hazennstuff/loot_table/loot_bags/tyros_loot_bag.json"
+hash = "937ce62b3353e6f80d966f300c4218a8a98415767970f422960c443b1bdcee30"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/portal_dripstone.json"
 hash = "cc98a4b94c1d91149f7da23a28eda2741634258059f6db8218fc7383eaddead8"
 
@@ -1127,6 +1159,210 @@ hash = "abe36872ef6496c991c99340a483c7c3c071d7d0b9ececf42a0db2aa6f69a7d4"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/underwater_warm_small_ruins.json"
 hash = "feecfc724cf39d76ba3c4e1b9bca1b560745e4e40046171af01f34bc2546c127"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_ancient_city_loot.json"
+hash = "42ca9b78a1b40754c9c6564fb69cae4de700e4eaee13610bc154086025aee987"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_end_city_loot.json"
+hash = "0b559fb1be757506f1d569a503b15996b392929d076c56511ee7f95fae768739"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_generic_loot.json"
+hash = "21aab92f12bc024f89c295c000f793b4066f1bce8c9cb5e4d83404b4e918cc76"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_good_loot.json"
+hash = "6f82b406317e8440bece6a3027d72349eaf7f35e353b75e822c955b6ffca45fd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_library_loot.json"
+hash = "02a6842fb4aa4c4b069ef139ba18abd485a6c86849d806719124544eeb5a3e36"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_nether_loot.json"
+hash = "aea0011897ac3d601ca40b12d6546cb435c3dfcccab726dffc87008a20ead978"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_treasure_loot.json"
+hash = "bfe8987cc67367e5baf504651bbe8c66205b65a9e390b49b4c44a5b61de7ea78"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/battleground/burial_loot.json"
+hash = "4a93eee4a6aebe13ba3fc506dec03c2717daa9e46bdfe9d3f3f26b019d775e6b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/bookshelf_loot.json"
+hash = "c9932562fcac043a0b0112c0b5fd20b504be00e7e3d867c426e65021ad0f5791"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/catacombs/coffin_loot.json"
+hash = "1e7c818417e1a94d76f0cb92186b0db5afafde04f945927a7c231cae5eec1b1e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/catacombs/dead_king_vault.json"
+hash = "58331b93bdda1786562178b24d38bf840810ae31956729376e65fc3850f92a5a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/catacombs/hidden_trough_treasure.json"
+hash = "a3e136abe055f957358a095f656efbf4c7711292e9f082985fb33b1c68650ad0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/catacombs/wall_loot.json"
+hash = "8cf184580b694b390aa76fa00118406b6e8befd62052b889b16be2f79ad99a05"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/citadel/citadel_bookshelf.json"
+hash = "c79a0c0472cf188dc577af8eb66967fa4b66e40d5fd9d82b840b15384fc43893"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/citadel/citadel_vault.json"
+hash = "1048d8663becd2343f5c8cb0635b321f65734c919ec9b506a04414795f76ebe3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/citadel/rampart_chest.json"
+hash = "f58d1bc416905120d526a7d07b878e24c9b1d7a8c2d3765b4be98c31aec1723e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/evoker_fort.json"
+hash = "62e8850ad43b2a5d0b92f823b38d7771a916ac1957cf32cbfe16758dc08f0738"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/filler_storage_loot.json"
+hash = "6de540abc1e9127d1177ad367bc5f1bffd00f6ab4165059412e013a7e17fe61b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/generic_magic_treasure.json"
+hash = "b42d8c44ed76f7d56183b4a6c14d3857484248ab854a147f57448f075b293ce1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/ice_spider_den/dungeon.json"
+hash = "b42eb0d6fcff44e397fe93697db5651870d298cd4daaabfe99b0c8f57503d4f0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/ice_spider_den/spawner_reward.json"
+hash = "1d49a32d7bcff8b0b516a5af7ad5a14b15c74133f1d11a640d20d7007a0c5a79"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/ice_spider_den/tower.json"
+hash = "ac62d3271892768e5f591c02d25f957ae3736b420c9bf977c4b63924d5c9e3b5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/magic_bookshelf_loot.json"
+hash = "3e8d115d78883d08f322f76eef5ee57efd090e897d1b050d61d2537fce9f56a1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/mangrove_hut.json"
+hash = "dab9bedb6fbcb4c6b3ef75b055917205c0c4fbf155596de07549c310784b7033"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/mountain_tower/ice_barrel.json"
+hash = "077a8724abe8028f5d6e5b152f9c9316e0f66c519c449189752d8b583947c169"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/mountain_tower/mountain_tower.json"
+hash = "2f9b1ae1f34794277bf7a9519b41e85dde816fa3e4777994f95afaaf86962fe9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/priest_house.json"
+hash = "7d85f7f2032c049933e46befcea94287c5580d6686bed557ad9c86232d04c000"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/pyromancer_tower/burnt_chest.json"
+hash = "608273de4d30c4f0eb57ee1e177110fe9a0a5a4b560f8adbfbd618a0e3b2dc7a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/pyromancer_tower/pyromancer_basic_storage.json"
+hash = "29e40592f587bb2156ca7ed57c7cd233e263f26b66122a19b70ea7d12798c905"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/pyromancer_tower/pyromancer_supplies.json"
+hash = "1d0a1be2dd7b6ccc9132d68f93387ddfde3a8a64424dde3e2a4193e612327135"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/trial_chambers/additional_ominous_vault_loot.json"
+hash = "eeb66d623fa7293e6ac410007d59d125c89db7b07baa8f2ad1d865259ad04454"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/trial_chambers/additional_regular_vault_loot.json"
+hash = "b8c65d2f030ab7f85e50a4c11ed43374dd763587362cf1846b491001154c8487"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/trial_chambers/additional_trial_chest_loot.json"
+hash = "9f97777194d6e961a4d740a091f25d238c157f0b1207315f69dfd1a6d561a614"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/trial_chambers/pot_replacement.json"
+hash = "41110fb3e47b180cb35614032fdf4a7cc9f3445eb79f7ce878135c8fcc4dd743"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/apothecarist.json"
+hash = "8c67d7a2955512930638df1fc11906827d52be4b52cfbc991d9409cc80aa5b25"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/archevoker.json"
+hash = "c312cabca69d1f2d2af6a1be9d4564c945278621b1c4ffc53973e3afd0c511cc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/cryomancer.json"
+hash = "14cf86bb9aa645fe10dbefdb22cb98a5e85ac6a07424d90a6c4ee4f3876127c7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/cultist.json"
+hash = "89e0c6fdb6a99cf48404d3bb455a9be6b9af75e84428f03269b1e416b045e5c3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/dead_king_ominous.json"
+hash = "b0f13428b104785d4962e2cabecb80848d4481e1f34ad0837115a500354145a8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/necromancer.json"
+hash = "9a03377271b08cf0772055ab12ce127464abd369c8beda2a139e2de42ae07bb1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/priest.json"
+hash = "b4aa555e15e7c6555dae9b417d9afea6da2d21a73f5b24b399dbe718a46e3efa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/entities/pyromancer.json"
+hash = "e011fa3aef815807b39919ec187b2c596e27467f3a702b6b4b0f1ea7a3ed3385"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/magic_items/scroll_pouch.json"
+hash = "631747516e23bdfe7157812a7453f9bdd1a08ad6b9b05cf2ed7607a7330d6973"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/spawners/catacombs/ominous_zombie_spawner.json"
+hash = "64a9c65367807770058c2eac2f6c4060ce86cc9919ae10ff7015271bedf3e4a2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/spawners/catacombs/regular_zombie_spawner.json"
+hash = "f746b4356e45d996c46367b12d90503d4aec5e630c13c778b97859e497bffba5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/test/scroll_gen.json"
+hash = "266298cd165bcc3665702a6563e8558254c8dbfaac239d9e9a2de6be27097613"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/test/scroll_gen_fire.json"
+hash = "948cfd73ae292250d54d7dc02e4d105c92ec1398c5e956679af7e3fe45a918ef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/test/scroll_gen_force_eldritch.json"
+hash = "cde66bfc71d8734137d56e44926698068de546164f54b7a73849f9c084cc3243"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/test/scroll_gen_magic_missile.json"
+hash = "99eec115cdc47fc402e64a39c351f3e7c80543a8d8f187758bade9199d9ebe5e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/test/scroll_gen_notforce_eldritch.json"
+hash = "5cc008a7b38dda7122b90cbedc11d467457ec9f3526801d1137e18170e3a8b6d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/worldgen/scroll_gen.json"
+hash = "6226ad38ea76e361d5515018becdbdb9a4e3c62cde69f2694d66ceb887a6fe29"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/function/load.json"
@@ -1214,7 +1450,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "ae92dd649076dc50017b8ff2c3b13bc5ed78652e95b642612b0bdc2edf009208"
+hash = "bb88c2536c06f8f8b969a540be2fa7d0bc9f5febfacdeed3e6812e2c3ee0509b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -2489,6 +2725,18 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twiligh
 hash = "e1eb4c170f236a976621c44903a248778194539b87539f2556e62dd05827df6a"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_1.json"
+hash = "c07fff7138cc721912d9b563c9956bfb64ed6f0b63019e0e1fa3265949b7876d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_2.json"
+hash = "25f4ce5345385b4ffd1b3a8adea2d4d5e17a8cdeb2a910ce9ee731a881f1de0c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_3.json"
+hash = "63385fa0c1035a0d478beccaf34ae0e39fa918a441efa4043b3a32b29d1dd7a3"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/sac_general.json"
 hash = "21b7a26e324c06aa6495242b192df53d2c829eff2a77c0afc05730cb60a5f793"
 
@@ -2811,6 +3059,10 @@ hash = "f3ff8988961d968a41d1553f4d0bc09207f4cecb5ad0b6bfeb4c0f74d6c7f8bb"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/chests/create_village_bonus.json"
 hash = "90fd82abc5a1683c012c2f1a5429d53f756d0ad5b4592b9636ea4578a31f5193"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/coffres/parchemin_apex.json"
+hash = "592ae8cac389245813abd75b88c0bc29164e39e0c997cb7f194d46e4c3ce1d9d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/coffres/sac_general.json"

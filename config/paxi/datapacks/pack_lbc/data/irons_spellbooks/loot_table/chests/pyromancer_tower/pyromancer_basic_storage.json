@@ -1,0 +1,182 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.0,
+                                                                                "max":  0.4
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:ashen_breath",
+                                                                                                    "cataclysm_spellbooks:bone_storm",
+                                                                                                    "cataclysm_spellbooks:conjure_ignited_reinforcement",
+                                                                                                    "cataclysm_spellbooks:piercing_bone",
+                                                                                                    "hazennstuff:cinderous_step",
+                                                                                                    "hazennstuff:soul_flame_bolt",
+                                                                                                    "hazennstuff:soul_flaming_strike",
+                                                                                                    "irons_spellbooks:blaze_storm",
+                                                                                                    "irons_spellbooks:burning_dash",
+                                                                                                    "irons_spellbooks:fire_arrow",
+                                                                                                    "irons_spellbooks:fire_breath",
+                                                                                                    "irons_spellbooks:fireball",
+                                                                                                    "irons_spellbooks:firebolt",
+                                                                                                    "irons_spellbooks:flaming_barrage",
+                                                                                                    "irons_spellbooks:flaming_strike",
+                                                                                                    "irons_spellbooks:heat_surge",
+                                                                                                    "irons_spellbooks:magma_bomb",
+                                                                                                    "irons_spellbooks:scorch",
+                                                                                                    "irons_spellbooks:wall_of_fire",
+                                                                                                    "somakespells:abyssal_burn",
+                                                                                                    "somakespells:apocalyptic_burst",
+                                                                                                    "somakespells:combustion",
+                                                                                                    "somakespells:damned_demomans",
+                                                                                                    "somakespells:eruption",
+                                                                                                    "somakespells:fire_blast",
+                                                                                                    "somakespells:fire_orbs",
+                                                                                                    "somakespells:firestorm_vortex",
+                                                                                                    "somakespells:ignis_shield",
+                                                                                                    "somakespells:incinerator_slash",
+                                                                                                    "somakespells:pumpkin_bomb",
+                                                                                                    "somakespells:ritual_flame"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.4
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:magic_cloth"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:blank_rune"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.1
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  {
+                                    "min":  0,
+                                    "max":  3
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/poor_ink"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:arcane_essence",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  4
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  2,
+                                          "name":  "minecraft:book",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  2
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  5,
+                                          "name":  "minecraft:paper",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  3
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  8,
+                                          "name":  "minecraft:cobweb",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  4
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:empty",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:candle",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  2,
+                                                                              "max":  4
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/basic_curios"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.075
+                                         }
+                                     ]
+                  }
+              ]
+}

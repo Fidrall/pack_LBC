@@ -1,0 +1,521 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:ancient_knowledge_fragment",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "type":  "minecraft:binomial",
+                                                                              "n":  4,
+                                                                              "p":  0.25
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:disc_fragment_flame_still_burns"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.40
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:pyrium_ingot"
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:arcane_essence",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  5,
+                                                                              "max":  16
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  {
+                                    "min":  2,
+                                    "max":  4
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  3,
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.5,
+                                                                                "max":  1.0
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:abyssal_slash",
+                                                                                                    "cataclysm_spellbooks:amethyst_puncture",
+                                                                                                    "cataclysm_spellbooks:ashen_breath",
+                                                                                                    "cataclysm_spellbooks:bone_storm",
+                                                                                                    "cataclysm_spellbooks:conjure_amethyst_crab",
+                                                                                                    "cataclysm_spellbooks:conjure_ignited_reinforcement",
+                                                                                                    "cataclysm_spellbooks:conjure_koboldiator",
+                                                                                                    "cataclysm_spellbooks:conjure_thralls",
+                                                                                                    "cataclysm_spellbooks:ddos",
+                                                                                                    "cataclysm_spellbooks:desert_winds",
+                                                                                                    "cataclysm_spellbooks:disabling_swipe",
+                                                                                                    "cataclysm_spellbooks:emp_blast",
+                                                                                                    "cataclysm_spellbooks:flash_bang",
+                                                                                                    "cataclysm_spellbooks:gear_shift",
+                                                                                                    "cataclysm_spellbooks:hardware_update",
+                                                                                                    "cataclysm_spellbooks:hijack",
+                                                                                                    "cataclysm_spellbooks:intrusion_prevention_system",
+                                                                                                    "cataclysm_spellbooks:laserbolt",
+                                                                                                    "cataclysm_spellbooks:lock_on",
+                                                                                                    "cataclysm_spellbooks:monolith_crash",
+                                                                                                    "cataclysm_spellbooks:phantasmal_blade",
+                                                                                                    "cataclysm_spellbooks:piercing_bone",
+                                                                                                    "cataclysm_spellbooks:pilfer",
+                                                                                                    "cataclysm_spellbooks:reboot",
+                                                                                                    "cataclysm_spellbooks:rewire",
+                                                                                                    "cataclysm_spellbooks:sandstorm",
+                                                                                                    "cataclysm_spellbooks:shutdown",
+                                                                                                    "cataclysm_spellbooks:software_update",
+                                                                                                    "cataclysm_spellbooks:summon_koboleton",
+                                                                                                    "cataclysm_spellbooks:surveillance_drone",
+                                                                                                    "cataclysm_spellbooks:void_beam",
+                                                                                                    "cataclysm_spellbooks:void_bulwark",
+                                                                                                    "cataclysm_spellbooks:void_rune",
+                                                                                                    "darkermagic:summoned_sculk_centipede",
+                                                                                                    "darkermagic:summoned_sculk_snapper",
+                                                                                                    "darkermagic:summoned_shattered",
+                                                                                                    "darkermagic:summoned_warden",
+                                                                                                    "hazennstuff:arcane_cards",
+                                                                                                    "hazennstuff:bone_bolt",
+                                                                                                    "hazennstuff:call_forth_terraprisma",
+                                                                                                    "hazennstuff:cinderous_step",
+                                                                                                    "hazennstuff:cosmic_bolt",
+                                                                                                    "hazennstuff:counterspell_spider_lily",
+                                                                                                    "hazennstuff:dazzling_obliteration",
+                                                                                                    "hazennstuff:death_sentence",
+                                                                                                    "hazennstuff:energy_burst",
+                                                                                                    "hazennstuff:evercomet_barrage",
+                                                                                                    "hazennstuff:golden_shower",
+                                                                                                    "hazennstuff:hailstorm",
+                                                                                                    "hazennstuff:horn_shell",
+                                                                                                    "hazennstuff:hydrobullet",
+                                                                                                    "hazennstuff:ice_arrow",
+                                                                                                    "hazennstuff:ionic_slash",
+                                                                                                    "hazennstuff:moonkissed",
+                                                                                                    "hazennstuff:parry",
+                                                                                                    "hazennstuff:prismatic_shift",
+                                                                                                    "hazennstuff:razorblade_typhoon",
+                                                                                                    "hazennstuff:shadow_reaver",
+                                                                                                    "hazennstuff:shard_sword",
+                                                                                                    "hazennstuff:shooting_star",
+                                                                                                    "hazennstuff:soul_flame_bolt",
+                                                                                                    "hazennstuff:soul_flaming_strike",
+                                                                                                    "hazennstuff:soul_seekers",
+                                                                                                    "hazennstuff:spectral_axe",
+                                                                                                    "hazennstuff:syringe_barrage",
+                                                                                                    "hazennstuff:terraprismic_barrage",
+                                                                                                    "hazennstuff:thorn_chakram",
+                                                                                                    "hazennstuff:trident_jetstream",
+                                                                                                    "hazennstuff:umbrashift_barrage",
+                                                                                                    "hazennstuff:water_bolt",
+                                                                                                    "irons_spellbooks:abyssal_shroud",
+                                                                                                    "irons_spellbooks:acid_orb",
+                                                                                                    "irons_spellbooks:acupuncture",
+                                                                                                    "irons_spellbooks:angel_wing",
+                                                                                                    "irons_spellbooks:arcane_shackle",
+                                                                                                    "irons_spellbooks:arrow_volley",
+                                                                                                    "irons_spellbooks:ascension",
+                                                                                                    "irons_spellbooks:ball_lightning",
+                                                                                                    "irons_spellbooks:black_hole",
+                                                                                                    "irons_spellbooks:blaze_storm",
+                                                                                                    "irons_spellbooks:blessing_of_life",
+                                                                                                    "irons_spellbooks:blight",
+                                                                                                    "irons_spellbooks:blizzard",
+                                                                                                    "irons_spellbooks:blood_needles",
+                                                                                                    "irons_spellbooks:blood_slash",
+                                                                                                    "irons_spellbooks:blood_step",
+                                                                                                    "irons_spellbooks:burning_dash",
+                                                                                                    "irons_spellbooks:chain_creeper",
+                                                                                                    "irons_spellbooks:chain_lightning",
+                                                                                                    "irons_spellbooks:charge",
+                                                                                                    "irons_spellbooks:cleanse",
+                                                                                                    "irons_spellbooks:cloud_of_regeneration",
+                                                                                                    "irons_spellbooks:cone_of_cold",
+                                                                                                    "irons_spellbooks:counterspell",
+                                                                                                    "irons_spellbooks:devour",
+                                                                                                    "irons_spellbooks:divine_smite",
+                                                                                                    "irons_spellbooks:dragon_breath",
+                                                                                                    "irons_spellbooks:earthquake",
+                                                                                                    "irons_spellbooks:echoing_strikes",
+                                                                                                    "irons_spellbooks:eldritch_blast",
+                                                                                                    "irons_spellbooks:electrocute",
+                                                                                                    "irons_spellbooks:evasion",
+                                                                                                    "irons_spellbooks:fang_strike",
+                                                                                                    "irons_spellbooks:fang_ward",
+                                                                                                    "irons_spellbooks:fire_arrow",
+                                                                                                    "irons_spellbooks:fire_breath",
+                                                                                                    "irons_spellbooks:fireball",
+                                                                                                    "irons_spellbooks:firebolt",
+                                                                                                    "irons_spellbooks:firecracker",
+                                                                                                    "irons_spellbooks:firefly_swarm",
+                                                                                                    "irons_spellbooks:flaming_barrage",
+                                                                                                    "irons_spellbooks:flaming_strike",
+                                                                                                    "irons_spellbooks:fortify",
+                                                                                                    "irons_spellbooks:frost_step",
+                                                                                                    "irons_spellbooks:frostbite",
+                                                                                                    "irons_spellbooks:frostwave",
+                                                                                                    "irons_spellbooks:gluttony",
+                                                                                                    "irons_spellbooks:gravity_fissure",
+                                                                                                    "irons_spellbooks:greater_heal",
+                                                                                                    "irons_spellbooks:guiding_bolt",
+                                                                                                    "irons_spellbooks:gust",
+                                                                                                    "irons_spellbooks:haste",
+                                                                                                    "irons_spellbooks:heal",
+                                                                                                    "irons_spellbooks:healing_circle",
+                                                                                                    "irons_spellbooks:heartstop",
+                                                                                                    "irons_spellbooks:heat_surge",
+                                                                                                    "irons_spellbooks:ice_block",
+                                                                                                    "irons_spellbooks:ice_spikes",
+                                                                                                    "irons_spellbooks:ice_tomb",
+                                                                                                    "irons_spellbooks:icicle",
+                                                                                                    "irons_spellbooks:invisibility",
+                                                                                                    "irons_spellbooks:lightning_bolt",
+                                                                                                    "irons_spellbooks:lightning_lance",
+                                                                                                    "irons_spellbooks:lob_creeper",
+                                                                                                    "irons_spellbooks:magic_arrow",
+                                                                                                    "irons_spellbooks:magic_missile",
+                                                                                                    "irons_spellbooks:magma_bomb",
+                                                                                                    "irons_spellbooks:oakskin",
+                                                                                                    "irons_spellbooks:planar_sight",
+                                                                                                    "irons_spellbooks:pocket_dimension",
+                                                                                                    "irons_spellbooks:poison_arrow",
+                                                                                                    "irons_spellbooks:poison_breath",
+                                                                                                    "irons_spellbooks:poison_splash",
+                                                                                                    "irons_spellbooks:portal",
+                                                                                                    "irons_spellbooks:raise_dead",
+                                                                                                    "irons_spellbooks:ray_of_frost",
+                                                                                                    "irons_spellbooks:ray_of_siphoning",
+                                                                                                    "irons_spellbooks:recall",
+                                                                                                    "irons_spellbooks:root",
+                                                                                                    "irons_spellbooks:sacrifice",
+                                                                                                    "irons_spellbooks:scapegoat",
+                                                                                                    "irons_spellbooks:scorch",
+                                                                                                    "irons_spellbooks:sculk_tentacles",
+                                                                                                    "irons_spellbooks:shadow_slash",
+                                                                                                    "irons_spellbooks:shield",
+                                                                                                    "irons_spellbooks:shockwave",
+                                                                                                    "irons_spellbooks:slow",
+                                                                                                    "irons_spellbooks:snowball",
+                                                                                                    "irons_spellbooks:sonic_boom",
+                                                                                                    "irons_spellbooks:spectral_hammer",
+                                                                                                    "irons_spellbooks:spider_aspect",
+                                                                                                    "irons_spellbooks:starfall",
+                                                                                                    "irons_spellbooks:stomp",
+                                                                                                    "irons_spellbooks:summon_ender_chest",
+                                                                                                    "irons_spellbooks:summon_horse",
+                                                                                                    "irons_spellbooks:summon_polar_bear",
+                                                                                                    "irons_spellbooks:summon_swords",
+                                                                                                    "irons_spellbooks:summon_vex",
+                                                                                                    "irons_spellbooks:sunbeam",
+                                                                                                    "irons_spellbooks:telekinesis",
+                                                                                                    "irons_spellbooks:teleport",
+                                                                                                    "irons_spellbooks:throw",
+                                                                                                    "irons_spellbooks:thunderstorm",
+                                                                                                    "irons_spellbooks:touch_dig",
+                                                                                                    "irons_spellbooks:volt_strike",
+                                                                                                    "irons_spellbooks:wall_of_fire",
+                                                                                                    "irons_spellbooks:wisp",
+                                                                                                    "irons_spellbooks:wither_skull",
+                                                                                                    "irons_spellbooks:wololo",
+                                                                                                    "somakespells:abyssal_burn",
+                                                                                                    "somakespells:abyssal_orbs",
+                                                                                                    "somakespells:apocalyptic_burst",
+                                                                                                    "somakespells:axe_cleave",
+                                                                                                    "somakespells:blessed_connection",
+                                                                                                    "somakespells:blessing",
+                                                                                                    "somakespells:blood_cut",
+                                                                                                    "somakespells:blood_rush",
+                                                                                                    "somakespells:bloodmark",
+                                                                                                    "somakespells:bloody_legacy",
+                                                                                                    "somakespells:chain_connection",
+                                                                                                    "somakespells:combustion",
+                                                                                                    "somakespells:cursed_connection",
+                                                                                                    "somakespells:damned_demomans",
+                                                                                                    "somakespells:desert_wrath",
+                                                                                                    "somakespells:earthbound",
+                                                                                                    "somakespells:eldritch_gambit",
+                                                                                                    "somakespells:ender_corruption",
+                                                                                                    "somakespells:eruption",
+                                                                                                    "somakespells:evocation_fortitude",
+                                                                                                    "somakespells:fire_blast",
+                                                                                                    "somakespells:fire_orbs",
+                                                                                                    "somakespells:firestorm_vortex",
+                                                                                                    "somakespells:guardian_connection",
+                                                                                                    "somakespells:halberd_strike",
+                                                                                                    "somakespells:hydro_slash",
+                                                                                                    "somakespells:ignis_shield",
+                                                                                                    "somakespells:incinerator_slash",
+                                                                                                    "somakespells:lightning_ball",
+                                                                                                    "somakespells:lightning_cut",
+                                                                                                    "somakespells:lightning_dance",
+                                                                                                    "somakespells:lightning_field",
+                                                                                                    "somakespells:lightning_lash",
+                                                                                                    "somakespells:lightning_spark",
+                                                                                                    "somakespells:lightning_spear",
+                                                                                                    "somakespells:lightning_strike",
+                                                                                                    "somakespells:lightning_swarm",
+                                                                                                    "somakespells:overgrowth",
+                                                                                                    "somakespells:permafrost",
+                                                                                                    "somakespells:phantom_barrage",
+                                                                                                    "somakespells:pumpkin_bomb",
+                                                                                                    "somakespells:ram_tchum",
+                                                                                                    "somakespells:render_rush",
+                                                                                                    "somakespells:resonant_pulse",
+                                                                                                    "somakespells:reverberation",
+                                                                                                    "somakespells:ritual_flame",
+                                                                                                    "somakespells:sea_serpent",
+                                                                                                    "somakespells:sea_serpent_jet",
+                                                                                                    "somakespells:slumber_melody",
+                                                                                                    "somakespells:soul_grab",
+                                                                                                    "somakespells:storm_aura",
+                                                                                                    "somakespells:submerge",
+                                                                                                    "somakespells:summon_zombie",
+                                                                                                    "somakespells:thunder_cloud",
+                                                                                                    "somakespells:tidal_dash",
+                                                                                                    "somakespells:tidal_grasp",
+                                                                                                    "somakespells:tsunami",
+                                                                                                    "somakespells:water_ball",
+                                                                                                    "somakespells:water_control",
+                                                                                                    "somakespells:water_spear"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  3,
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.5,
+                                                                                "max":  1.0
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:ashen_breath",
+                                                                                                    "cataclysm_spellbooks:bone_storm",
+                                                                                                    "cataclysm_spellbooks:conjure_ignited_reinforcement",
+                                                                                                    "cataclysm_spellbooks:piercing_bone",
+                                                                                                    "hazennstuff:cinderous_step",
+                                                                                                    "hazennstuff:soul_flame_bolt",
+                                                                                                    "hazennstuff:soul_flaming_strike",
+                                                                                                    "irons_spellbooks:blaze_storm",
+                                                                                                    "irons_spellbooks:burning_dash",
+                                                                                                    "irons_spellbooks:fire_arrow",
+                                                                                                    "irons_spellbooks:fire_breath",
+                                                                                                    "irons_spellbooks:fireball",
+                                                                                                    "irons_spellbooks:firebolt",
+                                                                                                    "irons_spellbooks:flaming_barrage",
+                                                                                                    "irons_spellbooks:flaming_strike",
+                                                                                                    "irons_spellbooks:heat_surge",
+                                                                                                    "irons_spellbooks:magma_bomb",
+                                                                                                    "irons_spellbooks:scorch",
+                                                                                                    "irons_spellbooks:wall_of_fire",
+                                                                                                    "somakespells:abyssal_burn",
+                                                                                                    "somakespells:apocalyptic_burst",
+                                                                                                    "somakespells:combustion",
+                                                                                                    "somakespells:damned_demomans",
+                                                                                                    "somakespells:eruption",
+                                                                                                    "somakespells:fire_blast",
+                                                                                                    "somakespells:fire_orbs",
+                                                                                                    "somakespells:firestorm_vortex",
+                                                                                                    "somakespells:ignis_shield",
+                                                                                                    "somakespells:incinerator_slash",
+                                                                                                    "somakespells:pumpkin_bomb",
+                                                                                                    "somakespells:ritual_flame"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  2,
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.0,
+                                                                                "max":  0.5
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "irons_spellbooks:raise_hell"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  4,
+                                          "name":  "irons_spellbooks:blank_rune"
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/basic_curios"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:random_chance",
+                                             "chance":  0.5
+                                         }
+                                     ]
+                  },
+                  {
+                      "rolls":  4,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "irons_spellbooks:magic_items/reward_ink"
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  4,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  6,
+                                          "name":  "minecraft:diamond",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  2
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  5,
+                                          "name":  "irons_spellbooks:mithril_scrap",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  2
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  3,
+                                          "name":  "minecraft:netherite_scrap",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  2
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  3,
+                                          "name":  "minecraft:ancient_debris",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  1,
+                                                                              "max":  3
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  2,
+                                          "name":  "minecraft:netherite_ingot"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  8,
+                                          "name":  "minecraft:emerald",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  2,
+                                                                              "max":  4
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "weight":  10,
+                                          "name":  "minecraft:gold_ingot",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  4,
+                                                                              "max":  8
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}

@@ -1,0 +1,114 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:gunpowder",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  7,
+                                                                              "max":  16
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:charcoal",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  7,
+                                                                              "max":  16
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:ghast_tear"
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:affinity_ring",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_ring_enhancement",
+                                                                "spell_filter":  {
+                                                                                     "school":  "irons_spellbooks:fire"
+                                                                                 }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:scroll",
+                                          "functions":  [
+                                                            {
+                                                                "function":  "irons_spellbooks:randomize_spell",
+                                                                "quality":  {
+                                                                                "min":  0.6,
+                                                                                "max":  1.0
+                                                                            },
+                                                                "spell_filter":  {
+                                                                                     "spells":  [
+                                                                                                    "cataclysm_spellbooks:ashen_breath",
+                                                                                                    "cataclysm_spellbooks:bone_storm",
+                                                                                                    "cataclysm_spellbooks:conjure_ignited_reinforcement",
+                                                                                                    "cataclysm_spellbooks:piercing_bone",
+                                                                                                    "hazennstuff:cinderous_step",
+                                                                                                    "hazennstuff:soul_flame_bolt",
+                                                                                                    "hazennstuff:soul_flaming_strike",
+                                                                                                    "irons_spellbooks:blaze_storm",
+                                                                                                    "irons_spellbooks:burning_dash",
+                                                                                                    "irons_spellbooks:fire_arrow",
+                                                                                                    "irons_spellbooks:fire_breath",
+                                                                                                    "irons_spellbooks:fireball",
+                                                                                                    "irons_spellbooks:firebolt",
+                                                                                                    "irons_spellbooks:flaming_barrage",
+                                                                                                    "irons_spellbooks:flaming_strike",
+                                                                                                    "irons_spellbooks:heat_surge",
+                                                                                                    "irons_spellbooks:magma_bomb",
+                                                                                                    "irons_spellbooks:scorch",
+                                                                                                    "irons_spellbooks:wall_of_fire",
+                                                                                                    "somakespells:abyssal_burn",
+                                                                                                    "somakespells:apocalyptic_burst",
+                                                                                                    "somakespells:combustion",
+                                                                                                    "somakespells:damned_demomans",
+                                                                                                    "somakespells:eruption",
+                                                                                                    "somakespells:fire_blast",
+                                                                                                    "somakespells:fire_orbs",
+                                                                                                    "somakespells:firestorm_vortex",
+                                                                                                    "somakespells:ignis_shield",
+                                                                                                    "somakespells:incinerator_slash",
+                                                                                                    "somakespells:pumpkin_bomb",
+                                                                                                    "somakespells:ritual_flame"
+                                                                                                ]
+                                                                                 }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ]
+}
