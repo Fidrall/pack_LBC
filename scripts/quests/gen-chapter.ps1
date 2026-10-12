@@ -31,20 +31,32 @@ function Num($v) { ('{0}d' -f [double]$v).Replace(',', '.') }
 function Esc($t) { $t.Replace('\', '\\').Replace('"', '\"') }
 $tiers = @{ commune = 0; rare = 1; epique = 2; legendaire = 3 }
 $warn = @()
+# Objet avec composants : 'mod:objet[cle=valeur,cle2=valeur2]' (valeurs texte) -> id + bloc components SNBT
+function ItemSpec($spec) {
+  if ($spec -match '^([^\[]+)\[(.+)\]$') {
+    $c = ($Matches[2].Split(',') | % { $kv = $_.Split('=', 2); "`"$($kv[0].Trim())`": `"$($kv[1].Trim())`"" }) -join ', '
+    return @{ id = $Matches[1]; comps = $c }
+  }
+  return @{ id = $spec; comps = '' }
+}
 $sb = New-Object Text.StringBuilder
 $lang = New-Object Text.StringBuilder
 $cid = Id 'chapter'
 [void]$lang.AppendLine("chapter.$($cid).title: `"$(Esc $Chapter.title)`"")
 if ($Chapter.subtitle) { [void]$lang.AppendLine("chapter.$($cid).chapter_subtitle: [`n  `"$(Esc $Chapter.subtitle)`"`n]") }
-[void]$sb.Append("{`n`tdefault_hide_dependency_lines: false`n`tdefault_quest_shape: `"`"`n`tfilename: `"$file`"`n`tgroup: `"$($Chapter.group)`"`n`ticon: {`n`t`tid: `"$($Chapter.icon)`"`n`t}`n`tid: `"$cid`"`n`torder_index: $($Chapter.order)`n`tprogression_mode: `"flexible`"`n`tquest_links: [ ]`n`tquests: [`n")
-if (-not $items.Contains($Chapter.icon)) { $warn += "icone chapitre inconnue: $($Chapter.icon)" }
+[void]$sb.Append("{`n`tdefault_hide_dependency_lines: false`n`tdefault_quest_shape: `"`"`n`tfilename: `"$file`"`n`tgroup: `"$($Chapter.group)`"`n`ticon: {`n$(if ((ItemSpec $Chapter.icon).comps) { "`t`tcomponents: { $((ItemSpec $Chapter.icon).comps) }`n" })`t`tid: `"$((ItemSpec $Chapter.icon).id)`"`n`t}`n`tid: `"$cid`"`n`torder_index: $($Chapter.order)`n`tprogression_mode: `"flexible`"`n`tquest_links: [ ]`n`tquests: [`n")
+if (-not $items.Contains((ItemSpec $Chapter.icon).id)) { $warn += "icone chapitre inconnue: $($Chapter.icon)" }
 foreach ($q in $Quests) {
   $qid = Id $q.k
   [void]$sb.Append("`t`t{`n")
   if ($q.deps) { $dl = ($q.deps | % { "`"$(Id $_)`"" }) -join ', '; [void]$sb.Append("`t`t`tdependencies: [$dl]`n") }
   if ($q.minDeps) { [void]$sb.Append("`t`t`tmin_required_dependencies: $($q.minDeps)`n") }
   if ($q.hideLines) { [void]$sb.Append("`t`t`thide_dependency_lines: true`n") }
-  if ($q.icon) { [void]$sb.Append("`t`t`ticon: {`n`t`t`t`tid: `"$($q.icon)`"`n`t`t`t}`n"); if (-not $items.Contains($q.icon)) { $warn += "icone inconnue ($($q.k)): $($q.icon)" } }
+  if ($q.icon) {
+    $ic = ItemSpec $q.icon
+    $icc = if ($ic.comps) { "`t`t`t`tcomponents: { $($ic.comps) }`n" } else { '' }
+    [void]$sb.Append("`t`t`ticon: {`n$icc`t`t`t`tid: `"$($ic.id)`"`n`t`t`t}`n"); if (-not $items.Contains($ic.id)) { $warn += "icone inconnue ($($q.k)): $($ic.id)" }
+  }
   [void]$sb.Append("`t`t`tid: `"$qid`"`n")
   if ($q.optional) { [void]$sb.Append("`t`t`toptional: true`n") }
   # rewards
@@ -68,7 +80,12 @@ foreach ($q in $Quests) {
     elseif ($t -like 'struct:*') { $e = $t.Substring(7); if (-not $e.StartsWith('#') -and -not $structs.Contains($e)) { $warn += "structure inconnue ($($q.k)): $e" }; $tk += "`t`t`t`t{`n`t`t`t`t`tid: `"$tidd`"`n`t`t`t`t`tstructure: `"$e`"`n`t`t`t`t`ttype: `"structure`"`n`t`t`t`t}" }
     elseif ($t -like 'dim:*') { $e = $t.Substring(4); $tk += "`t`t`t`t{`n`t`t`t`t`tdimension: `"$e`"`n`t`t`t`t`tid: `"$tidd`"`n`t`t`t`t`ttype: `"dimension`"`n`t`t`t`t}" }
     elseif ($t -like 'adv:*') { $e = $t.Substring(4); $tk += "`t`t`t`t{`n`t`t`t`t`tadvancement: `"$e`"`n`t`t`t`t`tcriterion: `"`"`n`t`t`t`t`tid: `"$tidd`"`n`t`t`t`t`ttype: `"advancement`"`n`t`t`t`t}" }
-    else { $p = $t.Split('*'); $cnt = if ($p.Count -gt 1) { $p[1] } else { 1 }; if (-not $items.Contains($p[0])) { $warn += "tache inconnue ($($q.k)): $($p[0])" }; $tk += "`t`t`t`t{`n`t`t`t`t`tcount: $($cnt)L`n`t`t`t`t`tid: `"$tidd`"`n`t`t`t`t`titem: { count: 1, id: `"$($p[0])`" }`n`t`t`t`t`ttype: `"item`"`n`t`t`t`t}" }
+    else {
+      $p = $t.Split('*'); $cnt = if ($p.Count -gt 1) { $p[1] } else { 1 }; $it = ItemSpec $p[0]
+      if (-not $items.Contains($it.id)) { $warn += "tache inconnue ($($q.k)): $($it.id)" }
+      if ($it.comps) { $itm = "{ components: { $($it.comps) }, count: 1, id: `"$($it.id)`" }`n`t`t`t`t`tmatch_components: `"fuzzy`"" } else { $itm = "{ count: 1, id: `"$($it.id)`" }" }
+      $tk += "`t`t`t`t{`n`t`t`t`t`tcount: $($cnt)L`n`t`t`t`t`tid: `"$tidd`"`n`t`t`t`t`titem: $itm`n`t`t`t`t`ttype: `"item`"`n`t`t`t`t}"
+    }
   }
   [void]$sb.Append("`t`t`ttasks: [`n" + ($tk -join "`n") + "`n`t`t`t]`n")
   [void]$sb.Append("`t`t`tx: $(Num $q.x)`n`t`t`ty: $(Num $q.y)`n`t`t}`n")

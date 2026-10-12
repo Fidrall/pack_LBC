@@ -194,7 +194,7 @@ key_equipmentcompare.key.showTooltips:key.keyboard.left.shift:
 key_key.create_sa.flying:key.keyboard.space:
 key_key.create_sa.increase_reach:key.keyboard.up:
 key_key.create_sa.decrease_reach:key.keyboard.down:
-key_key.irons_spellbooks.spell_wheel:key.mouse.middle:
+key_key.irons_spellbooks.spell_wheel:key.keyboard.z:
 key_key.irons_spellbooks.spell_wheel_toggle:key.keyboard.unknown:
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v:
 key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.unknown:

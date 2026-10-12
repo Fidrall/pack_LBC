@@ -10,6 +10,10 @@
 	reward_table.5BF2DB02CBF4D490.title: "Caisse rare"
 	reward_table.396C1887C2F887B7.title: "Caisse épique"
 	reward_table.7D221ADF1898E942.title: "Caisse légendaire"
+	chapter.0248051E7023F18E.chapter_subtitle: [
+		"Gateways to Eternity : vagues de monstres, butin à la clé"
+	]
+	chapter.0248051E7023F18E.title: "&5&lPortails de l'éternité"
 	chapter.088490E6C2387E8A.chapter_subtitle: [
 		"Six biomes cachés sous terre"
 	]
@@ -274,6 +278,17 @@
 	]
 	quest.056440BEAB2DF86B.quest_subtitle: "La chambre verticale"
 	quest.056440BEAB2DF86B.title: "Le puits des 100 épreuves"
+	quest.0576B29B6FA7118F.quest_desc: [
+		"Une &eperle de portail&r se fabrique à l'établi (recettes dans JEI). Utilise-la sur le sol : un &eportail&r s'ouvre et des &cvagues de monstres&r en sortent."
+		""
+		"Chaque vague tuée lâche le butin de ses monstres. Survis à la dernière pour obtenir la &erécompense finale&r du portail."
+		""
+		"&6Règles :&r reste à moins de &e100 blocs&r du portail, et ne dépasse pas ton nombre de &cvies&r. En cas d'échec, le portail explose (sans casser de blocs) et les monstres disparaissent."
+		""
+		"Viens bien équipé, et à plusieurs pour les derniers portails."
+	]
+	quest.0576B29B6FA7118F.quest_subtitle: "Ouvre un portail, tiens bon jusqu'à la dernière vague"
+	quest.0576B29B6FA7118F.title: "&5&lPortails de l'éternité"
 	quest.05A39ED901BC6569.quest_subtitle: "Réduit la durée des effets négatifs"
 	quest.05B32DE12868C6DE.quest_desc: [
 		"Avec ta &epioche en bois&r, la pierre n'est plus un problème."
@@ -811,6 +826,13 @@
 	]
 	quest.118E94ADE68EA310.quest_subtitle: "Le Chef des molosses"
 	quest.118E94ADE68EA310.title: "Le chef de meute"
+	quest.11E8090061A988B0.quest_desc: [
+		"Ferme le &eDéfi des Seigneurs&r jusqu'à la dernière vague et rapporte le &6Trophée du Défi des Seigneurs&r."
+		""
+		"Il n'existe pas d'autre moyen de l'obtenir : garde-le bien en évidence."
+	]
+	quest.11E8090061A988B0.quest_subtitle: "Preuve de ta victoire"
+	quest.11E8090061A988B0.title: "&6&lLe Trophée des Seigneurs"
 	quest.11F1A2C3D3258AE5.quest_desc: [
 		"Les &bDeep Ones&r se méfient des humains. Gagne leur confiance pour pouvoir commercer avec eux."
 	]
@@ -3288,6 +3310,15 @@
 		"Certains &6réglages&r de blocs, comme les filtres, peuvent être &bcopiés (clic droit)&r et &6appliqués (clic gauche)&r ailleurs."
 	]
 	quest.4AF21A7894A9F73A.quest_subtitle: "Garde une trace de ce que tu veux faire"
+	quest.4B108F978177FC05.quest_desc: [
+		"&eRecette :&r carapaces de shulker, chorus éclaté et un œil de l'Ender."
+		""
+		"Endermen, endermaptères et shulkers, puis les &cgolems de l'Ender&r de Cataclysm. Seulement &c2 vies&r."
+		""
+		"&6Récompense :&r trésor de cité de l'End, trois gemmes de grande pureté et un objet &5épique&r."
+	]
+	quest.4B108F978177FC05.quest_subtitle: "L'End et Cataclysm"
+	quest.4B108F978177FC05.title: "&5La Citadelle de l'Ender"
 	quest.4B44C2F3B7D3404B.quest_desc: [
 		"L'&eAlternateur&r transforme la rotation (au moins 32 tr/min) en énergie électrique."
 		""
@@ -3823,6 +3854,15 @@
 	]
 	quest.594A8459AD944A3B.quest_subtitle: "Ton premier livre de sorts"
 	quest.594EDA0BA8DFB743.quest_subtitle: "Le Prêtre l'échange contre un livre écrit trouvé dans le Fort des Évocateurs. Le livre doit d'abord être traduit par un marchand ambulant retenu prisonnier dans ce même fort."
+	quest.5971C4FFC801173F.quest_desc: [
+		"&eRecette :&r blocs d'os, sable des âmes et un œil de l'Ender."
+		""
+		"Zombies en décomposition, esprits errants, invocateurs d'os… et le &cBonescaller suprême&r pour finir. &a3 vies&r."
+		""
+		"&6Récompense :&r quatre gemmes et un objet &9rare&r d'Apotheosis."
+	]
+	quest.5971C4FFC801173F.quest_subtitle: "Born in Chaos"
+	quest.5971C4FFC801173F.title: "&2Les Morts sans repos"
 	quest.59814CE7812DF1BB.quest_subtitle: "Apprivoiser"
 	quest.59814CE7812DF1BB.title: "Familier : Dragon"
 	quest.59816734AF9F1906.quest_desc: [
@@ -3874,6 +3914,15 @@
 	]
 	quest.5A52E77204B42646.quest_subtitle: "Un rangement encore plus grand toujours sur toi"
 	quest.5ABC7CE1A9B9FB7C.quest_subtitle: "Permet de marcher sur les liquides en courant"
+	quest.5AC7C63875D4A778.quest_desc: [
+		"&eRecette :&r lingots d'ignitium et de witherite (Cataclysm), blocs de diamant et une étoile du Nether."
+		""
+		"Revenants enflammés, chevaliers du chaos, &cKobolédiateur&r, &cWadjet&r, &cVoleur de vie&r, archévocateurs… et le &4Prowler&r pour conclure. Seulement &c2 vies&r."
+		""
+		"&6Récompense :&r deux objets &6mythiques&r, trois gemmes parfaites et un &etrophée unique&r."
+	]
+	quest.5AC7C63875D4A778.quest_subtitle: "Le portail ultime"
+	quest.5AC7C63875D4A778.title: "&6&lLe Défi des Seigneurs"
 	quest.5AE02136F81D2356.quest_desc: [
 		"Des morts-vivants pour chaque biome : zombies gelés, brûlés, des marais, des marécages… et le terrible pirate &cBarbe-Morte&r."
 	]
@@ -3928,6 +3977,15 @@
 		"L'&6amélioration d'artisanat avancée&r agrandit encore la grille de fabrication de ton inventaire."
 	]
 	quest.5BC526ACC0046B20.quest_subtitle: "Un établi toujours sur toi"
+	quest.5BD0CBF6FFD1D63F.quest_desc: [
+		"&eRecette :&r éclats d'écho, cristal d'âme (Deeper and Darker), catalyseurs de sculk et un œil de l'Ender."
+		""
+		"Les créatures du sculk, des &cstalkers&r… puis le &4Warden&r en personne. Seulement &c2 vies&r."
+		""
+		"&6Récompense :&r butin de cité antique et un trésor du temple de l'Otherside."
+	]
+	quest.5BD0CBF6FFD1D63F.quest_subtitle: "Le Deep Dark déchaîné"
+	quest.5BD0CBF6FFD1D63F.title: "&3L'Écho des profondeurs"
 	quest.5BF082062143531B.title: "&2Tenue de Pestiféré"
 	quest.5C0E72C9BD62946E.quest_desc: [
 		"Mélange de l'&eencre&r avec une machine Create."
@@ -4663,6 +4721,15 @@
 		"Utilise ta nouvelle poussière arcanique avec une armure en fer sur une table de forgeron pour te fabriquer une armure de Magicien."
 	]
 	quest.6AFEDCF1CF22972F.quest_subtitle: "Une première source de &3mana supplémentaire"
+	quest.6B01AC194E89D8E5.quest_desc: [
+		"&eRecette :&r lanternes-citrouilles, lingots d'or et un œil de l'Ender."
+		""
+		"Les citrouilles de &eBorn in Chaos&r : Mr et Mrs Pumpkin, Señor Pumpkin, cogneurs… et &cSir Pumpkinhead&r à la dernière vague. &a3 vies&r."
+		""
+		"&6Récompense :&r deux objets &9rares&r d'Apotheosis et trois gemmes."
+	]
+	quest.6B01AC194E89D8E5.quest_subtitle: "Born in Chaos"
+	quest.6B01AC194E89D8E5.title: "&6Le Sabbat des citrouilles"
 	quest.6B23DC6991A22AC1.quest_desc: [
 		"La &epompe à balancier&r extrait le pétrole brut en continu. Regarde le Ponder pour la construire."
 	]
@@ -5040,6 +5107,15 @@
 	]
 	quest.714D9CD660BAD72E.quest_subtitle: "Le métal de base"
 	quest.714D9CD660BAD72E.title: "L'Acier"
+	quest.7156D567B620E37A.quest_desc: [
+		"&eRecette :&r chair putréfiée, poudre à canon, ficelle, os et une perle de l'Ender."
+		""
+		"Quatre vagues de &ezombies, squelettes, araignées, creepers&r et &esorcières&r, de plus en plus résistants. &a3 vies&r."
+		""
+		"&6Récompense :&r butin de donjon et de l'expérience. Un bon entraînement avant les portails suivants."
+	]
+	quest.7156D567B620E37A.quest_subtitle: "Le premier portail"
+	quest.7156D567B620E37A.title: "&9La Nuit sans fin"
 	quest.71A3D03B6C04E703.quest_desc: [
 		"L'&6Insolateur Mécanique&r multiplie automatiquement certaines plantes."
 		""
@@ -5321,6 +5397,15 @@
 	]
 	quest.74D506A204BAE1B9.quest_subtitle: "La piste d'un biome"
 	quest.74D506A204BAE1B9.title: "Une tablette de grotte"
+	quest.74E756F89D8F5B04.quest_desc: [
+		"&eRecette :&r essence arcanique, lapis-lazuli, encre commune et un œil de l'Ender."
+		""
+		"Cultistes, chasseurs de mages, pyromanciens, cryomanciens, nécromanciens… et deux &carchévocateurs&r à la dernière vague. &a3 vies&r."
+		""
+		"&6Récompense :&r du butin magique et un &etome de la citadelle&r."
+	]
+	quest.74E756F89D8F5B04.quest_subtitle: "Iron's Spells"
+	quest.74E756F89D8F5B04.title: "&dLes Gardiens de la sorcellerie"
 	quest.751DA00A6BE48ED5.title: "Or cosmique"
 	quest.75245BCD1BB86548.quest_desc: [
 		"Dans la Forêt Obscure se dresse la &4Tour Obscure&r. Entre par les &eblocs réapparaissants&r à sa base, et monte jusqu'au dernier étage."
@@ -5837,6 +5922,7 @@
 	task.145078315F0B473D.title: "Clique pour valider"
 	task.1621B878ADF3BB24.title: "170 aliments !"
 	task.184D02801FC28C38.title: "&6J'ai trop hâte de jouer !"
+	task.1920931C62365C04.title: "Clique pour valider"
 	task.1D986DC9FFE37C6A.title: "Clique pour valider"
 	task.202EB298365C4009.title: "Clique pour valider"
 	task.2253937F3806BE3D.title: "Tu es sûr ? Ne fais pas de bêtise."

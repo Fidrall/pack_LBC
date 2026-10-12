@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gateways"
+	group: "1A00000000000003"
+	icon: {
+		components: { "gateways:gateway": "pack_lbc:defi_seigneurs" }
+		id: "gateways:gate_pearl"
+	}
+	id: "0248051E7023F18E"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:nuit_sans_fin" }
+				id: "gateways:gate_pearl"
+			}
+			id: "0576B29B6FA7118F"
+			shape: "gear"
+			size: 2d
+			tasks: [
+				{
+					id: "1920931C62365C04"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["0576B29B6FA7118F"]
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:nuit_sans_fin" }
+				id: "gateways:gate_pearl"
+			}
+			id: "7156D567B620E37A"
+			rewards: [
+				{
+					id: "55BF3DAF01741B66"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "492BD84477240534"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "555D532FB6F865CC"
+					item: { components: { "gateways:gateway": "pack_lbc:nuit_sans_fin" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7156D567B620E37A"]
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:sabbat_citrouilles" }
+				id: "gateways:gate_pearl"
+			}
+			id: "6B01AC194E89D8E5"
+			rewards: [
+				{
+					id: "133845B06A618E24"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "052D53375D188C4D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "51A19259CCB3C35D"
+					item: { components: { "gateways:gateway": "pack_lbc:sabbat_citrouilles" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4d
+		}
+		{
+			dependencies: ["7156D567B620E37A"]
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:morts_sans_repos" }
+				id: "gateways:gate_pearl"
+			}
+			id: "5971C4FFC801173F"
+			rewards: [
+				{
+					id: "52F3B03FDE55CA73"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "4E2F2989A42E6ED3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "755FC8ADF77F18E0"
+					item: { components: { "gateways:gateway": "pack_lbc:morts_sans_repos" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 4d
+		}
+		{
+			dependencies: ["7156D567B620E37A"]
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:gardiens_sorcellerie" }
+				id: "gateways:gate_pearl"
+			}
+			id: "74E756F89D8F5B04"
+			rewards: [
+				{
+					id: "1513E46A674C6EFC"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "571E8A9D893AB82B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "02F18969396A48D3"
+					item: { components: { "gateways:gateway": "pack_lbc:gardiens_sorcellerie" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4d
+		}
+		{
+			dependencies: ["6B01AC194E89D8E5", "5971C4FFC801173F", "74E756F89D8F5B04"]
+			min_required_dependencies: 1
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:echo_profondeurs" }
+				id: "gateways:gate_pearl"
+			}
+			id: "5BD0CBF6FFD1D63F"
+			rewards: [
+				{
+					id: "5325739149046B29"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "70CCD6D8F47B5639"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2F2AF5AC05F2CAAB"
+					item: { components: { "gateways:gateway": "pack_lbc:echo_profondeurs" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: -1.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B01AC194E89D8E5", "5971C4FFC801173F", "74E756F89D8F5B04"]
+			min_required_dependencies: 1
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:citadelle_ender" }
+				id: "gateways:gate_pearl"
+			}
+			id: "4B108F978177FC05"
+			rewards: [
+				{
+					id: "484BC964C727E2FE"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "epique"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "0560786D936FDE5F"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7991C7D4DB2A39E1"
+					item: { components: { "gateways:gateway": "pack_lbc:citadelle_ender" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 1.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5BD0CBF6FFD1D63F", "4B108F978177FC05"]
+			min_required_dependencies: 1
+			icon: {
+				components: { "gateways:gateway": "pack_lbc:defi_seigneurs" }
+				id: "gateways:gate_pearl"
+			}
+			id: "5AC7C63875D4A778"
+			rewards: [
+				{
+					id: "4FD090A9B1F27207"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "48F727A5795D185B"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "322F1DEFAF282A1D"
+					item: { components: { "gateways:gateway": "pack_lbc:defi_seigneurs" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 7d
+		}
+		{
+			dependencies: ["5AC7C63875D4A778"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "11E8090061A988B0"
+			rewards: [
+				{
+					id: "38009EC3DE35AE87"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "legendaire"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					id: "1FC08CE3029468FD"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "2F6A0646B6B8C9A7"
+					item: { components: { "minecraft:rarity": "epic" }, count: 1, id: "minecraft:nether_star" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 8.5d
+		}
+	]
+}
