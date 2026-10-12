@@ -707,6 +707,8 @@ $unif = [ordered]@{
     'nuggets/steel'               = @('hazennstuff:steel_nugget')
 }
 foreach ($k in $unif.Keys) { W "data/c/tags/item/$k.json" ([ordered]@{ replace = $false; values = $unif[$k] }) }
+# Tag propre a Wyrmroost (10 recettes d'outils et d'armures en platine) : Almost Unified ne le modifie pas -> on y ajoute le platine prioritaire.
+W 'data/wyrmroost/tags/item/platinum_ingots.json' ([ordered]@{ replace = $false; values = @('createpropulsion:platinum_ingot') })
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

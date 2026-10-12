@@ -3897,6 +3897,10 @@ file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/ro
 hash = "34dc4f75512fca51c8beef514e93d80d19255dc21d3deeeb50419c7290825611"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/tags/item/platinum_ingots.json"
+hash = "b6859fb7e29d8c91c78960bdc6c87cccd0f7cbca98f3ad52289e7549d63d1a03"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
 hash = "0803035171ec6be299fa24959347da02448086b90d056a504a0f0436bb7bb9b1"
 
