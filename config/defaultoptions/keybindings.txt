@@ -179,7 +179,7 @@ key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown:
 key_artifacts.key.scarf_of_invisibility.toggle:key.keyboard.unknown:
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown:
 key_key.apotheosis.toggle_radial_mining:key.keyboard.o:CONTROL
-key_key.apotheosis.toggle_attribute_bonuses:key.keyboard.k:CONTROL
+key_key.apotheosis.toggle_attribute_bonuses:key.keyboard.b:CONTROL
 key_key.apotheosis.open_world_tier_select:key.keyboard.t:CONTROL
 key_key.apotheosis.link_item_to_chat:key.keyboard.t:SHIFT
 key_key.apotheosis.compare_equipment:key.keyboard.unknown:
