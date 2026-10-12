@@ -224,7 +224,7 @@ mr | exposure | conserver | appareils photo (remplace Old Glass Photograph, inco
 mr | simple-voice-chat | qol | port UDP 24454
 mr | joy-of-painting | conserver | peinture
 mr | apothic-category-compat | qol | classe les armes des autres mods pour les affixes Apotheosis
-mr | sable-fix-mod | qol | corrige des duplications a l'assemblage Sable
+mr | sable-fix-mod | qol | corrige des duplications a l'assemblage Sable (attachedBlockDuplication=false : sinon les blocs Create en rotation sautent a l'assemblage)
 mr | sablecompat | qol | proprietes physiques des blocs moddes pour Sable
 mr | copycats+-aeronautics-weight | qol | poids des blocs copycat
 mr | create-additions-sable-compat | qol | cables Create Additions sur les dirigeables

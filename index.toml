@@ -4213,6 +4213,10 @@ file = "config/relics/relics/springy_boot.yaml"
 hash = "edff2c8d63f91806949a498ba5498d05f2a650cb504c697da25aa1a20d180ff3"
 
 [[files]]
+file = "config/sable_fix_mod-common.toml"
+hash = "a5d3bb462c7575c6be27a52b96dea9722b3a977186a0fb591fa3a3556fe8ab20"
+
+[[files]]
 file = "config/servercore/config.yml"
 hash = "024b5ea70036a7e772d119760ab00c2ff521fdd2807bb8faf2cc0a9b498ef229"
 
