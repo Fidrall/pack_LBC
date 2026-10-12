@@ -5270,9 +5270,8 @@ hash = "2fe01d8046db2246c6df01eedd1fbc7837c08cc6d3b2a9017107ade989e86a28"
 metafile = true
 
 [[files]]
-file = "mods/maps-3d.pw.toml"
-hash = "7013bd8870f7a8d9a4d5d024ad89d63cca7adbac54cecc32c4bec4914b1fab99"
-metafile = true
+file = "mods/maps3d-neoforge-1.21.1-1.0.0-lbc.jar"
+hash = "4f8d89d3609a6ce2027856a44bde1751703b5ab46dbc597c11087d78b0eb4018"
 
 [[files]]
 file = "mods/mechanicals-lib.pw.toml"

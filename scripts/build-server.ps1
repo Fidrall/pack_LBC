@@ -52,6 +52,15 @@ foreach ($f in Get-ChildItem (Join-Path $root "mods") -Filter *.pw.toml) {
     if ($ok) { Write-Host "  + $name" } else { $failed += $name; Remove-Item -LiteralPath $dest -ErrorAction SilentlyContinue }
 }
 
+# Jars embarques directement dans le repo (ex. Maps 3D patche, CC0) : copie telle quelle
+foreach ($j in Get-ChildItem (Join-Path $root "mods") -Filter *.jar) {
+    $wanted += $j.Name
+    $dest = Join-Path $mods $j.Name
+    if ((Test-Path -LiteralPath $dest) -and ((Get-Hash $dest "sha1") -eq (Get-Hash $j.FullName "sha1"))) { continue }
+    Copy-Item -LiteralPath $j.FullName $dest -Force
+    Write-Host "  + $($j.Name)"
+}
+
 # Supprimer les mods qui ne font plus partie du pack
 Get-ChildItem $mods -Filter *.jar | Where-Object { $wanted -notcontains $_.Name } | ForEach-Object {
     Write-Host "  - $($_.Name)"; Remove-Item -LiteralPath $_.FullName
