@@ -1,4 +1,7 @@
-chapter.5DF70E87F7C6B2E1.title: "Addons de magie"
+chapter.5DF70E87F7C6B2E1.title: "&b&lExtensions de magie"
+chapter.5DF70E87F7C6B2E1.chapter_subtitle: [
+  "Grimoires de boss, nouvelles écoles et sorts ultimes"
+]
 quest.72A4B9E052147209.title: "&c&lLes grimoires de Cataclysm"
 quest.72A4B9E052147209.quest_subtitle: "Cataclysm Spellbooks"
 quest.72A4B9E052147209.quest_desc: [
@@ -262,102 +265,6 @@ quest.796DD8C4BB828BD1.quest_subtitle: "Le lanceur de sorts"
 quest.796DD8C4BB828BD1.quest_desc: [
   "Forge le &elanceur Blaze&r : une machine qui lance des sorts toute seule."
 ]
-quest.44287246FF4476AE.title: "&d&lLes familiers"
-quest.44287246FF4476AE.quest_subtitle: "Alshanex's Familiars"
-quest.44287246FF4476AE.quest_desc: [
-  "Des &dfamiliers&r mages vivent dans le monde : apprivoise-les pour qu'ils combattent et lancent des sorts à tes côtés."
-  ""
-  "Lis le &eTome des familiers&r pour tout savoir."
-]
-quest.367BA715623DCE16.title: "Un lit pour récupérer"
-quest.367BA715623DCE16.quest_subtitle: "Le coin de ton familier"
-quest.367BA715623DCE16.quest_desc: [
-  "Fabrique un &elit&r pour ton familier."
-]
-quest.1C5547BC552A32E9.title: "Un village miniature"
-quest.1C5547BC552A32E9.quest_subtitle: "Ranger ses familiers"
-quest.1C5547BC552A32E9.quest_desc: [
-  "Fabrique une &emaison à familiers&r pour les ranger."
-]
-quest.6E4ED140C8667E06.title: "Le Rétrécisseur !"
-quest.6E4ED140C8667E06.quest_subtitle: "À la taille d'un familier"
-quest.6E4ED140C8667E06.quest_desc: [
-  "Fabrique le &eRétrécisseur&r, qui réduit les objets à la taille des familiers."
-]
-quest.469E868877AF4E21.title: "Un petit coup de pouce"
-quest.469E868877AF4E21.quest_subtitle: "Améliorer son familier"
-quest.469E868877AF4E21.quest_desc: [
-  "Donne un &eobjet d'amélioration&r à un familier."
-]
-quest.40BC7FBFF9180FA1.title: "La nécromancie"
-quest.40BC7FBFF9180FA1.quest_subtitle: "Ramener un familier"
-quest.40BC7FBFF9180FA1.quest_desc: [
-  "Vaincs le &cRoi Mort&r pour pouvoir ressusciter tes familiers après leur mort."
-]
-quest.76D5BB2B74860208.title: "La baie de cristal"
-quest.76D5BB2B74860208.quest_subtitle: "Un fruit du passé"
-quest.76D5BB2B74860208.quest_desc: [
-  "Un &erenifleur&r peut déterrer une &ebaie de cristal&r."
-]
-quest.7ADCE78F470B5305.title: "Un goût de chez soi"
-quest.7ADCE78F470B5305.quest_subtitle: "Un fragment de mémoire"
-quest.7ADCE78F470B5305.quest_desc: [
-  "Donne une &ebaie de cristal&r à un familier : il te montre un &efragment de mémoire&r."
-]
-quest.2FF8FF176131B700.title: "Là où tout a commencé"
-quest.2FF8FF176131B700.quest_subtitle: "L'île des origines"
-quest.2FF8FF176131B700.quest_desc: [
-  "Suis les fragments de mémoire jusqu'à l'&eîle des origines&r, où se font les rituels."
-]
-quest.7E328B06EA594628.title: "Un esprit en bouteille"
-quest.7E328B06EA594628.quest_subtitle: "Capturer une âme"
-quest.7E328B06EA594628.quest_desc: [
-  "Capture une &eâme de familier&r dans une bouteille."
-]
-quest.2FF6576BB06DDEAA.title: "La réincarnation"
-quest.2FF6576BB06DDEAA.quest_subtitle: "Créer un familier"
-quest.2FF6576BB06DDEAA.quest_desc: [
-  "Utilise un &eéclat de familier&r pour en créer un."
-]
-quest.1EB944FE6B8CDB68.title: "Nous ne faisons qu'un"
-quest.1EB944FE6B8CDB68.quest_subtitle: "Le tome d'alignement"
-quest.1EB944FE6B8CDB68.quest_desc: [
-  "Fabrique le &eTome d'alignement des familiers&r."
-]
-quest.316714AB0F2A61BC.title: "Imposteur !"
-quest.316714AB0F2A61BC.quest_subtitle: "Démasquer un illusionniste"
-quest.316714AB0F2A61BC.quest_desc: [
-  "Révèle un &efamilier illusionniste&r déguisé."
-]
-quest.10E3F75C7B6B3BA8.title: "&d&lAnthropologue"
-quest.10E3F75C7B6B3BA8.quest_subtitle: "Tous les familiers"
-quest.10E3F75C7B6B3BA8.quest_desc: [
-  "Apprivoise &etous les types de familiers&r."
-]
-quest.762C0673F2B68D8F.title: "Familier : Archimage"
-quest.762C0673F2B68D8F.quest_subtitle: "Apprivoiser"
-quest.5601D5C01C25990E.title: "Familier : Clerc"
-quest.5601D5C01C25990E.quest_subtitle: "Apprivoiser"
-quest.59814CE7812DF1BB.title: "Familier : Dragon"
-quest.59814CE7812DF1BB.quest_subtitle: "Apprivoiser"
-quest.6FBEFDD770C75228.title: "Familier : Druide"
-quest.6FBEFDD770C75228.quest_subtitle: "Apprivoiser"
-quest.48B836066C8C93E8.title: "Familier : Givrin"
-quest.48B836066C8C93E8.quest_subtitle: "Apprivoiser"
-quest.7F8540F47C5B472B.title: "Familier : Chasseur"
-quest.7F8540F47C5B472B.quest_subtitle: "Apprivoiser"
-quest.5F6275B785249B70.title: "Familier : Illusionniste"
-quest.5F6275B785249B70.quest_subtitle: "Apprivoiser"
-quest.38172BE7A0B9E9B6.title: "Familier : Mage"
-quest.38172BE7A0B9E9B6.quest_subtitle: "Apprivoiser"
-quest.12306FEC6457DCCC.title: "Familier : Nécromancien"
-quest.12306FEC6457DCCC.quest_subtitle: "Apprivoiser"
-quest.272AD46D59843D62.title: "Familier : Médecin de peste"
-quest.272AD46D59843D62.quest_subtitle: "Apprivoiser"
-quest.4D7354F36867673F.title: "Familier : Brûleur"
-quest.4D7354F36867673F.quest_subtitle: "Apprivoiser"
-quest.7F4B764118AF70F0.title: "Familier : Invocateur"
-quest.7F4B764118AF70F0.quest_subtitle: "Apprivoiser"
 quest.56DD3DF20502CDEC.title: "&5&lLes sorts ultimes"
 quest.56DD3DF20502CDEC.quest_subtitle: "Apex Arcana"
 quest.56DD3DF20502CDEC.quest_desc: [

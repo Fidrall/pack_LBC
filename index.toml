@@ -134,7 +134,7 @@ hash = "8cdbf8f65fa24f5533e7e726e9eb75b5baa23b1a95208e1454c5a67cdd380b56"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "06b649f3262c29fb92a96a73691578327931a42a95e5b93e12d284c9b3a6f077"
+hash = "5e1636955056cd8040902ef73c4f799c9ef9c1d40b3459c260c6a6952f99415b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure_progression.snbt"
@@ -154,7 +154,7 @@ hash = "7090fefad8f8d9cce205a23abf6d6c53d13a9fbe62b02971fc1a47d4a5831e35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "f7f5e4593f208a7a9c4004c9e4b552859e66308bf720d89427996e952626988c"
+hash = "945bd3db16fa2b83530688bb41adf12604789151ec7e847132b989831e292931"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
@@ -201,6 +201,10 @@ file = "config/ftbquests/quests/chapters/exploration.snbt"
 hash = "6bbf90d577c47c666d1dabfadc113a241e888552b5247f9c650de54c5cad3d05"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/familiers.snbt"
+hash = "b0fde00c33a0c62d3a4ee5b1c05c415d2c9d0ec9d57552a2f8fbd6524119facf"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/gateways.snbt"
 hash = "698aa3cd108f12fbad22dc06335029ae241317a72f0c1c617914990e78c60632"
 
@@ -209,8 +213,16 @@ file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
 hash = "89011c088f96dcd18445ac2553f9c1b1f4d348d534ed41de972858ccf5ff5408"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/hazen_n_stuff.snbt"
+hash = "f6d3e46bb3ecd64097a4270cfb0a147b44efabf8b1e10af7f574ab2d73591e67"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
-hash = "f31c3578a6072769a85796a352c56777fe39649f8e5fe6dd0ee6c9b1d635bc53"
+hash = "322fe3356a67f6d51756aad41f3fdf8590ec452987dc21590fbb416ba251b21b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/magie_addons.snbt"
+hash = "81d5205f155669565123f8ea35614a547e545e223e39840a37f32a38e739ac3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether_end.snbt"
@@ -222,7 +234,7 @@ hash = "05b8b849a1e0cb385ad99b9fad38bab10267f5a74388ef72ca8f09757988c345"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simply_swords.snbt"
-hash = "81383b4f98428ba0307081432c0acf860f63e22d96ae78f88a50561a912bce64"
+hash = "67bd35fc213b81cc940b6d552b880866d3cb5c81626f935f881f76fec7f2765f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
@@ -246,7 +258,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "d34d9261da33cca68b67a19bcbcd3d53aa530c6b57d6d3f03a704fecc5116265"
+hash = "c5684b5d327a3cce55d1f9e3c367f6ba01873ffb4e97aa14bc53068b77a017de"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -4003,6 +4015,58 @@ hash = "ed49878967a5a56967333a9b86d5a4deaefb11629c764b255d6818b8fdde8f39"
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/chunks.png"
 hash = "22a695fb7989aaced5ccf83c1688bfb2e6cae7c2689e27bfdaf8fd73b015add0"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_archmage.png"
+hash = "c5776eb88f0f7591e1efabff991a901f1fde0fa193312e804ba55c27d216301c"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_bard.png"
+hash = "0f2c0e6b92d63a6d95bb5cc852d30abf7a1d1c1b9b30752f6a73656594b3835a"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_cleric.png"
+hash = "888031d80f85833be65a978e013a858a99b8beb1b0d9b2aaf6a9815cc476d09e"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_dragon.png"
+hash = "d708b2f24c20277a5856f216f1cc889b424babdbb1432256922190c2f1694a6f"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_druid.png"
+hash = "6496a441820651ab6008525bdd5be48d5c6719f4e8b16f245ef792ef820cd494"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_frostling.png"
+hash = "163892784dbabde0c7f09ceeea521cc96e6a30e68a33eab198ea4a519bac3eca"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_hunter.png"
+hash = "5e935760ebc0d68f5290d1e88326d66c80a3fc007bd28922a21f8f1ba2484e1b"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_illusionist.png"
+hash = "fa216066bbaab5c073d2f86c282a1478632100872ce6686638cb01315f2463bb"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_lightmage.png"
+hash = "3a69eeb422883e576be088fb256696c3f77ba62929daa0791e671a6599b21b98"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_necromancer.png"
+hash = "05dc99b5509e1737f30e39ef5cb16ded0d8a451bfdda79a26d0db0de7053b532"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_plague_doctor.png"
+hash = "cc24509655e9edc31ce83a137890287759f5b3cd983c2304f71d25813c5b6ab7"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_scorcher.png"
+hash = "4dd9273249372779704038f4cf923c4e62d82c3ce88b0e1a4d9a7a47defd81b4"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/familiars_summoner.png"
+hash = "d669130638ed726557131647df16d0faff3b35e80ab417260c0ed3715f1ff266"
 
 [[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/textures/quests/fancymenu_warning_framed_24x24.png"

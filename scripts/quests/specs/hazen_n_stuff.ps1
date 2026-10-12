@@ -1,5 +1,5 @@
-﻿# Fusionne dans le chapitre Iron's par merge-into-chapter.ps1 (hazen_n_stuff.snbt est temporaire ; ids conserves).
-$Chapter = @{ file = 'hazen_n_stuff'; title = '&6&lHazen ''n Stuff'; subtitle = 'Armes, armures et sorts pour les mages'; group = '1A00000000000004'; order = 3; icon = 'hazennstuff:deus_essence' }
+﻿# Chapitre a part dans le groupe Magie (comme l'ancien pack). L'intro depend de la racine d'Iron's (53C9B66BEC667ED0, lignes masquees).
+$Chapter = @{ file = 'hazen_n_stuff'; title = '&6&lHazen ''n Stuff'; subtitle = 'Armes, armures et sorts pour les mages'; group = '1A00000000000004'; order = 1; icon = 'hazennstuff:deus_essence' }
 $Quests = @(
   @{ k='intro'; x=0; y=0; size=2; shape='gear'; deps=@('53C9B66BEC667ED0'); hideLines=$true; tasks=@('@check'); crate='commune'
      t='&6&lHazen ''n Stuff'; st='Une extension d''Iron''s Spells'

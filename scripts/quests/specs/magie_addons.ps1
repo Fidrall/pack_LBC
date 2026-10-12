@@ -1,6 +1,6 @@
-﻿# Addons d'Iron's Spells, fusionnes dans le chapitre Iron's par merge-into-chapter.ps1 (magie_addons.snbt est temporaire).
-# Branches a droite du tronc d'Iron's (x >= 0) et sous Hazen 'n Stuff (y >= 10). Racine d'Iron's : 53C9B66BEC667ED0.
-$Chapter = @{ file = 'magie_addons'; title = 'Addons de magie'; group = '1A00000000000004'; order = 99; icon = 'irons_spellbooks:iron_spell_book' }
+﻿# Extensions d'Iron's Spells : chapitre a part dans le groupe Magie (comme l'ancien pack). Les familiers ont leur propre chapitre (familiers.snbt + specs/familiers_lore.ps1).
+# Coordonnees d'origine conservees, chapitre remonte de 10 (dy). Racine d'Iron's : 53C9B66BEC667ED0 (dependance inter-chapitres, lignes masquees).
+$Chapter = @{ file = 'magie_addons'; title = '&b&lExtensions de magie'; subtitle = 'Grimoires de boss, nouvelles écoles et sorts ultimes'; group = '1A00000000000004'; order = 3; icon = 'irons_spellbooks:iron_spell_book'; dy = -10 }
 $racine = '53C9B66BEC667ED0'
 function Opt($k, $x, $y, $dep, $task, $t, $st, $d, $crate = 'rare') { @{ k = $k; x = $x; y = $y; deps = @($dep); tasks = @($task); crate = $crate; optional = $true; t = $t; st = $st; d = $d } }
 $Quests = @(
@@ -92,48 +92,9 @@ $Quests = @(
      t='Récolter le ciel'; st='La foudre liquide'; d=@('Pose un &ecanaliseur&r pour récolter de la &efoudre liquide&r pendant les orages.') }
   @{ k='cw_caster'; x=19; y=19; deps=@('cw_casing'); tasks=@('adv:create_wizardry:i_cast_fireball'); crate='epique'; optional=$true; icon='create_wizardry:blaze_caster'
      t='JE LANCE BOULE DE FEU !'; st='Le lanceur de sorts'; d=@('Forge le &elanceur Blaze&r : une machine qui lance des sorts toute seule.') }
-  # --- Alshanex's Familiars
-  @{ k='af_root'; x=0; y=23; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('adv:alshanex_familiars:alshanex_familiars/root'); icon='alshanex_familiars:familiar_tome'; crate='commune'
-     t='&d&lLes familiers'; st='Alshanex''s Familiars'
-     d=@('Des &dfamiliers&r mages vivent dans le monde : apprivoise-les pour qu''ils combattent et lancent des sorts à tes côtés.',
-         '',
-         'Lis le &eTome des familiers&r pour tout savoir.') }
-  @{ k='af_bed'; x=2; y=22; deps=@('af_root'); tasks=@('adv:alshanex_familiars:alshanex_familiars/pet_bed'); crate='commune'; optional=$true; icon='alshanex_familiars:pet_bed'
-     t='Un lit pour récupérer'; st='Le coin de ton familier'; d=@('Fabrique un &elit&r pour ton familier.') }
-  @{ k='af_house'; x=3.5; y=22; deps=@('af_bed'); tasks=@('adv:alshanex_familiars:alshanex_familiars/miniture_village'); crate='rare'; optional=$true; icon='alshanex_familiars:familiar_storage'
-     t='Un village miniature'; st='Ranger ses familiers'; d=@('Fabrique une &emaison à familiers&r pour les ranger.') }
-  @{ k='af_shrink'; x=2; y=23.5; deps=@('af_root'); tasks=@('adv:alshanex_familiars:alshanex_familiars/shrinkinator'); crate='rare'; optional=$true; icon='alshanex_familiars:shrinking_station'
-     t='Le Rétrécisseur !'; st='À la taille d''un familier'; d=@('Fabrique le &eRétrécisseur&r, qui réduit les objets à la taille des familiers.') }
-  @{ k='af_upgrade'; x=3.5; y=23.5; deps=@('af_root'); tasks=@('adv:alshanex_familiars:alshanex_familiars/upgrade_familiar'); crate='commune'; optional=$true; icon='alshanex_familiars:life_fruit_tier_1'
-     t='Un petit coup de pouce'; st='Améliorer son familier'; d=@('Donne un &eobjet d''amélioration&r à un familier.') }
-  @{ k='af_necro'; x=2; y=25; deps=@('af_root'); tasks=@('adv:alshanex_familiars:alshanex_familiars/learn_necromancy'); crate='epique'; optional=$true; icon='irons_spellbooks:necronomicon_spell_book'
-     t='La nécromancie'; st='Ramener un familier'; d=@('Vaincs le &cRoi Mort&r pour pouvoir ressusciter tes familiers après leur mort.') }
-  @{ k='af_berry'; x=5; y=22; deps=@('af_root'); tasks=@('adv:alshanex_familiars:alshanex_familiars/crystal_berry'); crate='commune'; optional=$true; icon='alshanex_familiars:crystal_berry'
-     t='La baie de cristal'; st='Un fruit du passé'; d=@('Un &erenifleur&r peut déterrer une &ebaie de cristal&r.') }
-  @{ k='af_memory'; x=6.5; y=22; deps=@('af_berry'); tasks=@('adv:alshanex_familiars:alshanex_familiars/memory_fragment'); crate='commune'; optional=$true; icon='alshanex_familiars:memory_fragment'
-     t='Un goût de chez soi'; st='Un fragment de mémoire'; d=@('Donne une &ebaie de cristal&r à un familier : il te montre un &efragment de mémoire&r.') }
-  @{ k='af_island'; x=8; y=22; deps=@('af_memory'); tasks=@('adv:alshanex_familiars:alshanex_familiars/origin_island'); crate='rare'; optional=$true; icon='alshanex_familiars:ritual_core'
-     t='Là où tout a commencé'; st='L''île des origines'; d=@('Suis les fragments de mémoire jusqu''à l''&eîle des origines&r, où se font les rituels.') }
-  @{ k='af_soul'; x=9.5; y=22; deps=@('af_island'); tasks=@('adv:alshanex_familiars:alshanex_familiars/bottle_soul'); crate='rare'; optional=$true; icon='alshanex_familiars:pet_soul'
-     t='Un esprit en bouteille'; st='Capturer une âme'; d=@('Capture une &eâme de familier&r dans une bouteille.') }
-  @{ k='af_reinc'; x=11; y=22; deps=@('af_soul'); tasks=@('adv:alshanex_familiars:alshanex_familiars/reincarnation'); crate='rare'; optional=$true; icon='alshanex_familiars:lightning_mage_shard'
-     t='La réincarnation'; st='Créer un familier'; d=@('Utilise un &eéclat de familier&r pour en créer un.') }
-  @{ k='af_tome'; x=11; y=23.5; deps=@('af_soul'); tasks=@('adv:alshanex_familiars:alshanex_familiars/spell_book_familiar'); crate='epique'; optional=$true; icon='alshanex_familiars:familiar_spellbook'
-     t='Nous ne faisons qu''un'; st='Le tome d''alignement'; d=@('Fabrique le &eTome d''alignement des familiers&r.') }
-  @{ k='af_impostor'; x=9.5; y=23.5; deps=@('af_island'); tasks=@('adv:alshanex_familiars:alshanex_familiars/impostor'); crate='rare'; optional=$true; icon='alshanex_familiars:truth_mirror'
-     t='Imposteur !'; st='Démasquer un illusionniste'; d=@('Révèle un &efamilier illusionniste&r déguisé.') }
-  @{ k='af_all'; x=11; y=26; size=1.5; shape='hexagon'; deps=@('af_root'); tasks=@('adv:alshanex_familiars:alshanex_familiars/anthropologist'); crate='legendaire'; optional=$true; icon='alshanex_familiars:familiar_tome'
-     t='&d&lAnthropologue'; st='Tous les familiers'; d=@('Apprivoise &etous les types de familiers&r.') }
 )
-$familiers = @(@('archmage', 'Archimage', 'archmage_trinket'), @('cleric', 'Clerc', 'cleric_trinket'), @('dragoon', 'Dragon', 'dragon_warrior_trinket'), @('druid', 'Druide', 'forest_trinket'), @('frostling', 'Givrin', 'frostling_trinket'), @('hunter', 'Chasseur', 'hunter_trinket'), @('illusionist', 'Illusionniste', 'illusionist_trinket'), @('mage', 'Mage', 'mage_trinket'), @('necromancer', 'Nécromancien', 'necromancer_trinket'), @('plague', 'Médecin de peste', 'plague_trinket'), @('scorcher', 'Brûleur', 'scorcher_trinket'), @('summoner', 'Invocateur', 'summoner_trinket'))
-$i = 0
-foreach ($f in $familiers) {
-  $Quests += @{ k = "af_tame_$($f[0])"; x = 2 + ($i % 6) * 1.5; y = 26.5 + [Math]::Floor($i / 6) * 1.5; size = 0.75; deps = @('af_root'); hideLines = $true; tasks = @("adv:alshanex_familiars:alshanex_familiars/tame/$($f[0])"); crate = 'commune'; optional = $true; icon = "alshanex_familiars:$($f[2])"
-    t = "Familier : $($f[1])"; st = 'Apprivoiser' }
-  $i++
-}
 # --- Apex Arcana : un sort ultime par quete (parchemins tres rares, coffres de fin de jeu)
-$Quests += @{ k = 'ax_intro'; x = 14; y = 23; size = 1.5; shape = 'gear'; deps = @($racine); hideLines = $true; tasks = @('@check'); icon = 'irons_spellbooks:legendary_ink'; crate = 'commune'
+$Quests += @{ k = 'ax_intro'; x = 0; y = 23; size = 1.5; shape = 'gear'; deps = @($racine); hideLines = $true; tasks = @('@check'); icon = 'irons_spellbooks:legendary_ink'; crate = 'commune'
   t = '&5&lLes sorts ultimes'; st = 'Apex Arcana'
   d = @('&5Apex Arcana&r ajoute &e18 sorts ultimes&r : étoiles qui tombent, dragons de foudre, glaciers, arbres-monde…',
         '',
@@ -143,7 +104,7 @@ $Quests += @{ k = 'ax_intro'; x = 14; y = 23; size = 1.5; shape = 'gear'; deps =
 $apex = @(@('root', 'Le Grand Sigil'), @('sunfall', 'Chute du soleil'), @('skybreak', 'Brise-ciel'), @('world_tree', 'L''Arbre-monde'), @('heaven_gate', 'Les Portes du Paradis'), @('glaciation', 'Le Glacier'), @('the_gaze', 'Le Regard'), @('voidgrip', 'L''Étreinte du vide'), @('colosseum', 'Le Colisée'), @('reckoning', 'Le Jugement'), @('black_coffin', 'Le Cercueil noir'), @('thousand_blades', 'Mille Lames'), @('phoenix', 'Le Phénix'), @('thunder_dragon', 'Le Dragon de foudre'), @('full_bloom', 'Pleine floraison'), @('ice_age', 'L''Ère glaciaire'), @('crimson_threads', 'Les Fils écarlates'), @('dimension_cut', 'La Coupure dimensionnelle'))
 $i = 0
 foreach ($a in $apex) {
-  $Quests += @{ k = "ax_$($a[0])"; x = 16 + ($i % 6) * 1.25; y = 22 + [Math]::Floor($i / 6) * 1.25; size = 0.75; deps = @('ax_intro'); hideLines = $true; tasks = @("adv:grandsigil:$($a[0])"); crate = 'legendaire'; optional = $true; icon = 'irons_spellbooks:legendary_ink'
+  $Quests += @{ k = "ax_$($a[0])"; x = 2 + ($i % 6) * 1.25; y = 22 + [Math]::Floor($i / 6) * 1.25; size = 0.75; deps = @('ax_intro'); hideLines = $true; tasks = @("adv:grandsigil:$($a[0])"); crate = 'legendaire'; optional = $true; icon = 'irons_spellbooks:legendary_ink'
     t = $a[1]; st = 'Sort ultime' }
   $i++
 }

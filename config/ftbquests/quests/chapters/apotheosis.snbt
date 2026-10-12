@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apotheosis"
-	group: "1A00000000000004"
+	group: "1A00000000000007"
 	icon: {
 		id: "apotheosis:gem"
 	}
 	id: "1E120AECD53D1AEC"
-	order_index: 2
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

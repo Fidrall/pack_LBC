@@ -88,7 +88,7 @@ foreach ($q in $Quests) {
     }
   }
   [void]$sb.Append("`t`t`ttasks: [`n" + ($tk -join "`n") + "`n`t`t`t]`n")
-  [void]$sb.Append("`t`t`tx: $(Num $q.x)`n`t`t`ty: $(Num $q.y)`n`t`t}`n")
+  [void]$sb.Append("`t`t`tx: $(Num ($q.x + [double]$Chapter.dx))`n`t`t`ty: $(Num ($q.y + [double]$Chapter.dy))`n`t`t}`n")
   # lang
   if ($q.t) { [void]$lang.AppendLine("quest.$($qid).title: `"$(Esc $q.t)`"") }
   if ($q.st) { [void]$lang.AppendLine("quest.$($qid).quest_subtitle: `"$(Esc $q.st)`"") }

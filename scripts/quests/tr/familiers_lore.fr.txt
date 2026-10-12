@@ -1,0 +1,31 @@
+chapter.7FD1F7DB36BF5B85.title: "Familiers (progres)"
+quest.7ADCE78F470B5305.title: "Un goût de chez soi"
+quest.7ADCE78F470B5305.quest_subtitle: "Un fragment de mémoire"
+quest.7ADCE78F470B5305.quest_desc: [
+  "Donne une &ebaie de cristal&r à un familier : il te montre un &efragment de mémoire&r."
+]
+quest.2FF8FF176131B700.title: "Là où tout a commencé"
+quest.2FF8FF176131B700.quest_subtitle: "L'île des origines"
+quest.2FF8FF176131B700.quest_desc: [
+  "Suis les fragments de mémoire jusqu'à l'&eîle des origines&r, où se font les rituels."
+]
+quest.7E328B06EA594628.title: "Un esprit en bouteille"
+quest.7E328B06EA594628.quest_subtitle: "Capturer une âme"
+quest.7E328B06EA594628.quest_desc: [
+  "Capture une &eâme de familier&r dans une fiole vide."
+]
+quest.2FF6576BB06DDEAA.title: "La réincarnation"
+quest.2FF6576BB06DDEAA.quest_subtitle: "Créer un familier"
+quest.2FF6576BB06DDEAA.quest_desc: [
+  "Utilise un &eéclat de familier&r pour en créer un."
+]
+quest.316714AB0F2A61BC.title: "Imposteur !"
+quest.316714AB0F2A61BC.quest_subtitle: "Démasquer un illusionniste"
+quest.316714AB0F2A61BC.quest_desc: [
+  "Révèle un &efamilier illusionniste&r déguisé avec le miroir de vérité."
+]
+quest.10E3F75C7B6B3BA8.title: "&d&lAnthropologue"
+quest.10E3F75C7B6B3BA8.quest_subtitle: "Tous les familiers"
+quest.10E3F75C7B6B3BA8.quest_desc: [
+  "Apprivoise &etous les types de familiers&r."
+]

@@ -1,4 +1,4 @@
-﻿$Chapter = @{ file = 'apotheosis'; title = '&5&lApotheosis'; subtitle = 'Butin RPG, gemmes et enchantement avancé'; group = '1A00000000000004'; order = 2; icon = 'apotheosis:gem' }
+﻿$Chapter = @{ file = 'apotheosis'; title = '&5&lApotheosis'; subtitle = 'Butin RPG, gemmes et enchantement avancé'; group = '1A00000000000007'; order = 1; icon = 'apotheosis:gem' }
 $Quests = @(
   @{ k='intro'; x=0; y=0; size=2; shape='gear'; tasks=@('@check'); checkTitle='Clique pour valider'; icon='apotheosis:gem'
      t='&5&lLe butin façon RPG'; st='Raretés, affixes et gemmes'
