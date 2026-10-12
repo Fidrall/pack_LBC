@@ -210,7 +210,7 @@ quest.61666195C2F437BA.quest_desc: [
   ""
   "Chaque jetpack fonctionne avec du carburant : de l'eau, de la lave, ou les deux."
   ""
-  "Pour remplir un jetpack, mets-le dans ta seconde main (icône bouclier), sélectionne un seau d'eau ou de lave et appuie sur Q pour le lâcher : le jetpack se remplit. &aLe plus pratique reste le Réservoir de Carburant et le Réservoir de Remplissage.&r"
+  "Pour remplir un jetpack, mets-le dans ta seconde main (icône bouclier), sélectionne un seau d'eau ou de lave et appuie sur A (jeter) pour le lâcher : le jetpack se remplit. &aLe plus pratique reste le Réservoir de Carburant et le Réservoir de Remplissage.&r"
 ]
 quest.61666195C2F437BA.title: "&6Jetpacks"
 quest.618CDE98123F2697.quest_desc: [

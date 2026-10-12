@@ -20,7 +20,7 @@ $Quests = @(
      d=@('La &eBoussole de la Nature&r fait la même chose pour les &abiomes&r. Pratique pour trouver un biome précis de Terralith, une jungle, un désert…') }
   @{ k='journeymap'; x=1.5; y=1.5; deps=@('intro'); tasks=@('@check'); checkTitle='Clique pour valider'; icon='minecraft:map'; crate='commune'
      t='La carte JourneyMap'; st='Ne jamais se perdre'
-     d=@('&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite (&6Ctrl+M&r pour la masquer), la grande carte s''ouvre avec &6M&r.',
+     d=@('&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite (&6Ctrl+,&r pour la masquer), la grande carte s''ouvre avec la touche &6virgule (,)&r.',
          '',
          '- Sous terre, la carte passe toute seule en &emode grotte&r : elle montre les galeries à ta profondeur.',
          '- Crée des &epoints de passage&r avec &6N&r. Un point est créé automatiquement à &cchaque mort&r.',

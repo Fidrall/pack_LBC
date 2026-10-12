@@ -2478,7 +2478,7 @@
 		""
 		"Fais un &dclic droit&r avec un lingot d'or pour lui ajouter une garniture en or : les piglins deviennent alors neutres envers lui."
 		""
-		"Fais un &dclic droit&r avec un seau de lave pour débloquer sa capacité d'invocation : il appelle un groupe de golems de charbon pour combattre à ses côtés. La touche est \"R\" par défaut."
+		"Fais un &dclic droit&r avec un seau de lave pour débloquer sa capacité d'invocation : il appelle un groupe de golems de charbon pour combattre à ses côtés. Elle n'a pas de touche par défaut : assigne-en une dans Options → Commandes."
 		""
 		"En contrepartie, le &egolem de Netherite&r devient vulnérable à l'eau."
 	]
@@ -3288,7 +3288,7 @@
 		""
 		"Ce chapitre te guide pas à pas : faire bouger ta première construction, gonfler ton premier ballon, te propulser, puis piloter, et enfin maîtriser la lévitite et les propulseurs."
 		""
-		"&aAstuce :&r le &6Ponder&r (touche W en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !"
+		"&aAstuce :&r le &6Ponder&r (touche Z en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !"
 		""
 		"&7Les vaisseaux sont aussi le meilleur moyen de voyager loin sur ce serveur : les waystones et les téléporteurs coûtent cher sur les longues distances."
 	]
@@ -3412,7 +3412,7 @@
 	]
 	quest.4BC65D4005C17D9F.title: "&5Tenue d'Électromancien"
 	quest.4BD538342D7EAFE9.quest_desc: [
-		"&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite (&6Ctrl+M&r pour la masquer), la grande carte s'ouvre avec &6M&r."
+		"&eJourneyMap&r dessine la carte au fur et à mesure que tu explores. La minicarte est en haut à droite (&6Ctrl+,&r pour la masquer), la grande carte s'ouvre avec la touche &6virgule (,)&r."
 		""
 		"- Sous terre, la carte passe toute seule en &emode grotte&r : elle montre les galeries à ta profondeur."
 		"- Crée des &epoints de passage&r avec &6N&r. Un point est créé automatiquement à &cchaque mort&r."
@@ -4390,7 +4390,7 @@
 		""
 		"Chaque jetpack fonctionne avec du carburant : de l'eau, de la lave, ou les deux."
 		""
-		"Pour remplir un jetpack, mets-le dans ta seconde main (icône bouclier), sélectionne un seau d'eau ou de lave et appuie sur Q pour le lâcher : le jetpack se remplit. &aLe plus pratique reste le Réservoir de Carburant et le Réservoir de Remplissage.&r"
+		"Pour remplir un jetpack, mets-le dans ta seconde main (icône bouclier), sélectionne un seau d'eau ou de lave et appuie sur A (jeter) pour le lâcher : le jetpack se remplit. &aLe plus pratique reste le Réservoir de Carburant et le Réservoir de Remplissage.&r"
 	]
 	quest.61666195C2F437BA.title: "&6Jetpacks"
 	quest.616968FEA10496D7.quest_subtitle: "Un des premiers boss"
@@ -4640,7 +4640,7 @@
 		""
 		"&6\"R\"&r – Roulade (Combat Roll)"
 		""
-		"&6\"V\"&r – Lancer un sort ; &6Clic molette&r – Roue des sorts (Iron's Spells)"
+		"&6\"V\"&r – Lancer un sort ; &6\"W\"&r – Roue des sorts (Iron's Spells)"
 		""
 		"&6\"C\"&r – Menu de construction (Effortless Building) ; &6\"Alt gauche\"&r – Menu des outils de Create ; &6\"U\"&r – Menu de rotation de Create (en regardant un bloc avec la clé)"
 		""

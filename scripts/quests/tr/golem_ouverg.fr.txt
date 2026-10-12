@@ -10,7 +10,7 @@ quest.362C70E45443B57C.quest_desc: [
   ""
   "Fais un &dclic droit&r avec un lingot d'or pour lui ajouter une garniture en or : les piglins deviennent alors neutres envers lui."
   ""
-  "Fais un &dclic droit&r avec un seau de lave pour débloquer sa capacité d'invocation : il appelle un groupe de golems de charbon pour combattre à ses côtés. La touche est \"R\" par défaut."
+  "Fais un &dclic droit&r avec un seau de lave pour débloquer sa capacité d'invocation : il appelle un groupe de golems de charbon pour combattre à ses côtés. Elle n'a pas de touche par défaut : assigne-en une dans Options → Commandes."
   ""
   "En contrepartie, le &egolem de Netherite&r devient vulnérable à l'eau."
 ]

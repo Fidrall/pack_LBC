@@ -11,7 +11,7 @@ quest.48F827FD3545398E.quest_desc: [
   ""
   "Ce chapitre te guide pas à pas : faire bouger ta première construction, gonfler ton premier ballon, te propulser, puis piloter, et enfin maîtriser la lévitite et les propulseurs."
   ""
-  "&aAstuce :&r le &6Ponder&r (touche W en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !"
+  "&aAstuce :&r le &6Ponder&r (touche Z en survolant un bloc) montre des animations pour presque tous les blocs de ce chapitre. N'hésite pas à t'en servir !"
   ""
   "&7Les vaisseaux sont aussi le meilleur moyen de voyager loin sur ce serveur : les waystones et les téléporteurs coûtent cher sur les longues distances."
 ]

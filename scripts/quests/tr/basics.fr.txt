@@ -323,7 +323,7 @@ quest.660C3D5CB407247F.quest_desc: [
   ""
   "&6\"R\"&r – Roulade (Combat Roll)"
   ""
-  "&6\"V\"&r – Lancer un sort ; &6Clic molette&r – Roue des sorts (Iron's Spells)"
+  "&6\"V\"&r – Lancer un sort ; &6\"W\"&r – Roue des sorts (Iron's Spells)"
   ""
   "&6\"C\"&r – Menu de construction (Effortless Building) ; &6\"Alt gauche\"&r – Menu des outils de Create ; &6\"U\"&r – Menu de rotation de Create (en regardant un bloc avec la clé)"
   ""
