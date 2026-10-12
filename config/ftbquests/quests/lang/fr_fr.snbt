@@ -49,7 +49,7 @@
 	chapter.53732D728CE0A308.title: "&aCreate"
 	chapter.576F6A1E4D30F4F2.title: "&l&aLa Route de l'End"
 	chapter.5A13526D80BE2D3C.chapter_subtitle: [
-		"Mowzie's, Illager Invasion, Friends and Foes, Critters"
+		"Boss, monstres, dragons et compagnons"
 	]
 	chapter.5A13526D80BE2D3C.title: "&c&lBoss et créatures"
 	chapter.5A695917A1E23476.title: "&dGolem Overhaul"
@@ -3559,7 +3559,7 @@
 	quest.4FC3D5A9455742C5.quest_desc: [
 		"&cWyrmroost&r peuple le monde de &cdragons&r, des petits drakes aux immenses wyvernes. Certains s'apprivoisent !"
 		""
-		"Commence par le &eplatine&r et les &egéodes&r, pour l'équipement de dragonnier."
+		"Commence par le &eplatine&r (le même que celui de Create Propulsion) et les &egéodes&r, pour l'équipement de dragonnier."
 	]
 	quest.4FC3D5A9455742C5.quest_subtitle: "Wyrmroost"
 	quest.4FC3D5A9455742C5.title: "&c&lLes dragons de Wyrmroost"
@@ -5255,7 +5255,7 @@
 	quest.7131CFD09C6B9B90.quest_subtitle: "Le minerai qui défie la gravité"
 	quest.7131CFD09C6B9B90.title: "&dLa Gravitite"
 	quest.714D9CD660BAD72E.quest_desc: [
-		"L'&eacier&r sert à presque tout : runes, cristaux, lingots plus rares."
+		"L'&eacier&r sert à presque tout : runes, cristaux, lingots plus rares. C'est le même acier que celui d'Epic Knights."
 	]
 	quest.714D9CD660BAD72E.quest_subtitle: "Le métal de base"
 	quest.714D9CD660BAD72E.title: "L'Acier"

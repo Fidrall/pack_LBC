@@ -1391,7 +1391,7 @@
 				{
 					count: 1L
 					id: "44C957EAD313390E"
-					item: { count: 1, id: "wyrmroost:platinum_ingot" }
+					item: { count: 1, id: "createpropulsion:platinum_ingot" }
 					type: "item"
 				}
 			]

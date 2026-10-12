@@ -201,11 +201,11 @@ $Quests = @(
          '',
          'Tue les quatre nouveaux monstres de Variants and Ventures : &everdant, vaseux, des fourrés et gelé&r.') }
   # --- Dragons (Wyrmroost)
-  @{ k='wr_platinum'; x=9.5; y=0; deps=@('intro'); hideLines=$true; tasks=@('wyrmroost:platinum_ingot'); crate='commune'; optional=$true
+  @{ k='wr_platinum'; x=9.5; y=0; deps=@('intro'); hideLines=$true; tasks=@('createpropulsion:platinum_ingot'); crate='commune'; optional=$true
      t='&c&lLes dragons de Wyrmroost'; st='Wyrmroost'
      d=@('&cWyrmroost&r peuple le monde de &cdragons&r, des petits drakes aux immenses wyvernes. Certains s''apprivoisent !',
          '',
-         'Commence par le &eplatine&r et les &egéodes&r, pour l''équipement de dragonnier.') }
+         'Commence par le &eplatine&r (le même que celui de Create Propulsion) et les &egéodes&r, pour l''équipement de dragonnier.') }
   @{ k='wr_geode'; x=11; y=0; deps=@('wr_platinum'); tasks=@('wyrmroost:blue_geode'); crate='commune'; optional=$true
      t='Les géodes'; st='Bleues, rouges et violettes'; d=@('Les &egéodes&r se minent dans les montagnes et le Nether. Elles donnent outils, armes et armures.') }
   @{ k='wr_staff'; x=12.5; y=0; deps=@('wr_geode'); tasks=@('wyrmroost:dragon_staff'); crate='rare'; optional=$true

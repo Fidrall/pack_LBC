@@ -6,9 +6,9 @@ $Quests = @(
      d=@('&6Hazen ''n Stuff&r ajoute &d39 sorts&r, des dizaines d''&earmes&r et de &esets d''armure de mage&r, et des &bcristaux&r qui renforcent mana, vie et esprit.',
          '',
          'Tape &d@hazennstuff&r dans JEI pour tout voir.') }
-  @{ k='steel'; x=2; y=-1; deps=@('intro'); tasks=@('hazennstuff:steel_ingot*4'); crate='commune'
+  @{ k='steel'; x=2; y=-1; deps=@('intro'); tasks=@('magistuarmory:steel_ingot*4'); crate='commune'
      t='L''Acier'; st='Le métal de base'
-     d=@('L''&eacier&r sert à presque tout : runes, cristaux, lingots plus rares.') }
+     d=@('L''&eacier&r sert à presque tout : runes, cristaux, lingots plus rares. C''est le même acier que celui d''Epic Knights.') }
   @{ k='runes'; x=2; y=1; deps=@('intro'); tasks=@('hazennstuff:melee_rune','hazennstuff:health_rune'); crate='commune'
      t='Nouvelles runes'; st='Mêlée et Vie'
      d=@('Les runes de Hazen se font avec une &erune vierge&r d''Iron''s et un objet de « focus ».',

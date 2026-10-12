@@ -186,7 +186,7 @@ hash = "5c745fb4f3f1171a353f713b1322ed6ae5f6ed750c4c9698186c258267ff750d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creatures.snbt"
-hash = "75887366608551099220b9d08082369791f73f5c6426fbe2f0d458126c0ebb53"
+hash = "bed4a92391729afa3d92f7d17fd93ac932017c8a39ce75bc8f074ff22ad86877"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
@@ -218,7 +218,7 @@ hash = "89011c088f96dcd18445ac2553f9c1b1f4d348d534ed41de972858ccf5ff5408"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hazen_n_stuff.snbt"
-hash = "f6d3e46bb3ecd64097a4270cfb0a147b44efabf8b1e10af7f574ab2d73591e67"
+hash = "d0817aa625633cb6bb690c78389336446a73576caca587267c21985569a01528"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
@@ -262,7 +262,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "dfb1abbb75a7380f4bbaa018a9e65bfcc709cfbbc72dd93483d2b92acde597e2"
+hash = "e9147842dcc78c090ab84af50db576e0aa796d67514667a195909d896505692d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"

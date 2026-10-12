@@ -1,6 +1,6 @@
 chapter.5A13526D80BE2D3C.title: "&c&lBoss et créatures"
 chapter.5A13526D80BE2D3C.chapter_subtitle: [
-  "Mowzie's, Illager Invasion, Friends and Foes, Critters"
+  "Boss, monstres, dragons et compagnons"
 ]
 quest.6AF530358EE9745A.title: "&c&lUn monde plus vivant… et plus dangereux"
 quest.6AF530358EE9745A.quest_subtitle: "Les créatures du pack"
@@ -314,7 +314,7 @@ quest.4FC3D5A9455742C5.quest_subtitle: "Wyrmroost"
 quest.4FC3D5A9455742C5.quest_desc: [
   "&cWyrmroost&r peuple le monde de &cdragons&r, des petits drakes aux immenses wyvernes. Certains s'apprivoisent !"
   ""
-  "Commence par le &eplatine&r et les &egéodes&r, pour l'équipement de dragonnier."
+  "Commence par le &eplatine&r (le même que celui de Create Propulsion) et les &egéodes&r, pour l'équipement de dragonnier."
 ]
 quest.655E8C45AE0004C6.title: "Les géodes"
 quest.655E8C45AE0004C6.quest_subtitle: "Bleues, rouges et violettes"

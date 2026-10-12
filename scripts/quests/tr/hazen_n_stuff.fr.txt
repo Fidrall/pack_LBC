@@ -12,7 +12,7 @@ quest.4073D3F1A32198EB.quest_desc: [
 quest.714D9CD660BAD72E.title: "L'Acier"
 quest.714D9CD660BAD72E.quest_subtitle: "Le métal de base"
 quest.714D9CD660BAD72E.quest_desc: [
-  "L'&eacier&r sert à presque tout : runes, cristaux, lingots plus rares."
+  "L'&eacier&r sert à presque tout : runes, cristaux, lingots plus rares. C'est le même acier que celui d'Epic Knights."
 ]
 quest.70B095FB7092B03D.title: "Nouvelles runes"
 quest.70B095FB7092B03D.quest_subtitle: "Mêlée et Vie"

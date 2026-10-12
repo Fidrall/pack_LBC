@@ -59,7 +59,7 @@
 				{
 					count: 4L
 					id: "182CB15C47143EBF"
-					item: { count: 1, id: "hazennstuff:steel_ingot" }
+					item: { count: 1, id: "magistuarmory:steel_ingot" }
 					type: "item"
 				}
 			]
