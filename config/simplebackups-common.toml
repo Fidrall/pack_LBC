@@ -1,8 +1,10 @@
-# Sauvegarde complete une fois par jour, puis toutes les 2 h seulement les fichiers modifies depuis.
-# Le monde prégénéré pese plusieurs Go : des sauvegardes completes toutes les 2 h saturent le disque et le processeur.
+# Monde prégénéré sur 20 000 blocs (plusieurs dizaines de Go, disque MineStrator 140 Go).
+# Les fichiers du monde sont déjà compressés : une sauvegarde complète pèse presque autant que le monde.
+# -> une sauvegarde complète par semaine, et toutes les 2 h seulement les fichiers modifiés depuis (petites).
+# Compression désactivée (0) : gain quasi nul sur des fichiers déjà compressés, et beaucoup moins de processeur.
 backupType = "MODIFIED_SINCE_FULL"
-fullBackupTimer = 1440
+fullBackupTimer = 10080
 timer = 120
-backupsToKeep = 12
-maxDiskSize = "20 GB"
-compressionLevel = -1
+backupsToKeep = 48
+maxDiskSize = "70 GB"
+compressionLevel = 0

@@ -4326,7 +4326,7 @@ hash = "024b5ea70036a7e772d119760ab00c2ff521fdd2807bb8faf2cc0a9b498ef229"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "6b0201dd1c175a2b60698f225f77550491f62ff0ee10164c852b9eb0f6a83162"
+hash = "6860bf9f71149be686b0131493f43e0b5c1389fc8176d9a42347917b01663704"
 
 [[files]]
 file = "config/solcarrot-server.toml"
