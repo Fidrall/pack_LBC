@@ -1,4 +1,4 @@
-# Royal Red renforce (vie 120/130 -> 300/320, morsure 12 -> 16, souffle 4 -> 6, recul 3/4 -> 4/5). Le reste : valeurs du mod.
+# Royal Red : vie d'origine (120/130), degats renforces (morsure 12 -> 16, souffle 4 -> 6, recul 3/4 -> 4/5). Le reste : valeurs du mod.
 ["Alpine Dragon"]
 	#Health
 	health = 40.0
@@ -67,7 +67,7 @@
 
 ["Royal Red Male"]
 	#Health
-	health = 300.0
+	health = 120.0
 	#Ground Speed
 	ground_speed = 0.2275
 	#Knockback Resistance
@@ -83,7 +83,7 @@
 
 ["Royal Red Female"]
 	#Health
-	health = 320.0
+	health = 130.0
 	#Ground Speed
 	ground_speed = 0.22
 	#Attack Damage

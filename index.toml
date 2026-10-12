@@ -3837,6 +3837,10 @@ file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/starting_inv
 hash = "1927ae65f2b43747ab43ab3256df8f03d3fdf795d7bcf7558af71c7e7e9b92e7"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/alpine_spawn.json"
+hash = "9a8cbeed47889d09a4d58953cf8ed65817394a56b618488ccbd5d2bd93c1de82"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/dragon_fruit_drake_spawn.json"
 hash = "dd938b9a6e6b5ea24138975a9c60a7d5bc03583f449eadb8131ad034a9829464"
 
@@ -4258,7 +4262,7 @@ hash = "e3856fb7b7ce7d89fb90e8cacdb5237bf6de30a6e8e3ef3c8f161cffe81de050"
 
 [[files]]
 file = "config/wyrmroost/entity-attributes.toml"
-hash = "2c0c2d4e2b1e15ecf18a7db17525a8dbc1a14f6a4dcd89394885fb9ded639a05"
+hash = "d028a568e726b0d3a94af23719b3682052a6effff4ddbbf59423a4ca172e2394"
 
 [[files]]
 file = "defaultconfigs/block_factorys_bosses-server.toml"
