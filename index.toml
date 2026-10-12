@@ -77,6 +77,10 @@ file = "config/alexscaves_biome_generation/abyssal_chasm.json"
 hash = "7326d35592cf86658de65b4e0e4afab0362976ab39a46a88dcfb010d476782b9"
 
 [[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "acddf2f572b4d56acb516c48ad5190edab7f000e2d2ad9ffba3b4f59d1b159ee"
+
+[[files]]
 file = "config/apotheosis/apotheosis.cfg"
 hash = "e1b862904f1660ff99b599bc1de880bf460da4d96a71cd812a5f612469b20ebe"
 
@@ -631,6 +635,30 @@ hash = "0ef3757b2084541cb6f547641a449499978d9318ff98d5a6454cc98f06a72c09"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/born_in_chaos_v1/neoforge/biome_modifier/zombie_lumberjack_biome_modifier.json"
 hash = "a461c3fa574196775dd554f1334d7a60a5d6147990d21f17ddc46f6eaae34bcd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/c/tags/item/ingots/platinum.json"
+hash = "126dd5fbfd66e8cf7e302301df7c6798bb89675527148e12ac0e9766a452c8dc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/c/tags/item/nuggets/steel.json"
+hash = "c64f53242e6b4a7dd12561b540bf72f5fff08e5cd86b64a625ae966e2628b972"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/c/tags/item/ores/platinum.json"
+hash = "2c34c3cfd52d3a8bf779f3403df81e888594ab67c60193086fcaf6ae9b3f4a0a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/c/tags/item/raw_materials/platinum.json"
+hash = "9ad8ad4055504b406dea3c9f0159e8199ce4bb146532d6c065329b29a6c1ea8d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/c/tags/item/storage_blocks/platinum.json"
+hash = "7b49bb4114b999819cdda323f7e372928b59b8509bbf7e3e23bf0df18903c395"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/c/tags/item/storage_blocks/raw_platinum.json"
+hash = "8947b7d9c8f72931879629fac029d2493af78d50920bc716f5f1a88142eee990"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/cataclysm/tags/worldgen/biome/has_structure/ruined_citadel_biomes.json"
@@ -3861,12 +3889,12 @@ file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/dr
 hash = "dd938b9a6e6b5ea24138975a9c60a7d5bc03583f449eadb8131ad034a9829464"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/roost_stalker_spawn.json"
-hash = "34dc4f75512fca51c8beef514e93d80d19255dc21d3deeeb50419c7290825611"
+file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/platinum_ore.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/worldgen/placed_feature/platinum_ore.json"
-hash = "515112820803ca7b1435013c20a74ccf9ee893372803559e64260ee73476874a"
+file = "config/paxi/datapacks/pack_lbc/data/wyrmroost/neoforge/biome_modifier/roost_stalker_spawn.json"
+hash = "34dc4f75512fca51c8beef514e93d80d19255dc21d3deeeb50419c7290825611"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/pack.mcmeta"
@@ -4413,6 +4441,11 @@ metafile = true
 [[files]]
 file = "mods/almanac.pw.toml"
 hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
+metafile = true
+
+[[files]]
+file = "mods/almostunified.pw.toml"
+hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
 metafile = true
 
 [[files]]

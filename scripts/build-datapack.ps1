@@ -694,5 +694,19 @@ $elites = [ordered]@{
 }
 foreach ($k in $elites.Keys) { W "data/pack_lbc/apothic_elites/$k.json" $elites[$k] }
 
+# ---------- 19. Unification des metaux (Almost Unified, config/almostunified/unification/materials.json) ----------
+# Almost Unified ne voit que les objets ranges dans les tags communs c: ; ces objets n'y etaient pas.
+# Platine : celui de Create Propulsion est prioritaire, le minerai de Wyrmroost ne se genere plus
+# (biome_modifier platinum_ore neutralise dans scripts/data/structure_set_overrides).
+$unif = [ordered]@{
+    'ingots/platinum'             = @('wyrmroost:platinum_ingot')
+    'ores/platinum'               = @('wyrmroost:platinum_ore')
+    'raw_materials/platinum'      = @('wyrmroost:raw_platinum')
+    'storage_blocks/platinum'     = @('wyrmroost:platinum_block')
+    'storage_blocks/raw_platinum' = @('wyrmroost:raw_platinum_block')
+    'nuggets/steel'               = @('hazennstuff:steel_nugget')
+}
+foreach ($k in $unif.Keys) { W "data/c/tags/item/$k.json" ([ordered]@{ replace = $false; values = $unif[$k] }) }
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
