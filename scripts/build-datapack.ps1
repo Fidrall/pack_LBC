@@ -639,13 +639,16 @@ function Gemme-Png($path, [int]$rgb) {
 }
 $texGemmes = Join-Path $rp 'pack_lbc\textures\item\gems'
 if (Test-Path $texGemmes) { Remove-Item -LiteralPath $texGemmes -Recurse -Force }
-$modGemmes = Join-Path $rp 'pack_lbc\models\item\gems'
+# Apotheosis cherche le modele d'une gemme dans apotheosis:item/gems/<chemin>, quel que soit son espace de noms
+$modGemmes = Join-Path $rp 'apotheosis\models\item\gems'
+$ancienMod = Join-Path $rp 'pack_lbc\models\item\gems'
+if (Test-Path $ancienMod) { Remove-Item -LiteralPath $ancienMod -Recurse -Force }
 if (Test-Path $modGemmes) { Remove-Item -LiteralPath $modGemmes -Recurse -Force }
 $langFr = [ordered]@{}; $langEn = [ordered]@{}
 foreach ($gm in $gemmes) {
     $obj = [ordered]@{ type = 'apotheosis:gem'; constraints = $gm.c; min_purity = $(if ($gm.min) { $gm.min } else { 'normal' }); unique = $true; weights = $gm.w; bonuses = $gm.bonuses }
     W "data/pack_lbc/gems/$($gm.path).json" $obj
-    RW "pack_lbc/models/item/gems/$($gm.path).json" (([ordered]@{ parent = 'item/generated'; textures = [ordered]@{ layer0 = "pack_lbc:item/gems/$($gm.path)" } }) | ConvertTo-Json)
+    RW "apotheosis/models/item/gems/$($gm.path).json" (([ordered]@{ parent = 'item/generated'; textures = [ordered]@{ layer0 = "pack_lbc:item/gems/$($gm.path)" } }) | ConvertTo-Json)
     Gemme-Png ((Join-Path $texGemmes ($gm.path -replace '/', '\')) + '.png') $gm.color
     $langFr["item.apotheosis.gem.pack_lbc:$($gm.path)"] = $gm.fr; $langEn["item.apotheosis.gem.pack_lbc:$($gm.path)"] = $gm.en
     if ($gm.desc) { $langFr["gem.pack_lbc:$($gm.path).bonus.pickaxe"] = $gm.desc.fr; $langEn["gem.pack_lbc:$($gm.path).bonus.pickaxe"] = $gm.desc.en }
