@@ -3973,6 +3973,10 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/assets/apotheosis/models/item/
 hash = "d6849c76aee22977f77d0609bdab12467af86e9f6d541bf2808cf4c85022e94c"
 
 [[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/irons_spellbooks/sounds.json"
+hash = "9031175c36ecd2997db1fbfca7879c7a65cfef3cb52a20b4e07416bd8f79115c"
+
+[[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc/lang/en_us.json"
 hash = "0879e51cd367fe8b4d7f93af15edf8a620fff0e8dd0c340574426ef76dc91acd"
 

@@ -1,0 +1,1085 @@
+{
+    "force_impact":  {
+                         "replace":  true,
+                         "sounds":  [
+                                        {
+                                            "name":  "irons_spellbooks:force_impact",
+                                            "volume":  0.65
+                                        }
+                                    ]
+                     },
+    "arial_summoning_5_custom_1":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:arial_summoning_5_custom_1",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "magic_spell_reverse_3":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:magic_spell_reverse_3",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "dark_magic_buff_03_custom_1":  {
+                                        "replace":  true,
+                                        "sounds":  [
+                                                       {
+                                                           "name":  "irons_spellbooks:dark_magic_buff_03_custom_1",
+                                                           "volume":  0.65
+                                                       }
+                                                   ]
+                                    },
+    "dark_spell_02":  {
+                          "replace":  true,
+                          "sounds":  [
+                                         {
+                                             "name":  "irons_spellbooks:dark_spell_02",
+                                             "volume":  0.65
+                                         }
+                                     ]
+                      },
+    "heartstop_cast":  {
+                           "replace":  true,
+                           "sounds":  [
+                                          {
+                                              "name":  "irons_spellbooks:heartstop_cast",
+                                              "volume":  0.65
+                                          }
+                                      ]
+                       },
+    "lightning_lance_cast":  {
+                                 "replace":  true,
+                                 "sounds":  [
+                                                {
+                                                    "name":  "irons_spellbooks:lightning_lance_cast",
+                                                    "volume":  0.65
+                                                }
+                                            ]
+                             },
+    "lightning_woosh_01":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:lightning_woosh_01",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "magic_arrow_release":  {
+                                "replace":  true,
+                                "sounds":  [
+                                               {
+                                                   "name":  "irons_spellbooks:magic_arrow_release",
+                                                   "volume":  0.65
+                                               }
+                                           ]
+                            },
+    "magic_arrow_charge":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:magic_arrow_charge",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "frost_step":  {
+                       "replace":  true,
+                       "sounds":  [
+                                      {
+                                          "name":  "irons_spellbooks:frost_step",
+                                          "volume":  0.65
+                                      }
+                                  ]
+                   },
+    "ice_impact":  {
+                       "replace":  true,
+                       "sounds":  [
+                                      {
+                                          "name":  "irons_spellbooks:ice_impact",
+                                          "volume":  0.65
+                                      }
+                                  ]
+                   },
+    "abyssal_teleport":  {
+                             "replace":  true,
+                             "sounds":  [
+                                            {
+                                                "name":  "irons_spellbooks:abyssal_teleport",
+                                                "volume":  0.65
+                                            }
+                                        ]
+                         },
+    "cast.generic.fire":  {
+                              "replace":  true,
+                              "sounds":  [
+                                             {
+                                                 "name":  "irons_spellbooks:generic/fire_cast",
+                                                 "volume":  0.65
+                                             }
+                                         ]
+                          },
+    "cast.generic.ice":  {
+                             "replace":  true,
+                             "sounds":  [
+                                            {
+                                                "name":  "irons_spellbooks:generic/ice_cast",
+                                                "volume":  0.65
+                                            }
+                                        ]
+                         },
+    "cast.generic.lightning":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:generic/lightning_cast",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "cast.generic.ender":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:generic/ender_cast",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "cast.generic.blood":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:generic/blood_cast",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "cast.generic.evocation":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:generic/evocation_cast",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "cast.generic.holy":  {
+                              "replace":  true,
+                              "sounds":  [
+                                             {
+                                                 "name":  "irons_spellbooks:generic/holy_cast",
+                                                 "volume":  0.65
+                                             }
+                                         ]
+                          },
+    "cast.generic.nature":  {
+                                "replace":  true,
+                                "sounds":  [
+                                               {
+                                                   "name":  "irons_spellbooks:generic/nature_cast",
+                                                   "volume":  0.65
+                                               }
+                                           ]
+                            },
+    "cast.generic.poison":  {
+                                "replace":  true,
+                                "sounds":  [
+                                               {
+                                                   "name":  "irons_spellbooks:generic/poison_cast",
+                                                   "volume":  0.65
+                                               }
+                                           ]
+                            },
+    "cast.blood_step":  {
+                            "replace":  true,
+                            "sounds":  [
+                                           {
+                                               "name":  "irons_spellbooks:blood_step_teleport",
+                                               "volume":  0.65
+                                           }
+                                       ]
+                        },
+    "loop.fire_breath":  {
+                             "replace":  true,
+                             "sounds":  [
+                                            {
+                                                "name":  "irons_spellbooks:fire_breath_loop",
+                                                "volume":  0.65
+                                            }
+                                        ]
+                         },
+    "loop.electrocute":  {
+                             "replace":  true,
+                             "sounds":  [
+                                            {
+                                                "name":  "irons_spellbooks:electrocute_loop",
+                                                "volume":  0.65
+                                            }
+                                        ]
+                         },
+    "loop.cone_of_cold":  {
+                              "replace":  true,
+                              "sounds":  [
+                                             {
+                                                 "name":  "irons_spellbooks:cone_of_cold_loop",
+                                                 "volume":  0.65
+                                             }
+                                         ]
+                          },
+    "loop.cloud_of_regen":  {
+                                "replace":  true,
+                                "sounds":  [
+                                               {
+                                                   "name":  "irons_spellbooks:cloud_of_regen_loop",
+                                                   "volume":  0.65
+                                               }
+                                           ]
+                            },
+    "cast.raise_dead.start":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:raise_dead_start",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "cast.raise_dead.finish":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:raise_dead_cast",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "cast.void_tentacles.start":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:void_tentacles_start",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "cast.void_tentacles.finish":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:void_tentacles_cast",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "entity.void_tentacles.retreat":  {
+                                          "replace":  true,
+                                          "sounds":  [
+                                                         {
+                                                             "name":  "irons_spellbooks:void_tentacle_retreat",
+                                                             "volume":  0.65
+                                                         }
+                                                     ]
+                                      },
+    "entity.void_tentacles.ambient":  {
+                                          "replace":  true,
+                                          "sounds":  [
+                                                         {
+                                                             "name":  "irons_spellbooks:void_tentacle_ambient",
+                                                             "volume":  0.65
+                                                         }
+                                                     ]
+                                      },
+    "cast.abyssal_shroud":  {
+                                "replace":  true,
+                                "sounds":  [
+                                               {
+                                                   "name":  "irons_spellbooks:abyssal_shroud_cast",
+                                                   "volume":  0.65
+                                               }
+                                           ]
+                            },
+    "cast.ice_block":  {
+                           "replace":  true,
+                           "sounds":  [
+                                          {
+                                              "name":  "irons_spellbooks:ice_block_cast",
+                                              "volume":  0.65
+                                          }
+                                      ]
+                       },
+    "entity.ice_block.impact":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:ice_block_impact",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "loop.ray_of_siphoning":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:ray_of_siphoning_loop",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "cast.fireball":  {
+                          "replace":  true,
+                          "sounds":  [
+                                         {
+                                             "name":  "irons_spellbooks:fireball_start",
+                                             "volume":  0.65
+                                         }
+                                     ]
+                      },
+    "spell.acid_orb.cast":  {
+                                "replace":  true,
+                                "sounds":  [
+                                               {
+                                                   "name":  "irons_spellbooks:acid_spit_cast",
+                                                   "volume":  0.65
+                                               }
+                                           ]
+                            },
+    "spell.acid_orb.charge":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:acid_spit_charge",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "entity.acid_orb.impact":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:acid_orb_impact",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "spell.poison_arrow.cast":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:poison_arrow_cast",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.poison_arrow.charge":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:poison_arrow_charge",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "spell.poison_breath.loop":  {
+                                     "replace":  true,
+                                     "sounds":  [
+                                                    {
+                                                        "name":  "irons_spellbooks:poison_breath_loop",
+                                                        "volume":  0.65
+                                                    }
+                                                ]
+                                 },
+    "spell.black_hole.cast":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:black_hole_cast",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "spell.black_hole.charge":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:black_hole_charge",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.gravity_fissure.charge":  {
+                                         "replace":  true,
+                                         "sounds":  [
+                                                        {
+                                                            "name":  "irons_spellbooks:gravity_fissure_charge",
+                                                            "volume":  0.65
+                                                        }
+                                                    ]
+                                     },
+    "entity.black_hole.loop":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:black_hole_loop_1",
+                                                      "volume":  0.65
+                                                  },
+                                                  {
+                                                      "name":  "irons_spellbooks:black_hole_loop_2",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "spell.poison_splash.begin":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:poison_splash_start",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "spell.blight.begin":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:blight_start",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "entity.root.emerge":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:root_emerge",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "spell.spider_aspect.cast":  {
+                                     "replace":  true,
+                                     "sounds":  [
+                                                    {
+                                                        "name":  "irons_spellbooks:spider_aspect_cast",
+                                                        "volume":  0.65
+                                                    }
+                                                ]
+                                 },
+    "entity.blood_needle.impact":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:blood_needle_impact",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "spell.fire_bomb.cast":  {
+                                 "replace":  true,
+                                 "sounds":  [
+                                                {
+                                                    "name":  "irons_spellbooks:fire_bomb_cast",
+                                                    "volume":  0.65
+                                                }
+                                            ]
+                             },
+    "spell.fire_bomb.charge":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:fire_bomb_start",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "spell.gust.charge":  {
+                              "replace":  true,
+                              "sounds":  [
+                                             {
+                                                 "name":  "irons_spellbooks:gust_charge",
+                                                 "volume":  0.65
+                                             }
+                                         ]
+                          },
+    "spell.touch_dig.cast":  {
+                                 "replace":  true,
+                                 "sounds":  [
+                                                {
+                                                    "name":  "irons_spellbooks:touch_dig_cast",
+                                                    "volume":  0.65
+                                                }
+                                            ]
+                             },
+    "spell.gust.cast":  {
+                            "replace":  true,
+                            "sounds":  [
+                                           {
+                                               "name":  "irons_spellbooks:gust_cast_1",
+                                               "volume":  0.65
+                                           },
+                                           {
+                                               "name":  "irons_spellbooks:gust_cast_2",
+                                               "volume":  0.65
+                                           },
+                                           {
+                                               "name":  "irons_spellbooks:gust_cast_3",
+                                               "volume":  0.65
+                                           },
+                                           {
+                                               "name":  "irons_spellbooks:gust_cast_4",
+                                               "volume":  0.65
+                                           }
+                                       ]
+                        },
+    "entity.guiding_bolt.impact":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:guiding_bolt_hit",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "spell.guiding_bolt.cast":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:guiding_bolt_cast",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "entity.chain_lightning.lightning_chain":  {
+                                                   "replace":  true,
+                                                   "sounds":  [
+                                                                  {
+                                                                      "name":  "irons_spellbooks:lightning_chain_1",
+                                                                      "volume":  0.65
+                                                                  },
+                                                                  {
+                                                                      "name":  "irons_spellbooks:lightning_chain_2",
+                                                                      "volume":  0.65
+                                                                  },
+                                                                  {
+                                                                      "name":  "irons_spellbooks:lightning_chain_3",
+                                                                      "volume":  0.65
+                                                                  },
+                                                                  {
+                                                                      "name":  "irons_spellbooks:lightning_chain_4",
+                                                                      "volume":  0.65
+                                                                  }
+                                                              ]
+                                               },
+    "entity.devour_jaw.bite":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:devour",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "spell.oakskin.cast":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:oakskin_cast",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "entity.earthquake_aoe.loop":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:earthquake_loop",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "entity.earthquake_aoe.impact":  {
+                                         "replace":  true,
+                                         "sounds":  [
+                                                        {
+                                                            "name":  "irons_spellbooks:earthquake_impact",
+                                                            "volume":  0.65
+                                                        }
+                                                    ]
+                                     },
+    "spell.earthquake.cast":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:earthquake_cast",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "entity.firefly_swarm.idle":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:bee_bzz_07",
+                                                         "volume":  0.65
+                                                     },
+                                                     {
+                                                         "name":  "irons_spellbooks:bee_bzz_08",
+                                                         "volume":  0.65
+                                                     },
+                                                     {
+                                                         "name":  "irons_spellbooks:bee_bzz_09",
+                                                         "volume":  0.65
+                                                     },
+                                                     {
+                                                         "name":  "irons_spellbooks:bee_bzz_10",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "entity.firefly_swarm.attack":  {
+                                        "replace":  true,
+                                        "sounds":  [
+                                                       {
+                                                           "name":  "irons_spellbooks:bee_sting_01",
+                                                           "volume":  0.65
+                                                       }
+                                                   ]
+                                    },
+    "spell.firefly_swarm.prepare":  {
+                                        "replace":  true,
+                                        "sounds":  [
+                                                       {
+                                                           "name":  "irons_spellbooks:firefly_spell_prepare",
+                                                           "volume":  0.65
+                                                       }
+                                                   ]
+                                    },
+    "spell.ray_of_frost.cast":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:ray_of_frost",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.sonic_boom.cast":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:sonic_boom",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "spell.divine_smite.cast":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:divine_smite_cast",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.divine_smite.windup":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:divine_smite_windup",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "spell.telekinesis.cast":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:levitation_cast",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "spell.telekinesis.loop":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:levitation_drop_001",
+                                                      "volume":  0.65
+                                                  },
+                                                  {
+                                                      "name":  "irons_spellbooks:levitation_drop_002",
+                                                      "volume":  0.65
+                                                  },
+                                                  {
+                                                      "name":  "irons_spellbooks:levitation_drop_003",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "spell.planar_sight.cast":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:planar_sight_cast",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.heat_surge.prepare":  {
+                                     "replace":  true,
+                                     "sounds":  [
+                                                    {
+                                                        "name":  "irons_spellbooks:heat_surge_prepare",
+                                                        "volume":  0.65
+                                                    }
+                                                ]
+                                 },
+    "spell.frostwave.prepare":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:frostwave_prepare",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.arrow_volley.prepare":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:arrow_volley_prepare",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "bow_shoot":  {
+                      "replace":  true,
+                      "sounds":  [
+                                     {
+                                         "name":  "irons_spellbooks:bow_shoot",
+                                         "volume":  0.65
+                                     }
+                                 ]
+                  },
+    "spell.recall.prepare":  {
+                                 "replace":  true,
+                                 "sounds":  [
+                                                {
+                                                    "name":  "irons_spellbooks:recall_prepare",
+                                                    "volume":  0.65
+                                                }
+                                            ]
+                             },
+    "spell.eldritch_blast.cast":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:eldritch_blast",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "spell.flaming_strike.begin":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:flaming_strike_upswing",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "spell.flaming_strike.cast":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:flaming_strike_swing",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "spell.shockwave.prepare":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:lightning_shockwave_prepare",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.shockwave.cast":  {
+                                 "replace":  true,
+                                 "sounds":  [
+                                                {
+                                                    "name":  "irons_spellbooks:lightning_shockwave_cast",
+                                                    "volume":  0.65
+                                                }
+                                            ]
+                             },
+    "spell.scorch.prepare":  {
+                                 "replace":  true,
+                                 "sounds":  [
+                                                {
+                                                    "name":  "irons_spellbooks:scorch_prepare",
+                                                    "volume":  0.65
+                                                }
+                                            ]
+                             },
+    "entity.generic.fiery_explosion":  {
+                                           "replace":  true,
+                                           "sounds":  [
+                                                          {
+                                                              "name":  "irons_spellbooks:fiery_explosion_1",
+                                                              "volume":  0.65
+                                                          }
+                                                      ]
+                                       },
+    "entity.echoing_strike.echoing_strike":  {
+                                                 "replace":  true,
+                                                 "sounds":  [
+                                                                {
+                                                                    "name":  "irons_spellbooks:echoing_strike",
+                                                                    "volume":  0.65
+                                                                }
+                                                            ]
+                                             },
+    "entity.lightning_strike.strike":  {
+                                           "replace":  true,
+                                           "sounds":  [
+                                                          {
+                                                              "name":  "irons_spellbooks:small_lightning",
+                                                              "volume":  0.65
+                                                          }
+                                                      ]
+                                       },
+    "spell.thunderstorm.prepare":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:thunderstorm_prepare",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "spell.sacrifice.blood_explosion":  {
+                                            "replace":  true,
+                                            "sounds":  [
+                                                           {
+                                                               "name":  "irons_spellbooks:blood_explosion",
+                                                               "volume":  0.65
+                                                           }
+                                                       ]
+                                        },
+    "entity.sunbeam.windup":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:sunbeam_windup",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "entity.sunbeam.impact":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:sunbeam_impact",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "spell.cleanse.cast":  {
+                               "replace":  true,
+                               "sounds":  [
+                                              {
+                                                  "name":  "irons_spellbooks:cleanse_cast",
+                                                  "volume":  0.65
+                                              }
+                                          ]
+                           },
+    "entity.ice_spike.emerge":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:ice_spike_emerge",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.fire_arrow.charge":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:fire_arrow_charge",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.fire_arrow.cast":  {
+                                  "replace":  true,
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "irons_spellbooks:fire_arrow_cast",
+                                                     "volume":  0.65
+                                                 }
+                                             ]
+                              },
+    "entity.fire_eruption.slam":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:fire_eruption_slam",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "spell.raise_hell.prepare":  {
+                                     "replace":  true,
+                                     "sounds":  [
+                                                    {
+                                                        "name":  "irons_spellbooks:raise_hell_prepare",
+                                                        "volume":  0.65
+                                                    }
+                                                ]
+                                 },
+    "entity.fiery_dagger.throw":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:fiery_dagger_throw",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "entity.fiery_dagger.parry":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:fire_dagger_parry",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "entity.generic.fire_impact":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:fire_impact",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "spell.summon_swords.charge":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:ender_charge",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   },
+    "spell.summon_swords.cast":  {
+                                     "replace":  true,
+                                     "sounds":  [
+                                                    {
+                                                        "name":  "irons_spellbooks:void_touched_twinblades",
+                                                        "volume":  0.65
+                                                    }
+                                                ]
+                                 },
+    "spell.pocket_dimension.travel":  {
+                                          "replace":  true,
+                                          "sounds":  [
+                                                         {
+                                                             "name":  "irons_spellbooks:pocket_dimension_travel",
+                                                             "volume":  0.65
+                                                         }
+                                                     ]
+                                      },
+    "cast.generic.eldritch_prepare":  {
+                                          "replace":  true,
+                                          "sounds":  [
+                                                         {
+                                                             "name":  "irons_spellbooks:eldritch_prepare",
+                                                             "volume":  0.65
+                                                         }
+                                                     ]
+                                      },
+    "spell.frostbite.freeze":  {
+                                   "replace":  true,
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "irons_spellbooks:misc_freezing_03",
+                                                      "volume":  0.65
+                                                  }
+                                              ]
+                               },
+    "spell.shadow_slash.cast":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:shadow_slash",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "entity.generic.throw_dagger":  {
+                                        "replace":  true,
+                                        "sounds":  [
+                                                       {
+                                                           "name":  "irons_spellbooks:throw_dagger",
+                                                           "volume":  0.65
+                                                       }
+                                                   ]
+                                    },
+    "spell.soulfire_ray.cast":  {
+                                    "replace":  true,
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "irons_spellbooks:soulfire_ray_shoot",
+                                                       "volume":  0.65
+                                                   }
+                                               ]
+                                },
+    "spell.soulfire_ray.charge":  {
+                                      "replace":  true,
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "irons_spellbooks:soulfire_ray_charge",
+                                                         "volume":  0.65
+                                                     }
+                                                 ]
+                                  },
+    "spell.arcane_shackle.charge":  {
+                                        "replace":  true,
+                                        "sounds":  [
+                                                       {
+                                                           "name":  "irons_spellbooks:charge_chains",
+                                                           "volume":  0.65
+                                                       }
+                                                   ]
+                                    },
+    "entity.generic.arcane_impact":  {
+                                         "replace":  true,
+                                         "sounds":  [
+                                                        {
+                                                            "name":  "irons_spellbooks:arcane_impact",
+                                                            "volume":  0.65
+                                                        }
+                                                    ]
+                                     },
+    "spell.echoing_strikes.cast":  {
+                                       "replace":  true,
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "irons_spellbooks:echoing_strikes_cast",
+                                                          "volume":  0.65
+                                                      }
+                                                  ]
+                                   }
+}
