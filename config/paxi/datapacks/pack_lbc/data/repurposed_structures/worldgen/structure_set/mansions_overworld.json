@@ -32,8 +32,8 @@
   "placement": {
     "type": "repurposed_structures:advanced_random_spread",
     "salt": 507461062,
-    "spacing": 159,
-    "separation": 77,
+    "spacing": 225,
+    "separation": 110,
     "spread_type": "triangular",
     "super_exclusion_zone": {
       "chunk_count": 4,

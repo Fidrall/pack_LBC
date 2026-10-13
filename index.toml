@@ -1154,11 +1154,11 @@ hash = "15cf4a525425645538ee3e3d20a8811a737a0574ee7d5e04fbb5f44a50a61b22"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_set/major_structures.json"
-hash = "913a61ba1797785e6b6a0f1a800777c66957374f9bc99b2ebcfc5235151215b5"
+hash = "73191276e39292736f45459df7eecd6e20b2c7df1e71a49d65bed342bb991add"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
-hash = "6789f57229123913d83b1d8f32ca529e6b018be439ac136dc06216e26768605d"
+hash = "1723025d7d56328883c0d0b8d29f036b831e51b10efdde53111fbc6eddc9e6d6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_set/citadel.json"
@@ -1486,7 +1486,7 @@ hash = "05c7dc885fcc1e37559466d4c4c7842a95cccf2eb2677413752eb58e9fba8db9"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
-hash = "b9afbea8ecbd757a27f7ac6b609a3bec71fc47210e89cb3f15648a154e97f289"
+hash = "08d12917a745d10d6ef2b6396cd709224ab0a43053de38cbdabd8c7ba71170bf"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/aether/valkyrie_dechue.json"
@@ -3834,7 +3834,7 @@ hash = "64a24b1d94bb003247604c0c440bad838a0cd687dfcc0b115cabda4effe08e5d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/mansions_overworld.json"
-hash = "ebf41d26d9c25defa4aa3a24142748bcaf28c96023c25209449ce31a15346e4d"
+hash = "90fed4ae1e223a065cb86d5d9b68e4582e728d82d9151a19f500f97364061833"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/outposts_nether.json"
@@ -3850,19 +3850,19 @@ hash = "256089b18ae2784747e6f79bc22c82e01354ed2c43e9ec8c0dbe88c85992b757"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_set/rare_towers.json"
-hash = "37abc71020af94ae3cb720a9b4b02fe65fbd50e6d2f6ba831ca1524156b2d683"
+hash = "759b9b5e54c376b8c2fa555bf5702e34e8aece07ff3ea183c698358609cdb134"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_set/towers.json"
-hash = "5ce9bd873bad85c3ac2b2f15cd34c3e3cd921e0e9d445d92415c2026a7e2cfe5"
+hash = "24a3cdf4f231f6ecc3e8868874183bcca9888d265156bc94521618097b766ecf"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towers.json"
-hash = "c2a6ef2aef59b434e3cf54a4c3b89ba085cbb1bc7bae30d9ed452056c10466c4"
+hash = "ba8e17aaa371f15bf8c923b75990e5ad1c0ee4db3c258087dccc88d3f700a63f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towns.json"
-hash = "507940b5ce47d10b6329ab16ac1d9c628254d8084c64224a139ea3145db0d253"
+hash = "b140f2a923d79b0fded5825893503b98e81bf16309b3dfec9a61293168bb8a88"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/treasurebags/loot_table/entity_group/boss.json"

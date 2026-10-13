@@ -42,8 +42,8 @@
       "other_set": "minecraft:villages",
       "chunk_count": 10
     },
-		"spacing": 38,
-		"separation": 12,
+		"spacing": 50,
+		"separation": 15,
 		"salt": 123,
 		"type": "minecraft:random_spread"
 	}

@@ -59,7 +59,7 @@
     "frequency_reduction_method": "default",
     "frequency": 0.725,
     "spread_type": "triangular",
-    "spacing": 37,
-    "separation": 9
+    "spacing": 40,
+    "separation": 10
   }
 }
