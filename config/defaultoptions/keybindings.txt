@@ -278,8 +278,8 @@ key_key.familiarslib.familiar_quick_summon_5:key.keyboard.unknown:
 key_key.voice_chat_group:key.keyboard.unknown:
 key_key.effortlessbuilding.open_radial_menu:key.keyboard.c:
 key_key.familiarslib.familiar_quick_summon_10:key.keyboard.unknown:
-key_key.specialAttack:key.keyboard.unknown:
-key_key.genericAttack:key.keyboard.unknown:
+key_key.specialAttack:key.mouse.5:
+key_key.genericAttack:key.mouse.4:
 key_key.voice_chat:key.keyboard.k:
 key_key.familiarslib.screen_key:key.keyboard.unknown:
 key_key.effortlessbuilding.undo.desc:key.keyboard.unknown:
