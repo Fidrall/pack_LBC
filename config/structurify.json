@@ -13,7 +13,12 @@
                                  },
                                  {
                                      "name":  "block_factorys_bosses",
-                                     "exclude_from_overlap_prevention":  true
+                                     "exclude_from_overlap_prevention":  true,
+                                     "override_global_distance_from_world_center":  true,
+                                     "distance_from_world_center_mode":  "CIRCLE",
+                                     "enable_min_distance_from_world_center":  true,
+                                     "min_distance_from_world_center":  2000,
+                                     "enable_max_distance_from_world_center":  false
                                  },
                                  {
                                      "name":  "alexscaves",
@@ -4112,6 +4117,14 @@
                            "size":  7,
                            "max_horizontal_distance_from_center":  112,
                            "max_vertical_distance_from_center":  112
+                       },
+                       {
+                           "name":  "block_factorys_bosses:underworld_arena",
+                           "override_global_distance_from_world_center":  true,
+                           "distance_from_world_center_mode":  "CIRCLE",
+                           "enable_min_distance_from_world_center":  true,
+                           "min_distance_from_world_center":  300,
+                           "enable_max_distance_from_world_center":  false
                        }
                    ]
 }
