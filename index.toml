@@ -402,7 +402,7 @@ hash = "478a95300f0b93c4de9b864193061f43897261177961013fb07ec7d4487b1d07"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
+hash = "d288fe3830cddce0ed86d46d192c464b24192c258aa84bf281aeaf6d9e7e675a"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
