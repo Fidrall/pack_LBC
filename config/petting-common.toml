@@ -22,6 +22,12 @@
 	ridingWhitelistOnly = true
 	ridingWhitelist = ["minecraft:spider", "minecraft:polar_bear", "minecraft:hoglin", "twilightforest:boar", "minecraft:ravager", "minecraft:zoglin", "twilightforest:minotaur", "twilightforest:troll", "twilightforest:yeti", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:felsteed", "friendsandfoes:mauler", "deeperdarker:sculk_snapper"]
 
+# Petting prend le clic droit main vide sur tout animal apprivoise du joueur (assis/debout) et l'annule :
+# les mods qui ont leur propre monture ou interaction sont exclus, sinon impossible de monter un dragon Wyrmroost, etc.
+["Blacklist Settings"]
+	blacklistEnabled = true
+	tamingBlacklist = ["wyrmroost", "alexscaves", "cataclysm", "mutantmonsters", "crittersandcompanions", "infested_swarms_spiders", "createbionics", "create_sa", "hazennstuff", "irons_spellbooks", "friendsandfoes:glare"]
+
 ["Whitelist Settings"]
 	whitelistOnly = true
 	tamingWhitelist = ["minecraft:spider", "minecraft:polar_bear", "minecraft:hoglin", "minecraft:iron_golem", "mowziesmobs:grottol", "mowziesmobs:lantern", "twilightforest:boar", "twilightforest:kobold", "twilightforest:mist_wolf", "born_in_chaos_v1:thornshell_crab", "minecraft:ravager", "minecraft:zoglin", "minecraft:piglin_brute", "twilightforest:minotaur", "twilightforest:troll", "twilightforest:yeti", "twilightforest:winter_wolf", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:felsteed", "born_in_chaos_v1:pumpkin_bruiser", "illagerinvasion:basher", "illagerinvasion:marauder", "friendsandfoes:mauler", "deeperdarker:sculk_snapper"]

@@ -4226,7 +4226,7 @@ hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
 [[files]]
 file = "config/petting-common.toml"
-hash = "450ec4be52d3f58b240f4a19d99576642dad4059f969f61a229e4bd9b1804af3"
+hash = "1189d0fb57a5a61ed72cf92dac830fdd84548dec705711155820e4477dd81710"
 
 [[files]]
 file = "config/relics.yaml"
