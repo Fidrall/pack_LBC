@@ -3845,6 +3845,10 @@ file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/struc
 hash = "24d1de2515ab8b1e56efa0b3bfbdb491f1377101218d7bf7dc1cbe0053e1d08e"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/somakespells/irons_spellbooks_spell_config/pumpkin_bomb.json"
+hash = "256089b18ae2784747e6f79bc22c82e01354ed2c43e9ec8c0dbe88c85992b757"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_set/rare_towers.json"
 hash = "37abc71020af94ae3cb720a9b4b02fe65fbd50e6d2f6ba831ca1524156b2d683"
 

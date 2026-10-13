@@ -713,5 +713,10 @@ foreach ($k in $unif.Keys) { W "data/c/tags/item/$k.json" ([ordered]@{ replace =
 # Tag propre a Wyrmroost (10 recettes d'outils et d'armures en platine) : Almost Unified ne le modifie pas -> on y ajoute le platine prioritaire.
 W 'data/wyrmroost/tags/item/platinum_ingots.json' ([ordered]@{ replace = $false; values = @('createpropulsion:platinum_ingot') })
 
+# ---------- 20. Sorts desactives ----------
+# Pumpkin Bomb (Somake Spells 1.0.8) : sa zone pose un effet non enregistre (Holder.direct) ; Relics le sauvegarde -> exception,
+# Neruina tue la zone puis expulse le joueur quand l'effet se termine.
+W 'data/somakespells/irons_spellbooks_spell_config/pumpkin_bomb.json' ([ordered]@{ 'irons_spellbooks:enabled' = $false })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
