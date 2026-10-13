@@ -3802,11 +3802,11 @@ hash = "55ab2046fbba74d9562884d000e6092be5931932eda9775f0ffc1e924efca61e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_grand.json"
-hash = "1eb57f71d59bc419cb59fa25d4a06fdecd7118ce2a47128cc37f952c792c20ed"
+hash = "d986f46a3b01083f7d168093d16279daf81f44fb7e4687f73254320e3fdd133c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "1c233be6d8b216b9289507b066c94e46fdb37ab3b998269da682340bbb40f452"
+hash = "2f97b55ff131d08b5b5c82379fc46c756a3b411b2f05de2f2127ed02abc6c391"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"

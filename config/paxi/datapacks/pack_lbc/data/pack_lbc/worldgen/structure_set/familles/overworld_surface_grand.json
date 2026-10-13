@@ -22,23 +22,23 @@
                        },
                        {
                            "structure":  "create_structures_arise:createminiskyvillage",
-                           "weight":  24
+                           "weight":  10
                        },
                        {
                            "structure":  "create_structures_arise:crimsite_tower",
-                           "weight":  15
+                           "weight":  6
                        },
                        {
                            "structure":  "create_structures_arise:pillagersteampunkairship",
-                           "weight":  15
+                           "weight":  6
                        },
                        {
                            "structure":  "create_structures_arise:towerofochrum",
-                           "weight":  11
+                           "weight":  4
                        },
                        {
                            "structure":  "create_structures_arise:windmill",
-                           "weight":  43
+                           "weight":  17
                        },
                        {
                            "structure":  "mvs:cathedral",
@@ -76,8 +76,8 @@
     "placement":  {
                       "type":  "minecraft:random_spread",
                       "salt":  896130768,
-                      "spacing":  21,
-                      "separation":  10,
+                      "spacing":  23,
+                      "separation":  11,
                       "exclusion_zone":  {
                                              "other_set":  "minecraft:villages",
                                              "chunk_count":  4
