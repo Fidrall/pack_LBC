@@ -4333,10 +4333,6 @@ file = "config/solcarrot-server.toml"
 hash = "6183ed5338184f36dcd6a55374b37ae6d0545cc9b6b87e80a190491cb3ff52cd"
 
 [[files]]
-file = "config/sophisticatedbackpacks-server.toml"
-hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
-
-[[files]]
 file = "config/structurify.json"
 hash = "d39a3a15432557fce730d16386cd10a8e2f0d5f5108be864907a4c7c6191972f"
 
