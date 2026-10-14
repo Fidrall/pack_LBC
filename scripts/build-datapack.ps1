@@ -524,7 +524,23 @@ foreach ($f in Get-ChildItem $lo -Recurse -File) {
     Copy-Item $f.FullName $to -Force
 }
 
-# ---------- 16. (libre) Dragon : 400 PV regles par Savage Ender Dragon dans config/dragonfight.json ----------
+# ---------- 16. Dragon : Ender Dragon Fight Remastered (EDFR, 500 PV) ----------
+# Son endfight:tick balaie ~20 fois par tick TOUTES les entites du serveur (@e[tag=...] sans type), meme sans personne dans l'End.
+# Remplace (pack_lbc charge apres le datapack du mod) : le tick d'origine (copie GPL dans scripts/data/edfr) ne tourne que si
+# un joueur est dans l'End ; sinon on coupe seulement la musique des joueurs partis en plein combat.
+function Fn($rel, $lines) { $p = Join-Path $dp $rel; New-Item -ItemType Directory -Force (Split-Path $p) | Out-Null; [IO.File]::WriteAllText($p, (($lines -join "`n") + "`n"), $enc) }
+$dansEnd = 'execute in minecraft:the_end if entity @a[x=0,y=0,z=0,distance=0..]'
+$horsEnd = 'execute in minecraft:the_end unless entity @a[x=0,y=0,z=0,distance=0..]'
+Fn 'data/endfight/function/tick.mcfunction' @(
+    '# pack_lbc : EDFR ne tourne que si un joueur est dans l''End (voir build-datapack section 16)',
+    "$dansEnd in minecraft:overworld run function pack_lbc:edfr/tick",
+    "$horsEnd if entity @a[tag=playerMusic] run function pack_lbc:edfr/coupe_musique",
+    "$horsEnd if entity @a[tag=playerMusicMAD] run function pack_lbc:edfr/coupe_musique")
+Fn 'data/pack_lbc/function/edfr/tick.mcfunction' ([IO.File]::ReadAllLines((Join-Path $PSScriptRoot 'data\edfr\tick.mcfunction')))
+Fn 'data/pack_lbc/function/edfr/coupe_musique.mcfunction' @(
+    'stopsound @a record endfight:boss.phase1', 'stopsound @a record endfight:boss.phase2',
+    'tag @a remove playerMusic', 'tag @a remove playerMusic.timerInit',
+    'tag @a remove playerMusicMAD', 'tag @a remove playerMusicMAD.init', 'tag @a remove playerMusicMAD.timerInit')
 
 # ---------- 17. Parchemins d'Iron's et de ses addons sans Apex Arcana (tables figees dans scripts/data/spell_loot) ----------
 # 59 tables : chaque tirage aleatoire recoit une liste explicite de sorts (toutes ecoles ou l'ecole demandee), sans grandsigil.

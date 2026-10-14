@@ -129,10 +129,6 @@ file = "config/defaultoptions/options.txt"
 hash = "93a729944c1a849fae2496a4e665f5e18956e16537dc5b2d8682a3b2cdc44689"
 
 [[files]]
-file = "config/dragonfight.json"
-hash = "93831787b2e23311e1d8c1491b0c240ce5b03284a66cf07c87da49ce2f02ab5f"
-
-[[files]]
 file = "config/ftbchunks-client.snbt"
 hash = "8cdbf8f65fa24f5533e7e726e9eb75b5baa23b1a95208e1454c5a67cdd380b56"
 
@@ -1161,6 +1157,10 @@ file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/worldgen/structure_se
 hash = "1723025d7d56328883c0d0b8d29f036b831e51b10efdde53111fbc6eddc9e6d6"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/endfight/function/tick.mcfunction"
+hash = "f7961695ed8095ade28998b5301c4e4d044655f83f6b57916eb753dbfbffe57f"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_set/citadel.json"
 hash = "a810f27f1ac2422f7e8e54a875eb59bc4f4ea75efd3b6316b14190f6433d42f6"
 
@@ -1563,6 +1563,14 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
 hash = "687028a181e8271e87989ca65c3da35cc20a4d947199d3ff5186f3e1145c1e5d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/edfr/coupe_musique.mcfunction"
+hash = "6528f397795ec245dade607f985e0b33ad3218bd714270ecd0a228ba5a2b4c75"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/edfr/tick.mcfunction"
+hash = "6a203a61e749b85cbfb3911c48aa614e36d8440b75681e560185c83ae4c64485"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -5076,6 +5084,11 @@ hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
 metafile = true
 
 [[files]]
+file = "mods/edf-remastered.pw.toml"
+hash = "aa893b812f2075ff2bf084ddb869f9355313b9d763fb679aca86ceff835d5d58"
+metafile = true
+
+[[files]]
 file = "mods/effortless-building.pw.toml"
 hash = "acca756841ee5e088eaec9474758e402247965f3adf6d7ccd612bb715aa836c9"
 metafile = true
@@ -5674,11 +5687,6 @@ hash = "b9ceb0fa4707ced2e0467f334ce8b6cb2fd60c729b47aee065e2bb0d5b905189"
 metafile = true
 
 [[files]]
-file = "mods/savage-ender-dragon.pw.toml"
-hash = "bc400d41aa0775f6473348526a616b96593c322c9888999dd4bfb71f1d59448f"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
@@ -5906,6 +5914,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "1496ffa30020676979e65921b91e583a2fdc77e50001e2ed55f99edf1a0ae880"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island.pw.toml"
+hash = "03d964cba45be30fbcbef52f89f3953185737f55c8934d12e199b67194c2b368"
 metafile = true
 
 [[files]]
