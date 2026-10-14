@@ -745,6 +745,8 @@ W 'data/sable/physics_block_properties/float.json' (Flotte 'aether:enchanted_gra
 W 'data/sable/physics_block_properties/lbc_float_aerclouds.json' (Flotte '#aether:aerclouds' 1.0)
 W 'data/sable/physics_block_properties/lbc_float_tf_clouds.json' (Flotte '#twilightforest:clouds' 1.0)
 W 'data/sable/physics_block_properties/lbc_float_chromatic_aercloud.json' (Flotte 'aether:chromatic_aercloud' 6.0)
+# Son tags/block/bouncy.json a une virgule finale -> fichier ignore (le slime de Sable reste). Seul bloc present dans le pack : Sundrop d'Alex's Caves.
+W 'data/sable/tags/block/bouncy.json' ([ordered]@{ replace = $false; values = @(OptT @('alexscaves:sundrop')) })
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
