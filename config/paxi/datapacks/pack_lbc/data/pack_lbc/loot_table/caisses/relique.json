@@ -1,0 +1,194 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:reflective_necklace"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:jellyfish_necklace"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:kinetic_belt"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:hunting_belt"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:springy_boot"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:roller_skate"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:cut_glass_boot"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:leafy_mantle"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:midnight_mantle"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:glitchy_mantle"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:ghostly_mantle"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:chorus_staff"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:piglin_mask"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:rider_flute"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:pet_bone"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:ring_of_the_seven_deadly_sins"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:sphere_of_self_sacrifice"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:clot_of_time"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:golden_tooth"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:chef_hat"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:experience_disperser"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "relics:shield_of_retaliation"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:cardiac_trap"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:cloak_of_the_bloody_feather"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:dimension_key"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:dragon_blood_vial"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:echo_glove"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:ender_bow"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:galaxy_devourer_diadem"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:hat_of_omniscience"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:immaterial_disperser"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:living_flesh"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:lunar_sextant"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:mirror_of_transgression"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:mask_of_hunger"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:pulsar_mantle"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:ring_of_blades"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:sealed_claymore"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:sealed_rapier"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:sealed_sword"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:shadow_claws"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:sinner_crown"
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "reliquified_irons_spells_and_spellbooks:slicer"
+                                      }
+                                  ]
+                  }
+              ]
+}

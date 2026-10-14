@@ -262,23 +262,23 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "7348a5dbe596fc6cc4bb55f4f37ec95d5efed4e49a4a40dfff2d39f8d2a55e98"
+hash = "852e17f3e41e82f2a20b3819b6161595ebd117e1e58734df6b82cf7d3156bccc"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
-hash = "1237ecf47ff3c7c38cc0d3fa4303d861d2dd9b925d40b141e777f974ef3cbc2f"
+hash = "33a28afb5db8892e08ede97c8cb6aa1bb9ea6fca65bc0a4c7360f636cd72b4b5"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/epique.snbt"
-hash = "ce0ba87b269f53699023dda20d5ed4ead82dc31c1218f7eb513779999bea0933"
+hash = "9e1f866ecd22b3d4da938a99805058edc6716b28c38c71afa42276447d7e6037"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
-hash = "11a727d61cc6de24b0e6bfb58617b28b99aa41610b0bc781ce1b098765de0444"
+hash = "0056d198ae10cd4f3cc9c9b74b988713f432a846c513ddbdcc0491f0e5ffd4a7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rare.snbt"
-hash = "443b1eb92980b5744d1332b245929535b7f8f069139db838acb5989dcadbd681"
+hash = "4d9712143b156be323e511764114e1f81c9f64d01efc7b4fa0b4fce0f045b2ee"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -3131,6 +3131,34 @@ hash = "1cc04d24e0903ea6b4f262e4f63a10e5e3be21d5ba14d510853f70cc2cc47a3d"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/boss/twilight_t3.json"
 hash = "6214491e9e48d9e3108f2b5d2ac152581940c2fd0ed35b144ec3e727d93e9af6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/equipement_epique.json"
+hash = "70d45bf68ab9834b5af7bfab9904cf875c682f6a6b3d63d59e0675f6c8c8f636"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/equipement_mythique.json"
+hash = "ac9a414f20573b933bf5ad33dfa04abf6b677bd61117653b54131ec3f4e4eba3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/parchemin_epique.json"
+hash = "cc154f1105eac039bd108cb7b84b1837bd32981f026e3476dab5b1cbff8e759f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/parchemin_legendaire.json"
+hash = "45cb9e48d5f9283c228bf56e7cf27b546f6c43031868e3b61c756863ddf1ba5f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/parchemin_rare.json"
+hash = "1487fd6fdfbc03d74d825577e74d4bdf4822b82532fe2d9b9c54be3c0113b467"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/perle_portail.json"
+hash = "4ddfe6c278185df3bf79e235fef6578b9a35895df0aea785e1c0c94604858612"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/relique.json"
+hash = "46f088040c3b195eb6e55910a1bc5545778583dcfebf007ad5f5358acf2f53d2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"

@@ -734,10 +734,11 @@ $equippable = @('#minecraft:foot_armor', '#minecraft:leg_armor', '#minecraft:che
           'cursium_mage_chestplate', 'cursium_mage_elytra' | ForEach-Object { "cataclysm_spellbooks:$_" })))
 W 'data/minecraft/tags/item/enchantable/equippable.json' ([ordered]@{ replace = $true; values = $equippable; remove = @('twilightforest:phantom_helmet', 'twilightforest:phantom_chestplate') })
 # relics:relics : Reliquified Iron's Spells ecrit bloodied_voodoo_doll (l'objet est bloody_voodoo_doll) -> ses 24 reliques hors du tag.
-W 'data/relics/tags/item/relics.json' ([ordered]@{ replace = $true; values = (OptT @('bloody_voodoo_doll', 'cardiac_trap', 'cloak_of_the_bloody_feather', 'dimension_key', 'dragon_blood_vial',
+$reliquesMages = @('bloody_voodoo_doll', 'cardiac_trap', 'cloak_of_the_bloody_feather', 'dimension_key', 'dragon_blood_vial',
     'echo_glove', 'ender_bow', 'galaxy_devourer_diadem', 'flask_of_the_red_mist', 'hat_of_omniscience', 'immaterial_disperser', 'living_flesh', 'lunar_sextant',
     'mirror_of_transgression', 'mask_of_hunger', 'pulsar_mantle', 'ring_of_blades', 'ring_of_elusiveness', 'sealed_claymore', 'sealed_rapier', 'sealed_sword',
-    'shadow_claws', 'sinner_crown', 'slicer' | ForEach-Object { "reliquified_irons_spells_and_spellbooks:$_" })) })
+    'shadow_claws', 'sinner_crown', 'slicer' | ForEach-Object { "reliquified_irons_spells_and_spellbooks:$_" })
+W 'data/relics/tags/item/relics.json' ([ordered]@{ replace = $true; values = (OptT $reliquesMages) })
 # Sable Physics Compat 1.3.0 : physics_block_properties/float.json est un tableau (ancien format, 1 objet par fichier attendu) -> rejete.
 # Repris pour les mods presents : gravitite enchantee et nuages de l'Aether, nuages du Twilight flottent comme la levitite.
 function Flotte($sel, $scale) { [ordered]@{ selector = $sel; properties = [ordered]@{ 'sable:floating_material' = 'aeronautics:levitite'; 'sable:floating_scale' = $scale } } }
@@ -747,6 +748,21 @@ W 'data/sable/physics_block_properties/lbc_float_tf_clouds.json' (Flotte '#twili
 W 'data/sable/physics_block_properties/lbc_float_chromatic_aercloud.json' (Flotte 'aether:chromatic_aercloud' 6.0)
 # Son tags/block/bouncy.json a une virgule finale -> fichier ignore (le slime de Sable reste). Seul bloc present dans le pack : Sundrop d'Alex's Caves.
 W 'data/sable/tags/block/bouncy.json' ([ordered]@{ replace = $false; values = @(OptT @('alexscaves:sundrop')) })
+
+# ---------- 22. Tables tirees par les caisses de FTB Quests (recompense "commande" : loot give {p} loot pack_lbc:caisses/...) ----------
+# Les caisses elles-memes : config/ftbquests/quests/reward_tables, generees par scripts/quests/build-crates.ps1.
+function Caisse($nom, $entries) { W "data/pack_lbc/loot_table/caisses/$nom.json" ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = @($entries) }) }) }
+Caisse 'equipement_epique' @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 1; rarities = @('apotheosis:epic') })
+Caisse 'equipement_mythique' @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 1; rarities = @('apotheosis:mythic') })
+Caisse 'relique' @(@($reliques | ForEach-Object { "relics:$_" }) + $reliquesMages | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = $_ } })
+# Parchemins : meme liste de sorts que le butin d'Iron's (sans Apex Arcana, section 17), qualite croissante selon la caisse
+$sorts = ((Get-Content (Join-Path $PSScriptRoot 'data\spell_loot\data\irons_spellbooks\loot_table\test\scroll_gen.json') -Raw | ConvertFrom-Json).pools[0].entries[0].functions | Where-Object { $_.function -eq 'irons_spellbooks:randomize_spell' }).spell_filter
+foreach ($p in @(@('parchemin_rare', 0.15, 0.45), @('parchemin_epique', 0.4, 0.75), @('parchemin_legendaire', 0.7, 1.0))) {
+    Caisse $p[0] @([ordered]@{ type = 'minecraft:item'; name = 'irons_spellbooks:scroll'; functions = @([ordered]@{ function = 'irons_spellbooks:randomize_spell'; quality = [ordered]@{ min = $p[1]; max = $p[2] }; spell_filter = $sorts }) })
+}
+# Perles de portail (Gateways to Eternity) : nos portails, le defi final deux fois plus rare
+$portails = [ordered]@{ nuit_sans_fin = 2; sabbat_citrouilles = 2; morts_sans_repos = 2; echo_profondeurs = 2; gardiens_sorcellerie = 2; citadelle_ender = 2; defi_seigneurs = 1 }
+Caisse 'perle_portail' @($portails.Keys | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = 'gateways:gate_pearl'; weight = $portails[$_]; functions = @([ordered]@{ function = 'minecraft:set_components'; components = [ordered]@{ 'gateways:gateway' = "pack_lbc:$_" } }) } })
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

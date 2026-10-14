@@ -21,7 +21,7 @@
 				count: 1
 				id: "minecraft:netherite_ingot"
 			}
-			weight: 8.0f
+			weight: 12.0f
 		}
 		{
 			count: 3
@@ -30,7 +30,7 @@
 				count: 1
 				id: "minecraft:enchanted_golden_apple"
 			}
-			weight: 6.0f
+			weight: 9.0f
 		}
 		{
 			count: 2
@@ -39,7 +39,16 @@
 				count: 1
 				id: "minecraft:totem_of_undying"
 			}
-			weight: 6.0f
+			weight: 9.0f
+		}
+		{
+			count: 2
+			id: "2FDA940DC5273345"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+			weight: 9.0f
 		}
 		{
 			count: 1
@@ -48,14 +57,14 @@
 				count: 1
 				id: "minecraft:nether_star"
 			}
-			weight: 5.0f
+			weight: 8.0f
 		}
 		{
 			count: 2
-			id: "2FDA940DC5273345"
+			id: "678C101076E53384"
 			item: {
 				count: 1
-				id: "minecraft:diamond_block"
+				id: "irons_spellbooks:epic_ink"
 			}
 			weight: 6.0f
 		}
@@ -70,21 +79,12 @@
 		}
 		{
 			count: 1
-			id: "49C7194D305C225D"
+			id: "5A86893FE5215620"
 			item: {
 				count: 1
-				id: "apotheosis:sigil_of_supremacy"
+				id: "betterinventory:backpack_4"
 			}
-			weight: 2.0f
-		}
-		{
-			count: 2
-			id: "678C101076E53384"
-			item: {
-				count: 1
-				id: "irons_spellbooks:epic_ink"
-			}
-			weight: 5.0f
+			weight: 6.0f
 		}
 		{
 			count: 1
@@ -93,16 +93,16 @@
 				count: 1
 				id: "irons_spellbooks:legendary_ink"
 			}
-			weight: 3.0f
+			weight: 4.0f
 		}
 		{
 			count: 1
-			id: "5A86893FE5215620"
+			id: "49C7194D305C225D"
 			item: {
 				count: 1
-				id: "betterinventory:backpack_4"
+				id: "apotheosis:sigil_of_supremacy"
 			}
-			weight: 4.0f
+			weight: 2.0f
 		}
 		{
 			count: 1
@@ -111,7 +111,43 @@
 				count: 1
 				id: "betterinventory:backpack_5"
 			}
-			weight: 1.0f
+			weight: 2.0f
+		}
+		{
+			command: "/loot give {p} loot pack_lbc:caisses/equipement_mythique"
+			icon: {
+				count: 1
+				id: "minecraft:netherite_sword"
+			}
+			id: "208107160CCB3E49"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 10.0f
+		}
+		{
+			command: "/loot give {p} loot pack_lbc:caisses/perle_portail"
+			icon: {
+				count: 1
+				id: "gateways:gate_pearl"
+			}
+			id: "520819430D82FF6B"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 10.0f
+		}
+		{
+			command: "/loot give {p} loot pack_lbc:caisses/parchemin_legendaire"
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+			}
+			id: "191783BE15D54510"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 9.0f
 		}
 	]
 }

@@ -1,0 +1,17 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "apotheosis:random_affix_item",
+                                          "weight":  1,
+                                          "rarities":  [
+                                                           "apotheosis:epic"
+                                                       ]
+                                      }
+                                  ]
+                  }
+              ]
+}

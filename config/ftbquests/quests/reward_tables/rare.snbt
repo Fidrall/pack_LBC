@@ -20,7 +20,7 @@
 				count: 1
 				id: "minecraft:diamond"
 			}
-			weight: 8.0f
+			weight: 7.0f
 		}
 		{
 			count: 16
@@ -29,70 +29,7 @@
 				count: 1
 				id: "minecraft:gold_ingot"
 			}
-			weight: 8.0f
-		}
-		{
-			count: 8
-			id: "20FF700E3C3FE334"
-			item: {
-				count: 1
-				id: "minecraft:emerald"
-			}
-			weight: 6.0f
-		}
-		{
-			count: 8
-			id: "61DBB83F2E778716"
-			item: {
-				count: 1
-				id: "minecraft:ender_pearl"
-			}
-			weight: 6.0f
-		}
-		{
-			count: 8
-			id: "6B3B970F001574ED"
-			item: {
-				count: 1
-				id: "minecraft:blaze_rod"
-			}
-			weight: 5.0f
-		}
-		{
-			count: 2
-			id: "7AAE35F3EDBB8D12"
-			item: {
-				count: 1
-				id: "minecraft:golden_apple"
-			}
-			weight: 6.0f
-		}
-		{
-			count: 1
-			id: "306F62CB83C65419"
-			item: {
-				count: 1
-				id: "minecraft:name_tag"
-			}
-			weight: 3.0f
-		}
-		{
-			count: 1
-			id: "78EEA09982293A4A"
-			item: {
-				count: 1
-				id: "minecraft:saddle"
-			}
-			weight: 3.0f
-		}
-		{
-			count: 16
-			id: "40DED61E31B26A8A"
-			item: {
-				count: 1
-				id: "minecraft:experience_bottle"
-			}
-			weight: 6.0f
+			weight: 7.0f
 		}
 		{
 			count: 16
@@ -104,13 +41,49 @@
 			weight: 8.0f
 		}
 		{
+			count: 8
+			id: "20FF700E3C3FE334"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "61DBB83F2E778716"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "7AAE35F3EDBB8D12"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 16
+			id: "40DED61E31B26A8A"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 5.0f
+		}
+		{
 			count: 2
 			id: "4DA50FBE14BC93A5"
 			item: {
 				count: 1
 				id: "create:precision_mechanism"
 			}
-			weight: 6.0f
+			weight: 5.0f
 		}
 		{
 			count: 8
@@ -119,32 +92,14 @@
 				count: 1
 				id: "create:electron_tube"
 			}
-			weight: 6.0f
+			weight: 5.0f
 		}
 		{
-			count: 1
-			id: "74EA330FE56EE17D"
+			count: 8
+			id: "6B3B970F001574ED"
 			item: {
 				count: 1
-				id: "create:blaze_burner"
-			}
-			weight: 3.0f
-		}
-		{
-			count: 1
-			id: "04D74000B2C60E08"
-			item: {
-				count: 1
-				id: "waystones:warp_stone"
-			}
-			weight: 4.0f
-		}
-		{
-			count: 3
-			id: "277A4BDC1A7B3503"
-			item: {
-				count: 1
-				id: "waystones:return_scroll"
+				id: "minecraft:blaze_rod"
 			}
 			weight: 4.0f
 		}
@@ -155,7 +110,7 @@
 				count: 1
 				id: "apotheosis:gem_dust"
 			}
-			weight: 5.0f
+			weight: 4.0f
 		}
 		{
 			count: 16
@@ -164,7 +119,25 @@
 				count: 1
 				id: "irons_spellbooks:arcane_essence"
 			}
-			weight: 5.0f
+			weight: 4.0f
+		}
+		{
+			count: 1
+			id: "04D74000B2C60E08"
+			item: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 3
+			id: "277A4BDC1A7B3503"
+			item: {
+				count: 1
+				id: "waystones:return_scroll"
+			}
+			weight: 3.0f
 		}
 		{
 			count: 2
@@ -173,7 +146,7 @@
 				count: 1
 				id: "irons_spellbooks:uncommon_ink"
 			}
-			weight: 4.0f
+			weight: 3.0f
 		}
 		{
 			count: 2
@@ -182,7 +155,34 @@
 				count: 1
 				id: "betterinventory:stack_upgrade_1"
 			}
-			weight: 4.0f
+			weight: 3.0f
+		}
+		{
+			count: 1
+			id: "306F62CB83C65419"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 1
+			id: "78EEA09982293A4A"
+			item: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 1
+			id: "74EA330FE56EE17D"
+			item: {
+				count: 1
+				id: "create:blaze_burner"
+			}
+			weight: 2.0f
 		}
 		{
 			count: 1
@@ -191,7 +191,7 @@
 				count: 1
 				id: "betterinventory:backpack_2"
 			}
-			weight: 3.0f
+			weight: 2.0f
 		}
 		{
 			count: 1
@@ -200,7 +200,50 @@
 				count: 1
 				id: "torchmaster:megatorch"
 			}
+			weight: 1.0f
+		}
+		{
+			count: 1
+			id: "6679953076829A2C"
+			item: {
+				count: 1
+				id: "reliquified_artifacts:mimi_dust"
+			}
 			weight: 2.0f
+		}
+		{
+			count: 1
+			id: "2DC316B9927F8A55"
+			item: {
+				components: { "treasurebags:bag_type": "pack_lbc:explorateur" }
+				count: 1
+				id: "treasurebags:treasure_bag"
+			}
+			weight: 4.0f
+		}
+		{
+			command: "/loot give {p} loot pack_lbc:cartes/palier_1"
+			icon: {
+				count: 1
+				id: "minecraft:filled_map"
+			}
+			id: "26CE6BFFEDE5AF78"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			command: "/loot give {p} loot pack_lbc:caisses/parchemin_rare"
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+			}
+			id: "3ED291320F6B2395"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 4.0f
 		}
 	]
 }
