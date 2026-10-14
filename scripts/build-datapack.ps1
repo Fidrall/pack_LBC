@@ -348,7 +348,7 @@ $bossPlus = @(
     'born_in_chaos_v1:missioner', 'born_in_chaos_v1:supreme_bonescaller', 'born_in_chaos_v1:supreme_bonescaller_not_despawn',
     'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:krampus',
     'friendsandfoes:wildfire', 'illagerinvasion:invoker', 'archaion:last_of_deepslate', 'deeperdarker:stalker',
-    'minecraft:wither', 'minecraft:elder_guardian', 'minecraft:warden',
+    'minecraft:elder_guardian', 'minecraft:warden',   # Wither : renforce par Wither: Reincarnated (600 PV au lieu de 300, config/witherreincarnated-common.toml)
     'block_factorys_bosses:yeti', 'block_factorys_bosses:sandworm', 'block_factorys_bosses:kraken',
     'block_factorys_bosses:underworld_knight', 'block_factorys_bosses:infernal_dragon',
     'alexscaves:luxtructosaurus'

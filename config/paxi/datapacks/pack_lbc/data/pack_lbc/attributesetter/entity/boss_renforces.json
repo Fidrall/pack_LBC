@@ -347,18 +347,6 @@
                                      "operation":  "MULTIPLY_BASE"
                                  }
                              ],
-    "minecraft:wither":  [
-                             {
-                                 "attribute":  "minecraft:generic.max_health",
-                                 "value":  0.25,
-                                 "operation":  "MULTIPLY_BASE"
-                             },
-                             {
-                                 "attribute":  "minecraft:generic.attack_damage",
-                                 "value":  0.15,
-                                 "operation":  "MULTIPLY_BASE"
-                             }
-                         ],
     "minecraft:elder_guardian":  [
                                      {
                                          "attribute":  "minecraft:generic.max_health",

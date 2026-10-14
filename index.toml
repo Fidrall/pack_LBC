@@ -1562,7 +1562,7 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
-hash = "db5448e444198f0390586bc3717c5d622df554aec6feefa0ce8d916b18468de9"
+hash = "687028a181e8271e87989ca65c3da35cc20a4d947199d3ff5186f3e1145c1e5d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
@@ -5872,6 +5872,11 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
+metafile = true
+
+[[files]]
+file = "mods/wither-reincarnated.pw.toml"
+hash = "4c763ea5adfeb8f39d057c499ae5ace236c2e3691e2f48a38461aaf73983ea53"
 metafile = true
 
 [[files]]

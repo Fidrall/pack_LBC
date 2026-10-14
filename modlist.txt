@@ -218,6 +218,7 @@ mr | silent-lib | conserver | requis par Treasure Bags
 mr | zfastnoise | perf | remplace Noisium
 mr | wyrmroost | jetable | dragons (remplace Ice and Fire) ; Royal Red : vie d'origine, degats renforces ; griefing coupe ; alpins rares (sommets seulement)
 mr | alexs-caves-continued | jetable | 6 biomes souterrains, rares (separation 1200)
+mr | wither-reincarnated | jetable | Wither refait : 2 phases, laser, charge (parable au bouclier), barrage ; 600 PV ; nuit tant qu'il vit (licence ARR, jar non modifie)
 mr | bossesrise | jetable | 5 boss a arenes ; roulade coupee (Combat Roll garde)
 mr | epic-knights-shields-armor-and-weapons | jetable | armures et armes medievales (+ compat Better Combat)
 mr | apothic-combat | qol | complement d'Apotheosis
