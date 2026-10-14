@@ -4420,7 +4420,7 @@ metafile = true
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
-hash = "438860e27ad92857c783f7b7b1a16578614d26f42f7c613edbcba5482164e00e"
+hash = "2b69450e43952ddfa55a78ac5bba0c3a73b29cca2d05b57a5beecff62175fa32"
 metafile = true
 
 [[files]]
@@ -4595,7 +4595,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "3ca38fec99737a41900a63a940da40ff9ed482a75489073a1870548210fcfd39"
+hash = "85d9232d28042bd0f78d97e6fc8a84ce09dacd13a8b3d46be3199888d39f5ad9"
 metafile = true
 
 [[files]]
@@ -4660,7 +4660,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "bf29c048059a9d0b6ff0c4fd3bf6995ffc9637239fa428571a09cbe30cb2237a"
+hash = "c97305235961bf64eb6aefb17e526a398f187566db26b4fe4fc367aa02c75a7f"
 metafile = true
 
 [[files]]
@@ -4760,7 +4760,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "0f24d3112418b31cf86b84d0ded37decc9dbd50cc229cec632547458c01ffdca"
+hash = "2b939b183a68189184270bfe96dbb3e18bbea97b9c8a8186c7daa3d1c83c1108"
 metafile = true
 
 [[files]]
@@ -4930,7 +4930,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-teleporters.pw.toml"
-hash = "a3025851c12daf29f99283b35c94924329d458b8358ccd50840d01c12344caac"
+hash = "3937f3e93d3117d33bc5d5144d5a983f5336100e6dc1b64dca338e2e725ea3ce"
 metafile = true
 
 [[files]]
@@ -5160,7 +5160,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "a36ff0728cf99bb5adfe114d32fce1a42483291aee9312aabb5cf5642b97264e"
+hash = "20a6fed49a56d88d939ce6990ae7088faa80887e6baeef317aa11d53a398db40"
 metafile = true
 
 [[files]]
@@ -5265,7 +5265,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "2863a3b187723e1f69ed2ad2b2c3d834e8442468a1347c80df5b310e243c8753"
+hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
 metafile = true
 
 [[files]]
@@ -5330,7 +5330,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "8bc018284b753276f8e3510101852809bcccdad31a7ae17847df210c71a2c512"
+hash = "cfc4d1bcc1ff43a45933e05db06fe8e2e607b01304ec4810544b6d7179668b54"
 metafile = true
 
 [[files]]
@@ -5404,7 +5404,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "0294264654da6777cfbbbd24ffa6dd1d082768fa7ae28b36b76f78261f53fce9"
+hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
 metafile = true
 
 [[files]]
@@ -5553,7 +5553,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "d8c433e94f2c8e5838e8937d7a162fe834e966f1f9640a563db5060a3011b2f4"
+hash = "1762970777e293ba6d7a6a7b43dde2ac87604820e0fd90dd712beb744d068266"
 metafile = true
 
 [[files]]
@@ -5583,7 +5583,7 @@ metafile = true
 
 [[files]]
 file = "mods/redomesticate.pw.toml"
-hash = "4e85c74b04c9a317fa5eb7756dd9e3503211e19236a91da4d1433c3b7cc378c9"
+hash = "a171e4464fe8da5b988d64f73a25ac2579d1437f85182bdaf49d6a3fa4ecd45b"
 metafile = true
 
 [[files]]
@@ -5594,6 +5594,11 @@ metafile = true
 [[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "5d2ebe2ac7d9436d1c5df0fbb2a1b975196d41a3090065b3c569aaac4fc11430"
+metafile = true
+
+[[files]]
+file = "mods/reliquified-artifacts.pw.toml"
+hash = "6332130dba21e2ee04b9fae4ecc88a652a5bb39fc7423f14723362969badece5"
 metafile = true
 
 [[files]]
@@ -5738,12 +5743,17 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "a9d40525bf0794c2c49585fd502e86cbeb60c202c174f5987ed0802b012dc0cd"
+hash = "525721054a6788dfeb36276dee55100414b265a60b9bce655612930ad3705d15"
 metafile = true
 
 [[files]]
 file = "mods/strut-your-stuff.pw.toml"
 hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
+metafile = true
+
+[[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "fdf3d8942d14758ea44a1f27e071fcfbffeafd4720e2d326dbc7dd939d588adc"
 metafile = true
 
 [[files]]
@@ -5813,7 +5823,7 @@ metafile = true
 
 [[files]]
 file = "mods/vs-hose-connectors.pw.toml"
-hash = "48cf23db7ab7d8f9d7c0516b1400dfb0997c22e86e6e4b98f341d9afa2b6b013"
+hash = "52c86942f80b262807611743be5991c4dfe2df66041a6503a46266d9e7ed4b96"
 metafile = true
 
 [[files]]

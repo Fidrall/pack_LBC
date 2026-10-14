@@ -180,6 +180,7 @@ cf | ftb-essentials | qol | /home /tpa /back /spawn
 mr | yungs-better-strongholds | jetable |
 mr | yungs-better-ocean-monuments | jetable |
 mr | lambdynamiclights | client | lumiere dynamique (remplace Sodium Dynamic Lights)
+mr | subtle-effects | client | effets visuels/sonores (1.15+ : crash End Remastered corrige ; cote client seulement sinon obligatoire chez les joueurs)
 mr | async-locator-refined | perf | locate/cartes/dauphins en asynchrone
 mr | irons-spells-n-spellbooks | jetable | magie combat
 mr | irons-lib | jetable | dependance Iron's Spells
@@ -232,6 +233,7 @@ mr | create-stuff-n-additions-x-sable-aeronautics-compat | qol | correctifs Stuf
 mr | jade-sable-compat | client | Jade sur les dirigeables
 mr | cataclysm-x-yungs-better-nether-fortress | jetable | Ignited Berserkers dans les forteresses YUNG
 mr | reliquified-irons-spells-n-spellbooks | jetable | reliques Iron's
+mr | reliquified-artifacts | jetable | refait les 48 Artifacts en reliques Relics (beta, 1.0.9 compatible Artifacts 13.2.5)
 mr | twilight-delight | jetable | cuisine Twilight Forest
 mr | l_enders-cataclysm-delight | jetable | cuisine Cataclysm
 mr | the-aethers-delight | jetable | cuisine Aether
