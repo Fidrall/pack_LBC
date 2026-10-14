@@ -721,5 +721,30 @@ W 'data/wyrmroost/tags/item/platinum_ingots.json' ([ordered]@{ replace = $false;
 # Neruina tue la zone puis expulse le joueur quand l'effet se termine.
 W 'data/somakespells/irons_spellbooks_spell_config/pumpkin_bomb.json' ([ordered]@{ 'irons_spellbooks:enabled' = $false })
 
+# ---------- 21. Tags et donnees casses par des fautes de frappe dans les mods ----------
+# Une reference obligatoire inconnue fait echouer TOUT le tag. replace = true efface les fichiers des mods (pack_lbc charge apres eux) :
+# listes reprises de chaque jar -> A METTRE A JOUR si un mod de la liste ajoute des entrees.
+# minecraft:enchantable/equippable : Deeper and Darker: Spellbooks ecrit darkermagic:whispers_staff (l'objet est whisper_staff).
+# Tag vide = Malediction du lien impossible + c:enchantables (NeoForge) casse lui aussi.
+$equippable = @('#minecraft:foot_armor', '#minecraft:leg_armor', '#minecraft:chest_armor', '#minecraft:head_armor', 'minecraft:elytra', '#minecraft:skulls', 'minecraft:carved_pumpkin') +
+    (OptT (@('#minecraft:enchantable/armor', 'darkermagic:whisper_staff', 'deeperdarker:soul_elytra', 'redomesticate:collar_tag') +
+        @('helmet', 'chestplate', 'leggings', 'boots' | ForEach-Object { "#hazennstuff:armors/hns_$_" }) +
+        @('ignis_leggings', 'abyssal_warlock_leggings', 'cursium_mage_skirt', 'ignis_helmet', 'abyssal_warlock_helmet', 'abyssal_warlock_mask', 'cursium_mage_circlet',
+          'ignis_boots', 'abyssal_warlock_boots', 'cursium_mage_boots', 'ignis_chestplate', 'ignis_chestplate_elytra', 'abyssal_warlock_chestplate',
+          'cursium_mage_chestplate', 'cursium_mage_elytra' | ForEach-Object { "cataclysm_spellbooks:$_" })))
+W 'data/minecraft/tags/item/enchantable/equippable.json' ([ordered]@{ replace = $true; values = $equippable; remove = @('twilightforest:phantom_helmet', 'twilightforest:phantom_chestplate') })
+# relics:relics : Reliquified Iron's Spells ecrit bloodied_voodoo_doll (l'objet est bloody_voodoo_doll) -> ses 24 reliques hors du tag.
+W 'data/relics/tags/item/relics.json' ([ordered]@{ replace = $true; values = (OptT @('bloody_voodoo_doll', 'cardiac_trap', 'cloak_of_the_bloody_feather', 'dimension_key', 'dragon_blood_vial',
+    'echo_glove', 'ender_bow', 'galaxy_devourer_diadem', 'flask_of_the_red_mist', 'hat_of_omniscience', 'immaterial_disperser', 'living_flesh', 'lunar_sextant',
+    'mirror_of_transgression', 'mask_of_hunger', 'pulsar_mantle', 'ring_of_blades', 'ring_of_elusiveness', 'sealed_claymore', 'sealed_rapier', 'sealed_sword',
+    'shadow_claws', 'sinner_crown', 'slicer' | ForEach-Object { "reliquified_irons_spells_and_spellbooks:$_" })) })
+# Sable Physics Compat 1.3.0 : physics_block_properties/float.json est un tableau (ancien format, 1 objet par fichier attendu) -> rejete.
+# Repris pour les mods presents : gravitite enchantee et nuages de l'Aether, nuages du Twilight flottent comme la levitite.
+function Flotte($sel, $scale) { [ordered]@{ selector = $sel; properties = [ordered]@{ 'sable:floating_material' = 'aeronautics:levitite'; 'sable:floating_scale' = $scale } } }
+W 'data/sable/physics_block_properties/float.json' (Flotte 'aether:enchanted_gravitite' 4.0)
+W 'data/sable/physics_block_properties/lbc_float_aerclouds.json' (Flotte '#aether:aerclouds' 1.0)
+W 'data/sable/physics_block_properties/lbc_float_tf_clouds.json' (Flotte '#twilightforest:clouds' 1.0)
+W 'data/sable/physics_block_properties/lbc_float_chromatic_aercloud.json' (Flotte 'aether:chromatic_aercloud' 6.0)
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

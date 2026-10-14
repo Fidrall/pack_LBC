@@ -1401,6 +1401,10 @@ file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/worldgen/scroll_gen
 hash = "6226ad38ea76e361d5515018becdbdb9a4e3c62cde69f2694d66ceb887a6fe29"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/item/enchantable/equippable.json"
+hash = "a8abfbc0958b617c9ae143085eff1a240e03830946701fcda06ede961cd6b3b1"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure/pillager_outpost.json"
 hash = "8893f595292a3c5499a6e07f609e75ff938011806f5cf43e3d036179383dc2cd"
 
@@ -3833,6 +3837,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/arch
 hash = "64a24b1d94bb003247604c0c440bad838a0cd687dfcc0b115cabda4effe08e5d"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/relics/tags/item/relics.json"
+hash = "0b4b6b0e5679225e2661b54804225664161ec18dc0c913a393a2d8608be13ab6"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/mansions_overworld.json"
 hash = "90fed4ae1e223a065cb86d5d9b68e4582e728d82d9151a19f500f97364061833"
 
@@ -3843,6 +3851,22 @@ hash = "7f983045f6439f17686062b8c3c13d6c69b1e415a270889cef29e4e1d0fbcea5"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/repurposed_structures/worldgen/structure_set/shipwrecks_nether.json"
 hash = "24d1de2515ab8b1e56efa0b3bfbdb491f1377101218d7bf7dc1cbe0053e1d08e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/sable/physics_block_properties/float.json"
+hash = "4acb777c82c17b625e6416328e087af73f62a6b5d5ebc754d606653a79a31bc9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/sable/physics_block_properties/lbc_float_aerclouds.json"
+hash = "3e07226624b8b6dd2bf064ee5b9978e92656126030ae12b80f682234dc363c4f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/sable/physics_block_properties/lbc_float_chromatic_aercloud.json"
+hash = "a94d4387da0e432eeebc852f915c2c907eb3fe54ce9a17b5e56dfb8cbdbd3a52"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/sable/physics_block_properties/lbc_float_tf_clouds.json"
+hash = "5037beaccc0639af7e11e552d2f0358db3881c77b4563bfea6e5917bf66a2e60"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/somakespells/irons_spellbooks_spell_config/pumpkin_bomb.json"

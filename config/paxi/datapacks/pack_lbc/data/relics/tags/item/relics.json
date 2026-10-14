@@ -1,0 +1,101 @@
+{
+    "replace":  true,
+    "values":  [
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:cardiac_trap",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:cloak_of_the_bloody_feather",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:dimension_key",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:dragon_blood_vial",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:echo_glove",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:ender_bow",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:galaxy_devourer_diadem",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:hat_of_omniscience",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:immaterial_disperser",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:living_flesh",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:lunar_sextant",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:mirror_of_transgression",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:mask_of_hunger",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:pulsar_mantle",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:ring_of_blades",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:sealed_claymore",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:sealed_rapier",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:sealed_sword",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:shadow_claws",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:sinner_crown",
+                       "required":  false
+                   },
+                   {
+                       "id":  "reliquified_irons_spells_and_spellbooks:slicer",
+                       "required":  false
+                   }
+               ]
+}

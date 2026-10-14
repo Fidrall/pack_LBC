@@ -1,0 +1,108 @@
+{
+    "replace":  true,
+    "values":  [
+                   "#minecraft:foot_armor",
+                   "#minecraft:leg_armor",
+                   "#minecraft:chest_armor",
+                   "#minecraft:head_armor",
+                   "minecraft:elytra",
+                   "#minecraft:skulls",
+                   "minecraft:carved_pumpkin",
+                   {
+                       "id":  "#minecraft:enchantable/armor",
+                       "required":  false
+                   },
+                   {
+                       "id":  "darkermagic:whisper_staff",
+                       "required":  false
+                   },
+                   {
+                       "id":  "deeperdarker:soul_elytra",
+                       "required":  false
+                   },
+                   {
+                       "id":  "redomesticate:collar_tag",
+                       "required":  false
+                   },
+                   {
+                       "id":  "#hazennstuff:armors/hns_helmet",
+                       "required":  false
+                   },
+                   {
+                       "id":  "#hazennstuff:armors/hns_chestplate",
+                       "required":  false
+                   },
+                   {
+                       "id":  "#hazennstuff:armors/hns_leggings",
+                       "required":  false
+                   },
+                   {
+                       "id":  "#hazennstuff:armors/hns_boots",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:ignis_leggings",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:abyssal_warlock_leggings",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:cursium_mage_skirt",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:ignis_helmet",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:abyssal_warlock_helmet",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:abyssal_warlock_mask",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:cursium_mage_circlet",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:ignis_boots",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:abyssal_warlock_boots",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:cursium_mage_boots",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:ignis_chestplate",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:ignis_chestplate_elytra",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:abyssal_warlock_chestplate",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:cursium_mage_chestplate",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm_spellbooks:cursium_mage_elytra",
+                       "required":  false
+                   }
+               ],
+    "remove":  [
+                   "twilightforest:phantom_helmet",
+                   "twilightforest:phantom_chestplate"
+               ]
+}
