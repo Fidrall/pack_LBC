@@ -1,0 +1,17 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "lbc.fixes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LeviathanKeybindMixin",
+    "DragonKeepTargetMixin",
+    "PumpkinZoneMixin"
+  ],
+  "client": [
+    "FtbMinimapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

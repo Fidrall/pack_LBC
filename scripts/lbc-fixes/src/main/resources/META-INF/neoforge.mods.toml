@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "lbcfixes"
+version = "1.0.0"
+displayName = "pack_LBC Fixes"
+authors = "Fidrall"
+description = '''Correctifs du pack pack_LBC (mixins uniquement) :
+- Wyrmroost : eclair monte du Butterfly Leviathan (portee de visee, cible conservee)
+- FTB Chunks : pas de mise a jour de la minimap quand elle est desactivee
+- Somake Spells : effet de la zone Pumpkin Bomb enregistre (plus d'expulsion via Neruina)'''
+
+[[mixins]]
+config = "lbcfixes.mixins.json"
+
+[[dependencies.lbcfixes]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.lbcfixes]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
