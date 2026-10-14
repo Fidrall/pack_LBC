@@ -117,3 +117,21 @@ quest.27630A8A791BC3CA.title: "Couronne du pécheur"
 quest.27630A8A791BC3CA.quest_subtitle: "Relique des mages"
 quest.625D742435C1AF0A.title: "Trancheur"
 quest.625D742435C1AF0A.quest_subtitle: "Relique des mages"
+quest.6779FD99DF9BA33F.title: "&b&lLes artefacts deviennent des reliques"
+quest.6779FD99DF9BA33F.quest_subtitle: "Reliquified Artifacts"
+quest.6779FD99DF9BA33F.quest_desc: [
+  "Avec &bReliquified Artifacts&r, les &e48 artefacts&r de ce chapitre fonctionnent comme des &6reliques&r : ils gagnent de l'&eexpérience&r quand tu t'en sers, montent en niveau et ont leur propre &earbre d'améliorations&r."
+  ""
+  "Plus de &e120 nouvelles capacités&r au total, à débloquer niveau après niveau."
+  ""
+  "Fais un clic droit sur un artefact dans l'inventaire pour voir ses capacités et dépenser ses points."
+]
+quest.47B87F4E83DC3DE2.title: "Poudre de mimique"
+quest.47B87F4E83DC3DE2.quest_subtitle: "Un coffre qui mord… et qui paie"
+quest.47B87F4E83DC3DE2.quest_desc: [
+  "Fabrique de la &ePoudre de mimique&r (Mimi-Dust) : &eéclat d'écho&r au centre, &eredstone&r à gauche et à droite, &epoudre lumineuse&r en haut et en bas."
+  ""
+  "Utilisée sur un &ecoffre&r, elle le transforme en &cmimique&r. Vaincs-la : elle lâche &eautant de reliques tirées au hasard&r que le coffre en contenait avant la transformation."
+  ""
+  "&7Pratique pour retenter sa chance sur des reliques en double.&r"
+]

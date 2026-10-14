@@ -72,6 +72,7 @@
 		"Twilight Forest : une dimension de contes et de boss"
 	]
 	chapter.76A66079B7CC937B.title: "&2&lLa Forêt du Crépuscule"
+	chapter.782C040A4544B85B.title: "Reliques"
 	chapter.784A6CC38A657526.title: "&eSimply Swords"
 	chapter.793BF4A1BA3A1FC7.chapter_subtitle: [
 		"Le paradis des îles flottantes"
@@ -3246,6 +3247,15 @@
 	]
 	quest.4796A7277932F2C4.quest_subtitle: "Des cultures qui poussent toutes seules"
 	quest.4796A7277932F2C4.title: "La Terre Riche"
+	quest.47B87F4E83DC3DE2.quest_desc: [
+		"Fabrique de la &ePoudre de mimique&r (Mimi-Dust) : &eéclat d'écho&r au centre, &eredstone&r à gauche et à droite, &epoudre lumineuse&r en haut et en bas."
+		""
+		"Utilisée sur un &ecoffre&r, elle le transforme en &cmimique&r. Vaincs-la : elle lâche &eautant de reliques tirées au hasard&r que le coffre en contenait avant la transformation."
+		""
+		"&7Pratique pour retenter sa chance sur des reliques en double.&r"
+	]
+	quest.47B87F4E83DC3DE2.quest_subtitle: "Un coffre qui mord… et qui paie"
+	quest.47B87F4E83DC3DE2.title: "Poudre de mimique"
 	quest.47F2AE3AB2B8579D.quest_desc: [
 		"Vaincs le &6Seigneur Citrouille&r et sa monture."
 	]
@@ -4734,6 +4744,15 @@
 	]
 	quest.6767FDEC926C01DE.quest_subtitle: "Le bouclier du chevalier"
 	quest.6767FDEC926C01DE.title: "L'écu"
+	quest.6779FD99DF9BA33F.quest_desc: [
+		"Avec &bReliquified Artifacts&r, les &e48 artefacts&r de ce chapitre fonctionnent comme des &6reliques&r : ils gagnent de l'&eexpérience&r quand tu t'en sers, montent en niveau et ont leur propre &earbre d'améliorations&r."
+		""
+		"Plus de &e120 nouvelles capacités&r au total, à débloquer niveau après niveau."
+		""
+		"Fais un clic droit sur un artefact dans l'inventaire pour voir ses capacités et dépenser ses points."
+	]
+	quest.6779FD99DF9BA33F.quest_subtitle: "Reliquified Artifacts"
+	quest.6779FD99DF9BA33F.title: "&b&lLes artefacts deviennent des reliques"
 	quest.67885E1A64CB51A9.quest_subtitle: "Sort ultime"
 	quest.67885E1A64CB51A9.title: "Les Portes du Paradis"
 	quest.6796A0CBC2BA3C7D.quest_subtitle: "Relique des mages"

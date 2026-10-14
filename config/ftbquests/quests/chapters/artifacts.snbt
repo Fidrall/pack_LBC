@@ -2874,5 +2874,63 @@
 			x: 6d
 			y: 16.5d
 		}
+		{
+			dependencies: ["64F015F16C1C5F55"]
+			icon: {
+				id: "artifacts:cloud_in_a_bottle"
+			}
+			id: "6779FD99DF9BA33F"
+			rewards: [
+				{
+					id: "2B676CD361685E04"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "commune"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0B6BCAF58675360A"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6779FD99DF9BA33F"]
+			id: "47B87F4E83DC3DE2"
+			optional: true
+			rewards: [
+				{
+					id: "1E0086BB0F7F7932"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "rare"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "246157464721DFC2"
+					item: { count: 1, id: "reliquified_artifacts:mimi_dust" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 18.5d
+		}
 	]
 }

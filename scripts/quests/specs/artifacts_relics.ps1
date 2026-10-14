@@ -54,3 +54,18 @@ foreach ($r in $ri) {
   $Quests += @{ k = "ri_$($r[0])"; x = -4.5 + ($i % 8) * 1.5; y = 13.5 + [Math]::Floor($i / 8) * 1.5; deps = @('ri_intro'); hideLines = $true; tasks = @("reliquified_irons_spells_and_spellbooks:$($r[0])"); crate = 'rare'; optional = $true; t = $r[1]; st = 'Relique des mages' }
   $i++
 }
+# --- Artefacts devenus reliques (Reliquified Artifacts) : un seul objet ajoute, la Mimi-Dust
+$Quests += @{ k = 'ra_intro'; x = 1.5; y = 18.5; size = 1.5; shape = 'gear'; deps = @('relics_intro'); tasks = @('@check'); icon = 'artifacts:cloud_in_a_bottle'; crate = 'commune'
+  t = '&b&lLes artefacts deviennent des reliques'; st = 'Reliquified Artifacts'
+  d = @('Avec &bReliquified Artifacts&r, les &e48 artefacts&r de ce chapitre fonctionnent comme des &6reliques&r : ils gagnent de l''&eexpérience&r quand tu t''en sers, montent en niveau et ont leur propre &earbre d''améliorations&r.',
+        '',
+        'Plus de &e120 nouvelles capacités&r au total, à débloquer niveau après niveau.',
+        '',
+        'Fais un clic droit sur un artefact dans l''inventaire pour voir ses capacités et dépenser ses points.') }
+$Quests += @{ k = 'ra_mimi_dust'; x = 3.5; y = 18.5; deps = @('ra_intro'); tasks = @('reliquified_artifacts:mimi_dust'); crate = 'rare'; optional = $true
+  t = 'Poudre de mimique'; st = 'Un coffre qui mord… et qui paie'
+  d = @('Fabrique de la &ePoudre de mimique&r (Mimi-Dust) : &eéclat d''écho&r au centre, &eredstone&r à gauche et à droite, &epoudre lumineuse&r en haut et en bas.',
+        '',
+        'Utilisée sur un &ecoffre&r, elle le transforme en &cmimique&r. Vaincs-la : elle lâche &eautant de reliques tirées au hasard&r que le coffre en contenait avant la transformation.',
+        '',
+        '&7Pratique pour retenter sa chance sur des reliques en double.&r') }

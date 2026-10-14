@@ -162,7 +162,7 @@ hash = "945bd3db16fa2b83530688bb41adf12604789151ec7e847132b989831e292931"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "91b7440f9affbbc0ecf066ba35151d65950d208729251a95088ec4ee68108e80"
+hash = "60d6e988a3a9b590d0ced34adfa47500b9351d4ed3593f07c8594442b3b297d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
@@ -262,7 +262,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "e9147842dcc78c090ab84af50db576e0aa796d67514667a195909d896505692d"
+hash = "7348a5dbe596fc6cc4bb55f4f37ec95d5efed4e49a4a40dfff2d39f8d2a55e98"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
