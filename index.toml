@@ -4357,6 +4357,10 @@ file = "config/twilightforest-common.toml"
 hash = "9cc16d6851b838c48c90e95b8c93ff79af1f50b65ce085360105175f590bf100"
 
 [[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "0660b13045681b5139b17ac5da3d1a8a7457305c389e9d7c696f9e6a90e3d9dc"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "8d5409f352ad5131c8999caab03820abedf49b43735c448bfb619cb0ef46e0bb"
 
