@@ -51,15 +51,6 @@
 			weight: 5.0f
 		}
 		{
-			count: 1
-			id: "6F22C14B201BA392"
-			item: {
-				count: 1
-				id: "minecraft:elytra"
-			}
-			weight: 3.0f
-		}
-		{
 			count: 2
 			id: "2FDA940DC5273345"
 			item: {

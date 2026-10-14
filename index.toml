@@ -274,7 +274,7 @@ hash = "ce0ba87b269f53699023dda20d5ed4ead82dc31c1218f7eb513779999bea0933"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
-hash = "5c19a76ef8a8a41dfea1fc41e772f8b889940bb781ada850bf4f7aa04cdda07f"
+hash = "11a727d61cc6de24b0e6bfb58617b28b99aa41610b0bc781ce1b098765de0444"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rare.snbt"
