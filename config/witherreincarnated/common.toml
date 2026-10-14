@@ -1,0 +1,3 @@
+# Wither: Reincarnated - reglage du pack (les autres options gardent leur valeur par defaut, ajoutees au lancement)
+# Exception voulue : le feu des attaques du Wither detruit le terrain meme si mobGriefing est desactive.
+"Fire Ignores Mob Griefing (default: false)" = true

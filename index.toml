@@ -4421,6 +4421,10 @@ file = "config/waystones-common.toml"
 hash = "8d5409f352ad5131c8999caab03820abedf49b43735c448bfb619cb0ef46e0bb"
 
 [[files]]
+file = "config/witherreincarnated/common.toml"
+hash = "9a4a8b0a587c60576764fe4e83a1802b40ebde8c99f00f79b5fcf5d22be7ce62"
+
+[[files]]
 file = "config/wyrmroost/common.toml"
 hash = "e3856fb7b7ce7d89fb90e8cacdb5237bf6de30a6e8e3ef3c8f161cffe81de050"
 
