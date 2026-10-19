@@ -770,7 +770,14 @@ W 'data/sable/tags/block/bouncy.json' ([ordered]@{ replace = $false; values = @(
 function Caisse($nom, $entries) { W "data/pack_lbc/loot_table/caisses/$nom.json" ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = @($entries) }) }) }
 Caisse 'equipement_epique' @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 1; rarities = @('apotheosis:epic') })
 Caisse 'equipement_mythique' @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 1; rarities = @('apotheosis:mythic') })
-Caisse 'relique' @(@($reliques | ForEach-Object { "relics:$_" }) + $reliquesMages | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = $_ } })
+# Artefacts : devenus des reliques avec Reliquified Artifacts (liste = config/reliquified_artifacts/relics/*.yaml du 1er lancement)
+$artefacts = @('anglers_hat', 'antidote_vessel', 'aqua_dashers', 'bunny_hoppers', 'charm_of_shrinking', 'charm_of_sinking', 'chorus_totem', 'cloud_in_a_bottle',
+    'cowboy_hat', 'cross_necklace', 'crystal_heart', 'digging_claws', 'eternal_steak', 'everlasting_beef', 'feral_claws', 'fire_gauntlet', 'flame_pendant', 'flippers',
+    'golden_hook', 'helium_flamingo', 'kitty_slippers', 'lucky_scarf', 'night_vision_goggles', 'novelty_drinking_hat', 'obsidian_skull', 'onion_ring', 'panic_necklace',
+    'pickaxe_heater', 'plastic_drinking_hat', 'pocket_piston', 'power_glove', 'rooted_boots', 'running_shoes', 'scarf_of_invisibility', 'shock_pendant', 'snorkel',
+    'snowshoes', 'steadfast_spikes', 'strider_shoes', 'superstitious_hat', 'thorn_pendant', 'umbrella', 'universal_attractor', 'vampiric_glove', 'villager_hat',
+    'warp_drive', 'whoopee_cushion', 'withered_bracelet' | ForEach-Object { "artifacts:$_" })
+Caisse 'relique' @(@($reliques | ForEach-Object { "relics:$_" }) + $reliquesMages + $artefacts | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = $_ } })
 # Parchemins : meme liste de sorts que le butin d'Iron's (sans Apex Arcana, section 17), qualite croissante selon la caisse
 $sorts = ((Get-Content (Join-Path $PSScriptRoot 'data\spell_loot\data\irons_spellbooks\loot_table\test\scroll_gen.json') -Raw | ConvertFrom-Json).pools[0].entries[0].functions | Where-Object { $_.function -eq 'irons_spellbooks:randomize_spell' }).spell_filter
 foreach ($p in @(@('parchemin_rare', 0.15, 0.45), @('parchemin_epique', 0.4, 0.75), @('parchemin_legendaire', 0.7, 1.0))) {

@@ -3214,7 +3214,7 @@ hash = "4ddfe6c278185df3bf79e235fef6578b9a35895df0aea785e1c0c94604858612"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/relique.json"
-hash = "46f088040c3b195eb6e55910a1bc5545778583dcfebf007ad5f5358acf2f53d2"
+hash = "4e2391d9ad47d658687f49a5361f465e24a83b492cfd096cfd1d3d589d607b0c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"
