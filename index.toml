@@ -1486,7 +1486,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "05c7dc885fcc1e37559466d4c4c7842a95cccf2eb2677413752eb58e9fba8db9"
+hash = "e8727d4ea167be3e9a45927b546009c80e4e3ebcb8cdc7a304f4b2573db1776a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -2985,6 +2985,54 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tablette_tox
 hash = "dcaee39d44b4a3742f207f5a1169c58189240a56298425f82b71fe3d74926937"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/aptrgangr_head.json"
+hash = "161cf6f25b18b6b6ffd14d1029c7639f0edbed036598bff1a1e2f4e18a6462c9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/burned_head.json"
+hash = "2a12559d5a444d873ef3ee37e549f09c94bbb4b91d6fe1f7d4e9d2b1af5dd632"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/dead_beard_head.json"
+hash = "cdc8938ab04ef410d31ecf03c46f82eb1be1277b44a21e81cb9b23134abe2c8d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/draugr_head.json"
+hash = "da5b92161e0e80107e00983a5ff34d6784e9eabb29bea947e0393455a14bf4eb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/frostbitten_head.json"
+hash = "98681ccb150867023f710b3981b3928e10c223e80b21c592afe571902877810b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/glacial_hunter_head.json"
+hash = "08a23eaa01d820e6084dc8de9c4d4db1bc4eeadd3500dfbc94af02477be0a582"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/immortal_head.json"
+hash = "754bc5fc6cbc01fca26344f6b91d4cd23e0a3b90399aaf21babd3cfb63e0f86d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/joueur.json"
+hash = "2d97fd83c0fba5882209667030458e477a7e0bcd7ae83060861fc7d5f9a480d7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/mummy_head.json"
+hash = "82b3b0bb9c88a6d2488874113ba13fac32bc5719053a3c193548691a38d02444"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/swampy_head.json"
+hash = "8907a6f54f953a436570a66734873dfe45e8615d44958632ce41de875af32937"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/undead_miner_head.json"
+hash = "666f7a27bd8c15888a2ce86abb77a03bae5e5ca9b6398a5d3a0a7d0f2a7727bc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/tetes/zap_head.json"
+hash = "f33575dad62e40cadfc5e393331c9a633acdb9be221d2c948ba6c7a46f1e8cd8"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/bags/aether.json"
 hash = "46aa0b409f29a378220dc7be99f240c54dc9a024614dbf7aabfa762b9a1125aa"
 
@@ -3307,6 +3355,54 @@ hash = "592ae8cac389245813abd75b88c0bc29164e39e0c997cb7f194d46e4c3ce1d9d"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/coffres/sac_general.json"
 hash = "78033df8a29bb6fbce715c7dd2db19de8b48e078294aaab6de9ff8d04b22498c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/aptrgangr_head.json"
+hash = "6bf0877becdb05fd300a61aa540e0cf48919818b5473931c82b72cdb86adf49f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/burned_head.json"
+hash = "220e6e6056b77d242b80f49500a67c4a5a3c264a76aa2bb8d24bb624a7635f00"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/dead_beard_head.json"
+hash = "d198634d215791a90b8d49f6224877bf007d9fa7d1ad9fbefe8ff0dcd0ca2dda"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/draugr_head.json"
+hash = "71f1483117cd43793a600496bac1e4584f8d58507529abf73518e209cd9d4970"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/frostbitten_head.json"
+hash = "70356d834a80481071226eab29241887cb6d80963df1905e8e0e8bfbba788dc6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/glacial_hunter_head.json"
+hash = "6ad841574bbf2bdca9b73117ba7fa8cc0a87796efde3f6299aadc1526b8e99ba"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/immortal_head.json"
+hash = "01d12e9d013360b736c9fd872afb910a993bf3f8ef744ec7c728b607ce97dcf4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/joueur.json"
+hash = "fa220967be694eaa10b87b9bdc6b5519777f19fec27df2dddaffff93736a9d03"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/mummy_head.json"
+hash = "ae10951099de20326b14e0d364b895e5379795d28a74785023e82c44da36105a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/swampy_head.json"
+hash = "f925fb42f46b334304450ff1bb2729edd52f3d4bc9d7156ad94903424547c751"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/undead_miner_head.json"
+hash = "b8e85dd946cf1b645b12a6b84ef9ce8a2d338ff5731376a3a700683fc872d5dc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/tetes/zap_head.json"
+hash = "4afe708bb8545ccdc153b6ec741896c836f8d980561b8c554c03ae7be50d8268"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/compat/redstone_magnet_neodymium.json"
@@ -4511,6 +4607,11 @@ metafile = true
 [[files]]
 file = "mods/alexs-caves-continued.pw.toml"
 hash = "5ffa3d0118623a3164b2e6b24ba10ca8ca98a9eb640ebf6616cfceead949a492"
+metafile = true
+
+[[files]]
+file = "mods/all-the-heads.pw.toml"
+hash = "84ea03b93425012a547acdca355bfbc2fa6d528d0e007fbda2e116527200bb93"
 metafile = true
 
 [[files]]

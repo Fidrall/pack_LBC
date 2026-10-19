@@ -1,0 +1,13 @@
+{
+    "type":  "neoforge:add_table",
+    "conditions":  [
+                       {
+                           "condition":  "neoforge:loot_table_id",
+                           "loot_table_id":  "minecraft:entities/player"
+                       },
+                       {
+                           "condition":  "minecraft:killed_by_player"
+                       }
+                   ],
+    "table":  "pack_lbc:tetes/joueur"
+}

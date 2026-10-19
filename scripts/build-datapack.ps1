@@ -780,5 +780,37 @@ foreach ($p in @(@('parchemin_rare', 0.15, 0.45), @('parchemin_epique', 0.4, 0.7
 $portails = [ordered]@{ nuit_sans_fin = 2; sabbat_citrouilles = 2; morts_sans_repos = 2; echo_profondeurs = 2; gardiens_sorcellerie = 2; citadelle_ender = 2; defi_seigneurs = 1 }
 Caisse 'perle_portail' @($portails.Keys | ForEach-Object { [ordered]@{ type = 'minecraft:item'; name = 'gateways:gate_pearl'; weight = $portails[$_]; functions = @([ordered]@{ function = 'minecraft:set_components'; components = [ordered]@{ 'gateways:gateway' = "pack_lbc:$_" } }) } })
 
+# ---------- 23. Tetes : joueur tue par un joueur, monstres moddes qui ont une tete sans drop ----------
+# Tetes des mobs vanilla : All The Heads (2,5 % tue par un joueur, +1 % par niveau de Butin). Meme chance ici pour les mobs moddes.
+# Tete du joueur : seulement en PvP (killed_by_player), avec son skin (fill_player_head this). Pas de liste de pseudos.
+function Tete($nom, $item, $fill) {
+    $e = [ordered]@{ type = 'minecraft:item'; name = $item }
+    if ($fill) { $e.functions = @([ordered]@{ function = 'minecraft:fill_player_head'; entity = 'this' }) }
+    W "data/pack_lbc/loot_table/tetes/$nom.json" ([ordered]@{ type = 'minecraft:entity'; pools = @([ordered]@{ rolls = 1; entries = @($e) }) })
+}
+$chanceTete = [ordered]@{ condition = 'minecraft:random_chance_with_enchanted_bonus'; enchantment = 'minecraft:looting'; unenchanted_chance = 0.025
+    enchanted_chance = [ordered]@{ type = 'minecraft:linear'; base = 0.035; per_level_above_first = 0.01 } }
+Tete 'joueur' 'minecraft:player_head' $true
+W 'data/pack_lbc/loot_modifiers/tetes/joueur.json' ([ordered]@{ type = 'neoforge:add_table'; conditions = @(
+    [ordered]@{ condition = 'neoforge:loot_table_id'; loot_table_id = 'minecraft:entities/player' }, [ordered]@{ condition = 'minecraft:killed_by_player' }); table = 'pack_lbc:tetes/joueur' })
+$glm += 'pack_lbc:tetes/joueur'
+# Tetes des mods sans drop (verifie dans les jars : seulement des tables de blocs). Les boss (Twilight, Cataclysm, Mutant...) lachent deja la leur.
+$tetesMods = [ordered]@{
+    'rottencreatures:burned_head' = @('burned', 'burned_obsidian'); 'rottencreatures:dead_beard_head' = @('dead_beard'); 'rottencreatures:frostbitten_head' = @('frostbitten')
+    'rottencreatures:glacial_hunter_head' = @('glacial_hunter'); 'rottencreatures:immortal_head' = @('immortal'); 'rottencreatures:mummy_head' = @('mummy')
+    'rottencreatures:swampy_head' = @('swampy'); 'rottencreatures:zap_head' = @('zap')
+    'rottencreatures:undead_miner_head' = @('undead_stone_miner', 'undead_iron_miner', 'undead_gold_miner', 'undead_diamond_miner')
+    'cataclysm:draugr_head' = @('draugr', 'elite_draugr', 'royal_draugr'); 'cataclysm:aptrgangr_head' = @('aptrgangr')
+}
+foreach ($item in $tetesMods.Keys) {
+    $ns = $item.Split(':')[0]; $nom = $item.Split(':')[1]
+    Tete $nom $item $false
+    $terms = @($tetesMods[$item] | ForEach-Object { [ordered]@{ condition = 'neoforge:loot_table_id'; loot_table_id = "${ns}:entities/$_" } })
+    W "data/pack_lbc/loot_modifiers/tetes/$nom.json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @(
+        [ordered]@{ condition = 'minecraft:any_of'; terms = $terms }, [ordered]@{ condition = 'minecraft:killed_by_player' }, $chanceTete); table = "pack_lbc:tetes/$nom" })
+    $glm += "pack_lbc:tetes/$nom"
+}
+W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $glm })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

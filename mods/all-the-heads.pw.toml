@@ -1,0 +1,13 @@
+name = "All The Heads"
+filename = "AllTheHeads-v21.1.2-mc1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ax17wp3L/versions/sqescOYO/AllTheHeads-v21.1.2-mc1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "d8f7f8f4f39a9f2fc129e984bc578bbee58a8358f3d9ae5fe6e931d1364ae43ca702a3734d9656e4f1943cedf22a0418a20f82f7c88d56dbaebf76c192fc71f8"
+
+[update]
+[update.modrinth]
+mod-id = "Ax17wp3L"
+version = "sqescOYO"

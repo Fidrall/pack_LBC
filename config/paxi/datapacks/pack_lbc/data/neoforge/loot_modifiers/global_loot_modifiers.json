@@ -45,6 +45,18 @@
                     "pack_lbc:coffres/parchemin_apex_4",
                     "pack_lbc:coffres/parchemin_apex_5",
                     "pack_lbc:coffres/parchemin_apex_6",
-                    "pack_lbc:coffres/parchemin_apex_7"
+                    "pack_lbc:coffres/parchemin_apex_7",
+                    "pack_lbc:tetes/joueur",
+                    "pack_lbc:tetes/burned_head",
+                    "pack_lbc:tetes/dead_beard_head",
+                    "pack_lbc:tetes/frostbitten_head",
+                    "pack_lbc:tetes/glacial_hunter_head",
+                    "pack_lbc:tetes/immortal_head",
+                    "pack_lbc:tetes/mummy_head",
+                    "pack_lbc:tetes/swampy_head",
+                    "pack_lbc:tetes/zap_head",
+                    "pack_lbc:tetes/undead_miner_head",
+                    "pack_lbc:tetes/draugr_head",
+                    "pack_lbc:tetes/aptrgangr_head"
                 ]
 }
