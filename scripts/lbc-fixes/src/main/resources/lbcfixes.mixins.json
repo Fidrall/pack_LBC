@@ -6,7 +6,8 @@
   "mixins": [
     "LeviathanKeybindMixin",
     "DragonKeepTargetMixin",
-    "PumpkinZoneMixin"
+    "PumpkinZoneMixin",
+    "SpiderEggDropMixin"
   ],
   "client": [
     "FtbMinimapMixin"

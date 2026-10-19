@@ -1,10 +1,10 @@
-﻿# Compile le mod de correctifs lbcfixes et ecrit mods/lbcfixes-<version>.jar (jar brut du pack, comme Maps 3D).
+# Compile le mod de correctifs lbcfixes et ecrit mods/lbcfixes-<version>.jar (jar brut du pack, comme Maps 3D).
 # Classpath : bibliotheques Prism (Minecraft 1.21.1 en noms Mojang, NeoForge, Mixin) + jars des mods vises
 # pris dans une instance (par defaut pack_LBC-dev). JDK : celui de Prism (java-runtime-delta).
 param(
     [string]$Instance = "$env:APPDATA\PrismLauncher\instances\pack_LBC-dev\.minecraft",
     [string]$Jdk = "$env:APPDATA\PrismLauncher\java\java-runtime-delta",
-    [string]$Version = '1.0.0'
+    [string]$Version = '1.0.1'
 )
 $ErrorActionPreference = 'Stop'
 $here = $PSScriptRoot
@@ -24,7 +24,7 @@ $z.Dispose()
 
 $cp = @(Get-ChildItem $lib -Recurse -File -Filter *.jar | Where-Object { $_.FullName -notmatch 'installer' } | ForEach-Object FullName)
 $cp += "$work\mixinextras.jar"
-foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar') {
+foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar', 'infested_swarms_spiders-*.jar') {
     $j = Get-ChildItem "$Instance\mods" -Filter $p | Select-Object -First 1
     if (-not $j) { throw "Jar introuvable dans l'instance : $p" }
     $cp += $j.FullName

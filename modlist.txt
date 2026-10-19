@@ -271,5 +271,5 @@ mr | not-enough-trials | jetable | chambres d'epreuves refaites (salles de boss,
 mr | create-trial-and-error | jetable | automatisation des chambres d'epreuves avec Create (moules a cles, deployeur sur les chambres fortes)
 mr | create_oxidized | jetable | oxydation du cuivre au bec verseur (dependance Modrinth de Trial and Error)
 mr | almostunified | qol | unification des metaux (acier, platine, pepite de cuivre, plaque de zinc) ; config/almostunified + tags dans build-datapack section 19 ; platine de Wyrmroost non genere
-jar | lbcfixes | perf | correctifs du pack (mixins, source scripts/lbc-fixes, build.ps1) : eclair monte du Leviathan Wyrmroost, minimap FTB Chunks cachee, effet Pumpkin Bomb Somake ; jar brut dans mods/
+jar | lbcfixes | perf | correctifs du pack (mixins, source scripts/lbc-fixes, build.ps1) : eclair monte du Leviathan Wyrmroost, minimap FTB Chunks cachee, effet Pumpkin Bomb Somake, oeufs d'araignee Infested Swarms (tuee par un joueur, x0,5) ; jar brut dans mods/
 mr | all-the-heads | conserver | 433 tetes de mobs vanilla (2,5 % tue par un joueur, +1 %/Butin) ; tetes des mobs moddes sans drop + tete du joueur en PvP : build-datapack section 23
