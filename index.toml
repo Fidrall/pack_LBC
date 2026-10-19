@@ -4993,6 +4993,11 @@ hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
+file = "mods/armor-statues.pw.toml"
+hash = "d6c17b9756d8b9491b1813a3a999f78918e268809f904e4739719a7eed82719b"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
@@ -5065,6 +5070,11 @@ metafile = true
 [[files]]
 file = "mods/better-inventory-and-backpacks.pw.toml"
 hash = "ff574ee0c17e5785f49c679a1ed26e9872bcff0113ce5cc34cb169cfad429d7e"
+metafile = true
+
+[[files]]
+file = "mods/bl4cks-sit.pw.toml"
+hash = "2cfa9768cc635d7ec8cbc0172e62db5ad0fc79117b927344d7f2484b78ebd7b7"
 metafile = true
 
 [[files]]
