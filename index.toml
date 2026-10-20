@@ -681,6 +681,10 @@ file = "config/paxi/datapacks/pack_lbc/data/cataclysm_spellbooks/loot_table/ches
 hash = "fc9134c72fc438929facf896401d7780fea00b7767f20e5c147af0e2f1db5543"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/create_new_age/recipe/sequenced_assembly/enchanted_golden_apple.json"
+hash = "c3f52c646e2a37b64847c2e0a568bbc18620891f9396b2778eb6216830e565fa"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/block/magnet.json"
 hash = "7d0b991694a0edacca3c85a2942671313dafdb40a24708b2eb8f4ca5ee3c7a7e"
 

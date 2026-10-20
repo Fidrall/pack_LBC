@@ -885,6 +885,15 @@ foreach ($r in 'irons_spellbooks:mixing/epic_ink', 'irons_spellbooks:mixing/epic
     $ns, $chemin = $r.Split(':')
     W "data/$ns/recipe/$chemin.json" ([ordered]@{ 'neoforge:conditions' = @(@{ type = 'neoforge:false' }); type = 'minecraft:crafting_shapeless'; ingredients = @(@{ item = 'minecraft:barrier' }); result = @{ id = 'irons_spellbooks:epic_ink' } })
 }
+# Pomme de Notch de Create New Age : 4 blocs d'or + 4 eclats d'echo (au lieu de 8 blocs d'or) par pomme. L'or est illimite
+# (fermes du Nether), les eclats d'echo viennent des cites antiques (et de l'infusion Apothic Enchanting, fin de partie).
+$pommeI = [ordered]@{ item = 'create_new_age:incomplete_enchanted_golden_apple' }; $pommeR = @([ordered]@{ id = 'create_new_age:incomplete_enchanted_golden_apple' })
+W 'data/create_new_age/recipe/sequenced_assembly/enchanted_golden_apple.json' ([ordered]@{ type = 'create:sequenced_assembly'; ingredient = @{ item = 'minecraft:apple' }; loops = 4
+    results = @(@{ id = 'minecraft:enchanted_golden_apple' }); sequence = @(
+        [ordered]@{ type = 'create_new_age:energising'; energy_needed = 2000000; ingredients = @($pommeI); results = $pommeR },
+        [ordered]@{ type = 'create:deploying'; ingredients = @($pommeI, @{ tag = 'c:storage_blocks/gold' }); results = $pommeR },
+        [ordered]@{ type = 'create:deploying'; ingredients = @($pommeI, @{ item = 'minecraft:echo_shard' }); results = $pommeR })
+    transitional_item = [ordered]@{ id = 'create_new_age:incomplete_enchanted_golden_apple' } })
 # Pyrium (1 lingot garanti sur chaque boss de Hazen) : 1 debris antique au lieu de 5, recyclage et non source de netherite
 W 'data/irons_spellbooks/recipe/ancient_debris_from_pyrium.json' ([ordered]@{ type = 'minecraft:blasting'; cookingtime = 200; experience = 0.0; ingredient = @{ item = 'irons_spellbooks:pyrium_ingot' }; result = [ordered]@{ id = 'minecraft:ancient_debris'; count = 1 } })
 
