@@ -1,0 +1,29 @@
+{
+    "replace":  true,
+    "values":  [
+                   {
+                       "id":  "twilightforest:boar",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:minotaur",
+                       "required":  false
+                   },
+                   {
+                       "id":  "minecraft:ravager",
+                       "required":  false
+                   },
+                   {
+                       "id":  "mowziesmobs:lantern",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:kobold",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:pumpkin_bruiser",
+                       "required":  false
+                   }
+               ]
+}

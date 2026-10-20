@@ -1,0 +1,22 @@
+# dressage (Petting 5)
+# Les mobs apprivoisables sont ceux des tags petting:tames_with/<friandise> du datapack pack_lbc (liste fermee, section 24).
+# Creature affaiblie (50 % de ses PV), deux essais sur trois echouent. Pas de boss, pas de titans,
+# rien d'Alex's Caves ni de Cataclysm, rien qui s'apprivoise deja par son propre mod.
+# Les cles absentes de ce fichier sont completees par NeoForge avec leurs valeurs par defaut.
+
+[taming]
+	maxHealthPercentage = 50.0
+	hostileMobsOnly = false
+	unsuccessfulTamingChance = 67.0
+	untameableEntities = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden", "minecraft:elder_guardian"]
+	maxPetCount = 10
+
+[behavior]
+	hideTamedBossBars = true
+	tamedMonstersPreventSleep = false
+
+[riding]
+	enablePetRiding = true
+	useWhitelist = true
+	whitelist = ["minecraft:spider", "minecraft:polar_bear", "minecraft:hoglin", "twilightforest:boar", "minecraft:ravager", "minecraft:zoglin", "twilightforest:minotaur", "twilightforest:troll", "twilightforest:yeti", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:felsteed", "friendsandfoes:mauler", "deeperdarker:sculk_snapper"]
+	allowRidingWithoutSaddle = false

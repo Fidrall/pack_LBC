@@ -227,9 +227,11 @@ $Quests = @(
      d=@('Tous tes animaux apprivoisés gagnent des options :',
          '',
          '- &eRedomesticate&r : lits, tambour de commandement, collier, titre de propriété pour les donner à un autre joueur ;',
-         '- &ePetting&r : caresser ses animaux (accroupi + clic droit), sifflet pour qu''ils te suivent, laisse, orbe de téléportation.') }
+         '- &ePetting&r : certaines créatures sauvages s''apprivoisent avec une &efriandise dorée&r une fois affaiblies (moitié de leur vie). Clic droit pour assis/debout, &e²&r pour l''inventaire du familier, &eAlt+R&r pour le monter (selle obligatoire).') }
   @{ k='pet_drum'; x=11; y=5; deps=@('pet_bed'); tasks=@('redomesticate:drum'); crate='commune'; optional=$true
      t='Le tambour de commandement'; st='Donner des ordres à tous tes animaux'; d=@('Le &etambour&r donne un ordre (suivre, rester, se promener) à tous tes animaux autour de toi.') }
-  @{ k='pet_whistle'; x=12.5; y=5; deps=@('pet_bed'); tasks=@('petting:follow_whistle'); crate='commune'; optional=$true
-     t='Le sifflet'; st='Rassembler ses animaux'; d=@('Le &esifflet&r appelle tes animaux pour qu''ils te suivent.') }
+  @{ k='pet_whistle'; x=12.5; y=5; deps=@('pet_bed'); tasks=@('petting:collar'); crate='commune'; optional=$true
+     t='Le collier'; st='Régler son familier'; d=@('Le &ecollier&r (cuir, teinture, pépite d''or) se met à un familier Petting : mode de combat (passif, défensif, agressif, errance, garde), distance de suivi, téléportation.',
+         '',
+         'Clic droit sur un lit avec le collier pour le lier : le familier qui le porte y réapparaît à sa mort.') }
 )

@@ -819,5 +819,24 @@ foreach ($item in $tetesMods.Keys) {
 }
 W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace = $false; entries = $glm })
 
+# ---------- 24. Petting 5 : friandises dorees et liste fermee de mobs apprivoisables ----------
+# Petting 5 n'a plus de liste blanche : un mob s'apprivoise si son type est dans le tag de la friandise tenue.
+# On remplace les 9 tags du mod (replace) : seuls nos mobs restent apprivoisables. Etoile doree vide et sans recette :
+# elle apprivoisait boss et raiders, et posee sur l'oeuf de dragon elle fait renaitre l'Ender Dragon deja apprivoise.
+$friandises = [ordered]@{
+    golden_bone   = @('twilightforest:mist_wolf', 'twilightforest:winter_wolf', 'born_in_chaos_v1:dread_hound', 'born_in_chaos_v1:dire_hound_leader')
+    golden_fish   = @('minecraft:polar_bear', 'born_in_chaos_v1:thornshell_crab', 'friendsandfoes:mauler', 'twilightforest:yeti')
+    golden_fungus = @('minecraft:hoglin', 'minecraft:piglin_brute')
+    golden_flesh  = @('minecraft:zoglin', 'twilightforest:troll', 'born_in_chaos_v1:felsteed', 'illagerinvasion:basher', 'illagerinvasion:marauder')
+    golden_wheat  = @('twilightforest:boar', 'twilightforest:minotaur', 'minecraft:ravager', 'mowziesmobs:lantern', 'twilightforest:kobold', 'born_in_chaos_v1:pumpkin_bruiser')
+    golden_eye    = @('minecraft:spider', 'deeperdarker:sculk_snapper', 'mowziesmobs:grottol', 'minecraft:iron_golem')
+    golden_kelp   = @(); golden_slime = @(); golden_star = @()
+}
+foreach ($f in $friandises.Keys) { W "data/petting/tags/entity_type/tames_with/$f.json" ([ordered]@{ replace = $true; values = @(OptT $friandises[$f]) }) }
+# Varech et slime dores n'apprivoisent plus rien : recettes retirees aussi
+foreach ($r in @(@('golden_star', 'golden_star'), @('golden_kelp', 'golden_kelp'), @('golden_slime', 'golden_slime'), @('golden_slime_from_magma', 'golden_slime'))) {
+    W "data/petting/recipe/$($r[0]).json" ([ordered]@{ 'neoforge:conditions' = @(@{ type = 'neoforge:false' }); type = 'minecraft:crafting_shapeless'; ingredients = @(@{ item = 'minecraft:barrier' }); result = @{ id = "petting:$($r[1])" } })
+}
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

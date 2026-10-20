@@ -198,7 +198,7 @@ mr | borninchaos | jetable | monstres d'horreur + boss (apparitions -40 %, plafo
 mr | in-control | qol | regles d'apparition (config/incontrol/spawn.json)
 mr | default-options | client | options/touches par defaut (config/defaultoptions, repris de l'ancien pack)
 mr | gateways-to-eternity | jetable | portails a vagues (fin de jeu combat ; portails Apotheosis + portails pack_lbc)
-mr | petting | jetable | dompter tout mob (liste blanche a configurer : config/petting-common.toml)
+mr | petting | jetable | dompter des mobs choisis avec des friandises dorees (5.x : tags du datapack section 24, config/petting-synced.toml)
 mr | redomesticate | jetable | enchantements de compagnons
 mr | doggy-talents-next | jetable | loups a talents
 mr | alshanexs-familiars | jetable | familiers Iron's Spells (+ familiarslib)
@@ -271,7 +271,7 @@ mr | not-enough-trials | jetable | chambres d'epreuves refaites (salles de boss,
 mr | create-trial-and-error | jetable | automatisation des chambres d'epreuves avec Create (moules a cles, deployeur sur les chambres fortes)
 mr | create_oxidized | jetable | oxydation du cuivre au bec verseur (dependance Modrinth de Trial and Error)
 mr | almostunified | qol | unification des metaux (acier, platine, pepite de cuivre, plaque de zinc) ; config/almostunified + tags dans build-datapack section 19 ; platine de Wyrmroost non genere
-jar | lbcfixes | perf | correctifs du pack (mixins, source scripts/lbc-fixes, build.ps1) : eclair monte du Leviathan Wyrmroost, minimap FTB Chunks cachee, effet Pumpkin Bomb Somake, oeufs d'araignee Infested Swarms (tuee par un joueur, x0,5) ; jar brut dans mods/
+jar | lbcfixes | perf | correctifs du pack (mixins, source scripts/lbc-fixes, build.ps1) : eclair monte du Leviathan Wyrmroost, minimap FTB Chunks cachee, effet Pumpkin Bomb Somake, oeufs d'araignee Infested Swarms (tuee par un joueur, x0,5), Petting limite a ses propres familiers ; jar brut dans mods/
 mr | all-the-heads | conserver | 433 tetes de mobs vanilla (2,5 % tue par un joueur, +1 %/Butin) ; tetes des mobs moddes sans drop + tete du joueur en PvP : build-datapack section 23
 mr | armor-statues | qol | menu pour poser et habiller les supports d'armure (poses, bras, taille, sans socle) ; exposer ses collections (statuemenus inclus dans le jar)
 mr | bl4cks-sit | qol | s'asseoir sur les dalles et escaliers (clic droit main vide)

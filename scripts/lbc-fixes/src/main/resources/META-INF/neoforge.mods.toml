@@ -11,7 +11,8 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - Wyrmroost : eclair monte du Butterfly Leviathan (portee de visee, cible conservee)
 - FTB Chunks : pas de mise a jour de la minimap quand elle est desactivee
 - Somake Spells : effet de la zone Pumpkin Bomb enregistre (plus d'expulsion via Neruina)
-- Infested Swarms and Spiders : oeufs d'araignee seulement sur une araignee tuee par un joueur, une fois sur deux'''
+- Infested Swarms and Spiders : oeufs d'araignee seulement sur une araignee tuee par un joueur, une fois sur deux
+- Petting : ne gere que ses propres familiers (chevaux, dragons Wyrmroost, chiens... gardent leur clic droit)'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"

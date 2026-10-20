@@ -122,7 +122,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "a1456908c4a1699debc5d83ab55cd663205aaa732034f532c13a95c3d12f83fd"
+hash = "802adb77f4f1d2134550ac9b4c4d444d23608fe7c800a33c933e484ddbc04a48"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -182,7 +182,7 @@ hash = "5c745fb4f3f1171a353f713b1322ed6ae5f6ed750c4c9698186c258267ff750d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creatures.snbt"
-hash = "bed4a92391729afa3d92f7d17fd93ac932017c8a39ce75bc8f074ff22ad86877"
+hash = "1817d3c6b452680241a67a81398288d44e4ff258748e2726fb71f7e5554efd22"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
@@ -258,7 +258,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "9e6eb1adf26e8a42a220adba00c837c5e1fe3c481dc00ee7573158e5d57e3dd5"
+hash = "f102617a5b5efcc8d0c26eb5e76bb8a234b1c0f47b770042c7a977e71239b55b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -3969,6 +3969,58 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/template_pool/arch
 hash = "64a24b1d94bb003247604c0c440bad838a0cd687dfcc0b115cabda4effe08e5d"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/recipe/golden_kelp.json"
+hash = "2722003cd753635c2e1155796edd9daac5d9000ec85cb6ce91dc664d6ab13ce3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/recipe/golden_slime.json"
+hash = "ab8b4d5fc2f32c5fca1aaa5b532e66eb015d98a5d77db153e204c7874727af41"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/recipe/golden_slime_from_magma.json"
+hash = "ab8b4d5fc2f32c5fca1aaa5b532e66eb015d98a5d77db153e204c7874727af41"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/recipe/golden_star.json"
+hash = "d0f5c0cdf3ee2f6c323d676b4f31d5ecd85a5c9b2da6b22ef3145a27a12f7d6a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_bone.json"
+hash = "dc48e5729b7f5d88593e583711fd9e4d033c31b862a6772697a9c57e95a8f20b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_eye.json"
+hash = "8c37a843aa975dd97f9e8d19fce477c6cca04b5febf8073219519f7a76a3854c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_fish.json"
+hash = "dd5185d347704b04ee3e120040c0ed4ee813c58b6d5b261a413b9682dc9d70ac"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_flesh.json"
+hash = "94ce34a0968fef4769dbbbfc94cefd76a24d3b50582f944ee47cde62818a8498"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_fungus.json"
+hash = "f27d660cb54ed30531a3169ff19d3d24f2be3c77d09cd6605f1c85c0e8aa1fe6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_kelp.json"
+hash = "243837fa4377e953cb0d11d9200b3a4c115c0dee0f4e5eeb6a4fcb44e2fa287a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_slime.json"
+hash = "243837fa4377e953cb0d11d9200b3a4c115c0dee0f4e5eeb6a4fcb44e2fa287a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_star.json"
+hash = "243837fa4377e953cb0d11d9200b3a4c115c0dee0f4e5eeb6a4fcb44e2fa287a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_wheat.json"
+hash = "59319d25006f64b625f4bd08c464831a7953d135f22bea0025df255b7d3cb4f2"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/relics/tags/item/relics.json"
 hash = "0b4b6b0e5679225e2661b54804225664161ec18dc0c913a393a2d8608be13ab6"
 
@@ -4393,8 +4445,8 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/pack.mcmeta"
 hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
 [[files]]
-file = "config/petting-common.toml"
-hash = "b3d050ca9153f0edb890cf95eced4c9962c3234078b8c9ef5c83af1f40ea256f"
+file = "config/petting-synced.toml"
+hash = "61d19ab0a0026f42f6d7c0e0c238ab8edbb1d63d64ed83bfff5ee77c13002f9e"
 
 [[files]]
 file = "config/relics.yaml"
@@ -5818,8 +5870,8 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
-file = "mods/lbcfixes-1.0.1.jar"
-hash = "0549138e8640729865f1d9284512fd64d130d177268bb668508cae193c2aab3d"
+file = "mods/lbcfixes-1.0.2.jar"
+hash = "452586f4b9a3f741ea8232cb068faaded612705e243c6cea48afdbfd582bf040"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
@@ -5987,7 +6039,7 @@ metafile = true
 
 [[files]]
 file = "mods/petting.pw.toml"
-hash = "be208614f5b8f9a4ed474c6c01f31c36899fd0d0f0cb08e81aa403d54251e698"
+hash = "c58279c62e2e8d3fbfac1bb11e291ba02e10d7b3f314b91e3685883a487c6b35"
 metafile = true
 
 [[files]]

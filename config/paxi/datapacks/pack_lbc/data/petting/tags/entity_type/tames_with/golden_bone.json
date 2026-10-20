@@ -1,0 +1,21 @@
+{
+    "replace":  true,
+    "values":  [
+                   {
+                       "id":  "twilightforest:mist_wolf",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:winter_wolf",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:dread_hound",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:dire_hound_leader",
+                       "required":  false
+                   }
+               ]
+}

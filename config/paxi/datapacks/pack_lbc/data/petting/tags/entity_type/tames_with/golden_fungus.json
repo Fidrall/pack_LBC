@@ -1,0 +1,13 @@
+{
+    "replace":  true,
+    "values":  [
+                   {
+                       "id":  "minecraft:hoglin",
+                       "required":  false
+                   },
+                   {
+                       "id":  "minecraft:piglin_brute",
+                       "required":  false
+                   }
+               ]
+}

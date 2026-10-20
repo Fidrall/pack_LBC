@@ -245,7 +245,9 @@ key_key.journeymap.fullscreen_follow_player:key.keyboard.f:
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown:
 key_key.journeymap.toggle_entity_names:key.keyboard.unknown:
 key_key.dragon_change_view:key.keyboard.unknown:
-key_controls.petting.open_settings:key.keyboard.unknown:
+key_key.petting.open_pet_inventory:key.keyboard.grave.accent:
+key_key.petting.ride_pet:key.keyboard.r:ALT
+key_key.petting.toggle_pet_sit:key.mouse.right:
 key_key.hide_icons:key.keyboard.unknown:
 key_key.hazentouvelib.ability_4:key.keyboard.unknown:
 key_key.special_ability:key.keyboard.unknown:

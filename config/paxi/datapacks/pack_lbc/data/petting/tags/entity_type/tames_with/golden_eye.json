@@ -1,0 +1,21 @@
+{
+    "replace":  true,
+    "values":  [
+                   {
+                       "id":  "minecraft:spider",
+                       "required":  false
+                   },
+                   {
+                       "id":  "deeperdarker:sculk_snapper",
+                       "required":  false
+                   },
+                   {
+                       "id":  "mowziesmobs:grottol",
+                       "required":  false
+                   },
+                   {
+                       "id":  "minecraft:iron_golem",
+                       "required":  false
+                   }
+               ]
+}

@@ -2877,7 +2877,7 @@
 		"Tous tes animaux apprivoisés gagnent des options :"
 		""
 		"- &eRedomesticate&r : lits, tambour de commandement, collier, titre de propriété pour les donner à un autre joueur ;"
-		"- &ePetting&r : caresser ses animaux (accroupi + clic droit), sifflet pour qu'ils te suivent, laisse, orbe de téléportation."
+		"- &ePetting&r : certaines créatures sauvages s'apprivoisent avec une &efriandise dorée&r une fois affaiblies (moitié de leur vie). Clic droit pour assis/debout, &e²&r pour l'inventaire du familier, &eAlt+R&r pour le monter (selle obligatoire)."
 	]
 	quest.3FF247066FCEC0B6.quest_subtitle: "Redomesticate et Petting"
 	quest.3FF247066FCEC0B6.title: "&eLes animaux domestiques"
@@ -5201,10 +5201,12 @@
 	quest.6FF9F64496CBECF6.quest_subtitle: "Au sommet du haricot"
 	quest.6FF9F64496CBECF6.title: "Le royaume des Géants"
 	quest.7025E14765A746FB.quest_desc: [
-		"Le &esifflet&r appelle tes animaux pour qu'ils te suivent."
+		"Le &ecollier&r (cuir, teinture, pépite d'or) se met à un familier Petting : mode de combat (passif, défensif, agressif, errance, garde), distance de suivi, téléportation."
+		""
+		"Clic droit sur un lit avec le collier pour le lier : le familier qui le porte y réapparaît à sa mort."
 	]
-	quest.7025E14765A746FB.quest_subtitle: "Rassembler ses animaux"
-	quest.7025E14765A746FB.title: "Le sifflet"
+	quest.7025E14765A746FB.quest_subtitle: "Régler son familier"
+	quest.7025E14765A746FB.title: "Le collier"
 	quest.7028A4D91D14E5B0.quest_desc: [
 		"Donne-lui un &eobjet de navigation&r (regarde le Ponder pour la liste) : elle émet un signal de redstone &bdans la direction de la destination&r."
 		""

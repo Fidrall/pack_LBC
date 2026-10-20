@@ -1,0 +1,25 @@
+{
+    "replace":  true,
+    "values":  [
+                   {
+                       "id":  "minecraft:zoglin",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:troll",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:felsteed",
+                       "required":  false
+                   },
+                   {
+                       "id":  "illagerinvasion:basher",
+                       "required":  false
+                   },
+                   {
+                       "id":  "illagerinvasion:marauder",
+                       "required":  false
+                   }
+               ]
+}

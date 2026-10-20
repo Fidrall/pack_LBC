@@ -1,0 +1,21 @@
+{
+    "replace":  true,
+    "values":  [
+                   {
+                       "id":  "minecraft:polar_bear",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:thornshell_crab",
+                       "required":  false
+                   },
+                   {
+                       "id":  "friendsandfoes:mauler",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:yeti",
+                       "required":  false
+                   }
+               ]
+}

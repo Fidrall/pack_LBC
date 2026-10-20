@@ -1682,7 +1682,7 @@
 				{
 					count: 1L
 					id: "0AD5C5157D307152"
-					item: { count: 1, id: "petting:follow_whistle" }
+					item: { count: 1, id: "petting:collar" }
 					type: "item"
 				}
 			]
