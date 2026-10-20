@@ -866,5 +866,23 @@ foreach ($m in $moddes) {
     W "data/pack_lbc/affix_loot_entries/$($m.famille)/$($m.item.Split(':')[1]).json" ([ordered]@{ type = 'apotheosis:affix_loot_entry'; stack = [ordered]@{ count = 1; id = $m.item }; weights = $w })
 }
 
+# ---------- 26. Caisses de quetes FTB : tirage de 2 a 5 recompenses ----------
+# Contenu ecrit par scripts/quests/build-crates.ps1 (scripts/data/caisses_quetes.json, poids en %). La caisse FTB lance
+# /loot give {p} loot pack_lbc:caisses_quete/<caisse> : 2 tirages garantis + binomiale 3 x 40 % -> 2 (22 %), 3 (43 %), 4 (29 %), 5 (6 %).
+$cq = Get-Content (Join-Path $PSScriptRoot 'data\caisses_quetes.json') -Raw | ConvertFrom-Json
+foreach ($n in $cq.PSObject.Properties.Name) {
+    $entries = foreach ($r in $cq.$n) {
+        if ($r.table) { [ordered]@{ type = 'minecraft:loot_table'; value = $r.table; weight = [int]$r.w } }
+        else {
+            $f = @(); if ([int]$r.count -gt 1) { $f += [ordered]@{ function = 'minecraft:set_count'; count = [int]$r.count } }
+            if ($r.comps) { $comps = [ordered]@{}; $r.comps.PSObject.Properties | ForEach-Object { $comps[$_.Name] = $_.Value }; $f += [ordered]@{ function = 'minecraft:set_components'; components = $comps } }
+            $e = [ordered]@{ type = 'minecraft:item'; name = $r.item; weight = [int]$r.w }; if ($f) { $e.functions = $f }; $e
+        }
+    }
+    W "data/pack_lbc/loot_table/caisses_quete/$n.json" ([ordered]@{ type = 'minecraft:chest'; pools = @(
+        [ordered]@{ rolls = 2; entries = @($entries) },
+        [ordered]@{ rolls = [ordered]@{ type = 'minecraft:binomial'; n = 3; p = 0.4 }; entries = @($entries) }) })
+}
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

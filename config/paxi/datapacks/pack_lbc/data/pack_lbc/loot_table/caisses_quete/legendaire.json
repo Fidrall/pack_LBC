@@ -1,0 +1,219 @@
+{
+    "type":  "minecraft:chest",
+    "pools":  [
+                  {
+                      "rolls":  2,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_ingot",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:enchanted_golden_apple",
+                                          "weight":  9,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  3
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:totem_of_undying",
+                                          "weight":  9,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_block",
+                                          "weight":  9,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:nether_star",
+                                          "weight":  8
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:epic_ink",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "apotheosis:sigil_of_enhancement",
+                                          "weight":  4
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "betterinventory:backpack_4",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:legendary_ink",
+                                          "weight":  4
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "apotheosis:sigil_of_supremacy",
+                                          "weight":  2
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "betterinventory:backpack_5",
+                                          "weight":  2
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:caisses/equipement_mythique",
+                                          "weight":  10
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:caisses/perle_portail",
+                                          "weight":  10
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:caisses/parchemin_legendaire",
+                                          "weight":  9
+                                      }
+                                  ]
+                  },
+                  {
+                      "rolls":  {
+                                    "type":  "minecraft:binomial",
+                                    "n":  3,
+                                    "p":  0.4
+                                },
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_ingot",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:enchanted_golden_apple",
+                                          "weight":  9,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  3
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:totem_of_undying",
+                                          "weight":  9,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_block",
+                                          "weight":  9,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:nether_star",
+                                          "weight":  8
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:epic_ink",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  2
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "apotheosis:sigil_of_enhancement",
+                                          "weight":  4
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "betterinventory:backpack_4",
+                                          "weight":  6
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "irons_spellbooks:legendary_ink",
+                                          "weight":  4
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "apotheosis:sigil_of_supremacy",
+                                          "weight":  2
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "betterinventory:backpack_5",
+                                          "weight":  2
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:caisses/equipement_mythique",
+                                          "weight":  10
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:caisses/perle_portail",
+                                          "weight":  10
+                                      },
+                                      {
+                                          "type":  "minecraft:loot_table",
+                                          "value":  "pack_lbc:caisses/parchemin_legendaire",
+                                          "weight":  9
+                                      }
+                                  ]
+                  }
+              ]
+}

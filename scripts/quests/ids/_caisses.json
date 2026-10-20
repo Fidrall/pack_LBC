@@ -80,5 +80,9 @@
     "epique:cmd:parchemin_epique":  "4A1DF2A4F0671CC1",
     "legendaire:cmd:equipement_mythique":  "208107160CCB3E49",
     "legendaire:cmd:perle_portail":  "520819430D82FF6B",
-    "legendaire:cmd:parchemin_legendaire":  "191783BE15D54510"
+    "legendaire:cmd:parchemin_legendaire":  "191783BE15D54510",
+    "commune:cmd:tirage":  "6E86D39739A5262D",
+    "rare:cmd:tirage":  "671E4B4C5A9B81C7",
+    "epique:cmd:tirage":  "4C99FA7B1BC1D4A3",
+    "legendaire:cmd:tirage":  "6A84A1DD100BACDD"
 }

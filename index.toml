@@ -262,23 +262,23 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "f102617a5b5efcc8d0c26eb5e76bb8a234b1c0f47b770042c7a977e71239b55b"
+hash = "627de7a12e5f8847361d55a04cfdf5167a2b23d4a224c8af9bc9f3a82da5af7a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
-hash = "33a28afb5db8892e08ede97c8cb6aa1bb9ea6fca65bc0a4c7360f636cd72b4b5"
+hash = "8ec002eb24acc2000620c7e35ee76b9ccddedf2bf2277e0086bf46f13362b0f9"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/epique.snbt"
-hash = "9e1f866ecd22b3d4da938a99805058edc6716b28c38c71afa42276447d7e6037"
+hash = "b6d6df5b15740c64f2a1fce43a70fec3fbe4997e4681ccaca27a85efb35de68e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/legendaire.snbt"
-hash = "0056d198ae10cd4f3cc9c9b74b988713f432a846c513ddbdcc0491f0e5ffd4a7"
+hash = "8594c94c6462ed51f6cf4c20206dc559298d5759c75d3947cbc6b17ca9570583"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rare.snbt"
-hash = "4d9712143b156be323e511764114e1f81c9f64d01efc7b4fa0b4fce0f045b2ee"
+hash = "bc84573536a3bc5d61472e730703ff276150a0194e70254331cf9174ddf59f3b"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -4963,6 +4963,22 @@ hash = "4ddfe6c278185df3bf79e235fef6578b9a35895df0aea785e1c0c94604858612"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/relique.json"
 hash = "4e2391d9ad47d658687f49a5361f465e24a83b492cfd096cfd1d3d589d607b0c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/commune.json"
+hash = "7f0e1f5ccab59cb38268fdadf4ef3dc09d135c671b20ea1e1a02cea401343bb5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/epique.json"
+hash = "abdf80f99523fa6b4aae399d243a7ec91e938519d99b7d38fa287490506fa9d7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/legendaire.json"
+hash = "8f0fc66d2bab43e85d706112bc0a6b7783d08f4eaf3b0c002803806fd3f68dce"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/rare.json"
+hash = "b89f524bf09c1e045ae61a003f40b011d50ecd1fde719a838e8d81306f6ad8f2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"

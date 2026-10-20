@@ -19,7 +19,7 @@ foreach ($f in Get-ChildItem "$base\reward_tables" -Filter *.snbt) {
 function Id($key) { if ($ids.Contains($key)) { return $ids[$key] }; do { $n = [QConv]::NewId() } while ($used.Contains($n)); [void]$used.Add($n); $ids[$key] = $n; $n }
 function I($item, $count, $w, $comps) { @{ item = $item; count = $count; w = $w; comps = $comps } }
 function C($key, $table, $icon, $title, $w) { @{ key = $key; table = $table; icon = $icon; title = $title; w = $w } }
-$explo = 'treasurebags:treasure_bag'; $exploC = '"treasurebags:bag_type": "pack_lbc:explorateur"'
+$explo = 'treasurebags:treasure_bag'; $exploC = @{ 'treasurebags:bag_type' = 'pack_lbc:explorateur' }
 
 $caisses = [ordered]@{
     commune = @{ id = '4363F0DDE61F37E2'; nom = 'Caisse commune'; color = 11184810; glow = $false; size = 2; order = 0; r = @(
@@ -56,31 +56,29 @@ $caisses = [ordered]@{
         (C 'parchemin_legendaire' 'pack_lbc:caisses/parchemin_legendaire' 'irons_spellbooks:scroll' 'Parchemin de sort (légendaire)' 9)) }
 }
 
+# Le tirage se fait dans une table de butin vanilla (pack_lbc:caisses_quete/<caisse>, build-datapack section 26) : FTB ne tire
+# qu'un nombre fixe de recompenses, la table vanilla 2 a 5 (2 + binomiale 3 x 40 %). La caisse FTB ne lance plus qu'une commande
+# silencieuse : plus de notification par objet (icones souvent mal rendues). Contenu ecrit dans scripts/data/caisses_quetes.json.
 $lang = New-Object Text.StringBuilder
+$data = [ordered]@{}
 foreach ($n in $caisses.Keys) {
     $c = $caisses[$n]
     $total = ($c.r | ForEach-Object { $_.w } | Measure-Object -Sum).Sum
     if ($total -ne 100) { Write-Warning "$n : total des poids = $total (attendu 100)" }
     [void]$lang.Append("`treward_table.$($c.id).title: `"$($c.nom)`"`n")
+    $data[$n] = @($c.r | ForEach-Object { if ($_.table) { [ordered]@{ table = $_.table; w = $_.w } } else { [ordered]@{ item = $_.item; count = $_.count; w = $_.w; comps = $_.comps } } })
+    $rid = Id "${n}:cmd:tirage"
     $sb = New-Object Text.StringBuilder
     [void]$sb.Append("{`n`tid: `"$($c.id)`"`n`tloot_crate: {`n`t`tcolor: $($c.color)`n`t`tdrops: {`n`t`t`tboss: 0`n`t`t`tmonster: 0`n`t`t`tpassive: 0`n`t`t}`n")
     if ($c.glow) { [void]$sb.Append("`t`tglow: true`n") }
-    [void]$sb.Append("`t`titem_name: `"$($c.nom)`"`n`t`tstring_id: `"$n`"`n`t}`n`tloot_size: $($c.size)`n`torder_index: $($c.order)`n`trewards: [`n")
-    foreach ($r in $c.r) {
-        if ($r.table) {
-            $rid = Id "${n}:cmd:$($r.key)"
-            [void]$sb.Append("`t`t{`n`t`t`tcommand: `"/loot give {p} loot $($r.table)`"`n`t`t`ticon: {`n`t`t`t`tcount: 1`n`t`t`t`tid: `"$($r.icon)`"`n`t`t`t}`n`t`t`tid: `"$rid`"`n`t`t`tpermission_level: 2`n`t`t`tsilent: true`n`t`t`ttype: `"command`"`n`t`t`tweight: $($r.w).0f`n`t`t}`n")
-            [void]$lang.Append("`treward.$rid.title: `"$($r.title)`"`n")
-        } else {
-            $rid = Id "${n}:$($r.item)"
-            $comps = if ($r.comps) { "`t`t`t`tcomponents: { $($r.comps) }`n" } else { '' }
-            [void]$sb.Append("`t`t{`n`t`t`tcount: $($r.count)`n`t`t`tid: `"$rid`"`n`t`t`titem: {`n$comps`t`t`t`tcount: 1`n`t`t`t`tid: `"$($r.item)`"`n`t`t`t}`n`t`t`tweight: $($r.w).0f`n`t`t}`n")
-        }
-    }
+    [void]$sb.Append("`t`titem_name: `"$($c.nom)`"`n`t`tstring_id: `"$n`"`n`t}`n`tloot_size: 1`n`torder_index: $($c.order)`n`trewards: [`n")
+    [void]$sb.Append("`t`t{`n`t`t`tcommand: `"/loot give {p} loot pack_lbc:caisses_quete/$n`"`n`t`t`ticon: {`n`t`t`t`tcount: 1`n`t`t`t`tid: `"ftbquests:lootcrate`"`n`t`t`t}`n`t`t`tid: `"$rid`"`n`t`t`tpermission_level: 2`n`t`t`tsilent: true`n`t`t`ttype: `"command`"`n`t`t`tweight: 1.0f`n`t`t}`n")
+    [void]$lang.Append("`treward.$rid.title: `"$($c.nom) : 2 à 5 récompenses`"`n")
     [void]$sb.Append("`t]`n}`n")
     [void][Snbt]::Parse($sb.ToString())
     [IO.File]::WriteAllText("$base\reward_tables\$n.snbt", $sb.ToString(), $enc)
-    "$n : $($c.r.Count) recompenses, $($c.size) tirages"
+    "$n : $($c.r.Count) recompenses possibles, 2 a 5 tirages"
 }
+[IO.File]::WriteAllText((Join-Path (Split-Path -Parent $s) 'data\caisses_quetes.json'), ($data | ConvertTo-Json -Depth 6), $enc)
 [IO.File]::WriteAllText("$s\tr\_reward_tables.lang.txt", $lang.ToString(), $enc)
 [IO.File]::WriteAllText($idFile, ($ids | ConvertTo-Json), $enc)

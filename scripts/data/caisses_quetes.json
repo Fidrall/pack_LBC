@@ -1,0 +1,468 @@
+{
+    "commune":  [
+                    {
+                        "item":  "minecraft:cooked_beef",
+                        "count":  16,
+                        "w":  9,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "minecraft:iron_ingot",
+                        "count":  8,
+                        "w":  10,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "create:andesite_alloy",
+                        "count":  16,
+                        "w":  10,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "minecraft:copper_ingot",
+                        "count":  16,
+                        "w":  8,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "minecraft:golden_carrot",
+                        "count":  8,
+                        "w":  6,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "minecraft:redstone",
+                        "count":  16,
+                        "w":  6,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "minecraft:experience_bottle",
+                        "count":  6,
+                        "w":  7,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "create:shaft",
+                        "count":  16,
+                        "w":  5,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "create:cogwheel",
+                        "count":  8,
+                        "w":  6,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "create:zinc_ingot",
+                        "count":  8,
+                        "w":  6,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "minecraft:lapis_lazuli",
+                        "count":  12,
+                        "w":  4,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "create:copper_sheet",
+                        "count":  8,
+                        "w":  4,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "waystones:warp_dust",
+                        "count":  8,
+                        "w":  4,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "apotheosis:gem_dust",
+                        "count":  8,
+                        "w":  3,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "irons_spellbooks:arcane_essence",
+                        "count":  6,
+                        "w":  3,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "farmersdelight:rice",
+                        "count":  16,
+                        "w":  2,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "farmersdelight:tomato",
+                        "count":  16,
+                        "w":  2,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "irons_spellbooks:common_ink",
+                        "count":  2,
+                        "w":  3,
+                        "comps":  null
+                    },
+                    {
+                        "item":  "relics:relic_experience_bottle",
+                        "count":  1,
+                        "w":  2,
+                        "comps":  null
+                    }
+                ],
+    "rare":  [
+                 {
+                     "item":  "minecraft:diamond",
+                     "count":  3,
+                     "w":  7,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:gold_ingot",
+                     "count":  16,
+                     "w":  7,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "create:brass_ingot",
+                     "count":  16,
+                     "w":  8,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:emerald",
+                     "count":  8,
+                     "w":  5,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:ender_pearl",
+                     "count":  8,
+                     "w":  5,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:golden_apple",
+                     "count":  2,
+                     "w":  5,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:experience_bottle",
+                     "count":  16,
+                     "w":  5,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "create:precision_mechanism",
+                     "count":  2,
+                     "w":  5,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "create:electron_tube",
+                     "count":  8,
+                     "w":  5,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:blaze_rod",
+                     "count":  8,
+                     "w":  4,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "apotheosis:gem_dust",
+                     "count":  24,
+                     "w":  4,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "irons_spellbooks:arcane_essence",
+                     "count":  16,
+                     "w":  4,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "waystones:warp_stone",
+                     "count":  1,
+                     "w":  3,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "waystones:return_scroll",
+                     "count":  3,
+                     "w":  3,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "irons_spellbooks:uncommon_ink",
+                     "count":  2,
+                     "w":  3,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "betterinventory:stack_upgrade_1",
+                     "count":  2,
+                     "w":  3,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:name_tag",
+                     "count":  1,
+                     "w":  2,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "minecraft:saddle",
+                     "count":  1,
+                     "w":  2,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "create:blaze_burner",
+                     "count":  1,
+                     "w":  2,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "betterinventory:backpack_2",
+                     "count":  1,
+                     "w":  2,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "torchmaster:megatorch",
+                     "count":  1,
+                     "w":  1,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "reliquified_artifacts:mimi_dust",
+                     "count":  1,
+                     "w":  2,
+                     "comps":  null
+                 },
+                 {
+                     "item":  "treasurebags:treasure_bag",
+                     "count":  1,
+                     "w":  4,
+                     "comps":  {
+                                   "treasurebags:bag_type":  "pack_lbc:explorateur"
+                               }
+                 },
+                 {
+                     "table":  "pack_lbc:cartes/palier_1",
+                     "w":  5
+                 },
+                 {
+                     "table":  "pack_lbc:caisses/parchemin_rare",
+                     "w":  4
+                 }
+             ],
+    "epique":  [
+                   {
+                       "item":  "minecraft:diamond",
+                       "count":  8,
+                       "w":  9,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "minecraft:netherite_scrap",
+                       "count":  2,
+                       "w":  8,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "minecraft:experience_bottle",
+                       "count":  32,
+                       "w":  6,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "minecraft:ancient_debris",
+                       "count":  2,
+                       "w":  5,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "minecraft:totem_of_undying",
+                       "count":  1,
+                       "w":  5,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "minecraft:shulker_shell",
+                       "count":  2,
+                       "w":  5,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "create:precision_mechanism",
+                       "count":  6,
+                       "w":  4,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "apotheosis:sigil_of_socketing",
+                       "count":  1,
+                       "w":  3,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "irons_spellbooks:rare_ink",
+                       "count":  2,
+                       "w":  4,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "minecraft:enchanted_golden_apple",
+                       "count":  1,
+                       "w":  4,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "create:sturdy_sheet",
+                       "count":  8,
+                       "w":  4,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "irons_spellbooks:mithril_scrap",
+                       "count":  2,
+                       "w":  4,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "betterinventory:stack_upgrade_2",
+                       "count":  1,
+                       "w":  4,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "waystones:warp_scroll",
+                       "count":  4,
+                       "w":  4,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "minecraft:heart_of_the_sea",
+                       "count":  1,
+                       "w":  3,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "apotheosis:sigil_of_withdrawal",
+                       "count":  1,
+                       "w":  2,
+                       "comps":  null
+                   },
+                   {
+                       "item":  "betterinventory:backpack_3",
+                       "count":  1,
+                       "w":  3,
+                       "comps":  null
+                   },
+                   {
+                       "table":  "pack_lbc:cartes/palier_2",
+                       "w":  6
+                   },
+                   {
+                       "table":  "pack_lbc:caisses/equipement_epique",
+                       "w":  6
+                   },
+                   {
+                       "table":  "pack_lbc:caisses/relique",
+                       "w":  5
+                   },
+                   {
+                       "table":  "pack_lbc:caisses/parchemin_epique",
+                       "w":  6
+                   }
+               ],
+    "legendaire":  [
+                       {
+                           "item":  "minecraft:netherite_ingot",
+                           "count":  2,
+                           "w":  12,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "minecraft:enchanted_golden_apple",
+                           "count":  3,
+                           "w":  9,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "minecraft:totem_of_undying",
+                           "count":  2,
+                           "w":  9,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "minecraft:diamond_block",
+                           "count":  2,
+                           "w":  9,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "minecraft:nether_star",
+                           "count":  1,
+                           "w":  8,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "irons_spellbooks:epic_ink",
+                           "count":  2,
+                           "w":  6,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "apotheosis:sigil_of_enhancement",
+                           "count":  1,
+                           "w":  4,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "betterinventory:backpack_4",
+                           "count":  1,
+                           "w":  6,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "irons_spellbooks:legendary_ink",
+                           "count":  1,
+                           "w":  4,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "apotheosis:sigil_of_supremacy",
+                           "count":  1,
+                           "w":  2,
+                           "comps":  null
+                       },
+                       {
+                           "item":  "betterinventory:backpack_5",
+                           "count":  1,
+                           "w":  2,
+                           "comps":  null
+                       },
+                       {
+                           "table":  "pack_lbc:caisses/equipement_mythique",
+                           "w":  10
+                       },
+                       {
+                           "table":  "pack_lbc:caisses/perle_portail",
+                           "w":  10
+                       },
+                       {
+                           "table":  "pack_lbc:caisses/parchemin_legendaire",
+                           "w":  9
+                       }
+                   ]
+}
