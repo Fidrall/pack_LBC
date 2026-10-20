@@ -22,9 +22,12 @@ $mx = $z.Entries | Where-Object { $_.FullName -match '^META-INF/jarjar/mixinextr
 [IO.Compression.ZipFileExtensions]::ExtractToFile($mx, "$work\mixinextras.jar", $true)
 $z.Dispose()
 
-$cp = @(Get-ChildItem $lib -Recurse -File -Filter *.jar | Where-Object { $_.FullName -notmatch 'installer' } | ForEach-Object FullName)
+# Le premier jar qui contient une classe gagne : d'abord neoforge-*-client.jar (classes patchees par NeoForge, noms Mojang),
+# puis client-*-srg.jar (le reste de Minecraft en noms Mojang). Sans le jar obfusque ni le slim.
+$jars = @(Get-ChildItem $lib -Recurse -File -Filter *.jar | Where-Object { $_.FullName -notmatch 'installer|\\com\\mojang\\minecraft\\|-slim\.jar$' } | ForEach-Object FullName)
+$cp = @($jars | Where-Object { $_ -match '\\neoforge-[^\\]+-client\.jar$' }) + @($jars | Where-Object { $_ -notmatch '\\neoforge-[^\\]+-client\.jar$' })
 $cp += "$work\mixinextras.jar"
-foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar', 'infested_swarms_spiders-*.jar') {
+foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar', 'infested_swarms_spiders-*.jar', 'Apotheosis-*.jar') {
     $j = Get-ChildItem "$Instance\mods" -Filter $p | Select-Object -First 1
     if (-not $j) { throw "Jar introuvable dans l'instance : $p" }
     $cp += $j.FullName

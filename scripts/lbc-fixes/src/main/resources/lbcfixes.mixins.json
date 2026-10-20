@@ -8,7 +8,9 @@
     "DragonKeepTargetMixin",
     "PumpkinZoneMixin",
     "SpiderEggDropMixin",
-    "PettingOwnPetsMixin"
+    "PettingOwnPetsMixin",
+    "WorldTierCooldownMixin",
+    "PlayerRestoreMixin"
   ],
   "client": [
     "FtbMinimapMixin"
