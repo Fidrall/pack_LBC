@@ -122,11 +122,15 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "802adb77f4f1d2134550ac9b4c4d444d23608fe7c800a33c933e484ddbc04a48"
+hash = "4eeedce1b3b0d734e7b74bc12c9f4a756a36fa9f82a6edc81c081e6c057c7d3f"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
 hash = "93a729944c1a849fae2496a4e665f5e18956e16537dc5b2d8682a3b2cdc44689"
+
+[[files]]
+file = "config/dungeonconfig/dungeonconfig.json5"
+hash = "ef7bed1f286e6040a4d2c5fc5b5e21ae938986375a9e89fe47b90ba5cd230796"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
