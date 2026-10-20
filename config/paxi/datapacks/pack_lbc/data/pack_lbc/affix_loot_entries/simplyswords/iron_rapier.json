@@ -1,0 +1,18 @@
+{
+    "type":  "apotheosis:affix_loot_entry",
+    "stack":  {
+                  "count":  1,
+                  "id":  "simplyswords:iron_rapier"
+              },
+    "weights":  {
+                    "frontier":  {
+                                     "weight":  8
+                                 },
+                    "ascent":  {
+                                   "weight":  3
+                               },
+                    "summit":  {
+                                   "weight":  3
+                               }
+                }
+}

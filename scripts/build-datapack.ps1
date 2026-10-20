@@ -768,8 +768,24 @@ W 'data/sable/tags/block/bouncy.json' ([ordered]@{ replace = $false; values = @(
 # ---------- 22. Tables tirees par les caisses de FTB Quests (recompense "commande" : loot give {p} loot pack_lbc:caisses/...) ----------
 # Les caisses elles-memes : config/ftbquests/quests/reward_tables, generees par scripts/quests/build-crates.ps1.
 function Caisse($nom, $entries) { W "data/pack_lbc/loot_table/caisses/$nom.json" ([ordered]@{ type = 'minecraft:chest'; pools = @([ordered]@{ rolls = 1; entries = @($entries) }) }) }
-Caisse 'equipement_epique' @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 1; rarities = @('apotheosis:epic') })
-Caisse 'equipement_mythique' @([ordered]@{ type = 'apotheosis:random_affix_item'; weight = 1; rarities = @('apotheosis:mythic') })
+# Equipement des caisses : objet tire au niveau de la caisse (diamant / netherite), puis forge a sa rarete (apotheosis:reforge_item).
+# random_affix_item tirait l'objet au palier du joueur : une epee en pierre mythique en Havre.
+$moddes = Import-Csv (Join-Path $PSScriptRoot 'data\affix_moddes.csv')
+function Equip($nom, $rar, $vanilla, $niveaux) {
+    $fams = [ordered]@{ vanilla = @($vanilla); simplyswords = @(); epicknights_armes = @(); epicknights_armures = @(); aether = @(); deeperdarker = @() }
+    foreach ($m in $moddes | Where-Object { $_.niveau -in $niveaux }) { $fams[$m.famille] += $m.item }
+    $parts = @{ vanilla = 40; simplyswords = 20; epicknights_armes = 15; epicknights_armures = 15; aether = 5; deeperdarker = 5 }
+    $entries = foreach ($f in $fams.Keys) { foreach ($i in $fams[$f]) {
+        $w = $parts[$f] * 20 / $fams[$f].Count; if ($i -match '_(pickaxe|shovel)$') { $w /= 2 }
+        [ordered]@{ type = 'minecraft:item'; name = $i; weight = [Math]::Max(1, [int][Math]::Round($w)); functions = @([ordered]@{ function = 'apotheosis:reforge_item'; rarities = @($rar) }) } } }
+    Caisse $nom $entries
+}
+$tw = 'twilightforest'
+Equip 'equipement_epique' 'apotheosis:epic' (@('sword', 'axe', 'pickaxe', 'shovel', 'helmet', 'chestplate', 'leggings', 'boots' | ForEach-Object { "minecraft:diamond_$_" }) + @('minecraft:trident', 'minecraft:bow', 'minecraft:crossbow') +
+    @('knightmetal_sword', 'knightmetal_axe', 'knightmetal_pickaxe', 'knightmetal_helmet', 'knightmetal_chestplate', 'knightmetal_leggings', 'knightmetal_boots', 'fiery_sword', 'fiery_pickaxe',
+      'fiery_helmet', 'fiery_chestplate', 'fiery_leggings', 'fiery_boots', 'arctic_helmet', 'arctic_chestplate', 'arctic_leggings', 'arctic_boots', 'ice_sword', 'ice_bow', 'seeker_bow' | ForEach-Object { "${tw}:$_" })) @('diamant')
+Equip 'equipement_mythique' 'apotheosis:mythic' (@('sword', 'axe', 'pickaxe', 'shovel', 'helmet', 'chestplate', 'leggings', 'boots' | ForEach-Object { "minecraft:netherite_$_" }) +
+    @('giant_sword', 'giant_pickaxe', 'glass_sword', 'yeti_helmet', 'yeti_chestplate', 'yeti_leggings', 'yeti_boots', 'triple_bow', 'ender_bow' | ForEach-Object { "${tw}:$_" })) @('netherite', 'warden')
 # Artefacts : devenus des reliques avec Reliquified Artifacts (liste = config/reliquified_artifacts/relics/*.yaml du 1er lancement)
 $artefacts = @('anglers_hat', 'antidote_vessel', 'aqua_dashers', 'bunny_hoppers', 'charm_of_shrinking', 'charm_of_sinking', 'chorus_totem', 'cloud_in_a_bottle',
     'cowboy_hat', 'cross_necklace', 'crystal_heart', 'digging_claws', 'eternal_steak', 'everlasting_beef', 'feral_claws', 'fire_gauntlet', 'flame_pendant', 'flippers',
@@ -838,6 +854,16 @@ foreach ($f in $friandises.Keys) { W "data/petting/tags/entity_type/tames_with/$
 # Varech et slime dores n'apprivoisent plus rien : recettes retirees aussi
 foreach ($r in @(@('golden_star', 'golden_star'), @('golden_kelp', 'golden_kelp'), @('golden_slime', 'golden_slime'), @('golden_slime_from_magma', 'golden_slime'))) {
     W "data/petting/recipe/$($r[0]).json" ([ordered]@{ 'neoforge:conditions' = @(@{ type = 'neoforge:false' }); type = 'minecraft:crafting_shapeless'; ingredients = @(@{ item = 'minecraft:barrier' }); result = @{ id = "petting:$($r[1])" } })
+}
+
+# ---------- 25. Apotheosis : armes et armures moddees dans le butin a affixes ----------
+# Le butin aleatoire d'Apotheosis (coffres, monstres, envahisseurs) ne tire que dans sa liste d'objets de base (vanilla + Twilight).
+# On y ajoute les series "par materiau" des mods (scripts/data/affix_moddes.csv, classe d'apres le metal / la protection),
+# avec les poids du vanilla du meme niveau ramenes a une part du vanilla. Les armes uniques et de boss restent hors liste.
+$paliers = [ordered]@{ havre = 'haven'; frontiere = 'frontier'; ascension = 'ascent'; sommet = 'summit'; apogee = 'pinnacle' }
+foreach ($m in $moddes) {
+    $w = [ordered]@{}; foreach ($p in $paliers.Keys) { if ([int]$m.$p -gt 0) { $w[$paliers[$p]] = [ordered]@{ weight = [int]$m.$p } } }
+    W "data/pack_lbc/affix_loot_entries/$($m.famille)/$($m.item.Split(':')[1]).json" ([ordered]@{ type = 'apotheosis:affix_loot_entry'; stack = [ordered]@{ count = 1; id = $m.item }; weights = $w })
 }
 
 $count = (Get-ChildItem $dp -Recurse -File).Count

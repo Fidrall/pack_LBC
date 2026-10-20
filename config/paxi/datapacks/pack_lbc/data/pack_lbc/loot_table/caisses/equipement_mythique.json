@@ -5,11 +5,1200 @@
                       "rolls":  1,
                       "entries":  [
                                       {
-                                          "type":  "apotheosis:random_affix_item",
-                                          "weight":  1,
-                                          "rarities":  [
-                                                           "apotheosis:mythic"
-                                                       ]
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_sword",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_axe",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_pickaxe",
+                                          "weight":  24,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_shovel",
+                                          "weight":  24,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_helmet",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_chestplate",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_leggings",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:netherite_boots",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:giant_sword",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:giant_pickaxe",
+                                          "weight":  24,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:glass_sword",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:yeti_helmet",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:yeti_chestplate",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:yeti_leggings",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:yeti_boots",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:triple_bow",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:ender_bow",
+                                          "weight":  47,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_chakram",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_claymore",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_cutlass",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_glaive",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_greataxe",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_greathammer",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_halberd",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_katana",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_longsword",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_rapier",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_sai",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_scythe",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_spear",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_twinblade",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:netherite_warglaive",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_chakram",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_claymore",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_cutlass",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_glaive",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_greataxe",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_greathammer",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_halberd",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_katana",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_longsword",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_rapier",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_sai",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_scythe",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_spear",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_twinblade",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:runic_warglaive",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_ahlspiess",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_bastardsword",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_buckler",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_chainmorgenstern",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_chivalrylance",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_claymore",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_concavehalberd",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_ellipticalshield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_estoc",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_flamebladedsword",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_guisarme",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_heatershield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_heavymace",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_heavywarhammer",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_katzbalger",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_kiteshield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_lochaberaxe",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_lucernhammer",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_morgenstern",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_pavese",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_pike",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_ranseur",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_rondache",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_roundshield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_shortsword",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_stylet",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_target",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_tartsche",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:netherite_zweihander",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_axe",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_boots",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_chestplate",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_helmet",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_leggings",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_pickaxe",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_shovel",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:resonarium_sword",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_axe",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_boots",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_chestplate",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_helmet",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_leggings",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_pickaxe",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_shovel",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "deeperdarker:warden_sword",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:mythic"
+                                                                             ]
+                                                            }
+                                                        ]
                                       }
                                   ]
                   }

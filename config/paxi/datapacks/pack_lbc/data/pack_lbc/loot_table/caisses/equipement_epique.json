@@ -5,11 +5,1291 @@
                       "rolls":  1,
                       "entries":  [
                                       {
-                                          "type":  "apotheosis:random_affix_item",
-                                          "weight":  1,
-                                          "rarities":  [
-                                                           "apotheosis:epic"
-                                                       ]
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_sword",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_axe",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_pickaxe",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_shovel",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_helmet",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_chestplate",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_leggings",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:diamond_boots",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:trident",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:bow",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:crossbow",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:knightmetal_sword",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:knightmetal_axe",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:knightmetal_pickaxe",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:knightmetal_helmet",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:knightmetal_chestplate",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:knightmetal_leggings",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:knightmetal_boots",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:fiery_sword",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:fiery_pickaxe",
+                                          "weight":  13,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:fiery_helmet",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:fiery_chestplate",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:fiery_leggings",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:fiery_boots",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:arctic_helmet",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:arctic_chestplate",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:arctic_leggings",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:arctic_boots",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:ice_sword",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:ice_bow",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "twilightforest:seeker_bow",
+                                          "weight":  26,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_chakram",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_claymore",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_cutlass",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_glaive",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_greataxe",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_greathammer",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_halberd",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_katana",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_longsword",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_rapier",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_sai",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_scythe",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_spear",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_twinblade",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "simplyswords:diamond_warglaive",
+                                          "weight":  27,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_ahlspiess",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_bastardsword",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_buckler",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_chainmorgenstern",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_chivalrylance",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_claymore",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_concavehalberd",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_ellipticalshield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_estoc",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_flamebladedsword",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_guisarme",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_heatershield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_heavymace",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_heavywarhammer",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_katzbalger",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_kiteshield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_lochaberaxe",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_lucernhammer",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_morgenstern",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_pavese",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_pike",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_ranseur",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_rondache",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_roundshield",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_shortsword",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_stylet",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_target",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_tartsche",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:diamond_zweihander",
+                                          "weight":  10,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:armet",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:bascinet",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:ceremonial_chestplate",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:ceremonialarmet",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:gothic_chestplate",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:jousting_boots",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:jousting_chestplate",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:jousting_leggings",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:kastenbrust_chestplate",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:knight_chestplate",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:maximilian_boots",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:maximilian_chestplate",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:maximilian_leggings",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:platemail_boots",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:sallet",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "magistuarmory:stechhelm",
+                                          "weight":  19,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_axe",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_boots",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_chestplate",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_helmet",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_leggings",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_pickaxe",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_shovel",
+                                          "weight":  6,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "aether:gravitite_sword",
+                                          "weight":  12,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "apotheosis:reforge_item",
+                                                                "rarities":  [
+                                                                                 "apotheosis:epic"
+                                                                             ]
+                                                            }
+                                                        ]
                                       }
                                   ]
                   }

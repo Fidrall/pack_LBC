@@ -1497,6 +1497,1750 @@ file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_s
 hash = "08d12917a745d10d6ef2b6396cd709224ab0a43053de38cbdabd8c7ba71170bf"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_axe.json"
+hash = "7b6c34dfc8538f21cef577422a2cfa700f70ed861a0ea1ba8591b2e517e5fe49"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_boots.json"
+hash = "09d1f89fd3434c6397252c353ccb557cdff2fdcd41effcc73cbfb3f75ee2c4a9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_chestplate.json"
+hash = "a7bbef4aadfb665bada1694017afc3796ae59b90f9367b0e3b0d9b9c0a45a865"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_helmet.json"
+hash = "132ff639a889ad144513dcdafe6da60525b265dc647a9abc4d3055c8c41cf5df"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_leggings.json"
+hash = "af984d3e04a3b0bb8fb30b499428860ca2b6416481cbd40d67adff6e562a2249"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_pickaxe.json"
+hash = "d1ebcd57e47cb89415f01d241eb4f1b4e683a66e6906d2a2f9a958e37ddc0b99"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_shovel.json"
+hash = "be1a14020b3ea414b87c1ed217b6d6b24f1e93e20a6f6817c8756222df461d27"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/gravitite_sword.json"
+hash = "83d6f769884e4a760c427be29f692c68f33c1a46aaabfa1ced3cc463c54c792d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_axe.json"
+hash = "fcc8e008774bf85f5312f78ec0bb090a6490f1ef1a6f0dbc15f85883aa15949f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_boots.json"
+hash = "ad7a6eb867d76761226eaf35a92e821b66a5adc7f0bedbfe96aad8b34a4e472c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_chestplate.json"
+hash = "5d94637724ae38ce63261a49b9d1675c777f46ca24b33b272c03dbd2d456bf40"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_helmet.json"
+hash = "73f475545dbdf600443b9dc1ff53d02be8f963e743344151cff2df88ef3a54aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_leggings.json"
+hash = "f9398531cc1805b0565bb671a2565058ec20c8114d91267c004d0b5a7556438f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_pickaxe.json"
+hash = "06080ca11e3c78597682f44afe3c3383d10fd84c1609a3144d6014479f18a0ba"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_shovel.json"
+hash = "0aa29cd86ec814f184c37c7929cdffce61aa135843c89d6cb649f9c826f214b9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/aether/zanite_sword.json"
+hash = "42c9656f2ea773afedca0c6968d85d1aa0b00de0ad25b6fb14531ea9d49e55fe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_axe.json"
+hash = "e080fda98095fca25bb9eba23c6ae7bc550729384e5c959266a495da444906a0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_boots.json"
+hash = "ac768af40773f6fc746de9a594f9513419ebf9cda370a41be372bab47665c823"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_chestplate.json"
+hash = "209566413a8e79dad730c0b59b4c42d5393276814e63d252658a1b557cfae596"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_helmet.json"
+hash = "613e36b0b6b0caf7512dcf8245a3c4a29d36b30684aa3b3e4b0e45bfd7582413"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_leggings.json"
+hash = "15af18de8b40476ea68593626be43879fe41db4628709e5f716fecb0c4fac174"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_pickaxe.json"
+hash = "0b700dfe30f94929718f89051efe523f913b16913b6dc33a881cc5fbacad60f0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_shovel.json"
+hash = "50bf5db25e9f67429db549ddcdc60e0e1bee448e9c2c3b84f93c73e757116ea7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/resonarium_sword.json"
+hash = "c5952145d76d82a45d467bf8ff7a39ec65587aecf5d7161041a3e548ad60023e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_axe.json"
+hash = "700f52a29ef1148baef665b77f3b2345857cc2b0e38248b16e9a41ae846b59f0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_boots.json"
+hash = "9e0c122bfef391499a84697c5ef12410946f2290466d3cb6180571cf4409497d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_chestplate.json"
+hash = "244567d1e617180f86e8bc417e24399f99da76dc94aba9ab3bb84b03561b2406"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_helmet.json"
+hash = "affb9babf9f52c5aca2e637a9a6e11abf8ff0a5aa9bd8396f2b955ce4901d5ec"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_leggings.json"
+hash = "74dc33d80c3843b6bb69dff1b87f1c88933bbc6e2f5b1f63e80da99238a7a4e1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_pickaxe.json"
+hash = "ce4fe86eb39fa0d23ccf6406da9ff8069cae85b32f8d5c94808c2e76f069d5cb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_shovel.json"
+hash = "0c082ce1fd566a8da9bb8638a32998f05a51e327ee54764f7502f6b85eaae495"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/deeperdarker/warden_sword.json"
+hash = "2207fe5da6fe190789b603b529ae0a8baf6a11d6b55564f38f5fe14653311a07"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_ahlspiess.json"
+hash = "abb8ba208000be23920415c9d16b705070369dddba359b62a6c30dba4bc28d90"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_bastardsword.json"
+hash = "58c7135bc37a767f210861c51e9f5bb93d25890d4499d560448e1cb13070af35"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_buckler.json"
+hash = "2912fed6d33b21b16f14ea3c831b78b54e67a4c81202f8f44a10644a238bd9ba"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_chainmorgenstern.json"
+hash = "7d7f2af6fa71790579d805618a2892d0e9f90234d6594dd9e731def6cb9ed78c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_chivalrylance.json"
+hash = "20ea835767290594475ec87e96ec5d65fceb4124ae97fff2714e9b55493cdfaf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_claymore.json"
+hash = "e60fb1ac2d35d797e01d56df639bdc95d0a80163833ceec33c28a05f7925ddde"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_concavehalberd.json"
+hash = "b5a1b77137530473ca9d22e5fa1a6ed7dff7de3acd66d7f4e3a9a754cc93aae8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_ellipticalshield.json"
+hash = "45f74d7d33950c1e84503e04e42d5efa5d55d9d85ff14d3b3a3be4b15833147e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_estoc.json"
+hash = "42ff728a2299ada20b58ba2782209b604465698669797a1a3d7e9b4fed2afd51"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_flamebladedsword.json"
+hash = "9bebe82260f06d4264f2975369e58106d3c6a8e4cd932583a262278e0090ca2b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_guisarme.json"
+hash = "97ce0cfc83dd5498d3a3a2e72c91efa9b42fd2008526c814d04f63f1a4251efe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_heatershield.json"
+hash = "25db4fb642fd1c93325ccb93919e008ec9a3a81d4e9cbef55ed941ace405a328"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_heavymace.json"
+hash = "017b18ca1631c880e635860dc321ec4a21e80d7c02db3a56497c575f46e3330d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_heavywarhammer.json"
+hash = "1922002720353ed2851f199ec4804811078fd3b987b65eb712149f65e2abae2b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_ingot.json"
+hash = "1ac490a10f21b6c0daf04c0b016f2b05791fd51c8188141424d20e9b92edebe4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_katzbalger.json"
+hash = "3fcb0e0dcf74a3a6f8fe33c61f27a4258a32c74eeacaebd3fc10217afdef2771"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_kiteshield.json"
+hash = "607166b8d736999153141f71b6f1684a7f08274e7c9f2a80ea1130720000ea99"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_lochaberaxe.json"
+hash = "98bdbd1119a33e8f74f03e6000818800375fd3134df8272504387005c8b53d75"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_lucernhammer.json"
+hash = "063b1575043241f206c9fde4ad94de40af4e45f37bd4f141d1003d3c97ed1902"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_morgenstern.json"
+hash = "b19a0b6c86a52cbcf10c36c99616fa74eb8a05c34d17ac7e740482c3a9813ea9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_pavese.json"
+hash = "98ce60b8869a123dd7dd9a0956c9edfa0a3bb1a4c4822c765b861855b2faec0d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_pike.json"
+hash = "651231910e5502c4dd404429ee9e6c117c6ddaf09fd4186b1856acd59a4e61db"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_ranseur.json"
+hash = "b89e5bef0f0adddf51a8d0ffa55115c74eaa9fbdcdd88fc468a9b862421369d0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_rondache.json"
+hash = "0ed502b5c817a55bd0ddff06ea176b8eff484fe7853c2978943a22815904dc58"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_roundshield.json"
+hash = "0ea2791d28a0139aeafbc4aa8523441a71a7a2a2df76f2df3e5fbe2c0df0dc2b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_shortsword.json"
+hash = "bd7b4240fe8aab6fb9a5a7fe79cde6290e87d8518dfe7eb795b16d58c21b006b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_stylet.json"
+hash = "eed020913f6b8877a03742e2d165823d9d5deff9dc154f10ce084d3489b524e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_target.json"
+hash = "9502f731bc5a9f4f4e56b88ea4f36f2ebedee9f4426a709c7780feae02a4f98a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_tartsche.json"
+hash = "a869f99b86e6accf4bf87a2deffd7269d8fd9029718eac92181f8216a6c4a1d1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_zweihander.json"
+hash = "fd98c7a63749d51282f63b8d08fe16bcf351d6f3ccceb242d8bafa724854eef4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_ahlspiess.json"
+hash = "dffd6ae4572371d5669b3e79f733ba18c1a1dd1129f2e17839726574abb1711c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_bastardsword.json"
+hash = "71072ca47402059400b87d1125b3af6066cfe4c059a689b2e7df4a5b8eef66e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_buckler.json"
+hash = "bba0d392ee5ac075ac2a39780487e7206932a6d3f67e3c4458ebbac48fd4f7a2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_chainmorgenstern.json"
+hash = "8608fcd113aab292cc9d76f62405835d4baada90b2bf8eef0dcb73d09b3967e6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_chivalrylance.json"
+hash = "37d529d31557cea91c18a0c0f34edda20f00e3e6dba5e6832621a499f487b2b3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_claymore.json"
+hash = "4db931137f3cabf34733665693d18cfe8916b9bffd513070e20a9bded80bc214"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_concavehalberd.json"
+hash = "424c543594443bdc601263893814071736150cec54f6708e580ce6097e490072"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_ellipticalshield.json"
+hash = "0e95768fb3dda063d093f40dafac00082a3e0aa64a10ea302a4054b9085553a9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_estoc.json"
+hash = "e8caf793dc1bd444f91544028c433a035154df0f37e2052aa3762ced8ed2ec75"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_flamebladedsword.json"
+hash = "28aedebb53c3bc54937e290b84c09cecbe938db6202e38434f6332d45fbaa16f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_guisarme.json"
+hash = "2440850fab5282c38673394e459eee4b4f5dec9de6cf77ca9315ac49d6d6a227"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_heatershield.json"
+hash = "dcc50e243194e4e5cd2e6c577f616ba8a2bc015736e911a1cc145b9d66303bbc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_heavymace.json"
+hash = "23cf846416a452cd2e7aa0ed30461f89801f9158e4e8f498bb84e2d88431cd9b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_heavywarhammer.json"
+hash = "8767579664b4a4b056ce400bdb1655bce681108902f0be348fcfa36065f7f4b4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_katzbalger.json"
+hash = "45380f3c7c051c808c3c060a530d1a4f3f86b5952a24814ca6e2a9790179e134"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_kiteshield.json"
+hash = "87f413002f7d5d9d13d2e0d9e4abd3c77d9d270966142837096b9615d008a0cc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_lochaberaxe.json"
+hash = "1da1bf2ba1ee6097532973d441bd804674c489eb3f788f3bafde3887ce49c29d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_lucernhammer.json"
+hash = "9247890f625dce6bb1956f414e103c0dca34603e85fcc4f81b59d3037a03793d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_morgenstern.json"
+hash = "ecb12917ca7026af6e2649d92bef14168a79566cc4c10a776a887f8e4677c5cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_pavese.json"
+hash = "c334fdf199174fc5a43a960c34613b6efd00f99e060a9e76e0383f5806ebc484"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_pike.json"
+hash = "0e8caf27f307ef4df17dc0f3be52e7987bea7f613a6172fa062b9ca775ae2fb4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_ranseur.json"
+hash = "8ea093a2439db61ea487f05c0612ca436e0a30b31f9f36ea8b77f0a1281cc041"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_rondache.json"
+hash = "d2a24f898cfcfe6888cc1d645163b156e8566dcfd37fad0961ea4facda55ca1b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_roundshield.json"
+hash = "89b435a67568303dfc11e9aded3f274a308a1f7936dae17ad1e559cbb63f4271"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_shortsword.json"
+hash = "b2e50e4a14f42b2307555bca5a289c145796b3aad7b672c0781bd1c9c0cf5b4b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_stylet.json"
+hash = "f0f00bc601058e2b9587fac67b6ac194c6909db7ecc59a3e9907ea47330f6dfd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_target.json"
+hash = "a5412d795bdf87a00908021c46b69a16dd4e16b0fd100d1c298fa159023b7029"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_tartsche.json"
+hash = "545bea5611c6b19a01a3c7aab0c601d608d5061a1f605ce62d5532e1c277b1f1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/copper_zweihander.json"
+hash = "dfa63218522bc7bc3d39622f48da92768091643e15e86c7056eb2eb9372c226a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_ahlspiess.json"
+hash = "bc7d49440825f238acbc2542ca5430d71f3699964c097f502deb1e189af2979e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_bastardsword.json"
+hash = "0b25247c0a392ce9e88ec55d19241189e27cd759117201fdcac92e0727c61e80"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_buckler.json"
+hash = "8e73abcbfdc9ae60b546c8d9846dec54b76f3cd9d9f9e4479f67ee5bfbc20d54"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_chainmorgenstern.json"
+hash = "e1709be9df632c21375c988ab4ac3e7f4632bdff53e3edccd365396f244f3369"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_chivalrylance.json"
+hash = "8f8f7783c87bed385087b5fdf5f7abb8f228eafeaa62a9f37243a65771fe0985"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_claymore.json"
+hash = "76b926b3480c16af469c03428fabfe4970013d7adae23dea472736d0db3271db"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_concavehalberd.json"
+hash = "233e89ffba2da6660cf6270ce5233e9e683ae4f572205880b2f4af5644995c52"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_ellipticalshield.json"
+hash = "bfe7d2f95d63ae93be7619cf15d37b7d261815329d8ce91c248ca1587daa5104"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_estoc.json"
+hash = "a03c1302f2d694ab193ec3f3d1eb09dc9653b99b3745b179bbe7850551243275"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_flamebladedsword.json"
+hash = "26756f3054fda14a8f9ecb3077dcbce1c0db2ab96db3cc1c2b8df1f2265d931a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_guisarme.json"
+hash = "a5119e96b5603de3a5eb99902f94e647f614ce337d45df6a2bf02ec48330d843"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_heatershield.json"
+hash = "b93fbe946983ab754dc2f9f9319b65c00d6933c5f5d62a3e08face79f3b7718a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_heavymace.json"
+hash = "a01d39ee6ebcb81b0f2dbc1baafdd024ae4a57d7e3cea96ff02fd81f1481a302"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_heavywarhammer.json"
+hash = "b773e58749b3c67fe8b74e2f77ea4dc1b84bfb1cbe6cf8be4b6e0b9a8457afaa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_katzbalger.json"
+hash = "25df11cdfb651f9d0e1feba0ebfee4270df38b9b09731d73abe6bbe762351d06"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_kiteshield.json"
+hash = "11ea7f664e51ed944cd165aec9f976d439160e07019d5eefa17fd2aa993c7385"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_lochaberaxe.json"
+hash = "7f865393a172ec60bee577a7a6776ad9b9ec73eb78c15003fd840581c86c97b9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_lucernhammer.json"
+hash = "b9fd264685d4e9cb4f0ca199a2c37541987c0f08b6a0760358512b50c466d45f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_morgenstern.json"
+hash = "6c07f15b827e31b1c89ff54b593fbdb41f8a83ffe1c8344a9d93a473e59696d0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_pavese.json"
+hash = "a8aa28d29ddb9bcc0022300676cde951d8310eab3b6dd1c86715516cf5b3c9a7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_pike.json"
+hash = "97263b9fcb673e45057a41f53b962e062332fcf0af9e6b327b44dbad24c13df6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_ranseur.json"
+hash = "f1f389c210132ef8b9a7cf1acd506d62afa39240c0759f81a626e54f84c8934b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_rondache.json"
+hash = "ab97b5763b89fdbd775f6fb5bac3eac55330e0fb44d084809c2a9f72865c6878"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_roundshield.json"
+hash = "cbdbad1015d0474834fc7d435b0d262a926dda693b262290e6ee81621f5f8d12"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_shortsword.json"
+hash = "e0cf5e85109d0aaf1fad21ab37b9d64fdcd5b251fa5ec4916dd71c871abc3123"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_stylet.json"
+hash = "ea56430bcbf174f1eecbd8f2194ecf461e142894f9cfd4092a81b8c1968ce106"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_target.json"
+hash = "495af0db3ef4d8d0f7cee30e95e0c851028f12bb0d69a04298ba8d0e07216fcc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_tartsche.json"
+hash = "48c19614161daffa88ec7b31012a84d601210847425f8108f0d34432274cae06"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/diamond_zweihander.json"
+hash = "bd2697eb4a26514059c06c4c44993115f69176e98acab5304349a78884516894"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_ahlspiess.json"
+hash = "afae55edb694103957f900716f2429358c585c9b4d5e1e32b47c237221f0fc26"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_bastardsword.json"
+hash = "7c3c7c85ccda85061496d255427f20970ecf19d73b827f2fca130576c62a79f2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_buckler.json"
+hash = "54d89785372763516bf0f6f95f08664d78fca661915444b27e1bb789dc8bcb4b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_chainmorgenstern.json"
+hash = "23187d499b6fe4717c06caac9e7bfb377426b0b879aa1bd4259d93892a22ba54"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_chivalrylance.json"
+hash = "537e06a9c2335bc2626e81a6fe4805680300754584e5790be370654d158b7a3f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_claymore.json"
+hash = "3365cde18b630cd35882fbb873e8ee3d70800ad6966c726a8ef344971ba7a7d9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_concavehalberd.json"
+hash = "90fd436b34937d4309e9212ca6561acc276628ad9d5851ea384409bbb19fe145"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_ellipticalshield.json"
+hash = "460e4c22fef3d6f2b1177fdf875ed17e249ebf185b10447777bf0007216da96b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_estoc.json"
+hash = "64f78863d870ebcc9ac3f73664a4bb27a3ed556c688a22a46bd66f5afbd0ee84"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_flamebladedsword.json"
+hash = "b59fa7a38e58fe2aa969a4f24405978b0356b98c93320e3e508d3cc8258b7d58"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_guisarme.json"
+hash = "3ac754d11f3573ceea22f91afc160726384122d054ad2b02e6fea929bd0090ca"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_heatershield.json"
+hash = "0b0f492ddd80606bfe8dc545188ba1197c1f09e15f422c521d11fe25728df44d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_heavymace.json"
+hash = "013f390f037b6c25473d9bdaaf44aecced9939fe74606a0c9cb8a344760adbe1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_heavywarhammer.json"
+hash = "f998e8d62dd8cc75862628c41aefa30d59111771270188d641080c5e6c2b6fe6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_katzbalger.json"
+hash = "6bd9027560ce8ee9cbe590bf1a6cdf39940ffb87e994fc1e93a8de09814cfd63"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_kiteshield.json"
+hash = "de6b338171cc4abc9aefff64e7d648341bd71e561f51e5832131b95ba20320d0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_lochaberaxe.json"
+hash = "e8b415f29192a1ebdf6e447857fdddf4125e0f42305802b17867b456bbcdd3cd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_lucernhammer.json"
+hash = "57ebc514777cd9a3592661b0d6a7436abfc2b66032db617a25b897fcdd78dcb5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_morgenstern.json"
+hash = "5cb19819879afdb4e2de0b9eb568c36896c088ee76140a6bcf6231f4e9b5903d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_pavese.json"
+hash = "54abbc12b0b6672f2ef1697b00b737a1fd35791aaf7502f9d821c36ae729d208"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_pike.json"
+hash = "e3c02160f7d414b00b7026862c883f96b242880b2de2117bf6bce7b74151bb97"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_ranseur.json"
+hash = "e07287fc2220c476234f3f27173a4459a912c2af732c21c55f1255ab201018b6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_rondache.json"
+hash = "296078e68f9654ee378bbd32447e4fc43435096e797bb9e1e27b543de6bfcbbe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_roundshield.json"
+hash = "ad6c8fa95ee85221c252e16485c8242592d80f3a779ff9da6c54e7b7cd1c98b6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_shortsword.json"
+hash = "6576fb3e25e764e0c3dc8ab8228258e7bb93f168e525570ffa29dacb3ea640dd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_stylet.json"
+hash = "d85d3b20499f55504eda66bd8fa0fd2ee12ae5acc770351e6c80455c3f12995b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_target.json"
+hash = "f23feec0482c2746c8390a81d2795fb485510b40e6a2260f980791cdceefddfa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_tartsche.json"
+hash = "eafb692c9d441880125f0171badf9c0c4c061a61c6156820a2479ca10b111125"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/gold_zweihander.json"
+hash = "f03b2267cd7a9b020495670593c99a51689e6473a6ec294d12507cd120319ae2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_ahlspiess.json"
+hash = "5948973fdd7fefd5d64d82462ffeb2336929b0a97a50c8ddbd4fb186b3476fdc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_bastardsword.json"
+hash = "f77a51dd70d7482242598bf9baba416bdf0f055bd1434aa27d2f0bb18d473a9b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_buckler.json"
+hash = "0e3c96c1dc9ccacca9f320b74861ff8bfea7a3aa591fe821c9170ab67d31e5ed"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_chainmorgenstern.json"
+hash = "cff48f3400166391fdaa005973bc040e26818d0efff158c1f58ec86d29d94e72"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_chivalrylance.json"
+hash = "1053d7da36fa616598457e85989081c29e197ecedb840aeb5538ae054485e0be"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_claymore.json"
+hash = "d9d347e78aaa0ce6474580e0b215958266bc8baf6d6feae6baa80859cf02e94c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_concavehalberd.json"
+hash = "0d11a59624b00e830d1cb760ffaf0471dfb3553f1c6ec69aa6227e6392dd65fe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_ellipticalshield.json"
+hash = "79171127b80e4c4b7838cd5fc614099500ee3eb45ac299560eeffd44b1f3a96d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_estoc.json"
+hash = "0cf7f6f371ec20ff941735dfa68d55b209bc7ce76a6f2a8bf7a8267c81387b14"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_flamebladedsword.json"
+hash = "899edcb03fae6a87d9016f33358e6313a6211c8f5c1a663d2a20727fa9ddd6cf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_guisarme.json"
+hash = "c6058f7842954b6a4eb28598df4a978dfcfbc0a64363828679127a18ff35c2fb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_heatershield.json"
+hash = "8e6920ec14712532feec514ae947b87ed3644af9de4d729f5c84e61d9bd35a7d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_heavymace.json"
+hash = "6113c6202a5a7e70f821ebdf74fea67d8df5d062cc8a27e5a11d7937d046464d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_heavywarhammer.json"
+hash = "23e9ff18f4e013fb25c3846608e356150b9f526056ee61d6e64e4273ebcd40f9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_katzbalger.json"
+hash = "794ae6410c1bb2ec869fb55a5fb01348e4cf8dc89b3915e9bc2ecd2d5c8ee685"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_kiteshield.json"
+hash = "bfc1326458400ea6bff6c765af632cc7b504dd4e3bfa8cef7d6c65777049271e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_lochaberaxe.json"
+hash = "bf5b9f19a250a81dd4348a98488ca39f8e1f879f4c3141f3fea743f3da5939eb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_lucernhammer.json"
+hash = "0eb2134efbfcd5806ce5b03e5075ce9f8be0edda49b77d150ccbc9290ff24559"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_morgenstern.json"
+hash = "f1b62dc75eeadfce2f1e20656c903058cf22eabdda3c125c4e693c67b31f133e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_pavese.json"
+hash = "42fdd17d0b11bc17152111f074402e51cdd3a16404bd2b9c51e4f2e23e5902e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_pike.json"
+hash = "f16c7f2e30166423de47a35c36e4ef8a6110e8b17ece1afaf683a067765ebcf0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_ranseur.json"
+hash = "ae6cf211210b90d37bc5bd0fa2ad94f58fa19e0ed4c2ceeae6043344947e480f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_rondache.json"
+hash = "a20de4d6e7082739807e3004940a499d13afce106f4c95af9f0459837752cd90"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_roundshield.json"
+hash = "d3ceb51321d34cc54ef87e1b7aabf8d446fa75c2536197f22a0a3b39e873f8fd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_shortsword.json"
+hash = "32b993eb5693dac63ef88bf1984b3228c1f2b54aa7577cc0281fc23db74980a6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_stylet.json"
+hash = "f67d8a049ee10c1a8d441719c5d60dcd66e3ae7035adc19e716fa868a215532b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_target.json"
+hash = "2c18c40a4167c0ab5f0a288568f957feb840831eaebfbf0c58603523f8c0ac24"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_tartsche.json"
+hash = "4f03de326110e1104b8e98ad517bfd37ef92fdbf73eb6cccc8b93a282b8cc13a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/iron_zweihander.json"
+hash = "e91477fe069b209170b2f4dfa539c6da5a9ce5ce7167ba30b47611d88ed20a09"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_ahlspiess.json"
+hash = "f411f996e657e5588e347ba0ebfae518667f7f86e58f9470cbe71527bef5c91f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_bastardsword.json"
+hash = "b4c2c0b3a97499addcb3ec2d7d5616eee83e24ac4d7c6fd94a23c4a27baeabee"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_buckler.json"
+hash = "83510376ebc03af8dac53eb10d273dfa4e52b4b96627c522088b58e0c8e91374"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_chainmorgenstern.json"
+hash = "b96d3f1dedd9ed90e19f1b097ca9dbf8f306b9fffe277a7d5591801a365ae227"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_chivalrylance.json"
+hash = "32765557fa2f1ab9a178502a7f3f5acbef3052c74b207b029c5677063acee146"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_claymore.json"
+hash = "33548d3771223b88643dd13812395f30d19e091821dd366f1b26be5faa23d0d6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_concavehalberd.json"
+hash = "1cfaf852bbc66dda1983c79c80f46dff31f85a864fdc3b36df64d78b466c2089"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_ellipticalshield.json"
+hash = "0d5015b509d52e901a0b29b133e40d914574c98ef73746f353bb2d4fd7a07c31"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_estoc.json"
+hash = "c294ac4e963bec65f1b7c1a9993a1cb1535f935f507f645691fdc6126ba02315"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_flamebladedsword.json"
+hash = "3b3721d2278b3fe8721c7d9a62819c1cff28a937b7cfaca03e0b326df174690e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_guisarme.json"
+hash = "a14694d1b8e75e0da2841606d2120f82ff045641fa7a5a8b3599b069a11d09b1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_heatershield.json"
+hash = "d83dc9e4877cbbc56e7b4401185fedede4ba41f6bdd0a9161cd6919284f0f983"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_heavymace.json"
+hash = "aef1e83ece10387884fd14a1fce99bc0110e2c433caae3e09f279d10bc2c602d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_heavywarhammer.json"
+hash = "d3210cc35cba6385b119294782ba4ea39d81b10a18f2a8989790d2aabe02de38"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_katzbalger.json"
+hash = "9ff5a027b4cfd1b96ebad43c39cfd8e2a830cea56051de4146fd439fabadf187"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_kiteshield.json"
+hash = "3a99e506d3bcfee6c5dc11c9ec071298bd08825fb7d646dd62b76657aba9fb18"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_lochaberaxe.json"
+hash = "032b295a3f32c499be47fef4e3fec8508e6ab7f78ed5e21ae07af5fa643e83fa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_lucernhammer.json"
+hash = "a43a18036445fc6e7196a01e8ed7ee46a76bfb94aa54c2f4792a41ae9be3317f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_morgenstern.json"
+hash = "15deb6d6f9262cb9c1758ba9f0714eb9c5c150e711ceac57d8c280b55ac108fc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_pavese.json"
+hash = "05b69c822f97614df4c00510deef8d569a20a7967219c1384e8e6eb1495305c1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_pike.json"
+hash = "31ccd282a61e6b0973fd82cc761eb8faae5226849f3d2b1b2a38f78b7ba56adf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_ranseur.json"
+hash = "571cabea363e78883bf88dbdba9b6375d35faefa12aa2b3d9b127f0ef819aad0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_rondache.json"
+hash = "0312e299fe5cc3294c521fc1acda3c75bb2f44e71b3c9a5ffcfe9afc15fac1bb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_roundshield.json"
+hash = "7587cbcfca3d88ecec3aa7951f22c9456ef1a6885484090fee0ec515cfcccc6c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_shortsword.json"
+hash = "97e7f4ce7f76ed40a07bc8da8b9ca3a3d2d1914212455c75d79847dc298c97c3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_stylet.json"
+hash = "e72c70c2a85dc77e6a8586bf655b53e06ff9f3e3dbfa7d075fbdbfafef4ec561"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_target.json"
+hash = "2d4bf1fa2f98f85285305124cc37771a095edece8c8e6e3ed4c671b6f27a7a25"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_tartsche.json"
+hash = "b9e1c9a39ca12e32e68a03a7097460f31c2eee847fcbb1df1f516867e1479eae"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/netherite_zweihander.json"
+hash = "b6d2a71a71a1731a6b2286732b03b8556143cc8d3d548d30325978f9af176855"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_ahlspiess.json"
+hash = "091cf42a455c9e378517a109811366fb4a8bbe4df3b109c471509890394b8485"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_bastardsword.json"
+hash = "02eca9212d9a5a3414dd8fb6e855e4f6e37c221d9ce5717af235d4c2fe22ef26"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_buckler.json"
+hash = "2991fcd46115d522522ff4eb2b7173f3457ed17ff630566a6fafa8126beef33f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_chainmorgenstern.json"
+hash = "7dae7922a0f455cea722d504f6c0a118c8537cc78a8307f6600f4c3d06f52370"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_chivalrylance.json"
+hash = "cc781b895679d5e9d085ccb3f8136c3941655adbe72b5034d5a2b84d95ad0d1d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_claymore.json"
+hash = "cae4a1455a14fe33a583b7fbfc5393dd1cdf596824eade3e64159b55d4193336"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_concavehalberd.json"
+hash = "99f4a868ee578e9df58b4315732d9b7dd9a168e7a2696c3de077ce4c202f55a5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_ellipticalshield.json"
+hash = "b4e5f81d1572284a7f231c5128de2ccd9386bbdcbc5256999cf460f1d1130813"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_estoc.json"
+hash = "1363430823009e87a275a9f4193bbbcd8ced9eb0733cf6ac36b8ba29d970a9c4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_flamebladedsword.json"
+hash = "dc15ae035f2419826393859951a26513cf3c5b33127259031512d6e78e7400e8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_guisarme.json"
+hash = "a59a1959c9b750eac43df9e0d12960e3f35e66bb2cdf3ae3eda55c421c9e5377"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_heatershield.json"
+hash = "02b702133535a3dbc9084877cb57f0a34b01439a9de1158e554ffa855e2680e4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_heavymace.json"
+hash = "01ab7ca995d58f97c8d943c4f2c8e0a2c53a88c0673e59a312bc9bd58b9cdf7a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_heavywarhammer.json"
+hash = "943a8c548d5745cf7e39c831c4bbba216607ed0eb343f86775f5d49d5667818e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_ingot.json"
+hash = "18d4940fe60190d663a22e2b97562e83907d45b7cccd348a4e0e244f46f6f283"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_katzbalger.json"
+hash = "ce988ee9797007230ce756b56498250d86d9f95560c3fe37e06809d78aa24b2a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_kiteshield.json"
+hash = "acf504c111bce9d559f672dd441c08bd4e1db6e35372d58ed4aafcc3fb7fd3bb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_lochaberaxe.json"
+hash = "b7a98519f9ace713e924574c233fa373b17fcea6ea440af8aaf29a5b9bf744c0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_lucernhammer.json"
+hash = "138908a383976d31a31ad34b5b2b1a524004910e4f222d43febcfa0e33c3417d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_morgenstern.json"
+hash = "6e6a1a0e5398b434aa6261ea34829e2286c733fa1a6635b858d859be28437db5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_pavese.json"
+hash = "a45822c6941039930785eddcdfb280843badd3c3340b3a0b55cc84b7daab421d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_pike.json"
+hash = "03d734b56735011f1ff5a00b6792de85864c460542cadb47a1b344fbf9b4822b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_ranseur.json"
+hash = "c0145ab83dc4b7a4631d8fb0a51aacd252a643784b0c91fc1567c40c8fe3514e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_rondache.json"
+hash = "bc691454477f7aa2e84a0498acccc80bb7d6e7a9fcdc0e14832ddafdba006459"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_roundshield.json"
+hash = "e5f2ceaf8386801a4b03d2d0fac79ea49554e1b45ab5509337d60b8ab9ea23cf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_shortsword.json"
+hash = "987dfc5f1bdcfc99bff01768ddc83a9fcf75b2cf9fefac3dece6c885a73f793a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_stylet.json"
+hash = "e437417406a1b2420a38eed9ae827fa430d496864a4f361617ee7536cc958bf5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_target.json"
+hash = "dc48b10bfae9dfc18bfe83c6a1d69aa5f0a35efe73edd2c4a9e5ca774b910f7b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_tartsche.json"
+hash = "b1db56f4fa3a42d99a282416a9380f46716909c8abfc24be72a91505b52bcea1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_zweihander.json"
+hash = "90a5e37a81342374a66a64e2710ce9adf30e67a0d413614cd98b290818df9ac2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ahlspiess.json"
+hash = "7fdae470980731de0e18511825a9ff0321b04858065b427fe3dd070c105cb418"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_bastardsword.json"
+hash = "a1a77eaf6bae67757b62247d19bd7e66d426e63bac36fc5f57caea76bfad745c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_buckler.json"
+hash = "300d34757a1d59c0fa1c2ac84bac12ee7e18687e328812c8ab4f95869b8b96d3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_chain.json"
+hash = "7c0fc9a3d940660cf17db0be128ea26622e197efba70c1696d5c682ff3b8ee1f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_chainmail.json"
+hash = "9651a9dedd604bbe33b8119be019a153c357f09b595776c02b7ef69e21e6c85f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_chainmorgenstern.json"
+hash = "655125f23d5500d13c4ef475dbfffef8d04e6d9089e7e8482ca070dfc2ddb4f0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_chivalrylance.json"
+hash = "b926802a6ef42c301a43a2469abf10724ddd21512437133b40a15d006e1ce95f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_claymore.json"
+hash = "a6c47a396765016bdd6f377921fd02419ad4dffd953115ffcddb799945cf0ea9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_concavehalberd.json"
+hash = "960580c95853df3daa5b83b8a76bcd8820ede7ca1a9595c5a916c7c16544496f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ellipticalshield.json"
+hash = "43cee6ba41cc1833f0296bdf1fff258ee53c2a95d6f8718aa2409a3a2295b258"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_estoc.json"
+hash = "ff2aa221a64c303cd50e02230a0a9a1e46576d4e71a676d293e07ffb5066daed"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_flamebladedsword.json"
+hash = "4cab7394d8251fd7156618fa73d834596cbecb3438cdd39e5599114172489702"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_guisarme.json"
+hash = "9501b3ac5615fc0703d19149ff67c5bfcbb6487d3abb88e61899e79810a029fe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_heatershield.json"
+hash = "14e87e28a0a5e0e6ce5d5c080368d2647bd796b74eb8f4725228162a10c912e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_heavymace.json"
+hash = "93821841c9201e90e0b5a11ec6479f47442a5f0a99635137c1b684f6ae2250a7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_heavywarhammer.json"
+hash = "8384672e479659aaa92f907e68709d273e93d772eb1f63d593e8e88610608dc3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ingot.json"
+hash = "54c6d75a85eb30a9c8216d2a8601c1d512aaee3dfcb514ed2266af79430d27da"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_katzbalger.json"
+hash = "09a00f8aa7033d4d62a56b4e2af6c1c5914511c43369fe0788adfdd223c9d885"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_kiteshield.json"
+hash = "faccdb526ba6508d8aeca724dba08b618c1464391e8d0256051d5f7326125c2d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_lochaberaxe.json"
+hash = "8e8d753b9caac04581ed8706fe328dfc078cc9e9eb6bdc03398cb324fc2a82e6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_lucernhammer.json"
+hash = "cb20a656a9cc66c33d431c9c4e51735799328615de06acccd8f4c4d3163d8447"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_morgenstern.json"
+hash = "076837308683de1878e3cc8f570ac64abab53801715bc8ea8ab4df6e28181f15"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_nugget.json"
+hash = "764c2ccf2f0ac468d836a90f831c0fd416e4f51089435349250c64501a6506fd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_pavese.json"
+hash = "c6675cce92248a4299743a7bab949fb6fdbd28927a2eac6e69e7d589b2d65ec6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_pike.json"
+hash = "f2ca4850150a320e7758bd761891748af965b800d56f9313dfde4802f32c7c3a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_plate.json"
+hash = "84d2a03095284bae3c37a96a99441e8a583b5982844934c6d233964ed3155e97"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ranseur.json"
+hash = "aa95f7c123abc23e833f24690d47bd5f885a58f041a41ccb17f78cbcb5a674aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ring.json"
+hash = "ec01c94f46367c2da9cbde997ce12733c6e632f71853bb18810dd09c159e405e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_rondache.json"
+hash = "e4c55270a1a4a1acc5f066f19557cd53dd7f869d9ec7e1c07d2c75517a84e327"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_roundshield.json"
+hash = "b3351732e8b51d77321b4770a752301d772cba86659a505b1ba4923bab1983bf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_shortsword.json"
+hash = "a91683d69068da5235b7a39664e396c0699a9a2c840364e4d658d131db941771"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_stylet.json"
+hash = "b5239990ce5d58c62c517787ce1ed15a1679faee29f7b79c077ac827f873ea81"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_target.json"
+hash = "c03b24563884facd6cf12ce156708bf0b711fe7ca509e1cdb4160d9ee3d5e4e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_tartsche.json"
+hash = "51791bc59bc6971c347eec05553928137cb1684646689ef7e61c8ea83653c543"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_zweihander.json"
+hash = "ed56d277ac290d63cb472d625ac0a4750a49b2a32ecea798af0f7a2ee1f9d8e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_ahlspiess.json"
+hash = "61d52acf222b9269edb159adede774ee6d2582bff308de0f792739df20c458b6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_bastardsword.json"
+hash = "4b1552308acbc1d9f245bc495f0f7ecfb3033bb754254e658de6da3f8ac1cabb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_buckler.json"
+hash = "fa54b52e3850bebe17d5d4f28096c98bc7a12ee949d54f5d5c1662c28c6bbbec"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_chainmorgenstern.json"
+hash = "e84843eb21e26ae44158d8fdfd50466fb66323cba8ae37cb30ea57fe2f4bbdae"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_chivalrylance.json"
+hash = "7ff973c43905b117074030a3d134d9892023397e2c0f95b0386d0afef3d135ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_claymore.json"
+hash = "b905953edc912dca4bdc6cbfc94e179e0390a793ae2d4f2741a07d818e1263aa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_concavehalberd.json"
+hash = "5e837b91ed2b9df21c37b3819be593b3642039b2211ce887d190007891ed2b95"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_ellipticalshield.json"
+hash = "1049baa58c2e44e81d1af8919c86064b9a0e8fca33ba7e9a21cf493818a094ee"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_estoc.json"
+hash = "f81b82362e2d32b781ca2542969fa15a533f3c1f21c2a9018a88e2e9ebf45a6d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_flamebladedsword.json"
+hash = "3cf89c9e41af8647d4eaa7a4956b9e2b8a9a680dcbd0ba66394903e7d8fb94ab"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_guisarme.json"
+hash = "235344374de3f02821b47d1d0536a5e1396de238f3461f41b1530ae1b4cbec30"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_heatershield.json"
+hash = "a1fecd60bcf484dc9a9c538cf506f333e3297b776786606a0dd3ed628e8be732"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_heavymace.json"
+hash = "ff26357df218f43e6d2b4bfb7b19316c71e57e31e7e5211e597c8a029aac6f1d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_heavywarhammer.json"
+hash = "f2b56c606f9a306b7b43769d8e74a7cdcb93bef0e5d1d20dffdc14d0049623a5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_ingot.json"
+hash = "3eec96047f10a0136abffd7766346f1f5ccc8c3d4ccfde9b6efdc81fa5d40783"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_katzbalger.json"
+hash = "0864336b63045239b512d62f431045ed6052895968c0a919cf622465aae26d71"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_kiteshield.json"
+hash = "bf8f2d73a7c861bc7f80e08f5ebe1e9e264ef2b53b6df5681adac9c510e90033"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_lochaberaxe.json"
+hash = "bc477c59b75be78f0fa191ecd2c3f30f4f5d329c0ce69b757c2896f82ebc5a1f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_lucernhammer.json"
+hash = "e45918b3bb0d037fff3a74e6f49117d651b17b93b1cb76dd4b51c078c036aec6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_morgenstern.json"
+hash = "4a240616070b51ed638da0c178587aa0701e28c877575f064a62d8e459d74873"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_pavese.json"
+hash = "befcaea3146acb8d103dd58eaed159bc21cffe3d1af2a9a577f8721d8cea1c17"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_pike.json"
+hash = "87a50d4b44a1e16b5df6aa0d41bfc29da8d70cd893c5a0b55336275a49eb18dd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_ranseur.json"
+hash = "336b7f625318a61fa53674d61ae78cbcbe87e56129f79d5127bcba180e0ce9c2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_rondache.json"
+hash = "f8a1ad1cebaf982cbb68147ef54105754b956bb5d5800d9ed2b259709fa9e85e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_roundshield.json"
+hash = "1c88bb3063ae45df33ecae81479563507439355591f9ed5ccafba2b054c2849f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_shortsword.json"
+hash = "f5fb55cf4581fe1ae7df6f486e76d468a49616e4668fbd312f7083af1b9e5a4a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_stylet.json"
+hash = "50c785a9a9a6b55e0b856976065c3c2f014a23e21b442a120c099a266fa350ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_target.json"
+hash = "db72e25085d55604b0e1d176debe06774c46059d0e275f7b084c605856301a71"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_tartsche.json"
+hash = "0c02d2ec8f41c820782ea2add7cb54532cce28afe0f1dd0d85e356fe4c4d0631"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_zweihander.json"
+hash = "074e430606f544f28f7102a5bc1a283aa0ac85e7d93dd83ac5ab1695a3889050"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/armet.json"
+hash = "eb715b3a9efd6e606fdd1749757cfee35390769d0ebaf3ce658f65afa87406dd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/barbute.json"
+hash = "12c6a75fde6247eb3f89fa3221403b3335bb9dceefcc6cc1c37758a6d2aae900"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/bascinet.json"
+hash = "bf51f1dc74c140bbedaf6d098630f10998413859d91818d0be8a302476b0ef1a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/brigandine_chestplate.json"
+hash = "edd37a02441e9e1f8b52b4ca02c52e21a76ecbf1cbb3737f12d66eeedac33633"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/ceremonial_boots.json"
+hash = "b24a841fd467c3bc56ffbff0632abf276a9a2a675ac5db511d1ca07b1849716c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/ceremonial_chestplate.json"
+hash = "163b91d5700b3bf71be21de77ff20b3464e75a2f6c2b9a1c45d60a71ab61a51e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/ceremonialarmet.json"
+hash = "ffc093ef6f0dd1c76248da00e3688d403dcec906f520c5d51d146034182d0d31"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/chainmail_boots.json"
+hash = "f80c42ccdf4ea239e590f88e5b93ffda26be7e0fe773fcb08602c18806ae7dd2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/chainmail_chestplate.json"
+hash = "e95610dc81227c23e9bdd942b16758fcbe2f4a7ecede8744fc7111c0798f647b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/chainmail_helmet.json"
+hash = "93b98e2eaf482d55571178d8279da26c93fa599f186d19ad222d1adae461c7fb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/chainmail_leggings.json"
+hash = "dcf3382ea0d3f65d18c57ab1bbd32d2fcbaabcd703810d0a0978d5332f3b02e9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/crusader_boots.json"
+hash = "cda6f19d8cb8a953cd1571e9d052ba4adab4f6011546f86bef5813264db8dddb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/crusader_chestplate.json"
+hash = "35f7fc0b098ecb7b237cbe6d762a26edb74cfdf140243291c037e31e69300ae0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/crusader_leggings.json"
+hash = "c29654695dffd78a3f5886808968a6bf4f6f2607541412cebaec3b0491e4e632"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/cuirassier_boots.json"
+hash = "8ed4f2d95316be0435423bfd35173adbcd65b29e35bab59b4c3557eb80ab8265"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/cuirassier_chestplate.json"
+hash = "eb8d417c7b020583341754ce40fda5c211e2e2e42fabb554f0969b836f72451c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/cuirassier_helmet.json"
+hash = "eb619b03505572c26d59d384f6ba3a42efa3049fe0e3e6de70c006f227c745bd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/cuirassier_leggings.json"
+hash = "68372fa40d002107efb4b184fdbf04b0ac5cc800029100bcf385f47215e70b1a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/gambeson_boots.json"
+hash = "3513c56748fad42ed332dc3ec59113ca29c34fa4109c99358727f2bb09a580b3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/gambeson_chestplate.json"
+hash = "31411be0487eb6eed04c58947dfe8e75d0bc7a0587979ffc5a2097135ba8a168"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/gothic_boots.json"
+hash = "b44945ffb4117ed0b978472ceaed67e37b38857e327cc91ce143c24c4177d5e5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/gothic_chestplate.json"
+hash = "f02ea2a11d2cef1b535c535b3c5c537c911664e0b8c56105ef84fd67f8454edb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/gothic_leggings.json"
+hash = "e80e50927d3f61405637bbf59da09c2f05223567fe19947b4af7270025652ac9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/halfarmor_chestplate.json"
+hash = "1b3d801f828d1fb113276661df9693e9e5b18f0b7dc02858fdf9f55f09bb5062"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/jousting_boots.json"
+hash = "5df05e02fd6826fde141a43040c489477a5f7b38c03c1580a86ea13d43d09439"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/jousting_chestplate.json"
+hash = "ac6cfa999dd9673d6ff82c503163f77a0001349149429e9ca59a26db046a8a1c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/jousting_leggings.json"
+hash = "a620249d11afd0893269c3f4217bd54fa23cf83d650c4ed012a3b6ef8160de79"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/kastenbrust_boots.json"
+hash = "cb24ba099cac2d440745db169355c74a7e9c02297960113a1c1e8ca3eaf4d14f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/kastenbrust_chestplate.json"
+hash = "c697e78c2613a021b331555c00068f04cad470cf58e22329a31971e7f820dc26"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/kastenbrust_leggings.json"
+hash = "8fa86fc5bc6e4570f450dc5183300b00518d6c4ce581a744f76c709af6d7ce15"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/kettlehat.json"
+hash = "9b1b173f99ca091e67d18ac5d56aedc0c0227042902103d9ff34fe9a114ca8e6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/knight_boots.json"
+hash = "72a330bb6ac73220a2f45db0296319fb15ca3fbff8354ee4ad705eb7455048ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/knight_chestplate.json"
+hash = "0b2dba591989c66614420a63f314905a0857053920702c6c070cc700ac6861df"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/knight_leggings.json"
+hash = "3a219087b04a9d79c25bceb74cbd0222f52091d7570b202a295df5efa85a6710"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/lamellar_boots.json"
+hash = "71e3e659a30ee400db346d26b8548fbc372ef248fd5286d369a0f8906ba7da57"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/lamellar_chestplate.json"
+hash = "326bedf6afd13c40944a2bbfcf740adb728e23a41b7cea1d8142aa2c3817b29d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/maximilian_boots.json"
+hash = "bff5f8fb009f30e82660264c1fe9b7da1b90f8d76f766312d57cf538bff2b1ff"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/maximilian_chestplate.json"
+hash = "c852a650d62c049d6253c1c1c8316dbb57cdf436944d50b52d9d516ca6d0c716"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/maximilian_leggings.json"
+hash = "d11172020e96414f27d666d8b99d4655e4e0a955c7accf81c8d6942555f2c1dd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/norman_helmet.json"
+hash = "91c712160e303ccb8ce9c649dd130d11a168e54af0f11836802ed1698836a467"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/platemail_boots.json"
+hash = "b01ab3d456136da97fb99a2f9bcb184e7bb9ff33971ca45db783ac72e0ae42fb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/platemail_chestplate.json"
+hash = "84180c9ee6fcdc3b20553fe1cf0ec5db103f32ad09f809bf51661687d03e3a5a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/platemail_leggings.json"
+hash = "c57afb31f4dc73668b45ef325988ea07259dfd99c191abdd44b3c1c0f7886ecd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedbarbute.json"
+hash = "51cb0dc65a98bb09ca24f7f0ef3e33e587e421b2d0ab447ab83083a04bc3bae9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedchainmail_boots.json"
+hash = "335776a951c51aac39b8b2a8e4156f0e94d7e012bfab4192cd060771a3a12be6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedchainmail_chestplate.json"
+hash = "54b59f9afe7d54277de4de4ede493c0bfeb7a07bb906e45923e08cd0253df6eb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedchainmail_helmet.json"
+hash = "3827ad5b1b63a917bee0921b042a4269ee3e8f14fa91b46314ce4576ff2b8cfa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedchainmail_leggings.json"
+hash = "5b3d52f9ccef9f019f41e08d6c66766bd805aba92c9c1bc4882fdb820723ec5c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedcrusader_boots.json"
+hash = "75cfef3b6bbf3d4218acf58b3be9fa7081b94e1dc937fdf3ca9c47dffe66c4e5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedcrusader_chestplate.json"
+hash = "69d021c37ce6b5a70abc010caefadc22cd1a26436eb1f4fbc9de320228027725"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedhalfarmor_chestplate.json"
+hash = "563a3ae323d54086d70dc58eed5d33983fd9ccde89daeea9e970a8c7da7c9176"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustedkettlehat.json"
+hash = "f03c35cbe867747436e0409dc050a9c592ebd4c4fc5b3ea744868dd6e316bc2f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/rustednorman_helmet.json"
+hash = "de361786be945ff03b4818ce417a97f275575aa29b4bbd3fc102ff34dac79962"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/sallet.json"
+hash = "4cfd743da5aceeb7354af01d34903d3e1f23ed9e1f6fdd312afea76c154834c4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/shishak.json"
+hash = "bb2fec6efc6cb15de34dedcd55dc90d02bc02f110c25e6cd238d2ffe90003a45"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/stechhelm.json"
+hash = "28b2b5df8ad1e1d893ea6af93f9f2cd409cdd6840050c9033136a8b0a937616b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/xivcenturyknight_boots.json"
+hash = "7a76e7a1106326e750335fb37ca1b106ae577b3e85d65ef7eae64ea6c363991c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/xivcenturyknight_chestplate.json"
+hash = "5b8a1f478cb712eab87917321465976c3bdd1841c21958745a017425dcdc12e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armures/xivcenturyknight_leggings.json"
+hash = "d3da771256de5a6f5ffe87fcd2296f14cf73a9726aa1b9896b045f1945f68e3b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_chakram.json"
+hash = "d5415a093b239a57b7147a1e3dd8d12109817fdd47d61729409cab0d0fb415bd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_claymore.json"
+hash = "cd02ec4db2b34b389ce6f61833a4747e04b8562a2a68554f3db9dda801b8f40b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_cutlass.json"
+hash = "8d5efc244baf4c298918d7dd66cfdfbeabb10c04d78f1d9a352add4af6bf982a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_glaive.json"
+hash = "e8bd77c74c5d226923f34b7ef9736d8abe0d6664018f3aeaa81ebc98f1bc968b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_greataxe.json"
+hash = "c28a4ff3aafc7b66ae516ee6af5d9261fcca0dbe005f9fe8c230cdfb898bcfcf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_greathammer.json"
+hash = "c37550e5613dd6f47925bdda509464c63bc7163dbf248a28e39160fd8faaebb0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_halberd.json"
+hash = "821371207a507e2a6e1a0f03d41198c5a00e5116a00839aa3dd8d8bdf0756311"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_katana.json"
+hash = "d21c73234f9910982fb88fa23e023c06fea0ab0ac80f32819ea7a9f821554f97"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_longsword.json"
+hash = "17d4c03134a7518ea0fcb75b099d747b3addf0ac7dc9970599b1fea93c571a27"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_rapier.json"
+hash = "98b32a4297ceced142ab840d4b164e5189681da2579105f4c9d0abeb31bd4569"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_sai.json"
+hash = "224d27fda21bb8e81055c16bf098660d4d352a4077d0bcdfe2915c6cd966677e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_scythe.json"
+hash = "88e13dff05088ed59b79536afe72d0f30bfa4d61be1222fba627cd73bc671a84"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_spear.json"
+hash = "ede4443df5800cc17826d28fa823f2d514061541c72497929434024fada6311c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_twinblade.json"
+hash = "38edf19bf4cd6448141f9a2acc7e1c1de5c4123f748ab045008565fff441fd08"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/diamond_warglaive.json"
+hash = "cd39d7f7381551a3134b8cf06729a8a5effa2fd6bb03ee0faecde71b982da957"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_chakram.json"
+hash = "e8406916617440ee1e756fb7ac20095f9a61194ad39eed8b46321a4dff2793fb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_claymore.json"
+hash = "d6ec281fbc7ebfcc7dcff44a6888650591a8eaaa70d906ae832280ada5f740d7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_cutlass.json"
+hash = "f566c2f355a9b688a7231c6966718b2dfaa1d67c3b97d43b64cf7a4e73504d11"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_glaive.json"
+hash = "caf18e674ac825d456fd8ef1c5085bf93ccc471c4cb17472a9dac604b00571f1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_greataxe.json"
+hash = "f6f93474d72b8321747e359dd05a93dd136de5f722472669db46099c06482c31"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_greathammer.json"
+hash = "ad43a72cf8b16a0a26caccb823efd5b11fd52db13b5e80bf14989fefff9365cf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_halberd.json"
+hash = "cf784dcf73794130905d23b9c20a75f9c27317f8f93528c7e82de8b8b2e08670"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_katana.json"
+hash = "da464ad9074609e0b2ac96c2da9bd8dccc0511799bcf537137cb5620294604ad"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_longsword.json"
+hash = "6c3263bf2fef32a635b065264d4808407f233e5ee79639b07f0a10a95f7dc0a6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_rapier.json"
+hash = "144471d7ff7902639a68a4605e834902792fb7b604b74ed4d7db0d6d9c9d72f9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_sai.json"
+hash = "d920226c85e49f24ca639ea7308b7416a49c0aae5477068865e49c05b12b4b77"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_scythe.json"
+hash = "2d036436daa7353b9da0fb72cf67afdc0edf77c71894807083b89e7bfe67cf44"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_spear.json"
+hash = "a20e8ef824658572b3d1386810d71f278319d7d58e49f86efd2ed0a815343ec9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_twinblade.json"
+hash = "5d027ac447bdf3912a5d5ca24cdaba60dbc547265a8e919e0e8de63c6ea9c0d3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/gold_warglaive.json"
+hash = "73f391359bb22669a4714ba8638ce922c5630f3ca9f0d710be9e8425e951a199"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_chakram.json"
+hash = "fe3d2cf22b5c6a3e0c3a42126fa97b4ecb04060c3ddb05943be65ca375d166b6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_claymore.json"
+hash = "152dd4aef65789879ffc371dddc18f075fc237df404599c087d891cab0236a8b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_cutlass.json"
+hash = "d2dd519050fd52d2118fcedc986b3bcb33cac6b86ce73f3e145f76e77928941c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_glaive.json"
+hash = "978e01c3799d6fc440fa8cca2d9b7a054300e32b412bec14e800bbc98804d44b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_greataxe.json"
+hash = "8d4f5f99b6e1b8f4cb4e74b7940c4aa1755bb529a8d99be00e950574dd312ebd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_greathammer.json"
+hash = "c2d1381ed36a8b6aff3c06f63f7b9cacc2d9a982cd634ccd6c8910510fd41691"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_halberd.json"
+hash = "a60311f70bde0013fad983f057012c26a9816e39d06451f07fee120de5b444ed"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_katana.json"
+hash = "d80f4097aec94ce2d07ebd7a58fd09cae1e8a46242b7cc587d5984ddb63a41ef"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_longsword.json"
+hash = "bdb4edf416d264777bce25aff8a59e7fb0014d00a889d04c42ac80d9b6d7baec"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_rapier.json"
+hash = "f3cdf7a4903694f76611ac0a07a0d7c04dcb00d58bff16d3717c3e61beb15352"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_sai.json"
+hash = "b34b75c5c454d8153b4f7245309cc96d7641f1b8582c07d7fd04586b201c4bbb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_scythe.json"
+hash = "82ede22bf7c458fabc4e0df4d74ab7b93de5080c0d515bc794cd5898d01b6b12"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_spear.json"
+hash = "9cb628702ac385fe8a3849b403b8fb5bd2991fdf0c56c0670572dc397759c15f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_twinblade.json"
+hash = "c7193abd8b4802e3d1f6d85c8e0843f4803a6dd7e2e755b9b8f261ffa7aac3c8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/iron_warglaive.json"
+hash = "248b001dda6694172cd6e6419c0cd490a95304effde45d9a71964852e990d224"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_chakram.json"
+hash = "14d21468c079c3fa870674840497a8e1773b01c42ccc971816e98c9ced62a37a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_claymore.json"
+hash = "21a91ebc4cc5ecc4b749d2dc9a2b2a8925c8dfcdbc3e5376769abc41515d090e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_cutlass.json"
+hash = "7d8b378e3f192c0117fe5c895be80496437bf04f9f1b0d304e65f72258f67213"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_glaive.json"
+hash = "97df1f19bcd800d8c84d48b47a026618847e06d82e118370100c4c1e6ed41bdd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_greataxe.json"
+hash = "8c4c2b3cc58db0150d914faa69276b04a2a7336fc7f315c10a389b3b3dbe059f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_greathammer.json"
+hash = "7227fc799ac2fa6a9e88e85bd763dabe614f07cedf44bfea4fecfa1157a0c63e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_halberd.json"
+hash = "dd031bf1b9f32cd6fda64342d9dd7d72ae32a4d561f2560f0b7841815e2c6b85"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_katana.json"
+hash = "75418919d53f62201db0a369d491a8e1a8ef62b1c0e467e5361254018c73765a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_longsword.json"
+hash = "3641831c942914013f95e33c8dce5bbde0b0b75f60e87f3fab570c99002be44e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_rapier.json"
+hash = "e6fe3f019785003152b7b4fedc0aefd0f0f294d314b3ccdd8d3da694ce27a4cc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_sai.json"
+hash = "60e9f81b4af11481f6969011c1ee4d12253eb70930cdfbfd40389930eb05b04c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_scythe.json"
+hash = "547811db3d824f69b8895e4f8d640f84171d13a76482d912f19775a949be0560"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_spear.json"
+hash = "1d37d47a75e48f435fae4d5909512012340fa5c0e4109c3ae5ecbf9b7af74f86"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_twinblade.json"
+hash = "d33b527edb3a2330f21f196abdd21f5352b0ada8816161e778a18b8ed6b235ae"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/netherite_warglaive.json"
+hash = "742ae64d5dc7d2e07d1fd3b5c1559691410b9b60bd66f929d32ce0866348ce77"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_chakram.json"
+hash = "24a2a0bf6c38c5aefac5c4a257b05f3494c60389cb4d20e004670d54a3071db5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_claymore.json"
+hash = "1fafcc77822da777eac767c42c962e010a447bee30e5ba529dab51c66ec98166"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_cutlass.json"
+hash = "fcaa3bda065351550c3c909d57f6a68e17723095f2222985a55d129ae881a85a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_glaive.json"
+hash = "629124ad215f7f1240dde2a253487e262398fdfc11da9e9f0740ace904b3ae2f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_greataxe.json"
+hash = "7b6cc11156792f3c36599da4ad9614571d88cfb419e3bb197883da4de4a13acc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_greathammer.json"
+hash = "90ade5a5341e29f9d1892cc16699daff212ff6b0ca766b8f14f6c8c5d02ede60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_halberd.json"
+hash = "1afd6dd6ee635cca2c350197fe8fb788bc18a776e33454d4bce02ace7b0e5bbd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_katana.json"
+hash = "b27917444980dbfde62668d9d2063b46e8a8ba7e143b58387fa4b923bda61f1e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_longsword.json"
+hash = "cbe6034f75d176c8c8e0eafc154b6b0617f3ab0f8dff4dec41b55ce553e4a69c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_rapier.json"
+hash = "34c4c56c04fd777b119337d7e92f8c82b46c0aa75d2a3bba7d349e92c18d8a40"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_sai.json"
+hash = "ab46f833fca1e90d2e4913a8ed3d2438d1b2d25e92409031820d76434a1161e9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_scythe.json"
+hash = "fe8512436fd4f8c7f586cacdbf2cee3aa759601d7a375eaa356f69fd676190cf"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_spear.json"
+hash = "9a357a4eb6c459a51293fe42a7cd9aa9f95c6def9407679d86a8faacbd5caefa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_twinblade.json"
+hash = "b49aa4af99b1a45202fec357e64a7fa08f48991468934da8c7185748949bc017"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/simplyswords/runic_warglaive.json"
+hash = "932b82e0bdad836004494072e87cafdff3c0dac04fb2be6491165c77019e3ca7"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/apothic_elites/aether/valkyrie_dechue.json"
 hash = "51328b3a2b467233db3920c1a347435a0181d84f565d826982e665318ffd4a11"
 
@@ -3194,11 +4938,11 @@ hash = "6214491e9e48d9e3108f2b5d2ac152581940c2fd0ed35b144ec3e727d93e9af6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/equipement_epique.json"
-hash = "70d45bf68ab9834b5af7bfab9904cf875c682f6a6b3d63d59e0675f6c8c8f636"
+hash = "3008e8cca2ca86cbc42b63fbd8ca92913b243064ce3b6e6f4ed23882c0a2a876"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/equipement_mythique.json"
-hash = "ac9a414f20573b933bf5ad33dfa04abf6b677bd61117653b54131ec3f4e4eba3"
+hash = "b9a1f39860a927e5a6112ba7f65c7fb7f68cc7bc8c116cef0e75b68496033d00"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses/parchemin_epique.json"
