@@ -101,10 +101,10 @@ $Quests += @{ k = 'ax_intro'; x = 0; y = 23; size = 1.5; shape = 'gear'; deps = 
         'Leurs parchemins sont &ctrès rares&r : on ne les trouve que dans quelques coffres de fin de jeu (cité antique, trésor de la cité de l''End, chambre du Roi Mort, citadelle d''Iron''s, tour du Liche, tour noire du Crépuscule, temple de l''Autre Côté).',
         '',
         'Chaque quête ci-dessous se valide en lançant le sort.') }
-$apex = @(@('root', 'Le Grand Sigil'), @('sunfall', 'Chute du soleil'), @('skybreak', 'Brise-ciel'), @('world_tree', 'L''Arbre-monde'), @('heaven_gate', 'Les Portes du Paradis'), @('glaciation', 'Le Glacier'), @('the_gaze', 'Le Regard'), @('voidgrip', 'L''Étreinte du vide'), @('colosseum', 'Le Colisée'), @('reckoning', 'Le Jugement'), @('black_coffin', 'Le Cercueil noir'), @('thousand_blades', 'Mille Lames'), @('phoenix', 'Le Phénix'), @('thunder_dragon', 'Le Dragon de foudre'), @('full_bloom', 'Pleine floraison'), @('ice_age', 'L''Ère glaciaire'), @('crimson_threads', 'Les Fils écarlates'), @('dimension_cut', 'La Coupure dimensionnelle'))
+$apex = @(@('root', 'Le Grand Sigil'), @('sunfall', 'Chute du soleil'), @('skybreak', 'Brise-ciel'), @('world_tree', 'L''Arbre-monde'), @('heaven_gate', 'Les Portes du Paradis'), @('glaciation', 'Le Monde figé', 'stilled_world'), @('the_gaze', 'Le Regard'), @('voidgrip', 'L''Étreinte du vide'), @('colosseum', 'Le Colisée'), @('reckoning', 'Le Jugement'), @('black_coffin', 'Le Cercueil noir'), @('thousand_blades', 'Mille Lames'), @('phoenix', 'Le Phénix'), @('thunder_dragon', 'Le Dragon de foudre'), @('full_bloom', 'Pleine floraison'), @('ice_age', 'L''Ère glaciaire'), @('crimson_threads', 'Les Fils écarlates'), @('dimension_cut', 'La Coupure dimensionnelle'))
 $i = 0
 foreach ($a in $apex) {
-  $Quests += @{ k = "ax_$($a[0])"; x = 2 + ($i % 6) * 1.25; y = 22 + [Math]::Floor($i / 6) * 1.25; size = 0.75; deps = @('ax_intro'); hideLines = $true; tasks = @("adv:grandsigil:$($a[0])"); crate = 'legendaire'; optional = $true; icon = 'irons_spellbooks:legendary_ink'
+  $Quests += @{ k = "ax_$($a[0])"; x = 2 + ($i % 6) * 1.25; y = 22 + [Math]::Floor($i / 6) * 1.25; size = 0.75; deps = @('ax_intro'); hideLines = $true; tasks = @("adv:grandsigil:$(if ($a.Count -gt 2) { $a[2] } else { $a[0] })"); crate = 'legendaire'; optional = $true; icon = 'irons_spellbooks:legendary_ink'
     t = $a[1]; st = 'Sort ultime' }
   $i++
 }

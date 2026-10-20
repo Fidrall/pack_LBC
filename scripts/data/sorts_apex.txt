@@ -3,13 +3,13 @@ grandsigil:colosseum
 grandsigil:crimson_threads
 grandsigil:dimension_cut
 grandsigil:full_bloom
-grandsigil:glaciation
 grandsigil:grand_sigil
 grandsigil:heaven_gate
 grandsigil:ice_age
 grandsigil:phoenix
 grandsigil:reckoning
 grandsigil:skybreak
+grandsigil:stilled_world
 grandsigil:sunfall
 grandsigil:the_gaze
 grandsigil:thousand_blades

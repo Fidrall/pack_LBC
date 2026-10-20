@@ -1724,7 +1724,7 @@
 			size: 0.75d
 			tasks: [
 				{
-					advancement: "grandsigil:glaciation"
+					advancement: "grandsigil:stilled_world"
 					criterion: ""
 					id: "0ECDBF204C9EBCF1"
 					type: "advancement"
