@@ -10,6 +10,10 @@ $eq = @{}; foreach ($b in Import-Csv "$PSScriptRoot\data\boss_equilibrage.csv") 
 function Ecrit($f, $lignes) { $nl = if ([IO.File]::ReadAllText($f) -match "`r`n") { "`r`n" } else { "`n" }; [IO.File]::WriteAllText($f, (($lignes -join $nl) + $nl), $enc) }
 function F($x) { ([Math]::Round($x, 2)).ToString('0.0#', $ic) }
 $plafondDegatsRecus = 40.0   # Cataclysm : 20 a 25 par coup recu par defaut, 999 dans l'ancien pack
+# Cataclysm : limite de degats recus PAR SECONDE (tous joueurs confondus) supprimee, comme l'ancien pack : elle annulait
+# le gain du multijoueur. Compensee en vie pour un joueur de fin de partie a 20 degats/s : vie x (20 / limite d'origine).
+$dpsReference = 20.0
+$dpsDefaut = @{ ender_guardian = 13; netherite_monstrosity = 20; ignis = 14; harbinger = 14; leviathan = 15; ancient_remnant = 14; maledictus = 13; scylla = 13 }
 
 # --- Cataclysm : sections [mobs.<boss>.*]
 $defauts = Get-Content "$PSScriptRoot\data\cataclysm_defauts.json" -Raw | ConvertFrom-Json
@@ -18,8 +22,10 @@ $lignes = foreach ($l in [IO.File]::ReadAllLines($f)) {
     if ($l -match '^\s*\[mobs\.([a-z_]+)') { $sec = $Matches[1] }
     $id = @("cataclysm:$sec", "cataclysm:the_$sec") | Where-Object { $eq.ContainsKey($_) } | Select-Object -First 1
     if ($id -and $l -match '^(\s*)(health_multiplier|attack_multiplier)\s*=') {
-        $v = if ($Matches[2] -eq 'health_multiplier') { $eq[$id].vie } else { $eq[$id].deg }; "$($Matches[1])$($Matches[2]) = $(F $v)"; continue
+        $comp = if ($dpsDefaut[$sec]) { [Math]::Max(1.0, $dpsReference / $dpsDefaut[$sec]) } else { 1.0 }
+        $v = if ($Matches[2] -eq 'health_multiplier') { $eq[$id].vie * $comp } else { $eq[$id].deg }; "$($Matches[1])$($Matches[2]) = $(F $v)"; continue
     }
+    if ($dpsDefaut[$sec] -and $l -match '^(\s*)dps_cap\s*=') { "$($Matches[1])dps_cap = 1000000.0"; continue }
     if ($defauts.$sec -and $l -match '^(\s*)([a-z_]+)\s*=\s*[\d.]+\s*$' -and $null -ne $defauts.$sec.($Matches[2])) {
         $k = $Matches[2]; $d0 = [double]$defauts.$sec.$k
         if ($k -eq 'damage_cap') { if ($id -and $d0 -lt $plafondDegatsRecus) { "$($Matches[1])$k = $(F $plafondDegatsRecus)"; continue } }

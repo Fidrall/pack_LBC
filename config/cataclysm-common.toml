@@ -412,7 +412,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.6
+			health_multiplier = 2.46
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -426,7 +426,7 @@
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -544,7 +544,7 @@
 			#Dps Cap
 			# Default: 20.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 20.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -590,7 +590,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.77
+			health_multiplier = 2.53
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -604,7 +604,7 @@
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -678,7 +678,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.75
+			health_multiplier = 2.5
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -692,7 +692,7 @@
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -810,7 +810,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.75
+			health_multiplier = 2.33
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -824,7 +824,7 @@
 			#Dps Cap
 			# Default: 15.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 15.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -876,7 +876,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.56
+			health_multiplier = 2.23
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -890,7 +890,7 @@
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 14.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -998,7 +998,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.6
+			health_multiplier = 2.46
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -1012,7 +1012,7 @@
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -1094,7 +1094,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.75
+			health_multiplier = 2.69
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
@@ -1108,7 +1108,7 @@
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 1000000.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
