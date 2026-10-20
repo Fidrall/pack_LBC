@@ -98,7 +98,7 @@ hash = "089527a465b8b1fb45a3251f5c4ae10dd125838e985a941725184e9d8b0de573"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "2246d41b7191306f84229eba589926443de6ab60f072903fd46cea16be43e413"
+hash = "4a266bb784177fc474f9a6b1cba4ee82b08a401e067cd5b19d91c0acc23318bd"
 
 [[files]]
 file = "config/combat_roll/server.json5"

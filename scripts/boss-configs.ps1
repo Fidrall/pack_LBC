@@ -9,7 +9,7 @@ $ic = [cultureinfo]::InvariantCulture
 $eq = @{}; foreach ($b in Import-Csv "$PSScriptRoot\data\boss_equilibrage.csv") { $eq[$b.id] = @{ vie = [double]::Parse($b.vie, $ic); deg = [double]::Parse($b.degats, $ic) } }
 function Ecrit($f, $lignes) { $nl = if ([IO.File]::ReadAllText($f) -match "`r`n") { "`r`n" } else { "`n" }; [IO.File]::WriteAllText($f, (($lignes -join $nl) + $nl), $enc) }
 function F($x) { ([Math]::Round($x, 2)).ToString('0.0#', $ic) }
-$plafondDegatsRecus = 40.0   # Cataclysm : 20 a 25 par coup recu par defaut, 999 dans l'ancien pack
+$plafondDegatsRecus = 1000000.0   # Cataclysm : 20 a 25 par coup recu par defaut ; supprimee comme dans l'ancien pack (999)
 # Cataclysm : limite de degats recus PAR SECONDE (tous joueurs confondus) supprimee, comme l'ancien pack : elle annulait
 # le gain du multijoueur. Compensee en vie pour un joueur de fin de partie a 20 degats/s : vie x (20 / limite d'origine).
 $dpsReference = 20.0

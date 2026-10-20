@@ -422,7 +422,7 @@
 			#Damage Cap
 			# Default: 22.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
@@ -470,7 +470,7 @@
 			#Damage Cap
 			# Default: 999999.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 999999.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 999999.0
 			# Range: 1.0 ~ 1000000.0
@@ -540,7 +540,7 @@
 			#Damage Cap
 			# Default: 25.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 20.0
 			# Range: 1.0 ~ 1000000.0
@@ -600,7 +600,7 @@
 			#Damage Cap
 			# Default: 20.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
@@ -688,7 +688,7 @@
 			#Damage Cap
 			# Default: 22.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
@@ -820,7 +820,7 @@
 			#Damage Cap
 			# Default: 20.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 15.0
 			# Range: 1.0 ~ 1000000.0
@@ -886,7 +886,7 @@
 			#Damage Cap
 			# Default: 21.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
@@ -1008,7 +1008,7 @@
 			#Damage Cap
 			# Default: 20.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
@@ -1104,7 +1104,7 @@
 			#Damage Cap
 			# Default: 21.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 40.0
+			damage_cap = 1000000.0
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
