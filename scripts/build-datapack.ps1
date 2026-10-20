@@ -877,5 +877,16 @@ foreach ($n in $cq.PSObject.Properties.Name) {
         [ordered]@{ rolls = [ordered]@{ type = 'minecraft:binomial'; n = $tirages[1]; p = $tirages[2] }; entries = @($entries) }) })
 }
 
+# ---------- 27. Audit d'equilibrage : recettes retirees ou adoucies ----------
+# Encres epique et legendaire d'Iron's : seulement au chaudron d'alchimiste (4 fioles -> 1), comme le pack d'origine.
+# Create Wizardry ajoutait des recettes au melangeur Create qui rendaient l'encre legendaire automatisable des le milieu de partie.
+foreach ($r in 'irons_spellbooks:mixing/epic_ink', 'irons_spellbooks:mixing/epic_ink_mana_recipe', 'irons_spellbooks:mixing/legendary_ink',
+    'irons_spellbooks:mixing/legendary_ink_mana_recipe', 'minecraft:mixing/cei_epic_ink_recipe', 'minecraft:mixing/cei_legendary_ink_recipe') {
+    $ns, $chemin = $r.Split(':')
+    W "data/$ns/recipe/$chemin.json" ([ordered]@{ 'neoforge:conditions' = @(@{ type = 'neoforge:false' }); type = 'minecraft:crafting_shapeless'; ingredients = @(@{ item = 'minecraft:barrier' }); result = @{ id = 'irons_spellbooks:epic_ink' } })
+}
+# Pyrium (1 lingot garanti sur chaque boss de Hazen) : 1 debris antique au lieu de 5, recyclage et non source de netherite
+W 'data/irons_spellbooks/recipe/ancient_debris_from_pyrium.json' ([ordered]@{ type = 'minecraft:blasting'; cookingtime = 200; experience = 0.0; ingredient = @{ item = 'irons_spellbooks:pyrium_ingot' }; result = [ordered]@{ id = 'minecraft:ancient_debris'; count = 1 } })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

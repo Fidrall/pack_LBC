@@ -1401,8 +1401,36 @@ file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/test/scr
 hash = "5cc008a7b38dda7122b90cbedc11d467457ec9f3526801d1137e18170e3a8b6d"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/recipe/ancient_debris_from_pyrium.json"
+hash = "ff90c84dcff79315b89e39d2d98dfd5c15342006280d85d7dbcca09bf5d5eab3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/recipe/mixing/epic_ink.json"
+hash = "05957688715f2bdfb8307ac03b4e3d4d0368d0c9eeaee5213c271b8df81120e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/recipe/mixing/epic_ink_mana_recipe.json"
+hash = "05957688715f2bdfb8307ac03b4e3d4d0368d0c9eeaee5213c271b8df81120e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/recipe/mixing/legendary_ink.json"
+hash = "05957688715f2bdfb8307ac03b4e3d4d0368d0c9eeaee5213c271b8df81120e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/recipe/mixing/legendary_ink_mana_recipe.json"
+hash = "05957688715f2bdfb8307ac03b4e3d4d0368d0c9eeaee5213c271b8df81120e2"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/worldgen/scroll_gen.json"
 hash = "6226ad38ea76e361d5515018becdbdb9a4e3c62cde69f2694d66ceb887a6fe29"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/recipe/mixing/cei_epic_ink_recipe.json"
+hash = "05957688715f2bdfb8307ac03b4e3d4d0368d0c9eeaee5213c271b8df81120e2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/recipe/mixing/cei_legendary_ink_recipe.json"
+hash = "05957688715f2bdfb8307ac03b4e3d4d0368d0c9eeaee5213c271b8df81120e2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/item/enchantable/equippable.json"
