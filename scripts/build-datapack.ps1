@@ -825,10 +825,12 @@ W 'data/neoforge/loot_modifiers/global_loot_modifiers.json' ([ordered]@{ replace
 # elle apprivoisait boss et raiders, et posee sur l'oeuf de dragon elle fait renaitre l'Ender Dragon deja apprivoise.
 $friandises = [ordered]@{
     golden_bone   = @('twilightforest:mist_wolf', 'twilightforest:winter_wolf', 'born_in_chaos_v1:dread_hound', 'born_in_chaos_v1:dire_hound_leader')
-    golden_fish   = @('minecraft:polar_bear', 'born_in_chaos_v1:thornshell_crab', 'friendsandfoes:mauler', 'twilightforest:yeti')
+    golden_fish   = @('minecraft:polar_bear', 'born_in_chaos_v1:thornshell_crab', 'friendsandfoes:mauler', 'twilightforest:yeti',
+        'mowziesmobs:naga', 'minecraft:dolphin', 'create_abyss:cookiecutter_shark')
     golden_fungus = @('minecraft:hoglin', 'minecraft:piglin_brute')
     golden_flesh  = @('minecraft:zoglin', 'twilightforest:troll', 'born_in_chaos_v1:felsteed', 'illagerinvasion:basher', 'illagerinvasion:marauder')
-    golden_wheat  = @('twilightforest:boar', 'twilightforest:minotaur', 'minecraft:ravager', 'mowziesmobs:lantern', 'twilightforest:kobold', 'born_in_chaos_v1:pumpkin_bruiser')
+    golden_wheat  = @('twilightforest:boar', 'twilightforest:minotaur', 'minecraft:ravager', 'mowziesmobs:lantern', 'twilightforest:kobold', 'born_in_chaos_v1:pumpkin_bruiser',
+        'aether:aerwhale')
     golden_eye    = @('minecraft:spider', 'deeperdarker:sculk_snapper', 'mowziesmobs:grottol', 'minecraft:iron_golem')
     golden_kelp   = @(); golden_slime = @(); golden_star = @()
 }

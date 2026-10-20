@@ -16,6 +16,18 @@
                    {
                        "id":  "twilightforest:yeti",
                        "required":  false
+                   },
+                   {
+                       "id":  "mowziesmobs:naga",
+                       "required":  false
+                   },
+                   {
+                       "id":  "minecraft:dolphin",
+                       "required":  false
+                   },
+                   {
+                       "id":  "create_abyss:cookiecutter_shark",
+                       "required":  false
                    }
                ]
 }

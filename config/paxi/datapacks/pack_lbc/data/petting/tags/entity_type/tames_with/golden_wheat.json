@@ -24,6 +24,10 @@
                    {
                        "id":  "born_in_chaos_v1:pumpkin_bruiser",
                        "required":  false
+                   },
+                   {
+                       "id":  "aether:aerwhale",
+                       "required":  false
                    }
                ]
 }

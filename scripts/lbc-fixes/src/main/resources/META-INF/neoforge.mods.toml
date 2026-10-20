@@ -12,7 +12,7 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - FTB Chunks : pas de mise a jour de la minimap quand elle est desactivee
 - Somake Spells : effet de la zone Pumpkin Bomb enregistre (plus d'expulsion via Neruina)
 - Infested Swarms and Spiders : oeufs d'araignee seulement sur une araignee tuee par un joueur, une fois sur deux
-- Petting : ne gere que ses propres familiers (chevaux, dragons Wyrmroost, chiens... gardent leur clic droit)'''
+- Petting : ne gere que ses propres familiers (chevaux, dragons Wyrmroost, chiens... gardent leur clic droit), volants des mods (Aerwhale) pilotes en vol'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"

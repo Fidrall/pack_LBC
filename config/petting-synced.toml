@@ -18,5 +18,5 @@
 [riding]
 	enablePetRiding = true
 	useWhitelist = true
-	whitelist = ["minecraft:spider", "minecraft:polar_bear", "minecraft:hoglin", "twilightforest:boar", "minecraft:ravager", "minecraft:zoglin", "twilightforest:minotaur", "twilightforest:troll", "twilightforest:yeti", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:felsteed", "friendsandfoes:mauler", "deeperdarker:sculk_snapper"]
+	whitelist = ["minecraft:spider", "minecraft:polar_bear", "minecraft:hoglin", "twilightforest:boar", "minecraft:ravager", "minecraft:zoglin", "twilightforest:minotaur", "twilightforest:troll", "twilightforest:yeti", "born_in_chaos_v1:dread_hound", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:felsteed", "friendsandfoes:mauler", "deeperdarker:sculk_snapper", "mowziesmobs:naga", "aether:aerwhale", "minecraft:dolphin", "create_abyss:cookiecutter_shark"]
 	allowRidingWithoutSaddle = false

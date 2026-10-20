@@ -3994,7 +3994,7 @@ hash = "8c37a843aa975dd97f9e8d19fce477c6cca04b5febf8073219519f7a76a3854c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_fish.json"
-hash = "dd5185d347704b04ee3e120040c0ed4ee813c58b6d5b261a413b9682dc9d70ac"
+hash = "c2d4261104ccca2ce06fe191f386728f46c34fb1997cdd928f2cac103e8c18c7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_flesh.json"
@@ -4018,7 +4018,7 @@ hash = "243837fa4377e953cb0d11d9200b3a4c115c0dee0f4e5eeb6a4fcb44e2fa287a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_wheat.json"
-hash = "59319d25006f64b625f4bd08c464831a7953d135f22bea0025df255b7d3cb4f2"
+hash = "14ef455ef29cb7eed881404d64f5b6ebb9f147127bd47b71602c4d8c4a9b9f99"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/relics/tags/item/relics.json"
@@ -4446,7 +4446,7 @@ hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
 [[files]]
 file = "config/petting-synced.toml"
-hash = "61d19ab0a0026f42f6d7c0e0c238ab8edbb1d63d64ed83bfff5ee77c13002f9e"
+hash = "fc294a5c5787693a7b117b731d94f445d347d195611cf858ecfb321942b05df0"
 
 [[files]]
 file = "config/relics.yaml"
@@ -5871,7 +5871,7 @@ metafile = true
 
 [[files]]
 file = "mods/lbcfixes-1.0.2.jar"
-hash = "452586f4b9a3f741ea8232cb068faaded612705e243c6cea48afdbfd582bf040"
+hash = "e81d786ad1715339d6d907931a9fd41bcc426150e8640220b39abbacbc628db9"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
