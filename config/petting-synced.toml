@@ -15,6 +15,11 @@
 	hideTamedBossBars = true
 	tamedMonstersPreventSleep = false
 
+[collar]
+	# Par defaut Petting fait tirer une fleche a toute monture (meme une araignee sans arc) : corps a corps par defaut,
+	# les squelettes et les familiers armes d'un arc ou d'une arbalete tirent toujours.
+	defaultPreferRangedAttack = false
+
 [riding]
 	enablePetRiding = true
 	useWhitelist = true

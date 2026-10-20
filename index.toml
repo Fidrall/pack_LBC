@@ -6210,7 +6210,7 @@ hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
 [[files]]
 file = "config/petting-synced.toml"
-hash = "fc294a5c5787693a7b117b731d94f445d347d195611cf858ecfb321942b05df0"
+hash = "c0ac5baa928b4c619d02a9d06f67db18f9f7a5f74a83e8bd10c7931f4b634e4f"
 
 [[files]]
 file = "config/relics.yaml"
