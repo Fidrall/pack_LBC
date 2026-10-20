@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "block_factorys_bosses:yeti",
+                       "required":  false
+                   },
+                   {
+                       "id":  "block_factorys_bosses:sandworm",
+                       "required":  false
+                   }
+               ]
+}

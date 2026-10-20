@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "twilightforest:ur_ghast",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:snow_queen",
+                       "required":  false
+                   }
+               ]
+}

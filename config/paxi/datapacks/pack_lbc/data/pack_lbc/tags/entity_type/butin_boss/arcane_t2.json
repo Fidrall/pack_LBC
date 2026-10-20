@@ -1,0 +1,21 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "irons_spellbooks:fire_boss",
+                       "required":  false
+                   },
+                   {
+                       "id":  "hazennstuff:pyromus",
+                       "required":  false
+                   },
+                   {
+                       "id":  "hazennstuff:aegis",
+                       "required":  false
+                   },
+                   {
+                       "id":  "hazennstuff:aptos",
+                       "required":  false
+                   }
+               ]
+}

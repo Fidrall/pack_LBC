@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "mowziesmobs:ferrous_wroughtnaut",
+                       "required":  false
+                   },
+                   {
+                       "id":  "mowziesmobs:umvuthi",
+                       "required":  false
+                   }
+               ]
+}

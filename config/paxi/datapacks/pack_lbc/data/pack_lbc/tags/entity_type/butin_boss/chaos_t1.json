@@ -1,0 +1,25 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "born_in_chaos_v1:missioner",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:krampus",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:supreme_bonescaller_stage_2",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:lord_the_headless",
+                       "required":  false
+                   },
+                   {
+                       "id":  "born_in_chaos_v1:lord_pumpkinhead_head",
+                       "required":  false
+                   }
+               ]
+}

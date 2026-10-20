@@ -443,9 +443,9 @@ foreach ($f in $familles.Keys) {
         W "data/pack_lbc/loot_table/boss/${f}_t$t.json" ([ordered]@{ type = 'minecraft:entity'; pools = @(
                     [ordered]@{ rolls = 1; conditions = @($kp); entries = @([ordered]@{ type = 'minecraft:item'; name = 'treasurebags:treasure_bag'; functions = @([ordered]@{ function = 'treasurebags:set_bag_type'; bag_type = "pack_lbc:$f" }) }) },
                     [ordered]@{ rolls = 1; conditions = @($kp, [ordered]@{ condition = 'minecraft:random_chance'; chance = $ct.chance }); entries = $cartes }) })
-        $terms = @($fd.boss[$t] | ForEach-Object { [ordered]@{ condition = 'minecraft:entity_properties'; entity = 'this'; predicate = [ordered]@{ type = $_ } } })
-        W "data/pack_lbc/loot_modifiers/boss/${f}_t$t.json" ([ordered]@{ type = 'neoforge:add_table'; conditions = @([ordered]@{ condition = 'minecraft:any_of'; terms = $terms }); table = "pack_lbc:boss/${f}_t$t" })
-        $glm += "pack_lbc:boss/${f}_t$t"
+        # Plus de modificateur de butin : lbcfixes (BossButin) tire cette table pour CHAQUE joueur present a la mort du boss
+        # et la met dans son inventaire. Le tag pack_lbc:butin_boss/<famille>_t<palier> relie le boss a sa table.
+        W "data/pack_lbc/tags/entity_type/butin_boss/${f}_t$t.json" ([ordered]@{ replace = $false; values = @($fd.boss[$t] | ForEach-Object { [ordered]@{ id = $_; required = $false } }) })
     }
 }
 # Sacs dans les coffres de structure : 1 % de chance, seulement dans les coffres interessants des structures standard

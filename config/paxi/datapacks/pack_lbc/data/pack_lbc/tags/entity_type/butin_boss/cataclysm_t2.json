@@ -1,0 +1,21 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "cataclysm:netherite_monstrosity",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm:ender_guardian",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm:ancient_remnant",
+                       "required":  false
+                   },
+                   {
+                       "id":  "cataclysm:maledictus",
+                       "required":  false
+                   }
+               ]
+}

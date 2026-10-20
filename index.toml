@@ -1490,7 +1490,7 @@ hash = "487b97d49e1567c719dd7a464c3f199476d8a12a36c58ecc3ef8460320598d37"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "e8727d4ea167be3e9a45927b546009c80e4e3ebcb8cdc7a304f4b2573db1776a"
+hash = "286ec669e77d11cfd9ad1501d8fda6218c6609dc7651fe6529f52cd182cdb529"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
@@ -4517,106 +4517,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/lithostitched/worldgen_modi
 hash = "078c9f9985681b7dcd157dfa494b1241838bc870354467296ce5a77e97d4cb33"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/aether_t1.json"
-hash = "b1423839618baee0c85e6e0efcf9342e5b87d852c4cd61fcb835395757808ef7"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/aether_t2.json"
-hash = "04d91b8e627ad4967a3fbe3a22fbf73a4ad5ba345a2369efff891ce328c277db"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/aether_t3.json"
-hash = "8caa392f1369bd050d5fe890bf599455a81b9536d643ea2560bb0337f6fa402a"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/arcane_t1.json"
-hash = "bbc6b3b0561b166460cd943906f7b8c807b91103d160a700dd6d11dd41141726"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/arcane_t2.json"
-hash = "08fffd23636c966c6f8de64c60f262ca3a65e9194481c0b615955b5626c9d9a5"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/bossesrise_t1.json"
-hash = "3de9110f5ee805036adc49544b3b14a7db01ce9dad4fa9bf92d747423f5e7d11"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/bossesrise_t2.json"
-hash = "5d1edce065d82fc5681bdcc578547e2909180a57cee5c8dc7098df80faead9a8"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/bossesrise_t3.json"
-hash = "ccb7caaf3463105033464c965ea65a125045972a3a7e6acf5dc13608b53e6d10"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cataclysm_t2.json"
-hash = "c66743a579f67dc8ba6538451ed81cd0494187c7b44b0d73d107464f7ef4e01e"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cataclysm_t3.json"
-hash = "eaa3b2636e59ffeea86f10ca8842f7d51abe053c79dd9f650c51517bde704081"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/cavernes_t2.json"
-hash = "ed367ba9ba8bb83b511bce5d963bdd848ff539a22979ad13dac7c0d4c163ee91"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/chaos_t1.json"
-hash = "1708d6982bfe51394205c5f1bcfefc1c09a8e4805e43ac14f510d3959e663e4a"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/destruction_t2.json"
-hash = "90df56a15529ce9b25b04fc70456d8b6c4cc10048068d941dd6a6b4c8a8bfe73"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/destruction_t3.json"
-hash = "8162448e25406336a13b2d7e67f9366c048046a72ea02ce89b88680060b1a424"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/illager_t1.json"
-hash = "ff70293ac026d204e933f299ee391d0d67125a8a3d78972ba6a933fb3d104731"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/illager_t2.json"
-hash = "09050acb4284dd4565ddbe7890e85e89965cc1fab4a96317af8fa04fac5182e4"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/legende_t1.json"
-hash = "3a11ef5755b11c2e362a3cd787e64712c0528ecd44f04da587f0ded65ec94db0"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/legende_t2.json"
-hash = "428d7a1fe78e075c8d8c7e90d8542ea32701f4d8879984813122adc7d65f3985"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/legende_t3.json"
-hash = "99a37545b364c5f00da39a32150f9d2389f57925524fa6a25cc9aac6211116c1"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/mowzie_t1.json"
-hash = "3c4ea23da0bb83f12b1520eaf1f640c91dc168e27440d36a45696f0fa387fb03"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/mowzie_t2.json"
-hash = "cac9ce3b158ada7abe030ad2a91bdd1c61948d9b78c2e2364d77120fd7aea00c"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/profondeurs_t2.json"
-hash = "f9bbd1cb3c74ba55311c417a94324c48d02a7697136e1694122211a94a085d67"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twilight_t1.json"
-hash = "78253feeb56149aae48bb4e5b3db18699419af7130e8917f2883c9c5e6359da5"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twilight_t2.json"
-hash = "7b523ad565ce92098ee1dc8b92991db534b437edc6bf1a1f2c5f1eb860e0fff3"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/boss/twilight_t3.json"
-hash = "e1eb4c170f236a976621c44903a248778194539b87539f2556e62dd05827df6a"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_modifiers/coffres/parchemin_apex_1.json"
 hash = "c07fff7138cc721912d9b563c9956bfb64ed6f0b63019e0e1fa3265949b7876d"
 
@@ -5575,6 +5475,106 @@ hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/boss_multijoueur.json"
 hash = "a0c900419330db7eb6716292b8d1fb916126d6771564b8c59f4118b9c8398e8b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/aether_t1.json"
+hash = "9f9c888db4e504b8b2f1682ade80c360b1df7172ee1501a99df33d4ac88b3f03"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/aether_t2.json"
+hash = "c3e04a33638c9fa6d361141e9cd08136c40c81a9b5394ccc4536aae45040e987"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/aether_t3.json"
+hash = "9d14b82a4671e6ed2241de264f84dbefc7b1d36311d352dfac686cf5bd1c10db"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/arcane_t1.json"
+hash = "e9368fdfeecfc3dc8587b12cc4dcde756006e756a4996dc8829fca4c4c191dad"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/arcane_t2.json"
+hash = "c9822fced30c9e0a360db958b4d4b4a38c67bbfb0486db42648e740818d92963"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/bossesrise_t1.json"
+hash = "6b401b5508a89cbe914777e84c07d6be5ceee6cffaa13f3a164e7e77e946212f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/bossesrise_t2.json"
+hash = "5290fa1d2201854eeca7412341fafe0966aa0ef74b5b6145ae1385c8603d24a2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/bossesrise_t3.json"
+hash = "8c078b4c8962474ae9cfa5192fc49aa052a086c6071f1a529395e332e410fda6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/cataclysm_t2.json"
+hash = "16a80b92b77eec1570f46b0d75329dfca22a32b9400a2403e5639c9259e41e0b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/cataclysm_t3.json"
+hash = "2608043595170bf29635da97fb1f1b0e9e819c26c978b1e856f58b9ea221813b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/cavernes_t2.json"
+hash = "ff8e8223ed6fbacd9dd68a8674e746da19e9b79b4ead0ba13285e9db00113aa9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/chaos_t1.json"
+hash = "c2071a25ce7b01b9258e4f9bd6fabd7ac583c8deda05fcb58b8d0ca415e3ba8d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/destruction_t2.json"
+hash = "6d97e3a65fc478d2ef825ca76417ffe7ab013be6dfca29d4c11545fb18bc7a35"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/destruction_t3.json"
+hash = "190729d0278fed1efe93d571750cc4efe95faed63e9b18227c21231091161474"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/illager_t1.json"
+hash = "d4e8420937349a849abab9b5fbc6dbd560e6c49df52821ee773870d0cbbee30e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/illager_t2.json"
+hash = "f53e7bcbc68afa37f2a2a2f4a40636f0ae17979310e25fa96d4ce7fa580db008"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/legende_t1.json"
+hash = "375037add7dab3dac45b8d0beba875fbe4905916c351fc69f92b04750aae38f2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/legende_t2.json"
+hash = "0cb7e8aa5f083b1175b5cc39f6924e37fbd8bdbc2d868d8947ad7cf2933fdafe"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/legende_t3.json"
+hash = "b66d912af2a1647eb8e40b9bb5f8c1d0950a7b7c12fa2fd21411e8a6e69b5596"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/mowzie_t1.json"
+hash = "13cc8485ded638d299f0d15f846ed0107fe6c8541ecf85b08d422393e9aa4a2b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/mowzie_t2.json"
+hash = "627dbec70cc640ec85f9fd3c1845ad146389bc2f6c3128b61475eaeb987c7480"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/profondeurs_t2.json"
+hash = "abe0980549c55f36d971ce3c659ca0d912f734a3ff45ebc70327a287417186f2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/twilight_t1.json"
+hash = "2e439828d38a318845b3e6327ae67074866ad5ae1567a34e0fc7dd1f58c6076e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/twilight_t2.json"
+hash = "6fa75cffa2690514e231d6ff7e3e91acaa22317fcff8794412f99b7a71163d79"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss/twilight_t3.json"
+hash = "8bf23593404fe5964838e50dcba6ec1e922737d2bac56d62d0839c1601022400"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/aether.json"
@@ -7603,7 +7603,7 @@ metafile = true
 
 [[files]]
 file = "mods/lbcfixes-1.0.2.jar"
-hash = "7d8fd6de11e227a1a5e8d342ab5db7a89c21ca40b382a521001811b8fb2a70b3"
+hash = "4602b81dfc817619d604b9d181e1e22260e62e3451fb97228d7b61082739c65e"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"

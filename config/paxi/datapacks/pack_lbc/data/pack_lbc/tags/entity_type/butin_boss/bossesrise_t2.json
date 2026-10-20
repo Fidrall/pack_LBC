@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "block_factorys_bosses:kraken",
+                       "required":  false
+                   },
+                   {
+                       "id":  "block_factorys_bosses:underworld_knight",
+                       "required":  false
+                   }
+               ]
+}

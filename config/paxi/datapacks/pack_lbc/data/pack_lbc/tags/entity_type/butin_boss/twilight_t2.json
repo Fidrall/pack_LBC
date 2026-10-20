@@ -1,0 +1,21 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "twilightforest:minoshroom",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:hydra",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:knight_phantom",
+                       "required":  false
+                   },
+                   {
+                       "id":  "twilightforest:alpha_yeti",
+                       "required":  false
+                   }
+               ]
+}

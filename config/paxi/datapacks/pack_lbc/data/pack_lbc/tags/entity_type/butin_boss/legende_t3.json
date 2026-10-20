@@ -1,0 +1,17 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "minecraft:warden",
+                       "required":  false
+                   },
+                   {
+                       "id":  "minecraft:ender_dragon",
+                       "required":  false
+                   },
+                   {
+                       "id":  "archaion:last_of_deepslate",
+                       "required":  false
+                   }
+               ]
+}
