@@ -24,14 +24,14 @@ import java.util.Optional;
 /**
  * Butin de boss individuel. Un boss du tag pack_lbc:butin_boss/<famille>_t<palier> (datapack, build-datapack section 14)
  * tue par un joueur fait tirer la table pack_lbc:boss/<famille>_t<palier> (sac de la famille + chance de carte) pour
- * CHAQUE joueur vivant a 48 blocs, directement dans son inventaire (au sol a ses pieds s'il est plein).
+ * CHAQUE joueur vivant a 300 blocs (meme dimension), directement dans son inventaire (au sol a ses pieds s'il est plein).
  * Le butin normal du boss tombe toujours au sol.
  */
 @EventBusSubscriber(modid = LbcFixes.MOD_ID)
 public final class BossButin {
 
     private static final String PREFIXE = "butin_boss/";
-    private static final double RAYON = 48.0;
+    private static final double RAYON = 300.0;
 
     private BossButin() {
     }

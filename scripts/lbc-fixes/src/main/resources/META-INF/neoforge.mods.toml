@@ -15,7 +15,7 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - Petting : ne gere que ses propres familiers (chevaux, dragons Wyrmroost, chiens... gardent leur clic droit), volants des mods (Aerwhale) pilotes en vol
 - Apotheosis : apres une baisse de palier, une heure de jeu avant de pouvoir remonter
 - Boss : +50 % de vie par joueur en plus a 48 blocs (tag pack_lbc:boss_multijoueur)
-- Boss : un sac de butin par joueur present, dans l'inventaire (tags pack_lbc:butin_boss/*)'''
+- Boss : un sac de butin par joueur a 300 blocs, dans l'inventaire (tags pack_lbc:butin_boss/*)'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"
