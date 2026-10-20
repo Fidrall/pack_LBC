@@ -2,7 +2,7 @@
     "type":  "minecraft:chest",
     "pools":  [
                   {
-                      "rolls":  2,
+                      "rolls":  1,
                       "entries":  [
                                       {
                                           "type":  "minecraft:item",
@@ -212,8 +212,8 @@
                   {
                       "rolls":  {
                                     "type":  "minecraft:binomial",
-                                    "n":  3,
-                                    "p":  0.4
+                                    "n":  2,
+                                    "p":  0.45
                                 },
                       "entries":  [
                                       {

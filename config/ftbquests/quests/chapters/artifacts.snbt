@@ -87,7 +87,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -116,7 +116,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -147,7 +147,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -176,7 +176,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -205,7 +205,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -234,7 +234,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -263,7 +263,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -292,7 +292,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -321,7 +321,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -350,7 +350,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -408,7 +408,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -437,7 +437,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -466,7 +466,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -495,7 +495,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -524,7 +524,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -553,7 +553,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -640,7 +640,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -669,7 +669,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -756,7 +756,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -785,7 +785,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -872,7 +872,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -930,7 +930,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -959,7 +959,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -988,7 +988,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1017,7 +1017,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1046,7 +1046,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1075,7 +1075,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1104,7 +1104,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1133,7 +1133,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1194,7 +1194,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1223,7 +1223,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1252,7 +1252,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1281,7 +1281,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1339,7 +1339,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1368,7 +1368,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1397,7 +1397,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1426,7 +1426,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"
@@ -1455,7 +1455,7 @@
 						count: 1
 						id: "ftbquests:lootcrate"
 						components: {
-							"ftbquests:loot_crate": "rare"
+							"ftbquests:loot_crate": "commune"
 						}
 					}
 					type: "item"

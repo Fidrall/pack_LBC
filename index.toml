@@ -162,7 +162,7 @@ hash = "945bd3db16fa2b83530688bb41adf12604789151ec7e847132b989831e292931"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "60d6e988a3a9b590d0ced34adfa47500b9351d4ed3593f07c8594442b3b297d0"
+hash = "34fae9f7c8e6f23320f090c806d08d25c7f56ddca47618383c2b2e7ff9e48bcd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
@@ -262,7 +262,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "627de7a12e5f8847361d55a04cfdf5167a2b23d4a224c8af9bc9f3a82da5af7a"
+hash = "b5769cf763d52c0bea54340c4cf0a30249048e2e5a96f33f78ecaa0b4986ddab"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -1094,11 +1094,11 @@ hash = "5b54d21ed8ab354662682c4e93fb3f72c5fcbe7fa2e3c89aeda3a43749c707cf"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_elite.json"
-hash = "8e6ad34eceb3ca30f1677d3cba773465459ad85e90cd48c710871923ff4263dd"
+hash = "59317731911a9a511463a0dcba5034ff2847b12ebdae5bd019758fc1093bb161"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_gardens.json"
-hash = "c78eb5795bdbeccd23cc6dd14874d67977b6f6a62f2d9e36ce131416f7fff4fa"
+hash = "11131fe794a76217803ed02e7a0be303edae6a9dcc70ee3b4b5ae0371a5fc207"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_library.json"
@@ -1106,7 +1106,7 @@ hash = "d1625f3b68c530e5bc6523c299db20926fc2e01c38bdb0223d62ca775e3648d5"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_normal.json"
-hash = "c720dc59e08a25f81c24b4792f71e4dc16fd9a3d30572eeb7b85ceed8e0b4d8f"
+hash = "ca9ede2668b1520857283a86c85952f0dac08b88cc2fd379266e691639499eb0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_rooms.json"
@@ -1122,7 +1122,7 @@ hash = "4932871ccc062b6d57fbd4f3399feb563d8ca5739ebfc6c4209b55feddddbac7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/shiraz_palace/shiraz_palace_treasure.json"
-hash = "63e2a9dd2e270c8f934775bb996f4a3fe2dc671d53cf478d3ba911c664297d7b"
+hash = "089f17403f1f658343e6d265f24399f5eaf05558f954cbeb62dd20a921cc5f41"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/small_blimp/small_blimp_treasure.json"
@@ -4830,7 +4830,7 @@ hash = "4e2391d9ad47d658687f49a5361f465e24a83b492cfd096cfd1d3d589d607b0c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/commune.json"
-hash = "7f0e1f5ccab59cb38268fdadf4ef3dc09d135c671b20ea1e1a02cea401343bb5"
+hash = "d86147a5efc71e0bbf6fcc6183ac5ae6f64cd6e7af55daf88cf0ed5143776a8f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/epique.json"
@@ -4842,7 +4842,7 @@ hash = "8f0fc66d2bab43e85d706112bc0a6b7783d08f4eaf3b0c002803806fd3f68dce"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/rare.json"
-hash = "b89f524bf09c1e045ae61a003f40b011d50ecd1fde719a838e8d81306f6ad8f2"
+hash = "c14c07b380895efc003bc15c6a8dd9a2efb6aace8f1d6e4157f3592d8a983643"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"

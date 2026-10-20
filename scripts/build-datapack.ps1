@@ -870,9 +870,11 @@ foreach ($n in $cq.PSObject.Properties.Name) {
             $e = [ordered]@{ type = 'minecraft:item'; name = $r.item; weight = [int]$r.w }; if ($f) { $e.functions = $f }; $e
         }
     }
+    # communes et rares : 1 a 3 (1 + binomiale 2 x 45 % : 1 = 30 %, 2 = 50 %, 3 = 20 %) ; epiques et legendaires : 2 a 5
+    $tirages = if ($n -in 'commune', 'rare') { @(1, 2, 0.45) } else { @(2, 3, 0.4) }
     W "data/pack_lbc/loot_table/caisses_quete/$n.json" ([ordered]@{ type = 'minecraft:chest'; pools = @(
-        [ordered]@{ rolls = 2; entries = @($entries) },
-        [ordered]@{ rolls = [ordered]@{ type = 'minecraft:binomial'; n = 3; p = 0.4 }; entries = @($entries) }) })
+        [ordered]@{ rolls = $tirages[0]; entries = @($entries) },
+        [ordered]@{ rolls = [ordered]@{ type = 'minecraft:binomial'; n = $tirages[1]; p = $tirages[2] }; entries = @($entries) }) })
 }
 
 $count = (Get-ChildItem $dp -Recurse -File).Count

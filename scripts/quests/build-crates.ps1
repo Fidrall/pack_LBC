@@ -73,11 +73,12 @@ foreach ($n in $caisses.Keys) {
     if ($c.glow) { [void]$sb.Append("`t`tglow: true`n") }
     [void]$sb.Append("`t`titem_name: `"$($c.nom)`"`n`t`tstring_id: `"$n`"`n`t}`n`tloot_size: 1`n`torder_index: $($c.order)`n`trewards: [`n")
     [void]$sb.Append("`t`t{`n`t`t`tcommand: `"/loot give {p} loot pack_lbc:caisses_quete/$n`"`n`t`t`ticon: {`n`t`t`t`tcount: 1`n`t`t`t`tid: `"ftbquests:lootcrate`"`n`t`t`t}`n`t`t`tid: `"$rid`"`n`t`t`tpermission_level: 2`n`t`t`tsilent: true`n`t`t`ttype: `"command`"`n`t`t`tweight: 1.0f`n`t`t}`n")
-    [void]$lang.Append("`treward.$rid.title: `"$($c.nom) : 2 à 5 récompenses`"`n")
+    $nb = if ($n -in 'commune', 'rare') { '1 à 3' } else { '2 à 5' }
+    [void]$lang.Append("`treward.$rid.title: `"$($c.nom) : $nb récompenses`"`n")
     [void]$sb.Append("`t]`n}`n")
     [void][Snbt]::Parse($sb.ToString())
     [IO.File]::WriteAllText("$base\reward_tables\$n.snbt", $sb.ToString(), $enc)
-    "$n : $($c.r.Count) recompenses possibles, 2 a 5 tirages"
+    "$n : $($c.r.Count) recompenses possibles, $nb tirages"
 }
 [IO.File]::WriteAllText((Join-Path (Split-Path -Parent $s) 'data\caisses_quetes.json'), ($data | ConvertTo-Json -Depth 6), $enc)
 [IO.File]::WriteAllText("$s\tr\_reward_tables.lang.txt", $lang.ToString(), $enc)

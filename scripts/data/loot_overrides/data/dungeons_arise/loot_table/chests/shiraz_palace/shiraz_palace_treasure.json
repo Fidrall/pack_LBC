@@ -107,7 +107,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "minecraft:netherite_sword",
+                                          "name":  "minecraft:diamond_sword",
                                           "functions":  [
                                                             {
                                                                 "function":  "minecraft:enchant_with_levels",
