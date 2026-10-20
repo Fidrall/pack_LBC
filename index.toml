@@ -94,11 +94,11 @@ hash = "8cc48d638b8402ec17684d034eadd991cbf5d5b31d14ba651b9692bc44f6534b"
 
 [[files]]
 file = "config/bosses_of_mass_destruction.json5"
-hash = "0ec13d48df1b13a595202f54f01cd29b79c81060c0f9fae2c81fe187451c3879"
+hash = "089527a465b8b1fb45a3251f5c4ae10dd125838e985a941725184e9d8b0de573"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "128c4c9bc8ee12f8ba949312360d6efc15d0648f798ec316afc0fb699a55d8c8"
+hash = "861ee208ce269c4692c967b316d515779e38867d1d388b5590c8bcaa7c6badc5"
 
 [[files]]
 file = "config/combat_roll/server.json5"
@@ -406,7 +406,7 @@ hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "ff64f26d4adc9275816f35fbe78156fbb661830e47c14630b2b9a2f4400e60d5"
+hash = "de281deafb2286007537db3cb2acf6e61dd3f694b763f65d6f02a188cfc3ba9b"
 
 [[files]]
 file = "config/obscuria/ancient_remnants-common.toml"
@@ -1681,10 +1681,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknig
 hash = "1922002720353ed2851f199ec4804811078fd3b987b65eb712149f65e2abae2b"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_ingot.json"
-hash = "1ac490a10f21b6c0daf04c0b016f2b05791fd51c8188141424d20e9b92edebe4"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/bronze_katzbalger.json"
 hash = "3fcb0e0dcf74a3a6f8fe33c61f27a4258a32c74eeacaebd3fc10217afdef2771"
 
@@ -2381,10 +2377,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknig
 hash = "943a8c548d5745cf7e39c831c4bbba216607ed0eb343f86775f5d49d5667818e"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_ingot.json"
-hash = "18d4940fe60190d663a22e2b97562e83907d45b7cccd348a4e0e244f46f6f283"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/silver_katzbalger.json"
 hash = "ce988ee9797007230ce756b56498250d86d9f95560c3fe37e06809d78aa24b2a"
 
@@ -2457,14 +2449,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknig
 hash = "300d34757a1d59c0fa1c2ac84bac12ee7e18687e328812c8ab4f95869b8b96d3"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_chain.json"
-hash = "7c0fc9a3d940660cf17db0be128ea26622e197efba70c1696d5c682ff3b8ee1f"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_chainmail.json"
-hash = "9651a9dedd604bbe33b8119be019a153c357f09b595776c02b7ef69e21e6c85f"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_chainmorgenstern.json"
 hash = "655125f23d5500d13c4ef475dbfffef8d04e6d9089e7e8482ca070dfc2ddb4f0"
 
@@ -2509,10 +2493,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknig
 hash = "8384672e479659aaa92f907e68709d273e93d772eb1f63d593e8e88610608dc3"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ingot.json"
-hash = "54c6d75a85eb30a9c8216d2a8601c1d512aaee3dfcb514ed2266af79430d27da"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_katzbalger.json"
 hash = "09a00f8aa7033d4d62a56b4e2af6c1c5914511c43369fe0788adfdd223c9d885"
 
@@ -2533,10 +2513,6 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknig
 hash = "076837308683de1878e3cc8f570ac64abab53801715bc8ea8ab4df6e28181f15"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_nugget.json"
-hash = "764c2ccf2f0ac468d836a90f831c0fd416e4f51089435349250c64501a6506fd"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_pavese.json"
 hash = "c6675cce92248a4299743a7bab949fb6fdbd28927a2eac6e69e7d589b2d65ec6"
 
@@ -2545,16 +2521,8 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknig
 hash = "f2ca4850150a320e7758bd761891748af965b800d56f9313dfde4802f32c7c3a"
 
 [[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_plate.json"
-hash = "84d2a03095284bae3c37a96a99441e8a583b5982844934c6d233964ed3155e97"
-
-[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ranseur.json"
 hash = "aa95f7c123abc23e833f24690d47bd5f885a58f041a41ccb17f78cbcb5a674aa"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_ring.json"
-hash = "ec01c94f46367c2da9cbde997ce12733c6e632f71853bb18810dd09c159e405e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/steel_rondache.json"
@@ -2639,10 +2607,6 @@ hash = "ff26357df218f43e6d2b4bfb7b19316c71e57e31e7e5211e597c8a029aac6f1d"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_heavywarhammer.json"
 hash = "f2b56c606f9a306b7b43769d8e74a7cdcb93bef0e5d1d20dffdc14d0049623a5"
-
-[[files]]
-file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_ingot.json"
-hash = "3eec96047f10a0136abffd7766346f1f5ccc8c3d4ccfde9b6efdc81fa5d40783"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/affix_loot_entries/epicknights_armes/tin_katzbalger.json"
@@ -3310,7 +3274,7 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
-hash = "687028a181e8271e87989ca65c3da35cc20a4d947199d3ff5186f3e1145c1e5d"
+hash = "a958dc6737ef6991345f5149b2c202db5b02522c9e37a3b1801d405d0552952f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/edfr/coupe_musique.mcfunction"
@@ -5609,6 +5573,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/recipe/mixing/arcane_essenc
 hash = "e4e36000d353be74174e17dbc02b401ee41686ce73600bb06aee612ca5147361"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/boss_multijoueur.json"
+hash = "a0c900419330db7eb6716292b8d1fb916126d6771564b8c59f4118b9c8398e8b"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/aether.json"
 hash = "9538cefffb16c2c259a0cb334247ca0a107de761e3d2ab26dac17c24b080536d"
 
@@ -6618,7 +6586,7 @@ hash = "10c56776eaa9f0a77294383297432d9d44876837312e084e5da9bcfbd8424dc7"
 
 [[files]]
 file = "config/twilightforest-common.toml"
-hash = "9cc16d6851b838c48c90e95b8c93ff79af1f50b65ce085360105175f590bf100"
+hash = "0d549a05737b751577752292e1dc8affc5dbe0b5f2592ba08e5de2ee5753b6a7"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -7635,7 +7603,7 @@ metafile = true
 
 [[files]]
 file = "mods/lbcfixes-1.0.2.jar"
-hash = "df9a0c54c3d5272b7f39d9c7c9e6705852809b28229c533147faf21aa75aa5b3"
+hash = "7d8fd6de11e227a1a5e8d342ab5db7a89c21ca40b382a521001811b8fb2a70b3"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"

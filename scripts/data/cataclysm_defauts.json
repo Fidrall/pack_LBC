@@ -1,0 +1,69 @@
+{
+    "ender_guardian":  {
+                           "void_rune_damage":  9,
+                           "damage_cap":  22
+                       },
+    "ender_golem":  {
+                        "void_rune_damage":  7,
+                        "damage_cap":  999999
+                    },
+    "netherite_monstrosity":  {
+                                  "flame_jet_damage":  7,
+                                  "flare_bomb_damage":  10,
+                                  "damage_cap":  25
+                              },
+    "ignis":  {
+                  "damage_cap":  20
+              },
+    "ignited_revenant":  {
+                             "ashen_breath_damage":  4,
+                             "blazing_bone_damage":  5
+                         },
+    "harbinger":  {
+                      "wither_missile_damage":  8,
+                      "laser_damage":  5,
+                      "death_laser_damage":  5,
+                      "damage_cap":  22
+                  },
+    "prowler":  {
+                    "death_laser_damage":  5
+                },
+    "amethyst_crab":  {
+                          "earth_quake_damage":  5,
+                          "amethyst_cluster_damage":  12
+                      },
+    "leviathan":  {
+                      "dimensional_rift_damage":  10,
+                      "abyss_blast_damage":  10,
+                      "abyss_orb_damage":  4,
+                      "damage_cap":  20
+                  },
+    "ancient_remnant":  {
+                            "earthquake_damage":  11,
+                            "ancient_desert_stele_damage":  11,
+                            "damage_cap":  21
+                        },
+    "wadjet":  {
+                   "sandstorm_damage":  6,
+                   "ancient_desert_stele_damage":  11
+               },
+    "maledictus":  {
+                       "phantom_halberd_damage":  11,
+                       "phantom_arrow_damage":  5,
+                       "damage_cap":  20
+                   },
+    "aptrgangr":  {
+                      "axe_blade_damage":  8
+                  },
+    "scylla":  {
+                   "spear_damage":  14,
+                   "lightning_storm_damage":  10,
+                   "lightning_area_damage":  4,
+                   "snake_damage":  16,
+                   "anchor_damage":  16,
+                   "damage_cap":  21
+               },
+    "clawdian":  {
+                     "damage_cap":  21
+                 }
+}

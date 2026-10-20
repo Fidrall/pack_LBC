@@ -335,32 +335,23 @@ foreach ($k in $cartes) {
     W "data/pack_lbc/loot_table/cartes/$name.json" ([ordered]@{ type = 'minecraft:generic'; pools = @([ordered]@{ rolls = 1; entries = @([ordered]@{ type = 'minecraft:item'; name = $res.id; functions = @([ordered]@{ function = 'minecraft:set_components'; components = $res.components }) }) }) })
 }
 
-# ---------- 12. Boss renforces (+25 % vie, +15 % degats) via AttributeSetter ----------
-# Pour les boss dont le mod n'a pas de reglage (Cataclysm, Mowzie, BOMD, dragon : configs).
+# ---------- 12. Boss renforces selon leur difficulte, via AttributeSetter ----------
+# Valeurs : scripts/data/boss_equilibrage.csv (vie et degats par boss : courbe sur la vie de base, ancien pack compresse
+# pour Cataclysm/BOMD, plancher et plafond par palier 1-4, degats +5/+15/+30/+30 % plafonnes a +30 %).
+# Cataclysm, Mowzie et BOMD ont leurs propres reglages : valeurs ecrites dans leurs configs (scripts/boss-configs.ps1).
 # MULTIPLY_BASE = modificateur ADD_MULTIPLIED_BASE a identifiant fixe (pas de cumul au rechargement), vie remise au max a l'apparition.
-$bossPlus = @(
-    'twilightforest:naga', 'twilightforest:lich', 'twilightforest:minoshroom', 'twilightforest:hydra', 'twilightforest:knight_phantom',
-    'twilightforest:ur_ghast', 'twilightforest:alpha_yeti', 'twilightforest:snow_queen',
-    'aether:slider', 'aether:valkyrie_queen', 'aether:sun_spirit',
-    'irons_spellbooks:dead_king', 'irons_spellbooks:fire_boss',
-    'hazennstuff:pyromus', 'hazennstuff:aegis', 'hazennstuff:aptos',
-    'born_in_chaos_v1:lord_pumpkinhead', 'born_in_chaos_v1:lord_pumpkinhead_withouta_horse', 'born_in_chaos_v1:lord_pumpkinhead_head', 'born_in_chaos_v1:lord_the_headless',
-    'born_in_chaos_v1:missioner', 'born_in_chaos_v1:supreme_bonescaller', 'born_in_chaos_v1:supreme_bonescaller_not_despawn',
-    'born_in_chaos_v1:supreme_bonescaller_stage_2', 'born_in_chaos_v1:krampus',
-    'friendsandfoes:wildfire', 'illagerinvasion:invoker', 'archaion:last_of_deepslate', 'deeperdarker:stalker',
-    'minecraft:elder_guardian', 'minecraft:warden',   # Wither : renforce par Wither: Reincarnated (600 PV au lieu de 300, config/witherreincarnated-common.toml)
-    'block_factorys_bosses:yeti', 'block_factorys_bosses:sandworm', 'block_factorys_bosses:kraken',
-    'block_factorys_bosses:underworld_knight', 'block_factorys_bosses:infernal_dragon',
-    'alexscaves:luxtructosaurus'
-)
+$bossEq = Import-Csv (Join-Path $PSScriptRoot 'data\boss_equilibrage.csv')
+$ic = [cultureinfo]::InvariantCulture
 $attr = [ordered]@{}
-foreach ($b in $bossPlus) {
-    $attr[$b] = @(
-        [ordered]@{ attribute = 'minecraft:generic.max_health'; value = 0.25; operation = 'MULTIPLY_BASE' },
-        [ordered]@{ attribute = 'minecraft:generic.attack_damage'; value = 0.15; operation = 'MULTIPLY_BASE' }
-    )
+foreach ($b in $bossEq | Where-Object { $_.id.Split(':')[0] -notin 'cataclysm', 'mowziesmobs', 'bosses_of_mass_destruction' }) {
+    $mods = @()
+    $v = [double]::Parse($b.vie, $ic) - 1; if ($v -gt 0.001) { $mods += [ordered]@{ attribute = 'minecraft:generic.max_health'; value = [Math]::Round($v, 3); operation = 'MULTIPLY_BASE' } }
+    $d = [double]::Parse($b.degats, $ic) - 1; if ($d -gt 0.001) { $mods += [ordered]@{ attribute = 'minecraft:generic.attack_damage'; value = [Math]::Round($d, 3); operation = 'MULTIPLY_BASE' } }
+    if ($mods) { $attr[$b.id] = $mods }
 }
 W 'data/pack_lbc/attributesetter/entity/boss_renforces.json' $attr
+# Boss dont la vie suit le nombre de joueurs proches (lbcfixes : +50 % par joueur en plus, jamais a la baisse pendant le combat)
+W 'data/pack_lbc/tags/entity_type/boss_multijoueur.json' ([ordered]@{ replace = $false; values = @($bossEq.id | ForEach-Object { [ordered]@{ id = $_; required = $false } }) })
 
 # ---------- 13. Butin : injection Apotheosis reduite, Treasure Bags limite aux boss ----------
 # Avec Lootr chaque joueur a sa copie de chaque coffre : l'injection Apotheosis (affixes 35/30 %, gemmes 25/20 %

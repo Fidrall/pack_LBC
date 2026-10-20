@@ -13,7 +13,8 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - Somake Spells : effet de la zone Pumpkin Bomb enregistre (plus d'expulsion via Neruina)
 - Infested Swarms and Spiders : oeufs d'araignee seulement sur une araignee tuee par un joueur, une fois sur deux
 - Petting : ne gere que ses propres familiers (chevaux, dragons Wyrmroost, chiens... gardent leur clic droit), volants des mods (Aerwhale) pilotes en vol
-- Apotheosis : apres une baisse de palier, une heure de jeu avant de pouvoir remonter'''
+- Apotheosis : apres une baisse de palier, une heure de jeu avant de pouvoir remonter
+- Boss : +50 % de vie par joueur en plus a 48 blocs (tag pack_lbc:boss_multijoueur)'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"

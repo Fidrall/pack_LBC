@@ -249,7 +249,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.25
+			health_multiplier = 1.15
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
@@ -318,11 +318,11 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.25
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.15
+			attack_multiplier = 1.05
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
@@ -376,11 +376,11 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.25
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.15
+			attack_multiplier = 1.05
 
 	[mobs.sculptor]
 		#How tall (in blocks) the Sculptor's test will be
@@ -448,7 +448,7 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.25
+			health_multiplier = 1.15
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
