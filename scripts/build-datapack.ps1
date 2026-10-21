@@ -224,7 +224,7 @@ W 'data/archaion/worldgen/structure/ancient_keep.json' $j
 # Capitales de Luki favorisees (poids 3 contre 1 pour Trek) : 3 villages sur 4 dans les biomes ou les deux existent
 $vil = @('plains', 'desert', 'savanna', 'snowy', 'taiga' | ForEach-Object { [ordered]@{ structure = "minecraft:village_$_"; weight = 3 } })
 $vil += 'plains', 'desert', 'savanna', 'snowy', 'taiga', 'swamp_vanilla', 'cherry' | ForEach-Object { [ordered]@{ structure = "trek:village/$_"; weight = 1 } }
-W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 26; separation = 12 } })
+W 'data/minecraft/worldgen/structure_set/villages.json' ([ordered]@{ structures = $vil; placement = [ordered]@{ type = 'minecraft:random_spread'; salt = 10387312; spacing = 34; separation = 14 } })   # 26/12 jusqu'au 2026-10-21 (trop dense), 34 = vanilla
 # Structures redefinies : on garde la version Luki's (capitales "revampedvillages", comme ses autres villages).
 # village_taiga : Luki's, avec la liste de biomes plus large de Dungeons and Taverns.
 W 'data/minecraft/worldgen/structure/village_taiga.json' ([ordered]@{ type = 'minecraft:jigsaw'; biomes = '#nova_structures:collections/any_taiga'; liquid_settings = 'ignore_waterlogging'; step = 'surface_structures'; spawn_overrides = @{}; terrain_adaptation = 'beard_thin'; start_pool = 'revampedvillages:taiga/start'; size = 5; start_height = @{ absolute = 0 }; project_start_to_heightmap = 'WORLD_SURFACE'; max_distance_from_center = 80; use_expansion_hack = $false })
