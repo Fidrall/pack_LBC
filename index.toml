@@ -6617,6 +6617,26 @@ file = "config/structurify.json"
 hash = "d669acfa29fef0424296a609c53f1608d0e1f7776c31392bcf2121e413277941"
 
 [[files]]
+file = "config/subtle_effects/blocks.toml"
+hash = "9b995886dc790d5e5ac7c0f1da7d44bf77b16d69a8ae0c1d7a49bf7b1ca3d6bc"
+
+[[files]]
+file = "config/subtle_effects/entities.toml"
+hash = "ad93a493b7a930692cca06dc96fa157b1ec9fbdb1f61f3c4f206d736e2e63a1e"
+
+[[files]]
+file = "config/subtle_effects/environment.toml"
+hash = "f738d1cf66fdb8a433600e0f43d787747989dd57af6565818ca8c494392cc5da"
+
+[[files]]
+file = "config/subtle_effects/general.toml"
+hash = "613ee4ebe5dd622662d9957e658a213e7ca293a3d759f799d2e63269e3dbf4ef"
+
+[[files]]
+file = "config/subtle_effects/items.toml"
+hash = "addbf2d64452ab2096a57741e537b76479d53dfd6373fbcdbf16778e1d49758a"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "38ce6686780e04c35ca997c831639673e3fb833b33dedd06db756265e27529ee"
 

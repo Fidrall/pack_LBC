@@ -1,0 +1,45 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+enableParticleCulling = true
+particleRenderDistance = 5
+particleCullingBlocklist = [
+    "minecraft:portal",
+    "minecraft:reverse_portal",
+    "minecraft:vault_connection",
+    "minecraft:enchant",
+    "minecraft:nautilus",
+    "minecraft:ominous_spawning"
+]
+cullParticlesInUnloadedChunks = true
+allowUsingBlendedRenderType = true
+spellParticlesUseBlendedRenderType = true
+glowingLavaDrops = false
+fluidDropsEvaporate = false
+fluidDropsEvaporationVolume = 0.25
+dropLandInFluidRipples = false
+dropLandSoundVolume = 1.0
+lavaSparkSmoke = false
+sparksScale = 1.0
+growingHearts = false
+poppingHearts = false
+poppingBubbles = false
+poppingBubblesVolume = 0.2
+glowingEnchantmentGlyphParticles = false
+translucentEnchantmentGlyphParticles = false
+disableRandomizedEnchantmentGlyphShading = false
+potionParticleAlpha = 0.7
+potionParticleAlphaNearPlayer = 0.2
+leavesLandOnGround = false
+leavesLandOnWater = false
+leavesLandingOnWaterRipples = false
+leavesLandingOnWaterKeepMomentum = false
+fallenLeavesLifeTime = 40
+rainIncreasesLeavesMovementSpeed = false
+staticFlameBrightness = false
+fireOverlayHeight = -0.15
+fireOverlayAlpha = 0.9
+fireOverlayAlphaWithFireResistance = 0.4
+mobSkullShaders = false
+nightVisionFading = false
+nightVisionFadingTime = 100
+enableEasterEggs = false
