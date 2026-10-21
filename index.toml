@@ -1458,7 +1458,7 @@ hash = "6d7cda497d273a8e48b444ee6d4a5f36a4c7a78057e2fcb37d29169b369f0025"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/villages.json"
-hash = "fafac70b6a88c6a6abf4a44125621d6279e4ff60b44ca13eaf68dec2cb3abc65"
+hash = "810f5beb9b575c73c26dd64fbf6b39c49553905298719298a655a2710c3be00d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woodland_mansions.json"
@@ -5835,6 +5835,10 @@ hash = "24a3cdf4f231f6ecc3e8868874183bcca9888d265156bc94521618097b766ecf"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/structures_arise/tags/worldgen/biome/landbiomes.json"
 hash = "098b5966b510de2cfc24c26e9dd38df35e91a38fe8967cd88cffe21ac4d27a8a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/terralith/worldgen/structure_set/mage.json"
+hash = "6dcdaf7a5e64f0d8b2dd631acfe7db27cb3326a2e4a78c81d7bca8e4a5c31403"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towers.json"
