@@ -7463,7 +7463,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "6ad22c468d67dcbb65784e161d4af9e671d3437cb5bfb1e86a42ae25207cf25b"
+hash = "96b8df58491c7190b35bf1c5115f029df6464ec276244557becad1613c5f5125"
 metafile = true
 
 [[files]]
@@ -7598,7 +7598,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "f81636b1fdf85e3291b5fd4d3e6754747793fd0e65c1d0537dc8f892b5cdcda1"
+hash = "2ffd0c6ed2e981835168a60cb3418482223ee02d22dd35d0bb541774fa89f81c"
 metafile = true
 
 [[files]]
@@ -7846,7 +7846,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "0a04f1d0b86262c6dfdbd14e0493d7f4786f24054a95a07ff7b41a7870bb258d"
+hash = "2e0b31d4a3d4298045b368558ce7fe191a13bccb02a4524ca748598a9dcf4ca5"
 metafile = true
 
 [[files]]
