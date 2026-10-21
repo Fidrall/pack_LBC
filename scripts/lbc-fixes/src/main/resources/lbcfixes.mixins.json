@@ -13,7 +13,8 @@
     "PlayerRestoreMixin"
   ],
   "client": [
-    "FtbMinimapMixin"
+    "FtbMinimapMixin",
+    "DeepSeasComplementaryFogMixin"
   ],
   "injectors": {
     "defaultRequire": 1
