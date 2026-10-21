@@ -41,29 +41,29 @@ $Quests = @(
          'Sur ce serveur, elles sont assez espacées et &ela téléportation coûte de l''XP&r selon la distance. Pour les longs voyages, préfère les dirigeables !',
          '',
          'La &ePoudre de Warp&r sert à fabriquer des parchemins de retour et des pierres de téléportation.') }
-  @{ k='comforts'; x=-1.5; y=3; deps=@('explorer'); tasks=@('comforts:sleeping_bag_white'); crate='commune'
+  @{ k='comforts'; x=-3; y=3; deps=@('explorer'); tasks=@('comforts:sleeping_bag_white'); crate='commune'
      t='Dormir en expédition'; st='Sac de couchage et hamac'
      d=@('Le &eSac de Couchage&r permet de dormir la nuit &asans changer ton point de réapparition&r : parfait en expédition.',
          '',
          'Le &eHamac&r (accroché entre deux blocs avec des cordes et clous) permet de faire une sieste la journée.') }
-  @{ k='corpse'; x=0; y=3; deps=@('waystones'); tasks=@('@check'); checkTitle='Compris !'; icon='minecraft:skeleton_skull'; crate='commune'
+  @{ k='corpse'; x=1.5; y=3; deps=@('waystones'); tasks=@('@check'); checkTitle='Compris !'; icon='minecraft:skeleton_skull'; crate='commune'
      t='Mourir sans tout perdre'; st='Ton corps t''attend'
      d=@('Quand tu meurs, ton inventaire reste dans ton &ecorps&r, à l''endroit de ta mort. Retourne le chercher pour tout récupérer !',
          '',
          'La touche &6J&r affiche l''historique de tes morts et leurs coordonnées.',
          '',
          '&7Le point de passage de mort de JourneyMap aide aussi à retrouver ton corps.') }
-  @{ k='tome'; x=1.5; y=3; deps=@('journeymap'); tasks=@('akashictome:tome'); crate='commune'
+  @{ k='tome'; x=3; y=3; deps=@('journeymap'); tasks=@('akashictome:tome'); crate='commune'
      t='Le Tome Akashique'; st='Tous les livres en un'
      d=@('Combine tous les &elivres de guide&r des mods (Patchouli, etc.) dans le &eTome Akashique&r : un seul livre au lieu de dix dans ton inventaire.',
          '',
          'Accroupi + clic droit pour choisir le livre à ouvrir.') }
-  @{ k='archeo'; x=3; y=3; deps=@('lootr'); tasks=@('betterarcheology:iron_brush'); crate='commune'
+  @{ k='archeo'; x=4.5; y=3; deps=@('lootr'); tasks=@('betterarcheology:iron_brush'); crate='commune'
      t='&6L''archéologie avancée'; st='Better Archeology'
      d=@('&eBetter Archeology&r ajoute des pinceaux améliorés (fer, diamant, Netherite), des fossiles à reconstituer, des vases à butin et des artefacts aux pouvoirs spéciaux.',
          '',
          'Cherche les &ecamps d''archéologues&r, les &ecatacombes&r et les ruines ensevelies.') }
-  @{ k='fossils'; x=4.5; y=3; deps=@('archeo'); tasks=@('adv:betterarcheology:fossil_found'); crate='rare'; optional=$true
+  @{ k='fossils'; x=4.5; y=4.5; deps=@('archeo'); tasks=@('adv:betterarcheology:fossil_found'); crate='rare'; optional=$true
      t='Paléontologue'; st='Trouver un fossile'
      d=@('Des fossiles d''animaux sont enfouis dans le monde. Reconstitue-les pour décorer ton musée !') }
 
@@ -117,55 +117,55 @@ $Quests = @(
      t='Une taverne'; st='Une pause bien méritée'
      d=@('Les &etavernes&r sont des haltes accueillantes pour les voyageurs. Il y en a de plusieurs mods différents !') }
   # --- Photographie (Exposure)
-  @{ k='photo_camera'; x=6.5; y=1.5; deps=@('intro'); tasks=@('exposure:camera', 'exposure:black_and_white_film'); crate='commune'
+  @{ k='photo_camera'; x=7.5; y=1.5; deps=@('intro'); hideLines=$true; tasks=@('exposure:camera', 'exposure:black_and_white_film'); crate='commune'
      t='&bL''appareil photo'; st='Garder une trace de ses voyages'
      d=@('Avec &eExposure&r, tu peux photographier tes découvertes, tes bases et tes amis.',
          '',
          'Fabrique un &eappareil photo&r et une &epellicule&r, puis accroupi + clic droit sur l''appareil pour y glisser la pellicule.',
          '',
          '&7On peut aussi y ajouter un flash, une lentille de zoom ou un filtre de couleur.') }
-  @{ k='photo_shot'; x=8; y=1.5; deps=@('photo_camera'); tasks=@('adv:exposure:adventure/exposure'); icon='exposure:camera'; crate='commune'
+  @{ k='photo_shot'; x=9; y=1.5; deps=@('photo_camera'); tasks=@('adv:exposure:adventure/exposure'); icon='exposure:camera'; crate='commune'
      t='Clic-clac'; st='Une première vue'
      d=@('Clic droit pour viser, puis encore clic droit pour déclencher.',
          '',
          'Chaque pellicule a un nombre de vues limité. Les &epellicules haute sensibilité&r donnent de meilleurs résultats quand il fait sombre.') }
-  @{ k='photo_print'; x=9.5; y=1.5; deps=@('photo_shot'); tasks=@('adv:exposure:adventure/moment_in_time'); icon='exposure:photograph'; crate='rare'
+  @{ k='photo_print'; x=10.5; y=1.5; deps=@('photo_shot'); tasks=@('adv:exposure:adventure/moment_in_time'); icon='exposure:photograph'; crate='rare'
      t='&eFigé dans le temps'; st='Développer et tirer une photo'
      d=@('Une pellicule exposée doit d''abord être &edéveloppée&r en la fabriquant avec les produits indiqués dans sa description.',
          '',
          'Pose ensuite la pellicule développée dans une &eChambre claire&r, avec du &epapier&r et des &eteintures&r, pour tirer tes photos.',
          '',
          '&7Une photo peut être recopiée, mais chaque copie perd un peu en qualité.') }
-  @{ k='photo_frame'; x=9.5; y=3; deps=@('photo_print'); tasks=@('exposure:photograph_frame'); crate='commune'
+  @{ k='photo_frame'; x=10.5; y=3; deps=@('photo_print'); tasks=@('exposure:photograph_frame'); crate='commune'
      t='Accrocher ses souvenirs'; st='Cadres et albums'
      d=@('Les &ecadres photo&r s''accrochent au mur comme des tableaux, en plusieurs tailles. Les &ealbums&r rangent et légendent tes photos.',
          '',
          'Idéal pour exposer les plus beaux paysages et les exploits de ton équipe.') }
-  @{ k='photo_selfie'; x=6.5; y=3; deps=@('photo_shot'); optional=$true; tasks=@('adv:exposure:adventure/spotlight'); icon='minecraft:player_head'; crate='commune'
+  @{ k='photo_selfie'; x=9; y=3; deps=@('photo_shot'); optional=$true; tasks=@('adv:exposure:adventure/spotlight'); icon='minecraft:player_head'; crate='commune'
      t='Selfie'; st='Toi, en vedette'
      d=@('Passe en vue à la troisième personne (&6F5&r) avec l''appareil en main pour te prendre en photo.',
          '',
          '&7Le trépied permet de poser l''appareil pour une photo de groupe.') }
-  @{ k='photo_flash'; x=6.5; y=4.5; deps=@('photo_selfie'); optional=$true; tasks=@('adv:exposure:adventure/lights_up'); icon='minecraft:redstone_lamp'; crate='commune'
+  @{ k='photo_flash'; x=9; y=4.5; deps=@('photo_selfie'); optional=$true; tasks=@('adv:exposure:adventure/lights_up'); icon='minecraft:redstone_lamp'; crate='commune'
      t='Illumination !'; st='Le flash dans le noir'
      d=@('Installe un &eflash&r sur ton appareil et prends une photo dans l''obscurité.',
          '',
          '&7Attention : un villageois remarque très bien un flash…') }
-  @{ k='photo_color'; x=8; y=4.5; deps=@('photo_print'); tasks=@('adv:exposure:adventure/complex_composite_compound'); icon='exposure:chromatic_sheet'; crate='rare'
+  @{ k='photo_color'; x=12; y=3; deps=@('photo_print'); tasks=@('adv:exposure:adventure/complex_composite_compound'); icon='exposure:chromatic_sheet'; crate='rare'
      t='&dDe toutes les couleurs'; st='Une photo couleur à l''ancienne'
      d=@('Sans pellicule couleur, on peut quand même obtenir de la couleur, comme les pionniers de la photo :',
          '',
          '- prends &etrois photos noir et blanc&r du même endroit, avec un filtre de vitre &crouge&r, puis &avert&r, puis &9bleu&r ;',
          '- combine les trois tirages sur une &efeuille polychrome&r dans la Chambre claire.') }
-  @{ k='photo_end'; x=9.5; y=4.5; deps=@('photo_print'); optional=$true; tasks=@('adv:exposure:adventure/void'); icon='minecraft:end_stone'; crate='rare'
+  @{ k='photo_end'; x=12; y=1.5; deps=@('photo_print'); optional=$true; tasks=@('adv:exposure:adventure/void'); icon='minecraft:end_stone'; crate='rare'
      t='Carte postale de l''End'; st='Un souvenir du vide'
      d=@('Prends une photo dans &5l''End&r : une cité de l''End, un vaisseau échoué ou une tour de shulkers, à toi de choisir !') }
-  @{ k='photo_wildlife'; x=8; y=6; deps=@('photo_color'); tasks=@('adv:exposure:adventure/wildlife_archivist'); icon='exposure:album'; crate='epique'; xp=500
+  @{ k='photo_wildlife'; x=12; y=4.5; deps=@('photo_color'); tasks=@('adv:exposure:adventure/wildlife_archivist'); icon='exposure:album'; crate='epique'; xp=500
      t='&6Inventaire de la faune'; st='Photographier chaque animal sauvage'
      d=@('Le grand défi du photographe animalier : prendre en photo &echaque animal sauvage&r du jeu, du renard à l''axolotl en passant par le panda.',
          '',
          '&7La progression est visible dans les succès (touche &6L&r).') }
-  @{ k='explorer_master'; x=0; y=9; size=2.5; shape='gear'; deps=@('catacombs','lostsoul','stronghold','mansion','ancientcity','tavern'); tasks=@('@check'); checkTitle='Je suis un grand explorateur'; icon='explorerscompass:explorerscompass'; crate='legendaire'; xp=1500
+  @{ k='explorer_master'; x=0; y=9.5; size=2.5; shape='gear'; deps=@('catacombs','lostsoul','stronghold','mansion','ancientcity','tavern'); tasks=@('@check'); checkTitle='Je suis un grand explorateur'; icon='explorerscompass:explorerscompass'; crate='legendaire'; xp=1500
      t='&6&lGrand Explorateur'; st='Le carnet est complet'
      d=@('Tu as découvert toutes les merveilles de ce carnet. Le monde n''a presque plus de secrets pour toi…',
          '',
@@ -175,7 +175,7 @@ $Quests = @(
   # --- Lootr, Maps 3D, Joy of Painting
   @{ k='lootr_100'; x=4.5; y=1.5; deps=@('lootr'); tasks=@('adv:lootr:100loot'); crate='rare'; optional=$true; icon='lootr:lootr_chest'
      t='Centenaire'; st='100 coffres pillés'; d=@('Ouvre &e100 coffres&r de structures. Chaque joueur a sa propre copie de chaque coffre : pas de jaloux !') }
-  @{ k='map3d'; x=-3; y=3; deps=@('journeymap'); hideLines=$true; tasks=@('maps3d:map_3d'); crate='commune'; optional=$true
+  @{ k='map3d'; x=3; y=0; deps=@('journeymap'); tasks=@('maps3d:map_3d'); crate='commune'; optional=$true
      t='La carte en relief'; st='Maps 3D'
      d=@('Une &ecarte en 3D&r d''une zone de 4×4 à 16×16 chunks : tiens-la en main ou pose-la dans un &ecadre pour carte 3D&r. Parfait pour exposer ta base ou ta ville !') }
   @{ k='paint'; x=-4.5; y=3; deps=@('intro'); hideLines=$true; tasks=@('xercapaint:item_easel','xercapaint:item_palette'); crate='commune'; optional=$true
@@ -189,58 +189,58 @@ $Quests = @(
          'Les &eclés&r se trouvent dans le donjon lui-même : la dernière ouvre la salle du boss.') }
   @{ k='dnt_toxic'; x=6; y=9; deps=@('dnt_citadel'); tasks=@('struct:nova_structures:toxic_lair'); crate='rare'; optional=$true
      t='Le repaire toxique'; st='Un donjon empoisonné'; d=@('Un donjon rempli de &apoison&r, avec sa propre clé de boss.') }
-  @{ k='dnt_trident'; x=7.5; y=9; deps=@('dnt_citadel'); tasks=@('struct:nova_structures:trident_trial_monument'); crate='rare'; optional=$true
+  @{ k='dnt_trident'; x=6; y=10.5; deps=@('dnt_citadel'); tasks=@('struct:nova_structures:trident_trial_monument'); crate='rare'; optional=$true
      t='Le monument du trident'; st='Une épreuve sous la mer'; d=@('Une &eépreuve&r sous-marine, inspirée des chambres d''épreuves.') }
-  @{ k='dnt_key'; x=6; y=10.5; deps=@('dnt_citadel'); tasks=@('@check'); checkTitle='Salle du boss ouverte !'; icon='minecraft:trial_key'; crate='epique'; optional=$true
+  @{ k='dnt_key'; x=4.5; y=10.5; deps=@('dnt_citadel'); tasks=@('@check'); checkTitle='Salle du boss ouverte !'; icon='minecraft:trial_key'; crate='epique'; optional=$true
      t='La clé du boss'; st='La salle du trésor'; d=@('Trouve la &eclé du boss&r de la citadelle et ouvre sa salle.') }
   # --- Chambres d'epreuves (Not Enough Trials, Create: Trial and Error)
-  @{ k='tc_enter'; x=11.5; y=0; size=1.5; shape='gear'; deps=@('intro'); hideLines=$true; tasks=@('adv:minecraft:adventure/minecraft_trials_edition'); icon='minecraft:trial_key'; crate='commune'
+  @{ k='tc_enter'; x=15; y=1.5; size=1.5; shape='gear'; deps=@('intro'); hideLines=$true; tasks=@('adv:minecraft:adventure/minecraft_trials_edition'); icon='minecraft:trial_key'; crate='commune'
      t='&6&lLes chambres d''épreuves'; st='Not Enough Trials'
      d=@('Les &6chambres d''épreuves&r sont refaites par &eNot Enough Trials&r : salles plus ouvertes, nouvelles salles, &csalles de boss&r, &esalles secrètes&r et une variante &everticale&r.',
          '',
          '- les &egénérateurs d''épreuves&r lâchent des &eclés&r une fois vaincus ;',
          '- une clé ouvre une &echambre forte&r (une fois par joueur) ;',
          '- avec l''effet &8Présage&r, tout devient &8sinistre&r : plus dur, et plus généreux.') }
-  @{ k='tc_key'; x=13; y=0; deps=@('tc_enter'); tasks=@('minecraft:trial_key'); crate='commune'; optional=$true
+  @{ k='tc_key'; x=16.5; y=0; deps=@('tc_enter'); tasks=@('minecraft:trial_key'); crate='commune'; optional=$true
      t='La clé d''épreuves'; st='Ouvrir une chambre forte'; d=@('Vaincs un &egénérateur d''épreuves&r pour obtenir une &eclé&r, puis ouvre une &echambre forte&r.') }
-  @{ k='tc_breeze'; x=14.5; y=0; deps=@('tc_enter'); tasks=@('minecraft:breeze_rod*4'); crate='commune'; optional=$true
+  @{ k='tc_breeze'; x=15; y=0; deps=@('tc_enter'); tasks=@('minecraft:breeze_rod*4'); crate='commune'; optional=$true
      t='Le Breeze'; st='Des bâtons de vent'; d=@('Le &eBreeze&r renvoie les flèches et saute partout. Ses &ebâtons&r donnent des charges de vent et servent à la masse.') }
-  @{ k='tc_scrape'; x=13; y=1.5; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/scraping_through'); crate='commune'; optional=$true; icon='minecraft:chiseled_copper'
+  @{ k='tc_scrape'; x=16.5; y=3; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/scraping_through'); crate='commune'; optional=$true; icon='minecraft:chiseled_copper'
      t='Gratter pour passer'; st='Les mécanismes cachés'; d=@('Gratte un bloc de &ecuivre ciselé&r à la hache : il déclenche un mécanisme. Gratte tous ceux que tu vois !') }
-  @{ k='tc_luck'; x=14.5; y=1.5; deps=@('tc_scrape'); tasks=@('adv:minecraft:adventure/luck_potion'); crate='rare'; optional=$true; icon='minecraft:potion'
+  @{ k='tc_luck'; x=18; y=3; deps=@('tc_scrape'); tasks=@('adv:minecraft:adventure/luck_potion'); crate='rare'; optional=$true; icon='minecraft:potion'
      t='Un acheté, un offert !'; st='La potion de chance secrète'; d=@('Trouve une &epotion de chance&r cachée dans une salle secrète.') }
-  @{ k='tc_boss'; x=11.5; y=1.5; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/boss'); crate='rare'; optional=$true; icon='minecraft:trial_spawner'
+  @{ k='tc_boss'; x=16.5; y=1.5; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/boss'); crate='rare'; optional=$true; icon='minecraft:trial_spawner'
      t='Qui est le patron ?'; st='Une salle de boss'; d=@('Vaincs une &csalle de boss&r des chambres d''épreuves.') }
-  @{ k='tc_vertical'; x=11.5; y=3; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/vertical_trial_chambers'); crate='rare'; optional=$true; icon='minecraft:tuff_bricks'
+  @{ k='tc_vertical'; x=15; y=3; deps=@('tc_enter'); tasks=@('adv:minecraft:adventure/vertical_trial_chambers'); crate='rare'; optional=$true; icon='minecraft:tuff_bricks'
      t='Le puits des 100 épreuves'; st='La chambre verticale'; d=@('Entre dans une &echambre d''épreuves verticale&r.') }
-  @{ k='tc_ominous_key'; x=13; y=3; deps=@('tc_key'); tasks=@('minecraft:ominous_trial_key'); crate='rare'; optional=$true
+  @{ k='tc_ominous_key'; x=18; y=0; deps=@('tc_key'); tasks=@('minecraft:ominous_trial_key'); crate='rare'; optional=$true
      t='La clé sinistre'; st='Sous l''effet de Présage'; d=@('Bois une &ebouteille sinistre&r (pillards) avant d''entrer : les générateurs deviennent &8sinistres&r et lâchent des &eclés sinistres&r.') }
-  @{ k='tc_boss_ominous'; x=14.5; y=3; deps=@('tc_boss','tc_ominous_key'); tasks=@('adv:minecraft:adventure/boss_ominous'); crate='epique'; optional=$true; icon='minecraft:ominous_trial_key'
+  @{ k='tc_boss_ominous'; x=18; y=1.5; deps=@('tc_boss','tc_ominous_key'); tasks=@('adv:minecraft:adventure/boss_ominous'); crate='epique'; optional=$true; icon='minecraft:ominous_trial_key'
      t='Sinistrement fort'; st='Une salle de boss sinistre'; d=@('Vaincs une &csalle de boss sinistre&r.') }
-  @{ k='tc_champion'; x=16; y=3; size=1.5; shape='hexagon'; deps=@('tc_boss_ominous'); tasks=@('adv:minecraft:adventure/kill_all_bosses'); crate='legendaire'; optional=$true; icon='minecraft:heavy_core'
+  @{ k='tc_champion'; x=19.5; y=1.5; size=1.5; shape='hexagon'; deps=@('tc_boss_ominous'); tasks=@('adv:minecraft:adventure/kill_all_bosses'); crate='legendaire'; optional=$true; icon='minecraft:heavy_core'
      t='&6&lChampion des épreuves'; st='Toutes les salles de boss'; d=@('Affronte &etoutes les salles de boss&r des chambres d''épreuves.') }
-  @{ k='tc_core'; x=13; y=4.5; deps=@('tc_ominous_key'); tasks=@('minecraft:heavy_core'); crate='epique'; optional=$true
+  @{ k='tc_core'; x=18; y=-1.5; deps=@('tc_ominous_key'); tasks=@('minecraft:heavy_core'); crate='epique'; optional=$true
      t='Le cœur lourd'; st='Le trésor des chambres sinistres'; d=@('Le &ecœur lourd&r se trouve dans les &echambres fortes sinistres&r.') }
-  @{ k='tc_mace'; x=14.5; y=4.5; deps=@('tc_core','tc_breeze'); tasks=@('minecraft:mace'); crate='epique'; optional=$true
+  @{ k='tc_mace'; x=16.5; y=-1.5; deps=@('tc_core','tc_breeze'); tasks=@('minecraft:mace'); crate='epique'; optional=$true
      t='La masse'; st='Plus on tombe de haut, plus ça fait mal'; d=@('Fabrique la &emasse&r avec le cœur lourd et un bâton de Breeze. Ses dégâts augmentent avec la hauteur de ta chute !') }
-  @{ k='tae_cast'; x=11.5; y=6; deps=@('tc_key'); hideLines=$true; tasks=@('trialanderror:trial_key_cast'); crate='rare'; optional=$true
+  @{ k='tae_cast'; x=15; y=4.5; deps=@('tc_key'); hideLines=$true; tasks=@('trialanderror:trial_key_cast'); crate='rare'; optional=$true
      t='Le moule à clés'; st='Create: Trial and Error'
      d=@('&eTrial and Error&r automatise les chambres d''épreuves avec Create :',
          '',
          '- un &emoule&r copie une clé (souvent raté au début) puis produit des clés à l''infini avec du tuf et du cuivre ;',
          '- un &edéployeur&r peut ouvrir une chambre forte sans joueur à côté.') }
-  @{ k='tae_ominous'; x=13; y=6; deps=@('tae_cast','tc_ominous_key'); tasks=@('trialanderror:ominous_key_cast'); crate='epique'; optional=$true
+  @{ k='tae_ominous'; x=16.5; y=4.5; deps=@('tae_cast','tc_ominous_key'); hideLines=$true; tasks=@('trialanderror:ominous_key_cast'); crate='epique'; optional=$true
      t='Le moule sinistre'; st='Des clés sinistres à la chaîne'; d=@('Un &emoule à clés sinistres&r.') }
   # --- Archaion (le donjon de la cite antique)
-  @{ k='arch_map'; x=-6; y=6; deps=@('ancientcity'); hideLines=$true; tasks=@('adv:archaion:obtain_map'); crate='commune'; optional=$true; icon='minecraft:filled_map'
+  @{ k='arch_map'; x=-7; y=6; deps=@('ancientcity'); hideLines=$true; tasks=@('adv:archaion:obtain_map'); crate='commune'; optional=$true; icon='minecraft:filled_map'
      t='Des murmures dans les ruines'; st='Archaion'
      d=@('Dans les &3cités antiques&r, cherche une &ecarte&r : elle mène à l''&3Ancient Keep&r, un donjon d''ardoise des abîmes gardé par des créatures anciennes.') }
-  @{ k='arch_keep'; x=-7.5; y=6; deps=@('arch_map'); tasks=@('adv:archaion:enter_ancient_keep'); crate='rare'; optional=$true; icon='archaion:reinforced_deepslate_bricks'
+  @{ k='arch_keep'; x=-8.5; y=6; deps=@('arch_map'); tasks=@('adv:archaion:enter_ancient_keep'); crate='rare'; optional=$true; icon='archaion:reinforced_deepslate_bricks'
      t='Briser le donjon'; st='L''Ancient Keep'; d=@('Entre dans l''&3Ancient Keep&r.') }
-  @{ k='arch_vault'; x=-7.5; y=7.5; deps=@('arch_keep'); tasks=@('adv:archaion:open_deepslate_vault'); crate='rare'; optional=$true; icon='archaion:echo_key'
+  @{ k='arch_vault'; x=-10; y=6; deps=@('arch_keep'); tasks=@('adv:archaion:open_deepslate_vault'); crate='rare'; optional=$true; icon='archaion:echo_key'
      t='Les richesses oubliées'; st='La chambre forte d''ardoise'; d=@('Récupère une &eclé d''écho&r sur un générateur d''ardoise, puis ouvre une &echambre forte&r.') }
-  @{ k='arch_boss'; x=-6; y=7.5; deps=@('arch_keep'); tasks=@('adv:archaion:kill_last_of_deepslate'); crate='legendaire'; optional=$true; icon='archaion:echo_charge'
+  @{ k='arch_boss'; x=-8.5; y=7.5; deps=@('arch_keep'); tasks=@('adv:archaion:kill_last_of_deepslate'); crate='legendaire'; optional=$true; icon='archaion:echo_charge'
      t='&3Le Dernier des Abîmes'; st='Le gardien du donjon'; d=@('Vaincs le &3Last of Deepslate&r, le gardien de l''Ancient Keep.') }
-  @{ k='arch_mace'; x=-6; y=9; deps=@('arch_boss'); tasks=@('adv:archaion:craft_echo_mace'); crate='epique'; optional=$true; icon='archaion:echo_mace'
+  @{ k='arch_mace'; x=-8.5; y=9; deps=@('arch_boss'); tasks=@('adv:archaion:craft_echo_mace'); crate='epique'; optional=$true; icon='archaion:echo_mace'
      t='La masse d''écho'; st='Une arme des profondeurs'; d=@('Forge la &emasse d''écho&r avec une masse, un éclat d''écho et son gabarit.') }
 )

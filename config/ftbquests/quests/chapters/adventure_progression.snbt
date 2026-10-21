@@ -17,11 +17,11 @@
 			y: -8.0d
 		}
 		{
-			height: 6.0d
+			height: 4.5d
 			image: "minecraft:textures/entity/end_portal.png"
 			order: -1
 			rotation: 0.0d
-			width: 6.0d
+			width: 4.5d
 			x: -7.5d
 			y: -5.0d
 		}
@@ -1183,8 +1183,8 @@
 					type: "advancement"
 				}
 			]
-			x: -2d
-			y: 10d
+			x: -2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3D6259FBCAA99583"]
@@ -1230,8 +1230,8 @@
 					type: "advancement"
 				}
 			]
-			x: 0d
-			y: 8.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3052F9967211F448"]
@@ -1276,8 +1276,8 @@
 					type: "item"
 				}
 			]
-			x: 0d
-			y: 10.5d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["746F82D541EBA386"]
@@ -1306,7 +1306,7 @@
 				}
 			]
 			x: -0.75d
-			y: 12d
+			y: 12.5d
 		}
 		{
 			dependencies: ["746F82D541EBA386"]
@@ -1335,7 +1335,7 @@
 				}
 			]
 			x: 0.75d
-			y: 12d
+			y: 12.5d
 		}
 		{
 			dependencies: ["E1E0000000000B01"]
@@ -1373,8 +1373,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 3.5d
-			y: 10d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3052F9967211F448"]
@@ -1456,8 +1456,8 @@
 					value: 1L
 				}
 			]
-			x: 2d
-			y: 10d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
 			id: "E1E0000000000C01"

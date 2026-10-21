@@ -160,7 +160,7 @@
 					type: "item"
 				}
 			]
-			x: -3d
+			x: -4.5d
 			y: 6d
 		}
 		{
@@ -302,7 +302,7 @@
 				}
 			]
 			x: 4.5d
-			y: 1.5d
+			y: 0d
 		}
 		{
 			dependencies: ["6DF054A98B7C673A"]
@@ -328,8 +328,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 3d
+			x: 6d
+			y: 0d
 		}
 		{
 			dependencies: ["36452BF340BDFE34"]

@@ -39,7 +39,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -2d
+			x: -3d
 			y: 0d
 		}
 		{
@@ -75,7 +75,7 @@
 					type: "dimension"
 				}
 			]
-			x: -4.5d
+			x: -6d
 			y: 0d
 		}
 		{
@@ -91,7 +91,7 @@
 					value: 1L
 				}
 			]
-			x: -6d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -108,7 +108,7 @@
 				}
 			]
 			x: -6d
-			y: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["50488578EC9B00BB"]
@@ -123,8 +123,8 @@
 					value: 1L
 				}
 			]
-			x: -6d
-			y: 3d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["616968FEA10496D7", "1AF2A5A8E3C8FA74", "398BF9760AEFEF27"]
@@ -159,8 +159,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -4.5d
-			y: 2.25d
+			x: -6d
+			y: 3d
 		}
 		{
 			dependencies: ["54BEC9ABC4791318"]
@@ -196,8 +196,8 @@
 					value: 1L
 				}
 			]
-			x: -4.5d
-			y: 3.75d
+			x: -6d
+			y: 4.5d
 		}
 		{
 			dependencies: ["13678DCF52726C40"]
@@ -234,8 +234,8 @@
 					value: 1L
 				}
 			]
-			x: -4.5d
-			y: 5.25d
+			x: -6d
+			y: 6d
 		}
 		{
 			dependencies: ["6D43AA38D6FF1796"]
@@ -668,8 +668,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.5d
+			x: 3d
+			y: 0d
 		}
 		{
 			dependencies: ["1B17D371E6E7C13A"]
@@ -696,10 +696,11 @@
 				}
 			]
 			x: 4.5d
-			y: 3d
+			y: 0d
 		}
 		{
 			dependencies: ["1955BE13A53DC36D", "1578DE3B3D679FBE", "7CA151FCABD637F0", "37E65C83FBB7A83D"]
+			hide_dependency_lines: true
 			icon: {
 				id: "apotheosis:sigil_of_supremacy"
 			}
@@ -731,7 +732,7 @@
 				}
 			]
 			x: 0d
-			y: 10.5d
+			y: 11d
 		}
 	]
 }

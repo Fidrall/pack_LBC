@@ -69,3 +69,7 @@ $Quests += @{ k = 'ra_mimi_dust'; x = 3.5; y = 18.5; deps = @('ra_intro'); tasks
         'Utilisée sur un &ecoffre&r, elle le transforme en &cmimique&r. Vaincs-la : elle lâche &eautant de reliques tirées au hasard&r que le coffre en contenait avant la transformation.',
         '',
         '&7Pratique pour retenter sa chance sur des reliques en double.&r') }
+# Reliques de base : grille reguliere par rangee (ordre d'origine), lignes masquees comme les autres catalogues du chapitre
+$rangees = $Quests | Where-Object { $_.k -like 'r_*' } | Group-Object { $_.y } | Sort-Object { [double]$_.Name }
+foreach ($g in $rangees) { $j = 0; foreach ($q in ($g.Group | Sort-Object { [double]$_.x })) { $q.x = -4.5 + $j * 1.5; $q.hideLines = $true; $j++ } }
+foreach ($q in $Quests) { if ($q.k -in 'ri_intro', 'ra_intro') { $q.hideLines = $true } }

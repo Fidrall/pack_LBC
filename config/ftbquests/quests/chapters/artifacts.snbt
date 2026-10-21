@@ -104,7 +104,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: 1.5d
 			y: 3.5d
 		}
 		{
@@ -133,7 +133,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
@@ -164,7 +164,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 4.5d
 			y: 3.5d
 		}
 		{
@@ -367,7 +367,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -396,7 +396,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -1.5d
 			y: -2.5d
 		}
 		{
@@ -425,7 +425,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -454,7 +454,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -483,7 +483,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -512,7 +512,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -541,7 +541,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -570,8 +570,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -2.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			id: "3121D591D3807584"
@@ -599,7 +599,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -628,7 +628,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -657,7 +657,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -686,7 +686,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -715,7 +715,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -744,7 +744,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -773,7 +773,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -802,7 +802,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -831,7 +831,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -860,7 +860,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -889,7 +889,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -918,7 +918,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -947,7 +947,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -976,7 +976,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -1005,7 +1005,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -1034,7 +1034,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -1063,7 +1063,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -1092,7 +1092,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -1121,8 +1121,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 2.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			id: "250E32D632A506B2"
@@ -1182,7 +1182,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.25d
+			x: 0.75d
 			y: -6.25d
 		}
 		{
@@ -1211,8 +1211,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 2.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			id: "37D5E493E9DB64D4"
@@ -1240,8 +1240,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 2.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			id: "5590204A473913AC"
@@ -1269,8 +1269,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.5d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			id: "4F734FC470276106"
@@ -1298,8 +1298,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 0.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			id: "37D3986933A263DB"
@@ -1327,8 +1327,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -1.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			id: "681E258AB577FF73"
@@ -1385,8 +1385,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -4.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			id: "629831A093BC1F03"
@@ -1414,8 +1414,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			id: "607047A3D380D423"
@@ -1443,8 +1443,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -2.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			id: "5E0BD4E4E6C9E146"
@@ -1472,8 +1472,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 2.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -1506,6 +1506,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "522B6C7ECBA00B55"
 			optional: true
 			rewards: [
@@ -1534,6 +1535,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "65C5828BD1FF3F38"
 			optional: true
 			rewards: [
@@ -1562,6 +1564,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "01500464C6F76F10"
 			optional: true
 			rewards: [
@@ -1585,11 +1588,12 @@
 					type: "item"
 				}
 			]
-			x: -1d
+			x: -1.5d
 			y: 7d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "773E6F091F46BF19"
 			optional: true
 			rewards: [
@@ -1613,11 +1617,12 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0d
 			y: 7d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "32C62FEB484884B4"
 			optional: true
 			rewards: [
@@ -1641,11 +1646,12 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 1.5d
 			y: 7d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "73D952912BD0CD52"
 			optional: true
 			rewards: [
@@ -1669,11 +1675,12 @@
 					type: "item"
 				}
 			]
-			x: 4d
+			x: 3d
 			y: 7d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "7AF67A6A6FC9FB30"
 			optional: true
 			rewards: [
@@ -1697,11 +1704,12 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 4.5d
 			y: 7d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "2FAB9F20E833FA09"
 			optional: true
 			rewards: [
@@ -1730,6 +1738,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "4C822F54B99AE3E3"
 			optional: true
 			rewards: [
@@ -1758,6 +1767,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "37A185E923C1EC4C"
 			optional: true
 			rewards: [
@@ -1786,6 +1796,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "5DC186EDAAFEAF79"
 			optional: true
 			rewards: [
@@ -1814,6 +1825,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "1E9C19A7819C7598"
 			optional: true
 			rewards: [
@@ -1837,11 +1849,12 @@
 					type: "item"
 				}
 			]
-			x: 2d
+			x: 1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "742FDF37F14FA07B"
 			optional: true
 			rewards: [
@@ -1865,11 +1878,12 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3d
 			y: 8.5d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "4C95AFAEBCBF9C66"
 			optional: true
 			rewards: [
@@ -1893,11 +1907,12 @@
 					type: "item"
 				}
 			]
-			x: 5d
+			x: 4.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "618051035B4E9316"
 			optional: true
 			rewards: [
@@ -1921,11 +1936,12 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 6d
 			y: 8.5d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "5FF0FC5E0D0B1537"
 			optional: true
 			rewards: [
@@ -1954,6 +1970,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "51FD16C71DE4883C"
 			optional: true
 			rewards: [
@@ -1982,6 +1999,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "5C304AB81C448E15"
 			optional: true
 			rewards: [
@@ -2010,6 +2028,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "12CA9E9ECFFEA4CE"
 			optional: true
 			rewards: [
@@ -2038,6 +2057,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "1A7B8495DE69B63B"
 			optional: true
 			rewards: [
@@ -2066,6 +2086,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "70501966DAD52618"
 			optional: true
 			rewards: [
@@ -2094,6 +2115,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "482093E9013F52ED"
 			optional: true
 			rewards: [
@@ -2122,6 +2144,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			id: "305ADD164F83D2D1"
 			optional: true
 			rewards: [
@@ -2145,11 +2168,12 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 6d
 			y: 10d
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			icon: {
 				id: "reliquified_irons_spells_and_spellbooks:hat_of_omniscience"
 			}
@@ -2876,6 +2900,7 @@
 		}
 		{
 			dependencies: ["64F015F16C1C5F55"]
+			hide_dependency_lines: true
 			icon: {
 				id: "artifacts:cloud_in_a_bottle"
 			}

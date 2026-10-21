@@ -20,7 +20,7 @@ $Quests = @(
   @{ k='bio'; x=-4.5; y=3; deps=@('oil'); tasks=@('createdieselgenerators:biodiesel_bucket'); crate='commune'
      t='Le biodiesel'; st='Un carburant renouvelable'
      d=@('Pas de pétrole près de chez toi ? Fabrique du &abiodiesel&r à partir d''huile végétale (graines pressées) et d''éthanol (fermenté dans la Cuve de Fermentation).') }
-  @{ k='engine'; x=-3; y=6; size=1.5; deps=@('distill','bio'); tasks=@('createdieselgenerators:diesel_engine'); crate='rare'
+  @{ k='engine'; x=-4.5; y=6; size=1.5; deps=@('distill','bio'); tasks=@('createdieselgenerators:diesel_engine'); crate='rare'
      t='&6Le Moteur Diesel'; st='Beaucoup de puissance, peu de place'
      d=@('Le &6Moteur Diesel&r brûle du carburant liquide pour produire beaucoup de rotation.',
          '',
@@ -50,10 +50,10 @@ $Quests = @(
      t='Conteneurs et coffres-forts colorés'; st='Create: Vibrant Vaults'
      d=@('&eVibrant Vaults&r ajoute des &econteneurs d''expédition&r, des coffres-forts verticaux et des versions colorées des blocs de logistique : pratique pour organiser un grand entrepôt… ou la soute d''un dirigeable !') }
   # --- Décoration
-  @{ k='deco'; x=4.5; y=1.5; deps=@('intro'); tasks=@('createdeco:andesite_catwalk'); crate='commune'
+  @{ k='deco'; x=4.5; y=0; deps=@('intro'); tasks=@('createdeco:andesite_catwalk'); crate='commune'
      t='&7Create Deco'; st='Passerelles, lampes et portes'
      d=@('&eCreate Deco&r ajoute des passerelles, grilles, lampes, portes et coques métalliques dans le style de Create. Parfait pour habiller tes usines et tes vaisseaux.') }
-  @{ k='prism'; x=4.5; y=3; deps=@('deco'); tasks=@('createprism:andesite_glass_casing'); crate='commune'
+  @{ k='prism'; x=6; y=0; deps=@('deco'); tasks=@('createprism:andesite_glass_casing'); crate='commune'
      t='Carters en verre'; st='Create: Prismatic Shine'
      d=@('Des &ecarters en verre&r et des &ecarters lumineux&r pour voir tes mécanismes tourner… ou éclairer ton usine.') }
   # --- Divers

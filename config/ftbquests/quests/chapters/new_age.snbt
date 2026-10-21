@@ -285,7 +285,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -4.0d
+			x: 0.5d
 			y: 7.0d
 			rewards: [
 				{
@@ -325,8 +325,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 7.0d
+			x: -2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6AD020DBDE0A43F2"]
@@ -354,8 +354,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 7.0d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6AD020DBDE0A43F2"]
@@ -383,8 +383,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 7.0d
+			x: 3.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6AD020DBDE0A43F2"]
@@ -412,8 +412,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 7.0d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6AD020DBDE0A43F2"]
@@ -441,8 +441,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 7.0d
+			x: 0.5d
+			y: 9.0d
 		}
 	]
 }

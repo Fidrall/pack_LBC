@@ -5,7 +5,7 @@ $racine = '53C9B66BEC667ED0'
 function Opt($k, $x, $y, $dep, $task, $t, $st, $d, $crate = 'rare') { @{ k = $k; x = $x; y = $y; deps = @($dep); tasks = @($task); crate = $crate; optional = $true; t = $t; st = $st; d = $d } }
 $Quests = @(
   # --- Cataclysm Spellbooks
-  @{ k='cs_intro'; x=0; y=12; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='cataclysm_spellbooks:ignis_spell_book'; crate='commune'
+  @{ k='cs_intro'; x=0; y=11.5; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='cataclysm_spellbooks:ignis_spell_book'; crate='commune'
      t='&c&lLes grimoires de Cataclysm'; st='Cataclysm Spellbooks'
      d=@('Les boss de &cCataclysm&r gardent des &esorts&r. Chacun lâche un &6manuscrit&r : utilise-le pour apprendre ses sorts.',
          '',
@@ -13,19 +13,19 @@ $Quests = @(
          '',
          'Tape &d@cataclysm_spellbooks&r dans JEI pour tout voir.') }
   (Opt 'cs_ignis' 2 10 'cs_intro' 'cataclysm_spellbooks:burning_manuscript' 'Le manuscrit brûlant' 'Les sorts d''Ignis' @('Vaincs &cIgnis&r dans l''arène brûlante pour obtenir son &6manuscrit&r et apprendre ses sorts de feu.'))
-  (Opt 'cs_monstro' 3.5 10 'cs_intro' 'cataclysm_spellbooks:encoded_print' 'L''empreinte codée' 'Les sorts de la Monstruosité' @('La &cMonstruosité de Netherite&r cache des sorts infernaux codés dans sa carcasse.'))
-  (Opt 'cs_guardian' 5 10 'cs_intro' 'cataclysm_spellbooks:oracle_shulker_shell_script' 'Le script de l''oracle' 'Les sorts du Gardien de l''Ender' @('Les sorts du vide sont gravés sur la carapace de l''&5Ender Guardian&r, au fond de la citadelle en ruine.'))
-  (Opt 'cs_remnant' 6.5 10 'cs_intro' 'cataclysm_spellbooks:hieroglyph_manuscript' 'Le manuscrit hiéroglyphique' 'Les sorts de la pyramide maudite' @('Les sorts oubliés de la &epyramide maudite&r, gardés par l''&6Ancient Remnant&r.'))
-  (Opt 'cs_maledictus' 2 11.5 'cs_intro' 'cataclysm_spellbooks:frozen_tablet' 'La tablette gelée' 'Les sorts de la prison gelée' @('Les sorts maudits scellés dans la &bprison gelée&r de &cMaledictus&r.'))
-  (Opt 'cs_leviathan' 3.5 11.5 'cs_intro' 'cataclysm_spellbooks:abyssal_manuscript' 'Le manuscrit déchiré' 'Les sorts abyssaux' @('Les sorts abyssaux protégés par les deeplings de la &3cité engloutie&r.'))
-  (Opt 'cs_harbinger' 5 11.5 'cs_intro' 'cataclysm_spellbooks:strange_disc' 'Le disque étrange' 'Les sorts du Harbinger' @('Joue ce disque dans un juke-box &eaccroupi&r pour apprendre les sorts cachés de l''&eusine antique&r.'))
-  (Opt 'cs_amethyst' 6.5 11.5 'cs_intro' 'cataclysm_spellbooks:crystallized_manuscript' 'Le manuscrit cristallisé' 'Les sorts du nid d''améthyste' @('Les sorts cristallins déposés dans le &dnid d''améthyste&r.'))
-  (Opt 'cs_book' 2 13 'cs_intro' 'cataclysm_spellbooks:ignis_spell_book' 'Le grimoire d''Ignis' 'Un grimoire de boss' @('Chaque boss a son &egrimoire&r : Ignis, le Livre de R''lyeh, le grimoire du désert, le Codex de la Malice…'))
-  (Opt 'cs_ignis_armor' 3.5 13 'cs_ignis' 'cataclysm_spellbooks:ignis_chestplate' 'La robe d''Ignis' 'Armure de mage de feu' @('Une &earmure de mage&r forgée avec les matériaux d''Ignis.'))
-  (Opt 'cs_abyssal_armor' 5 13 'cs_leviathan' 'cataclysm_spellbooks:abyssal_warlock_chestplate' 'La robe du sorcier abyssal' 'Armure de mage abyssale' @('Une &earmure de mage&r pour les sorts abyssaux.'))
-  (Opt 'cs_pharaoh_armor' 6.5 13 'cs_remnant' 'cataclysm_spellbooks:pharaoh_chestplate' 'Le haubert du pharaon' 'Armure sacrée du désert' @('Une &earmure de mage&r tirée des trésors de la pyramide maudite.'))
+  (Opt 'cs_monstro' 6.5 10 'cs_intro' 'cataclysm_spellbooks:encoded_print' 'L''empreinte codée' 'Les sorts de la Monstruosité' @('La &cMonstruosité de Netherite&r cache des sorts infernaux codés dans sa carcasse.'))
+  (Opt 'cs_guardian' 6.5 11.5 'cs_intro' 'cataclysm_spellbooks:oracle_shulker_shell_script' 'Le script de l''oracle' 'Les sorts du Gardien de l''Ender' @('Les sorts du vide sont gravés sur la carapace de l''&5Ender Guardian&r, au fond de la citadelle en ruine.'))
+  (Opt 'cs_remnant' 5 10 'cs_intro' 'cataclysm_spellbooks:hieroglyph_manuscript' 'Le manuscrit hiéroglyphique' 'Les sorts de la pyramide maudite' @('Les sorts oubliés de la &epyramide maudite&r, gardés par l''&6Ancient Remnant&r.'))
+  (Opt 'cs_maledictus' 2 13 'cs_intro' 'cataclysm_spellbooks:frozen_tablet' 'La tablette gelée' 'Les sorts de la prison gelée' @('Les sorts maudits scellés dans la &bprison gelée&r de &cMaledictus&r.'))
+  (Opt 'cs_leviathan' 3.5 10 'cs_intro' 'cataclysm_spellbooks:abyssal_manuscript' 'Le manuscrit déchiré' 'Les sorts abyssaux' @('Les sorts abyssaux protégés par les deeplings de la &3cité engloutie&r.'))
+  (Opt 'cs_harbinger' 3.5 13 'cs_intro' 'cataclysm_spellbooks:strange_disc' 'Le disque étrange' 'Les sorts du Harbinger' @('Joue ce disque dans un juke-box &eaccroupi&r pour apprendre les sorts cachés de l''&eusine antique&r.'))
+  (Opt 'cs_amethyst' 5 13 'cs_intro' 'cataclysm_spellbooks:crystallized_manuscript' 'Le manuscrit cristallisé' 'Les sorts du nid d''améthyste' @('Les sorts cristallins déposés dans le &dnid d''améthyste&r.'))
+  (Opt 'cs_book' 6.5 13 'cs_intro' 'cataclysm_spellbooks:ignis_spell_book' 'Le grimoire d''Ignis' 'Un grimoire de boss' @('Chaque boss a son &egrimoire&r : Ignis, le Livre de R''lyeh, le grimoire du désert, le Codex de la Malice…'))
+  (Opt 'cs_ignis_armor' 2 11.5 'cs_ignis' 'cataclysm_spellbooks:ignis_chestplate' 'La robe d''Ignis' 'Armure de mage de feu' @('Une &earmure de mage&r forgée avec les matériaux d''Ignis.'))
+  (Opt 'cs_abyssal_armor' 3.5 11.5 'cs_leviathan' 'cataclysm_spellbooks:abyssal_warlock_chestplate' 'La robe du sorcier abyssal' 'Armure de mage abyssale' @('Une &earmure de mage&r pour les sorts abyssaux.'))
+  (Opt 'cs_pharaoh_armor' 5 11.5 'cs_remnant' 'cataclysm_spellbooks:pharaoh_chestplate' 'Le haubert du pharaon' 'Armure sacrée du désert' @('Une &earmure de mage&r tirée des trésors de la pyramide maudite.'))
   # --- Somake Spells
-  @{ k='so_intro'; x=9.5; y=12; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='somakespells:upgrade_forge'; crate='commune'
+  @{ k='so_intro'; x=9.5; y=11.5; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='somakespells:upgrade_forge'; crate='commune'
      t='&b&lSomake Spells'; st='Nouvelles écoles et nouveaux métaux'
      d=@('&6Somake Spells&r ajoute des écoles de magie (&beau&r, &cfeu infernal&r, &3feu des âmes&r…), de nouveaux &emétaux&r, des &egrimoires à trois niveaux&r et des armes de mage.',
          '',
@@ -34,16 +34,16 @@ $Quests = @(
   (Opt 'so_abyssium' 11.5 11.5 'so_intro' 'somakespells:abyssium_ingot' 'L''abyssium' 'Un métal des profondeurs' @('Un des trois nouveaux &emétaux&r de Somake, avec le céranium et le magmarium.') 'commune')
   (Opt 'so_ceranium' 13 11.5 'so_intro' 'somakespells:ceranium_ingot' 'Le céranium' 'Un métal céleste' @('Un des trois nouveaux &emétaux&r de Somake.') 'commune')
   (Opt 'so_magmarium' 14.5 11.5 'so_intro' 'somakespells:magmarium_ingot' 'Le magmarium' 'Un métal de lave' @('Un des trois nouveaux &emétaux&r de Somake.') 'commune')
-  @{ k='so_runes'; x=13; y=10; deps=@('so_intro'); tasks=@('somakespells:aqua_rune','somakespells:infernal_fire_rune','somakespells:soul_fire_rune'); crate='rare'; optional=$true
+  @{ k='so_runes'; x=16; y=11.5; deps=@('so_intro'); tasks=@('somakespells:aqua_rune','somakespells:infernal_fire_rune','somakespells:soul_fire_rune'); crate='rare'; optional=$true
      t='Les runes des nouvelles écoles'; st='Eau, feu infernal, feu des âmes'
      d=@('Chaque nouvelle école a sa &erune&r, base de ses &eorbes d''amélioration&r.') }
-  (Opt 'so_book1' 11.5 13 'so_forge' 'somakespells:burning_magma_spell_book' 'Magma ardent' 'Un grimoire à trois niveaux' @('Les grimoires de Somake s''améliorent en &eII&r puis &eIII&r à la forge d''amélioration.') 'commune')
-  (Opt 'so_book2' 13 13 'so_book1' 'somakespells:burning_magma_2_spell_book' 'Magma ardent II' 'Deuxième niveau' @('Plus d''emplacements de sorts et plus de puissance.'))
-  (Opt 'so_book3' 14.5 13 'so_book2' 'somakespells:burning_magma_3_spell_book' 'Magma ardent III' 'Le grimoire ultime' @('Le dernier niveau du grimoire.') 'epique')
-  (Opt 'so_staff' 16 11.5 'so_intro' 'somakespells:ignitium_staff' 'Le bâton d''ignitium' 'Un bâton de feu' @('Un bâton forgé avec l''&cignitium&r de Cataclysm.'))
-  (Opt 'so_armor' 16 13 'so_intro' 'somakespells:aquamancer_chestplate' 'L''aquamancien' 'Armure de l''école de l''eau' @('L''armure de mage de l''école de l''&beau&r.'))
+  (Opt 'so_book1' 13 10 'so_forge' 'somakespells:burning_magma_spell_book' 'Magma ardent' 'Un grimoire à trois niveaux' @('Les grimoires de Somake s''améliorent en &eII&r puis &eIII&r à la forge d''amélioration.') 'commune')
+  (Opt 'so_book2' 14.5 10 'so_book1' 'somakespells:burning_magma_2_spell_book' 'Magma ardent II' 'Deuxième niveau' @('Plus d''emplacements de sorts et plus de puissance.'))
+  (Opt 'so_book3' 16 10 'so_book2' 'somakespells:burning_magma_3_spell_book' 'Magma ardent III' 'Le grimoire ultime' @('Le dernier niveau du grimoire.') 'epique')
+  (Opt 'so_staff' 11.5 13 'so_intro' 'somakespells:ignitium_staff' 'Le bâton d''ignitium' 'Un bâton de feu' @('Un bâton forgé avec l''&cignitium&r de Cataclysm.'))
+  (Opt 'so_armor' 13 13 'so_intro' 'somakespells:aquamancer_chestplate' 'L''aquamancien' 'Armure de l''école de l''eau' @('L''armure de mage de l''école de l''&beau&r.'))
   # --- Twilight Spellbooks
-  @{ k='ts_intro'; x=0; y=17; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='twilight_spellbooks:ironwood_spell_book'; crate='commune'
+  @{ k='ts_intro'; x=0; y=17.5; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='twilight_spellbooks:ironwood_spell_book'; crate='commune'
      t='&2&lLa magie du Crépuscule'; st='Twilight Spellbooks'
      d=@('Les matériaux de la &2Forêt du Crépuscule&r servent aussi aux mages : grimoires, encres et anneaux.',
          '',
@@ -61,7 +61,7 @@ $Quests = @(
   (Opt 'ts_urghast' 5 19 'ts_intro' 'twilight_spellbooks:urghast_chronicle' 'La chronique de l''Ur-Ghast' 'La tour noire' @('Le tome de l''&eUr-Ghast&r.') 'epique')
   (Opt 'ts_queen' 6.5 19 'ts_intro' 'twilight_spellbooks:queens_diary' 'Le journal de la reine' 'Le palais de l''aurore' @('Le tome de la &eReine des neiges&r.') 'epique')
   # --- Deeper and Darker Spellbooks
-  @{ k='dd_intro'; x=9.5; y=17; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='darkermagic:whisper_staff'; crate='commune'
+  @{ k='dd_intro'; x=10; y=17.5; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('@check'); icon='darkermagic:whisper_staff'; crate='commune'
      t='&3&lLa magie de l''Autre Côté'; st='Deeper and Darker Spellbooks'
      d=@('Les matériaux du &3Warden&r et de l''&3Autre Côté&r donnent un bâton, une armure de mage et un grimoire.') }
   @{ k='dd_staff'; x=11.5; y=16; deps=@('dd_intro'); tasks=@('adv:darkermagic:darkermagic/whisper_staff_created'); crate='rare'; optional=$true; icon='darkermagic:whisper_staff'
@@ -71,7 +71,7 @@ $Quests = @(
   @{ k='dd_book'; x=11.5; y=19; deps=@('dd_intro'); tasks=@('adv:darkermagic:darkermagic/spell_book_volume'); crate='epique'; optional=$true; icon='darkermagic:volume_of_the_deep'
      t='Le Volume des Profondeurs'; st='Un grimoire de Netherite amélioré'; d=@('Améliore ton grimoire de Netherite en &3Volume des Profondeurs&r.') }
   # --- Create : Wizardry
-  @{ k='cw_root'; x=14; y=17; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('adv:create_wizardry:root'); icon='create_wizardry:arcane_casing'; crate='commune'
+  @{ k='cw_root'; x=14.5; y=17.5; size=1.5; shape='gear'; deps=@($racine); hideLines=$true; tasks=@('adv:create_wizardry:root'); icon='create_wizardry:arcane_casing'; crate='commune'
      t='&e&lCreate : Wizardry'; st='La sorcellerie mécanique'
      d=@('&6Create : Wizardry&r automatise la magie avec Create : essence arcanique, encres, mana liquide, foudre et même un lanceur de sorts.') }
   @{ k='cw_alch'; x=16; y=16; deps=@('cw_root'); tasks=@('adv:create_wizardry:alch_101'); crate='commune'; optional=$true; icon='irons_spellbooks:arcane_essence'
@@ -90,7 +90,7 @@ $Quests = @(
      t='L''âge des Lumières'; st='Le boîtier arcanique'; d=@('Fabrique un &eboîtier arcanique&r.') }
   @{ k='cw_channeler'; x=17.5; y=19; deps=@('cw_casing'); tasks=@('adv:create_wizardry:channeler'); crate='rare'; optional=$true; icon='create_wizardry:channeler'
      t='Récolter le ciel'; st='La foudre liquide'; d=@('Pose un &ecanaliseur&r pour récolter de la &efoudre liquide&r pendant les orages.') }
-  @{ k='cw_caster'; x=19; y=19; deps=@('cw_casing'); tasks=@('adv:create_wizardry:i_cast_fireball'); crate='epique'; optional=$true; icon='create_wizardry:blaze_caster'
+  @{ k='cw_caster'; x=16; y=20.5; deps=@('cw_casing'); tasks=@('adv:create_wizardry:i_cast_fireball'); crate='epique'; optional=$true; icon='create_wizardry:blaze_caster'
      t='JE LANCE BOULE DE FEU !'; st='Le lanceur de sorts'; d=@('Forge le &elanceur Blaze&r : une machine qui lance des sorts toute seule.') }
 )
 # --- Apex Arcana : un sort ultime par quete (parchemins tres rares, coffres de fin de jeu)
@@ -108,3 +108,6 @@ foreach ($a in $apex) {
     t = $a[1]; st = 'Sort ultime' }
   $i++
 }
+# Eventails des racines (8 a 10 quetes en grille) : lignes masquees, seules les chaines restent visibles
+$eventail = @('cs_ignis','cs_leviathan','cs_remnant','cs_monstro','cs_guardian','cs_maledictus','cs_harbinger','cs_amethyst','cs_book','so_forge','so_abyssium','so_ceranium','so_magmarium','so_runes','so_staff','so_armor','ts_ironwood','ts_ink','ts_naga','ts_lich','ts_minoshroom','ts_hydra','ts_knight','ts_yeti','ts_urghast','ts_queen')
+foreach ($q in $Quests) { if ($eventail -contains $q.k) { $q.hideLines = $true } }

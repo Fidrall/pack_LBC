@@ -15,22 +15,22 @@ $Quests = @(
   @{ k='holystone'; x=-3.5; y=0; deps=@('skyroot'); tasks=@('aether:holystone*16'); crate='commune'
      t='La Pierre Sainte'; st='La pierre de l''Aether'
      d=@('La &ePierre Sainte&r est la pierre de l''Aether. Ses outils font parfois tomber des éclats d''&eAmbrosium&r.') }
-  @{ k='ambrosium'; x=-2; y=1.5; deps=@('holystone'); tasks=@('aether:ambrosium_shard*8'); crate='commune'
+  @{ k='ambrosium'; x=-3.5; y=1.5; deps=@('holystone'); tasks=@('aether:ambrosium_shard*8'); crate='commune'
      t='L''Ambrosium'; st='Le charbon du ciel'
      d=@('L''&eAmbrosium&r sert de combustible, de torche, et peut &aenchanter l''herbe de l''Aether&r pour faire pousser plus vite.',
          '',
          'C''est aussi le carburant de l''&eAutel&r.') }
-  @{ k='altar'; x=-3.5; y=1.5; deps=@('ambrosium'); tasks=@('aether:altar'); crate='commune'
+  @{ k='altar'; x=-5; y=1.5; deps=@('ambrosium'); tasks=@('aether:altar'); crate='commune'
      t='L''Autel'; st='Enchanter à la mode de l''Aether'
      d=@('L''&eAutel&r « enchante » certains objets de l''Aether (comme la gravitite) et &arépare les outils&r, avec de l''Ambrosium comme carburant.',
          '',
          'Le &eCongélateur&r, lui, gèle l''eau, la glace et la lave avec de la Pierre de Glace.') }
-  @{ k='zanite'; x=-2; y=3; deps=@('ambrosium'); tasks=@('aether:zanite_gemstone*8'); crate='commune'
+  @{ k='zanite'; x=-3.5; y=3; deps=@('ambrosium'); tasks=@('aether:zanite_gemstone*8'); crate='commune'
      t='La Zanite'; st='La gemme bleue'
      d=@('La &eZanite&r se mine avec une pioche en Pierre Sainte.',
          '',
          'Ses outils et son épée ont une particularité : &bplus ils sont usés, plus ils sont efficaces&r !') }
-  @{ k='gravitite'; x=-3.5; y=3; deps=@('zanite','altar'); tasks=@('aether:enchanted_gravitite*4'); crate='rare'
+  @{ k='gravitite'; x=-5; y=3; deps=@('zanite','altar'); tasks=@('aether:enchanted_gravitite*4'); crate='rare'
      t='&dLa Gravitite'; st='Le minerai qui défie la gravité'
      d=@('La &dGravitite&r se mine avec une pioche en zanite. Elle ne se fond pas : elle s''&eenchante sur l''Autel&r.',
          '',
@@ -68,14 +68,14 @@ $Quests = @(
          'Son boss, le &6Glisseur&r, est un gros cube de pierre qui fonce sur toi. On ne peut le blesser qu''avec une &epioche&r : plus elle est bonne, plus tu fais de dégâts.',
          '',
          '&7Attention aux Mimiques : certains coffres sont des monstres !') }
-  @{ k='silver'; x=0; y=3.5; size=1.5; deps=@('bronze'); tasks=@('adv:aether:silver_dungeon'); icon='aether:silver_dungeon_key'; crate='epique'
+  @{ k='silver'; x=0; y=4; size=1.5; deps=@('bronze'); tasks=@('adv:aether:silver_dungeon'); icon='aether:silver_dungeon_key'; crate='epique'
      t='&f&lLe Donjon d''Argent'; st='Boss : la Reine Valkyrie'
      d=@('Le &fDonjon d''Argent&r est un temple grec construit &esur de grands nuages&r : facile à repérer.',
          '',
          'Des &eValkyries&r y patrouillent. Pour affronter la &fReine Valkyrie&r, tu dois d''abord en battre assez pour réunir &e10 Médailles de Victoire&r.',
          '',
          'Elle fonce en frappant avec son épée et lance des éclairs. Ses récompenses : l''&earmure de Valkyrie&r, la Lance de Valkyrie (10 blocs de portée !) et la cape de Valkyrie (chute lente).') }
-  @{ k='gold'; x=0; y=5; size=2; shape='hexagon'; deps=@('silver'); tasks=@('adv:aether:gold_dungeon'); icon='aether:gold_dungeon_key'; crate='legendaire'; xp=1500
+  @{ k='gold'; x=0; y=6.5; size=2; shape='hexagon'; deps=@('silver'); tasks=@('adv:aether:gold_dungeon'); icon='aether:gold_dungeon_key'; crate='legendaire'; xp=1500
      t='&6&lLe Donjon d''Or'; st='Boss final : l''Esprit du Soleil'
      d=@('Le &6Donjon d''Or&r est enfoui sous une grande île couverte de &eChênes Dorés&r.',
          '',
@@ -86,14 +86,14 @@ $Quests = @(
          'Il donne l''&6armure de Phénix&r (qui devient armure d''Obsidienne dans l''eau).',
          '',
          '&6&lTu as conquis l''Aether !&r') }
-  @{ k='accessories'; x=2; y=3.5; deps=@('bronze'); tasks=@('aether:regeneration_stone'); crate='rare'
+  @{ k='accessories'; x=1.5; y=3.5; deps=@('bronze'); tasks=@('aether:regeneration_stone'); crate='rare'
      t='Les accessoires'; st='Gants, anneaux, capes…'
      d=@('L''Aether a ses propres emplacements d''&eaccessoires&r : gants, anneaux, pendentifs et capes.',
          '',
          'Parmi les meilleurs : la &ePierre de Régénération&r (soigne en continu), les &eBottes de Sentinelle&r (plus de dégâts de chute), la &eCape d''Invisibilité&r et le &eBouclier de Répulsion&r (renvoie les projectiles).',
          '',
          'On les trouve surtout dans les coffres des donjons.') }
-  @{ k='weapons'; x=-2; y=5; deps=@('silver'); tasks=@('aether:hammer_of_kingbdogz'); crate='rare'; optional=$true
+  @{ k='weapons'; x=-1.5; y=5.5; deps=@('silver'); tasks=@('aether:hammer_of_kingbdogz'); crate='rare'; optional=$true
      t='Les armes légendaires'; st='Des trésors de donjon'
      d=@('Les donjons cachent des armes uniques : le &eMarteau de Kingbdogz&r (tire des projectiles), l''&eÉpée Vampire&r (vol de vie), l''&eÉpée de Foudre&r, l''&eArc Phénix&r (flèches enflammées), l''&eÉpée Sacrée&r…',
          '',

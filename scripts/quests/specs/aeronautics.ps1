@@ -127,7 +127,7 @@ $Quests = @(
      d=@('Elle produit de la poussée quand elle tourne, et &bs''incline d''elle-même&r sur un axe pour essayer de pointer vers le haut.',
          '',
          'Une clé inverse le sens de sa poussée.') }
-  @{ k='gyrobearing'; x=1.5; y=5; deps=@('gyromech'); tasks=@('aeronautics:gyroscopic_propeller_bearing'); crate='rare'
+  @{ k='gyrobearing'; x=4.5; y=3.5; deps=@('gyromech'); tasks=@('aeronautics:gyroscopic_propeller_bearing'); crate='rare'
      t='Le Roulement Gyroscopique'; st='Pour les hélicoptères'
      d=@('Un roulement d''hélice qui &bgarde son hélice droite&r : parfait pour les &ehélicoptères&r, que les roulements normaux rendent instables.',
          '',
@@ -260,19 +260,19 @@ $Quests = @(
          'Idéale pour des vaisseaux stables… ou des îles flottantes !') }
 
   # --- Create Propulsion
-  @{ k='platinum'; x=6; y=8; deps=@('firstflight'); tasks=@('createpropulsion:platinum_ingot*8'); crate='commune'
+  @{ k='platinum'; x=4.5; y=8; deps=@('firstflight'); tasks=@('createpropulsion:platinum_ingot*8'); crate='commune'
      t='&7Le Platine'; st='Le métal de Propulsion'
      d=@('Le &7Platine&r est le métal de base de &eCreate Propulsion&r.',
          '',
          'Son minerai se trouve sous terre (aussi en version ardoise des abîmes). Comme les autres minerais, broie-le et lave-le avec Create pour en tirer plus de lingots.',
          '',
          'Il sert à fabriquer le Carter en Platine, les réservoirs en platine (deux fois plus grands que ceux en cuivre) et les machines de propulsion.') }
-  @{ k='resin'; x=7.5; y=8; deps=@('platinum'); tasks=@('createpropulsion:pine_resin*8'); crate='commune'
+  @{ k='resin'; x=6; y=8; deps=@('platinum'); tasks=@('createpropulsion:pine_resin*8'); crate='commune'
      t='La Résine de Pin'; st='Le début du carburant'
      d=@('Broie des &ebûches de sapin&r avec des Roues de Broyage : tu as 60 % de chance d''obtenir de la &eRésine de Pin&r.',
          '',
          'Une ferme à sapins automatique avec une scie mécanique te fournira tout le carburant dont tu as besoin.') }
-  @{ k='turpentine'; x=9; y=8; deps=@('resin'); tasks=@('createpropulsion:turpentine_bucket'); crate='rare'
+  @{ k='turpentine'; x=7.5; y=8; deps=@('resin'); tasks=@('createpropulsion:turpentine_bucket'); crate='rare'
      t='&6La Térébenthine'; st='Le carburant des propulseurs'
      d=@('Mélange de la résine de pin avec de l''eau dans un bassin, avec un Mélangeur Mécanique : tu obtiens de la &6Térébenthine&r.',
          '',
@@ -295,14 +295,14 @@ $Quests = @(
      d=@('Il fonctionne à l''&eélectricité (FE)&r au lieu du carburant. Alimente-le avec des câbles, un Alternateur de Crafts and Additions ou un Générateur à Corail.',
          '',
          'Plus besoin de faire le plein, mais il faut une bonne source d''énergie à bord.') }
-  @{ k='wing'; x=6; y=9.5; deps=@('platinum'); tasks=@('createpropulsion:wing*4'); crate='commune'
+  @{ k='wing'; x=4.5; y=9.5; deps=@('platinum'); tasks=@('createpropulsion:wing*4'); crate='commune'
      t='Les Ailes'; st='Pour les avions'
      d=@('Les &eAiles&r forment des surfaces aérodynamiques : elles produisent de la &bportance quand l''air passe dessus&r, selon la vitesse et l''angle.',
          '',
          'Les &eAiles Trempées&r sont une version renforcée, et les &eAiles Copycat&r prennent l''apparence de n''importe quel bloc.',
          '',
          'Avec des propulseurs, tu peux construire un vrai &bavion&r !') }
-  @{ k='stirling'; x=4.5; y=9.5; deps=@('platinum'); tasks=@('createpropulsion:solid_burner','createpropulsion:stirling_engine'); crate='rare'
+  @{ k='stirling'; x=6; y=9.5; deps=@('platinum'); tasks=@('createpropulsion:solid_burner','createpropulsion:stirling_engine'); crate='rare'
      t='Brûleur et Moteur Stirling'; st='Chaleur → rotation'
      d=@('Le &eBrûleur Solide&r (ou &eLiquide&r) produit de la chaleur avec du combustible.',
          '',
@@ -316,19 +316,19 @@ $Quests = @(
          'La version avancée permet de régler l''angle maximum de chaque côté.') }
 
   # --- Vehicules terrestres : Create Tracks+ (remplace Offroad, retire du pack)
-  @{ k='wheelmount'; x=-4.5; y=8; deps=@('assembler'); tasks=@('tracks:track_mount'); crate='commune'
+  @{ k='wheelmount'; x=12; y=7.5; deps=@('assembler'); hideLines=$true; tasks=@('tracks:track_mount'); crate='commune'
      t='&2Les véhicules terrestres'; st='Pas besoin de voler pour voyager'
      d=@('Avec &2Create: Tracks+&r, une construction simulée peut &2rouler&r sur des &echenilles&r.',
          '',
          'Le &esupport de chenille&r se fixe sous ton véhicule ; ajoute ensuite des roues motrices et des chenilles.',
          '',
          'Voitures, camions, chars… tout est possible !') }
-  @{ k='tires'; x=-6; y=8; deps=@('wheelmount'); tasks=@('tracks:track_drive_wheel','tracks:suspension_track'); crate='commune'
+  @{ k='tires'; x=13.5; y=7.5; deps=@('wheelmount'); tasks=@('tracks:track_drive_wheel','tracks:suspension_track'); crate='commune'
      t='Les chenilles'; st='Pour tous les terrains'
      d=@('La &eroue motrice&r fait avancer la chenille, et la &echenille à suspension&r absorbe les bosses du terrain.',
          '',
          'Il en existe plusieurs tailles, jusqu''aux &egrandes chenilles&r pour les engins lourds.') }
-  @{ k='borehead'; x=-6; y=9.5; deps=@('tires'); tasks=@('create:mechanical_drill*4'); crate='rare'
+  @{ k='borehead'; x=15; y=7.5; deps=@('tires'); tasks=@('create:mechanical_drill*4'); crate='rare'
      t='&6Le tunnelier'; st='Creuser des tunnels à la machine'
      d=@('Monte des &6perceuses mécaniques&r à l''avant d''un véhicule à chenilles, ajoute un rangement, et tu as un &etunnelier&r !',
          '',
@@ -336,7 +336,7 @@ $Quests = @(
          '- Les objets vont dans les rangements du véhicule.') }
 
   # --- Final
-  @{ k='master'; x=7.5; y=12.5; size=2.5; shape='gear'; deps=@('levitite','ion','navtable','docking'); tasks=@('aeronautics:levitite*32','createpropulsion:vector_thruster*4','simulated:navigation_table','simulated:docking_connector*2'); crate='legendaire'; xp=2000
+  @{ k='master'; x=4.5; y=12.5; size=2.5; hideLines=$true; shape='gear'; deps=@('levitite','ion','navtable','docking'); tasks=@('aeronautics:levitite*32','createpropulsion:vector_thruster*4','simulated:navigation_table','simulated:docking_connector*2'); crate='legendaire'; xp=2000
      t='&6&lMaître des Airs'; st='L''objectif final du chapitre'
      d=@('Tu maîtrises maintenant tout ce qu''il faut pour construire le vaisseau de tes rêves.',
          '',

@@ -7,7 +7,7 @@ $Quests = @(
          'Chaque rareté ajoute des &aaffixes&r (bonus de statistiques) et des &bemplacements de gemmes&r. Les objets Mythiques ont même une capacité unique.',
          '',
          'Où trouver ce butin ? Dans les &ecoffres des structures&r, et surtout sur les &cmonstres élites&r et les &cboss d''Apotheosis&r, qui apparaissent de temps en temps dans le monde (ils brillent et sont annoncés).') }
-  @{ k='tiers'; x=-2; y=0; deps=@('intro'); tasks=@('@check'); checkTitle='Compris !'; icon='minecraft:nether_star'
+  @{ k='tiers'; x=-3; y=0; deps=@('intro'); tasks=@('@check'); checkTitle='Compris !'; icon='minecraft:nether_star'
      t='Les Niveaux du Monde'; st='Ctrl + T'
      d=@('Apotheosis a des &6Niveaux du Monde&r : Havre, Frontière, Ascension, Sommet et Apogée. Ouvre le menu avec &aCtrl + T&r.',
          '',
@@ -17,30 +17,30 @@ $Quests = @(
          '',
          'Plus le niveau est élevé, plus les monstres sont dangereux… et meilleur est le butin. &cChaque joueur choisit son niveau&r : mettez-vous d''accord en équipe avant de monter !') }
   # --- Echelle des niveaux du monde : debloque (succes Apotheosis) sans activer
-  @{ k='tier_frontier'; x=-4.5; y=0; deps=@('tiers'); tasks=@('dim:minecraft:the_nether'); icon='minecraft:netherrack'; grantAdv=@('apotheosis:progression/frontier'); crate='commune'
+  @{ k='tier_frontier'; x=-6; y=0; deps=@('tiers'); tasks=@('dim:minecraft:the_nether'); icon='minecraft:netherrack'; grantAdv=@('apotheosis:progression/frontier'); crate='commune'
      t='&aNiveau : Frontière'; st='Entrer dans le Nether'
      d=@('Ton premier pas dans le Nether prouve que tu es prêt à affronter un monde plus dangereux.',
          '',
          'Récompense : le niveau &aFrontière&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r.',
          '',
          'À partir de ce niveau, des &cEnvahisseurs&r (mini-boss d''Apotheosis) peuvent apparaître.') }
-  @{ k='tier_boss_naga'; x=-6; y=1.5; deps=@('tier_frontier'); tasks=@('kill:twilightforest:naga'); size=0.75; optional=$true
+  @{ k='tier_boss_naga'; x=-7.5; y=1.5; deps=@('tier_frontier'); tasks=@('kill:twilightforest:naga'); size=0.75; optional=$true
      t='Vaincre la Naga'; st='Un des premiers boss' }
-  @{ k='tier_boss_deadking'; x=-6; y=2.25; deps=@('tier_frontier'); tasks=@('kill:irons_spellbooks:dead_king'); size=0.75; optional=$true
+  @{ k='tier_boss_deadking'; x=-6; y=1.5; deps=@('tier_frontier'); tasks=@('kill:irons_spellbooks:dead_king'); size=0.75; optional=$true
      t='Vaincre le Roi Mort'; st='Un des premiers boss' }
-  @{ k='tier_boss_elder'; x=-6; y=3; deps=@('tier_frontier'); tasks=@('kill:minecraft:elder_guardian'); size=0.75; optional=$true
+  @{ k='tier_boss_elder'; x=-4.5; y=1.5; deps=@('tier_frontier'); tasks=@('kill:minecraft:elder_guardian'); size=0.75; optional=$true
      t='Vaincre un Gardien Ancien'; st='Un des premiers boss' }
-  @{ k='tier_ascent'; x=-4.5; y=2.25; deps=@('tier_boss_naga','tier_boss_deadking','tier_boss_elder'); minDeps=1; tasks=@('@check'); checkTitle='Débloquer Ascension'; icon='minecraft:iron_sword'; grantAdv=@('apotheosis:progression/ascent'); crate='rare'
+  @{ k='tier_ascent'; x=-6; y=3; deps=@('tier_boss_naga','tier_boss_deadking','tier_boss_elder'); minDeps=1; tasks=@('@check'); checkTitle='Débloquer Ascension'; icon='minecraft:iron_sword'; grantAdv=@('apotheosis:progression/ascent'); crate='rare'
      t='&9Niveau : Ascension'; st='Vaincre un premier boss'
      d=@('Tu as vaincu un premier boss (la &eNaga&r, le &eRoi Mort&r ou un &eGardien Ancien&r) : tu es prêt pour l''étape suivante.',
          '',
          'Récompense : le niveau &9Ascension&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r.') }
-  @{ k='tier_summit'; x=-4.5; y=3.75; deps=@('tier_ascent'); tasks=@('kill:minecraft:wither'); icon='minecraft:wither_skeleton_skull'; grantAdv=@('apotheosis:progression/summit'); crate='epique'
+  @{ k='tier_summit'; x=-6; y=4.5; deps=@('tier_ascent'); tasks=@('kill:minecraft:wither'); icon='minecraft:wither_skeleton_skull'; grantAdv=@('apotheosis:progression/summit'); crate='epique'
      t='&5Niveau : Sommet'; st='Vaincre le Wither'
      d=@('Le Wither est tombé. Le monde va devenir bien plus hostile… si tu le décides.',
          '',
          'Récompense : le niveau &5Sommet&r est &edébloqué&r. Active-le quand tu veux avec &aCtrl + T&r.') }
-  @{ k='tier_pinnacle'; x=-4.5; y=5.25; size=1.5; deps=@('tier_summit'); tasks=@('kill:minecraft:ender_dragon'); icon='minecraft:dragon_head'; grantAdv=@('apotheosis:progression/pinnacle'); crate='legendaire'
+  @{ k='tier_pinnacle'; x=-6; y=6; size=1.5; deps=@('tier_summit'); tasks=@('kill:minecraft:ender_dragon'); icon='minecraft:dragon_head'; grantAdv=@('apotheosis:progression/pinnacle'); crate='legendaire'
      t='&6&lNiveau : Apogée'; st='Vaincre l''Ender Dragon'
      d=@('La fin de toutes choses… ou le vrai début. Le niveau &6Apogée&r est le plus dangereux, avec le meilleur butin.',
          '',
@@ -116,17 +116,17 @@ $Quests = @(
          '',
          'Regarde les recettes d''infusion dans JEI.') }
   # --- Générateurs
-  @{ k='spawner'; x=4.5; y=1.5; deps=@('intro'); tasks=@('minecraft:spawner'); crate='rare'
+  @{ k='spawner'; x=3; y=0; deps=@('intro'); tasks=@('minecraft:spawner'); crate='rare'
      t='&6Les générateurs de monstres'; st='Des fermes sur mesure'
      d=@('Avec une pioche &eToucher de soie&r, tu peux &arécupérer les générateurs de monstres&r trouvés dans les donjons.',
          '',
          'Ils peuvent ensuite être &eaméliorés&r : plus rapides, plus de monstres, fonctionnement sans joueur à proximité ou sans lumière… Regarde les objets d''amélioration (runes) dans JEI.',
          '',
          'Parfait pour une ferme à XP ou à butin. &7Attention à ne pas surcharger le serveur avec trop de monstres !&r') }
-  @{ k='rune'; x=4.5; y=3; deps=@('spawner'); tasks=@('apotheosis:spawner_rune'); crate='commune'
+  @{ k='rune'; x=4.5; y=0; deps=@('spawner'); tasks=@('apotheosis:spawner_rune'); crate='commune'
      t='Les runes de générateur'; st='Améliorer un générateur'
      d=@('Les &erunes&r s''appliquent sur un générateur pour modifier son comportement. Chaque rune a son effet : délai, portée, nombre de monstres, silence…') }
-  @{ k='final'; x=0; y=10.5; size=2.5; shape='gear'; deps=@('reforge2','augment','endshelf','sigils'); tasks=@('@check'); checkTitle='Mon équipement est mythique'; icon='apotheosis:sigil_of_supremacy'; crate='legendaire'; xp=1500
+  @{ k='final'; x=0; y=11; size=2.5; shape='gear'; deps=@('reforge2','augment','endshelf','sigils'); hideLines=$true; tasks=@('@check'); checkTitle='Mon équipement est mythique'; icon='apotheosis:sigil_of_supremacy'; crate='legendaire'; xp=1500
      t='&6&lÉquipement légendaire'; st='L''objectif final du chapitre'
      d=@('Obtiens (ou forge) une &6pièce d''équipement Mythique&r, avec ses gemmes et ses enchantements au maximum.',
          '',
