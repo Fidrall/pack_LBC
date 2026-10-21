@@ -5706,7 +5706,7 @@ hash = "d986f46a3b01083f7d168093d16279daf81f44fb7e4687f73254320e3fdd133c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_moyen.json"
-hash = "2f97b55ff131d08b5b5c82379fc46c756a3b411b2f05de2f2127ed02abc6c391"
+hash = "7785f9be1594a6670b842baaf9da79fa2af56bfef0f7bb9489f4d4f214d1f2b8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/worldgen/structure_set/familles/overworld_surface_petit.json"

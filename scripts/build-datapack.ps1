@@ -253,9 +253,9 @@ $famSpacing = @{
 $fam = Import-Csv (Join-Path $PSScriptRoot 'data\structure_families.csv')
 # Ajustements manuels de frequence (multiplicateur du poids), conserves si le CSV est regenere
 $famFactor = @{ 'mns:grave_yard' = 0.1; 'mns:large_house_1' = 0.13; 'mns:circle_blackstone' = 0.27; 'mns:crimson_forge' = 0.3; 'mns:small_arena' = 0.33; 'philipsruins:rare_ruin' = 0.2
-    # Create Structures Arise : grandes de surface ~0,6x l'original du mod (elles etaient ~1,55x), caisse sous ballon /2
+    # Create Structures Arise : grandes de surface ~0,6x l'original du mod (elles etaient ~1,55x), caisse sous ballon /5 (encore trop vue a /2)
     'create_structures_arise:windmill' = 0.4; 'create_structures_arise:createminiskyvillage' = 0.4; 'create_structures_arise:pillagersteampunkairship' = 0.4
-    'create_structures_arise:crimsite_tower' = 0.4; 'create_structures_arise:towerofochrum' = 0.4; 'create_structures_arise:createairdrop' = 0.5 }
+    'create_structures_arise:crimsite_tower' = 0.4; 'create_structures_arise:towerofochrum' = 0.4; 'create_structures_arise:createairdrop' = 0.2 }
 foreach ($r in $fam) { if ($famFactor.ContainsKey($r.structure)) { $r.weight = [Math]::Max(1, [Math]::Round([int]$r.weight * $famFactor[$r.structure])) } }
 # Iles volantes (Moog's) : hors familles, ensemble a part -> elles ne prennent plus de case aux structures au sol
 $iles = @($fam | Where-Object { $_.structure -like 'mvs:*floating*' })
