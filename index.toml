@@ -1458,7 +1458,7 @@ hash = "6d7cda497d273a8e48b444ee6d4a5f36a4c7a78057e2fcb37d29169b369f0025"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/villages.json"
-hash = "810f5beb9b575c73c26dd64fbf6b39c49553905298719298a655a2710c3be00d"
+hash = "fafac70b6a88c6a6abf4a44125621d6279e4ff60b44ca13eaf68dec2cb3abc65"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/worldgen/structure_set/woodland_mansions.json"
