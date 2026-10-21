@@ -105,6 +105,10 @@ file = "config/combat_roll/server.json5"
 hash = "23e352d3eccad9814e001d1bd4ef7dd506b52900c737b34051c8c0b3d8c6cf4e"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "f36afef031b3ae5e17df13518fc9c7b5aca0d0fac1ecf613253aaafe7c5ef2a7"
+
+[[files]]
 file = "config/create_connected-common.toml"
 hash = "7df3120878b5c8062afc6b7fb38000264d82cc28067850f077838d5f7af78e2f"
 
