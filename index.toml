@@ -5833,6 +5833,10 @@ file = "config/paxi/datapacks/pack_lbc/data/structory_towers/worldgen/structure_
 hash = "24a3cdf4f231f6ecc3e8868874183bcca9888d265156bc94521618097b766ecf"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/structures_arise/tags/worldgen/biome/landbiomes.json"
+hash = "dfcacbe54366324ff20d7054980852db2f03dc7372910441cb4d4aeadd44d377"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/towns_and_towers/worldgen/structure_set/towers.json"
 hash = "ba8e17aaa371f15bf8c923b75990e5ad1c0ee4db3c258087dccc88d3f700a63f"
 

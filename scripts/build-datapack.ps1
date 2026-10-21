@@ -897,5 +897,12 @@ W 'data/create_new_age/recipe/sequenced_assembly/enchanted_golden_apple.json' ([
 # Pyrium (1 lingot garanti sur chaque boss de Hazen) : 1 debris antique au lieu de 5, recyclage et non source de netherite
 W 'data/irons_spellbooks/recipe/ancient_debris_from_pyrium.json' ([ordered]@{ type = 'minecraft:blasting'; cookingtime = 200; experience = 0.0; ingredient = @{ item = 'irons_spellbooks:pyrium_ingot' }; result = [ordered]@{ id = 'minecraft:ancient_debris'; count = 1 } })
 
+# ---------- 28. Create Structures Arise : pas de structures "terrestres" dans les deserts et badlands ----------
+# Leur liste de biomes (structures_arise:landbiomes) contient #minecraft:stronghold_biased_to (presque tous les biomes
+# terrestres, deserts et Terralith compris) et les badlands : leurs batiments a base de terre et d'herbe se posaient dans le sable.
+W 'data/structures_arise/tags/worldgen/biome/landbiomes.json' ([ordered]@{ replace = $true; values = @(
+    'minecraft:forest', 'minecraft:birch_forest', 'minecraft:flower_forest', 'minecraft:taiga', 'minecraft:plains',
+    @('#minecraft:is_forest', '#minecraft:is_taiga', '#minecraft:is_jungle', '#minecraft:is_savanna', '#c:is_plains') | ForEach-Object { [ordered]@{ id = $_; required = $false } }) })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
