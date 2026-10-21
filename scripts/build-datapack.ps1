@@ -900,9 +900,9 @@ W 'data/irons_spellbooks/recipe/ancient_debris_from_pyrium.json' ([ordered]@{ ty
 # ---------- 28. Create Structures Arise : pas de structures "terrestres" dans les deserts et badlands ----------
 # Leur liste de biomes (structures_arise:landbiomes) contient #minecraft:stronghold_biased_to (presque tous les biomes
 # terrestres, deserts et Terralith compris) et les badlands : leurs batiments a base de terre et d'herbe se posaient dans le sable.
-W 'data/structures_arise/tags/worldgen/biome/landbiomes.json' ([ordered]@{ replace = $true; values = @(
-    'minecraft:forest', 'minecraft:birch_forest', 'minecraft:flower_forest', 'minecraft:taiga', 'minecraft:plains',
-    @('#minecraft:is_forest', '#minecraft:is_taiga', '#minecraft:is_jungle', '#minecraft:is_savanna', '#c:is_plains') | ForEach-Object { [ordered]@{ id = $_; required = $false } }) })
+$terrestres = @('minecraft:forest', 'minecraft:birch_forest', 'minecraft:flower_forest', 'minecraft:taiga', 'minecraft:plains')
+$terrestres += @('#minecraft:is_forest', '#minecraft:is_taiga', '#minecraft:is_jungle', '#minecraft:is_savanna', '#c:is_plains' | ForEach-Object { [ordered]@{ id = $_; required = $false } })
+W 'data/structures_arise/tags/worldgen/biome/landbiomes.json' ([ordered]@{ replace = $true; values = $terrestres })
 
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"

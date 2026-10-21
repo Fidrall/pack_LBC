@@ -1,37 +1,29 @@
 {
     "replace":  true,
     "values":  [
+                   "minecraft:forest",
+                   "minecraft:birch_forest",
+                   "minecraft:flower_forest",
+                   "minecraft:taiga",
+                   "minecraft:plains",
                    {
-                       "id":  "minecraft:forest",
+                       "id":  "#minecraft:is_forest",
                        "required":  false
                    },
                    {
-                       "id":  "minecraft:birch_forest",
+                       "id":  "#minecraft:is_taiga",
                        "required":  false
                    },
                    {
-                       "id":  "minecraft:flower_forest",
+                       "id":  "#minecraft:is_jungle",
                        "required":  false
                    },
                    {
-                       "id":  "minecraft:taiga",
+                       "id":  "#minecraft:is_savanna",
                        "required":  false
                    },
                    {
-                       "id":  "minecraft:plains",
-                       "required":  false
-                   },
-                   {
-                       "id":  {
-                                  "value":  [
-                                                "#minecraft:is_forest",
-                                                "#minecraft:is_taiga",
-                                                "#minecraft:is_jungle",
-                                                "#minecraft:is_savanna",
-                                                "#c:is_plains"
-                                            ],
-                                  "Count":  5
-                              },
+                       "id":  "#c:is_plains",
                        "required":  false
                    }
                ]
