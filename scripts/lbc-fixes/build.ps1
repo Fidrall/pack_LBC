@@ -4,7 +4,7 @@
 param(
     [string]$Instance = "$env:APPDATA\PrismLauncher\instances\pack_LBC-dev\.minecraft",
     [string]$Jdk = "$env:APPDATA\PrismLauncher\java\java-runtime-delta",
-    [string]$Version = '1.0.2'
+    [string]$Version = '1.0.3'
 )
 $ErrorActionPreference = 'Stop'
 $here = $PSScriptRoot
