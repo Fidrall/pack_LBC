@@ -299,5 +299,14 @@ key_key.aero_cam_sync.open_config:key.keyboard.unknown:
 key_key.aero_cam_sync.add_mainhand_item_client:key.keyboard.unknown:
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9:
-key_key.betterinventory.offhand_selector:key.keyboard.x:
-key_key.betterinventory.mark_safe_entity:key.keyboard.unknown:
+key_key.sophisticatedcore.sort:key.mouse.middle:
+key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket:
+key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket:
+key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b:
+key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown:

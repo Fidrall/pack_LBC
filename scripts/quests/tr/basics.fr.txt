@@ -317,7 +317,7 @@ quest.660C3D5CB407247F.quest_desc: [
   ""
   "&6\",\"&r (virgule) – Grande carte et chunks protégés (JourneyMap) ; &6\"Ctrl+,\"&r – Afficher ou cacher la minicarte ; &6\"N\"&r – Ajouter un point de passage ; &6+ / -&r du pavé numérique – Zoom"
   ""
-  "&6\"X\"&r (maintenir + molette) – Carrousel de la main gauche (Better Inventory)"
+  "&6\"B\"&r – Sac à dos (Sophisticated Backpacks)"
   ""
   "&6\"G\"&r – Accessoires (Curios) ; &6\"I\"&r – Accessoires de l'Aether ; &6\"H\"&r – Capacités des reliques"
   ""

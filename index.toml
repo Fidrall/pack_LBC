@@ -126,7 +126,7 @@ hash = "374c39779db3b82148cb09ec2b71b552bc6f47c40661f526a99955e3595bc4b5"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "4eeedce1b3b0d734e7b74bc12c9f4a756a36fa9f82a6edc81c081e6c057c7d3f"
+hash = "d275f35341e3f9f59e8709d0d9a4bb47be1698fece8ca0f3b7ee1213f36fa92b"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -250,7 +250,7 @@ hash = "67bd35fc213b81cc940b6d552b880866d3cb5c81626f935f881f76fec7f2765f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
-hash = "4a9c43ff53a186ab09c027f2174a0c2cb526f43ac578909b2d7c8257327042cc"
+hash = "7680c3d26e8626f8e179144df67fb69a9aed49d5ceb4e263144e1b4fc66e3f34"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/teleporters.snbt"
@@ -270,7 +270,7 @@ hash = "46d3f2e8c9a9891baef37c163f5968a64dbfdb179ed89fdd1fa41d7661385ad8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "b5769cf763d52c0bea54340c4cf0a30249048e2e5a96f33f78ecaa0b4986ddab"
+hash = "dd484fe03466c3bcf5056e8253429eb40936aa3c7f0d3d0f86799af8112eb57d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/commune.snbt"
@@ -4874,15 +4874,15 @@ hash = "d86147a5efc71e0bbf6fcc6183ac5ae6f64cd6e7af55daf88cf0ed5143776a8f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/epique.json"
-hash = "abdf80f99523fa6b4aae399d243a7ec91e938519d99b7d38fa287490506fa9d7"
+hash = "7658b65ba7bc58940dd443766da9529520d2583de19eda2b20a7d6cb032d5040"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/legendaire.json"
-hash = "8f0fc66d2bab43e85d706112bc0a6b7783d08f4eaf3b0c002803806fd3f68dce"
+hash = "d2b4fd70c934fc087206263864b787ac3f81d963f031be6c44d8a61ce2f42863"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/caisses_quete/rare.json"
-hash = "c14c07b380895efc003bc15c6a8dd9a2efb6aace8f1d6e4157f3592d8a983643"
+hash = "28000fbb789830125593242bfc84e1d505889cb93add8d8984ab72ad98a7e2eb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/loot_table/cartes/carte_archaion_ancient_keep.json"
@@ -6625,6 +6625,10 @@ file = "config/solcarrot-server.toml"
 hash = "6183ed5338184f36dcd6a55374b37ae6d0545cc9b6b87e80a190491cb3ff52cd"
 
 [[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
+
+[[files]]
 file = "config/structurify.json"
 hash = "d669acfa29fef0424296a609c53f1608d0e1f7776c31392bcf2121e413277941"
 
@@ -6924,11 +6928,6 @@ hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
 metafile = true
 
 [[files]]
-file = "mods/better-inventory-and-backpacks.pw.toml"
-hash = "96ecddd1e62387d271ba5762a9004641bd57c845a21ad825d5eb1b4c8d3e03ab"
-metafile = true
-
-[[files]]
 file = "mods/bl4cks-sit.pw.toml"
 hash = "2cfa9768cc635d7ec8cbc0172e62db5ad0fc79117b927344d7f2484b78ebd7b7"
 metafile = true
@@ -7206,6 +7205,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
+metafile = true
+
+[[files]]
+file = "mods/create-sophisticated-backpacks-compat.pw.toml"
+hash = "79d7cf09cdc88b8e64cb684be60efe938193ee13d8a64fc31e3ad1ae622bf4af"
 metafile = true
 
 [[files]]
@@ -7999,6 +8003,31 @@ metafile = true
 [[files]]
 file = "mods/somake-spells-irons-spells-addon.pw.toml"
 hash = "71380603547e4339a5bcb8ffebc33ac05ca7b41d98b2201f2c8beb4dd2b0eb45"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "6876c183b8154953471a24e47efc66b02fa88e9bf88b5ce910093d72d817fd45"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "e71aedefbc645a4c7081af6fd02e49ef4bda9f4ee2b8371300f3614a12cc4813"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "c30047d121e76400125d65f9aee8be37979ad04304b97d7628bdd7721ddfd048"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "3d71ac9484fbf77d941c272d87ccd7c9e87364574a167c338b7bcacd1e1063f6"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "a9f2fc2f34665bb8930f67f98456f5836cb7ee38a4d5de9d001accb1764c2b6d"
 metafile = true
 
 [[files]]

@@ -165,7 +165,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:stack_upgrade_1",
+                                          "name":  "sophisticatedbackpacks:stack_upgrade_starter_tier",
                                           "weight":  3,
                                           "functions":  [
                                                             {
@@ -191,7 +191,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_2",
+                                          "name":  "sophisticatedbackpacks:iron_backpack",
                                           "weight":  2
                                       },
                                       {
@@ -397,7 +397,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:stack_upgrade_1",
+                                          "name":  "sophisticatedbackpacks:stack_upgrade_starter_tier",
                                           "weight":  3,
                                           "functions":  [
                                                             {
@@ -423,7 +423,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_2",
+                                          "name":  "sophisticatedbackpacks:iron_backpack",
                                           "weight":  2
                                       },
                                       {

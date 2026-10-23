@@ -120,7 +120,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:stack_upgrade_2",
+                                          "name":  "sophisticatedbackpacks:stack_upgrade_tier_1",
                                           "weight":  4
                                       },
                                       {
@@ -146,7 +146,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_3",
+                                          "name":  "sophisticatedbackpacks:gold_backpack",
                                           "weight":  3
                                       },
                                       {
@@ -294,7 +294,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:stack_upgrade_2",
+                                          "name":  "sophisticatedbackpacks:stack_upgrade_tier_1",
                                           "weight":  4
                                       },
                                       {
@@ -320,7 +320,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_3",
+                                          "name":  "sophisticatedbackpacks:gold_backpack",
                                           "weight":  3
                                       },
                                       {

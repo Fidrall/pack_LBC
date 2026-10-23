@@ -32,8 +32,8 @@ $caisses = [ordered]@{
         (I 'minecraft:diamond' 3 7), (I 'minecraft:gold_ingot' 16 7), (I 'create:brass_ingot' 16 8), (I 'minecraft:emerald' 8 5),
         (I 'minecraft:ender_pearl' 8 5), (I 'minecraft:golden_apple' 2 5), (I 'minecraft:experience_bottle' 16 5), (I 'create:precision_mechanism' 2 5),
         (I 'create:electron_tube' 8 5), (I 'minecraft:blaze_rod' 8 4), (I 'apotheosis:gem_dust' 24 4), (I 'irons_spellbooks:arcane_essence' 16 4),
-        (I 'waystones:warp_stone' 1 3), (I 'waystones:return_scroll' 3 3), (I 'irons_spellbooks:uncommon_ink' 2 3), (I 'betterinventory:stack_upgrade_1' 2 3),
-        (I 'minecraft:name_tag' 1 2), (I 'minecraft:saddle' 1 2), (I 'create:blaze_burner' 1 2), (I 'betterinventory:backpack_2' 1 2),
+        (I 'waystones:warp_stone' 1 3), (I 'waystones:return_scroll' 3 3), (I 'irons_spellbooks:uncommon_ink' 2 3), (I 'sophisticatedbackpacks:stack_upgrade_starter_tier' 2 3),
+        (I 'minecraft:name_tag' 1 2), (I 'minecraft:saddle' 1 2), (I 'create:blaze_burner' 1 2), (I 'sophisticatedbackpacks:iron_backpack' 1 2),
         (I 'torchmaster:megatorch' 1 1), (I 'reliquified_artifacts:mimi_dust' 1 2), (I $explo 1 4 $exploC),
         (C 'carte_1' 'pack_lbc:cartes/palier_1' 'minecraft:filled_map' 'Carte de structure (palier 1)' 5),
         (C 'parchemin_rare' 'pack_lbc:caisses/parchemin_rare' 'irons_spellbooks:scroll' 'Parchemin de sort' 4)) }
@@ -41,16 +41,16 @@ $caisses = [ordered]@{
         (I 'minecraft:diamond' 8 9), (I 'minecraft:netherite_scrap' 2 8), (I 'minecraft:experience_bottle' 32 6), (I 'minecraft:ancient_debris' 2 5),
         (I 'minecraft:totem_of_undying' 1 5), (I 'minecraft:shulker_shell' 2 5), (I 'create:precision_mechanism' 6 4), (I 'apotheosis:sigil_of_socketing' 1 3),
         (I 'irons_spellbooks:rare_ink' 2 4), (I 'minecraft:enchanted_golden_apple' 1 4), (I 'create:sturdy_sheet' 8 4), (I 'irons_spellbooks:mithril_scrap' 2 4),
-        (I 'betterinventory:stack_upgrade_2' 1 4), (I 'waystones:warp_scroll' 4 4), (I 'minecraft:heart_of_the_sea' 1 3), (I 'apotheosis:sigil_of_withdrawal' 1 2),
-        (I 'betterinventory:backpack_3' 1 3),
+        (I 'sophisticatedbackpacks:stack_upgrade_tier_1' 1 4), (I 'waystones:warp_scroll' 4 4), (I 'minecraft:heart_of_the_sea' 1 3), (I 'apotheosis:sigil_of_withdrawal' 1 2),
+        (I 'sophisticatedbackpacks:gold_backpack' 1 3),
         (C 'carte_2' 'pack_lbc:cartes/palier_2' 'minecraft:filled_map' 'Carte de structure (palier 2)' 6),
         (C 'equipement_epique' 'pack_lbc:caisses/equipement_epique' 'minecraft:diamond_sword' 'Équipement épique à affixes' 6),
         (C 'relique' 'pack_lbc:caisses/relique' 'relics:ring_of_the_seven_deadly_sins' 'Relique au hasard' 5),
         (C 'parchemin_epique' 'pack_lbc:caisses/parchemin_epique' 'irons_spellbooks:scroll' 'Parchemin de sort (puissant)' 6)) }
     legendaire = @{ id = '7D221ADF1898E942'; nom = 'Caisse légendaire'; color = 16755200; glow = $true; size = 3; order = 3; r = @(
         (I 'minecraft:netherite_ingot' 2 12), (I 'minecraft:enchanted_golden_apple' 3 9), (I 'minecraft:totem_of_undying' 2 9), (I 'minecraft:diamond_block' 2 9),
-        (I 'minecraft:nether_star' 1 8), (I 'irons_spellbooks:epic_ink' 2 6), (I 'apotheosis:sigil_of_enhancement' 1 4), (I 'betterinventory:backpack_4' 1 6),
-        (I 'irons_spellbooks:legendary_ink' 1 4), (I 'apotheosis:sigil_of_supremacy' 1 2), (I 'betterinventory:backpack_5' 1 2),
+        (I 'minecraft:nether_star' 1 8), (I 'irons_spellbooks:epic_ink' 2 6), (I 'apotheosis:sigil_of_enhancement' 1 4), (I 'sophisticatedbackpacks:diamond_backpack' 1 6),
+        (I 'irons_spellbooks:legendary_ink' 1 4), (I 'apotheosis:sigil_of_supremacy' 1 2), (I 'sophisticatedbackpacks:netherite_backpack' 1 2),
         (C 'equipement_mythique' 'pack_lbc:caisses/equipement_mythique' 'minecraft:netherite_sword' 'Équipement mythique à affixes' 10),
         (C 'perle_portail' 'pack_lbc:caisses/perle_portail' 'gateways:gate_pearl' 'Perle de portail (Gateways)' 10),
         (C 'parchemin_legendaire' 'pack_lbc:caisses/parchemin_legendaire' 'irons_spellbooks:scroll' 'Parchemin de sort (légendaire)' 9)) }

@@ -71,7 +71,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_4",
+                                          "name":  "sophisticatedbackpacks:diamond_backpack",
                                           "weight":  6
                                       },
                                       {
@@ -86,7 +86,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_5",
+                                          "name":  "sophisticatedbackpacks:netherite_backpack",
                                           "weight":  2
                                       },
                                       {
@@ -180,7 +180,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_4",
+                                          "name":  "sophisticatedbackpacks:diamond_backpack",
                                           "weight":  6
                                       },
                                       {
@@ -195,7 +195,7 @@
                                       },
                                       {
                                           "type":  "minecraft:item",
-                                          "name":  "betterinventory:backpack_5",
+                                          "name":  "sophisticatedbackpacks:netherite_backpack",
                                           "weight":  2
                                       },
                                       {

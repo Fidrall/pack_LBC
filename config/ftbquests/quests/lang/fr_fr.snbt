@@ -613,11 +613,11 @@
 	quest.0B9D45F5BBBFE914.quest_subtitle: "Indispensable"
 	quest.0B9D45F5BBBFE914.title: "La combinaison anti-radiation"
 	quest.0BD070E54EF86FDA.quest_desc: [
-		"Ton inventaire a des &6emplacements d'outils&r : quand tu mines ou que tu te bats, le bon outil est choisi tout seul et apparaît dans ta main."
+		"Tu peux afficher un objet à l'extérieur d'un rangement pour mieux t'organiser. Par exemple, un coffre de nourriture peut afficher une carotte."
 		""
-		"Ta &6main gauche&r a aussi un carrousel : maintiens la touche &bX&r et fais défiler la molette pour changer d'objet."
+		"Va dans les réglages du rangement, puis dans les réglages d'affichage. Clique gauche sur un objet à l'intérieur pour l'afficher : il est entouré d'un carré. Clique droit sur le carré pour retirer l'affichage."
 	]
-	quest.0BD070E54EF86FDA.title: "Le bon outil, au bon moment"
+	quest.0BD070E54EF86FDA.title: "Étiquettes"
 	quest.0BD23567F591AE06.quest_desc: [
 		"Le dernier niveau du grimoire."
 	]
@@ -641,9 +641,7 @@
 	quest.0C23D8D72D09040F.quest_subtitle: "Create: Vibrant Vaults"
 	quest.0C23D8D72D09040F.title: "Conteneurs et coffres-forts colorés"
 	quest.0C28D365031DFBB9.quest_desc: [
-		"Le &6sac à dos niveau 4&r s'obtient en améliorant le niveau 3 avec des &ecarapaces de shulker&r et des chaînes."
-		""
-		"Chaque niveau ajoute des onglets de rangement à ton sac."
+		"Le &6sac à dos en diamant&r est l'amélioration du &esac à dos en or&r. Il a 108 emplacements et accepte 5 améliorations."
 	]
 	quest.0C28D365031DFBB9.quest_subtitle: "Un énorme rangement toujours sur toi"
 	quest.0C3833270EE30C3B.quest_desc: [
@@ -726,7 +724,7 @@
 	quest.0DE4AE6DCA1420BD.title: "La pince de crabe"
 	quest.0E0532BA6E3FFEF9.quest_subtitle: "Pour boire plus vite, mais avec style !"
 	quest.0E10A137480D309E.quest_desc: [
-		"Le &6sac à dos niveau 5&r est le plus grand : il demande une &eétoile du Nether&r, des éclats d'écho et du souffle de dragon."
+		"Le &6sac à dos en Netherite&r est l'amélioration du &esac à dos en diamant&r. Il a 120 emplacements et accepte 7 améliorations."
 	]
 	quest.0E10A137480D309E.quest_subtitle: "Un rangement démesuré toujours sur toi"
 	quest.0E36BE756DB549DE.quest_desc: [
@@ -1356,7 +1354,7 @@
 	quest.1DCBB6615422DBBB.quest_subtitle: "Trouver n'importe quelle structure"
 	quest.1DCBB6615422DBBB.title: "&6La Boussole de l'Explorateur"
 	quest.1DDD74A012CDE699.quest_desc: [
-		"Le &6sac à dos niveau 2&r s'obtient en améliorant le sac de base avec un &ebundle&r, du cuir et un diamant."
+		"Le &6sac à dos en fer&r est l'amélioration du &esac à dos&r de base. Il a 54 emplacements et accepte 2 améliorations."
 	]
 	quest.1DDD74A012CDE699.quest_subtitle: "Un rangement plus grand toujours sur toi"
 	quest.1E019C50FB661CCD.quest_desc: [
@@ -1952,7 +1950,7 @@
 	]
 	quest.2C5F1B348AD531AB.quest_subtitle: "Soupes, ragoûts et plats"
 	quest.2C5F1B348AD531AB.title: "&6La Marmite"
-	quest.2C9E13E2196DC6D7.quest_subtitle: "Niveau II"
+	quest.2C9E13E2196DC6D7.quest_subtitle: "x2"
 	quest.2CB3072DA5957E2B.quest_desc: [
 		"Un ancien &elaboratoire&r abandonné dans le Nether. Qui sait ce qu'on y étudiait ?"
 	]
@@ -2337,9 +2335,7 @@
 	]
 	quest.3344885DD43E870C.title: "Réservoirs de carburant et de remplissage"
 	quest.33628061006314AB.quest_desc: [
-		"Les &6améliorations&r se placent dans les emplacements à côté du sac."
-		""
-		"L'&6amélioration d'artisanat&r agrandit la grille de fabrication de ton inventaire. Une version &6four&r ajoute même un four : clique une deuxième fois sur l'onglet d'artisanat."
+		"La &6base d'amélioration&r est l'ingrédient principal de toutes les améliorations du mod."
 	]
 	quest.33628061006314AB.quest_subtitle: "Tirer le meilleur de ton sac"
 	quest.339B098A9E8406EE.quest_subtitle: "Sort ultime"
@@ -2758,7 +2754,7 @@
 	]
 	quest.3CDB2020C5E859C1.quest_subtitle: "Des pillards qui volent ?"
 	quest.3CDB2020C5E859C1.title: "Le dirigeable des pillards"
-	quest.3CE1281049B4B14B.quest_subtitle: "Niveau V"
+	quest.3CE1281049B4B14B.quest_subtitle: "x16"
 	quest.3CECB75C777B8B2E.quest_desc: [
 		"Grâce à &eLootr&r, les coffres des structures ont un &abutin différent pour chaque joueur&r."
 		""
@@ -3498,9 +3494,9 @@
 	quest.4CC9D588886E2778.title: "Golem de charbon"
 	quest.4CCAD1EBB977DF2E.quest_subtitle: "Appuie sur CTRL en l'air pour planer un court instant"
 	quest.4CED308848726E28.quest_desc: [
-		"L'&6amélioration Aimant&r attire les objets au sol vers toi, et l'&6amélioration Ramassage&r les range directement dans ton sac."
+		"Avec l'&6amélioration Aimant&r ou l'&6amélioration Ramassage&r, tout ce que tu ramasses va directement dans ton sac !"
 		""
-		"Idéal avec les &6améliorations de Pile&r et de &6Destruction&r pour miner en tunnel !"
+		"Idéal avec les &6améliorations de Pile&r et d'&6Annihilation&r pour miner en tunnel !"
 	]
 	quest.4CED308848726E28.quest_subtitle: "Laisse ton sac faire le travail"
 	quest.4CFBF30E24F81CBB.quest_desc: [
@@ -3697,7 +3693,7 @@
 		""
 		"&4Astuce :&r cherche l'objet voulu dans JEI et fais-le glisser dans l'emplacement de filtre : tu peux régler un filtre sans avoir l'objet sur toi."
 	]
-	quest.5261190FDCE5314D.quest_subtitle: "Niveau VII"
+	quest.5261190FDCE5314D.quest_subtitle: "x++"
 	quest.5289FAFF5642AFFD.quest_desc: [
 		"Ce géant en armure garde une &esalle souterraine&r entourée de colonnes, dans les grottes."
 		""
@@ -4030,9 +4026,7 @@
 	]
 	quest.5A2F0B2712D9C667.quest_subtitle: "Applique Fortune aux blocs minés"
 	quest.5A52E77204B42646.quest_desc: [
-		"Le &6sac à dos niveau 3&r s'obtient en améliorant le niveau 2 avec un &enœud du voyageur&r, du fer et un lingot de Netherite."
-		""
-		"Le &enœud du voyageur&r se trouve dans les coffres des structures, ou s'achète aux maroquiniers et aux marchands ambulants."
+		"Le &6sac à dos en or&r est l'amélioration du &esac à dos en fer&r. Il a 81 emplacements et accepte 3 améliorations."
 	]
 	quest.5A52E77204B42646.quest_subtitle: "Un rangement encore plus grand toujours sur toi"
 	quest.5AA39CCAEED433CA.quest_desc: [
@@ -4109,9 +4103,9 @@
 	quest.5BB490A47B9EA399.quest_subtitle: "Des livres spécialisés"
 	quest.5BB490A47B9EA399.title: "Les Tomes"
 	quest.5BC526ACC0046B20.quest_desc: [
-		"L'&6amélioration d'artisanat avancée&r agrandit encore la grille de fabrication de ton inventaire."
+		"Avec l'&6amélioration Inception&r, tu peux mettre des sacs dans ton sac !"
 	]
-	quest.5BC526ACC0046B20.quest_subtitle: "Un établi toujours sur toi"
+	quest.5BC526ACC0046B20.quest_subtitle: "Des sacs dans des sacs dans des sacs"
 	quest.5BD0CBF6FFD1D63F.quest_desc: [
 		"&eRecette :&r éclats d'écho, cristal d'âme (Deeper and Darker), catalyseurs de sculk et un œil de l'Ender."
 		""
@@ -4647,7 +4641,7 @@
 		""
 		"&6\",\"&r (virgule) – Grande carte et chunks protégés (JourneyMap) ; &6\"Ctrl+,\"&r – Afficher ou cacher la minicarte ; &6\"N\"&r – Ajouter un point de passage ; &6+ / -&r du pavé numérique – Zoom"
 		""
-		"&6\"X\"&r (maintenir + molette) – Carrousel de la main gauche (Better Inventory)"
+		"&6\"B\"&r – Sac à dos (Sophisticated Backpacks)"
 		""
 		"&6\"G\"&r – Accessoires (Curios) ; &6\"I\"&r – Accessoires de l'Aether ; &6\"H\"&r – Capacités des reliques"
 		""
@@ -4698,7 +4692,7 @@
 	quest.6659EBA759E55BD5.quest_desc: [
 		"Avec l'&6amélioration Repas&r dans ton sac, il te nourrit automatiquement quand tu commences à avoir faim !"
 		""
-		"Plus son niveau est élevé, plus il attend que tu aies faim avant de te nourrir : moins de gaspillage."
+		"La version &bavancée&r peut être réglée pour ne gaspiller AUCUNE nourriture."
 	]
 	quest.6659EBA759E55BD5.quest_subtitle: "Un serveur à ton service !"
 	quest.6659EBA759E55BD5.title: "Repas automatique"
@@ -5337,20 +5331,28 @@
 	quest.71FA7C33865A2435.title: "Un festin !"
 	quest.7220794AE44350FA.quest_subtitle: "+15 % de vitesse d'incantation. Un familier sous 25 % de vie esquive par moments. Se trouve dans les cités de l'End."
 	quest.723F98AC017A4F8C.quest_desc: [
-		"L'&6amélioration Recharge&r remplit ta barre d'outils avec ce que contient ton sac : plus besoin de refaire tes piles de blocs ou de torches."
+		"Avec l'&6amélioration Dépôt&r, un clic droit accroupi sur n'importe quel rangement y vide instantanément ton sac !"
+		""
+		"La version &bavancée&r permet de ne déposer que ce qui correspond déjà au contenu du rangement."
 	]
-	quest.723F98AC017A4F8C.quest_subtitle: "Je pose, il recharge !"
+	quest.723F98AC017A4F8C.quest_subtitle: "Je dépose et je repars !"
 	quest.72564111D0768098.quest_subtitle: "Augmente tes dégâts"
 	quest.7261FED43BDDEFA8.quest_desc: [
-		"&6Better Inventory&r refait l'inventaire : une grande zone de rangement en plus, des emplacements d'outils et un &9sac à dos&r porté sur le dos."
+		"&6Sophisticated Backpacks&r ajoute des sacs à dos parmi les plus pratiques de Minecraft !"
 		""
-		"Clic droit pour ouvrir un &9sac&r, &bMaj + clic droit&r pour l'équiper ou le poser."
+		"Pour porter un &9sac&r, clique sur l'icône Équiper dans son menu."
 		""
-		"Les &9sacs&r s'améliorent en 5 niveaux, et chaque niveau ajoute des onglets de rangement."
+		"Une fois le &9sac&r équipé, ouvre-le avec la touche &bB&r."
 		""
-		"Pour voir les recettes, tape &d@betterinventory&r dans la barre de recherche de &eJEI&r, en bas à droite de l'écran."
+		"Les &9sacs&r s'améliorent en plusieurs niveaux."
+		""
+		"Pour voir toutes les variantes, tape &d@sophisticated&r dans la barre de recherche de &eJEI&r, en bas à droite de l'écran."
+		""
+		"Clique sur un objet de la liste à droite de ton inventaire pour voir ses recettes et ses utilisations."
 		""
 		"Tu peux aussi appuyer sur &bR&r ou &bU&r en survolant n'importe quel objet pour voir sa recette ou ses utilisations."
+		""
+		"&cSur ce serveur, personne ne peut ouvrir le sac d'un autre joueur.&r"
 	]
 	quest.7261FED43BDDEFA8.title: "Un inventaire portable"
 	quest.726761734706D40A.quest_desc: [
@@ -5542,7 +5544,7 @@
 		"Une &ePierre de Purification&r retire le sort imprégné d'une arme."
 	]
 	quest.74370B84A072E947.quest_subtitle: "Amélioration et imprégnation"
-	quest.746AE4CA7CE83847.quest_subtitle: "Niveau IV"
+	quest.746AE4CA7CE83847.quest_subtitle: "x8"
 	quest.746F82D541EBA386.quest_desc: [
 		"Après avoir vaincu l'&dEnder Dragon&r, explore les îles extérieures de l'End pour trouver des &9Cités de l'End&r."
 		""
@@ -5769,7 +5771,7 @@
 		"Regarde la recette exacte dans JEI (touche R)."
 	]
 	quest.79B7F2CF9843FFCB.quest_subtitle: "Les trésors de l'océan"
-	quest.7A516A80B0491E03.quest_subtitle: "Niveau III"
+	quest.7A516A80B0491E03.quest_subtitle: "x4"
 	quest.7AA0DA68DD83387E.quest_desc: [
 		"Les &eAiles&r forment des surfaces aérodynamiques : elles produisent de la &bportance quand l'air passe dessus&r, selon la vitesse et l'angle."
 		""
@@ -5817,9 +5819,14 @@
 	quest.7B09AFE245BA7808.quest_subtitle: "Apprivoise un familier archimage"
 	quest.7B09AFE245BA7808.title: "Familier archimage"
 	quest.7B2E2427787A55A7.quest_desc: [
-		"L'&6amélioration Destruction&r détruit le surplus des objets que tu as verrouillés dans ton sac."
+		"Avec l'&6amélioration Éternelle&r, ton sac ne peut plus être détruit !"
 		""
-		"Parfait pour ne plus remplir ton sac de pierre en minant !"
+		"Ça le protège entre autres de :"
+		"> &4la lave"
+		"> &8le vide"
+		"> &2les creepers"
+		"> &bla disparition au sol"
+		"> &6et plus encore !"
 	]
 	quest.7B5A791F37550AED.quest_desc: [
 		"Mantes, essaims d'abeilles, araignées de toutes sortes… Leurs restes donnent des armes (faucille de mante, poignard à dard) et des &egabarits&r pour des armures spéciales."
@@ -5966,7 +5973,7 @@
 	]
 	quest.7DE30100EBF85C62.quest_subtitle: "Create Ore Excavation"
 	quest.7DE30100EBF85C62.title: "&6Les gisements de minerai"
-	quest.7DE83E440B507868.quest_subtitle: "Niveau I"
+	quest.7DE83E440B507868.quest_subtitle: "x1.5"
 	quest.7DEAA5DD07821D36.quest_desc: [
 		"Les matériaux de la &2Forêt du Crépuscule&r servent aussi aux mages : grimoires, encres et anneaux."
 		""

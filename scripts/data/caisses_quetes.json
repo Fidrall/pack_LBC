@@ -207,7 +207,7 @@
                      "comps":  null
                  },
                  {
-                     "item":  "betterinventory:stack_upgrade_1",
+                     "item":  "sophisticatedbackpacks:stack_upgrade_starter_tier",
                      "count":  2,
                      "w":  3,
                      "comps":  null
@@ -231,7 +231,7 @@
                      "comps":  null
                  },
                  {
-                     "item":  "betterinventory:backpack_2",
+                     "item":  "sophisticatedbackpacks:iron_backpack",
                      "count":  1,
                      "w":  2,
                      "comps":  null
@@ -339,7 +339,7 @@
                        "comps":  null
                    },
                    {
-                       "item":  "betterinventory:stack_upgrade_2",
+                       "item":  "sophisticatedbackpacks:stack_upgrade_tier_1",
                        "count":  1,
                        "w":  4,
                        "comps":  null
@@ -363,7 +363,7 @@
                        "comps":  null
                    },
                    {
-                       "item":  "betterinventory:backpack_3",
+                       "item":  "sophisticatedbackpacks:gold_backpack",
                        "count":  1,
                        "w":  3,
                        "comps":  null
@@ -429,7 +429,7 @@
                            "comps":  null
                        },
                        {
-                           "item":  "betterinventory:backpack_4",
+                           "item":  "sophisticatedbackpacks:diamond_backpack",
                            "count":  1,
                            "w":  6,
                            "comps":  null
@@ -447,7 +447,7 @@
                            "comps":  null
                        },
                        {
-                           "item":  "betterinventory:backpack_5",
+                           "item":  "sophisticatedbackpacks:netherite_backpack",
                            "count":  1,
                            "w":  2,
                            "comps":  null
