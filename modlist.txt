@@ -266,7 +266,6 @@ cf | 1585352 | jetable | Twilight Spellbooks (Mangelox) : grimoires des boss du 
 cf | 1677981 | jetable | Apex Arcana (grandsigil) : 19 sorts ultimes ; config/irons_spellbooks_spell_config/grandsigil : pas de fabrication, legendaire
 mr | nullscape | conserver | terrain de l'End (blocs vanilla, cout nul en jeu) ; citadelle Cataclysm etendue a ses biomes (build-datapack section 8)
 cf | 1691687 | jetable | Maps 3D : carte 3D d'une zone (4x4 a 16x16 chunks), en main ou dans un cadre (CC0). jar patche -lbc embarque dans mods/ (feuillages statiques sous shaders ; CF bloque le telechargement)
-mr | create-sophisticated-backpacks-compat | conserver |
 cf | 422301 | conserver | Sophisticated Backpacks (remis le 2026-10-24 a la place de Better Inventory, qui buguait ; sacs non ouvrables par les autres joueurs)
 cf | 1238567 | conserver | Sophisticated Backpacks Create Integration
 mr | sophisticated-storage | conserver | coffres/tonneaux ameliorables

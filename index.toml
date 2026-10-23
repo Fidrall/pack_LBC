@@ -7208,11 +7208,6 @@ hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
 metafile = true
 
 [[files]]
-file = "mods/create-sophisticated-backpacks-compat.pw.toml"
-hash = "79d7cf09cdc88b8e64cb684be60efe938193ee13d8a64fc31e3ad1ae622bf4af"
-metafile = true
-
-[[files]]
 file = "mods/create-structures-arise.pw.toml"
 hash = "d07e87a42a1f882ee71b9f68fc531b1b9dcf4637f69fcf0c80322e488cf79171"
 metafile = true
