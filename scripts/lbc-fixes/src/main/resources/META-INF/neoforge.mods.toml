@@ -17,6 +17,7 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - Boss : +50 % de vie par joueur en plus a 48 blocs (tag pack_lbc:boss_multijoueur)
 - Boss : un sac et le butin du boss par joueur a 300 blocs, dans l'inventaire (tags pack_lbc:butin_boss/*)
 - Create Deep Seas 3.4 : plus de brume sur tout le paysage avec Complementary (brouillard de coque injecte coupe)
+- Tome Akashique (tag pack_lbc:garde_a_la_mort) garde a la mort et rendu a la reapparition
 - AttributeSetter : plus de crash en solo a la mort / reapparition (resynchronisation client ignoree en solo)'''
 
 [[mixins]]

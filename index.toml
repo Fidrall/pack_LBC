@@ -5613,6 +5613,10 @@ file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/entity_type/butin_boss
 hash = "8bf23593404fe5964838e50dcba6ec1e922737d2bac56d62d0839c1601022400"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/tags/item/garde_a_la_mort.json"
+hash = "a0802ce73fcf5aa3380e7007e80b1d651b0cd7b54dd3fc63c0dfecba99e44c6f"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/treasurebags_types/aether.json"
 hash = "9538cefffb16c2c259a0cb334247ca0a107de761e3d2ab26dac17c24b080536d"
 
@@ -7666,8 +7670,8 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
-file = "mods/lbcfixes-1.0.4.jar"
-hash = "8f75948cb329027b9dd324c12967199fc445140e2e1faccae6325af4aea6a736"
+file = "mods/lbcfixes-1.0.5.jar"
+hash = "07c56c4adf82274241b140cea526eaa583328bfd4eb7a4daa781dca595c65a97"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"

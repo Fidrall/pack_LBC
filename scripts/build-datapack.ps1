@@ -904,5 +904,9 @@ $terrestres = @('minecraft:forest', 'minecraft:birch_forest', 'minecraft:flower_
 $terrestres += @('#minecraft:is_forest', '#minecraft:is_taiga', '#minecraft:is_jungle', '#minecraft:is_savanna', '#c:is_plains' | ForEach-Object { [ordered]@{ id = $_; required = $false } })
 W 'data/structures_arise/tags/worldgen/biome/landbiomes.json' ([ordered]@{ replace = $true; values = $terrestres })
 
+# ---------- 29. Objets gardes a la mort (lbcfixes GardeALaMort) ----------
+# Retires de l'inventaire avant le cadavre (Corpse) et rendus a la reapparition. Le Tome Akashique regroupe les livres guides.
+W 'data/pack_lbc/tags/item/garde_a_la_mort.json' ([ordered]@{ replace = $false; values = @([ordered]@{ id = 'akashictome:tome'; required = $false }) })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
