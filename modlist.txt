@@ -278,3 +278,6 @@ jar | lbcfixes | perf | correctifs du pack (mixins, source scripts/lbc-fixes, bu
 mr | all-the-heads | conserver | 433 tetes de mobs vanilla (2,5 % tue par un joueur, +1 %/Butin) ; tetes des mobs moddes sans drop + tete du joueur en PvP : build-datapack section 23
 mr | armor-statues | qol | menu pour poser et habiller les supports d'armure (poses, bras, taille, sans socle) ; exposer ses collections (statuemenus inclus dans le jar)
 mr | bl4cks-sit | qol | s'asseoir sur les dalles et escaliers (clic droit main vide)
+mr | visual-workbench | conserver | le craft reste dans l'etabli et s'affiche dessus (remplace une fonction de Better Inventory)
+mr | rightclickharvest | conserver | recolte au clic droit + replantation (serveur ; requiert JamLib)
+mr | jamlib | conserver | dependance de RightClickHarvest
