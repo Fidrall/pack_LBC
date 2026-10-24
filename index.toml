@@ -6703,6 +6703,16 @@ hash = "b3a7da8112144219831ed136f71c5eccbbff42e41624ca74d983f1f8eb1b1eb4"
 metafile = true
 
 [[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "b77da93300cfb9a239aa33ad731f9672ae3c74d3218aa149df89449962cb8594"
+metafile = true
+
+[[files]]
+file = "mods/accessories.pw.toml"
+hash = "2017362c793d95887d38b3353abb7c77f212175e82ed848296575ea0e466b7d7"
+metafile = true
+
+[[files]]
 file = "mods/aces-spell-utils.pw.toml"
 hash = "2b69450e43952ddfa55a78ac5bba0c3a73b29cca2d05b57a5beecff62175fa32"
 metafile = true

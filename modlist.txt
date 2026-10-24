@@ -281,3 +281,5 @@ mr | bl4cks-sit | qol | s'asseoir sur les dalles et escaliers (clic droit main v
 mr | visual-workbench | conserver | le craft reste dans l'etabli et s'affiche dessus (remplace une fonction de Better Inventory)
 mr | rightclickharvest | conserver | recolte au clic droit + replantation (serveur ; requiert JamLib)
 mr | jamlib | conserver | dependance de RightClickHarvest
+mr | accessories-compat-layer | conserver | A TESTER : fait passer les mods Curios par Accessories (Aether) : un seul ecran d'accessoires
+mr | accessories | conserver | version recente (l'Aether embarque beta.48), requise par accessories-compat-layer
