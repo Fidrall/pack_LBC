@@ -1,6 +1,8 @@
 package lbc.fixes;
 
+import com.mojang.logging.LogUtils;
 import net.minecraft.ChatFormatting;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
@@ -22,7 +24,9 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDropsEvent;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 /**
  * Butin de boss individuel, pour un boss du tag pack_lbc:butin_boss/<famille>_t<palier> (datapack, build-datapack section 14)
@@ -37,6 +41,7 @@ public final class BossButin {
 
     private static final String PREFIXE = "butin_boss/";
     private static final double RAYON = 300.0;
+    private static final org.slf4j.Logger LOG = LogUtils.getLogger();
 
     private BossButin() {
     }
@@ -62,6 +67,10 @@ public final class BossButin {
                 .create(LootContextParamSets.ENTITY);
     }
 
+    private static String liste(List<ItemStack> objets) {
+        return objets.isEmpty() ? "rien" : objets.stream().map(o -> o.getCount() + "x " + BuiltInRegistries.ITEM.getKey(o.getItem())).collect(Collectors.joining(", "));
+    }
+
     private static void donne(Player joueur, ItemStack objet) {
         if (!joueur.getInventory().add(objet)) joueur.drop(objet, false);
     }
@@ -76,7 +85,9 @@ public final class BossButin {
         LootTable table = level.getServer().reloadableRegistries().getLootTable(ResourceKey.create(Registries.LOOT_TABLE, id));
         for (Player joueur : level.players()) {
             if (!present(joueur, boss)) continue;
-            for (ItemStack objet : table.getRandomItems(contexte(level, boss, event.getSource(), joueur))) donne(joueur, objet);
+            List<ItemStack> sac = table.getRandomItems(contexte(level, boss, event.getSource(), joueur));
+            LOG.info("[lbcfixes] {} : sac pour {} : {}", boss.getType().getDescriptionId(), joueur.getScoreboardName(), liste(sac));
+            for (ItemStack objet : sac) donne(joueur, objet);
             joueur.displayClientMessage(Component.literal("Butin du boss ajouté à ton inventaire").withStyle(ChatFormatting.GOLD), true);
         }
     }
@@ -86,12 +97,16 @@ public final class BossButin {
         LivingEntity boss = event.getEntity();
         if (!(boss.level() instanceof ServerLevel level) || !(boss.getKillCredit() instanceof Player tueur) || !tueur.isAlive()) return;
         if (famille(boss).isEmpty()) return;
-        for (ItemEntity drop : event.getDrops()) donne(tueur, drop.getItem().copy());
+        List<ItemStack> vrai = event.getDrops().stream().map(d -> d.getItem().copy()).collect(Collectors.toList());
+        LOG.info("[lbcfixes] {} : vrai butin pour le tueur {} : {} ({} joueurs dans le monde)", boss.getType().getDescriptionId(), tueur.getScoreboardName(), liste(vrai), level.players().size());
+        for (ItemStack objet : vrai) donne(tueur, objet.copy());
         event.setCanceled(true);
         LootTable table = level.getServer().reloadableRegistries().getLootTable(boss.getLootTable());
         for (Player joueur : level.players()) {
             if (joueur == tueur || !present(joueur, boss)) continue;
-            for (ItemStack objet : table.getRandomItems(contexte(level, boss, event.getSource(), joueur))) donne(joueur, objet);
+            List<ItemStack> tirage = table.getRandomItems(contexte(level, boss, event.getSource(), joueur));
+            LOG.info("[lbcfixes] {} : tirage pour {} : {}", boss.getType().getDescriptionId(), joueur.getScoreboardName(), liste(tirage));
+            for (ItemStack objet : tirage) donne(joueur, objet);
         }
     }
 }
