@@ -283,3 +283,5 @@ mr | rightclickharvest | conserver | recolte au clic droit + replantation (serve
 mr | jamlib | conserver | dependance de RightClickHarvest
 mr | accessories-compat-layer | conserver | A TESTER : fait passer les mods Curios par Accessories (Aether) : un seul ecran d'accessoires
 mr | accessories | conserver | version recente (l'Aether embarque beta.48), requise par accessories-compat-layer
+mr | polymorph | conserver | choix du resultat quand plusieurs recettes se chevauchent
+mr | pick-up-notifier | conserver | liste des objets ramasses (client ; meilleur avec le serveur)
