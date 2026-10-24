@@ -45,6 +45,14 @@ if /i "%~1"=="test" (
   goto :fin
 )
 
+rem --- Premiere fois sur un profil deja installe (zip CurseForge) : packwiz ne connait pas les anciens mods
+rem     et ne supprimerait pas ceux retires du pack ; on les met de cote, il reinstalle la liste exacte.
+if not exist "packwiz.json" if exist "mods\" (
+  echo Premiere mise a jour : les anciens mods sont mis de cote dans "mods-ancien".
+  if exist "mods-ancien\" rmdir /s /q "mods-ancien"
+  move "mods" "mods-ancien" >nul
+)
+
 rem --- Synchronisation : mods, configs, quetes, packs de ressources
 echo Mise a jour du pack en cours ^(la premiere fois peut prendre plusieurs minutes^)...
 "%JAVA%" -jar "%BOOT%" -s client "%PACK_URL%"
