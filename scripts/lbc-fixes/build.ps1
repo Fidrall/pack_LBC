@@ -27,7 +27,7 @@ $z.Dispose()
 $jars = @(Get-ChildItem $lib -Recurse -File -Filter *.jar | Where-Object { $_.FullName -notmatch 'installer|\\com\\mojang\\minecraft\\|-slim\.jar$' } | ForEach-Object FullName)
 $cp = @($jars | Where-Object { $_ -match '\\neoforge-[^\\]+-client\.jar$' }) + @($jars | Where-Object { $_ -notmatch '\\neoforge-[^\\]+-client\.jar$' })
 $cp += "$work\mixinextras.jar"
-foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar', 'infested_swarms_spiders-*.jar', 'Apotheosis-*.jar') {
+foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar', 'infested_swarms_spiders-*.jar', 'Apotheosis-*.jar', 'petting-*.jar') {
     $j = Get-ChildItem "$Instance\mods" -Filter $p | Select-Object -First 1
     if (-not $j) { throw "Jar introuvable dans l'instance : $p" }
     $cp += $j.FullName

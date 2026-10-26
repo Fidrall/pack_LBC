@@ -9,6 +9,7 @@
     "PumpkinZoneMixin",
     "SpiderEggDropMixin",
     "PettingOwnPetsMixin",
+    "PettingSafetyMixin",
     "WorldTierCooldownMixin",
     "PlayerRestoreMixin"
   ],
