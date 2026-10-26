@@ -5778,7 +5778,7 @@ hash = "8c37a843aa975dd97f9e8d19fce477c6cca04b5febf8073219519f7a76a3854c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_fish.json"
-hash = "c2d4261104ccca2ce06fe191f386728f46c34fb1997cdd928f2cac103e8c18c7"
+hash = "121e31905a7bed80f28d6cdc09622900c074d4e6c948d08d0d44a596746c6f45"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/petting/tags/entity_type/tames_with/golden_flesh.json"

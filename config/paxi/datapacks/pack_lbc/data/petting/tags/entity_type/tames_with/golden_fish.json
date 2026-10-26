@@ -28,6 +28,10 @@
                    {
                        "id":  "create_abyss:cookiecutter_shark",
                        "required":  false
+                   },
+                   {
+                       "id":  "crittersandcompanions:otter",
+                       "required":  false
                    }
                ]
 }
