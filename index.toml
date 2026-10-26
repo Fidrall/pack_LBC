@@ -6238,7 +6238,7 @@ hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
 [[files]]
 file = "config/petprotect.json"
-hash = "dc92101ddc62956ee81f96f475fb1326e3cadc76830e54db8fd207fae38229cf"
+hash = "e7f92239421115b74a49ee2b19f1de07b81a4deaf45c31ebef6fdd7a28a47d56"
 
 [[files]]
 file = "config/petting-synced.toml"

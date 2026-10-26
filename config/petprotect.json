@@ -1,7 +1,7 @@
 {
   "prevent_pet_damage": true,
   "only_prevent_players": true,
-  "prevent_pet_death": true,
+  "prevent_pet_death": false,
   "apply_totem_effects": false,
   "prevent_pet_attack": true,
   "allow_owner_damage": false,
