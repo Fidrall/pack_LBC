@@ -8119,6 +8119,16 @@ hash = "fdf3d8942d14758ea44a1f27e071fcfbffeafd4720e2d326dbc7dd939d588adc"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "67e7cf463a4ce267273de5d118da454161c2f59daf5bc2966c6e1723f7871291"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "dd46fad79cf33a00123be0a74c73581da72cd98503ef23822a624a08f4b10ff2"
 metafile = true
@@ -8151,6 +8161,16 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "27dadd4dde0fb4a173c20bec47353083030cce226af17b4f189a0edd252a6d7b"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
 metafile = true
 
 [[files]]
