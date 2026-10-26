@@ -8054,6 +8054,11 @@ hash = "c30047d121e76400125d65f9aee8be37979ad04304b97d7628bdd7721ddfd048"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-inventory-interactions.pw.toml"
+hash = "4656eed3663eb71d5e6970392d77511642bd239dbe7cced276c9f8687120c931"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
 hash = "3d71ac9484fbf77d941c272d87ccd7c9e87364574a167c338b7bcacd1e1063f6"
 metafile = true
