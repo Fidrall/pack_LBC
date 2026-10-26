@@ -75,9 +75,9 @@ abilitiesData:
                     targetValue: 0.74963
 levelingData:
     # Amount of experience required to level up to relic level 1
-    initialCost: 50.0
+    initialCost: 44.4444
     # Increment in experience required for each subsequent level of the relic
-    step: 50.0
+    step: 44.4444
 lootData:
     # List of conditions for obtaining the relic. Supports both direct ID specification and regular expressions.
     entries:
