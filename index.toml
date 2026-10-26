@@ -6237,6 +6237,10 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/pack.mcmeta"
 hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
 [[files]]
+file = "config/petprotect.json"
+hash = "dc92101ddc62956ee81f96f475fb1326e3cadc76830e54db8fd207fae38229cf"
+
+[[files]]
 file = "config/petting-synced.toml"
 hash = "c0ac5baa928b4c619d02a9d06f67db18f9f7a5f74a83e8bd10c7931f4b634e4f"
 
