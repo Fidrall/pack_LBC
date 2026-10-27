@@ -6233,6 +6233,22 @@ file = "config/paxi/resourcepacks/pack_lbc_quests/assets/pack_lbc_gemmes/lang/fr
 hash = "ea51a4d1996484be1597518cc704d5b676745b5b5b513a48b9be17bf8d67eb36"
 
 [[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/petting/lang/en_us.json"
+hash = "21c6ef72de6c6f9236044b8095791cbb2ab7c5897dcfe4d5f2e3a22f23789d4e"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/petting/lang/fr_fr.json"
+hash = "21c6ef72de6c6f9236044b8095791cbb2ab7c5897dcfe4d5f2e3a22f23789d4e"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/wyrmroost/lang/en_us.json"
+hash = "995f079d23a4cb3cb13efe3ed99958207193b37fd0e52f80eb88a7a2a564b5d2"
+
+[[files]]
+file = "config/paxi/resourcepacks/pack_lbc_quests/assets/wyrmroost/lang/fr_fr.json"
+hash = "995f079d23a4cb3cb13efe3ed99958207193b37fd0e52f80eb88a7a2a564b5d2"
+
+[[files]]
 file = "config/paxi/resourcepacks/pack_lbc_quests/pack.mcmeta"
 hash = "d25733aac57989d9e64019ed5e767387e50e96a26f3c7664d9251ef76e8de9e2"
 
