@@ -1453,6 +1453,14 @@ file = "config/paxi/datapacks/pack_lbc/data/minecraft/recipe/mixing/cei_legendar
 hash = "05957688715f2bdfb8307ac03b4e3d4d0368d0c9eeaee5213c271b8df81120e2"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/function/load.json"
+hash = "86f9dc91901e950dca40874c304d3f2ebef500096bd9b08e4600b70367bb7459"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/function/tick.json"
+hash = "709fca0051c5c3109ccbff2091375d8037f96386c6050889df26bb2bbaeec7d2"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/item/enchantable/equippable.json"
 hash = "a8abfbc0958b617c9ae143085eff1a240e03830946701fcda06ede961cd6b3b1"
 
@@ -3323,6 +3331,18 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
 hash = "560eddb2371654896bf43f202399b29b319701b13ab5c0da39817724e95f1f46"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/apprivoiser/afficher.mcfunction"
+hash = "9b9ef6d9a5f309d8963516fb8eeae8dddb5028ceed5cf88fc2a0f3f3ac3cb810"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/apprivoiser/charge.mcfunction"
+hash = "f88ac297e3b7b219a80e7b7ee484245a785672c8d15b2bc12f3a299c61d1b350"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/apprivoiser/tick.mcfunction"
+hash = "885190baf177eb083134e83d5402637beccf2b63c73ed4a214423b7c0bb0d2c0"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/edfr/coupe_musique.mcfunction"

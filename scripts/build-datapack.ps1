@@ -908,5 +908,81 @@ W 'data/structures_arise/tags/worldgen/biome/landbiomes.json' ([ordered]@{ repla
 # Retires de l'inventaire avant le cadavre (Corpse) et rendus a la reapparition. Le Tome Akashique regroupe les livres guides.
 W 'data/pack_lbc/tags/item/garde_a_la_mort.json' ([ordered]@{ replace = $false; values = @([ordered]@{ id = 'akashictome:tome'; required = $false }) })
 
+# ---------- 30. /trigger apprivoiser : liste des creatures apprivoisables (chat + livre ecrit) ----------
+# Sans op. Methodes relevees dans le code des mods le 2026-10-28 (Petting : tags de la section 24). Ajout sans redemarrage : /reload.
+$apprivoiser = [ordered]@{
+    'Minecraft' = @(
+        @('Loup', 'os'), @('Chat', 'morue ou saumon cru'), @('Perroquet', 'graines'),
+        @('Cheval, âne, mule, lama', 'monter dessus jusqu''à ce qu''il accepte'), @('Renard', 'faire naître un bébé de deux renards'),
+        @('Allay', 'lui donner un objet'), @('Axolotl', 'seau d''eau'), @('Araignée, golem de fer', 'Petting, œil doré'),
+        @('Ours polaire, dauphin', 'Petting, poisson doré'), @('Zoglin', 'Petting, chair dorée'),
+        @('Hoglin, brute piglin', 'Petting, champignon doré'), @('Ravageur', 'Petting, blé doré'))
+    'Twilight Forest' = @(
+        @('Loup de brume, loup de l''hiver', 'Petting, os doré'), @('Yéti', 'Petting, poisson doré'),
+        @('Troll', 'Petting, chair dorée'), @('Sanglier, Minotaure, Kobold', 'Petting, blé doré'))
+    'Born in Chaos' = @(
+        @('Dread Hound, Dire Hound Leader', 'Petting, os doré'), @('Thornshell Crab', 'Petting, poisson doré'),
+        @('Felsteed', 'Petting, chair dorée'), @('Pumpkin Bruiser', 'Petting, blé doré'))
+    'Mowzie''s Mobs' = @(@('Grottol', 'Petting, œil doré'), @('Naga', 'Petting, poisson doré'), @('Lantern', 'Petting, blé doré'))
+    'Autres mods' = @(
+        @('Sculk Snapper (Deeper and Darker)', 'Petting, œil doré'), @('Mauler (Friends & Foes)', 'Petting, poisson doré'),
+        @('Glare (Friends & Foes)', 'baies lumineuses'), @('Basher, Marauder (Illager Invasion)', 'Petting, chair dorée'),
+        @('Requin emporte-pièce (Create)', 'Petting, poisson doré'), @('Aerwhale (Aether)', 'Petting, blé doré'),
+        @('Moa (Aether)', 'faire éclore un œuf de Moa dans un incubateur'),
+        @('Araignée des cavernes (Infested Swarms)', 'faire éclore un Spider Egg'),
+        @('Chien (Doggy Talents)', 'friandise de dressage sur un loup déjà apprivoisé'),
+        @('Familiers (Alshanex''s Familiars)', 'essence arcanique'))
+    'Critters and Companions' = @(
+        @('Loutre', 'Petting, poisson doré'), @('Furet', 'poulet cru'), @('Panda roux', 'bambou'), @('Shima Enaga', 'graines'),
+        @('Escargot', 'carotte'), @('Coccinelle', 'champignons'), @('Libellule', 'œil d''araignée'),
+        @('Araignée sauteuse', 'aile de libellule'), @('Cloporte', 'buisson mort'), @('Lucane', 'baies'),
+        @('Phasme', 'feuilles'), @('Charançon', 'gland'))
+    'Wyrmroost' = @(
+        @('Drake terrestre', 'adulte : selle, puis rester dessus jusqu''à ce qu''il arrête de ruer ; bébé : blé'),
+        @('Royal Red', 'adulte : le mettre KO, puis viande à la fin du KO ; bébé : viande'),
+        @('Silver Glider', 'poisson, pendant qu''il te suit'), @('Rooststalker', 'œufs'),
+        @('Canari Wyvern', 'bébé seulement, baies sucrées'), @('Dragon Fruit Drake', 'bébé seulement, pomme pendant qu''il te suit'),
+        @('Butterfly Leviathan', 'bébé seulement, viande'), @('Alpine, Coin Dragon, Lesser Desertwyrm', 'impossible'))
+    'Alex''s Caves' = @(
+        @('Subterranodon', 'queue de trilocaris, ou œuf'), @('Candicorn', 'pomme caramélisée'), @('Raycat', 'radgill'),
+        @('Tremorsaurus, Vallumraptor, Grottoceratops, Relicheirus, Atlatitan, Tremorzilla', 'faire éclore un œuf près de soi'))
+    'Cataclysm' = @(@('Bébé Léviathan', 'poisson tropical'), @('Modern Remnant', 'œuf de renifleur'), @('Netherite Ministrosity', 'cellule de lave'))
+}
+$intro = 'Petting : clic droit avec la friandise dorée sur une créature à moitié vie ou moins. Une chance sur trois, 10 familiers au plus. Friandise : 8 pièces d''or autour de l''ingrédient (os, œil de l''Ender, poisson...).'
+function Json($o) { $o | ConvertTo-Json -Depth 10 -Compress }
+# Chat : une ligne par mod
+$chat = @(('tellraw @s ' + (Json @([ordered]@{ text = '--- Créatures apprivoisables ---'; color = 'gold'; bold = $true }))),
+          ('tellraw @s ' + (Json @([ordered]@{ text = $intro; color = 'gray' }))))
+foreach ($mod in $apprivoiser.Keys) {
+    $liste = ($apprivoiser[$mod] | ForEach-Object { "$($_[0]) ($($_[1]))" }) -join ', '
+    $chat += 'tellraw @s ' + (Json @('', [ordered]@{ text = "$mod : "; color = 'yellow' }, [ordered]@{ text = $liste; color = 'white' }))
+}
+# Livre : pages remplies a ~13 lignes de ~19 caracteres
+function Lignes($t) { [Math]::Max(1, [Math]::Ceiling($t.Length / 19)) }
+$pages = @(); $page = @(); $n = 0
+function Ferme { if ($script:page.Count) { $script:pages += (Json (@('') + $script:page)); $script:page = @(); $script:n = 0 } }
+$page = @([ordered]@{ text = "Apprivoiser`n`n"; bold = $true; color = 'dark_red' }, [ordered]@{ text = $intro; color = 'black' }); Ferme
+foreach ($mod in $apprivoiser.Keys) {
+    Ferme; $page += [ordered]@{ text = "$mod`n"; bold = $true; color = 'dark_blue' }; $n = 2
+    foreach ($e in $apprivoiser[$mod]) {
+        $t = "$($e[0]) : $($e[1])`n"; $l = (Lignes $t) + 1
+        if ($n + $l -gt 14) { Ferme; $page += [ordered]@{ text = "$mod (suite)`n"; bold = $true; color = 'dark_blue' }; $n = 2 }
+        $page += [ordered]@{ text = "$($e[0])"; color = 'dark_green' }, [ordered]@{ text = " : $($e[1])`n`n"; color = 'black' }; $n += $l
+    }
+}
+Ferme
+# SNBT entre apostrophes : on double les \ puis on protege les '
+$pagesSnbt = ($pages | ForEach-Object { "'" + ($_.Replace('\', '\\').Replace("'", "\'")) + "'" }) -join ','
+Fn 'data/pack_lbc/function/apprivoiser/afficher.mcfunction' (@('# /trigger apprivoiser (build-datapack section 30)') + $chat + @(
+    "give @s minecraft:written_book[minecraft:written_book_content={title:`"Apprivoiser`",author:`"pack_LBC`",resolved:1b,pages:[$pagesSnbt]}]",
+    ('tellraw @s ' + (Json @([ordered]@{ text = 'Le livre « Apprivoiser » est dans ton inventaire.'; color = 'green' }))),
+    'scoreboard players set @s apprivoiser 0'))
+Fn 'data/pack_lbc/function/apprivoiser/charge.mcfunction' @('scoreboard objectives add apprivoiser trigger "Apprivoiser"')
+Fn 'data/pack_lbc/function/apprivoiser/tick.mcfunction' @(
+    'scoreboard players enable @a apprivoiser',
+    'execute as @a[scores={apprivoiser=1..}] run function pack_lbc:apprivoiser/afficher')
+W 'data/minecraft/tags/function/load.json' ([ordered]@{ values = @('pack_lbc:apprivoiser/charge') })
+W 'data/minecraft/tags/function/tick.json' ([ordered]@{ values = @('pack_lbc:apprivoiser/tick') })
+
 $count = (Get-ChildItem $dp -Recurse -File).Count
 Write-Host "Datapack genere : $dp ($count fichiers)"
