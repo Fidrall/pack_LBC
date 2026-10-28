@@ -521,105 +521,120 @@
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:create_copper_statue",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:create_ruined_castle",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createairdrop",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createcontainer",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createcushercrane",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createdesertwell",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createfluidtank",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createhouse",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createlittleman",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createlosttrainstation",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createmonsterroom",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createoldruine",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createpickaxestatue",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:createwitchhut",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:crimsite_tower",
@@ -627,21 +642,24 @@
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "MANUAL",
                            "flatness_check_max_height_difference":  12,
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:honey_pit",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:minetrain",
                            "override_global_flatness_check":  true,
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "AUTO",
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:pillagersteampunkairship",
@@ -649,7 +667,8 @@
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "MANUAL",
                            "flatness_check_max_height_difference":  38,
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:towerofochrum",
@@ -657,7 +676,8 @@
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "MANUAL",
                            "flatness_check_max_height_difference":  15,
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "create_structures_arise:windmill",
@@ -665,7 +685,8 @@
                            "enable_flatness_check":  true,
                            "flatness_check_mode":  "MANUAL",
                            "flatness_check_max_height_difference":  13,
-                           "flatness_check_allow_non_solid_blocks":  false
+                           "flatness_check_allow_non_solid_blocks":  false,
+                           "is_disabled":  true
                        },
                        {
                            "name":  "dungeons_arise:abandoned_temple",
@@ -4125,6 +4146,34 @@
                            "enable_min_distance_from_world_center":  true,
                            "min_distance_from_world_center":  300,
                            "enable_max_distance_from_world_center":  false
+                       },
+                       {
+                           "name":  "create_structures_arise:createminiskyvillage",
+                           "is_disabled":  true
+                       },
+                       {
+                           "name":  "create_structures_arise:create_bastion",
+                           "is_disabled":  true
+                       },
+                       {
+                           "name":  "create_structures_arise:create_dungeon_base",
+                           "is_disabled":  true
+                       },
+                       {
+                           "name":  "create_structures_arise:darkcastle",
+                           "is_disabled":  true
+                       },
+                       {
+                           "name":  "create_structures_arise:deadlordshouse",
+                           "is_disabled":  true
+                       },
+                       {
+                           "name":  "create_structures_arise:obsidiantemple",
+                           "is_disabled":  true
+                       },
+                       {
+                           "name":  "create_structures_arise:pillager_boat",
+                           "is_disabled":  true
                        }
                    ]
 }

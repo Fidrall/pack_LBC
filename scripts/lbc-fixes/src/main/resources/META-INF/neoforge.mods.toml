@@ -14,6 +14,7 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - Infested Swarms and Spiders : oeufs d'araignee seulement sur une araignee tuee par un joueur, une fois sur deux
 - Petting : ne gere que ses propres familiers (chevaux, dragons Wyrmroost, chiens... gardent leur clic droit, et ne sont plus pris comme familiers en rechargeant), volants des mods (Aerwhale) pilotes en vol
 - Apotheosis : apres une baisse de palier, une heure de jeu avant de pouvoir remonter
+- Simply Swords : l'arc passif de la Dawnquiver ne vise que les monstres hostiles (plus les joueurs ni les familiers)
 - Boss : +50 % de vie par joueur en plus a 48 blocs (tag pack_lbc:boss_multijoueur)
 - Boss : un sac et le butin du boss par joueur a 300 blocs, dans l'inventaire (tags pack_lbc:butin_boss/*)
 - Create Deep Seas 3.4 : plus de brume sur tout le paysage avec Complementary (brouillard de coque injecte coupe)

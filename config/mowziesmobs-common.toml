@@ -249,11 +249,11 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.15
+			health_multiplier = 2.07
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.15
+			attack_multiplier = 1.2
 
 	[mobs.umvuthi]
 		#Disable/enable Umvuthi's boss health bar
@@ -318,11 +318,11 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.45
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.05
+			attack_multiplier = 1.1
 
 	[mobs.ferrous_wroughtnaut]
 		#Disable/enable Ferrous Wroughtnaut's boss health bar
@@ -376,11 +376,11 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.0
+			health_multiplier = 1.45
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.05
+			attack_multiplier = 1.1
 
 	[mobs.sculptor]
 		#How tall (in blocks) the Sculptor's test will be
@@ -448,11 +448,11 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 1.15
+			health_multiplier = 2.07
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 1.15
+			attack_multiplier = 1.2
 
 		[mobs.grottol.biome_config]
 			#Mowzie's Mobs bosses cannot generate in modded or non-overworld biomes unless the biome is added to the 'has_structure/has_mowzie_structure' tag via a datapack!

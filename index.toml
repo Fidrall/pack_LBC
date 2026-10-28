@@ -102,11 +102,11 @@ hash = "8cc48d638b8402ec17684d034eadd991cbf5d5b31d14ba651b9692bc44f6534b"
 
 [[files]]
 file = "config/bosses_of_mass_destruction.json5"
-hash = "089527a465b8b1fb45a3251f5c4ae10dd125838e985a941725184e9d8b0de573"
+hash = "db01e27f30b6892f0a93478b52a2e93c590d16fe05e6e2e3670305e577e4ed55"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "4a266bb784177fc474f9a6b1cba4ee82b08a401e067cd5b19d91c0acc23318bd"
+hash = "370cc6dc73b325e4dc22e371104d39730f394869a6c3ec6953d4356acf0fac50"
 
 [[files]]
 file = "config/combat_roll/server.json5"
@@ -422,7 +422,7 @@ hash = "d5cdbf28e513bee81e1c13db0000922dd0008778fa97021c2ed54de18b881545"
 
 [[files]]
 file = "config/mowziesmobs-common.toml"
-hash = "de281deafb2286007537db3cb2acf6e61dd3f694b763f65d6f02a188cfc3ba9b"
+hash = "0e33021c18dedd86b69ce625e7866a4306a02b391c89a7749a8af8a4703e2c82"
 
 [[files]]
 file = "config/obscuria/ancient_remnants-common.toml"
@@ -3322,7 +3322,7 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
-hash = "a958dc6737ef6991345f5149b2c202db5b02522c9e37a3b1801d405d0552952f"
+hash = "560eddb2371654896bf43f202399b29b319701b13ab5c0da39817724e95f1f46"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/edfr/coupe_musique.mcfunction"
@@ -6658,7 +6658,7 @@ hash = "4c5b5deb0fce06644eb42a223e3f9adbc93ba33053100d8b46f36385f0115092"
 
 [[files]]
 file = "config/structurify.json"
-hash = "d669acfa29fef0424296a609c53f1608d0e1f7776c31392bcf2121e413277941"
+hash = "d23d96e68770eabd383ac2a98e137fd2bd7bee547129b96522d7ff09b46af7dc"
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"
@@ -7716,8 +7716,8 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
-file = "mods/lbcfixes-1.0.7.jar"
-hash = "8483cead3fc20a7620b53f0c32395e9ba05aff2991b0ff56a5216fe6225ffbf5"
+file = "mods/lbcfixes-1.0.8.jar"
+hash = "87e96789ed78b176f1d562cb0c10fec2b0fdceecd4199ed5dd4b4b20066a6e01"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"

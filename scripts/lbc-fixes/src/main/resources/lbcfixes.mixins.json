@@ -11,7 +11,8 @@
     "PettingOwnPetsMixin",
     "PettingSafetyMixin",
     "WorldTierCooldownMixin",
-    "PlayerRestoreMixin"
+    "PlayerRestoreMixin",
+    "DawnquiverPassiveMixin"
   ],
   "client": [
     "FtbMinimapMixin",
