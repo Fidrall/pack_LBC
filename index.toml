@@ -3330,7 +3330,7 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
-hash = "7a0547d269286466600927b78e2dc7a5f0a2feb6c291ddbd36432463bbaca413"
+hash = "4d71086fa4fcbde936ac833c6434b0397cef8e1495bfe76284bc11685249bd40"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/apprivoiser/afficher.mcfunction"
