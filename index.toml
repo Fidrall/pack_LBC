@@ -3330,7 +3330,7 @@ hash = "309b187591a98ad8f3fbadea53e5c996892a3fe79b9fca9339100979ed2ea697"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/attributesetter/entity/boss_renforces.json"
-hash = "560eddb2371654896bf43f202399b29b319701b13ab5c0da39817724e95f1f46"
+hash = "7a0547d269286466600927b78e2dc7a5f0a2feb6c291ddbd36432463bbaca413"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/function/apprivoiser/afficher.mcfunction"
@@ -7736,8 +7736,8 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
-file = "mods/lbcfixes-1.0.8.jar"
-hash = "87e96789ed78b176f1d562cb0c10fec2b0fdceecd4199ed5dd4b4b20066a6e01"
+file = "mods/lbcfixes-1.0.9.jar"
+hash = "d10efd2c24cea6b36b689e5edb50d9cf76cae6709e20b0b8c07519986e97a8d5"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"

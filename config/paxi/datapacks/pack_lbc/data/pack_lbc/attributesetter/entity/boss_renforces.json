@@ -146,7 +146,7 @@
     "irons_spellbooks:fire_boss":  [
                                        {
                                            "attribute":  "minecraft:generic.max_health",
-                                           "value":  1.88,
+                                           "value":  0.5,
                                            "operation":  "MULTIPLY_BASE"
                                        },
                                        {
@@ -362,7 +362,7 @@
     "minecraft:warden":  [
                              {
                                  "attribute":  "minecraft:generic.max_health",
-                                 "value":  4.25,
+                                 "value":  1.97,
                                  "operation":  "MULTIPLY_BASE"
                              },
                              {

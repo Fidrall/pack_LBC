@@ -350,7 +350,7 @@ foreach ($b in $bossEq | Where-Object { $_.id.Split(':')[0] -notin 'cataclysm', 
     if ($mods) { $attr[$b.id] = $mods }
 }
 W 'data/pack_lbc/attributesetter/entity/boss_renforces.json' $attr
-# Boss dont la vie suit le nombre de joueurs proches (lbcfixes : +50 % par joueur en plus, jamais a la baisse pendant le combat)
+# Boss dont la vie suit le nombre de joueurs proches (lbcfixes : +25 % par joueur en plus, jamais a la baisse pendant le combat)
 W 'data/pack_lbc/tags/entity_type/boss_multijoueur.json' ([ordered]@{ replace = $false; values = @($bossEq.id | ForEach-Object { [ordered]@{ id = $_; required = $false } }) })
 
 # ---------- 13. Butin : injection Apotheosis reduite, Treasure Bags limite aux boss ----------
