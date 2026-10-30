@@ -1461,6 +1461,10 @@ file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/function/tick.json"
 hash = "709fca0051c5c3109ccbff2091375d8037f96386c6050889df26bb2bbaeec7d2"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/item/enchantable/durability.json"
+hash = "3fff4814f51420799b02660e4e55f70bd0f4fca5b194fb89ce69ce39b29012bf"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/minecraft/tags/item/enchantable/equippable.json"
 hash = "a8abfbc0958b617c9ae143085eff1a240e03830946701fcda06ede961cd6b3b1"
 

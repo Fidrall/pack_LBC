@@ -746,6 +746,8 @@ $reliquesMages = @('bloody_voodoo_doll', 'cardiac_trap', 'cloak_of_the_bloody_fe
     'mirror_of_transgression', 'mask_of_hunger', 'pulsar_mantle', 'ring_of_blades', 'ring_of_elusiveness', 'sealed_claymore', 'sealed_rapier', 'sealed_sword',
     'shadow_claws', 'sinner_crown', 'slicer' | ForEach-Object { "reliquified_irons_spells_and_spellbooks:$_" })
 W 'data/relics/tags/item/relics.json' ([ordered]@{ replace = $true; values = (OptT $reliquesMages) })
+# minecraft:enchantable/durability : Archaion 1.4.4 y met Echo's Grace mais oublie la masse d'echo (250 de durabilite) -> ni Mending ni Unbreaking.
+W 'data/minecraft/tags/item/enchantable/durability.json' ([ordered]@{ replace = $false; values = @(OptT @('archaion:echo_mace')) })
 # Sable Physics Compat 1.3.0 : physics_block_properties/float.json est un tableau (ancien format, 1 objet par fichier attendu) -> rejete.
 # Repris pour les mods presents : gravitite enchantee et nuages de l'Aether, nuages du Twilight flottent comme la levitite.
 function Flotte($sel, $scale) { [ordered]@{ selector = $sel; properties = [ordered]@{ 'sable:floating_material' = 'aeronautics:levitite'; 'sable:floating_scale' = $scale } } }
