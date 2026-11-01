@@ -20,7 +20,8 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - Create Deep Seas 3.4 : plus de brume sur tout le paysage avec Complementary (brouillard de coque injecte coupe)
 - Tome Akashique (tag pack_lbc:garde_a_la_mort) garde a la mort et rendu a la reapparition
 - AttributeSetter : plus de crash en solo a la mort / reapparition (resynchronisation client ignoree en solo)
-- Create : l'ecran de commande du Stock Keeper ne deconnecte plus le joueur (meme menu cote serveur et client)'''
+- Create : l'ecran de commande du Stock Keeper ne deconnecte plus le joueur (meme menu cote serveur et client)
+- /vaisseaux_discovery liste|supprimer <rayon> : nettoie les vaisseaux de Create Aeronautics Discovery autour de soi (op)'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"

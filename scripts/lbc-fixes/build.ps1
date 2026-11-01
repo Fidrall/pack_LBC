@@ -27,10 +27,20 @@ $z.Dispose()
 $jars = @(Get-ChildItem $lib -Recurse -File -Filter *.jar | Where-Object { $_.FullName -notmatch 'installer|\\com\\mojang\\minecraft\\|-slim\.jar$' } | ForEach-Object FullName)
 $cp = @($jars | Where-Object { $_ -match '\\neoforge-[^\\]+-client\.jar$' }) + @($jars | Where-Object { $_ -notmatch '\\neoforge-[^\\]+-client\.jar$' })
 $cp += "$work\mixinextras.jar"
-foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar', 'infested_swarms_spiders-*.jar', 'Apotheosis-*.jar', 'petting-*.jar', 'create-1.21.1-6*.jar') {
-    $j = Get-ChildItem "$Instance\mods" -Filter $p | Select-Object -First 1
+foreach ($p in 'wyrmroost-*.jar', 'ftb-chunks-*.jar', 'ftb-library-*.jar', 'somakespells-*.jar', 'infested_swarms_spiders-*.jar', 'Apotheosis-*.jar', 'petting-*.jar', 'create-1.21.1-6*.jar',
+    'sable-neoforge-*.jar', 'aeronauticsdiscovery-*.jar') {
+    # instance d'abord, sinon le serveur de test local (build/devtest) si l'instance n'a pas encore le mod
+    $j = @(Get-ChildItem "$Instance\mods", (Join-Path $root 'build\devtest\mods') -Filter $p -ErrorAction SilentlyContinue) | Select-Object -First 1
     if (-not $j) { throw "Jar introuvable dans l'instance : $p" }
     $cp += $j.FullName
+    # Sable : sa bibliotheque de maths (Pose3d) est en jar-in-jar
+    if ($p -like 'sable-*') {
+        $z = [IO.Compression.ZipFile]::OpenRead($j.FullName)
+        $e = $z.Entries | Where-Object { $_.FullName -match '^META-INF/jarjar/sable-companion-.*\.jar$' } | Select-Object -First 1
+        [IO.Compression.ZipFileExtensions]::ExtractToFile($e, "$work\sable-companion.jar", $true)
+        $z.Dispose()
+        $cp += "$work\sable-companion.jar"
+    }
 }
 [IO.File]::WriteAllText("$work\cp.txt", ($cp -join [IO.Path]::PathSeparator))
 

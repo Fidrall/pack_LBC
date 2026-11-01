@@ -7696,8 +7696,8 @@ hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
 
 [[files]]
-file = "mods/lbcfixes-1.0.10.jar"
-hash = "ad1c60cfa1a25cb1ca0dc53751607dc2c68e380afc6e3914e22d47a22ffafe8b"
+file = "mods/lbcfixes-1.0.11.jar"
+hash = "25295eff165d75779094c93f5800ec35d5c3f9da1b71cb37a1706d4904b4822f"
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
