@@ -6989,6 +6989,11 @@ hash = "da400e22ffbbe487b0309bc69b48e9d7574c33941a70db5fb950b31a80da827f"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-ultimatefactory-recipe-fix.pw.toml"
+hash = "aef59d09c67d5c1ed3758265cc570bfae635b321af560f6805edfabfa27f3c96"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
@@ -7181,6 +7186,11 @@ metafile = true
 [[files]]
 file = "mods/create-trial-and-error.pw.toml"
 hash = "66c22cdbadb6dc099aa3617293622ab91a58acf98a301425dc4085827a933279"
+metafile = true
+
+[[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
 metafile = true
 
 [[files]]
