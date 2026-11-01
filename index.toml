@@ -66,7 +66,7 @@ hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
 
 [[files]]
 file = "config/aeronauticsdiscovery-common.toml"
-hash = "b52d381f116f7eb4cbac9d8588540771d3464c42807efdd620f657b196c62978"
+hash = "63b00f8afa802e4b87adb5ad8e004aaf5d628c1263d24eed9dc79ba583b59547"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -135,6 +135,10 @@ hash = "e4d5a42e7f12e8fe39d1be57f807e7eb647e0b43af6c8fdbfe1ace8587ce8652"
 [[files]]
 file = "config/create_submarine-client.toml"
 hash = "7159c4254c85b5b8eae3b690e3c5fe54ed2891ed848c080d9f0243d721c01a4e"
+
+[[files]]
+file = "config/cristellib/aeronauticsdiscovery/structure_placement_config.json5"
+hash = "84a1f1e517d2ca934575d3d88cad2b74c56b6221f44e7fb5852bf48879601876"
 
 [[files]]
 file = "config/ctov-common.toml"
@@ -359,6 +363,14 @@ hash = "0e33021c18dedd86b69ce625e7866a4306a02b391c89a7749a8af8a4703e2c82"
 [[files]]
 file = "config/obscuria/ancient_remnants-common.toml"
 hash = "859a1e0b5dcf49c6829a79a9882cee87c8807c1fe4efd2ff4417442c95799ca9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/aeronauticsdiscovery/patrols/mansion_patrol.json"
+hash = "0e6a6190bcc99d33a9521c5a3721d2df30f46e2ca44f4b4bd06eedd563d3b596"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/aeronauticsdiscovery/patrols/outpost_patrol.json"
+hash = "812464d04c41d072a162ea4c0c4fb222c832c311d7a01f1f42370e2c9143aaea"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/alshanex_familiars/loot_table/chests/origin_island/workshop/scrolls.json"

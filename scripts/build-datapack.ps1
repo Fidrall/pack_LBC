@@ -757,6 +757,14 @@ W 'data/minecraft/tags/item/enchantable/durability.json' ([ordered]@{ replace = 
 # Create Deco 2.x : placard.json (pancarte teinte -> pancarte blanche) ecrit "id" au lieu de "item" pour la teinture -> recette rejetee.
 W 'data/createdeco/recipe/placard.json' ([ordered]@{ type = 'minecraft:crafting_shapeless'; category = 'misc'; group = 'dye_placard'
     ingredients = @([ordered]@{ tag = 'createdeco:placards' }, [ordered]@{ item = 'minecraft:white_dye' }); result = [ordered]@{ count = 1; id = 'create:placard' } })
+# Create Aeronautics Discovery 2.2 : patrouilles en avion (permanentes, une par structure) moins frequentes.
+foreach ($p in @(@('outpost_patrol', 'minecraft:pillager_outpost', 0.4), @('mansion_patrol', 'minecraft:mansion', 0.6))) {
+    $alt = [ordered]@{ type = 'aeronauticsdiscovery:altitude'; min_altitude = 160; max_altitude = 190 }
+    $orb = [ordered]@{ type = 'aeronauticsdiscovery:orbit'; target = $p[1]; radius = 90; direction = 'ccw' }
+    W "data/aeronauticsdiscovery/patrols/$($p[0]).json" ([ordered]@{ template = 'aeronauticsdiscovery:airplane_pillager'; target_structure = $p[1]; chance = $p[2]
+        min_altitude = 170; max_altitude = 170; plan = [ordered]@{ goals = @($orb, $alt) }; dimensions = @('minecraft:overworld')
+        biome_filter = [ordered]@{ exclude = @('minecraft:jagged_peaks', 'minecraft:frozen_peaks', 'minecraft:stony_peaks', 'minecraft:windswept_savanna', '*:*mountain*') } })
+}
 # Farmer's Spell 1.0.7 : remplissage Create des boissons avec le type de fluide "neoforge:fluid" (inexistant, c'est "neoforge:single").
 foreach ($b in 'amethyst_tequila', 'catacombs_wine', 'ice_venom_wine', 'original_nectar') {
     W "data/farmers_spell/recipe/create_compat/create_fill_$b.json" ([ordered]@{ type = 'create:filling'

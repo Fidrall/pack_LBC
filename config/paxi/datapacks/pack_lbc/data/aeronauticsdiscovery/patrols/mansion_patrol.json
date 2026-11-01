@@ -1,0 +1,34 @@
+{
+    "template":  "aeronauticsdiscovery:airplane_pillager",
+    "target_structure":  "minecraft:mansion",
+    "chance":  0.6,
+    "min_altitude":  170,
+    "max_altitude":  170,
+    "plan":  {
+                 "goals":  [
+                               {
+                                   "type":  "aeronauticsdiscovery:orbit",
+                                   "target":  "minecraft:mansion",
+                                   "radius":  90,
+                                   "direction":  "ccw"
+                               },
+                               {
+                                   "type":  "aeronauticsdiscovery:altitude",
+                                   "min_altitude":  160,
+                                   "max_altitude":  190
+                               }
+                           ]
+             },
+    "dimensions":  [
+                       "minecraft:overworld"
+                   ],
+    "biome_filter":  {
+                         "exclude":  [
+                                         "minecraft:jagged_peaks",
+                                         "minecraft:frozen_peaks",
+                                         "minecraft:stony_peaks",
+                                         "minecraft:windswept_savanna",
+                                         "*:*mountain*"
+                                     ]
+                     }
+}
