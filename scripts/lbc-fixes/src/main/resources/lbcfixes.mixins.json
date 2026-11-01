@@ -12,7 +12,8 @@
     "PettingSafetyMixin",
     "WorldTierCooldownMixin",
     "PlayerRestoreMixin",
-    "DawnquiverPassiveMixin"
+    "DawnquiverPassiveMixin",
+    "StockKeeperRequestMenuMixin"
   ],
   "client": [
     "FtbMinimapMixin",
