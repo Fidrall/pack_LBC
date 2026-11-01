@@ -1,5 +1,7 @@
 package lbc.fixes;
 
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
 
 /**
@@ -10,6 +12,8 @@ import net.neoforged.fml.common.Mod;
 public final class LbcFixes {
     public static final String MOD_ID = "lbcfixes";
 
-    public LbcFixes() {
+    public LbcFixes(IEventBus modBus) {
+        // composant de Better Inventory (mod retire) : seulement si le mod n'est pas la, sinon doublon d'enregistrement
+        if (!ModList.get().isLoaded("betterinventory")) AnciensComposants.COMPOSANTS.register(modBus);
     }
 }
