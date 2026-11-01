@@ -73,15 +73,9 @@ foreach ($t in $tables) {
     $glmVillages += "pack_lbc:$n"
 }
 
-# ---------- 4. Born in Chaos : apparitions reduites (~60 %), memes biomes/dimensions ----------
-# Copie des biome_modifier d'origine dans scripts/data/borninchaos-spawns.json (a regenerer si le mod change).
-# Plafond total et distance au spawn : config/incontrol/spawn.json (In Control!).
-$bic = Get-Content (Join-Path $PSScriptRoot 'data\borninchaos-spawns.json') -Raw | ConvertFrom-Json
-foreach ($p in $bic.PSObject.Properties) {
-    $m = $p.Value
-    $m.spawners.weight = [int][math]::Max(1, [math]::Round($m.spawners.weight * 0.6))
-    W "data/born_in_chaos_v1/neoforge/biome_modifier/$($p.Name).json" $m
-}
+# ---------- 4. Born in Chaos ----------
+# Apparitions d'origine du mod depuis le 01/11/2026 : plus de poids x0,6 ni de regles In Control (2000 blocs du spawn, 40 par dimension),
+# les monstres n'apparaissaient presque plus.
 
 # ---------- 5. Create: New Age x Alex's Caves (refait d'apres l'addon 1.20.1 "newagealexscaves", licence MIT) ----------
 # Barre d'uranium = combustible du reacteur New Age (meme energie que le combustible New Age)

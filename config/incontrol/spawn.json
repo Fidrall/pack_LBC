@@ -1,15 +1,1 @@
-[
-  {
-    "mod": "born_in_chaos_v1",
-    "maxspawndist": 2000,
-    "result": "deny"
-  },
-  {
-    "mod": "born_in_chaos_v1",
-    "maxcount": {
-      "amount": 40,
-      "mod": "born_in_chaos_v1"
-    },
-    "result": "deny"
-  }
-]
+[]
