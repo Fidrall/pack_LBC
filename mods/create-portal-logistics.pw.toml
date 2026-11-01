@@ -1,0 +1,13 @@
+name = "Create: Portal Logistics"
+filename = "createportallogistics-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UxGb4dAI/versions/H8jFRSD7/createportallogistics-1.0.2.jar"
+hash-format = "sha512"
+hash = "2ee45ef7267bc9f853f72897f881fc2823bf75dd5c494ba036615d6869d9896447d7a62bfbc8b7f0c6f7406a074f87ae85e470e1be3e0f065b60635af3218115"
+
+[update]
+[update.modrinth]
+mod-id = "UxGb4dAI"
+version = "H8jFRSD7"

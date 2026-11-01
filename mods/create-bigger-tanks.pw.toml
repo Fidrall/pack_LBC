@@ -1,0 +1,13 @@
+name = "Create: Bigger Tanks"
+filename = "createbiggertanks1.2-6.0.10-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DE3u5w7l/versions/VjjkkoQV/createbiggertanks1.2-6.0.10-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "0325c6c1f87e95598a55a7996e6faddcab8dc99ac09a5dad351e15849aae84c41b5cdaecab4464c635c074477d9d609a4c7dbb64423f9c41ff4406e2b20fe131"
+
+[update]
+[update.modrinth]
+mod-id = "DE3u5w7l"
+version = "VjjkkoQV"

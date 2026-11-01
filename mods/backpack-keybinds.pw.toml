@@ -1,0 +1,13 @@
+name = "Backpack Keybinds"
+filename = "backpackkeybinds-1.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6UpxQXrP/versions/bjw9hNCr/backpackkeybinds-1.1.2.jar"
+hash-format = "sha512"
+hash = "1da4ddd9e3f382a8fefb66461645516b246d533e1dc3de5856095bd968f4defeb2f8c83bb24cb3d6d83d16948497056cc5d793d5e2525c42e1e0de627a7016fb"
+
+[update]
+[update.modrinth]
+mod-id = "6UpxQXrP"
+version = "bjw9hNCr"

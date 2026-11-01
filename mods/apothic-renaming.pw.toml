@@ -1,0 +1,13 @@
+name = "Apothic Renaming"
+filename = "apothic_renaming-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IQuzhWuj/versions/T5MvWgj8/apothic_renaming-1.0.0.jar"
+hash-format = "sha512"
+hash = "df4af01d28c1b038d95e7c0b2d4f0922142ad0990bf3c3023472463caee78d7c593694f099d9a7680a9e16c28e4de4b128d3316fc55817fd22941bf954291804"
+
+[update]
+[update.modrinth]
+mod-id = "IQuzhWuj"
+version = "T5MvWgj8"

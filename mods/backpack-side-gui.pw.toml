@@ -1,0 +1,13 @@
+name = "Backpack Side GUI"
+filename = "backpack_side_gui-1.4.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/I99J8sr3/versions/nJo8qx0P/backpack_side_gui-1.4.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "6f9370c426abc4527b4df1cdfbf5fb7180e429983bc1e0d553209eb9dc065c5e8770ba52a591371767e64d7a738a91dbbb6e7b0ea787c221701dcdf7d8a651c7"
+
+[update]
+[update.modrinth]
+mod-id = "I99J8sr3"
+version = "nJo8qx0P"

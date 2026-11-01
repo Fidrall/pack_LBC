@@ -1,0 +1,13 @@
+name = "Sable Sub-level Loading System Fix"
+filename = "sablesublevelholdingchunkfix-1.5.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SPohDYAW/versions/F44fpp4M/sablesublevelholdingchunkfix-1.5.3.jar"
+hash-format = "sha512"
+hash = "adab8c33c77ab21be9142d97a17d9e70963d2ad8bcb65156f5f453ec2f0ed058c6fe4beaf23b8ca9ed14f3543bc6b307bbc0a9582888deb6a886976f7c9bf9c6"
+
+[update]
+[update.modrinth]
+mod-id = "SPohDYAW"
+version = "F44fpp4M"

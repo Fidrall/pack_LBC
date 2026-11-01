@@ -1,0 +1,13 @@
+name = "Create: Halfdoor"
+filename = "halfdoors-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xqqMKkXr/versions/wfURykuT/halfdoors-0.1.0.jar"
+hash-format = "sha512"
+hash = "1f5ed0806d8c77cf656f8ccb73d029d3a3aad46092bad685e0ce5bd6b2d1cc127f232145356b7c97447fc62411081fc9a0f255a080b91b6fa3066881bf130a1d"
+
+[update]
+[update.modrinth]
+mod-id = "xqqMKkXr"
+version = "wfURykuT"

@@ -1,0 +1,13 @@
+name = "Create: WarHorn"
+filename = "createwarhorn-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GxzSJpp9/versions/tgex9DOY/createwarhorn-1.0.1.jar"
+hash-format = "sha512"
+hash = "2a0dfcd7892b0cd1fbe9b25d7e6488a344fb1bf9bffd0753005118ab748940c97abca7f1aa490482dde4c62ba5dc49838e5536aaa04031c6084240c626e854fc"
+
+[update]
+[update.modrinth]
+mod-id = "GxzSJpp9"
+version = "tgex9DOY"

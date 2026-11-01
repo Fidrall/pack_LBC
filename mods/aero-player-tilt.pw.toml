@@ -1,0 +1,13 @@
+name = "Aeronautics Player Tilt"
+filename = "aero_player_tilt-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R8r1wiW4/versions/zxMwtjXU/aero_player_tilt-0.3.0.jar"
+hash-format = "sha512"
+hash = "51eb55246eca92e1740706280cbbbf97691cd3c8f9ffb869c1393788ddab49931b9ccaae741ee8ff4cacc84d02d5feb355e92ae08a0a089ed0a0d3e19ed98dd6"
+
+[update]
+[update.modrinth]
+mod-id = "R8r1wiW4"
+version = "zxMwtjXU"

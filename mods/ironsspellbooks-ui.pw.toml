@@ -1,0 +1,13 @@
+name = "IronsSpellBooks UI"
+filename = "ISS-UI-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SMdNb143/versions/ZWmLsiKO/ISS-UI-1.0.0.jar"
+hash-format = "sha512"
+hash = "603b8285e8f4edd32c8d6a2da57af65b2e3ade8f56d8803de68d989e5a0c5d70387b8c04e181ac0078133bda73a707ca92e5133fd98a8428c4444213627c2545"
+
+[update]
+[update.modrinth]
+mod-id = "SMdNb143"
+version = "ZWmLsiKO"

@@ -1,0 +1,13 @@
+name = "Sable Bridging"
+filename = "sablebridging-1.0.3-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CLt069Ds/versions/djQA2Z3A/sablebridging-1.0.3-all.jar"
+hash-format = "sha512"
+hash = "4108d290754bc4ec603c26f1a5af5ed73ffde28d0d0e58a32720e1ff7117b7276cc80a1c57619d900ac0282ef371b4258ce142a9ce9c5e78ef347cd446958467"
+
+[update]
+[update.modrinth]
+mod-id = "CLt069Ds"
+version = "djQA2Z3A"

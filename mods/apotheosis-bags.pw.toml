@@ -1,0 +1,13 @@
+name = "Apotheosis Bags"
+filename = "apotheosis_bags-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/epAA4DmE/versions/1GAudaPu/apotheosis_bags-1.2.jar"
+hash-format = "sha512"
+hash = "f998c231f1ed39aef2d086beca1d29f6c76e26bea0a67032af2828cfcaae14c931f596a5ed002ace1b1c3020f1ab64a48de2a5c99c5004175a430461fbf20054"
+
+[update]
+[update.modrinth]
+mod-id = "epAA4DmE"
+version = "1GAudaPu"

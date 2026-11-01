@@ -1,0 +1,13 @@
+name = "Sophisticated Backpacks: Advanced Crafting Upgrade"
+filename = "sbac-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LK1KYnrS/versions/dgszwS3b/sbac-1.0.2.jar"
+hash-format = "sha512"
+hash = "b613bb926b5820a0f57967f845648adf5bd6c8e8ed9da67b4f9d7d87439686f89e41b6d7c2d816be3fba30e026419934cc53f3c19de6f8905ef8e5d84f40096f"
+
+[update]
+[update.modrinth]
+mod-id = "LK1KYnrS"
+version = "dgszwS3b"

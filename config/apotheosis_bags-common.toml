@@ -1,0 +1,40 @@
+# Bourses de gemmes : 3 % par coffre au lieu de 10 % (gemmes deja reduites dans le butin, coffres Lootr par joueur).
+[Loot]
+	#If gem bags should be added to naturally generated chests.
+	do_loot_generation = true
+	#Chance a gem bag appears in a chest (0.1 = 10%, 1.0 = always one bag per chest).
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	loot_chance = 0.03
+
+["Bag Weights"]
+	#Relative weights deciding WHICH bag is chosen, AFTER loot_chance decided one spawns.
+	#These are NOT percentages. A bag's odds = its weight / sum of all non-zero weights.
+	#Set a weight to 0 to disable that bag in chest loot entirely.
+	# Default: 80
+	# Range: > 0
+	weight_common_uncommon = 80
+	# Default: 16
+	# Range: > 0
+	weight_rare_epic = 16
+	# Default: 4
+	# Range: > 0
+	weight_mythic_ancient = 4
+	# Default: 0
+	# Range: > 0
+	weight_common = 0
+	# Default: 0
+	# Range: > 0
+	weight_uncommon = 0
+	# Default: 0
+	# Range: > 0
+	weight_rare = 0
+	# Default: 0
+	# Range: > 0
+	weight_epic = 0
+	# Default: 0
+	# Range: > 0
+	weight_mythic = 0
+	# Default: 0
+	# Range: > 0
+	weight_ancient = 0

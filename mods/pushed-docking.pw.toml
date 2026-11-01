@@ -1,0 +1,13 @@
+name = "Pushed Docking"
+filename = "pusheddocking-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LhsRrxdQ/versions/i4LBRpU5/pusheddocking-1.0.1.jar"
+hash-format = "sha512"
+hash = "b0b1e145f58af96b186426a79cf11c763504b19192800227c3aff5611962bb9e3193eacd5a7485db1f213a91066f89faec1fd1c5866d544a31b52b94c4de5be6"
+
+[update]
+[update.modrinth]
+mod-id = "LhsRrxdQ"
+version = "i4LBRpU5"

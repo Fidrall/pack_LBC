@@ -1,0 +1,55 @@
+# Mobs contre les vaisseaux coupes (on garde seulement les voitures pilotees par des mobs) : le mod n'accepte pas 0, tout est au minimum.
+[zombie]
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	searchRadius = 1.0
+	# Default: 1.5
+	# Range: 0.5 ~ 8.0
+	attackRange = 0.5
+
+[skeleton]
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	searchRadius = 1.0
+	# Default: 15.0
+	# Range: 1.0 ~ 64.0
+	attackRange = 1.0
+	# Default: 40
+	# Range: 5 ~ 200
+	fireCooldownTicks = 200
+
+[creeper]
+	#If true, creepers will target and explode near sub-level blocks. Turn off if you don't want creepers able to damage your ships/vehicles at all.
+	allowGriefing = false
+
+[generic_monster]
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	searchRadius = 1.0
+	# Default: 2.5
+	# Range: 0.5 ~ 8.0
+	attackRange = 0.5
+
+[enderman_steal]
+	#If true, Endermen can steal sub-level blocks. Turn off to disable this entirely.
+	allowStealing = false
+	#Mod IDs whose blocks Endermen are allowed to steal from sub-levels entirely, in addition to the enderman_stealable block tag.
+	allowedModNamespaces = ["create_aeronautics"]
+
+[mob_vehicle_piloting]
+	#If true, mobs seated in a MobPilotSeatEntity will wander/steer the vehicle on their own. Turn off if you only want player-driven vehicles.
+	allowPiloting = true
+
+[block_breaking]
+	#Base number of hits needed to break a sub-level block, before any hardness scaling is applied.
+	# Default: 16
+	# Range: 1 ~ 200
+	baseHitsToBreak = 200
+	#If true and Create: Big Cannons is installed, blocks with higher armor hardness/toughness take proportionally more hits to break.
+	scaleHitsByHardness = true
+
+[general]
+	#A sub-level is only a valid target if a player is within this many blocks of it. Set to 0 to disable this check entirely.
+	# Default: 5.0
+	# Range: 0.0 ~ 512.0
+	playerPresenceRange = 5.0

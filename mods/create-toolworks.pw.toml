@@ -1,0 +1,13 @@
+name = "Create: Toolworks"
+filename = "toolworks-1.21.1-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ad49oeC1/versions/13e8mDTv/toolworks-1.21.1-0.1.0.jar"
+hash-format = "sha512"
+hash = "85ee198ec2387c640baae088756bbde4651464e96c040f96df314ab5f7c6dda1625f8a15b075b7050a9c952e09caae23d467a2db9ff569db93c42fd42d942e41"
+
+[update]
+[update.modrinth]
+mod-id = "Ad49oeC1"
+version = "13e8mDTv"
