@@ -754,6 +754,16 @@ $reliquesMages = @('bloody_voodoo_doll', 'cardiac_trap', 'cloak_of_the_bloody_fe
 W 'data/relics/tags/item/relics.json' ([ordered]@{ replace = $true; values = (OptT $reliquesMages) })
 # minecraft:enchantable/durability : Archaion 1.4.4 y met Echo's Grace mais oublie la masse d'echo (250 de durabilite) -> ni Mending ni Unbreaking.
 W 'data/minecraft/tags/item/enchantable/durability.json' ([ordered]@{ replace = $false; values = @(OptT @('archaion:echo_mace')) })
+# Create Deco 2.x : placard.json (pancarte teinte -> pancarte blanche) ecrit "id" au lieu de "item" pour la teinture -> recette rejetee.
+W 'data/createdeco/recipe/placard.json' ([ordered]@{ type = 'minecraft:crafting_shapeless'; category = 'misc'; group = 'dye_placard'
+    ingredients = @([ordered]@{ tag = 'createdeco:placards' }, [ordered]@{ item = 'minecraft:white_dye' }); result = [ordered]@{ count = 1; id = 'create:placard' } })
+# Farmer's Spell 1.0.7 : remplissage Create des boissons avec le type de fluide "neoforge:fluid" (inexistant, c'est "neoforge:single").
+foreach ($b in 'amethyst_tequila', 'catacombs_wine', 'ice_venom_wine', 'original_nectar') {
+    W "data/farmers_spell/recipe/create_compat/create_fill_$b.json" ([ordered]@{ type = 'create:filling'
+        ingredients = @([ordered]@{ item = 'minecraft:glass_bottle' }, [ordered]@{ type = 'neoforge:single'; amount = 250; fluid = "farmers_spell:$b" })
+        results = @([ordered]@{ id = "farmers_spell:$b" })
+        'neoforge:conditions' = @([ordered]@{ type = 'neoforge:mod_loaded'; modid = 'farmers_spell' }) })
+}
 # Sable Physics Compat 1.3.0 : physics_block_properties/float.json est un tableau (ancien format, 1 objet par fichier attendu) -> rejete.
 # Repris pour les mods presents : gravitite enchantee et nuages de l'Aether, nuages du Twilight flottent comme la levitite.
 function Flotte($sel, $scale) { [ordered]@{ selector = $sel; properties = [ordered]@{ 'sable:floating_material' = 'aeronautics:levitite'; 'sable:floating_scale' = $scale } } }

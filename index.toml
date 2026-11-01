@@ -489,6 +489,10 @@ file = "config/paxi/datapacks/pack_lbc/data/create_new_age/tags/item/stops_radia
 hash = "5ba7dcf35538059b24159e50d3f64f427f256797d31b3c8a8360931fa4ce19a3"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/createdeco/recipe/placard.json"
+hash = "6789840fb78ae0bc8aff615ae4968ec49db5221ea8bbb50f31060fd627ede2e7"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/dungeons_arise/loot_table/chests/abandoned_temple/abandoned_temple_entrance.json"
 hash = "4aa001cc128173430640a4a31570c9a3f03acce364b6e5977fddc60eaf3932f8"
 
@@ -935,6 +939,22 @@ hash = "1723025d7d56328883c0d0b8d29f036b831e51b10efdde53111fbc6eddc9e6d6"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/endfight/function/tick.mcfunction"
 hash = "f7961695ed8095ade28998b5301c4e4d044655f83f6b57916eb753dbfbffe57f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/farmers_spell/recipe/create_compat/create_fill_amethyst_tequila.json"
+hash = "2e5ccde536be107030efe5d9558d1df64cc68efefcea8c92663c09a6828808d9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/farmers_spell/recipe/create_compat/create_fill_catacombs_wine.json"
+hash = "5bd3978e55344c06f21d162610abe301cda350f2b234989766e94be46b7b94ba"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/farmers_spell/recipe/create_compat/create_fill_ice_venom_wine.json"
+hash = "d7a6256d84c6d601c483d3514fdef1aa8c3581b49bd3f710464c8dd59279f1b7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/farmers_spell/recipe/create_compat/create_fill_original_nectar.json"
+hash = "7f72a09c97e777fe2e427aca62d458c57a96c37aea12a6045f7a0c85cfa9347d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_set/citadel.json"
