@@ -66,7 +66,7 @@ hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
 
 [[files]]
 file = "config/aeronauticsdiscovery-common.toml"
-hash = "63b00f8afa802e4b87adb5ad8e004aaf5d628c1263d24eed9dc79ba583b59547"
+hash = "66e4bcd957f0f16d8cccb8f697779e223bf832ecd1cdc8d1338fc8174320023b"
 
 [[files]]
 file = "config/aether-client.toml"
