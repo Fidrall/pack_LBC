@@ -24,7 +24,16 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ignited_revenant",
+                                          "rolls":  2
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:fallen_chaos_knight",
+                                          "rolls":  2
+                                      }
                                   ],
                       "max_wave_time":  2400,
                       "setup_time":  160
@@ -55,7 +64,21 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:kobolediator",
+                                          "rolls":  1
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:wadjet",
+                                          "rolls":  1
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:lifestealer",
+                                          "rolls":  1
+                                      }
                                   ],
                       "max_wave_time":  2800,
                       "setup_time":  160
@@ -86,7 +109,21 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "irons_spellbooks:archevoker",
+                                          "rolls":  2
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:supreme_bonescaller",
+                                          "rolls":  1
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ignited_berserker",
+                                          "rolls":  2
+                                      }
                                   ],
                       "max_wave_time":  3000,
                       "setup_time":  160
@@ -117,7 +154,21 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:the_prowler",
+                                          "rolls":  1
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ignited_revenant",
+                                          "rolls":  2
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "born_in_chaos_v1:fallen_chaos_knight",
+                                          "rolls":  2
+                                      }
                                   ],
                       "max_wave_time":  3600,
                       "setup_time":  160

@@ -24,7 +24,16 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "minecraft:enderman",
+                                          "rolls":  4
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:endermaptera",
+                                          "rolls":  3
+                                      }
                                   ],
                       "max_wave_time":  1600,
                       "setup_time":  160
@@ -55,7 +64,21 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "minecraft:shulker",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "minecraft:enderman",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:endermaptera",
+                                          "rolls":  3
+                                      }
                                   ],
                       "max_wave_time":  1800,
                       "setup_time":  160
@@ -81,7 +104,16 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ender_golem",
+                                          "rolls":  1
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "minecraft:enderman",
+                                          "rolls":  4
+                                      }
                                   ],
                       "max_wave_time":  2400,
                       "setup_time":  160
@@ -112,7 +144,21 @@
                                         }
                                     ],
                       "rewards":  [
-
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:ender_golem",
+                                          "rolls":  2
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "minecraft:shulker",
+                                          "rolls":  3
+                                      },
+                                      {
+                                          "type":  "gateways:entity_loot",
+                                          "entity":  "cataclysm:endermaptera",
+                                          "rolls":  4
+                                      }
                                   ],
                       "max_wave_time":  3000,
                       "setup_time":  160

@@ -181,9 +181,9 @@ Gate 'gardiens_sorcellerie' 'medium' '#9B4DDB' @(
     (Wave @((Mob 'irons_spellbooks:necromancer' 2), (Mob 'irons_spellbooks:apothecarist' 1), (Mob 'irons_spellbooks:magehunter_vindicator' 2)) 0.2 2000),
     (Wave @((Mob 'irons_spellbooks:archevoker' 2), (Mob 'irons_spellbooks:pyromancer' 1), (Mob 'irons_spellbooks:cryomancer' 1)) 0.25 2600)
 ) @((Chest 'irons_spellbooks:chests/additional_good_loot' 2), (Chest 'irons_spellbooks:chests/citadel/citadel_tomes' 1), (Xp 800)) 3 @('ALA', 'IEI', 'ALA') ([ordered]@{ A = @{ item = 'irons_spellbooks:arcane_essence' }; L = @{ tag = 'c:gems/lapis' }; I = @{ item = 'irons_spellbooks:common_ink' }; E = @{ item = 'minecraft:ender_eye' } })
-# La Citadelle de l'Ender (End / Cataclysm) et le Defi des Seigneurs : drops normaux seulement (le bonus simule une mort par le
-# joueur : Looting et Scavenger d'Apotheosis s'y appliquaient aussi, butin enorme en fin de jeu)
-$bonusVague = 0
+# La Citadelle de l'Ender (End / Cataclysm) et le Defi des Seigneurs : bonus de vague x1 (le butin enorme signale le 02/11 venait
+# du portail enderman de Gateways lui-meme, pas d'ici)
+$bonusVague = 1
 Gate 'citadelle_ender' 'large' '#C25BE6' @(
     (Wave @((Mob 'minecraft:enderman' 4), (Mob 'cataclysm:endermaptera' 3)) 0.1 1600),
     (Wave @((Mob 'minecraft:shulker' 3), (Mob 'minecraft:enderman' 3), (Mob 'cataclysm:endermaptera' 3)) 0.15 1800),

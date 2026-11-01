@@ -3242,11 +3242,11 @@ hash = "6a203a61e749b85cbfb3911c48aa614e36d8440b75681e560185c83ae4c64485"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
-hash = "4412edacf6311b151e0d76d424194158a7702153b248a7548e190025226fd4f2"
+hash = "b08b83a65a558f5e8682b06488e761f45c741e50eddc88b6f09025c37fb727f6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/defi_seigneurs.json"
-hash = "35e2088958d78daf11a19cb742c054d0c19adf712c9440fe4c9a9239070b6622"
+hash = "66e629f5ecc4bb81f82624018cfc6e13b732ee0e46545204eafbf6f0c7398aa4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/echo_profondeurs.json"
