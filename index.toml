@@ -6485,10 +6485,6 @@ file = "config/sable_fix_mod-common.toml"
 hash = "a5d3bb462c7575c6be27a52b96dea9722b3a977186a0fb591fa3a3556fe8ab20"
 
 [[files]]
-file = "config/sablemobinteractions-common.toml"
-hash = "2bfad659be5606773fffb511decd6ddbedc252b4d71bc5e3dd80cb21874af3b7"
-
-[[files]]
 file = "config/servercore/config.yml"
 hash = "024b5ea70036a7e772d119760ab00c2ff521fdd2807bb8faf2cc0a9b498ef229"
 
@@ -7284,11 +7280,6 @@ hash = "4dc4b35767b1869c41addaa0cd8f26d8ec55d01e75efd3a2a01dd43420cc7f45"
 metafile = true
 
 [[files]]
-file = "mods/drive-by-wire-sable.pw.toml"
-hash = "dfcf0ef42d5dc33213781ebd3bc2c5e0debd9bb6540006d9941a02906fb33601"
-metafile = true
-
-[[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
 metafile = true
@@ -7939,11 +7930,6 @@ metafile = true
 [[files]]
 file = "mods/sable-fix-mod.pw.toml"
 hash = "abbf72364aa52df09fe22737dad198d899d705f89858e2c95257359cc9be2d23"
-metafile = true
-
-[[files]]
-file = "mods/sable-mob-interactions.pw.toml"
-hash = "d3416e479f6a28eb72675c4f099e128dd6a72dc9b20a1a694e49c23a81da19da"
 metafile = true
 
 [[files]]
