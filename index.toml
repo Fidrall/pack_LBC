@@ -973,6 +973,34 @@ file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_se
 hash = "a810f27f1ac2422f7e8e54a875eb59bc4f4ea75efd3b6316b14190f6433d42f6"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/gateways/gateways/basic/blaze.json"
+hash = "1378426e9a000c5399a9c3daffffa7686f914ff8e38ffcc3efc4e04d5118eb61"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/gateways/gateways/basic/enderman.json"
+hash = "acdab2db7a8f5a9aaf20e6136df05b920c2fab8ca2067a87a22538ec2cafeca5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/gateways/gateways/basic/slime.json"
+hash = "baeecd4be56a0aebd8636757313d1a0ff16ec6590b1f3b138057046ba165fc47"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/gateways/gateways/emerald_grove.json"
+hash = "a686e29d81d6729da1af3bc5ccc5be1e5aeba61b7b52d2e979c31f81d96044ab"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/gateways/gateways/endless/blaze.json"
+hash = "92afd09d943087c70a0ca2171e0bf04636699386ef4636db1bb93406c0882de2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/gateways/gateways/hellish_fortress.json"
+hash = "713c3098e872d704e747852c721514740b06a80153ba8a10bb144134376e5545"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/gateways/gateways/overworldian_nights.json"
+hash = "efe299bf562e82aa970acec2014d7947628dbaae4a0fbc5979fea4ddddcfabfe"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/black_coffin.json"
 hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
 

@@ -202,6 +202,17 @@ Gate 'defi_seigneurs' 'large' '#D4AF37' @(
     (Wave @((Mob 'cataclysm:the_prowler' 1), (Mob 'cataclysm:ignited_revenant' 2), (Mob "$($bic):fallen_chaos_knight" 2)) 0.35 3600)
 ) @((Affix 2 'apotheosis:mythic'), (Gem 3 'perfect'), $trophy, (Xp 3000)) 2 @('IWI', 'DND', 'IWI') ([ordered]@{ I = @{ item = 'cataclysm:ignitium_ingot' }; W = @{ item = 'cataclysm:witherite_ingot' }; D = @{ item = 'minecraft:diamond_block' }; N = @{ item = 'minecraft:nether_star' } })
 
+# Portails fournis par Gateways to Eternity (enderman, blaze, slime, Hellish Fortress, Overworldian Nights, Emerald Grove, blaze sans fin) :
+# meme regle que les notres (butin de vague = nombre de mobs de la vague ; fin = total des mobs, coffres 4 tirages). Le portail enderman
+# d'origine rejouait 220 fois le butin d'enderman (500 perles avec Butin III). Copies figees : scripts/data/gateways_overrides
+# (regenerer avec scratchpad gates_gateways.ps1 si Gateways est mis a jour).
+$gw = Join-Path $PSScriptRoot 'data\gateways_overrides'
+foreach ($f in Get-ChildItem $gw -Recurse -File) {
+    $to = Join-Path $dp $f.FullName.Substring($gw.Length + 1)
+    New-Item -ItemType Directory -Force (Split-Path $to) | Out-Null
+    Copy-Item $f.FullName $to -Force
+}
+
 # ---------- 7. Correctifs Archaion (bug du mod, toutes versions 1.4.x) ----------
 # misc_room.nbt et misc_room_x.nbt sont vides dans le jar -> retires des pools.
 # start_jigsaw "arena_mainhall" n'existe que dans arena.nbt (arena_hall n'a que la cible) -> pool de depart reduit a arena.
