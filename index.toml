@@ -7621,11 +7621,6 @@ hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]
-file = "mods/ironsspellbooks-ui.pw.toml"
-hash = "e6c69f3a300d28e993f224fe0d56400eb7a7ae5196da1716e534039e5ed7813a"
-metafile = true
-
-[[files]]
 file = "mods/it-takes-a-pillage-continuation.pw.toml"
 hash = "6ed3569361aa9242512f437d3ec7091add82bf6178762d2bca72549ac667ece4"
 metafile = true
