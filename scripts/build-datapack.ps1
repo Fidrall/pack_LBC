@@ -727,6 +727,12 @@ W 'data/wyrmroost/tags/item/platinum_ingots.json' ([ordered]@{ replace = $false;
 # Pumpkin Bomb (Somake Spells 1.0.8) : sa zone pose un effet non enregistre (Holder.direct) ; Relics le sauvegarde -> exception,
 # Neruina tue la zone puis expulse le joueur quand l'effet se termine.
 W 'data/somakespells/irons_spellbooks_spell_config/pumpkin_bomb.json' ([ordered]@{ 'irons_spellbooks:enabled' = $false })
+# Sorts Apex : pas de Scroll Forge. Ici et pas dans config/irons_spellbooks_spell_config : des qu'un datapack fournit une config de sort,
+# Iron's 3.16.3 ignore tout ce dossier (onDatapackSync ne lit que datapackOverride).
+foreach ($s in $apexSorts) {
+  $ns, $id = $s.Trim() -split ':'
+  W "data/$ns/irons_spellbooks_spell_config/$id.json" ([ordered]@{ 'irons_spellbooks:allow_crafting' = $false; 'irons_spellbooks:min_rarity' = 'legendary' })
+}
 
 # ---------- 21. Tags et donnees casses par des fautes de frappe dans les mods ----------
 # Une reference obligatoire inconnue fait echouer TOUT le tag. replace = true efface les fichiers des mods (pack_lbc charge apres eux) :

@@ -305,82 +305,6 @@ file = "config/irons_spellbooks-server.toml"
 hash = "9db94f62e96f2a6f9d3c60ffa28f6811931a697b32c6e7eee3a09996895e0cd9"
 
 [[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/black_coffin.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/caldera.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/colosseum.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/crimson_threads.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/dimension_cut.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/full_bloom.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/grand_sigil.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/heaven_gate.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/ice_age.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/phoenix.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/reckoning.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/skybreak.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/stilled_world.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/sunfall.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/the_gaze.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/thousand_blades.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/thunder_dragon.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/voidgrip.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
-file = "config/irons_spellbooks_spell_config/grandsigil/world_tree.json"
-hash = "3532da422393bad6ffafb0eaee577c77db5a9132cd2717ddfae56cd03dd2d506"
-
-[[files]]
 file = "config/jmdefaultconfig/config/6.0/journeymap.core.config"
 hash = "2b417fde7a6bd70f853c82be7f00b0e5b2b8dc220788c0225cc415c6dba77934"
 
@@ -1187,6 +1111,78 @@ hash = "f7961695ed8095ade28998b5301c4e4d044655f83f6b57916eb753dbfbffe57f"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/friendsandfoes/worldgen/structure_set/citadel.json"
 hash = "a810f27f1ac2422f7e8e54a875eb59bc4f4ea75efd3b6316b14190f6433d42f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/black_coffin.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/colosseum.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/crimson_threads.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/dimension_cut.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/full_bloom.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/grand_sigil.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/heaven_gate.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/ice_age.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/phoenix.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/reckoning.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/skybreak.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/stilled_world.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/sunfall.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/the_gaze.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/thousand_blades.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/thunder_dragon.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/voidgrip.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/grandsigil/irons_spellbooks_spell_config/world_tree.json"
+hash = "f2128f2d6e7b8b535cab56d42cef91f9b473cb9c9e91583b306e347fc7c2b1e7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/hazennstuff/loot_table/chests/additional_citadel_vault_loot.json"
