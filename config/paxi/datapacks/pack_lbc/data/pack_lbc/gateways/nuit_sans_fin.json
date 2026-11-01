@@ -205,6 +205,7 @@
                   "lives":  3,
                   "requires_nearby_player":  true,
                   "leash_range":  100,
-                  "remove_mobs_on_failure":  true
+                  "remove_mobs_on_failure":  true,
+                  "allow_discarding":  true
               }
 }

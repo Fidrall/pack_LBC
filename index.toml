@@ -3354,31 +3354,31 @@ hash = "6a203a61e749b85cbfb3911c48aa614e36d8440b75681e560185c83ae4c64485"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/citadelle_ender.json"
-hash = "db8ec27f6d4bcf75516fd2793c9f6449210b324d1b006a27b41133e47d38954b"
+hash = "b08b83a65a558f5e8682b06488e761f45c741e50eddc88b6f09025c37fb727f6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/defi_seigneurs.json"
-hash = "a36c579de0a304fe4d65f9d61886fdc76cbdb873bb8fc3e018179f2fa916391b"
+hash = "66e629f5ecc4bb81f82624018cfc6e13b732ee0e46545204eafbf6f0c7398aa4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/echo_profondeurs.json"
-hash = "34a08c2966dcf4fac7c85ece4dcff2dcf39c55fd76b9a06fdb82e3f35b17c140"
+hash = "0fcc9124afd0bbe1d519aa8f425c577ed1406eb9258f8e83f2fc44beacdbb4d1"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/gardiens_sorcellerie.json"
-hash = "76d41fa68859a870031539dd34ae28c07925f8d8c90c93db7d1102796170bd1b"
+hash = "6ac0f20d5993e83f9ae38b1373fd3b150df6262eec0a9c11f8698868d393b996"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/morts_sans_repos.json"
-hash = "c3360d563b2d8a55805fb10a3e3320fd275f40792f1c4d32329a9720f80a1355"
+hash = "e35a0348aeb1a85e363a8554bbed0b0843413c1098bb8c3c8247c360aadbf3ef"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/nuit_sans_fin.json"
-hash = "c8b498d5f24b36871a7557c37214fc261b6a9ebd696a9cd3b4c47522eb6fdcdc"
+hash = "eeafac118f1bbb71b71f5638de32a40e0fe65c98f3e6154b13c47a02024f2922"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gateways/sabbat_citrouilles.json"
-hash = "bef8aacd08c6ef40592fef3418f56541d869a7fbf20aa24ead7ceb61f098bd8c"
+hash = "0f2f4fb798bc60ad540ab3632f75aa6052630c012f8d8cd5f163de7e76fa466f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/pack_lbc/gems/aether/celeste.json"

@@ -27,12 +27,12 @@
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "cataclysm:ignited_revenant",
-                                          "rolls":  6
+                                          "rolls":  2
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "born_in_chaos_v1:fallen_chaos_knight",
-                                          "rolls":  6
+                                          "rolls":  2
                                       }
                                   ],
                       "max_wave_time":  2400,
@@ -67,17 +67,17 @@
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "cataclysm:kobolediator",
-                                          "rolls":  3
+                                          "rolls":  1
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "cataclysm:wadjet",
-                                          "rolls":  3
+                                          "rolls":  1
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "born_in_chaos_v1:lifestealer",
-                                          "rolls":  3
+                                          "rolls":  1
                                       }
                                   ],
                       "max_wave_time":  2800,
@@ -112,17 +112,17 @@
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "irons_spellbooks:archevoker",
-                                          "rolls":  6
+                                          "rolls":  2
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "born_in_chaos_v1:supreme_bonescaller",
-                                          "rolls":  3
+                                          "rolls":  1
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "cataclysm:ignited_berserker",
-                                          "rolls":  6
+                                          "rolls":  2
                                       }
                                   ],
                       "max_wave_time":  3000,
@@ -157,17 +157,17 @@
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "cataclysm:the_prowler",
-                                          "rolls":  3
+                                          "rolls":  1
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "cataclysm:ignited_revenant",
-                                          "rolls":  6
+                                          "rolls":  2
                                       },
                                       {
                                           "type":  "gateways:entity_loot",
                                           "entity":  "born_in_chaos_v1:fallen_chaos_knight",
-                                          "rolls":  6
+                                          "rolls":  2
                                       }
                                   ],
                       "max_wave_time":  3600,
@@ -228,6 +228,7 @@
                   "lives":  2,
                   "requires_nearby_player":  true,
                   "leash_range":  100,
-                  "remove_mobs_on_failure":  true
+                  "remove_mobs_on_failure":  true,
+                  "allow_discarding":  true
               }
 }

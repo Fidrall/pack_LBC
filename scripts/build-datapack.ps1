@@ -129,8 +129,11 @@ function Gem($n, $pur) { [ordered]@{ type = 'gateways:counted'; count = $n; rewa
 function Hp($v) { [ordered]@{ attribute = 'generic.max_health'; operation = 'add_multiplied_total'; value = $v } }
 # Boss a sac de tresor (section 14) presents dans les vagues : leur butin n'est pas rejoue en recompense (sinon plusieurs sacs).
 $bossAvecSac = @('minecraft:warden', 'deeperdarker:stalker')
+# Bonus de fin de vague = butin des mobs rejoue $bonusVague fois (Butin de l'arme et drops Apotheosis compris), en plus de leurs drops normaux.
+# Calcul par portail : scratchpad gate_loot.ps1. Reduit pour les Gardiens (perle a 4 essences -> ~240 essences et ~60 parchemins), la Citadelle et le Defi.
+$bonusVague = 3
 function Wave($mobs, $hp, $time) {
-    $rw = @(); foreach ($m in $mobs) { if ($bossAvecSac -notcontains $m.entity) { $rw += Loot $m.entity ([int]($m.count * 3)) } }
+    $rw = @(); foreach ($m in $mobs) { if ($bonusVague -gt 0 -and $bossAvecSac -notcontains $m.entity) { $rw += Loot $m.entity ([int]($m.count * $bonusVague)) } }
     $mods = @(); if ($hp -gt 0) { $mods += Hp $hp }
     [ordered]@{ entities = @($mobs); modifiers = $mods; rewards = $rw; max_wave_time = $time; setup_time = 160 }
 }
@@ -138,7 +141,8 @@ function Gate($id, $size, $color, $waves, $rewards, $lives, $pattern, $key) {
     W "data/pack_lbc/gateways/$id.json" ([ordered]@{
         type = 'gateways:normal'; size = $size; color = $color; waves = @($waves); rewards = @($rewards)
         failures = @([ordered]@{ type = 'gateways:explosion'; strength = 3; fire = $false; block_damage = $false })
-        rules = [ordered]@{ lives = $lives; requires_nearby_player = $true; leash_range = 100.0; remove_mobs_on_failure = $true }
+        # allow_discarding : un mob qui disparait sans mourir (creeper qui explose) compte comme elimine au lieu de faire echouer le portail
+        rules = [ordered]@{ lives = $lives; requires_nearby_player = $true; leash_range = 100.0; remove_mobs_on_failure = $true; allow_discarding = $true }
     })
     W "data/pack_lbc/recipe/gateways/$id.json" ([ordered]@{
         'neoforge:conditions' = @(@{ type = 'neoforge:mod_loaded'; modid = 'gateways' })
@@ -175,20 +179,22 @@ Gate 'echo_profondeurs' 'large' '#0F5E63' @(
     (Wave @((Mob 'deeperdarker:stalker' 2), (Mob 'deeperdarker:shattered' 3), (Mob 'deeperdarker:sculk_snapper' 3)) 0.2 2000),
     (Wave @((Mob 'minecraft:warden' 1), (Mob 'deeperdarker:shattered' 2)) 0 3000)
 ) @((Chest 'minecraft:chests/ancient_city' 4), (Chest 'deeperdarker:chests/ancient_temple_apex' 1), (Xp 1000)) 2 @('ESE', 'CPC', 'ESE') ([ordered]@{ E = @{ item = 'minecraft:echo_shard' }; S = @{ item = 'deeperdarker:soul_crystal' }; C = @{ item = 'minecraft:sculk_catalyst' }; P = @{ item = 'minecraft:ender_eye' } })
-# Les Gardiens de la sorcellerie (Iron's Spells)
+# Les Gardiens de la sorcellerie (Iron's Spells) : drops normaux seulement
+$bonusVague = 0
 Gate 'gardiens_sorcellerie' 'medium' '#9B4DDB' @(
     (Wave @((Mob 'irons_spellbooks:cultist' 3), (Mob 'irons_spellbooks:magehunter_vindicator' 2)) 0 1600),
     (Wave @((Mob 'irons_spellbooks:pyromancer' 2), (Mob 'irons_spellbooks:cryomancer' 2), (Mob 'irons_spellbooks:cultist' 2)) 0.1 1800),
     (Wave @((Mob 'irons_spellbooks:necromancer' 2), (Mob 'irons_spellbooks:apothecarist' 1), (Mob 'irons_spellbooks:magehunter_vindicator' 2)) 0.2 2000),
     (Wave @((Mob 'irons_spellbooks:archevoker' 2), (Mob 'irons_spellbooks:pyromancer' 1), (Mob 'irons_spellbooks:cryomancer' 1)) 0.25 2600)
-) @((Chest 'irons_spellbooks:chests/additional_good_loot' 4), (Chest 'irons_spellbooks:chests/citadel/citadel_tomes' 1), (Xp 800)) 3 @('ALA', 'IEI', 'ALA') ([ordered]@{ A = @{ item = 'irons_spellbooks:arcane_essence' }; L = @{ tag = 'c:gems/lapis' }; I = @{ item = 'irons_spellbooks:common_ink' }; E = @{ item = 'minecraft:ender_eye' } })
-# La Citadelle de l'Ender (End / Cataclysm)
+) @((Chest 'irons_spellbooks:chests/additional_good_loot' 2), (Chest 'irons_spellbooks:chests/citadel/citadel_tomes' 1), (Xp 800)) 3 @('ALA', 'IEI', 'ALA') ([ordered]@{ A = @{ item = 'irons_spellbooks:arcane_essence' }; L = @{ tag = 'c:gems/lapis' }; I = @{ item = 'irons_spellbooks:common_ink' }; E = @{ item = 'minecraft:ender_eye' } })
+# La Citadelle de l'Ender (End / Cataclysm) et le Defi des Seigneurs : bonus de vague x1
+$bonusVague = 1
 Gate 'citadelle_ender' 'large' '#C25BE6' @(
     (Wave @((Mob 'minecraft:enderman' 4), (Mob 'cataclysm:endermaptera' 3)) 0.1 1600),
     (Wave @((Mob 'minecraft:shulker' 3), (Mob 'minecraft:enderman' 3), (Mob 'cataclysm:endermaptera' 3)) 0.15 1800),
     (Wave @((Mob 'cataclysm:ender_golem' 1), (Mob 'minecraft:enderman' 4)) 0.1 2400),
     (Wave @((Mob 'cataclysm:ender_golem' 2), (Mob 'minecraft:shulker' 3), (Mob 'cataclysm:endermaptera' 4)) 0.2 3000)
-) @((Chest 'minecraft:chests/end_city_treasure' 4), (Gem 3 'flawless'), (Affix 1 'apotheosis:epic'), (Xp 1200)) 2 @('SCS', 'CEC', 'SCS') ([ordered]@{ S = @{ item = 'minecraft:shulker_shell' }; C = @{ item = 'minecraft:popped_chorus_fruit' }; E = @{ item = 'minecraft:ender_eye' } })
+) @((Chest 'minecraft:chests/end_city_treasure' 2), (Gem 3 'flawless'), (Affix 1 'apotheosis:epic'), (Xp 1200)) 2 @('SCS', 'CEC', 'SCS') ([ordered]@{ S = @{ item = 'minecraft:shulker_shell' }; C = @{ item = 'minecraft:popped_chorus_fruit' }; E = @{ item = 'minecraft:ender_eye' } })
 # Le Defi des Seigneurs (fin de jeu) : trophee unique
 $trophy = [ordered]@{ type = 'gateways:stack'; stack = [ordered]@{ id = 'minecraft:nether_star'; count = 1; components = [ordered]@{
     'minecraft:custom_name' = '{"text":"Trophée du Défi des Seigneurs","color":"gold","italic":false}'

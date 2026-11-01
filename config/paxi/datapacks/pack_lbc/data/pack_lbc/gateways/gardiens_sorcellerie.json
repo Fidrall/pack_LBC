@@ -20,16 +20,7 @@
 
                                     ],
                       "rewards":  [
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cultist",
-                                          "rolls":  9
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:magehunter_vindicator",
-                                          "rolls":  6
-                                      }
+
                                   ],
                       "max_wave_time":  1600,
                       "setup_time":  160
@@ -60,21 +51,7 @@
                                         }
                                     ],
                       "rewards":  [
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:pyromancer",
-                                          "rolls":  6
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cryomancer",
-                                          "rolls":  6
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cultist",
-                                          "rolls":  6
-                                      }
+
                                   ],
                       "max_wave_time":  1800,
                       "setup_time":  160
@@ -105,21 +82,7 @@
                                         }
                                     ],
                       "rewards":  [
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:necromancer",
-                                          "rolls":  6
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:apothecarist",
-                                          "rolls":  3
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:magehunter_vindicator",
-                                          "rolls":  6
-                                      }
+
                                   ],
                       "max_wave_time":  2000,
                       "setup_time":  160
@@ -150,21 +113,7 @@
                                         }
                                     ],
                       "rewards":  [
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:archevoker",
-                                          "rolls":  6
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:pyromancer",
-                                          "rolls":  3
-                                      },
-                                      {
-                                          "type":  "gateways:entity_loot",
-                                          "entity":  "irons_spellbooks:cryomancer",
-                                          "rolls":  3
-                                      }
+
                                   ],
                       "max_wave_time":  2600,
                       "setup_time":  160
@@ -174,7 +123,7 @@
                     {
                         "type":  "gateways:loot_table",
                         "loot_table":  "irons_spellbooks:chests/additional_good_loot",
-                        "rolls":  4,
+                        "rolls":  2,
                         "desc":  "reward.pack_lbc.irons_spellbooks.chests.additional_good_loot"
                     },
                     {
@@ -201,6 +150,7 @@
                   "lives":  3,
                   "requires_nearby_player":  true,
                   "leash_range":  100,
-                  "remove_mobs_on_failure":  true
+                  "remove_mobs_on_failure":  true,
+                  "allow_discarding":  true
               }
 }
