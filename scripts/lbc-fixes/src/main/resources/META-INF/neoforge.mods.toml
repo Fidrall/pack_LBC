@@ -22,7 +22,8 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - AttributeSetter : plus de crash en solo a la mort / reapparition (resynchronisation client ignoree en solo)
 - Create : l'ecran de commande du Stock Keeper ne deconnecte plus le joueur (meme menu cote serveur et client)
 - /vaisseaux_discovery liste|supprimer <rayon> : nettoie les vaisseaux de Create Aeronautics Discovery autour de soi (op)
-- Better Inventory (retire) : les objets marques par ses loadouts se rechargent (composant recree) et sont nettoyes'''
+- Better Inventory (retire) : les objets marques par ses loadouts se rechargent (composant recree) et sont nettoyes
+- Cataclysm Spellbooks : les sorts (rayon abyssal, faille dimensionnelle...) ne cassent plus de blocs, les boss si'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"
