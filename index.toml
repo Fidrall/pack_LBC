@@ -70,7 +70,7 @@ hash = "66e4bcd957f0f16d8cccb8f697779e223bf832ecd1cdc8d1338fc8174320023b"
 
 [[files]]
 file = "config/aether-client.toml"
-hash = "6966bb8084f0ef3652186cb7a46c05342ffb01c2ffebf841bc38a2707da117d0"
+hash = "1eb44b8a4ebc37ceee3bcf09a55f0a4757328df30c8be3eacab5162709be54c9"
 
 [[files]]
 file = "config/alexscaves-general.toml"
