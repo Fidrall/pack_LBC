@@ -381,12 +381,416 @@ file = "config/paxi/datapacks/pack_lbc/data/alshanex_familiars/loot_table/chests
 hash = "c16c2c26e0ebd6b611b06c66d17388bd0ba109ceeac4caf082e9f0ac98545ab7"
 
 [[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/adamantine.json"
+hash = "209f83d32a6eb0abca99f66f1c1e16ef996d3c82d25b49c26bb19938a6ba1325"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/aquatic.json"
+hash = "8ee9e8b84a743350fea6979b10f0b40a68716756dd2fb7541e780c2f12b8bd4e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/blessed.json"
+hash = "3cb2e5e14904b333cde0653a274fddbd71e5a3cd6da271f114a7ef50358b5a60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/elastic.json"
+hash = "5238d29ad593be8e9ac43aa2eb3a1d3c02744866e8352938c651a29ac4b28bd2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/fortunate.json"
+hash = "793470ba69ad28aeb98bff62cc3d7f788c92a84ad0ad04f27b68cbfef258ea99"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/gravitational.json"
+hash = "29ca238170ea5fa443bdbf3bc9399be1dde4063a7f191f8aa692caab701bdb01"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/ironforged.json"
+hash = "004f64c5385064e7e3ed72945690f09fccc63d87c5c3919596dbac0cee71d492"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/spiritual.json"
+hash = "5105ab2d722558b204320bbcacb06156b54f8840bed54c6ecbbe7faf7e029d01"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/stalwart.json"
+hash = "b145a9df831c63aba219f1d3f6ae1e53df1c725a86a61d0136379fb0a185ca8c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/steel_touched.json"
+hash = "d2a10b11f386aa2c7f1d98d829674af18ecb5194e0b91624c57af309f6f8585f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/windswept.json"
+hash = "8d9a1454c4388631ec498650a2703c9e871a88c39b3d8c7061785270f390a761"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/winged.json"
+hash = "69334747149ce08cf2681e5ed22b65af2a96aa99d19654ce1867da2bb8b83e78"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/blast_forged.json"
+hash = "01b29d7aca8a70c2edd86c7512eaf9da3e4dd106678250543e763f50ff865b87"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/blockading.json"
+hash = "cb0fa17f2480738485007292de3a2faf3f4e2e4f668ed283d89c342efb0fd594"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/deflective.json"
+hash = "fcc1b6729c31022707241fd5da1bdd40fe809894973bef7f6c4374db851ffb96"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/feathery.json"
+hash = "ceb5b995a80d94a9beb584afb629e376c89b798e80e456424033d0e6cc4f9c07"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/grounded.json"
+hash = "5dce6383c9860fa930bc06f8f6b7ece328dc7b708e3b0a1790d893f65179c3d1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/runed.json"
+hash = "fa4ab8118c95d6e3ca0f09fa951181258f8a881bfbe7f2f55ecb1be993cc19ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/blinding.json"
+hash = "2c688076f970a4d265115a4a299d7c27e8b2fca43411d5ecc6fc2ac62d6d5cc2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/bolstering.json"
+hash = "6f268df11fbd25af9dac414e8a511e0cb732afedfbd58751da43f269eaaddb22"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/bursting.json"
+hash = "ccec1efcefad42790ba28cafedbb3815983f819ddb10efd486fee2d4acb31fdb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/nimble.json"
+hash = "152ed1201a25095641705ffbe28c612016b6fcccffa62b8e986388ad32a2fa00"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/revitalizing.json"
+hash = "5d744e072d2cde9e7ccd82a7a547fe1d63eba1eaddc334d54364f38db9997b94"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/destructive.json"
+hash = "18e46b8f212c5b7645bba46dacaa4817c68194bab7814fc80f0472117e6206f2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/experienced.json"
+hash = "d2a8e202ff44faf2f49f285477728a34441c633b382b05646d03bd03ac3109b7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/lengthy.json"
+hash = "36ae1f6773ced0afcdfb9e81ac5ccec9439c5cf17cfb7672f68bc68b90f29be3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/submerged.json"
+hash = "e390759549dbbf0f2010ef8b4b253e709bceefcacfcbc42ccdb47418f1f63bc7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/enchantment/prosperous.json"
+hash = "c307b1904f9efab493ea8a647722bc5c9b0c2d7ba0a06d73e1f16ac75ed20603"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/mob_effect/spelunkers.json"
+hash = "29bdc73ba47488d32352f1b2dda8ec2059ff1ee23333d59f2996e25648d03393"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/mob_effect/swift.json"
+hash = "7597487ba30a8ae8986efc46e47277f8fe501cbd8f60d8cf0ff4bc3f4741db70"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/generic/attribute/lucky.json"
+hash = "2f2d5f7b63a9a18a956390c86509db2aaf4eb94546afd2279aa12200644cad8f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/berserking.json"
+hash = "3f202ec7ea7725a8a2cde8e8a428772037b673f59f087cc916bf7cc5c91117b2"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/forceful.json"
+hash = "14c9c08eb26418a026ce5eb892c9daa1f53193d3d14314e94b90f3a679c168f6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/giant_slaying.json"
+hash = "a708660383a3c563459503665bd4329b2ca8897007fe7747f838585bf2873caa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/glacial.json"
+hash = "3cb2e5e14904b333cde0653a274fddbd71e5a3cd6da271f114a7ef50358b5a60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/graceful.json"
+hash = "9a3231e7ed8eade74841cef8f3f21f2aa14bc3e3584dfee3dde042d231a06423"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/infernal.json"
+hash = "3cb2e5e14904b333cde0653a274fddbd71e5a3cd6da271f114a7ef50358b5a60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/intricate.json"
+hash = "07f81c0b55558bb5843967110c4f46f034fc339adf661644f358782f86ac5145"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/lacerating.json"
+hash = "63752c5bd16616b10f2cf28bdc3cd96dd468fd68b674c09484410f91c7fd0f64"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/lengthy.json"
+hash = "3621c1172c1df9d8510c800743c40b791ef5016ca8dfef633aad62aec59c7475"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/murderous.json"
+hash = "20efebedf781ad7480cbec27ee6f2104b02b475e3919800e3f8750b33e904221"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/piercing.json"
+hash = "6c9f745aa645c2392b7707dd6a7950db4e780b64461a2d6d8df542f44d99301e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/vampiric.json"
+hash = "0ed0524f992e4fc9d225f5af8915d0a206fa07595482468666a5af2bb7545a56"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/violent.json"
+hash = "8764608bab4ef5c271879054820385f45ec5c748610144bb52bd789cd2c1242b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/cleaving.json"
+hash = "dfaa0118c3b2e2b46b4d8869097cc3db79e9600a7fc6b68a0e00a82af0aba92b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/executing.json"
+hash = "851512dfe074d6816ebd61fb8b0d123eefb157865cd8ca7d00511016232e509e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/festive.json"
+hash = "3cb2e5e14904b333cde0653a274fddbd71e5a3cd6da271f114a7ef50358b5a60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/bloodletting.json"
+hash = "31e6bd172f3a5d935ac2059edd1111c3dfb38ba3f31c68b24c6c44f390856b51"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/caustic.json"
+hash = "df2278b1dbd15f3bea8550478b1f32a38e5581e34be14681a4095c36434ce02c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/elusive.json"
+hash = "544221e9b1722c81b8ed0ae58cc7794a7595f643ddc6fe5402222bd3647e6afc"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/omniscient.json"
+hash = "8baf565c4bfbccf2db42dfb1255528e3c3d6f3df23e03352ff53e139a85984fd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/sophisticated.json"
+hash = "ae774d216f2d0f88ec66ccd728ab2e8b957510e64d4df1da45eedd2d1a9fd321"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/weakening.json"
+hash = "2d36d17e1c747484ce248791f5610faa6b60c5e184479219a75dda21ea8bc896"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/thunderstruck.json"
+hash = "25952dc120e974fc3fcc6c0c9350137d36f5663187ef6df1941338122219a489"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/agile.json"
+hash = "d51c16c6ee25c93e6f52c6bf98e2a45a9bd9ccfc24b56840a5384097f6f2a924"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/elven.json"
+hash = "c0e19c7fd2166a77c43d26da624148aa1bf3df459fb4ec5a1e187e11f97d1a6f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/streamlined.json"
+hash = "83acf778ce3f1c31283200adda57b09742fbde31f0bbf3e043deee3b48c28b1e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/windswept.json"
+hash = "36a0d6753719c228c30e6b89f2f1ee8744d4795337216e15a7aee79d5a7059c6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/enchantment/prosperous.json"
+hash = "e8ae3513993b523639ee2fd5595d4b78fb9f178f75a15c02eaab451d864a96b3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/acidic.json"
+hash = "8533b983bac92015b66cf8d9131b82cbec287c0252dd4952697f7f8cadc51d9e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/blighted.json"
+hash = "8cbacec3774c0657c635d1980465629555816a1ccb74fcd17dcb8742ebaee8b9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/ensnaring.json"
+hash = "25faa9b077bc5a6f21600c7d2c932644c13889d0876c5d861378d3245ae96690"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/fleeting.json"
+hash = "ee97bf927df5eb82cfa949f9b30c37cee934af13bc2e5521599f68c3538a2f34"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/grievous.json"
+hash = "69b20aa07062312e97c16196b63144b43f11d64eda237ded60ec089805a54e61"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/ivy_laced.json"
+hash = "e81bbc4f35084df61243205154d3cf7784ccb3e61e1b9ea156a6a4a19b1e824d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/shulkers.json"
+hash = "aaca36745b8ad2c8476c2c46f720cfc194d105e38a88eaa162dca39fe26c7ebd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/spectral.json"
+hash = "351a60d6e654f4045d280ecb82d73f977c1a90455a3ecd429ff0baae8fa15496"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/attribute/ironforged.json"
+hash = "aedbeffb0e1967adeec66424b0d7574530210c0932a7c5dfb0aa12e7cc3aa72d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/attribute/stalwart.json"
+hash = "e2c4488071078b13c597ee33da78abd0930e4929c76313a8748d8db742a3aa36"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/attribute/steel_touched.json"
+hash = "ef79e908250e4fb89ece8d32379018a20ca01d3ac53036a571688f67411ad2ee"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/catalyzing.json"
+hash = "7518936f2c399880778bdbcf49f2315f4df19762aa7869763f3e38b092a1e1c8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/devilish.json"
+hash = "38fcc9f07168339fd21e5223863ba07d6c63887271acef66c4d32358a3f4f66c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/galvanizing.json"
+hash = "16d1e7b8ce99ae8b9ba14e31e3609eb31ac84c940cecdf4a72304416a87c997a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/reinforcing.json"
+hash = "5925285d95418da7c98922ddd322a05015ecdcbb46a74e4e94055dccb958e22c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/venomous.json"
+hash = "f4a8160d2cfcc2539fe2c6b3a5d4bec161734a2aaa7114157f47b20ed0982559"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/withering.json"
+hash = "3cb2e5e14904b333cde0653a274fddbd71e5a3cd6da271f114a7ef50358b5a60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/psychic.json"
+hash = "ca32e5531a94eb3b712ff9993fe94462255fe80cdd88dda7a374ad2292d2d6f9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/weapon/attribute/shredding.json"
+hash = "41d6d56a67e6894511b30977ed85fb62a7ed593801c2d00cdf37d7a7862cc5e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/ballast.json"
+hash = "3a8ca88552d550ec54dc335f4e2ba9a8af2d914b1826cdd9c2f78ea39440d648"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/brawlers.json"
+hash = "3eddda6fc84815b9584ac69065d1ec4e04086f1ef3e091b441c944c7b74cf1cb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/breach.json"
+hash = "67b715244d9d7e58021d8b36f0c97cb6909f06e38c3d480e35f81c093e9fd636"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/combatant.json"
+hash = "af809e4abc3882ad808a6f67f67788215508608a96474c650c8c1a235291f027"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/guardian.json"
+hash = "c08ea8a8c6fb86fe8eab1fcef0c6afde907b139e4a3f7a57dfc76dda80129200"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/lightning.json"
+hash = "42bb528258dbb13e9d45aa7aa65ed99ab50b16fe67dadb4301bbf0f6d35be966"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/samurai.json"
+hash = "dc36e430c5d15db26dfbb1ab044f402fbeeb976f60411049e6e18e7c9b6c03ed"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/slipstream.json"
+hash = "cb5d0e8dece6c6850a3b5e51699da2a49131cda30301d3d30aa08c7e15fb339f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/splendor.json"
+hash = "cf6172237d753566be4d59ee7d4bd12adb70f2f5ccb60145be378691fc0e0a0f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/tyrannical.json"
+hash = "c51d3c5f7fd399258ba3b33fc747cc6e045133f45698d0f3f5e5bcf20a197b0c"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/warlord.json"
+hash = "dbdce78caf9b5f226bddf74976c29a194ac665c91eae6b395e1671d4701e4232"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/overworld/earth.json"
+hash = "bc662c06a5056a5276361902dff2b2fc6242f2f6440bb5c0e455adb86e710cf0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/overworld/royalty.json"
+hash = "be782fe7325ebee9a88ec5e3bca42a711a4f0e95eaaf0cfac207c7ad8857ab20"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/overworld/verdant_ruin.json"
+hash = "68b51a6046e65a7c6ba6750c6958e125e0aa1cf0e556fb0715bb3366627c557e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/the_end/endersurge.json"
+hash = "c5dd4317880e173f5d6c1ad15a6ea6db9dc67d32dc6a4bbc0cff2704af7290a4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/the_end/mageslayer.json"
+hash = "2524964a4e7ed470f1f7868f9b870a2edd04427bfe161e918ab0a0abee593a8f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/the_nether/blood_lord.json"
+hash = "aa3c765acbfa072ce541b38ea0616a5cf90cfe2ce40baef4a697cc424bf4403a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/the_nether/molten_breach.json"
+hash = "d0e880411415e842223637d45e7d46c7b8a1a2fd8a9ece03611925f65dcf14ee"
+
+[[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/affix_loot_injection.json"
 hash = "68e8e1f8a4233e4b928c878204610edf804b8c3bf1b0b6bcfb7f09a158fe0599"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/gem_loot_injection.json"
 hash = "5389253774df00e91f64fbd1ed45820a94e16bd21b0e9eae18b21980e23f3005"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/rarities/common.json"
+hash = "84723996f7abb18643a4e25c0a5321ec07c21d191adf52f078c0b13313645931"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/rarities/epic.json"
+hash = "c6009edf3edb4636181080824b4f25a72e2988f1c9e21bdadfaa42b2b99f5c7f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/rarities/mythic.json"
+hash = "828b567ab53e9dd8b6d7e7eadc9d151764c22608f30fe4ad8cea5873f5200beb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/rarities/rare.json"
+hash = "338ea3ede096f4b6f650791a2b39edc223be0aa51552f054a79705060dbcc7f0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/apotheosis/rarities/uncommon.json"
+hash = "1ee329aad85996fd9cad04e9370814dec1f61863c954648493d9238f8d80a71d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/archaion/worldgen/structure/ancient_keep.json"
@@ -1103,6 +1507,254 @@ hash = "abe36872ef6496c991c99340a483c7c3c071d7d0b9ececf42a0db2aa6f69a7d4"
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/hopo/worldgen/structure_set/underwater_warm_small_ruins.json"
 hash = "feecfc724cf39d76ba3c4e1b9bca1b560745e4e40046171af01f34bc2546c127"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/armor/spell/ball_lightning.json"
+hash = "fb985fc85829cc5db683e63fc2e75296bf4c36b56064abdf80361163ef849c49"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/armor/spell/energy_burst.json"
+hash = "165bd528ad6762818d865e605886b899df9fa09c539c5b356339c1cc38427ff7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/armor/spell/evasive.json"
+hash = "e4b16a35462d86c6ba07d4b38545f4fb17128cce5d23e86ae6960a8613309981"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/armor/spell/flamedash.json"
+hash = "cf408ee2e567549f723729b2a0ed8a7bb25b538e4a20751ffc6d2a06af93e133"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/armor/spell/oakskinned.json"
+hash = "5414a21ff52f4072c4d798986a81c24af5d26678ed7f4649115308c02b130ed5"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/armor/spell/shielding.json"
+hash = "eb8554b7417290bddc321d633b9ecf884801ca881bc114aa9d5cb8750ec7e3f1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/armor/spell/wither_skull.json"
+hash = "e36f8cacf6d1bbd4fca01c499492eeefda8dd076b837b419c65f932fa33b6f21"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_abyssal/attribute.json"
+hash = "117762358c0c68f61fbcc6332da514885d4498f1180ddbfe4151317d9fcabfa1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_abyssal/chthonic.json"
+hash = "5e163321e899de0be604f07649ee53b130fb0a9a64d70a1383203e1a7d4455a1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_blood/attribute.json"
+hash = "f770edb34cb2daaf15507ad8fbf53e6905009cb7ff72f6bc585eea3d4f7b851e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_blood/necromancers.json"
+hash = "63a7f33c9945b4c5d1ebad37c4b0c2b879c2b2b5cfaad001561358c834046c22"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_eldritch/attribute.json"
+hash = "442192287ac6cefc5ebf24053bc2830042a57fcccebb2616d17b93c22378b038"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_eldritch/hasturian.json"
+hash = "b77ceeda71d9c257e5630cebc5c9532d01d205af832ffde9c3734800faf35b0f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_ender/attribute.json"
+hash = "01a30f8c2258f81dfae013253d42a0f90b2dcd66343815ec84b1a6f71117e4f8"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_ender/void_seers.json"
+hash = "bf78d46029f045ff4749a84823035e13d52c5859a58b07ad62e16f177e5174e3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_evocation/attribute.json"
+hash = "a6d26844117c68f104b14441f65fd460470e304568d6f786db1e86a92d8a1874"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_fire/attribute.json"
+hash = "a03e0aa280fbec2d3e931c755b4b88472c23ee766c588c4121aaeb0bf0bb3e61"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_fire/pyromancers.json"
+hash = "2ac012391a2f9b5cdda9bb85c98e8cd944005ae45ac83363b1bdd4a6f057f797"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_holy/attribute.json"
+hash = "e845e23af6bd71ad135eedac75860e784ea4079f3b95b24c25822d59a0c2bd5f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_holy/clerics.json"
+hash = "41d870d670883771a0eab2e0e5533c21991c535c202545ea63ecccaaba34c5ea"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_ice/attribute.json"
+hash = "16e37084062739dd169903d78ae398797a93ebb9c4a0ed295876335ddd597525"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_ice/cryomancers.json"
+hash = "29ff47b0e768a24c1a08d9cbcc3badf2c28faf57ac84323c1c9cda79c3fe26fa"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_lightning/attribute.json"
+hash = "115a2f9802f5373710e9f62fd9c84f0a9aa78fa999d27790eb4da28e6d0e8466"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_lightning/electromancers.json"
+hash = "01cc6ae3f3d1da0ef4dd6c92161b59d6113276a08e4c59bd0525a7f89eeb13de"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_nature/attribute.json"
+hash = "1a00d7a8189ca2707bfb66d33553bf69adc3d4fbf322fcb9b908fa86541e1a4a"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_nature/terraformer.json"
+hash = "a6f194b1f08cfb7080f5cc0ffe541f8a708d16a0d1740b88a6876ff5ccd15959"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_none/attribute.json"
+hash = "8bc7048cb4ec1159bf330a876566a5d8e64f2c3c34f7c364de7e76a0c157171d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_sound/attribute.json"
+hash = "ac2fdab190b5e9fbfb6853dbf094074008914d416fe44f967f0af8efa3ca91b7"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/elemental/school_sound/bardic.json"
+hash = "c2529c795085fc637cdfecfb742865b22d28154cf55f81574356404ddd8102f3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/festive.json"
+hash = "3cb2e5e14904b333cde0653a274fddbd71e5a3cd6da271f114a7ef50358b5a60"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/brutish.json"
+hash = "01d68a8f95172eaf4cd84fe451c5e6a67f72bc25f47fce460c849305961919ac"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/capacity.json"
+hash = "e66d783ac38c6898c401a17c3b5aa890b495ef4570cdf6a73c1eaa7cdc05c9c0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/intricate.json"
+hash = "96185a36317a54d5187561f15cfd806d3a7109e617193b4d95ceafcd1c092662"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/restorative.json"
+hash = "a1000a03138974222edc426b7c97c738dbf0f6201bc637ad3c872b8548e12d01"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/vampiric.json"
+hash = "1a6bee4eeecdef551856b2311f0ae7e90a76d69ea97def0825459d29bb6566a1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/vigorous.json"
+hash = "5d874a6627d6e114dd587f94aab4ac47d2624b4f3956fa43751cb826f599e9ed"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/volatile.json"
+hash = "6a86acfdeb1ca5b105c9e08ca5ab2b42cb2d18a6577ee296141365c743d552d6"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/elusive.json"
+hash = "a520c617846fcbbe8c3f77ca11a0822b29e90381a2d81271944214183c663bf1"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/fortifying.json"
+hash = "58a73458bf2c51dcde0456e816b3b74d0246ee508f58f637315cdf1e57c6b275"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/inspiring.json"
+hash = "fe2d84d762d699947becf3dc827ad4b42ad34b293e662077d350c3e72609376b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/invigorating.json"
+hash = "dff2d3619055fe9e6b41b474878c01d62389452a6db33ed52fa6bcfb453e4cb0"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/obliviating.json"
+hash = "05f30bb6a6139c3647c36b2a4b52c7a64621d38499d9aaee08cfdeca39a50a70"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/protective.json"
+hash = "b34758205d49fbee32c8aaf5c1d66152161fbb578265dceca99f689be3bdf3b4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/smothering.json"
+hash = "8f18663cd78eff567f8ea258d9f783dfa3123ddb1d9b4a1e94c49157a8c9d68d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/sophisticated.json"
+hash = "eaedf354c10dad7751ecae14b2d40cc2913a38b2f00277ebd9ab6cf535560b4d"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/spell/blessed.json"
+hash = "4354b4ccab8dfffba192d3f39b697999578256d93b99ac88b9770c46343d996b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/spell/echoing.json"
+hash = "5deb6bdfe1104ffaf6ea7a27b19cb827abc37e249cbcb9a31578a533920eff84"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/spell/oakskinned.json"
+hash = "f9594a74e3b275a04a9b904a6813b321d485ef9394b867fab97688e8332abe06"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/spell/rejuvenating.json"
+hash = "1c8e30db3133664c2017a10b05dddf906136c4482544edefa65ba9438ec79ed9"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/spell/thunderous.json"
+hash = "31fceb4acdf34cef518357f1e85780e9f8788a248cee28755a03097687f2073f"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/melee/spell/blood_slash.json"
+hash = "3f448f2663a00b3caf1f8504018600ce353339ffeb7d5eefde250258d158c6dd"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/melee/spell/divine_smite.json"
+hash = "790920c3e0b0be27171a41efc5311d68fc9a1d5203957e185f5212d037253cc3"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/melee/spell/flaming_strike.json"
+hash = "84b791d9d94307526b5eb09f642158d829fb6bf8da715462855fb164ce1a9523"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/melee/spell/frostbite.json"
+hash = "fc5fc92c9eaa099dd735f286c5e42d2fc7e5c0d1d503614ae19163b95ec17b25"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/melee/spell/nights_edge_strike.json"
+hash = "cca3d3f797e195130478b6152fe4b55e25acb74ba5b0a388668205b2049f6a2e"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/melee/spell/stomp.json"
+hash = "7b48ab6775adc64e3c7415bfebe34e0bebe9bdc765be9284012de6f2f9e6f58b"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/ranged/spell/fire_arrow.json"
+hash = "37521daa536d8fc13915eb387eef1574464913c80c5c72595f298176a0b66938"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/ranged/spell/ice_arrow.json"
+hash = "167255dcfccbd282d9e3b6312c3a8ff4f3a1a559e1067c8ff706c234b8f5edb4"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/ranged/spell/magic_arrow.json"
+hash = "8636696a21e68c21fb9c038832785572320446566a94df2734e26ec123935a06"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/ranged/spell/poison_arrow.json"
+hash = "de85c40a85e03b93d2ccbc4237296076cf7225403938b6fae35feee4c417a9bb"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/ranged/spell/sunbeam.json"
+hash = "5d78a7b453bd5d42ce02ace35f2e099005c1521ebf561e3ec3b09a158e8a2b13"
+
+[[files]]
+file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/ranged/spell/volley.json"
+hash = "8db42c0672a62465257057f90cc9871b20f147540bf80dcf79ca54c55831eb4a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_spellbooks/loot_table/chests/additional_ancient_city_loot.json"

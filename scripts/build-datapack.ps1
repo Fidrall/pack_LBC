@@ -376,6 +376,15 @@ W 'data/apotheosis/loot_modifiers/gem_loot_injection.json' ([ordered]@{ type = '
             [ordered]@{ chance = 0.08; pattern = [ordered]@{ domain = 'minecraft'; path_regex = 'chests.*' } },
             [ordered]@{ chance = 0.06; pattern = [ordered]@{ path_regex = 'chests.*' } },
             [ordered]@{ chance = 0.06; pattern = [ordered]@{ domain = 'twilightforest'; path_regex = 'structures.*' } }) })
+# Equilibrage Apotheosis de l'ancien pack (Create Chronicles The Endventure) : valeurs des affixes (Apotheosis + Irons Apothic)
+# divisees par 3 a 8, affixes vie max / degats de feu / degats de glace retires, moins d'affixes par rarete, gemmes x0,1 a 0,2.
+# Copies figees : scripts/data/apotheosis_ancien (regenerer avec scripts/gen-apotheosis-ancien.ps1 si Apotheosis est mis a jour).
+$apo = Join-Path $PSScriptRoot 'data\apotheosis_ancien'
+foreach ($f in Get-ChildItem $apo -Recurse -File) {
+    $to = Join-Path $dp $f.FullName.Substring($apo.Length + 1)
+    New-Item -ItemType Directory -Force (Split-Path $to) | Out-Null
+    Copy-Item $f.FullName $to -Force
+}
 # Treasure Bags : en attendant l'equilibrage, seuls les boss lachent des sacs (2 par boss, reglage du mod).
 # Monstres, animaux et joueurs (PvP) neutralises.
 foreach ($g in 'hostile', 'peaceful', 'player') { W "data/treasurebags/loot_table/entity_group/$g.json" ([ordered]@{ type = 'minecraft:entity'; pools = @() }) }
