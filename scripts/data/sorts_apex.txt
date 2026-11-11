@@ -1,8 +1,10 @@
 grandsigil:black_coffin
+grandsigil:caldera
 grandsigil:colosseum
 grandsigil:crimson_threads
 grandsigil:dimension_cut
 grandsigil:full_bloom
+grandsigil:geode_heart
 grandsigil:grand_sigil
 grandsigil:heaven_gate
 grandsigil:ice_age
@@ -16,3 +18,4 @@ grandsigil:thousand_blades
 grandsigil:thunder_dragon
 grandsigil:voidgrip
 grandsigil:world_tree
+grandsigil:worldspine

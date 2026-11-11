@@ -1,6 +1,7 @@
 name = "Create: Bionics"
 filename = "createbionics-2.5.0.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/lCwu0vBo/versions/fG2UIEqS/createbionics-2.5.0.jar"

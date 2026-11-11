@@ -1,13 +1,13 @@
 name = "Create: Teleporters"
-filename = "createteleporters-3.0.1b-1.21.1.jar"
+filename = "createteleporters-3.0.2-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9mtJ8MHP/versions/WHTovylv/createteleporters-3.0.1b-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/9mtJ8MHP/versions/TuG81a9A/createteleporters-3.0.2-1.21.1.jar"
 hash-format = "sha512"
-hash = "aa2ceb9605011d69a5eea3432723c365e0a52e5b2b0854b7f88e1ac0e7b34f487385208efdd02a78db95dbff4254faaec3febd0fbe14a94cd89acc7ad8ea9ee8"
+hash = "a0927a1fc3d216acb559b2ef223b75a10f20efee40fa9f330ec9da82b7ee69d5209457d709ecc206ad9355e1e78d6092c75d2813cce3ffda368e15876b84ea52"
 
 [update]
 [update.modrinth]
 mod-id = "9mtJ8MHP"
-version = "WHTovylv"
+version = "TuG81a9A"
