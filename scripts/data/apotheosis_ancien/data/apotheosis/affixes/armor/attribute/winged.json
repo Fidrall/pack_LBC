@@ -16,6 +16,7 @@
                    },
     "operation":  "add_value",
     "values":  {
-                   "apotheosis:mythic":  1.0
+                   "apotheosis:mythic":  1.0,
+                   "apotheosis:epic":  1.0
                }
 }

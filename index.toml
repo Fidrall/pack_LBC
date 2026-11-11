@@ -426,7 +426,7 @@ hash = "8d9a1454c4388631ec498650a2703c9e871a88c39b3d8c7061785270f390a761"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/winged.json"
-hash = "69334747149ce08cf2681e5ed22b65af2a96aa99d19654ce1867da2bb8b83e78"
+hash = "1a7612060beb6e22ad2f686a33c0b3974b6446249ae241bd6293670d01f9136b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/blast_forged.json"

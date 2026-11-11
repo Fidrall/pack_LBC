@@ -70,6 +70,20 @@ function Corrige($o, $ou) {
         } else { Corrige $v "$ou.$($p.Name)" }
     }
 }
+$ordre = @('apotheosis:common', 'apotheosis:uncommon', 'apotheosis:rare', 'apotheosis:epic', 'apotheosis:mythic')
+function Complete($vals, $jar, $ou) {
+    $presentes = @($ordre | Where-Object { $vals.PSObject.Properties.Name -contains $_ })
+    if (-not $presentes) { return }
+    foreach ($r in $ordre) {
+        if ($vals.PSObject.Properties.Name -contains $r -or -not ($jar.PSObject.Properties.Name -contains $r)) { continue }
+        $i = [array]::IndexOf($ordre, $r)
+        $src = @($presentes | Where-Object { [array]::IndexOf($ordre, $_) -lt $i } | Select-Object -Last 1)
+        if (-not $src) { $src = @($presentes | Select-Object -First 1) }
+        $copie = $vals.($src[0]) | ConvertTo-Json -Depth 50 | ConvertFrom-Json
+        $vals | Add-Member -NotePropertyName $r -NotePropertyValue $copie
+        $bilan.corriges += "$ou $r (rarete manquante <- $($src[0]))"
+    }
+}
 # Poids a 0 partout dans "definition" (forme simple {weight, quality} ou par palier {haven: {weight, quality}, ...})
 function Neutralise($o) {
     if (-not ($o -is [psobject])) { return }
@@ -129,6 +143,9 @@ try {
             foreach ($k in $cles) {
                 if ($neuf.PSObject.Properties.Name -contains $k) { $neuf.$k = $sur.$k } else { $neuf | Add-Member -NotePropertyName $k -NotePropertyValue $sur.$k }
             }
+            # Rarete presente dans notre jar mais absente de l'ancien pack : un objet de cette rarete avec cet affixe fait
+            # planter le client (AttributeAffix.addModifiers, modif null). On reprend la valeur de la rarete la plus proche.
+            if ($cles -contains 'values' -and $orig.values) { Complete $neuf.values $orig.values $chemin }
             if ($neuf.values) { Corrige $neuf.values "$chemin values" }
             [IO.File]::WriteAllText($dest, ($neuf | ConvertTo-Json -Depth 50), $utf8)
             $bilan.modifies++
