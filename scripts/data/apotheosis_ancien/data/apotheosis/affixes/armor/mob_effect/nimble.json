@@ -19,8 +19,8 @@
     "values":  {
                    "apotheosis:uncommon":  {
                                                "duration":  {
-                                                                "min":  0.0,
-                                                                "max":  50.0,
+                                                                "min":  50,
+                                                                "max":  150,
                                                                 "step":  25
                                                             },
                                                "amplifier":  0.0,
@@ -28,8 +28,8 @@
                                            },
                    "apotheosis:rare":  {
                                            "duration":  {
-                                                            "min":  50.0,
-                                                            "max":  100.0,
+                                                            "min":  100,
+                                                            "max":  200,
                                                             "step":  25
                                                         },
                                            "amplifier":  0.0,
@@ -38,7 +38,7 @@
                    "apotheosis:epic":  {
                                            "duration":  {
                                                             "min":  100.0,
-                                                            "max":  150.0,
+                                                            "max":  200,
                                                             "step":  25
                                                         },
                                            "amplifier":  {

@@ -17,12 +17,12 @@
                                       },
                         "operation":  "add_value",
                         "values":  {
-                                       "cracked":  0.1,
-                                       "chipped":  0.3,
-                                       "flawed":  0.5,
-                                       "normal":  0.7,
-                                       "flawless":  1.0,
-                                       "perfect":  1.5
+                                       "cracked":  0.25,
+                                       "chipped":  0.5,
+                                       "flawed":  1.25,
+                                       "normal":  2,
+                                       "flawless":  3,
+                                       "perfect":  4
                                    }
                     },
                     {
@@ -37,12 +37,12 @@
                                       },
                         "operation":  "add_value",
                         "values":  {
-                                       "cracked":  0.01,
-                                       "chipped":  0.015,
-                                       "flawed":  0.02,
-                                       "normal":  0.025,
-                                       "flawless":  0.03,
-                                       "perfect":  0.05
+                                       "cracked":  0.025,
+                                       "chipped":  0.05,
+                                       "flawed":  0.075,
+                                       "normal":  0.1,
+                                       "flawless":  0.125,
+                                       "perfect":  0.15
                                    }
                     },
                     {
@@ -51,12 +51,12 @@
                         "gem_class":  "apotheosis:shield",
                         "operation":  "add_multiplied_total",
                         "values":  {
-                                       "cracked":  0.01,
-                                       "chipped":  0.02,
-                                       "flawed":  0.03,
-                                       "normal":  0.04,
-                                       "flawless":  0.06,
-                                       "perfect":  0.09
+                                       "cracked":  0.025,
+                                       "chipped":  0.05,
+                                       "flawed":  0.1,
+                                       "normal":  0.125,
+                                       "flawless":  0.15,
+                                       "perfect":  0.225
                                    }
                     }
                 ]

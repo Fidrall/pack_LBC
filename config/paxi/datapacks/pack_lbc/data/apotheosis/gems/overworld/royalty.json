@@ -64,10 +64,10 @@
                         "gem_class":  "apotheosis:helmet",
                         "operation":  "add_multiplied_total",
                         "values":  {
-                                       "flawed":  0.01,
-                                       "normal":  0.015,
-                                       "flawless":  0.02,
-                                       "perfect":  0.03
+                                       "flawed":  0.025,
+                                       "normal":  0.0375,
+                                       "flawless":  0.05,
+                                       "perfect":  0.075
                                    }
                     },
                     {
@@ -88,10 +88,10 @@
                                        "id":  "minecraft:raw_gold"
                                    },
                         "values":  {
-                                       "flawed":  0.015,
-                                       "normal":  0.03,
-                                       "flawless":  0.05,
-                                       "perfect":  0.08
+                                       "flawed":  0.075,
+                                       "normal":  0.1,
+                                       "flawless":  0.125,
+                                       "perfect":  0.2
                                    }
                     },
                     {

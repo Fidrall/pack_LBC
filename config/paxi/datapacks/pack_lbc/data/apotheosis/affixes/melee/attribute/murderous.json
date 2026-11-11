@@ -18,16 +18,16 @@
     "operation":  "add_multiplied_base",
     "values":  {
                    "apotheosis:rare":  {
-                                           "min":  0.01,
-                                           "max":  0.05
+                                           "min":  0.075,
+                                           "max":  0.215
                                        },
                    "apotheosis:epic":  {
-                                           "min":  0.04,
-                                           "max":  0.08
+                                           "min":  0.09,
+                                           "max":  0.24
                                        },
                    "apotheosis:mythic":  {
-                                             "min":  0.06,
-                                             "max":  0.12
+                                             "min":  0.125,
+                                             "max":  0.275
                                          }
                }
 }

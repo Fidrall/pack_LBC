@@ -382,11 +382,11 @@ hash = "c16c2c26e0ebd6b611b06c66d17388bd0ba109ceeac4caf082e9f0ac98545ab7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/adamantine.json"
-hash = "209f83d32a6eb0abca99f66f1c1e16ef996d3c82d25b49c26bb19938a6ba1325"
+hash = "673df046d31ff6e481e1b50a552c3a230f8184e5ce79e250bbaf8482a6842d01"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/aquatic.json"
-hash = "8ee9e8b84a743350fea6979b10f0b40a68716756dd2fb7541e780c2f12b8bd4e"
+hash = "1eeb25f8cc9a67571d3ef9a1b11f8798c077f635d70e1c5f52b787c22b280304"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/blessed.json"
@@ -394,35 +394,35 @@ hash = "f947adf526fa9499e75c05bf535b17b43161a4b302f12ade81aa04a62fd1b444"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/elastic.json"
-hash = "5238d29ad593be8e9ac43aa2eb3a1d3c02744866e8352938c651a29ac4b28bd2"
+hash = "221d94dfe4408c885377fec217163b66090a04d41b4b134c38983180ab757637"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/fortunate.json"
-hash = "793470ba69ad28aeb98bff62cc3d7f788c92a84ad0ad04f27b68cbfef258ea99"
+hash = "3a2fa91475e721412413573ad468a819948ad775db03988711d32de22f9939b1"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/gravitational.json"
-hash = "29ca238170ea5fa443bdbf3bc9399be1dde4063a7f191f8aa692caab701bdb01"
+hash = "9cce2b964d95240d4bba4f46d9f22215ada57def074bbf2762cabc93276d538b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/ironforged.json"
-hash = "004f64c5385064e7e3ed72945690f09fccc63d87c5c3919596dbac0cee71d492"
+hash = "8b201066f17abee5cf34f442a65ec4691c61640daed68c5ee8ecbfa4b86a2adb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/spiritual.json"
-hash = "5105ab2d722558b204320bbcacb06156b54f8840bed54c6ecbbe7faf7e029d01"
+hash = "68ee40348949ac2dea2fd589f8ef08b92bb07c1cd2a3a34d993eb4e4a48e0519"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/stalwart.json"
-hash = "b145a9df831c63aba219f1d3f6ae1e53df1c725a86a61d0136379fb0a185ca8c"
+hash = "550408dbff14d3e579de1930414a1b7e9ad8c0818446deadfb924d686c7c6ce6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/steel_touched.json"
-hash = "d2a10b11f386aa2c7f1d98d829674af18ecb5194e0b91624c57af309f6f8585f"
+hash = "d18d4a32c0d731bab733077c1c5d08502faf32c1f1bfcbb6d094c534a8966558"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/windswept.json"
-hash = "8d9a1454c4388631ec498650a2703c9e871a88c39b3d8c7061785270f390a761"
+hash = "4c8810779a86b7fb47c1fc9c7fcf80d199cdb6be44379ed8a2d2163f3d61a273"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/attribute/winged.json"
@@ -430,27 +430,27 @@ hash = "1a7612060beb6e22ad2f686a33c0b3974b6446249ae241bd6293670d01f9136b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/blast_forged.json"
-hash = "01b29d7aca8a70c2edd86c7512eaf9da3e4dd106678250543e763f50ff865b87"
+hash = "b01f780046026544bbed1ea5b93d0602df4256c76b8fe989a284f2f874793e49"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/blockading.json"
-hash = "cb0fa17f2480738485007292de3a2faf3f4e2e4f668ed283d89c342efb0fd594"
+hash = "4ca43503aca085b663c120ce395596c9849fad1953e3759ff6735930193be75a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/deflective.json"
-hash = "fcc1b6729c31022707241fd5da1bdd40fe809894973bef7f6c4374db851ffb96"
+hash = "b69dc48aa718ae1f990a94f36ae5afcc53064b6c2af4077a01575dbe24bc7682"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/feathery.json"
-hash = "ceb5b995a80d94a9beb584afb629e376c89b798e80e456424033d0e6cc4f9c07"
+hash = "fea94bc33f5bc122f5c905b2128209ee43797e0eed5238a7652c413445ca99d1"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/grounded.json"
-hash = "5dce6383c9860fa930bc06f8f6b7ece328dc7b708e3b0a1790d893f65179c3d1"
+hash = "352c470f39c82ae656e6ae5a006a193dfb868afe7a58d0fe45d8ce26936b34aa"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/dmg_reduction/runed.json"
-hash = "fa4ab8118c95d6e3ca0f09fa951181258f8a881bfbe7f2f55ecb1be993cc19ea"
+hash = "13dfd71d9d541d9819fb4dfe9c58ffdcf03ac67742ba97325d5e16b50300a1b4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/blinding.json"
@@ -458,15 +458,15 @@ hash = "2c688076f970a4d265115a4a299d7c27e8b2fca43411d5ecc6fc2ac62d6d5cc2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/bolstering.json"
-hash = "6f268df11fbd25af9dac414e8a511e0cb732afedfbd58751da43f269eaaddb22"
+hash = "ec019f1ba77895a7a403283b73f23ed0ddc8942b3337907c12262505bec8ef90"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/bursting.json"
-hash = "ccec1efcefad42790ba28cafedbb3815983f819ddb10efd486fee2d4acb31fdb"
+hash = "36193228efcce369f4763fe6377f1163a17700078670b73472fc200cccbafd67"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/nimble.json"
-hash = "1a0ef7a93a515008220f26150694e1392bfc04989698ae66952c18ad6ed7fd75"
+hash = "1bed0eae2dc3215ec34b5afcfd76544cfbda06b75f82d791cefd14dee6703994"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/armor/mob_effect/revitalizing.json"
@@ -474,11 +474,11 @@ hash = "5d744e072d2cde9e7ccd82a7a547fe1d63eba1eaddc334d54364f38db9997b94"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/destructive.json"
-hash = "233816ecb02c0d657b07b19661d11dd8239e5b0b70166fa25c55005ee7e17140"
+hash = "d01373455c982ec056aae6a1bdcf0cae6c16b32fe86246274b28010c28b7bc4b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/experienced.json"
-hash = "d2a8e202ff44faf2f49f285477728a34441c633b382b05646d03bd03ac3109b7"
+hash = "91c517406ce4d4d42a09342d62ebabbb7b6d21cfb31c5e04946610e7f23455ef"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/lengthy.json"
@@ -486,15 +486,15 @@ hash = "36ae1f6773ced0afcdfb9e81ac5ccec9439c5cf17cfb7672f68bc68b90f29be3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/attribute/submerged.json"
-hash = "e390759549dbbf0f2010ef8b4b253e709bceefcacfcbc42ccdb47418f1f63bc7"
+hash = "98598fdfe0eec75c0873db872d1f24a069d5b18c9c2dfc1ac7b0004ce0d3aeea"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/enchantment/prosperous.json"
-hash = "90f9a33903dbcf52f4449854b1941f8f2448a44efbace25d6191b74ae1e90892"
+hash = "84cf3224a4887309497d6a5be867ddcb399953265e215486e026eea114f0c290"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/mob_effect/spelunkers.json"
-hash = "29bdc73ba47488d32352f1b2dda8ec2059ff1ee23333d59f2996e25648d03393"
+hash = "4198a8d5c15fd4252f788bfb7736f6cbd93c0899465167f0e7f05939d6feee9c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/breaker/mob_effect/swift.json"
@@ -502,19 +502,19 @@ hash = "7597487ba30a8ae8986efc46e47277f8fe501cbd8f60d8cf0ff4bc3f4741db70"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/generic/attribute/lucky.json"
-hash = "2f2d5f7b63a9a18a956390c86509db2aaf4eb94546afd2279aa12200644cad8f"
+hash = "99c339a03066d1cef3b9342d8534472dd930aa6ff93c23680feec4f690905c4c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/berserking.json"
-hash = "3f202ec7ea7725a8a2cde8e8a428772037b673f59f087cc916bf7cc5c91117b2"
+hash = "ee7f62c203462014f36dee76468dd08140ed6b1321d6a416a0dd27908c1fb69a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/forceful.json"
-hash = "f8f4a5052778f262454f5f7603368815535b2633310497185e7d613b3f8b89d4"
+hash = "15a949c5e6dc6246d22290e79ea8e703062ed74e8cd26acc9d57e79eef434a09"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/giant_slaying.json"
-hash = "00b590cdcce51b9d6e03c9cbe0ff5fd0ac1fc23089fa60a795ad93c425ac5c9b"
+hash = "3f752c53616ed6971520f644ca954dffcecf03e1373957424ef05381158c709a"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/glacial.json"
@@ -522,7 +522,7 @@ hash = "6f7aaae95dfb40820ae60d90fd7198d0fedb86b62ae2955919e5f1bad44d67b6"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/graceful.json"
-hash = "9a3231e7ed8eade74841cef8f3f21f2aa14bc3e3584dfee3dde042d231a06423"
+hash = "1f8963a23f33b32e8e6caa4f14e5ff7bc379cbd1b3048a5dfe34f9656949d5d5"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/infernal.json"
@@ -530,35 +530,35 @@ hash = "7378bf378f04958b4ba893f8230075a64689ef917e646fbb1f3b39cfe65aa98f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/intricate.json"
-hash = "07f81c0b55558bb5843967110c4f46f034fc339adf661644f358782f86ac5145"
+hash = "5c59a33ab9256de749eadbcbc3f8c48885f1e4e6d74db617f6b0afb814b292ce"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/lacerating.json"
-hash = "63752c5bd16616b10f2cf28bdc3cd96dd468fd68b674c09484410f91c7fd0f64"
+hash = "0881fd05c74ca81f0153f3f662813812a4530b72714ba399372029a16151e152"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/lengthy.json"
-hash = "2dfa2966d5e59ccc771135f993d5284e7b193e3e1d3c39312d96f2302c01d446"
+hash = "9e57235d002da24c1b2a608bdcb11c798e6caeb2a210718f864de5ff7a4dbffd"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/murderous.json"
-hash = "20efebedf781ad7480cbec27ee6f2104b02b475e3919800e3f8750b33e904221"
+hash = "abcb941ecd5dc0415f67cc06ff8a870f18622dffce44c5e80c185c334866123f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/piercing.json"
-hash = "afde9b5df5100dd88f63fef2820b2214c756b78a79e2c08e3ab285987d4631c8"
+hash = "514943acb774c7176dbd66e15a9135f5cb614b271264028f06fd997e5362d0d1"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/vampiric.json"
-hash = "8919f054e7d95df4b158455e2e36126ecbf402f04bbe1492662cfdf201115b88"
+hash = "ccbb5973e9059bd3017f41362eb84debd060967d44aa5f9e57f5d235fc3a8f38"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/attribute/violent.json"
-hash = "e397d271f447cc9363e19ea555206edba7bad318c4ab13b0a6d12978406c6304"
+hash = "5556aa520ca5cddd911fcf1152aa179315e2777e105b4690e08d9312b3fb8694"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/cleaving.json"
-hash = "dfaa0118c3b2e2b46b4d8869097cc3db79e9600a7fc6b68a0e00a82af0aba92b"
+hash = "0b725da5487ea88eeaeccf32550799585f16cda9e869569379b5bc5b55628d9c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/executing.json"
@@ -570,7 +570,7 @@ hash = "be10b39e22d60d559a72f1166909e753e72a3151b4ba85c4b7a9c06c87e7db54"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/bloodletting.json"
-hash = "31e6bd172f3a5d935ac2059edd1111c3dfb38ba3f31c68b24c6c44f390856b51"
+hash = "985734d516d3bf1b0b935065ec726e9b3f07f3aa050fdb91ee99329261268d36"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/caustic.json"
@@ -578,15 +578,15 @@ hash = "b79f751bf104e9c5ea9616ab08047940d95f37259e68df048e4dd4d14df7fa07"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/elusive.json"
-hash = "6346f58e45e29061f0817ad3cc5a0d8559bf5b62f9a8feed0ff43664ab19c599"
+hash = "5dcc4342f014efee5fe3dfbb3b42a76fe06ae642ade892e92a343d10b493860b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/omniscient.json"
-hash = "8baf565c4bfbccf2db42dfb1255528e3c3d6f3df23e03352ff53e139a85984fd"
+hash = "2c298cef0976843c7919e9627a44a929b51418d4ab6c66547258b028b50c401f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/sophisticated.json"
-hash = "ae774d216f2d0f88ec66ccd728ab2e8b957510e64d4df1da45eedd2d1a9fd321"
+hash = "00396076d9807c347e6cc38a1741de851c4dbfbec57d464a05b05535eef86af3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/mob_effect/weakening.json"
@@ -594,27 +594,27 @@ hash = "2d36d17e1c747484ce248791f5610faa6b60c5e184479219a75dda21ea8bc896"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/melee/thunderstruck.json"
-hash = "25952dc120e974fc3fcc6c0c9350137d36f5663187ef6df1941338122219a489"
+hash = "8f104b12a2284d6050cf6eb91f38520bc8fc3561c90c8ccf4454093053cc1df2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/agile.json"
-hash = "d51c16c6ee25c93e6f52c6bf98e2a45a9bd9ccfc24b56840a5384097f6f2a924"
+hash = "81eeef1dbdad234a13cf00c5e9bb6d4e8c8addb9b029aacc21db12cd93451a1c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/elven.json"
-hash = "c0e19c7fd2166a77c43d26da624148aa1bf3df459fb4ec5a1e187e11f97d1a6f"
+hash = "4c0e646018928a5978ae773d0aa41de674d7d9fd7cc2bc4a132354877648bde2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/streamlined.json"
-hash = "c25d29613da7e1d38b8fa99f4058579af2238adcf1cd6f53b05f671b06aa07a2"
+hash = "084785f87654ad839c45f34bae44e81cf794d41469c395a938e6d712ce60b6f4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/attribute/windswept.json"
-hash = "36a0d6753719c228c30e6b89f2f1ee8744d4795337216e15a7aee79d5a7059c6"
+hash = "4b030591cf68e2ee05cf0aeeddb0245fe459e3166f5e618b7ad310cb38012775"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/enchantment/prosperous.json"
-hash = "be68b97718112b1b6b1cd167ceb256aa67be350bcb5565c57121fc87cece0ece"
+hash = "4a49c2803b13cf87bc3724d16a6ff2e672abd9c868d5782224ef998c997a0807"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/acidic.json"
@@ -622,7 +622,7 @@ hash = "8533b983bac92015b66cf8d9131b82cbec287c0252dd4952697f7f8cadc51d9e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/blighted.json"
-hash = "8cbacec3774c0657c635d1980465629555816a1ccb74fcd17dcb8742ebaee8b9"
+hash = "0b4cfa23135714f7a3d6174deb14eaeba55e512431e44d29775caab92a190164"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/ensnaring.json"
@@ -630,35 +630,35 @@ hash = "25faa9b077bc5a6f21600c7d2c932644c13889d0876c5d861378d3245ae96690"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/fleeting.json"
-hash = "ee97bf927df5eb82cfa949f9b30c37cee934af13bc2e5521599f68c3538a2f34"
+hash = "d1611f136a5aa1c15dc38084eba132e794f011d17ac4831c4900a84e26cc49e8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/grievous.json"
-hash = "5521095bf6f45e6001e28d29c9cf2d20ec02d2fdc1720ffce445744a0b73552e"
+hash = "2e698056cdacaf00eafddf80395e33fc73d3292987998fcdd2a17de891494913"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/ivy_laced.json"
-hash = "98c0fdfb3409ad123b719d67d7a2f1a1845b51a4365019d821551aa4081c7d1c"
+hash = "9bc02d221b5fe8a3fbeba8ac29229cbbe1ff5b2e08a8241310a34760a16f4a6b"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/mob_effect/shulkers.json"
-hash = "aaca36745b8ad2c8476c2c46f720cfc194d105e38a88eaa162dca39fe26c7ebd"
+hash = "2de9c04ff8a37118b2d27bda16074005bc05961bfa603c7eb7cfe438938a9ecd"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/ranged/spectral.json"
-hash = "351a60d6e654f4045d280ecb82d73f977c1a90455a3ecd429ff0baae8fa15496"
+hash = "0d626d39ec7125559bc459b7f7f5073d1eaf59010491abb7c3cb20e2f657cbdb"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/attribute/ironforged.json"
-hash = "b20e204ad8423281c453d1b92e4ee7ad75355698e6bc393e4764a77ee6baf185"
+hash = "acaffdb383cd492243ea841c7b40a8828de7e4039c0df36f64e2574df7f6a617"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/attribute/stalwart.json"
-hash = "e2c4488071078b13c597ee33da78abd0930e4929c76313a8748d8db742a3aa36"
+hash = "e92cfc25f7318137e54099fd2f81a5dcf05f9c9ce6646ec6e7bebf8224ca4254"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/attribute/steel_touched.json"
-hash = "cb0f7c888792b671963dfddeafcf04124e5904cda8f9131390204b886218e461"
+hash = "6ecac2b6b07636bf2882a667db9f13f58368cc92f4bc71afbbcf17ee5b359e18"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/catalyzing.json"
@@ -666,7 +666,7 @@ hash = "ee417fd4c5ad0a974399549fd78af22deef7f15fefefbbe828553c0c78ea6440"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/devilish.json"
-hash = "38fcc9f07168339fd21e5223863ba07d6c63887271acef66c4d32358a3f4f66c"
+hash = "404626af49e13c7e11b91bf752796ca02aa7e1938c307cff699dae50dc0f3ec2"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/galvanizing.json"
@@ -678,7 +678,7 @@ hash = "5925285d95418da7c98922ddd322a05015ecdcbb46a74e4e94055dccb958e22c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/venomous.json"
-hash = "f4a8160d2cfcc2539fe2c6b3a5d4bec161734a2aaa7114157f47b20ed0982559"
+hash = "8e1981cab1366e1dd20266d1c52bdaaec6e6aeedc26391254022eb04cc223ba8"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/mob_effect/withering.json"
@@ -686,75 +686,75 @@ hash = "7075c48fde4679486436f95e5a4d3514476eebd7f6438f78f8520e8ea708e607"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/shield/psychic.json"
-hash = "ca32e5531a94eb3b712ff9993fe94462255fe80cdd88dda7a374ad2292d2d6f9"
+hash = "6ec9b605ea88acfd8191fac8bdd06913bfa29c464378abac4f8a961c3b117e5e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/affixes/weapon/attribute/shredding.json"
-hash = "41d6d56a67e6894511b30977ed85fb62a7ed593801c2d00cdf37d7a7862cc5e3"
+hash = "c4b6dbee5540674f4095b023aa67f560f8b58a080aab08a42e1508061de27eee"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/ballast.json"
-hash = "3a8ca88552d550ec54dc335f4e2ba9a8af2d914b1826cdd9c2f78ea39440d648"
+hash = "3980305808118aa45f537afaa7471e39b6d4080d4209cf9d8de6ffb2ee306fda"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/brawlers.json"
-hash = "3eddda6fc84815b9584ac69065d1ec4e04086f1ef3e091b441c944c7b74cf1cb"
+hash = "0617e563fa84edbce3c9c741e98e1dae4e67aeedc8be9cb42e600d331838c107"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/breach.json"
-hash = "67b715244d9d7e58021d8b36f0c97cb6909f06e38c3d480e35f81c093e9fd636"
+hash = "5b33b40b4683d18f141db2480746e76c01ced1bfdb9c91ffaecebf8d2a6a7f52"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/combatant.json"
-hash = "af809e4abc3882ad808a6f67f67788215508608a96474c650c8c1a235291f027"
+hash = "84c7a9982be7bd5bbd9121e9e0dc2bb0fdc74dbf9a1649c9d8ab1b602ac8f72d"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/guardian.json"
-hash = "c08ea8a8c6fb86fe8eab1fcef0c6afde907b139e4a3f7a57dfc76dda80129200"
+hash = "2df2be697836a0c989508be1513e0cd464b06ea57f37e006255e6712943013a3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/lightning.json"
-hash = "42bb528258dbb13e9d45aa7aa65ed99ab50b16fe67dadb4301bbf0f6d35be966"
+hash = "d053552fcc43ad1beaf132a58f9e9787317e1b5cbff4f7cad9111bcc706f88d7"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/samurai.json"
-hash = "dc36e430c5d15db26dfbb1ab044f402fbeeb976f60411049e6e18e7c9b6c03ed"
+hash = "9e721a54713dc42254931fbf9ae0852efb4294df8d58fa7291327fe966600b97"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/slipstream.json"
-hash = "cb5d0e8dece6c6850a3b5e51699da2a49131cda30301d3d30aa08c7e15fb339f"
+hash = "8e90fcbf45fc28738f6befebe34b9768dd156e729d01b30462ff16db5a13082c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/splendor.json"
-hash = "cf6172237d753566be4d59ee7d4bd12adb70f2f5ccb60145be378691fc0e0a0f"
+hash = "2451f5c1191a817a811c48cb38c8fa8eb035ff8bd30a68b0d99a7c182480f460"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/core/tyrannical.json"
-hash = "c51d3c5f7fd399258ba3b33fc747cc6e045133f45698d0f3f5e5bcf20a197b0c"
+hash = "852b23e051813acee40d4059bc0efbdb82736c007297a2eb1545f2fbc45a2ba4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/overworld/earth.json"
-hash = "bc662c06a5056a5276361902dff2b2fc6242f2f6440bb5c0e455adb86e710cf0"
+hash = "74526f7a3d865cd4ef73c1a32fac0c95a9f3c3d3d87efd2fc00fc05c897c3564"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/overworld/royalty.json"
-hash = "be782fe7325ebee9a88ec5e3bca42a711a4f0e95eaaf0cfac207c7ad8857ab20"
+hash = "88844725a699249341e2255f821fd0e764756776d6c6b1628966d90cf9c75187"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/overworld/verdant_ruin.json"
-hash = "68b51a6046e65a7c6ba6750c6958e125e0aa1cf0e556fb0715bb3366627c557e"
+hash = "361b3d26b7828f6d48515f93c017b623bd35547ea0e220e18b01f9a610a73bc3"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/the_end/mageslayer.json"
-hash = "2524964a4e7ed470f1f7868f9b870a2edd04427bfe161e918ab0a0abee593a8f"
+hash = "678211b93a22ee74ed4062e7840a132b8f9c2740ace9cb85b5ae2724b943c1aa"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/the_nether/blood_lord.json"
-hash = "aa3c765acbfa072ce541b38ea0616a5cf90cfe2ce40baef4a697cc424bf4403a"
+hash = "b21a97f99c25ab0c044fafa07e3fe930aa151532797174291011a03107980144"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/gems/the_nether/molten_breach.json"
-hash = "d0e880411415e842223637d45e7d46c7b8a1a2fd8a9ece03611925f65dcf14ee"
+hash = "8d4a5a83ce76985bfebb08e985dc1be04ddfe7afba7c2a21b3b41308206ebe6c"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/apotheosis/loot_modifiers/affix_loot_injection.json"
@@ -1582,7 +1582,7 @@ hash = "01d68a8f95172eaf4cd84fe451c5e6a67f72bc25f47fce460c849305961919ac"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/capacity.json"
-hash = "e66d783ac38c6898c401a17c3b5aa890b495ef4570cdf6a73c1eaa7cdc05c9c0"
+hash = "72c905f5a589d9db4dcdb73f721e3923016195c8d48b84db2c858f15087da246"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/intricate.json"
@@ -1594,7 +1594,7 @@ hash = "a1000a03138974222edc426b7c97c738dbf0f6201bc637ad3c872b8548e12d01"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/vampiric.json"
-hash = "1a6bee4eeecdef551856b2311f0ae7e90a76d69ea97def0825459d29bb6566a1"
+hash = "6e833ff2bb6c48ac6f21df68cb2d1ad61fb9f106a93dcb97da6bf311ac5bb64e"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/attribute/vigorous.json"
@@ -1630,7 +1630,7 @@ hash = "b34758205d49fbee32c8aaf5c1d66152161fbb578265dceca99f689be3bdf3b4"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/smothering.json"
-hash = "8f18663cd78eff567f8ea258d9f783dfa3123ddb1d9b4a1e94c49157a8c9d68d"
+hash = "4138939b7c48570bbfca8ed1d057694fdd67d6bff04b8007a34f41425b15449f"
 
 [[files]]
 file = "config/paxi/datapacks/pack_lbc/data/irons_apothic/affixes/magic_weapons/mob_effect/sophisticated.json"

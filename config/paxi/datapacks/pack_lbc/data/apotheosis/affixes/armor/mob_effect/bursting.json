@@ -18,7 +18,7 @@
               ],
     "values":  {
                    "apotheosis:epic":  {
-                                           "duration":  50.0,
+                                           "duration":  100,
                                            "amplifier":  0.0,
                                            "cooldown":  15000
                                        },

@@ -18,24 +18,27 @@
     "operation":  "add_multiplied_total",
     "values":  {
                    "apotheosis:common":  {
-                                             "min":  0.01,
-                                             "max":  0.02
+                                             "min":  0.075,
+                                             "max":  0.125
                                          },
                    "apotheosis:uncommon":  {
-                                               "min":  0.01,
-                                               "max":  0.03
+                                               "min":  0.1,
+                                               "max":  0.15
                                            },
                    "apotheosis:rare":  {
-                                           "min":  0.01,
-                                           "max":  0.04
+                                           "min":  0.1,
+                                           "max":  0.175,
+                                           "step":  0.01071429
                                        },
                    "apotheosis:epic":  {
-                                           "min":  0.02,
-                                           "max":  0.05
+                                           "min":  0.125,
+                                           "max":  0.25,
+                                           "step":  0.01041667
                                        },
                    "apotheosis:mythic":  {
-                                             "min":  0.03,
-                                             "max":  0.07
+                                             "min":  0.2,
+                                             "max":  0.425,
+                                             "step":  0.01022727
                                          }
                }
 }

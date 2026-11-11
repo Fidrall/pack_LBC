@@ -34,10 +34,10 @@
                                       },
                         "operation":  "add_value",
                         "values":  {
-                                       "flawed":  1.1,
-                                       "normal":  1.6,
-                                       "flawless":  1.9,
-                                       "perfect":  2.4
+                                       "flawed":  2.75,
+                                       "normal":  4,
+                                       "flawless":  4.75,
+                                       "perfect":  6
                                    }
                     },
                     {
@@ -46,10 +46,10 @@
                         "gem_class":  "apotheosis:bow",
                         "operation":  "add_value",
                         "values":  {
-                                       "flawed":  0.8,
-                                       "normal":  1.1,
-                                       "flawless":  1.6,
-                                       "perfect":  2.0
+                                       "flawed":  2,
+                                       "normal":  2.75,
+                                       "flawless":  4,
+                                       "perfect":  5
                                    }
                     },
                     {
@@ -97,10 +97,10 @@
                         "gem_class":  "apotheosis:leggings",
                         "operation":  "add_value",
                         "values":  {
-                                       "flawed":  0.015,
-                                       "normal":  0.025,
-                                       "flawless":  0.03,
-                                       "perfect":  0.05
+                                       "flawed":  0.0375,
+                                       "normal":  0.0625,
+                                       "flawless":  0.075,
+                                       "perfect":  0.125
                                    }
                     },
                     {

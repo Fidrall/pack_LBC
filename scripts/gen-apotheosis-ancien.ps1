@@ -8,7 +8,10 @@
 param(
     [string]$Ancien = 'C:\Users\Antho\curseforge\minecraft\Instances\Create Chronicles The Endventure',
     [string]$Mods = "$env:APPDATA\PrismLauncher\instances\pack_LBC-prism\.minecraft\mods",
-    [string[]]$Dossiers = @('apotheosis/affixes', 'apotheosis/rarities', 'apotheosis/gems', 'irons_apothic/affixes')
+    [string[]]$Dossiers = @('apotheosis/affixes', 'apotheosis/rarities', 'apotheosis/gems', 'irons_apothic/affixes'),
+    # Plancher : aucune valeur sous Plancher x la valeur d'origine du mod (choix de l'user le 2026-11-11 : 0.5 ;
+    # l'ancien pack descendait a x0.1-0.4). 0 = valeurs de l'ancien pack telles quelles.
+    [double]$Plancher = 0.5
 )
 $reprises = @{ apotheosis = @('values', 'rules', 'definition', 'bonuses'); irons_apothic = @('values') }
 # Gemmes que l'ancien pack desactivait (lunar, solar, inferno) : gardees, des joueurs en ont deja serti.
@@ -68,6 +71,30 @@ function Corrige($o, $ou) {
                 }
             }
         } else { Corrige $v "$ou.$($p.Name)" }
+    }
+}
+# Chaque nombre garde au moins |Plancher x valeur du jar| (signe conserve) ; "steps" (nombre de paliers Irons) et "cooldown" non touches.
+# Les pas invalides apres coup sont corriges ensuite par Corrige.
+function Remonte($o, $ref) {
+    if (-not ($o -is [psobject]) -or -not ($ref -is [psobject])) { return }
+    foreach ($p in @($o.PSObject.Properties)) {
+        if ($p.Name -in 'steps', 'cooldown') { continue }
+        $r = $ref.($p.Name)
+        if ($null -eq $r) { continue }
+        $v = $p.Value
+        if ($v -is [psobject]) { Remonte $v $r }
+        elseif (($v -is [ValueType]) -and ($r -is [ValueType]) -and $v -isnot [bool]) {
+            $mini = [Math]::Abs([double]$r) * $Plancher
+            if ([Math]::Abs([double]$v) -lt $mini) { $o.($p.Name) = [Math]::Round($mini * [Math]::Sign([double]$(if ([double]$v -ne 0) { $v } else { $r })), 6) }
+        }
+    }
+}
+# Gemmes : bonus compares a la meme position, seulement s'ils visent le meme type et le meme attribut
+function RemonteGemmes($bon, $ref) {
+    for ($i = 0; $i -lt [Math]::Min(@($bon).Count, @($ref).Count); $i++) {
+        $a = @($bon)[$i]; $b = @($ref)[$i]
+        if ($a.type -ne $b.type -or $a.attribute -ne $b.attribute) { continue }
+        if ($a.values) { Remonte $a.values $b.values }
     }
 }
 $ordre = @('apotheosis:common', 'apotheosis:uncommon', 'apotheosis:rare', 'apotheosis:epic', 'apotheosis:mythic')
@@ -146,6 +173,12 @@ try {
             # Rarete presente dans notre jar mais absente de l'ancien pack : un objet de cette rarete avec cet affixe fait
             # planter le client (AttributeAffix.addModifiers, modif null). On reprend la valeur de la rarete la plus proche.
             if ($cles -contains 'values' -and $orig.values) { Complete $neuf.values $orig.values $chemin }
+            if ($Plancher -gt 0) {
+                if ($neuf.values) { Corrige $neuf.values "$chemin values" }   # fautes de frappe avant de remonter
+                $ref = Lire $jars[$ns].nous $chemin
+                if ($cles -contains 'values' -and $ref.values) { Remonte $neuf.values $ref.values }
+                if ($cles -contains 'bonuses' -and $ref.bonuses) { RemonteGemmes $neuf.bonuses $ref.bonuses }
+            }
             if ($neuf.values) { Corrige $neuf.values "$chemin values" }
             [IO.File]::WriteAllText($dest, ($neuf | ConvertTo-Json -Depth 50), $utf8)
             $bilan.modifies++

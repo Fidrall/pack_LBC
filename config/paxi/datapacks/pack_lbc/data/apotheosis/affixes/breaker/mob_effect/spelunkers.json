@@ -18,27 +18,27 @@
     "values":  {
                    "apotheosis:uncommon":  {
                                                "duration":  {
-                                                                "min":  60.0,
-                                                                "max":  140.0,
-                                                                "step":  20.0
+                                                                "min":  100,
+                                                                "max":  150,
+                                                                "step":  25
                                                             },
                                                "amplifier":  0.0,
                                                "cooldown":  1200
                                            },
                    "apotheosis:rare":  {
                                            "duration":  {
-                                                            "min":  100.0,
-                                                            "max":  180.0,
-                                                            "step":  20.0
+                                                            "min":  150,
+                                                            "max":  200,
+                                                            "step":  25
                                                         },
                                            "amplifier":  0.0,
                                            "cooldown":  1200
                                        },
                    "apotheosis:epic":  {
                                            "duration":  {
-                                                            "min":  140.0,
+                                                            "min":  150,
                                                             "max":  240.0,
-                                                            "step":  20.0
+                                                            "step":  22.5
                                                         },
                                            "amplifier":  {
                                                              "min":  0.0,

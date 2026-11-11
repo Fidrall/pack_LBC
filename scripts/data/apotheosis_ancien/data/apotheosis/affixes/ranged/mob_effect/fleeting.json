@@ -19,25 +19,25 @@
     "values":  {
                    "apotheosis:uncommon":  {
                                                "duration":  {
-                                                                "min":  10.0,
-                                                                "max":  50.0,
-                                                                "step":  20.0
+                                                                "min":  50,
+                                                                "max":  100,
+                                                                "step":  25
                                                             },
                                                "amplifier":  0.0
                                            },
                    "apotheosis:rare":  {
                                            "duration":  {
-                                                            "min":  20.0,
-                                                            "max":  80.0,
-                                                            "step":  20.0
+                                                            "min":  50,
+                                                            "max":  100,
+                                                            "step":  25
                                                         },
                                            "amplifier":  0.0
                                        },
                    "apotheosis:epic":  {
                                            "duration":  {
-                                                            "min":  40.0,
+                                                            "min":  50,
                                                             "max":  100.0,
-                                                            "step":  20.0
+                                                            "step":  25
                                                         },
                                            "amplifier":  {
                                                              "min":  0.0,
@@ -48,8 +48,8 @@
                    "apotheosis:mythic":  {
                                              "duration":  {
                                                               "min":  80.0,
-                                                              "max":  120.0,
-                                                              "step":  20.0
+                                                              "max":  150,
+                                                              "step":  17.5
                                                           },
                                              "amplifier":  {
                                                                "min":  0.0,

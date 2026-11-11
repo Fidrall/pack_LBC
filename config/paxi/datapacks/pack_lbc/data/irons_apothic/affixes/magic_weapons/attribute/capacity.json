@@ -14,29 +14,29 @@
     "operation":  "ADD_VALUE",
     "values":  {
                    "apotheosis:common":  {
-                                             "min":  10,
+                                             "min":  12.5,
                                              "steps":  3,
-                                             "step":  5
+                                             "step":  12.5
                                          },
                    "apotheosis:uncommon":  {
-                                               "min":  20,
+                                               "min":  25,
                                                "steps":  4,
-                                               "step":  5
+                                               "step":  12.5
                                            },
                    "apotheosis:rare":  {
-                                           "min":  30,
+                                           "min":  37.5,
                                            "steps":  6,
-                                           "step":  5
+                                           "step":  12.5
                                        },
                    "apotheosis:epic":  {
-                                           "min":  40,
+                                           "min":  50,
                                            "steps":  7,
-                                           "step":  5
+                                           "step":  12.5
                                        },
                    "apotheosis:mythic":  {
-                                             "min":  60,
+                                             "min":  62.5,
                                              "steps":  8,
-                                             "step":  5
+                                             "step":  12.5
                                          }
                },
     "categories":  [

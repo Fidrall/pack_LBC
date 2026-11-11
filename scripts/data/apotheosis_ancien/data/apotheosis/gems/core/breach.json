@@ -18,12 +18,12 @@
                                       },
                         "operation":  "add_value",
                         "values":  {
-                                       "cracked":  0.1,
-                                       "chipped":  0.2,
-                                       "flawed":  0.3,
-                                       "normal":  0.7,
-                                       "flawless":  1.0,
-                                       "perfect":  1.5
+                                       "cracked":  1,
+                                       "chipped":  1.5,
+                                       "flawed":  2.5,
+                                       "normal":  3.5,
+                                       "flawless":  4.5,
+                                       "perfect":  6
                                    }
                     },
                     {
@@ -46,12 +46,12 @@
                         "gem_class":  "apotheosis:bow",
                         "operation":  "add_value",
                         "values":  {
-                                       "cracked":  0.1,
-                                       "chipped":  0.3,
-                                       "flawed":  0.5,
-                                       "normal":  1.0,
-                                       "flawless":  1.5,
-                                       "perfect":  2.0
+                                       "cracked":  2,
+                                       "chipped":  2.5,
+                                       "flawed":  3.5,
+                                       "normal":  4,
+                                       "flawless":  5,
+                                       "perfect":  7.5
                                    }
                     }
                 ]

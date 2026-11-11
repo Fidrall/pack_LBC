@@ -17,24 +17,28 @@
                    },
     "values":  {
                    "apotheosis:common":  {
-                                             "min":  0.01,
-                                             "max":  0.03
+                                             "min":  0.025,
+                                             "max":  0.05,
+                                             "step":  0.0125
                                          },
                    "apotheosis:uncommon":  {
-                                               "min":  0.03,
-                                               "max":  0.05
+                                               "min":  0.05,
+                                               "max":  0.075,
+                                               "step":  0.0125
                                            },
                    "apotheosis:rare":  {
-                                           "min":  0.03,
-                                           "max":  0.07
+                                           "min":  0.075,
+                                           "max":  0.1,
+                                           "step":  0.00833333
                                        },
                    "apotheosis:epic":  {
-                                           "min":  0.05,
-                                           "max":  0.10
+                                           "min":  0.075,
+                                           "max":  0.125
                                        },
                    "apotheosis:mythic":  {
                                              "min":  0.10,
-                                             "max":  0.15
+                                             "max":  0.175,
+                                             "step":  0.01071429
                                          }
                }
 }

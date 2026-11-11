@@ -20,15 +20,15 @@
               ],
     "values":  {
                    "apotheosis:uncommon":  {
-                                               "duration":  20.0,
+                                               "duration":  50,
                                                "amplifier":  0.0,
                                                "cooldown":  80
                                            },
                    "apotheosis:rare":  {
                                            "duration":  {
-                                                            "min":  40.0,
+                                                            "min":  50,
                                                             "max":  60.0,
-                                                            "step":  20.0
+                                                            "step":  10
                                                         },
                                            "amplifier":  0.0,
                                            "cooldown":  80

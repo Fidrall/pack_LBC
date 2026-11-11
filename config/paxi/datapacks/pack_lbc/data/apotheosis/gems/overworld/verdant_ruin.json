@@ -65,10 +65,10 @@
                         "damage_type":  "magic",
                         "gem_class":  "apotheosis:chestplate",
                         "values":  {
-                                       "flawed":  0.02,
-                                       "normal":  0.03,
-                                       "flawless":  0.05,
-                                       "perfect":  0.08
+                                       "flawed":  0.0625,
+                                       "normal":  0.075,
+                                       "flawless":  0.0875,
+                                       "perfect":  0.1
                                    }
                     },
                     {

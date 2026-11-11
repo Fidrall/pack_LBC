@@ -40,7 +40,7 @@
                         "values":  {
                                        "flawed":  1,
                                        "normal":  1,
-                                       "flawless":  1,
+                                       "flawless":  1.5,
                                        "perfect":  2
                                    }
                     },

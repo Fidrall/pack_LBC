@@ -15,7 +15,7 @@
     "values":  {
                    "apotheosis:epic":  {
                                            "duration":  {
-                                                            "min":  20,
+                                                            "min":  40,
                                                             "steps":  1,
                                                             "step":  20
                                                         },
@@ -24,7 +24,7 @@
                                        },
                    "apotheosis:mythic":  {
                                              "duration":  {
-                                                              "min":  20,
+                                                              "min":  50,
                                                               "steps":  2,
                                                               "step":  20
                                                           },

@@ -24,9 +24,9 @@
                                            },
                    "apotheosis:rare":  {
                                            "duration":  {
-                                                            "min":  20.0,
-                                                            "max":  80.0,
-                                                            "step":  20.0
+                                                            "min":  100,
+                                                            "max":  150,
+                                                            "step":  25
                                                         },
                                            "amplifier":  0.0,
                                            "cooldown":  1000

@@ -41,12 +41,12 @@
                                       },
                         "operation":  "add_multiplied_base",
                         "values":  {
-                                       "cracked":  0.025,
-                                       "chipped":  0.05,
-                                       "flawed":  0.075,
-                                       "normal":  0.1,
-                                       "flawless":  0.125,
-                                       "perfect":  0.15
+                                       "cracked":  0.0375,
+                                       "chipped":  0.075,
+                                       "flawed":  0.1125,
+                                       "normal":  0.15,
+                                       "flawless":  0.2,
+                                       "perfect":  0.3
                                    }
                     }
                 ]

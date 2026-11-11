@@ -18,9 +18,9 @@
     "values":  {
                    "apotheosis:epic":  {
                                            "duration":  {
-                                                            "min":  0.0,
+                                                            "min":  10,
                                                             "max":  40.0,
-                                                            "step":  20.0
+                                                            "step":  15
                                                         },
                                            "amplifier":  {
                                                              "min":  0.0,

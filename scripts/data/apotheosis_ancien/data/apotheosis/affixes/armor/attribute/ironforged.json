@@ -20,7 +20,7 @@
     "operation":  "add_value",
     "values":  {
                    "apotheosis:common":  {
-                                             "min":  0.25,
+                                             "min":  0.5,
                                              "max":  0.75,
                                              "step":  0.25
                                          },
@@ -36,12 +36,12 @@
                                        },
                    "apotheosis:epic":  {
                                            "min":  1.0,
-                                           "max":  2.0,
+                                           "max":  2.5,
                                            "step":  0.25
                                        },
                    "apotheosis:mythic":  {
-                                             "min":  1.0,
-                                             "max":  3.0,
+                                             "min":  2,
+                                             "max":  4,
                                              "step":  0.25
                                          }
                }
