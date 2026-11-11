@@ -8369,7 +8369,7 @@ metafile = true
 
 [[files]]
 file = "mods/maps3d-neoforge-1.21.1-1.0.0-lbc.jar"
-hash = "0c616cd93ef408730541790d01c12ea06f4bd92c5f86b0da9a9401d9ef25b1bf"
+hash = "bbef67ea935e2ba8920be3f8d7eb8f00aa3370621e2955ac48cd58580e3cd216"
 
 [[files]]
 file = "mods/mechanicals-lib.pw.toml"
