@@ -23,7 +23,7 @@
                                            "duration":  {
                                                             "min":  50.0,
                                                             "max":  100.0,
-                                                            "step":  20.0
+                                                            "step":  25
                                                         },
                                            "amplifier":  0.0,
                                            "cooldown":  60

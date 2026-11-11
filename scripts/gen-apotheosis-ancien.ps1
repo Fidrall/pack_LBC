@@ -30,6 +30,67 @@ function Lire($zip, $chemin) {
     try { $r.ReadToEnd() | ConvertFrom-Json } finally { $r.Close() }
 }
 function Texte($v) { if ($null -eq $v) { '' } else { $v | ConvertTo-Json -Depth 50 -Compress } }
+# Meme forme par rarete : objet <-> objet (memes cles min/max/steps), nombre <-> nombre ; "steps" >= 1
+function MemeForme($a, $b) {
+    if ((Texte $a) -match '"steps":0[,}]') { return $false }
+    foreach ($p in $a.PSObject.Properties) {
+        $x = $p.Value; $y = $b.($p.Name)
+        if ($null -eq $y) { continue }
+        if (($x -is [psobject]) -ne ($y -is [psobject])) { return $false }
+        if ($x -is [psobject]) {
+            if ((@($x.PSObject.Properties.Name | Sort-Object) -join ',') -ne (@($y.PSObject.Properties.Name | Sort-Object) -join ',')) { return $false }
+            if ($null -ne $x.steps -and [int]$x.steps -lt 1) { return $false }
+        }
+    }
+    $true
+}
+# Parcourt les valeurs (y compris duree/amplificateur des effets) et corrige chaque intervalle {min, max, step} :
+# - min > max d'un facteur 10 (fautes de frappe de l'ancien pack : murderous mythique 0.6 pour un max de 0.12...)
+# - Apotheosis 8.9 exige un pas (0.01 par defaut s'il est absent) qui divise (max - min) ; la 8.5 ne verifiait pas -> pas valide le plus proche
+function Corrige($o, $ou) {
+    foreach ($p in @($o.PSObject.Properties)) {
+        $v = $p.Value
+        if (-not ($v -is [psobject])) { continue }
+        if ($null -ne $v.min -and $null -ne $v.max -and $null -eq $v.steps) {
+            if ([double]$v.min -ge 0 -and [double]$v.min -gt [double]$v.max) {
+                $v.min = [Math]::Min([double]$v.min / 10, [double]$v.max)
+                $bilan.corriges += "$ou.$($p.Name) (min /10)"
+            }
+            $ecart = [Math]::Abs([double]$v.max - [double]$v.min)
+            $pas = if ($null -ne $v.step) { [Math]::Abs([double]$v.step) } else { 0.01 }
+            if ($ecart -gt 0 -and $pas -gt 0) {
+                $n = [Math]::Round($ecart / $pas, 6)
+                if ($n -ne [Math]::Floor($n)) {
+                    $k = [Math]::Max(1, [Math]::Round($ecart / $pas))
+                    $nouveau = [Math]::Round($ecart / $k, 8)
+                    if ($null -ne $v.step) { $v.step = $nouveau * [Math]::Sign([double]$v.step) } else { $v | Add-Member -NotePropertyName step -NotePropertyValue $nouveau }
+                    $bilan.corriges += "$ou.$($p.Name) (pas $pas -> $nouveau)"
+                }
+            }
+        } else { Corrige $v "$ou.$($p.Name)" }
+    }
+}
+# Poids a 0 partout dans "definition" (forme simple {weight, quality} ou par palier {haven: {weight, quality}, ...})
+function Neutralise($o) {
+    if (-not ($o -is [psobject])) { return }
+    foreach ($p in @($o.PSObject.Properties)) {
+        if ($p.Name -eq 'weight' -and $p.Value -isnot [psobject]) { $o.weight = 0 }
+        elseif ($p.Name -eq 'quality' -and $p.Value -isnot [psobject]) { $o.quality = 0 }
+        else { Neutralise $p.Value }
+    }
+}
+# Intervalles {min, max[, step]} ramenes a 0 (les nombres seuls aussi)
+function Zero($o) {
+    foreach ($p in @($o.PSObject.Properties)) {
+        $v = $p.Value
+        if ($v -is [psobject]) {
+            if ($null -ne $v.min -and $null -ne $v.max) { $v.min = 0; $v.max = 0; if ($null -ne $v.step) { $v.step = 0 } }
+            else { Zero $v }
+        } elseif ($v -is [double] -or $v -is [int] -or $v -is [long] -or $v -is [decimal]) { $o.($p.Name) = 0 }
+    }
+}
+# Gemmes dont les bonus de l'ancien pack ne passent plus (purete manquante, effet sans amplifier)
+$Gardees = @('data/apotheosis/gems/the_end/endersurge.json', 'data/apotheosis/gems/core/warlord.json')
 
 $jars = @{
     apotheosis    = @{ ancien = (Jar "$Ancien\mods" 'Apotheosis-*.jar'); nous = (Jar $Mods 'Apotheosis-*.jar') }
@@ -48,7 +109,13 @@ try {
             New-Item -ItemType Directory -Force (Split-Path $dest) | Out-Null
             if ($sur.conditions -and ($sur.conditions | Where-Object { $_.type -eq 'neoforge:false' })) {
                 if ($sansDesactivation -contains $d) { $bilan.absents += "$chemin (desactive dans l'ancien pack, garde tel quel)"; continue }
-                [IO.File]::WriteAllText($dest, '{ "conditions": [ { "type": "neoforge:false" } ] }', $utf8)
+                # Une condition false ne suffit pas : le fichier saute et le jeu reprend celui du jar. On neutralise donc
+                # notre version : poids 0 (plus tire sur les nouveaux objets) et valeurs a 0 (plus d'effet sur les objets existants).
+                $neuf = Lire $jars[$ns].nous $chemin
+                if (-not $neuf) { $bilan.absents += "$chemin (desactive mais absent de notre jar)"; continue }
+                Neutralise $neuf.definition
+                if ($neuf.values) { Zero $neuf.values }
+                [IO.File]::WriteAllText($dest, ($neuf | ConvertTo-Json -Depth 50), $utf8)
                 $bilan.desactives++; continue
             }
             $orig = Lire $jars[$ns].ancien $chemin
@@ -56,19 +123,13 @@ try {
             if (-not $orig -or -not $neuf) { $bilan.absents += "$chemin (jar ancien: $([bool]$orig), notre jar: $([bool]$neuf))"; Remove-Item $dest -ErrorAction SilentlyContinue; continue }
             $cles = @($sur.PSObject.Properties.Name | Where-Object { $reprises[$ns] -contains $_ -and (Texte $sur.$_) -ne (Texte $orig.$_) })
             if (-not $cles) { $bilan.inchanges++; continue }
+            # Format des valeurs change depuis l'ancienne version (nombre <-> objet, "steps" a 0, bonus de gemmes) : on garde notre fichier.
+            if ($cles -contains 'values' -and -not (MemeForme $sur.values $neuf.values)) { $bilan.absents += "$chemin (format des valeurs different, garde tel quel)"; Remove-Item $dest -ErrorAction SilentlyContinue; continue }
+            if ($cles -contains 'bonuses' -and $Gardees -contains $chemin) { $bilan.absents += "$chemin (bonus incompatibles avec notre version, garde tel quel)"; Remove-Item $dest -ErrorAction SilentlyContinue; continue }
             foreach ($k in $cles) {
                 if ($neuf.PSObject.Properties.Name -contains $k) { $neuf.$k = $sur.$k } else { $neuf | Add-Member -NotePropertyName $k -NotePropertyValue $sur.$k }
             }
-            # Fautes de frappe de l'ancien pack : min > max d'un facteur 10 (murderous mythique 0.6 pour un max de 0.12...)
-            if ($neuf.values) {
-                foreach ($p in $neuf.values.PSObject.Properties) {
-                    $v = $p.Value
-                    if ($v -is [psobject] -and $null -ne $v.min -and $null -ne $v.max -and [double]$v.min -ge 0 -and [double]$v.min -gt [double]$v.max) {
-                        $v.min = [Math]::Min([double]$v.min / 10, [double]$v.max)
-                        $bilan.corriges += "$chemin $($p.Name)"
-                    }
-                }
-            }
+            if ($neuf.values) { Corrige $neuf.values "$chemin values" }
             [IO.File]::WriteAllText($dest, ($neuf | ConvertTo-Json -Depth 50), $utf8)
             $bilan.modifies++
         }

@@ -21,7 +21,7 @@
                                                "duration":  {
                                                                 "min":  0.0,
                                                                 "max":  50.0,
-                                                                "step":  20.0
+                                                                "step":  25
                                                             },
                                                "amplifier":  0.0,
                                                "cooldown":  1500
@@ -30,7 +30,7 @@
                                            "duration":  {
                                                             "min":  50.0,
                                                             "max":  100.0,
-                                                            "step":  20.0
+                                                            "step":  25
                                                         },
                                            "amplifier":  0.0,
                                            "cooldown":  1500
@@ -39,7 +39,7 @@
                                            "duration":  {
                                                             "min":  100.0,
                                                             "max":  150.0,
-                                                            "step":  20.0
+                                                            "step":  25
                                                         },
                                            "amplifier":  {
                                                              "min":  0.0,

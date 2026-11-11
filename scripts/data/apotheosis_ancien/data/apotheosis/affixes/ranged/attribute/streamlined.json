@@ -27,7 +27,8 @@
                                            },
                    "apotheosis:rare":  {
                                            "min":  0.03,
-                                           "max":  0.075
+                                           "max":  0.075,
+                                           "step":  0.01125
                                        },
                    "apotheosis:epic":  {
                                            "min":  0.05,

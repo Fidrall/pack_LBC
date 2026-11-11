@@ -41,7 +41,7 @@
                                            "duration":  {
                                                             "min":  150.0,
                                                             "max":  300.0,
-                                                            "step":  20.0
+                                                            "step":  18.75
                                                         },
                                            "amplifier":  {
                                                              "min":  0.0,
