@@ -157,6 +157,10 @@ file = "config/dungeonconfig/dungeonconfig.json5"
 hash = "ef7bed1f286e6040a4d2c5fc5b5e21ae938986375a9e89fe47b90ba5cd230796"
 
 [[files]]
+file = "config/entityculling.json"
+hash = "f585b8171cdc34681d9dc94b75a25bc8c2f27a9c215e31282bbcada29b08ec0b"
+
+[[files]]
 file = "config/ftbchunks-client.snbt"
 hash = "8cdbf8f65fa24f5533e7e726e9eb75b5baa23b1a95208e1454c5a67cdd380b56"
 
@@ -7321,6 +7325,11 @@ hash = "42871bdf93a10da25f0c036ff87b924259b4025f4f4b8e0350fac9541a2c107e"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mobs-continued.pw.toml"
+hash = "c7fc68946b3f81f8e002024efea49a08b243665637e0c0313e02e399c5366a53"
+metafile = true
+
+[[files]]
 file = "mods/all-the-heads.pw.toml"
 hash = "84ea03b93425012a547acdca355bfbc2fa6d528d0e007fbda2e116527200bb93"
 metafile = true
@@ -8081,6 +8090,11 @@ hash = "0d13e70b59a7f4623237f6b03e22368235d123030f36f18312fd20a8f7d2e459"
 metafile = true
 
 [[files]]
+file = "mods/fdlib.pw.toml"
+hash = "66ebc57b6ea5e09a154e21ee6edd384fbbe3002872026bf8224eede15e458456"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
@@ -8566,6 +8580,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "d465abcc806c0d4fdeefb6a5e774cca4fff0ffd27d7c75954ab4688f4c9eaf05"
+metafile = true
+
+[[files]]
+file = "mods/qliphoth-awakening.pw.toml"
+hash = "be4c3e4dedba1e2e21072ac2ddafe8edf0419cf67d64676824c0dced7c5b7874"
 metafile = true
 
 [[files]]
