@@ -8848,6 +8848,11 @@ hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
 metafile = true
 
 [[files]]
+file = "mods/the-waking-world.pw.toml"
+hash = "ac83ffd87f45ac648ca8b275944881547516621c58d0457bacb10ffc94cbe4c4"
+metafile = true
+
+[[files]]
 file = "mods/tidal-towns.pw.toml"
 hash = "5a0719402e805df315bc797564e637434d3f08450c056a571aa5284d9f2d549e"
 metafile = true
