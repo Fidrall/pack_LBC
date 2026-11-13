@@ -13,7 +13,9 @@
     "WorldTierCooldownMixin",
     "PlayerRestoreMixin",
     "DawnquiverPassiveMixin",
-    "StockKeeperRequestMenuMixin"
+    "StockKeeperRequestMenuMixin",
+    "SableFixVidageMixin",
+    "SableDeplacementMixin"
   ],
   "client": [
     "FtbMinimapMixin",

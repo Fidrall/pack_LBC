@@ -23,7 +23,8 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - Create : l'ecran de commande du Stock Keeper ne deconnecte plus le joueur (meme menu cote serveur et client)
 - /vaisseaux_discovery liste|supprimer <rayon> : nettoie les vaisseaux de Create Aeronautics Discovery autour de soi (op)
 - Better Inventory (retire) : les objets marques par ses loadouts se rechargent (composant recree) et sont nettoyes
-- Cataclysm Spellbooks : les sorts (rayon abyssal, faille dimensionnelle...) ne cassent plus de blocs, les boss si'''
+- Cataclysm Spellbooks : les sorts (rayon abyssal, faille dimensionnelle...) ne cassent plus de blocs, les boss si
+- Sable Fix : a l'assemblage physique, les coffres doubles et coffres-forts Create gardent tout leur contenu (vidage des blocs d'origine apres la copie)'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"
