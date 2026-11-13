@@ -8723,6 +8723,11 @@ hash = "3c88d13ec3f4c2904befee38aa1a4fc27ffb0c322fb4186d82a53179125e43d1"
 metafile = true
 
 [[files]]
+file = "mods/sky-whales.pw.toml"
+hash = "e3c4cbb386a223c66dee4d4c64146eca5ff5a3205c471264a6ebd68c9b8171c0"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "fd7473a15dd771e7a7f53159840799afffc62dda2abc4ee95d7ee0cbeac569b2"
 metafile = true
