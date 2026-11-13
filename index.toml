@@ -7325,11 +7325,6 @@ hash = "42871bdf93a10da25f0c036ff87b924259b4025f4f4b8e0350fac9541a2c107e"
 metafile = true
 
 [[files]]
-file = "mods/alexs-mobs-continued.pw.toml"
-hash = "c7fc68946b3f81f8e002024efea49a08b243665637e0c0313e02e399c5366a53"
-metafile = true
-
-[[files]]
 file = "mods/all-the-heads.pw.toml"
 hash = "84ea03b93425012a547acdca355bfbc2fa6d528d0e007fbda2e116527200bb93"
 metafile = true
