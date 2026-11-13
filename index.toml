@@ -8031,6 +8031,11 @@ hash = "528ae7ee97068e0250282f449ee8224ff6f3dfd3b66c50d7651590b43080c7a8"
 metafile = true
 
 [[files]]
+file = "mods/eternal-nether.pw.toml"
+hash = "9dfa76ffc920d0abefb53c682dbd3a7129ff149761dcd33587971a440ecc025f"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
@@ -8611,6 +8616,11 @@ metafile = true
 [[files]]
 file = "mods/rottencreatures.pw.toml"
 hash = "fffc4ce08823b44a89f5117fc3feabfa4a5ec92abf3ce18debd6017e04331aaf"
+metafile = true
+
+[[files]]
+file = "mods/royal-variations.pw.toml"
+hash = "e5bceb6db5d19d22c141cae2065c900e509c49758c9cc87c47cbf77fe8d3ccba"
 metafile = true
 
 [[files]]
