@@ -8538,6 +8538,11 @@ hash = "49c0bacf8e4cb3ade6c384ad379282f92d7fa3075f2affd8e3093feb685288dd"
 metafile = true
 
 [[files]]
+file = "mods/pillager-caravans.pw.toml"
+hash = "2ab937d495a62351d6e07df0d5cf6ccd4001dc2e45632c82756d3f76824e9209"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "1762970777e293ba6d7a6a7b43dde2ac87604820e0fd90dd712beb744d068266"
 metafile = true
