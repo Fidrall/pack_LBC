@@ -1,0 +1,13 @@
+name = "Undead Unleashed - Continued"
+filename = "undead_unleashed-2.0.6-hotfix-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9kMGkRHe/versions/Y7ldRTTu/undead_unleashed-2.0.6-hotfix-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "52242f17a8bc77c70b2e60e3e0446ce80d212204024fafaad6475eb67bf3404e9358846079a7f8f7e716be82c2f08127ea1c584a86990b8374cb529956a91dc2"
+
+[update]
+[update.modrinth]
+mod-id = "9kMGkRHe"
+version = "Y7ldRTTu"

@@ -8913,6 +8913,11 @@ hash = "3ad0a5623baecf06df73bb9566662c1fb7eb674c242ffa3e516fa21bb54b088c"
 metafile = true
 
 [[files]]
+file = "mods/undead-unleashed.pw.toml"
+hash = "cd3de45cc444688da67c2822331c4b8f9330735576651f81278bd29a90d3050d"
+metafile = true
+
+[[files]]
 file = "mods/variants-and-ventures.pw.toml"
 hash = "d00c1b5dc4ccb271b2e75289b8f49be74a0d19c2fad8cb8240c2699ae4f71831"
 metafile = true
