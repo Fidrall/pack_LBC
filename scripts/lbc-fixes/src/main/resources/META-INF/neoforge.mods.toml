@@ -24,7 +24,8 @@ description = '''Correctifs du pack pack_LBC (mixins uniquement) :
 - /vaisseaux_discovery liste|supprimer <rayon> : nettoie les vaisseaux de Create Aeronautics Discovery autour de soi (op)
 - Better Inventory (retire) : les objets marques par ses loadouts se rechargent (composant recree) et sont nettoyes
 - Cataclysm Spellbooks : les sorts (rayon abyssal, faille dimensionnelle...) ne cassent plus de blocs, les boss si
-- Sable Fix : a l'assemblage physique, les coffres doubles et coffres-forts Create gardent tout leur contenu (vidage des blocs d'origine apres la copie)'''
+- Sable Fix : a l'assemblage physique, les coffres doubles et coffres-forts Create gardent tout leur contenu (vidage des blocs d'origine apres la copie)
+- Royal Variations : les morts-vivants ne cherchent la victime designee que tous les 10 ticks et seulement si un joueur proche porte l'effet (le serveur perdait un tiers de son temps)'''
 
 [[mixins]]
 config = "lbcfixes.mixins.json"

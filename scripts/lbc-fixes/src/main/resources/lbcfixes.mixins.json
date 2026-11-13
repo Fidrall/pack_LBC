@@ -15,7 +15,8 @@
     "DawnquiverPassiveMixin",
     "StockKeeperRequestMenuMixin",
     "SableFixVidageMixin",
-    "SableDeplacementMixin"
+    "SableDeplacementMixin",
+    "RoyalVictimMixin"
   ],
   "client": [
     "FtbMinimapMixin",
